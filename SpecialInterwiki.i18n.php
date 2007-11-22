@@ -78,6 +78,28 @@ $wgSpecialInterwikiMessages['fr'] = array(
 	'interwiki_logpagetext' => 'Ceci est le journal des changements dans la [[Special:Interwiki|table interwiki]].',
 );
 
+$wgSpecialInterwikiMessages['hsb'] = array(
+	'interwiki'             => 'Interwiki-daty wobhladać a změnić',
+	'interwiki_prefix'      => 'Prefiks',
+	'interwiki_url'         => 'URL',#identical but defined
+	'interwiki_local'       => 'Lokalny',
+	'interwiki_trans'       => 'Trans',#identical but defined
+	'interwiki_reasonfield' => 'Přičina',
+	'interwiki_delquestion' => 'Wušmórnja so "$1"',
+	'interwiki_deleting'    => 'Wušmórnješ prefiks "$1".',
+	'interwiki_deleted'     => 'Prefiks "$1" je so wuspěšnje z interwiki-tabele wotstronił.',
+	'interwiki_delfailed'   => 'Prefiks "$1" njeda so z interwiki-tabele wotstronić.',
+	'interwiki_addtext'     => 'Interwiki-prefiks přidać',
+	'interwiki_addbutton'   => 'Přidać',
+	'interwiki_added'       => 'Prefiks "$1" je so wuspěšnje interwiki-tabeli přidał.',
+	'interwiki_addfailed'   => 'Prefiks "$1" njeda so interwiki-tabeli přidać. Snano eksistuje hižo w interwiki-tabeli.',
+	'interwiki_logpagename' => 'Protokol interwiki-tabele',
+	'interwiki_log_added'   => 'Je "$1" ($2) (trans: $3) (lokalny: $4) interwiki-tabeli přidał: $5',
+	'interwiki_log_deleted' => 'je prefiks "$1" z interwiki-tabele wotstronił: $2',
+	'interwiki_logpagetext' => 'To je protokol změnow na [[Special:Interwiki|interwiki-tabeli]].',
+	'interwiki_error'       => 'ZMYLK: Interwiki-tabela je prózdna abo něšto je wopak.',
+);
+
 /* Some Latin translations by SPQRobin */
 $wgSpecialInterwikiMessages['la'] = array(
 	'interwiki_reasonfield' => 'Causa',
@@ -87,22 +109,25 @@ $wgSpecialInterwikiMessages['la'] = array(
 
 /* Dutch translation by SPQRobin */
 $wgSpecialInterwikiMessages['nl'] = array(
-	'interwiki' => 'Interwikigegevens bekijken en wijzigen',
-	'interwiki_prefix' => 'Voorvoegsel',
+	'interwiki'             => 'Interwikigegevens bekijken en wijzigen',
+	'interwiki_prefix'      => 'Voorvoegsel',
+	'interwiki_url'         => 'URL',#identical but defined
+	'interwiki_local'       => 'Local',#identical but defined
+	'interwiki_trans'       => 'Trans',#identical but defined
 	'interwiki_reasonfield' => 'Reden',
 	'interwiki_delquestion' => '"$1" aan het verwijderen',
-	'interwiki_deleting' => 'U bent voorvoegsel "$1" aan het verwijderen.',
-	'interwiki_deleted' => 'Voorvoegsel "$1" is succesvol verwijderd van de interwikitabel.',
-	'interwiki_delfailed' => 'Voorvoegsel "$1" kon niet worden verwijderd van de interwikitabel.',
-	'interwiki_addtext' => 'Een interwikivoorvoegsel toevoegen',
-	'interwiki_addbutton' => 'Toevoegen',
-	'interwiki_added' => 'Voorvoegsel "$1" is succesvol toegevoegd aan de interwikitabel.',
-	'interwiki_addfailed' => 'Voorvoegsel "$1" kon niet worden toegevoegd aan de interwikitabel. Mogelijk bestaat hij al in de interwikitabel.',
+	'interwiki_deleting'    => 'U bent voorvoegsel "$1" aan het verwijderen.',
+	'interwiki_deleted'     => 'Voorvoegsel "$1" is succesvol verwijderd van de interwikitabel.',
+	'interwiki_delfailed'   => 'Voorvoegsel "$1" kon niet worden verwijderd van de interwikitabel.',
+	'interwiki_addtext'     => 'Een interwikivoorvoegsel toevoegen',
+	'interwiki_addbutton'   => 'Toevoegen',
+	'interwiki_added'       => 'Voorvoegsel "$1" is succesvol toegevoegd aan de interwikitabel.',
+	'interwiki_addfailed'   => 'Voorvoegsel "$1" kon niet worden toegevoegd aan de interwikitabel. Mogelijk bestaat hij al in de interwikitabel.',
 	'interwiki_logpagename' => 'Logboek interwikitabel',
-	'interwiki_log_added' => 'Voegde "$1" ($2) (trans: $3) (local: $4) toe aan de interwikitabel: $5',
+	'interwiki_log_added'   => 'Voegde "$1" ($2) (trans: $3) (local: $4) toe aan de interwikitabel: $5',
 	'interwiki_log_deleted' => 'Verwijderde voorvoegsel "$1" van de interwikitabel: $2',
 	'interwiki_logpagetext' => 'Dit is een logboek van wijzigingen aan de [[Special:Interwiki|interwikitabel]].',
-	'interwiki_error' => 'FOUT: De interwikitabel is leeg, of iets anders ging verkeerd.',
+	'interwiki_error'       => 'FOUT: De interwikitabel is leeg, of iets anders ging verkeerd.',
 );
 
 /* Russian Translation by Alexander Chemeris */
