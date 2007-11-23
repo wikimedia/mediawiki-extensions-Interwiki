@@ -42,6 +42,28 @@ $wgSpecialInterwikiMessages['en'] = array(
 	'interwiki_error' => 'ERROR: The interwiki table is empty, or something else went wrong.',
 );
 
+$wgSpecialInterwikiMessages['ar'] = array(
+	'interwiki'             => 'عرض وتعديل بيانات الإنترويكي',
+	'interwiki_prefix'      => 'بادئة',
+	'interwiki_url'         => 'مسار',
+	'interwiki_local'       => 'محلي',
+	'interwiki_trans'       => 'نقل',
+	'interwiki_reasonfield' => 'سبب',
+	'interwiki_delquestion' => 'حذف "$1"',
+	'interwiki_deleting'    => 'أنت تحذف البادئة "$1".',
+	'interwiki_deleted'     => 'البادئة "$1" تمت إزالتها بنجاح من جدول الإنترويكي.',
+	'interwiki_delfailed'   => 'البادئة "$1" لم يمكن إزالتها من جدول الإنترويكي.',
+	'interwiki_addtext'     => 'أضف بادئة إنترويكي',
+	'interwiki_addbutton'   => 'إضافة',
+	'interwiki_added'       => 'البادئة "$1" تمت إضافتها بنجاح إلى جدول الإنترويكي.',
+	'interwiki_addfailed'   => 'البادئة "$1" لم يمكن إضافتها إلى جدول الإنترويكي. على الأرجح هي موجودة بالفعل في جدول الإنترويكي.',
+	'interwiki_logpagename' => 'سجل جدول الإنترويكي',
+	'interwiki_log_added'   => 'أضاف "$1" ($2) (نقل: $3) (محلي: $4) إلى جدول الإنترويكي: $5',
+	'interwiki_log_deleted' => 'أزال البادئة "$1" من جدول الإنترويكي: $2',
+	'interwiki_logpagetext' => 'هذا سجل بالتغييرات في [[Special:Interwiki|جدول الإنترويكي]].',
+	'interwiki_error'       => 'خطأ: جدول الإنترويكي فارغ، أو حدث خطأ آخر.',
+);
+
 /* German translation by MF-Warburg */
 $wgSpecialInterwikiMessages['de'] = array(
 	'interwiki' => 'Interwiki-Daten betrachten und verändern',
@@ -58,6 +80,10 @@ $wgSpecialInterwikiMessages['de'] = array(
 	'interwiki_log_added' => 'hat "$1" ($2) (trans: $3) (local: $4) der Interwiki-Tabelle hinzugefügt: $5',
 	'interwiki_log_deleted' => 'hat "$1" aus der Interwiki-Tabelle entfernt: $2',
 	'interwiki_logpagetext' => 'In diesem Logbuch werden Änderungen an der [[Special:Interwiki|Interwiki-Tabelle]] protokolliert.',
+);
+
+$wgSpecialInterwikiMessages['el'] = array(
+	'interwiki_prefix'      => 'Πρόθεμα',
 );
 
 /* French Translation by Bertrand GRONDIN */
