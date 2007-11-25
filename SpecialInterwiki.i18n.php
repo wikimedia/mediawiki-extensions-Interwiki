@@ -88,20 +88,38 @@ $wgSpecialInterwikiMessages['el'] = array(
 
 /* French Translation by Bertrand GRONDIN */
 $wgSpecialInterwikiMessages['fr'] = array(
-	'interwiki' => 'Voir et manipuler les données interwiki',
-	'interwiki_prefix' => 'Préfixe',
+	'interwiki'             => 'Voir et manipuler les données interwiki',
+	'interwiki_prefix'      => 'Préfixe',
+	'interwiki_url'         => 'URL',#identical but defined
+	'interwiki_local'       => 'Local',#identical but defined
+	'interwiki_trans'       => 'Trans',#identical but defined
 	'interwiki_reasonfield' => 'Motif',
 	'interwiki_delquestion' => 'Suppression "$1"',
-	'interwiki_deleted' => '$1 a été enlevée avec succès de la table interwiki.',
-	'interwiki_delfailed' => '$1 n\'a pas pu être enlevé de la table interwiki.',
-	'interwiki_addtext' => 'Ajoute un préfixe interwiki',
-	'interwiki_addbutton' => 'Ajouter',
-	'interwiki_added' => '$1 a été ajouté avec succès dans la table interwiki.',
-	'interwiki_addfailed' => '$1 n\'a pas pu être ajouté à la table interwiki.',
+	'interwiki_deleting'    => 'Vous effacez présentement le préfixe « $1 ».',
+	'interwiki_deleted'     => '$1 a été enlevée avec succès de la table interwiki.',
+	'interwiki_delfailed'   => '$1 n\'a pas pu être enlevé de la table interwiki.',
+	'interwiki_addtext'     => 'Ajoute un préfixe interwiki',
+	'interwiki_addbutton'   => 'Ajouter',
+	'interwiki_added'       => '$1 a été ajouté avec succès dans la table interwiki.',
+	'interwiki_addfailed'   => '$1 n\'a pas pu être ajouté à la table interwiki.',
 	'interwiki_logpagename' => 'Journal de la table interwiki',
-	'interwiki_log_added' => 'Ajouté "$1" ($2) (trans: $3) (local: $4) dans la table interwiki: $5',
+	'interwiki_log_added'   => 'Ajouté "$1" ($2) (trans: $3) (local: $4) dans la table interwiki: $5',
 	'interwiki_log_deleted' => 'Préfixe "$1" supprimé de la table interwiki: $2',
 	'interwiki_logpagetext' => 'Ceci est le journal des changements dans la [[Special:Interwiki|table interwiki]].',
+	'interwiki_error'       => 'Erreur : la table des interwikis est vide ou un processus s\'est mal déroulé.',
+);
+
+$wgSpecialInterwikiMessages['hr'] = array(
+	'interwiki'             => 'Vidi i uredi međuwiki podatke',
+	'interwiki_prefix'      => 'Prefiks',
+	'interwiki_url'         => 'URL',#identical but defined
+	'interwiki_local'       => 'Lokalno',
+	'interwiki_trans'       => 'Međuwiki',
+	'interwiki_reasonfield' => 'Razlog',
+	'interwiki_delquestion' => 'Brišem "$1"',
+	'interwiki_deleting'    => 'Brišete prefiks "$1".',
+	'interwiki_addtext'     => 'Dodaj međuwiki prefiks',
+	'interwiki_addbutton'   => 'Dodaj',
 );
 
 $wgSpecialInterwikiMessages['hsb'] = array(
