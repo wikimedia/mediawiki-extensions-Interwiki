@@ -104,8 +104,8 @@ $wgSpecialInterwikiMessages['fr'] = array(
 	'interwiki_added'       => '$1 a été ajouté avec succès dans la table interwiki.',
 	'interwiki_addfailed'   => '$1 n\'a pas pu être ajouté à la table interwiki.',
 	'interwiki_logpagename' => 'Journal de la table interwiki',
-	'interwiki_log_added'   => 'Ajouté "$1" ($2) (trans: $3) (local: $4) dans la table interwiki: $5',
-	'interwiki_log_deleted' => 'Préfixe "$1" supprimé de la table interwiki: $2',
+	'interwiki_log_added'   => 'Ajouté « $1 » ($2) (trans: $3) (local: $4) dans la table interwiki: $5',
+	'interwiki_log_deleted' => 'Préfixe « $1 » supprimé de la table interwiki: $2',
 	'interwiki_logpagetext' => 'Ceci est le journal des changements dans la [[Special:Interwiki|table interwiki]].',
 	'interwiki_error'       => 'Erreur : la table des interwikis est vide ou un processus s\'est mal déroulé.',
 );
