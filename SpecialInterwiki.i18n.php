@@ -172,6 +172,27 @@ $wgSpecialInterwikiMessages['nl'] = array(
 	'interwiki_error'       => 'FOUT: De interwikitabel is leeg, of iets anders ging verkeerd.',
 );
 
+$wgSpecialInterwikiMessages['pt'] = array(
+	'interwiki'             => 'Ver e manipular dados de interwikis',
+	'interwiki_prefix'      => 'Prefixo',
+	'interwiki_local'       => 'Local',#identical but defined
+	'interwiki_trans'       => 'Trans',#identical but defined
+	'interwiki_reasonfield' => 'Motivo',
+	'interwiki_delquestion' => 'A apagar "$1"',
+	'interwiki_deleting'    => 'Está a apagar o prefixo "$1".',
+	'interwiki_deleted'     => 'O prefixo "$1" foi removido da tabelas de interwikis com sucesso.',
+	'interwiki_delfailed'   => 'O prefixo "$1" não pôde ser removido da tabela de interwikis.',
+	'interwiki_addtext'     => 'Adicionar um prefixo de interwikis',
+	'interwiki_addbutton'   => 'Adicionar',
+	'interwiki_added'       => 'O prefixo "$1" foi adicionado à tabela de interwikis com sucesso.',
+	'interwiki_addfailed'   => 'O prefixo "$1" não pôde ser adicionado à tabela de interwikis. Possivelmente já existe nessa tabela.',
+	'interwiki_logpagename' => 'Registo da tabela de interwikis',
+	'interwiki_log_added'   => 'Adicionado "$1" ($2) (trans: $3) (local: $4) à tabela de interwikis: $5',
+	'interwiki_log_deleted' => 'Removido o prefixo "$1" da tabela de interwikis: $2',
+	'interwiki_logpagetext' => 'Este é um registo das alterações à [[{{ns:special}}:Interwiki|tabela de interwikis]].',
+	'interwiki_error'       => 'ERRO: A tabela de interwikis está vazia, ou alguma outra coisa não correu bem.',
+);
+
 /* Russian Translation by Alexander Chemeris */
 $wgSpecialInterwikiMessages['ru'] = array(
 	'interwiki' => 'Просмотр и изменение префиксов интервики',
