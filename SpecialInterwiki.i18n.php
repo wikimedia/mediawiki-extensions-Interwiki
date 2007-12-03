@@ -172,6 +172,27 @@ $wgSpecialInterwikiMessages['nl'] = array(
 	'interwiki_error'       => 'FOUT: De interwikitabel is leeg, of iets anders ging verkeerd.',
 );
 
+$wgSpecialInterwikiMessages['no'] = array(
+	'interwiki'             => 'Vis og manipuler interwikidata',
+	'interwiki_prefix'      => 'Prefiks',
+	'interwiki_local'       => 'Lokal',
+	'interwiki_trans'       => 'Trans',#identical but defined
+	'interwiki_reasonfield' => 'Grunn',
+	'interwiki_delquestion' => 'Sletter «$1»',
+	'interwiki_deleting'    => 'Du sletter prefikset «$1».',
+	'interwiki_deleted'     => 'Prefikset «$1» ble fjernet fra interwikitabellen.',
+	'interwiki_delfailed'   => 'Prefikset «$1» kunne ikke fjernes fra interwikitabellen.',
+	'interwiki_addtext'     => 'Legg til et interwikiprefiks.',
+	'interwiki_addbutton'   => 'Legg til',
+	'interwiki_added'       => 'Prefikset «$1» ble lagt til i interwikitabellen.',
+	'interwiki_addfailed'   => 'Prefikset «$1» kunne ikke legges til i interwikitabellen. Det er kanskje brukt der fra før.',
+	'interwiki_logpagename' => 'Interwikitabellogg',
+	'interwiki_log_added'   => 'La til «$1» ($) (trans: $3) (lokal: $4) til interwikitabellen: $5',
+	'interwiki_log_deleted' => 'Fjernet prefikset «$1» fra interwikitabellen: $2',
+	'interwiki_logpagetext' => 'Dette er en logg over endringer i [[Special:Interwiki|interwikitabellen]].',
+	'interwiki_error'       => 'FEIL: Interwikitabellen er tom, eller noe gikk gærent.',
+);
+
 $wgSpecialInterwikiMessages['pt'] = array(
 	'interwiki'             => 'Ver e manipular dados de interwikis',
 	'interwiki_prefix'      => 'Prefixo',
