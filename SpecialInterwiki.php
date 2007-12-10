@@ -17,11 +17,11 @@ if (!defined('MEDIAWIKI')) die();
 $wgExtensionFunctions[] = "Interwiki";
 
 $wgExtensionCredits['specialpage'][] = array(
-        'name' => 'Interwiki Edit Page',
-        'url' => 'http://mediawiki.org/wiki/Extension:Special_page_to_work_with_the_interwiki_table',
-        'description' => 'Adds a [[Special:Interwiki|special page]] to view and manipulate the interwiki table',
-        'version' => '21-11-07',
-        'author' => 'Stephanie Amanda Stevens, SPQRobin, and others'
+	'name' => 'Interwiki Edit Page',
+	'url' => 'http://mediawiki.org/wiki/Extension:Special_page_to_work_with_the_interwiki_table',
+	'description' => 'Adds a [[Special:Interwiki|special page]] to view and manipulate the interwiki table',
+	'version' => '21-11-07',
+	'author' => 'Stephanie Amanda Stevens, SPQRobin, and others',
 );
 
 function Interwiki() {
@@ -30,7 +30,7 @@ function Interwiki() {
         require_once( 'SpecialInterwiki.i18n.php');
         foreach( $wgSpecialInterwikiMessages as $key => $value ) {
         $wgMessageCache->addMessages( $wgSpecialInterwikiMessages[$key], $key );}
-  
+
           # Add a new log type
           $wgHooks['LogPageValidTypes'][] = 'wfInterwikiAddLogType';
 
@@ -39,42 +39,42 @@ function Interwiki() {
 	$wgHooks['LogPageLogName'][] = 'wfInterwikiAddLogName';
 	$wgHooks['LogPageLogHeader'][] = 'wfInterwikiAddLogHeader';
 	$wgHooks['LogPageActionText'][] = 'wfInterwikiAddActionText';
-	
-	
+
+
 	class Interwiki extends SpecialPage {
 		function Interwiki() {
 			SpecialPage::SpecialPage( 'Interwiki' );
 			$this->includable( true );
 		}
-		
+
 		function execute( $par = null ) {
 			$fname = 'Interwiki::execute';
 			global $wgOut, $wgRequest, $wgUser;
-			
+
 			$this->setHeaders();
 			$wgOut->setPagetitle( wfMsg( 'interwiki' ) );
 			$do = $wgRequest->getVal( 'do' );
-			
+
 			// Some common checks
 			$admin = $wgUser->isAllowed( 'interwiki' );
 			$selfTitle = Title::makeTitle( NS_SPECIAL, 'Interwiki' );
-			
+
 			// Protect administrative actions against malicious requests
 			$safePost = $wgRequest->wasPosted() &&
 				$wgUser->matchEditToken( $wgRequest->getVal( 'wpEditToken' ) );
-			
+
 			if ($do == "delete") {
-				if (!$admin) { $wgOut->permissionRequired('interwiki'); return; }				
+				if (!$admin) { $wgOut->permissionRequired('interwiki'); return; }
 				$prefix = $wgRequest->getVal( 'prefix' );
 				$encPrefix = htmlspecialchars( $prefix );
-				
+
 				$action = $selfTitle->escapeLocalURL( "do=delete2" );
 				$button = wfMsgHtml("delete");
 				$topmessage = wfMsgHtml('interwiki_delquestion', $prefix);
 				$deletingmessage = wfMsgHtml('interwiki_deleting', $prefix);
 				$reasonmessage = wfMsgHtml('deletecomment');
 				$token = htmlspecialchars( $wgUser->editToken() );
-				
+
 					$out .= "<fieldset>
 					<legend>$topmessage</legend>
 					<form id=\"delete\" method=\"post\" action=\"{$action}\">
@@ -91,13 +91,13 @@ function Interwiki() {
 					</fieldset>\n";
 			} elseif ($do == "delete2" && $safePost) {
 				if (!$admin) { $wgOut->permissionRequired('interwiki'); return; }
-				
+
 				$prefix = $wgRequest->getVal('prefix');
 				$reason = $wgRequest->getText('reason');
-				
+
 				$dbw =& wfGetDB( DB_MASTER );
 				$dbw->delete( 'interwiki', array( 'iw_prefix' => $prefix ), $fname );
-				
+
 				if ($dbw->affectedRows() == 0) {
 					$wgOut->addWikiText( wfMsg( 'interwiki_delfailed', $prefix ) );
 				} else {
@@ -116,7 +116,7 @@ function Interwiki() {
 				$urlmessage = wfMsgHtml('interwiki_url');
 				$button = wfMsgHtml('interwiki_addbutton');
 				$token = htmlspecialchars( $wgUser->editToken() );
-				
+
 				$out = "<fieldset>
 					<legend>$topmessage</legend>
 					<form id=\"add\" method=\"post\" action=\"{$action}\">
@@ -147,7 +147,7 @@ function Interwiki() {
 				$theurl = $wgRequest->getVal('theurl');
 				$local = $wgRequest->getCheck('local') ? 1 : 0;
 				$trans = $wgRequest->getCheck('trans') ? 1 : 0;
-				
+
 				$dbw =& wfGetDB( DB_MASTER );
 				$dbw->insert( 'interwiki',
 					array(
@@ -157,7 +157,7 @@ function Interwiki() {
 						'iw_trans'  => $trans ),
 					$fname,
 					'IGNORE' );
-				
+
 				if( $dbw->affectedRows() == 0 ) {
 					$wgOut->addWikiText( wfMsg( 'interwiki_addfailed', $prefix ) );
 				} else {
@@ -168,7 +168,7 @@ function Interwiki() {
 			} else {
 				$dbr =& wfGetDB( DB_SLAVE );
 				$res = $dbr->select( 'interwiki', '*' );
-				
+
 				$prefixmessage = wfMsgHtml('interwiki_prefix');
 				$urlmessage = wfMsgHtml('interwiki_url');
 				$localmessage = wfMsgHtml('interwiki_local');
@@ -176,7 +176,7 @@ function Interwiki() {
 				$deletemessage = wfMsgHtml('delete');
                 $errormessage = wfMsgHtml('interwiki_error');
 				$addtext = wfMsgHtml('interwiki_addtext');
-				
+
 				if ($admin) {
                                $skin = $wgUser->getSkin();
                                $out = $skin->makeLinkObj( $selfTitle, $addtext, 'do=add' );
@@ -190,9 +190,9 @@ function Interwiki() {
 				if( $admin ) {
 					$out .= "<th>$deletemessage</th>";
 				}
-				
+
 				$out .= "</tr>\n";
-				
+
 				$numrows = $dbr->numRows( $res );
 				if ($numrows == 0) {
 					$out .= "<br /><div class=\"error\">$errormessage</div><br />";
@@ -210,7 +210,7 @@ function Interwiki() {
 							'do=delete&prefix=' . urlencode( $s->iw_prefix ) );
 						$out .= '</td>';
 					}
-					
+
 					$out .= "</tr>\n";
 				}
 				$dbr->freeResult( $res );
@@ -219,7 +219,7 @@ function Interwiki() {
 			$wgOut->addHTML($out);
 		}
 	}
-	
+
 	SpecialPage::addPage( new Interwiki );
 }
 
