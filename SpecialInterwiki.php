@@ -17,11 +17,11 @@ if (!defined('MEDIAWIKI')) die();
 $wgExtensionFunctions[] = "Interwiki";
 
 $wgExtensionCredits['specialpage'][] = array(
-	'name' => 'Interwiki Edit Page',
-	'url' => 'http://mediawiki.org/wiki/Extension:Special_page_to_work_with_the_interwiki_table',
+	'name'        => 'Interwiki Edit Page',
+	'url'         => 'http://mediawiki.org/wiki/Extension:Special_page_to_work_with_the_interwiki_table',
 	'description' => 'Adds a [[Special:Interwiki|special page]] to view and manipulate the interwiki table',
-	'version' => '21-11-07',
-	'author' => 'Stephanie Amanda Stevens, SPQRobin, and others',
+	'version'     => '21-11-07',
+	'author'      => array( 'Stephanie Amanda Stevens', 'SPQRobin', 'others' ),
 );
 
 function Interwiki() {
