@@ -110,6 +110,16 @@ $wgSpecialInterwikiMessages['fr'] = array(
 	'interwiki_error'       => 'Erreur : la table des interwikis est vide ou un processus s\'est mal déroulé.',
 );
 
+$wgSpecialInterwikiMessages['gl'] = array(
+	'interwiki_reasonfield' => 'Razón',
+	'interwiki_delquestion' => 'Eliminando "$1"',
+	'interwiki_addbutton'   => 'Engadir',
+	'interwiki_logpagename' => 'Rexistro de táboas interwiki',
+	'interwiki_log_added'   => 'Engadir "$1" ($2) (trans: $3) (local: $4) á táboa interwiki: $5',
+	'interwiki_logpagetext' => 'Este é un rexistro dos cambios a [[Special:Interwiki|táboa interwiki]].',
+	'interwiki_error'       => 'ERRO: A táboa interwiki está baleira, ou algo máis saleu mal.',
+);
+
 $wgSpecialInterwikiMessages['hr'] = array(
 	'interwiki'             => 'Vidi i uredi međuwiki podatke',
 	'interwiki_prefix'      => 'Prefiks',
