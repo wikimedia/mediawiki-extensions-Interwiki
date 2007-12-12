@@ -111,11 +111,22 @@ $wgSpecialInterwikiMessages['fr'] = array(
 );
 
 $wgSpecialInterwikiMessages['gl'] = array(
+	'interwiki'             => 'Ver e manipular datos interwiki',
+	'interwiki_prefix'      => 'Prefixo',
+	'interwiki_local'       => 'Local',#identical but defined
+	'interwiki_trans'       => 'Trans',#identical but defined
 	'interwiki_reasonfield' => 'Razón',
 	'interwiki_delquestion' => 'Eliminando "$1"',
+	'interwiki_deleting'    => 'Vai eliminar o prefixo "$1".',
+	'interwiki_deleted'     => 'Eliminouse sen problemas o prefixo "$1" da táboa interwiki.',
+	'interwiki_delfailed'   => 'Non se puido eliminar o prefixo "$1" da táboa interwiki.',
+	'interwiki_addtext'     => 'Engadir un prefixo interwiki',
 	'interwiki_addbutton'   => 'Engadir',
+	'interwiki_added'       => 'Engadiuse sen problemas o prefixo "$1" á táboa interwiki.',
+	'interwiki_addfailed'   => 'Non se puido engadir o prefixo "$1" á táboa interwiki. Posibelmente xa existe na táboa interwiki.',
 	'interwiki_logpagename' => 'Rexistro de táboas interwiki',
 	'interwiki_log_added'   => 'Engadir "$1" ($2) (trans: $3) (local: $4) á táboa interwiki: $5',
+	'interwiki_log_deleted' => 'Eliminouse o prefixo "$1" da táboa interwiki: $2',
 	'interwiki_logpagetext' => 'Este é un rexistro dos cambios a [[Special:Interwiki|táboa interwiki]].',
 	'interwiki_error'       => 'ERRO: A táboa interwiki está baleira, ou algo máis saleu mal.',
 );
