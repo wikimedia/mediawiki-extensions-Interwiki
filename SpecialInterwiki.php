@@ -17,29 +17,28 @@ if (!defined('MEDIAWIKI')) die();
 $wgExtensionFunctions[] = "Interwiki";
 
 $wgExtensionCredits['specialpage'][] = array(
-	'name'        => 'Interwiki Edit Page',
-	'url'         => 'http://mediawiki.org/wiki/Extension:Special_page_to_work_with_the_interwiki_table',
-	'description' => 'Adds a [[Special:Interwiki|special page]] to view and manipulate the interwiki table',
-	'version'     => '21-11-07',
-	'author'      => array( 'Stephanie Amanda Stevens', 'SPQRobin', 'others' ),
+	'name' => 'SpecialInterwiki',
+	'url' => 'http://mediawiki.org/wiki/Extension:SpecialInterwiki',
+	'description' => 'Adds a [[Special:Interwiki|special page]] to view and edit the interwiki table',
+	'version' => '14-12-07',
+	'author'  => array( 'Stephanie Amanda Stevens', 'SPQRobin', 'others' ),
 );
 
 function Interwiki() {
-        global $IP, $wgMessageCache, $wgHooks, $wgSpecialInterwikiMessages;
-        require_once( "$IP/includes/SpecialPage.php" );
-        require_once( 'SpecialInterwiki.i18n.php');
-        foreach( $wgSpecialInterwikiMessages as $key => $value ) {
-        $wgMessageCache->addMessages( $wgSpecialInterwikiMessages[$key], $key );}
+	global $IP, $wgMessageCache, $wgHooks, $wgSpecialInterwikiMessages;
+	require_once( "$IP/includes/SpecialPage.php" );
+	require_once( 'SpecialInterwiki.i18n.php');
+	foreach( $wgSpecialInterwikiMessages as $key => $value ) {
+	$wgMessageCache->addMessages( $wgSpecialInterwikiMessages[$key], $key );}
 
-          # Add a new log type
-          $wgHooks['LogPageValidTypes'][] = 'wfInterwikiAddLogType';
+	# Add a new log type
+	$wgHooks['LogPageValidTypes'][] = 'wfInterwikiAddLogType';
 
 	# Add a new log type
 	$wgHooks['LogPageValidTypes'][] = 'wfInterwikiAddLogType';
 	$wgHooks['LogPageLogName'][] = 'wfInterwikiAddLogName';
 	$wgHooks['LogPageLogHeader'][] = 'wfInterwikiAddLogHeader';
 	$wgHooks['LogPageActionText'][] = 'wfInterwikiAddActionText';
-
 
 	class Interwiki extends SpecialPage {
 		function Interwiki() {
@@ -73,6 +72,7 @@ function Interwiki() {
 				$topmessage = wfMsgHtml('interwiki_delquestion', $prefix);
 				$deletingmessage = wfMsgHtml('interwiki_deleting', $prefix);
 				$reasonmessage = wfMsgHtml('deletecomment');
+				$defaultreason = wfMsgForContent( 'interwiki_defaultreason' );
 				$token = htmlspecialchars( $wgUser->editToken() );
 
 					$out .= "<fieldset>
@@ -82,7 +82,7 @@ function Interwiki() {
 					<td>$deletingmessage</td>
 					</tr><tr>
 					<td><input type=\"hidden\" name=\"prefix\" value=\"{$encPrefix}\" />
-					$reasonmessage &nbsp; <input tabindex='1' type='text' name=\"reason\" maxlength='200' size='60' /></td>
+					$reasonmessage &nbsp; <input tabindex='1' type='text' name=\"reason\" maxlength='200' size='60' value='$defaultreason' /></td>
 					</tr><tr><td>
 					<input type=\"submit\" name=\"delete\" value=\"{$button}\" />
 					<input type=\"hidden\" name=\"wpEditToken\" value=\"{$token}\"/>
@@ -108,36 +108,40 @@ function Interwiki() {
 			} elseif ($do == "add") {
 				if (!$admin) { $wgOut->permissionRequired('interwiki'); return; };
 				$action = $selfTitle->escapeLocalURL( "do=add2");
-				$topmessage = wfMsgHtml('interwiki_addtext');
-				$prefixmessage = wfMsgHtml('interwiki_prefix');
-				$transmessage = wfMsgHtml('interwiki_trans');
-				$localmessage = wfMsgHtml('interwiki_local');
-				$reasonmessage = wfMsgHtml('interwiki_reasonfield');
-				$urlmessage = wfMsgHtml('interwiki_url');
-				$button = wfMsgHtml('interwiki_addbutton');
+				$topmessage = wfMsgHtml( 'interwiki_addtext' );
+				$intromessage = wfMsg( 'interwiki_addintro' );
+				$prefixmessage = wfMsgHtml( 'interwiki_prefix' );
+				$localmessage = wfMsgHtml( 'interwiki_local' );
+				$transmessage = wfMsgHtml( 'interwiki_trans' );
+				$reasonmessage = wfMsgHtml( 'interwiki_reasonfield' );
+				$urlmessage = wfMsgHtml( 'interwiki_url' );
+				$button = wfMsgHtml( 'interwiki_addbutton' );
 				$token = htmlspecialchars( $wgUser->editToken() );
+				$defaulturl = wfMsgHtml( 'interwiki_defaulturl' );
+				$defaultreason = wfMsgForContent( 'interwiki_defaultreason' );
 
 				$out = "<fieldset>
 					<legend>$topmessage</legend>
-					<form id=\"add\" method=\"post\" action=\"{$action}\">
-					<table><tr>
+					$intromessage
+					<form id='add' method='post' action='{$action}'>
+					<table id='interwikitable-add'><tr>
 					<td>$prefixmessage</td>
-					<td><input tabindex='1' type='text' name=\"prefix\" maxlength='20' size='20' /></td>
+					<td><input tabindex='1' type='text' name='prefix' maxlength='20' size='20' /></td>
 					</tr><tr>
 					<td>$localmessage</td>
-					<td><input type=\"checkbox\" id=\"local\" name=\"local\" /></td>
+					<td><input type='checkbox' id='local' name='local' /></td>
 					</tr><tr>
 					<td>$transmessage</td>
-					<td><input type=\"checkbox\" id=\"trans\" name=\"trans\" /></td>
+					<td><input type='checkbox' id='trans' name='trans' /></td>
 					</tr><tr>
 					<td>$urlmessage</td>
-					<td><input tabindex='1' type='text' name=\"theurl\" maxlength='200' size='60' value='http://' /></td>
+					<td><input tabindex='1' type='text' name='theurl' maxlength='200' size='60' value='$defaulturl' /></td>
 					</tr><tr>
 					<td>$reasonmessage</td>
-					<td><input tabindex='1' type='text' name=\"reason\" maxlength='200' size='60' /></td>
+					<td><input tabindex='1' type='text' name='reason' maxlength='200' size='60' value='$defaultreason' /></td>
 					</tr></table>
-					<input type=\"submit\" name=\"add\" value=\"{$button}\" />
-					<input type=\"hidden\" name=\"wpEditToken\" value=\"{$token}\" />
+					<input type='submit' name='add' value='{$button}' />
+					<input type='hidden' name='wpEditToken' value='{$token}' />
 					</form>
 					</fieldset>\n";
 			} elseif ($do == "add2" && $safePost) {
@@ -169,23 +173,25 @@ function Interwiki() {
 				$dbr =& wfGetDB( DB_SLAVE );
 				$res = $dbr->select( 'interwiki', '*' );
 
-				$prefixmessage = wfMsgHtml('interwiki_prefix');
-				$urlmessage = wfMsgHtml('interwiki_url');
-				$localmessage = wfMsgHtml('interwiki_local');
-				$transmessage = wfMsgHtml('interwiki_trans');
-				$deletemessage = wfMsgHtml('delete');
-                $errormessage = wfMsgHtml('interwiki_error');
-				$addtext = wfMsgHtml('interwiki_addtext');
+				$prefixmessage = wfMsgHtml( 'interwiki_prefix' );
+				$urlmessage = wfMsgHtml( 'interwiki_url' );
+				$localmessage = wfMsgHtml( 'interwiki_local' );
+				$transmessage = wfMsgHtml( 'interwiki_trans' );
+				$deletemessage = wfMsgHtml( 'delete');
+				$addtext = wfMsgHtml( 'interwiki_addtext' );
 
 				if ($admin) {
-                               $skin = $wgUser->getSkin();
-                               $out = $skin->makeLinkObj( $selfTitle, $addtext, 'do=add' );
+					$skin = $wgUser->getSkin();
+					$addlink = $skin->makeLinkObj( $selfTitle, $addtext, 'do=add' );
+					$wgOut->addWikiText( wfMsg( 'interwiki_intro', '[http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]' ) );
+					$wgOut->addHTML( '<ul>' . '<li>' . $addlink . '</li>' . '</ul>' );
 				} else {
-					$out = '';
+					$wgOut->addWikiText( wfMsg( 'interwiki_intro', '[http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]' ) );
 				}
+
 				$out .= "
 				<br />
-				<table width=\"100%\" border=\"2\">
+				<table width='100%' border='2' id='interwikitable'>
 				<tr><th>$prefixmessage</th> <th>$urlmessage</th> <th>$localmessage</th> <th>$transmessage</th>";
 				if( $admin ) {
 					$out .= "<th>$deletemessage</th>";
@@ -195,6 +201,7 @@ function Interwiki() {
 
 				$numrows = $dbr->numRows( $res );
 				if ($numrows == 0) {
+					$errormessage = wfMsgHtml('interwiki_error');
 					$out .= "<br /><div class=\"error\">$errormessage</div><br />";
 				}
 				while( $s = $dbr->fetchObject( $res ) ) {
@@ -222,7 +229,6 @@ function Interwiki() {
 
 	SpecialPage::addPage( new Interwiki );
 }
-
 
 function wfInterwikiAddLogType( &$types ) {
 	if ( !in_array( 'interwiki', $types ) )

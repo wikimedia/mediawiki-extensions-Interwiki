@@ -16,12 +16,14 @@ $wgSpecialInterwikiMessages = array();
 
 $wgSpecialInterwikiMessages['en'] = array(
 	# general messages
-	'interwiki' => 'View and manipulate interwiki data',
+	'interwiki' => 'View and edit interwiki data',
 	'interwiki_prefix' => 'Prefix',
-	'interwiki_url' => 'URL', # only translate this message to other languages if you have to change it
-	'interwiki_local' => 'Local',
-	'interwiki_trans' => 'Trans',
 	'interwiki_reasonfield' => 'Reason',
+	'interwiki_intro' => 'See $1 for more information about the interwiki table. There is a [[Special:Log/interwiki|log of changes]] to the interwiki table.',
+	'interwiki_url' => 'URL', # only translate this message if you have to change it
+	'interwiki_local' => 'Local', # only translate this message if you have to change it
+	'interwiki_trans' => 'Trans', # only translate this message if you have to change it
+	'interwiki_error' => 'ERROR: The interwiki table is empty, or something else went wrong.',
 	# deleting a prefix
 	'interwiki_delquestion' => 'Deleting "$1"',
 	'interwiki_deleting' => 'You are deleting prefix "$1".',
@@ -29,17 +31,18 @@ $wgSpecialInterwikiMessages['en'] = array(
 	'interwiki_delfailed' => 'Prefix "$1" could not be removed from the interwiki table.',
 	# adding a prefix
 	'interwiki_addtext' => 'Add an interwiki prefix',
+	'interwiki_addintro' => 'You are adding a new interwiki prefix. Remember that it cannot contain spaces ( ), colons (:), ampersands (&), or equal signs (=).',
 	'interwiki_addbutton' => 'Add',
 	'interwiki_added' => 'Prefix "$1" was successfully added to the interwiki table.',
 	'interwiki_addfailed' => 'Prefix "$1" could not be added to the interwiki table. Possibly he already exists in the interwiki table.',
+	'interwiki_defaulturl' => 'http://www.example.com/$1', # only translate this message if you have to change it
 	# interwiki log
 	'interwiki_logpagename' => 'Interwiki table log',
 	'interwiki_log_added' => 'Added "$1" ($2) (trans: $3) (local: $4) to the interwiki table: $5',
 	'interwiki_log_deleted' => 'Removed prefix "$1" from the interwiki table: $2',
 	'interwiki_logpagetext' => 'This is a log of changes to the [[Special:Interwiki|interwiki table]].',
-	'interwiki_logentry' => '', # Don't translate this message
-	# error messages
-	'interwiki_error' => 'ERROR: The interwiki table is empty, or something else went wrong.',
+	'interwiki_defaultreason' => 'no reason given',
+	'interwiki_logentry' => '', # do not translate this message
 );
 
 $wgSpecialInterwikiMessages['ar'] = array(
