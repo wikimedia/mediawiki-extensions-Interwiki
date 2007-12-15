@@ -45,26 +45,31 @@ $wgSpecialInterwikiMessages['en'] = array(
 	'interwiki_logentry' => '', # do not translate this message
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
 $wgSpecialInterwikiMessages['ar'] = array(
-	'interwiki'             => 'عرض وتعديل بيانات الإنترويكي',
-	'interwiki_prefix'      => 'بادئة',
-	'interwiki_url'         => 'مسار',
-	'interwiki_local'       => 'محلي',
-	'interwiki_trans'       => 'نقل',
-	'interwiki_reasonfield' => 'سبب',
-	'interwiki_delquestion' => 'حذف "$1"',
-	'interwiki_deleting'    => 'أنت تحذف البادئة "$1".',
-	'interwiki_deleted'     => 'البادئة "$1" تمت إزالتها بنجاح من جدول الإنترويكي.',
-	'interwiki_delfailed'   => 'البادئة "$1" لم يمكن إزالتها من جدول الإنترويكي.',
-	'interwiki_addtext'     => 'أضف بادئة إنترويكي',
-	'interwiki_addbutton'   => 'إضافة',
-	'interwiki_added'       => 'البادئة "$1" تمت إضافتها بنجاح إلى جدول الإنترويكي.',
-	'interwiki_addfailed'   => 'البادئة "$1" لم يمكن إضافتها إلى جدول الإنترويكي. على الأرجح هي موجودة بالفعل في جدول الإنترويكي.',
-	'interwiki_logpagename' => 'سجل جدول الإنترويكي',
-	'interwiki_log_added'   => 'أضاف "$1" ($2) (نقل: $3) (محلي: $4) إلى جدول الإنترويكي: $5',
-	'interwiki_log_deleted' => 'أزال البادئة "$1" من جدول الإنترويكي: $2',
-	'interwiki_logpagetext' => 'هذا سجل بالتغييرات في [[Special:Interwiki|جدول الإنترويكي]].',
-	'interwiki_error'       => 'خطأ: جدول الإنترويكي فارغ، أو حدث خطأ آخر.',
+	'interwiki'               => 'عرض وتعديل بيانات الإنترويكي',
+	'interwiki_prefix'        => 'بادئة',
+	'interwiki_reasonfield'   => 'سبب',
+	'interwiki_intro'         => 'انظر $1 لمزيد من المعلومات حول جدول الإنترويكي. يوجد [[Special:Log/interwiki|سجل بالتغييرات]] لجدول الإنترويكي.',
+	'interwiki_url'           => 'مسار',
+	'interwiki_error'         => 'خطأ: جدول الإنترويكي فارغ، أو حدث خطأ آخر.',
+	'interwiki_delquestion'   => 'حذف "$1"',
+	'interwiki_deleting'      => 'أنت تحذف البادئة "$1".',
+	'interwiki_deleted'       => 'البادئة "$1" تمت إزالتها بنجاح من جدول الإنترويكي.',
+	'interwiki_delfailed'     => 'البادئة "$1" لم يمكن إزالتها من جدول الإنترويكي.',
+	'interwiki_addtext'       => 'أضف بادئة إنترويكي',
+	'interwiki_addintro'      => 'أنت تضيف بادئة إنترويكي جديدة. تذكر أنها لا يمكن أن تحتوي على مسافات ( )، نقطتين فوق بعض (:)، علامة و (&)، أو علامة يساوي (=).',
+	'interwiki_addbutton'     => 'إضافة',
+	'interwiki_added'         => 'البادئة "$1" تمت إضافتها بنجاح إلى جدول الإنترويكي.',
+	'interwiki_addfailed'     => 'البادئة "$1" لم يمكن إضافتها إلى جدول الإنترويكي. على الأرجح هي موجودة بالفعل في جدول الإنترويكي.',
+	'interwiki_logpagename'   => 'سجل جدول الإنترويكي',
+	'interwiki_log_added'     => 'أضاف "$1" ($2) (نقل: $3) (محلي: $4) إلى جدول الإنترويكي: $5',
+	'interwiki_log_deleted'   => 'أزال البادئة "$1" من جدول الإنترويكي: $2',
+	'interwiki_logpagetext'   => 'هذا سجل بالتغييرات في [[Special:Interwiki|جدول الإنترويكي]].',
+	'interwiki_defaultreason' => 'لا سبب معطى',
+
 );
 
 /* German translation by MF-Warburg */
@@ -146,25 +151,30 @@ $wgSpecialInterwikiMessages['hr'] = array(
 	'interwiki_addbutton'   => 'Dodaj',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
 $wgSpecialInterwikiMessages['hsb'] = array(
-	'interwiki'             => 'Interwiki-daty wobhladać a změnić',
-	'interwiki_prefix'      => 'Prefiks',
-	'interwiki_local'       => 'Lokalny',
-	'interwiki_trans'       => 'Trans',#identical but defined
-	'interwiki_reasonfield' => 'Přičina',
-	'interwiki_delquestion' => 'Wušmórnja so "$1"',
-	'interwiki_deleting'    => 'Wušmórnješ prefiks "$1".',
-	'interwiki_deleted'     => 'Prefiks "$1" je so wuspěšnje z interwiki-tabele wotstronił.',
-	'interwiki_delfailed'   => 'Prefiks "$1" njeda so z interwiki-tabele wotstronić.',
-	'interwiki_addtext'     => 'Interwiki-prefiks přidać',
-	'interwiki_addbutton'   => 'Přidać',
-	'interwiki_added'       => 'Prefiks "$1" je so wuspěšnje interwiki-tabeli přidał.',
-	'interwiki_addfailed'   => 'Prefiks "$1" njeda so interwiki-tabeli přidać. Snano eksistuje hižo w interwiki-tabeli.',
-	'interwiki_logpagename' => 'Protokol interwiki-tabele',
-	'interwiki_log_added'   => 'Je "$1" ($2) (trans: $3) (lokalny: $4) interwiki-tabeli přidał: $5',
-	'interwiki_log_deleted' => 'je prefiks "$1" z interwiki-tabele wotstronił: $2',
-	'interwiki_logpagetext' => 'To je protokol změnow na [[Special:Interwiki|interwiki-tabeli]].',
-	'interwiki_error'       => 'ZMYLK: Interwiki-tabela je prózdna abo něšto je wopak.',
+	'interwiki'               => 'Interwiki-daty wobhladać a změnić',
+	'interwiki_prefix'        => 'Prefiks',
+	'interwiki_reasonfield'   => 'Přičina',
+	'interwiki_intro'         => 'Hlej $1 za dalše informacije wo tabeli interwiki. Je [[Special:Log/interwiki|protokol změnow]] k tabeli interwiki.',
+	'interwiki_error'         => 'ZMYLK: Interwiki-tabela je prózdna abo něšto je wopak.',
+	'interwiki_delquestion'   => 'Wušmórnja so "$1"',
+	'interwiki_deleting'      => 'Wušmórnješ prefiks "$1".',
+	'interwiki_deleted'       => 'Prefiks "$1" je so wuspěšnje z interwiki-tabele wotstronił.',
+	'interwiki_delfailed'     => 'Prefiks "$1" njeda so z interwiki-tabele wotstronić.',
+	'interwiki_addtext'       => 'Interwiki-prefiks přidać',
+	'interwiki_addintro'      => 'Přidawaš nowy prefiks interwiki. Wobkedźbuj, zo njesmě mjezery ( ), dwudypki (.), et-znamješka (&) abo znaki runosće (=) wobsahować.',
+	'interwiki_addbutton'     => 'Přidać',
+	'interwiki_added'         => 'Prefiks "$1" je so wuspěšnje interwiki-tabeli přidał.',
+	'interwiki_addfailed'     => 'Prefiks "$1" njeda so interwiki-tabeli přidać. Snano eksistuje hižo w interwiki-tabeli.',
+	'interwiki_logpagename'   => 'Protokol interwiki-tabele',
+	'interwiki_log_added'     => 'Je "$1" ($2) (trans: $3) (lokalny: $4) interwiki-tabeli přidał: $5',
+	'interwiki_log_deleted'   => 'je prefiks "$1" z interwiki-tabele wotstronił: $2',
+	'interwiki_logpagetext'   => 'To je protokol změnow na [[Special:Interwiki|interwiki-tabeli]].',
+	'interwiki_defaultreason' => 'žana přičina podata',
+
 );
 
 /* Some Latin translations by SPQRobin */
@@ -174,26 +184,30 @@ $wgSpecialInterwikiMessages['la'] = array(
 	'interwiki_addbutton' => 'Addere',
 );
 
-/* Dutch translation by SPQRobin */
+/** Dutch (Nederlands)
+ * @author SPQRobin
+ */
 $wgSpecialInterwikiMessages['nl'] = array(
-	'interwiki'             => 'Interwikigegevens bekijken en wijzigen',
-	'interwiki_prefix'      => 'Voorvoegsel',
-	'interwiki_local'       => 'Local',#identical but defined
-	'interwiki_trans'       => 'Trans',#identical but defined
-	'interwiki_reasonfield' => 'Reden',
-	'interwiki_delquestion' => '"$1" aan het verwijderen',
-	'interwiki_deleting'    => 'U bent voorvoegsel "$1" aan het verwijderen.',
-	'interwiki_deleted'     => 'Voorvoegsel "$1" is succesvol verwijderd van de interwikitabel.',
-	'interwiki_delfailed'   => 'Voorvoegsel "$1" kon niet worden verwijderd van de interwikitabel.',
-	'interwiki_addtext'     => 'Een interwikivoorvoegsel toevoegen',
-	'interwiki_addbutton'   => 'Toevoegen',
-	'interwiki_added'       => 'Voorvoegsel "$1" is succesvol toegevoegd aan de interwikitabel.',
-	'interwiki_addfailed'   => 'Voorvoegsel "$1" kon niet worden toegevoegd aan de interwikitabel. Mogelijk bestaat hij al in de interwikitabel.',
-	'interwiki_logpagename' => 'Logboek interwikitabel',
-	'interwiki_log_added'   => 'Voegde "$1" ($2) (trans: $3) (local: $4) toe aan de interwikitabel: $5',
-	'interwiki_log_deleted' => 'Verwijderde voorvoegsel "$1" van de interwikitabel: $2',
-	'interwiki_logpagetext' => 'Dit is een logboek van wijzigingen aan de [[Special:Interwiki|interwikitabel]].',
-	'interwiki_error'       => 'FOUT: De interwikitabel is leeg, of iets anders ging verkeerd.',
+	'interwiki'               => 'Interwikigegevens bekijken en wijzigen',
+	'interwiki_prefix'        => 'Voorvoegsel',
+	'interwiki_reasonfield'   => 'Reden',
+	'interwiki_intro'         => 'Zie $1 voor meer informatie over de interwikitabel. Er is een [[Special:Log/interwiki|logboek van wijzigingen]] aan de interwikitabel.',
+	'interwiki_error'         => 'FOUT: De interwikitabel is leeg, of iets anders ging verkeerd.',
+	'interwiki_delquestion'   => '"$1" aan het verwijderen',
+	'interwiki_deleting'      => 'U bent voorvoegsel "$1" aan het verwijderen.',
+	'interwiki_deleted'       => 'Voorvoegsel "$1" is succesvol verwijderd van de interwikitabel.',
+	'interwiki_delfailed'     => 'Voorvoegsel "$1" kon niet worden verwijderd van de interwikitabel.',
+	'interwiki_addtext'       => 'Een interwikivoorvoegsel toevoegen',
+	'interwiki_addintro'      => 'U bent een nieuw interwikivoorvoegsel aan het toevoegen. Let op dat dit geen spaties ( ), dubbelepunt (:), ampersands (&), of gelijkheidstekens (=).',
+	'interwiki_addbutton'     => 'Toevoegen',
+	'interwiki_added'         => 'Voorvoegsel "$1" is succesvol toegevoegd aan de interwikitabel.',
+	'interwiki_addfailed'     => 'Voorvoegsel "$1" kon niet worden toegevoegd aan de interwikitabel. Mogelijk bestaat hij al in de interwikitabel.',
+	'interwiki_logpagename'   => 'Logboek interwikitabel',
+	'interwiki_log_added'     => 'Voegde "$1" ($2) (trans: $3) (local: $4) toe aan de interwikitabel: $5',
+	'interwiki_log_deleted'   => 'Verwijderde voorvoegsel "$1" van de interwikitabel: $2',
+	'interwiki_logpagetext'   => 'Dit is een logboek van wijzigingen aan de [[Special:Interwiki|interwikitabel]].',
+	'interwiki_defaultreason' => 'geen reden gegeven',
+
 );
 
 $wgSpecialInterwikiMessages['no'] = array(
