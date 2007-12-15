@@ -177,11 +177,21 @@ $wgSpecialInterwikiMessages['hsb'] = array(
 
 );
 
-/* Some Latin translations by SPQRobin */
+/** Latin (Latina)
+ * @author SPQRobin
+ */
 $wgSpecialInterwikiMessages['la'] = array(
-	'interwiki_reasonfield' => 'Causa',
-	'interwiki_delquestion' => 'Removens "$1"',
-	'interwiki_addbutton' => 'Addere',
+	'interwiki'               => 'Videre et recensere data intervica',
+	'interwiki_prefix'        => 'Praefixum',
+	'interwiki_reasonfield'   => 'Causa',
+	'interwiki_delquestion'   => 'Removens "$1"',
+	'interwiki_deleting'      => 'Delens praefixum "$1".',
+	'interwiki_addtext'       => 'Addere praefixum intervicum',
+	'interwiki_addbutton'     => 'Addere',
+	'interwiki_logpagename'   => 'Index tabulae intervicae',
+	'interwiki_logpagetext'   => 'Haec est index mutationum [[Special:Interwiki|tabulā intervicā]].',
+	'interwiki_defaultreason' => 'non causam datum',
+
 );
 
 /** Dutch (Nederlands)
@@ -198,7 +208,7 @@ $wgSpecialInterwikiMessages['nl'] = array(
 	'interwiki_deleted'       => 'Voorvoegsel "$1" is succesvol verwijderd van de interwikitabel.',
 	'interwiki_delfailed'     => 'Voorvoegsel "$1" kon niet worden verwijderd van de interwikitabel.',
 	'interwiki_addtext'       => 'Een interwikivoorvoegsel toevoegen',
-	'interwiki_addintro'      => 'U bent een nieuw interwikivoorvoegsel aan het toevoegen. Let op dat dit geen spaties ( ), dubbelepunt (:), ampersands (&), of gelijkheidstekens (=).',
+	'interwiki_addintro'      => 'U bent een nieuw interwikivoorvoegsel aan het toevoegen. Let op dat dit geen spaties ( ), dubbelepunt (:), ampersands (&), of gelijkheidstekens (=) mag bevatten.',
 	'interwiki_addbutton'     => 'Toevoegen',
 	'interwiki_added'         => 'Voorvoegsel "$1" is succesvol toegevoegd aan de interwikitabel.',
 	'interwiki_addfailed'     => 'Voorvoegsel "$1" kon niet worden toegevoegd aan de interwikitabel. Mogelijk bestaat hij al in de interwikitabel.',
@@ -229,6 +239,27 @@ $wgSpecialInterwikiMessages['no'] = array(
 	'interwiki_log_deleted' => 'Fjernet prefikset «$1» fra interwikitabellen: $2',
 	'interwiki_logpagetext' => 'Dette er en logg over endringer i [[Special:Interwiki|interwikitabellen]].',
 	'interwiki_error'       => 'FEIL: Interwikitabellen er tom, eller noe gikk gærent.',
+);
+
+/** Occitan (Occitan)
+ * @author Cedric31
+ */
+$wgSpecialInterwikiMessages['oc'] = array(
+	'interwiki'             => 'Veire e editar las donadas interwiki',
+	'interwiki_reasonfield' => 'Motiu',
+	'interwiki_delquestion' => 'Supression "$1"',
+	'interwiki_deleting'    => 'Escafatz presentament lo prefix « $1 ».',
+	'interwiki_deleted'     => '$1 es estada levada amb succès de la taula interwiki.',
+	'interwiki_delfailed'   => '$1 a pas pogut èsser levat de la taula interwiki.',
+	'interwiki_addtext'     => 'Ajusta un prefix interwiki',
+	'interwiki_addbutton'   => 'Ajustar',
+	'interwiki_added'       => '$1 es estat ajustat amb succès dins la taula interwiki.',
+	'interwiki_addfailed'   => '$1 a pas pogut èsser ajustat a la taula interwiki.',
+	'interwiki_logpagename' => 'Jornal de la taula interwiki',
+	'interwiki_log_added'   => 'Ajustat « $1 » ($2) (trans: $3) (local: $4) dins la taula interwiki: $5',
+	'interwiki_log_deleted' => 'Prefix « $1 » suprimit de la taula interwiki: $2',
+	'interwiki_logpagetext' => 'Aquò es lo jornal dels cambiaments dins la [[Special:Interwiki|taula interwiki]].',
+
 );
 
 $wgSpecialInterwikiMessages['pt'] = array(
