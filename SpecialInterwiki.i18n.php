@@ -92,30 +92,38 @@ $wgSpecialInterwikiMessages['de'] = array(
 	'interwiki_error' => 'Fehler: Die Interwiki-Tabelle ist leer oder es ist ein sonstiger Fehler aufgetreten.',
 );
 
+/** Greek (Ελληνικά)
+ * @author Consta
+ */
 $wgSpecialInterwikiMessages['el'] = array(
-	'interwiki_prefix'      => 'Πρόθεμα',
+	'interwiki_prefix'        => 'Πρόθεμα',
+	'interwiki_defaultreason' => 'Δεν δίνετε λόγος',
 );
 
-/* French Translation by Bertrand GRONDIN */
+/** French (Français)
+ * @author Grondin
+ * @author Sherbrooke
+ */
 $wgSpecialInterwikiMessages['fr'] = array(
-	'interwiki'             => 'Voir et manipuler les données interwiki',
-	'interwiki_prefix'      => 'Préfixe',
-	'interwiki_local'       => 'Local',#identical but defined
-	'interwiki_trans'       => 'Trans',#identical but defined
-	'interwiki_reasonfield' => 'Motif',
-	'interwiki_delquestion' => 'Suppression "$1"',
-	'interwiki_deleting'    => 'Vous effacez présentement le préfixe « $1 ».',
-	'interwiki_deleted'     => '$1 a été enlevée avec succès de la table interwiki.',
-	'interwiki_delfailed'   => '$1 n\'a pas pu être enlevé de la table interwiki.',
-	'interwiki_addtext'     => 'Ajoute un préfixe interwiki',
-	'interwiki_addbutton'   => 'Ajouter',
-	'interwiki_added'       => '$1 a été ajouté avec succès dans la table interwiki.',
-	'interwiki_addfailed'   => '$1 n\'a pas pu être ajouté à la table interwiki.',
-	'interwiki_logpagename' => 'Journal de la table interwiki',
-	'interwiki_log_added'   => 'Ajouté « $1 » ($2) (trans: $3) (local: $4) dans la table interwiki: $5',
-	'interwiki_log_deleted' => 'Préfixe « $1 » supprimé de la table interwiki: $2',
-	'interwiki_logpagetext' => 'Ceci est le journal des changements dans la [[Special:Interwiki|table interwiki]].',
-	'interwiki_error'       => 'Erreur : la table des interwikis est vide ou un processus s\'est mal déroulé.',
+	'interwiki'               => 'Voir et manipuler les données interwiki',
+	'interwiki_prefix'        => 'Préfixe',
+	'interwiki_reasonfield'   => 'Motif',
+	'interwiki_intro'         => "Voyez $1 pour obtenir plus d'informations en ce qui concerne la table interwiki. Ceci est le [[Special:Log/interwiki|journal des modifications]] de la table interwiki.",
+	'interwiki_error'         => "Erreur : la table des interwikis est vide ou un processus s'est mal déroulé.",
+	'interwiki_delquestion'   => 'Suppression "$1"',
+	'interwiki_deleting'      => 'Vous effacez présentement le préfixe « $1 ».',
+	'interwiki_deleted'       => '$1 a été enlevée avec succès de la table interwiki.',
+	'interwiki_delfailed'     => "$1 n'a pas pu être enlevé de la table interwiki.",
+	'interwiki_addtext'       => 'Ajoute un préfixe interwiki',
+	'interwiki_addintro'      => "Vous êtes en train d'ajouter un préfixe interwiki. Rappelez-vous qu'il ne peut pas contenir d'espaces ( ), de double points (:), d'éperluettes (&) ou de signes égal (=)",
+	'interwiki_addbutton'     => 'Ajouter',
+	'interwiki_added'         => '$1 a été ajouté avec succès dans la table interwiki.',
+	'interwiki_addfailed'     => "$1 n'a pas pu être ajouté à la table interwiki.",
+	'interwiki_logpagename'   => 'Journal de la table interwiki',
+	'interwiki_log_added'     => 'Ajouté « $1 » ($2) (trans: $3) (local: $4) dans la table interwiki: $5',
+	'interwiki_log_deleted'   => 'Préfixe « $1 » supprimé de la table interwiki: $2',
+	'interwiki_logpagetext'   => 'Ceci est le journal des changements dans la [[Special:Interwiki|table interwiki]].',
+	'interwiki_defaultreason' => 'Aucun motif donné',
 );
 
 $wgSpecialInterwikiMessages['gl'] = array(
@@ -178,20 +186,28 @@ $wgSpecialInterwikiMessages['hsb'] = array(
 );
 
 /** Latin (Latina)
+ * @author UV
  * @author SPQRobin
  */
 $wgSpecialInterwikiMessages['la'] = array(
 	'interwiki'               => 'Videre et recensere data intervica',
 	'interwiki_prefix'        => 'Praefixum',
 	'interwiki_reasonfield'   => 'Causa',
+	'interwiki_intro'         => 'De tabula intervica, vide etiam $1. Etiam sunt [[Special:Log/interwiki|acta mutationum]] tabulae intervicae.',
+	'interwiki_error'         => 'ERROR: Tabula intervica est vacua, aut aerumna alia occurrit.',
 	'interwiki_delquestion'   => 'Removens "$1"',
 	'interwiki_deleting'      => 'Delens praefixum "$1".',
+	'interwiki_deleted'       => 'Praefixum "$1" prospere remotum est ex tabula intervica.',
+	'interwiki_delfailed'     => 'Praefixum "$1" ex tabula intervica removeri non potuit.',
 	'interwiki_addtext'       => 'Addere praefixum intervicum',
 	'interwiki_addbutton'     => 'Addere',
+	'interwiki_added'         => 'Praefixum "$1" prospere in tabulam intervicam additum est.',
+	'interwiki_addfailed'     => 'Praefixum "$1" in tabulam intervicam addi non potuit. Fortasse iam est in tabula intervica.',
 	'interwiki_logpagename'   => 'Index tabulae intervicae',
-	'interwiki_logpagetext'   => 'Haec est index mutationum [[Special:Interwiki|tabulā intervicā]].',
-	'interwiki_defaultreason' => 'non causam datum',
-
+	'interwiki_log_added'     => 'addidit "$1" ($2) (trans: $3) (local: $4) in tabulam intervicam: $5',
+	'interwiki_log_deleted'   => 'removit praefixum "$1" ex tabula intervica: $2',
+	'interwiki_logpagetext'   => 'Hic est index mutationum [[Special:Interwiki|tabulae intervicae]].',
+	'interwiki_defaultreason' => 'nulla causa data',
 );
 
 /** Dutch (Nederlands)
@@ -217,7 +233,6 @@ $wgSpecialInterwikiMessages['nl'] = array(
 	'interwiki_log_deleted'   => 'Verwijderde voorvoegsel "$1" van de interwikitabel: $2',
 	'interwiki_logpagetext'   => 'Dit is een logboek van wijzigingen aan de [[Special:Interwiki|interwikitabel]].',
 	'interwiki_defaultreason' => 'geen reden gegeven',
-
 );
 
 $wgSpecialInterwikiMessages['no'] = array(
@@ -259,7 +274,6 @@ $wgSpecialInterwikiMessages['oc'] = array(
 	'interwiki_log_added'   => 'Ajustat « $1 » ($2) (trans: $3) (local: $4) dins la taula interwiki: $5',
 	'interwiki_log_deleted' => 'Prefix « $1 » suprimit de la taula interwiki: $2',
 	'interwiki_logpagetext' => 'Aquò es lo jornal dels cambiaments dins la [[Special:Interwiki|taula interwiki]].',
-
 );
 
 $wgSpecialInterwikiMessages['pt'] = array(
