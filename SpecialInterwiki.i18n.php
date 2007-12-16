@@ -126,25 +126,30 @@ $wgSpecialInterwikiMessages['fr'] = array(
 	'interwiki_defaultreason' => 'Aucun motif donné',
 );
 
+/** Galician (Galego)
+ * @author Alma
+ * @author Xosé
+ */
 $wgSpecialInterwikiMessages['gl'] = array(
-	'interwiki'             => 'Ver e manipular datos interwiki',
-	'interwiki_prefix'      => 'Prefixo',
-	'interwiki_local'       => 'Local',#identical but defined
-	'interwiki_trans'       => 'Trans',#identical but defined
-	'interwiki_reasonfield' => 'Razón',
-	'interwiki_delquestion' => 'Eliminando "$1"',
-	'interwiki_deleting'    => 'Vai eliminar o prefixo "$1".',
-	'interwiki_deleted'     => 'Eliminouse sen problemas o prefixo "$1" da táboa interwiki.',
-	'interwiki_delfailed'   => 'Non se puido eliminar o prefixo "$1" da táboa interwiki.',
-	'interwiki_addtext'     => 'Engadir un prefixo interwiki',
-	'interwiki_addbutton'   => 'Engadir',
-	'interwiki_added'       => 'Engadiuse sen problemas o prefixo "$1" á táboa interwiki.',
-	'interwiki_addfailed'   => 'Non se puido engadir o prefixo "$1" á táboa interwiki. Posibelmente xa existe na táboa interwiki.',
-	'interwiki_logpagename' => 'Rexistro de táboas interwiki',
-	'interwiki_log_added'   => 'Engadir "$1" ($2) (trans: $3) (local: $4) á táboa interwiki: $5',
-	'interwiki_log_deleted' => 'Eliminouse o prefixo "$1" da táboa interwiki: $2',
-	'interwiki_logpagetext' => 'Este é un rexistro dos cambios a [[Special:Interwiki|táboa interwiki]].',
-	'interwiki_error'       => 'ERRO: A táboa interwiki está baleira, ou algo máis saleu mal.',
+	'interwiki'               => 'Ver e manipular datos interwiki',
+	'interwiki_prefix'        => 'Prefixo',
+	'interwiki_reasonfield'   => 'Razón',
+	'interwiki_intro'         => 'Vexa $1 para máis información acerca da táboa interwiki. Hai un [[Special:Log/interwiki|rexistro de cambios]] á táboa interwiki.',
+	'interwiki_error'         => 'ERRO: A táboa interwiki está baleira, ou algo máis saleu mal.',
+	'interwiki_delquestion'   => 'Eliminando "$1"',
+	'interwiki_deleting'      => 'Vai eliminar o prefixo "$1".',
+	'interwiki_deleted'       => 'Eliminouse sen problemas o prefixo "$1" da táboa interwiki.',
+	'interwiki_delfailed'     => 'Non se puido eliminar o prefixo "$1" da táboa interwiki.',
+	'interwiki_addtext'       => 'Engadir un prefixo interwiki',
+	'interwiki_addintro'      => 'Vostede está engadindo un novo prefixo interwiki. Recorde que non pode conter espazos ( ), dous puntos (:), o símbolo de unión (&), ou signos de igual (=).',
+	'interwiki_addbutton'     => 'Engadir',
+	'interwiki_added'         => 'Engadiuse sen problemas o prefixo "$1" á táboa interwiki.',
+	'interwiki_addfailed'     => 'Non se puido engadir o prefixo "$1" á táboa interwiki. Posibelmente xa existe na táboa interwiki.',
+	'interwiki_logpagename'   => 'Rexistro de táboas interwiki',
+	'interwiki_log_added'     => 'Engadir "$1" ($2) (trans: $3) (local: $4) á táboa interwiki: $5',
+	'interwiki_log_deleted'   => 'Eliminouse o prefixo "$1" da táboa interwiki: $2',
+	'interwiki_logpagetext'   => 'Este é un rexistro dos cambios a [[Special:Interwiki|táboa interwiki]].',
+	'interwiki_defaultreason' => 'ningunha razón foi dada',
 );
 
 $wgSpecialInterwikiMessages['hr'] = array(
@@ -260,20 +265,24 @@ $wgSpecialInterwikiMessages['no'] = array(
  * @author Cedric31
  */
 $wgSpecialInterwikiMessages['oc'] = array(
-	'interwiki'             => 'Veire e editar las donadas interwiki',
-	'interwiki_reasonfield' => 'Motiu',
-	'interwiki_delquestion' => 'Supression "$1"',
-	'interwiki_deleting'    => 'Escafatz presentament lo prefix « $1 ».',
-	'interwiki_deleted'     => '$1 es estada levada amb succès de la taula interwiki.',
-	'interwiki_delfailed'   => '$1 a pas pogut èsser levat de la taula interwiki.',
-	'interwiki_addtext'     => 'Ajusta un prefix interwiki',
-	'interwiki_addbutton'   => 'Ajustar',
-	'interwiki_added'       => '$1 es estat ajustat amb succès dins la taula interwiki.',
-	'interwiki_addfailed'   => '$1 a pas pogut èsser ajustat a la taula interwiki.',
-	'interwiki_logpagename' => 'Jornal de la taula interwiki',
-	'interwiki_log_added'   => 'Ajustat « $1 » ($2) (trans: $3) (local: $4) dins la taula interwiki: $5',
-	'interwiki_log_deleted' => 'Prefix « $1 » suprimit de la taula interwiki: $2',
-	'interwiki_logpagetext' => 'Aquò es lo jornal dels cambiaments dins la [[Special:Interwiki|taula interwiki]].',
+	'interwiki'               => 'Veire e editar las donadas interwiki',
+	'interwiki_reasonfield'   => 'Motiu',
+	'interwiki_intro'         => "Vejatz $1 per obténer mai d'informacions per çò que concernís la taula interwiki. Aquò es lo [[Special:Log/interwiki|jornal de las modificacions]] de la taula interwiki.",
+	'interwiki_error'         => "Error : la taula dels interwikis es voida o un processús s'es mal desenrotlat.",
+	'interwiki_delquestion'   => 'Supression "$1"',
+	'interwiki_deleting'      => 'Escafatz presentament lo prefix « $1 ».',
+	'interwiki_deleted'       => '$1 es estada levada amb succès de la taula interwiki.',
+	'interwiki_delfailed'     => '$1 a pas pogut èsser levat de la taula interwiki.',
+	'interwiki_addtext'       => 'Ajusta un prefix interwiki',
+	'interwiki_addintro'      => "Sètz a ajustar un prefix interwiki. Rapelatz-vos que pòt pas conténer d'espacis ( ), de punts dobles (:), d'eperluetas (&) o de signes egal (=)",
+	'interwiki_addbutton'     => 'Ajustar',
+	'interwiki_added'         => '$1 es estat ajustat amb succès dins la taula interwiki.',
+	'interwiki_addfailed'     => '$1 a pas pogut èsser ajustat a la taula interwiki.',
+	'interwiki_logpagename'   => 'Jornal de la taula interwiki',
+	'interwiki_log_added'     => 'Ajustat « $1 » ($2) (trans: $3) (local: $4) dins la taula interwiki: $5',
+	'interwiki_log_deleted'   => 'Prefix « $1 » suprimit de la taula interwiki: $2',
+	'interwiki_logpagetext'   => 'Aquò es lo jornal dels cambiaments dins la [[Special:Interwiki|taula interwiki]].',
+	'interwiki_defaultreason' => 'Cap de motiu balhat',
 );
 
 $wgSpecialInterwikiMessages['pt'] = array(
