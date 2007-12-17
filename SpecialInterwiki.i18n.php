@@ -97,6 +97,7 @@ $wgSpecialInterwikiMessages['de'] = array(
  */
 $wgSpecialInterwikiMessages['el'] = array(
 	'interwiki_prefix'        => 'Πρόθεμα',
+	'interwiki_reasonfield'   => 'Λόγος',
 	'interwiki_defaultreason' => 'Δεν δίνετε λόγος',
 );
 
