@@ -159,6 +159,14 @@ $wgSpecialInterwikiMessages['gl'] = array(
 	'interwiki_defaultreason' => 'ningunha razón foi dada',
 );
 
+/** Hawaiian (Hawai`i)
+ * @author SPQRobin
+ */
+$wgSpecialInterwikiMessages['haw'] = array(
+	'interwiki_reasonfield'   => 'Ke kumu',
+	'interwiki_defaultreason' => '‘a‘ohe kumu',
+);
+
 $wgSpecialInterwikiMessages['hr'] = array(
 	'interwiki'             => 'Vidi i uredi međuwiki podatke',
 	'interwiki_prefix'      => 'Prefiks',
