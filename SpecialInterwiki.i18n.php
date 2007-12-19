@@ -72,24 +72,30 @@ $wgSpecialInterwikiMessages['ar'] = array(
 
 );
 
-/* German translation by MF-Warburg */
+/** German (Deutsch)
+ * @author MF-Warburg
+ * @author Raimond Spekking
+ */
 $wgSpecialInterwikiMessages['de'] = array(
-	'interwiki' => 'Interwiki-Daten betrachten und verändern',
-	'interwiki_prefix' => 'Präfix',
-	'interwiki_local' => 'Lokal',
-	'interwiki_reasonfield' => 'Grund',
-	'interwiki_delquestion' => 'Löscht „$1“',
-	'interwiki_deleted' => '„$1“ wurde erfolgreich aus der Interwiki-Tabelle entfernt.',
-	'interwiki_delfailed' => '„$1“ konnte nicht aus der Interwiki-Tabelle gelöscht werden.',
-	'interwiki_addtext' => 'Ein Interwiki-Präfix hinzufügen',
-	'interwiki_addbutton' => 'Hinzufügen',
-	'interwiki_added' => '„$1“ wurde erfolgreich der Interwiki-Tabelle hinzugefügt.',
-	'interwiki_addfailed' => '„$1“ konnte nicht der Interwiki-Tabelle hinzugefügt werden.',
-	'interwiki_logpagename' => 'Interwiki-Tabellenlogbuch',
-	'interwiki_log_added' => 'hat „$1“ ($2) (trans: $3) (lokal: $4) der Interwiki-Tabelle hinzugefügt: $5',
-	'interwiki_log_deleted' => 'hat „$1“ aus der Interwiki-Tabelle entfernt: $2',
-	'interwiki_logpagetext' => 'In diesem Logbuch werden Änderungen an der [[Special:Interwiki|Interwiki-Tabelle]] protokolliert.',
-	'interwiki_error' => 'Fehler: Die Interwiki-Tabelle ist leer oder es ist ein sonstiger Fehler aufgetreten.',
+	'interwiki'               => 'Interwiki-Daten betrachten und bearbeiten',
+	'interwiki_prefix'        => 'Präfix',
+	'interwiki_reasonfield'   => 'Grund',
+	'interwiki_intro'         => 'Siehe $1 für weitere Informationen über die Interwiki-Tabelle. Das [[Special:Log/interwiki|Logbuch]] zeigt alle Änderungen an der Interwiki-Tabelle.',
+	'interwiki_local'         => 'Lokal',
+	'interwiki_error'         => 'Fehler: Die Interwiki-Tabelle ist leer.',
+	'interwiki_delquestion'   => 'Löscht „$1“',
+	'interwiki_deleted'       => '„$1“ wurde erfolgreich aus der Interwiki-Tabelle entfernt.',
+	'interwiki_delfailed'     => '„$1“ konnte nicht aus der Interwiki-Tabelle gelöscht werden.',
+	'interwiki_addtext'       => 'Ein Interwiki-Präfix hinzufügen',
+	'interwiki_addintro'      => 'Du fügst ein neues Interwiki-Prefix hinzu. Beachte, dass es kein Leerzeichen ( ), Kaufmännisches Und (&), Gleichheitszeichen (=) und keinen Doppelpunkt (:) enthalten darf.',
+	'interwiki_addbutton'     => 'Hinzufügen',
+	'interwiki_added'         => '„$1“ wurde erfolgreich der Interwiki-Tabelle hinzugefügt.',
+	'interwiki_addfailed'     => '„$1“ konnte nicht der Interwiki-Tabelle hinzugefügt werden.',
+	'interwiki_logpagename'   => 'Interwiki-Tabellenlogbuch',
+	'interwiki_log_added'     => 'hat „$1“ ($2) (trans: $3) (lokal: $4) der Interwiki-Tabelle hinzugefügt: $5',
+	'interwiki_log_deleted'   => 'hat „$1“ aus der Interwiki-Tabelle entfernt: $2',
+	'interwiki_logpagetext'   => 'In diesem Logbuch werden Änderungen an der [[Special:Interwiki|Interwiki-Tabelle]] protokolliert.',
+	'interwiki_defaultreason' => 'kein Grund angegeben',
 );
 
 /** Greek (Ελληνικά)
