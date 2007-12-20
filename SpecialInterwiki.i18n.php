@@ -72,6 +72,17 @@ $wgSpecialInterwikiMessages['ar'] = array(
 
 );
 
+/** Bulgarian (Български)
+ * @author DCLXVI
+ */
+$wgSpecialInterwikiMessages['bg'] = array(
+	'interwiki_reasonfield'   => 'Причина',
+	'interwiki_delquestion'   => 'Изтриване на "$1"',
+	'interwiki_addbutton'     => 'Добавяне',
+	'interwiki_logpagename'   => 'Дневник на междууикитата',
+	'interwiki_defaultreason' => 'не е посочена причина',
+);
+
 /** German (Deutsch)
  * @author MF-Warburg
  * @author Raimond Spekking
