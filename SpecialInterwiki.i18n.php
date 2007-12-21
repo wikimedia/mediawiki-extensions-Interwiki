@@ -241,6 +241,11 @@ $wgSpecialInterwikiMessages['la'] = array(
 	'interwiki_defaultreason' => 'nulla causa data',
 );
 
+/** Burmese (Myanmasa) */
+$wgSpecialInterwikiMessages['my'] = array(
+	'interwiki_reasonfield' => 'કારણ',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  */
