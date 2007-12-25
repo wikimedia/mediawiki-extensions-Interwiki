@@ -241,6 +241,15 @@ $wgSpecialInterwikiMessages['la'] = array(
 	'interwiki_defaultreason' => 'nulla causa data',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$wgSpecialInterwikiMessages['lb'] = array(
+	'interwiki'             => 'Interwiki-Date kucken a veränneren',
+	'interwiki_prefix'      => 'Prefix',
+	'interwiki_reasonfield' => 'Grond',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  */
@@ -348,4 +357,29 @@ $wgSpecialInterwikiMessages['ru'] = array(
 	'interwiki_log_added' => 'Префикс "$1" ($2) (trans: $3) (local: $4) добавлен в таблицу интервики: $5',
 	'interwiki_log_deleted' => 'Префикс "$1" удалён из таблицы интервики: $2',
 	'interwiki_logpagetext' => 'На этой странице можно увидеть список всех изменений таблицы интервики.',
+);
+
+/** Seeltersk (Seeltersk)
+ * @author Pyt
+ */
+$wgSpecialInterwikiMessages['stq'] = array(
+	'interwiki'               => 'Interwiki-Doaten bekiekje un beoarbaidje',
+	'interwiki_prefix'        => 'Präfix',
+	'interwiki_reasonfield'   => 'Gruund',
+	'interwiki_intro'         => 'Sjuch $1 foar wiedere Informatione uur ju Interwiki-Tabelle. Dät [[Special:Log/interwiki|Logbouk]] wiest aal Annerengen an ju Interwiki-Tabelle.',
+	'interwiki_error'         => 'Failer: Ju Interwiki-Tabelle is loos.',
+	'interwiki_delquestion'   => 'Läsket „$1“',
+	'interwiki_deleting'      => 'Du hoalst Prefix "$1" wäch.',
+	'interwiki_deleted'       => '„$1“ wuude mäd Ärfoulch uut ju Interwiki-Tabelle wächhoald.',
+	'interwiki_delfailed'     => '„$1“ kuude nit uut ju Interwiki-Tabelle läsked wäide.',
+	'interwiki_addtext'       => 'N Interwiki-Präfix bietouföigje',
+	'interwiki_addintro'      => 'Du föigest n näi Interwiki-Präfix bietou. Beoachte, dät et neen Loosteeken ( ), Koopmons-Un (&), Gliekhaidsteeken (=) un naan Dubbelpunkt (:) änthoolde duur.',
+	'interwiki_addbutton'     => 'Bietouföigje',
+	'interwiki_added'         => '„$1“ wuude mäd Ärfoulch ju Interwiki-Tabelle bietouföiged.',
+	'interwiki_addfailed'     => '„$1“ kuude nit ju Interwiki-Tabelle bietouföiged wäide.',
+	'interwiki_logpagename'   => 'Interwiki-Tabellenlogbouk',
+	'interwiki_log_added'     => 'häd „$1“ ($2) (trans: $3) (lokal: $4) ju Interwiki-Tabelle bietouföiged: $5',
+	'interwiki_log_deleted'   => 'häd „$1“ uut ju Interwiki-Tabelle wächhoald: $2',
+	'interwiki_logpagetext'   => 'In dit Logbouk wäide Annerengen an ju [[Special:Interwiki|Interwiki-Tabelle]] protokollierd.',
+	'interwiki_defaultreason' => 'naan Gruund ounroat',
 );
