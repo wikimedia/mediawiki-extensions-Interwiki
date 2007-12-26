@@ -341,22 +341,27 @@ $wgSpecialInterwikiMessages['pt'] = array(
 	'interwiki_error'       => 'ERRO: A tabela de interwikis está vazia, ou alguma outra coisa não correu bem.',
 );
 
-/* Russian Translation by Alexander Chemeris */
+/** Russian (Русский)
+ * @author Alexander Chemeris
+ * @author Illusion
+ */
 $wgSpecialInterwikiMessages['ru'] = array(
-	'interwiki' => 'Просмотр и изменение префиксов интервики',
-	'interwiki_prefix' => 'Префикс',
-	'interwiki_reasonfield' => 'Причина',
-	'interwiki_delquestion' => 'Удаление "$1"',
-	'interwiki_deleted' => 'Префикс $1 успешно удалён.',
-	'interwiki_delfailed' => 'Префикс $1 не может быть удалён.',
-	'interwiki_addtext' => 'Добавить новый префикс интервики',
-	'interwiki_addbutton' => 'Добавить',
-	'interwiki_added' => 'Префикс $1 успешно добавлен.',
-	'interwiki_addfailed' => 'Префикс $1 не может быть добавлен.',
-	'interwiki_logpagename' => 'Список изменений таблицы префиксов интервики',
-	'interwiki_log_added' => 'Префикс "$1" ($2) (trans: $3) (local: $4) добавлен в таблицу интервики: $5',
-	'interwiki_log_deleted' => 'Префикс "$1" удалён из таблицы интервики: $2',
-	'interwiki_logpagetext' => 'На этой странице можно увидеть список всех изменений таблицы интервики.',
+	'interwiki'               => 'Просмотр и изменение префиксов интервики',
+	'interwiki_prefix'        => 'Префикс',
+	'interwiki_reasonfield'   => 'Причина',
+	'interwiki_delquestion'   => 'Удаление "$1"',
+	'interwiki_deleted'       => 'Префикс $1 успешно удалён.',
+	'interwiki_delfailed'     => 'Префикс $1 не может быть удалён.',
+	'interwiki_addtext'       => 'Добавить новый префикс интервики',
+	'interwiki_addintro'      => 'Вы собираетесь добавить новый префикс интервики. Помните, что он не может содержать пробелы ( ), двоеточия (:), амперсанды (&) и знаки равенства (=).',
+	'interwiki_addbutton'     => 'Добавить',
+	'interwiki_added'         => 'Префикс $1 успешно добавлен.',
+	'interwiki_addfailed'     => 'Префикс $1 не может быть добавлен.',
+	'interwiki_logpagename'   => 'Список изменений таблицы префиксов интервики',
+	'interwiki_log_added'     => 'Префикс "$1" ($2) (trans: $3) (local: $4) добавлен в таблицу интервики: $5',
+	'interwiki_log_deleted'   => 'Префикс "$1" удалён из таблицы интервики: $2',
+	'interwiki_logpagetext'   => 'На этой странице можно увидеть список всех изменений таблицы интервики.',
+	'interwiki_defaultreason' => 'причина не указана',
 );
 
 /** Seeltersk (Seeltersk)
