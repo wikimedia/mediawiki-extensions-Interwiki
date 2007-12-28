@@ -170,6 +170,11 @@ $wgSpecialInterwikiMessages['gl'] = array(
 	'interwiki_defaultreason' => 'ningunha razón foi dada',
 );
 
+/** Gujarati (ગુજરાતી) */
+$wgSpecialInterwikiMessages['gu'] = array(
+	'interwiki_reasonfield' => 'કારણ',
+);
+
 /** Hawaiian (Hawai`i)
  * @author SPQRobin
  */
