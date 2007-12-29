@@ -76,10 +76,16 @@ $wgSpecialInterwikiMessages['ar'] = array(
  * @author DCLXVI
  */
 $wgSpecialInterwikiMessages['bg'] = array(
+	'interwiki'               => 'Преглед и управление на междууикитата',
+	'interwiki_prefix'        => 'Представка:',
 	'interwiki_reasonfield'   => 'Причина',
+	'interwiki_intro'         => 'Вижте $1 за повече информация относно таблицата с междууикита. Съществува [[Special:Log/interwiki|дневник на промените]] в таблицата с междууикита.',
 	'interwiki_delquestion'   => 'Изтриване на "$1"',
+	'interwiki_addtext'       => 'Добавяне на ново междууики',
+	'interwiki_addintro'      => "''Забележка:'' Междууикитата не могат да съдържат интервали ( ), двуеточия (:), амперсанд (&) или знак за равенство (=).",
 	'interwiki_addbutton'     => 'Добавяне',
 	'interwiki_logpagename'   => 'Дневник на междууикитата',
+	'interwiki_logpagetext'   => 'Тази страница съдържа дневник на промените в [[Special:Interwiki|таблицата с междууикита]].',
 	'interwiki_defaultreason' => 'не е посочена причина',
 );
 
@@ -250,9 +256,11 @@ $wgSpecialInterwikiMessages['la'] = array(
  * @author Robby
  */
 $wgSpecialInterwikiMessages['lb'] = array(
-	'interwiki'             => 'Interwiki-Date kucken a veränneren',
-	'interwiki_prefix'      => 'Prefix',
-	'interwiki_reasonfield' => 'Grond',
+	'interwiki'               => 'Interwiki-Date kucken a veränneren',
+	'interwiki_prefix'        => 'Prefix',
+	'interwiki_reasonfield'   => 'Grond',
+	'interwiki_delquestion'   => 'Läscht "$1"',
+	'interwiki_defaultreason' => 'kee Grond uginn',
 );
 
 /** Dutch (Nederlands)
