@@ -53,7 +53,8 @@ $wgSpecialInterwikiMessages['ar'] = array(
 	'interwiki_prefix'        => 'بادئة',
 	'interwiki_reasonfield'   => 'سبب',
 	'interwiki_intro'         => 'انظر $1 لمزيد من المعلومات حول جدول الإنترويكي. يوجد [[Special:Log/interwiki|سجل بالتغييرات]] لجدول الإنترويكي.',
-	'interwiki_url'           => 'مسار',
+	'interwiki_local'         => 'محلي',
+	'interwiki_trans'         => 'نقل',
 	'interwiki_error'         => 'خطأ: جدول الإنترويكي فارغ، أو حدث خطأ آخر.',
 	'interwiki_delquestion'   => 'حذف "$1"',
 	'interwiki_deleting'      => 'أنت تحذف البادئة "$1".',
@@ -69,7 +70,6 @@ $wgSpecialInterwikiMessages['ar'] = array(
 	'interwiki_log_deleted'   => 'أزال البادئة "$1" من جدول الإنترويكي: $2',
 	'interwiki_logpagetext'   => 'هذا سجل بالتغييرات في [[Special:Interwiki|جدول الإنترويكي]].',
 	'interwiki_defaultreason' => 'لا سبب معطى',
-
 );
 
 /** Bulgarian (Български)
@@ -209,6 +209,7 @@ $wgSpecialInterwikiMessages['hsb'] = array(
 	'interwiki_prefix'        => 'Prefiks',
 	'interwiki_reasonfield'   => 'Přičina',
 	'interwiki_intro'         => 'Hlej $1 za dalše informacije wo tabeli interwiki. Je [[Special:Log/interwiki|protokol změnow]] k tabeli interwiki.',
+	'interwiki_local'         => 'Lokalny',
 	'interwiki_error'         => 'ZMYLK: Interwiki-tabela je prózdna abo něšto je wopak.',
 	'interwiki_delquestion'   => 'Wušmórnja so "$1"',
 	'interwiki_deleting'      => 'Wušmórnješ prefiks "$1".',
@@ -224,7 +225,6 @@ $wgSpecialInterwikiMessages['hsb'] = array(
 	'interwiki_log_deleted'   => 'je prefiks "$1" z interwiki-tabele wotstronił: $2',
 	'interwiki_logpagetext'   => 'To je protokol změnow na [[Special:Interwiki|interwiki-tabeli]].',
 	'interwiki_defaultreason' => 'žana přičina podata',
-
 );
 
 /** Latin (Latina)
