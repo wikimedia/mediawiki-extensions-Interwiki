@@ -104,7 +104,7 @@ $wgSpecialInterwikiMessages['de'] = array(
 	'interwiki_deleted'       => '„$1“ wurde erfolgreich aus der Interwiki-Tabelle entfernt.',
 	'interwiki_delfailed'     => '„$1“ konnte nicht aus der Interwiki-Tabelle gelöscht werden.',
 	'interwiki_addtext'       => 'Ein Interwiki-Präfix hinzufügen',
-	'interwiki_addintro'      => 'Du fügst ein neues Interwiki-Prefix hinzu. Beachte, dass es kein Leerzeichen ( ), Kaufmännisches Und (&), Gleichheitszeichen (=) und keinen Doppelpunkt (:) enthalten darf.',
+	'interwiki_addintro'      => 'Du fügst ein neues Interwiki-Präfix hinzu. Beachte, dass es kein Leerzeichen ( ), Kaufmännisches Und (&), Gleichheitszeichen (=) und keinen Doppelpunkt (:) enthalten darf.',
 	'interwiki_addbutton'     => 'Hinzufügen',
 	'interwiki_added'         => '„$1“ wurde erfolgreich der Interwiki-Tabelle hinzugefügt.',
 	'interwiki_addfailed'     => '„$1“ konnte nicht der Interwiki-Tabelle hinzugefügt werden.',
