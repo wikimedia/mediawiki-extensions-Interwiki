@@ -377,6 +377,18 @@ $wgSpecialInterwikiMessages['ru'] = array(
 	'interwiki_defaultreason' => 'причина не указана',
 );
 
+/** Slovak (Slovenčina)
+ * @author Helix84
+ */
+$wgSpecialInterwikiMessages['sk'] = array(
+	'interwiki'             => 'Zobraziť a upravovať údaje interwiki',
+	'interwiki_prefix'      => 'Predpona',
+	'interwiki_reasonfield' => 'Dôvod',
+	'interwiki_intro'       => 'Viac informácií o tabuľke interwiki nájdete na $1. Existuje [[Special:Log/interwiki|záznam zmien]] tabuľky interwiki.',
+	'interwiki_error'       => 'CHYBA: Tabuľka interwiki je prázdna alebo sa pokazilo niečo iné.',
+	'interwiki_delquestion' => 'Maže sa „$1“',
+);
+
 /** Seeltersk (Seeltersk)
  * @author Pyt
  */
