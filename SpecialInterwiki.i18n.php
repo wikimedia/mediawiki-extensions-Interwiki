@@ -377,16 +377,44 @@ $wgSpecialInterwikiMessages['ru'] = array(
 	'interwiki_defaultreason' => 'причина не указана',
 );
 
+/** Sassaresu (Sassaresu)
+ * @author Felis
+ */
+$wgSpecialInterwikiMessages['sdc'] = array(
+	'interwiki'               => 'Vidè e mudìfiggà li dati interwiki',
+	'interwiki_prefix'        => 'Prefissu',
+	'interwiki_reasonfield'   => 'Rasgioni',
+	'interwiki_delquestion'   => 'Canzillendi "$1"',
+	'interwiki_deleting'      => 'Sei canzillendi lu prefissu "$1".',
+	'interwiki_addtext'       => 'Aggiungi un prefissu interwiki',
+	'interwiki_addbutton'     => 'Aggiungi',
+	'interwiki_logpagename'   => 'Rigisthru di la table interwiki',
+	'interwiki_defaultreason' => 'nisciuna mutibazioni indicadda',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
 $wgSpecialInterwikiMessages['sk'] = array(
-	'interwiki'             => 'Zobraziť a upravovať údaje interwiki',
-	'interwiki_prefix'      => 'Predpona',
-	'interwiki_reasonfield' => 'Dôvod',
-	'interwiki_intro'       => 'Viac informácií o tabuľke interwiki nájdete na $1. Existuje [[Special:Log/interwiki|záznam zmien]] tabuľky interwiki.',
-	'interwiki_error'       => 'CHYBA: Tabuľka interwiki je prázdna alebo sa pokazilo niečo iné.',
-	'interwiki_delquestion' => 'Maže sa „$1“',
+	'interwiki'               => 'Zobraziť a upravovať údaje interwiki',
+	'interwiki_prefix'        => 'Predpona',
+	'interwiki_reasonfield'   => 'Dôvod',
+	'interwiki_intro'         => 'Viac informácií o tabuľke interwiki nájdete na $1. Existuje [[Special:Log/interwiki|záznam zmien]] tabuľky interwiki.',
+	'interwiki_error'         => 'CHYBA: Tabuľka interwiki je prázdna alebo sa pokazilo niečo iné.',
+	'interwiki_delquestion'   => 'Maže sa „$1“',
+	'interwiki_deleting'      => 'Mažete predponu „$1“.',
+	'interwiki_deleted'       => 'Predpona „$1“ bola úspešne odstránená z tabuľky interwiki.',
+	'interwiki_delfailed'     => 'Predponu „$1“ nebola možné odstrániť z tabuľky interwiki.',
+	'interwiki_addtext'       => 'Pridať predponu interwiki',
+	'interwiki_addintro'      => 'Pridávate novú predponu interwiki. Pamätajte, že nemôže obsahovať medzery „ “, dvojbodky „:“, ampersand „&“ ani znak rovnosti „=“.',
+	'interwiki_addbutton'     => 'Pridať',
+	'interwiki_added'         => 'Predpona „$1“ bola úspešne pridaná do tabuľky interwiki.',
+	'interwiki_addfailed'     => 'Predponu „$1“ nebola možné pridať do tabuľky interwiki. Je možné, že už v tabuľke interwiki existuje.',
+	'interwiki_logpagename'   => 'Záznam zmien tabuľky interwiki',
+	'interwiki_log_added'     => 'Pridané „$1“ ($2) (trans: $3) (local: $4) do tabuľky interwiki: $5',
+	'interwiki_log_deleted'   => 'Odstránené „$1“ z tabuľky interwiki: $2',
+	'interwiki_logpagetext'   => 'Toto je záznam zmien [[Special:Interwiki|tabuľky interwiki]].',
+	'interwiki_defaultreason' => 'nebol uvedený dôvod',
 );
 
 /** Seeltersk (Seeltersk)
