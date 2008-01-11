@@ -19,7 +19,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'SpecialInterwiki',
 	'url' => 'http://mediawiki.org/wiki/Extension:SpecialInterwiki',
 	'description' => 'Adds a [[Special:Interwiki|special page]] to view and edit the interwiki table',
-	'version' => '14-12-07',
+	'version' => '2008-01-11',
 	'author'  => array( 'Stephanie Amanda Stevens', 'SPQRobin', 'others' ),
 );
 
