@@ -14,7 +14,6 @@
  */
 
 if (!defined('MEDIAWIKI')) die();
-$wgExtensionFunctions[] = "Interwiki";
 
 $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'SpecialInterwiki',
@@ -24,12 +23,11 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author'  => array( 'Stephanie Amanda Stevens', 'SPQRobin', 'others' ),
 );
 
+$wgExtensionMessagesFiles['Interwiki'] = dirname(__FILE__) . '/SpecialInterwiki.i18n.php';
+$wgExtensionFunctions[] = "Interwiki";
+
 function Interwiki() {
-	global $IP, $wgMessageCache, $wgHooks, $wgSpecialInterwikiMessages;
-	require_once( "$IP/includes/SpecialPage.php" );
-	require_once( 'SpecialInterwiki.i18n.php');
-	foreach( $wgSpecialInterwikiMessages as $key => $value ) {
-	$wgMessageCache->addMessages( $wgSpecialInterwikiMessages[$key], $key );}
+	global $IP, $wgHooks;
 
 	# Add a new log type
 	$wgHooks['LogPageValidTypes'][] = 'wfInterwikiAddLogType';
@@ -40,13 +38,13 @@ function Interwiki() {
 	$wgHooks['LogPageLogHeader'][] = 'wfInterwikiAddLogHeader';
 	$wgHooks['LogPageActionText'][] = 'wfInterwikiAddActionText';
 
-	class Interwiki extends SpecialPage {
-		function Interwiki() {
-			SpecialPage::SpecialPage( 'Interwiki' );
-			$this->includable( true );
+	class Interwiki extends IncludableSpecialPage {
+		public function __construct() {
+			parent::__construct( 'Interwiki' );
 		}
 
-		function execute( $par = null ) {
+		function execute( $para ) {
+			wfLoadExtensionMessages( 'Interwiki' );
 			$fname = 'Interwiki::execute';
 			global $wgOut, $wgRequest, $wgUser;
 
@@ -61,6 +59,8 @@ function Interwiki() {
 			// Protect administrative actions against malicious requests
 			$safePost = $wgRequest->wasPosted() &&
 				$wgUser->matchEditToken( $wgRequest->getVal( 'wpEditToken' ) );
+
+			$out = "";
 
 			if ($do == "delete") {
 				if (!$admin) { $wgOut->permissionRequired('interwiki'); return; }
@@ -227,7 +227,7 @@ function Interwiki() {
 		}
 	}
 
-	SpecialPage::addPage( new Interwiki );
+	IncludableSpecialPage::addPage( new Interwiki );
 }
 
 function wfInterwikiAddLogType( &$types ) {

@@ -1,5 +1,9 @@
 <?php
-/*
+/**
+ * Internationalisation file for extension Interwiki.
+ *
+ * @addtogroup Extensions
+ *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2 of the License, or
@@ -12,9 +16,9 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
-$wgSpecialInterwikiMessages = array();
+$messages = array();
 
-$wgSpecialInterwikiMessages['en'] = array(
+$messages['en'] = array(
 	# general messages
 	'interwiki' => 'View and edit interwiki data',
 	'interwiki_prefix' => 'Prefix',
@@ -48,7 +52,7 @@ $wgSpecialInterwikiMessages['en'] = array(
 /** Arabic (العربية)
  * @author Meno25
  */
-$wgSpecialInterwikiMessages['ar'] = array(
+$messages['ar'] = array(
 	'interwiki'               => 'عرض وتعديل بيانات الإنترويكي',
 	'interwiki_prefix'        => 'بادئة',
 	'interwiki_reasonfield'   => 'سبب',
@@ -75,7 +79,7 @@ $wgSpecialInterwikiMessages['ar'] = array(
 /** Bulgarian (Български)
  * @author DCLXVI
  */
-$wgSpecialInterwikiMessages['bg'] = array(
+$messages['bg'] = array(
 	'interwiki'               => 'Преглед и управление на междууикитата',
 	'interwiki_prefix'        => 'Представка:',
 	'interwiki_reasonfield'   => 'Причина',
@@ -93,7 +97,7 @@ $wgSpecialInterwikiMessages['bg'] = array(
  * @author MF-Warburg
  * @author Raimond Spekking
  */
-$wgSpecialInterwikiMessages['de'] = array(
+$messages['de'] = array(
 	'interwiki'               => 'Interwiki-Daten betrachten und bearbeiten',
 	'interwiki_prefix'        => 'Präfix',
 	'interwiki_reasonfield'   => 'Grund',
@@ -118,7 +122,7 @@ $wgSpecialInterwikiMessages['de'] = array(
 /** Greek (Ελληνικά)
  * @author Consta
  */
-$wgSpecialInterwikiMessages['el'] = array(
+$messages['el'] = array(
 	'interwiki_prefix'        => 'Πρόθεμα',
 	'interwiki_reasonfield'   => 'Λόγος',
 	'interwiki_defaultreason' => 'Δεν δίνετε λόγος',
@@ -128,7 +132,7 @@ $wgSpecialInterwikiMessages['el'] = array(
  * @author Grondin
  * @author Sherbrooke
  */
-$wgSpecialInterwikiMessages['fr'] = array(
+$messages['fr'] = array(
 	'interwiki'               => 'Voir et manipuler les données interwiki',
 	'interwiki_prefix'        => 'Préfixe',
 	'interwiki_reasonfield'   => 'Motif',
@@ -154,7 +158,7 @@ $wgSpecialInterwikiMessages['fr'] = array(
  * @author Alma
  * @author Xosé
  */
-$wgSpecialInterwikiMessages['gl'] = array(
+$messages['gl'] = array(
 	'interwiki'               => 'Ver e manipular datos interwiki',
 	'interwiki_prefix'        => 'Prefixo',
 	'interwiki_reasonfield'   => 'Razón',
@@ -177,19 +181,19 @@ $wgSpecialInterwikiMessages['gl'] = array(
 );
 
 /** Gujarati (ગુજરાતી) */
-$wgSpecialInterwikiMessages['gu'] = array(
+$messages['gu'] = array(
 	'interwiki_reasonfield' => 'કારણ',
 );
 
 /** Hawaiian (Hawai`i)
  * @author SPQRobin
  */
-$wgSpecialInterwikiMessages['haw'] = array(
+$messages['haw'] = array(
 	'interwiki_reasonfield'   => 'Ke kumu',
 	'interwiki_defaultreason' => '‘a‘ohe kumu',
 );
 
-$wgSpecialInterwikiMessages['hr'] = array(
+$messages['hr'] = array(
 	'interwiki'             => 'Vidi i uredi međuwiki podatke',
 	'interwiki_prefix'      => 'Prefiks',
 	'interwiki_local'       => 'Lokalno',
@@ -204,7 +208,7 @@ $wgSpecialInterwikiMessages['hr'] = array(
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
-$wgSpecialInterwikiMessages['hsb'] = array(
+$messages['hsb'] = array(
 	'interwiki'               => 'Interwiki-daty wobhladać a změnić',
 	'interwiki_prefix'        => 'Prefiks',
 	'interwiki_reasonfield'   => 'Přičina',
@@ -231,7 +235,7 @@ $wgSpecialInterwikiMessages['hsb'] = array(
  * @author UV
  * @author SPQRobin
  */
-$wgSpecialInterwikiMessages['la'] = array(
+$messages['la'] = array(
 	'interwiki'               => 'Videre et recensere data intervica',
 	'interwiki_prefix'        => 'Praefixum',
 	'interwiki_reasonfield'   => 'Causa',
@@ -255,7 +259,7 @@ $wgSpecialInterwikiMessages['la'] = array(
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
-$wgSpecialInterwikiMessages['lb'] = array(
+$messages['lb'] = array(
 	'interwiki'               => 'Interwiki-Date kucken a veränneren',
 	'interwiki_prefix'        => 'Prefix',
 	'interwiki_reasonfield'   => 'Grond',
@@ -266,7 +270,7 @@ $wgSpecialInterwikiMessages['lb'] = array(
 /** Dutch (Nederlands)
  * @author SPQRobin
  */
-$wgSpecialInterwikiMessages['nl'] = array(
+$messages['nl'] = array(
 	'interwiki'               => 'Interwikigegevens bekijken en wijzigen',
 	'interwiki_prefix'        => 'Voorvoegsel',
 	'interwiki_reasonfield'   => 'Reden',
@@ -288,7 +292,7 @@ $wgSpecialInterwikiMessages['nl'] = array(
 	'interwiki_defaultreason' => 'geen reden gegeven',
 );
 
-$wgSpecialInterwikiMessages['no'] = array(
+$messages['no'] = array(
 	'interwiki'             => 'Vis og manipuler interwikidata',
 	'interwiki_prefix'      => 'Prefiks',
 	'interwiki_local'       => 'Lokal',
@@ -312,7 +316,7 @@ $wgSpecialInterwikiMessages['no'] = array(
 /** Occitan (Occitan)
  * @author Cedric31
  */
-$wgSpecialInterwikiMessages['oc'] = array(
+$messages['oc'] = array(
 	'interwiki'               => 'Veire e editar las donadas interwiki',
 	'interwiki_reasonfield'   => 'Motiu',
 	'interwiki_intro'         => "Vejatz $1 per obténer mai d'informacions per çò que concernís la taula interwiki. Aquò es lo [[Special:Log/interwiki|jornal de las modificacions]] de la taula interwiki.",
@@ -333,7 +337,7 @@ $wgSpecialInterwikiMessages['oc'] = array(
 	'interwiki_defaultreason' => 'Cap de motiu balhat',
 );
 
-$wgSpecialInterwikiMessages['pt'] = array(
+$messages['pt'] = array(
 	'interwiki'             => 'Ver e manipular dados de interwikis',
 	'interwiki_prefix'      => 'Prefixo',
 	'interwiki_local'       => 'Local',#identical but defined
@@ -358,7 +362,7 @@ $wgSpecialInterwikiMessages['pt'] = array(
  * @author Alexander Chemeris
  * @author Illusion
  */
-$wgSpecialInterwikiMessages['ru'] = array(
+$messages['ru'] = array(
 	'interwiki'               => 'Просмотр и изменение префиксов интервики',
 	'interwiki_prefix'        => 'Префикс',
 	'interwiki_reasonfield'   => 'Причина',
@@ -380,7 +384,7 @@ $wgSpecialInterwikiMessages['ru'] = array(
 /** Sassaresu (Sassaresu)
  * @author Felis
  */
-$wgSpecialInterwikiMessages['sdc'] = array(
+$messages['sdc'] = array(
 	'interwiki'               => 'Vidè e mudìfiggà li dati interwiki',
 	'interwiki_prefix'        => 'Prefissu',
 	'interwiki_reasonfield'   => 'Rasgioni',
@@ -395,7 +399,7 @@ $wgSpecialInterwikiMessages['sdc'] = array(
 /** Slovak (Slovenčina)
  * @author Helix84
  */
-$wgSpecialInterwikiMessages['sk'] = array(
+$messages['sk'] = array(
 	'interwiki'               => 'Zobraziť a upravovať údaje interwiki',
 	'interwiki_prefix'        => 'Predpona',
 	'interwiki_reasonfield'   => 'Dôvod',
@@ -420,7 +424,7 @@ $wgSpecialInterwikiMessages['sk'] = array(
 /** Seeltersk (Seeltersk)
  * @author Pyt
  */
-$wgSpecialInterwikiMessages['stq'] = array(
+$messages['stq'] = array(
 	'interwiki'               => 'Interwiki-Doaten bekiekje un beoarbaidje',
 	'interwiki_prefix'        => 'Präfix',
 	'interwiki_reasonfield'   => 'Gruund',
