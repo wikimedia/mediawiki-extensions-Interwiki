@@ -84,11 +84,17 @@ $messages['bg'] = array(
 	'interwiki_prefix'        => 'Представка:',
 	'interwiki_reasonfield'   => 'Причина',
 	'interwiki_intro'         => 'Вижте $1 за повече информация относно таблицата с междууикита. Съществува [[Special:Log/interwiki|дневник на промените]] в таблицата с междууикита.',
+	'interwiki_error'         => 'ГРЕШКА: Таблицата с междууикита е празна или е възникнала друга грешка.',
 	'interwiki_delquestion'   => 'Изтриване на "$1"',
+	'interwiki_deleted'       => '„$1“ беше успешно премахнато от таблицата с междууикита.',
+	'interwiki_delfailed'     => '„$1“ не може да бъде премахнато от таблицата с междууикита.',
 	'interwiki_addtext'       => 'Добавяне на ново междууики',
 	'interwiki_addintro'      => "''Забележка:'' Междууикитата не могат да съдържат интервали ( ), двуеточия (:), амперсанд (&) или знак за равенство (=).",
 	'interwiki_addbutton'     => 'Добавяне',
+	'interwiki_added'         => '„$1“ беше успешно добавено в таблицата с междууикита.',
+	'interwiki_addfailed'     => '„$1“ не може да бъде добавено в таблицата с междууикита. Възможно е вече да е било добавено там.',
 	'interwiki_logpagename'   => 'Дневник на междууикитата',
+	'interwiki_log_added'     => 'добави „$1“ ($2) (trans: $3) (локално: $4) в таблицата с междууикита: $5',
 	'interwiki_logpagetext'   => 'Тази страница съдържа дневник на промените в [[Special:Interwiki|таблицата с междууикита]].',
 	'interwiki_defaultreason' => 'не е посочена причина',
 );
@@ -445,3 +451,4 @@ $messages['stq'] = array(
 	'interwiki_logpagetext'   => 'In dit Logbouk wäide Annerengen an ju [[Special:Interwiki|Interwiki-Tabelle]] protokollierd.',
 	'interwiki_defaultreason' => 'naan Gruund ounroat',
 );
+
