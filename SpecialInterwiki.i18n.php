@@ -160,6 +160,13 @@ $messages['fr'] = array(
 	'interwiki_defaultreason' => 'Aucun motif donné',
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'interwiki_defaulturl' => 'http://www.ègzemplo.com/$1',
+);
+
 /** Galician (Galego)
  * @author Alma
  * @author Xosé
@@ -273,6 +280,18 @@ $messages['lb'] = array(
 	'interwiki_defaultreason' => 'kee Grond uginn',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Slomox
+ */
+$messages['nds'] = array(
+	'interwiki_prefix'        => 'Präfix',
+	'interwiki_reasonfield'   => 'Grund',
+	'interwiki_delquestion'   => '„$1“ warrt rutsmeten',
+	'interwiki_addtext'       => 'Interwiki-Präfix tofögen',
+	'interwiki_addbutton'     => 'Tofögen',
+	'interwiki_defaultreason' => 'keen Grund angeven',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  */
@@ -324,6 +343,7 @@ $messages['no'] = array(
  */
 $messages['oc'] = array(
 	'interwiki'               => 'Veire e editar las donadas interwiki',
+	'interwiki_prefix'        => 'Prefix',
 	'interwiki_reasonfield'   => 'Motiu',
 	'interwiki_intro'         => "Vejatz $1 per obténer mai d'informacions per çò que concernís la taula interwiki. Aquò es lo [[Special:Log/interwiki|jornal de las modificacions]] de la taula interwiki.",
 	'interwiki_error'         => "Error : la taula dels interwikis es voida o un processús s'es mal desenrotlat.",
@@ -372,7 +392,9 @@ $messages['ru'] = array(
 	'interwiki'               => 'Просмотр и изменение настроек интервики',
 	'interwiki_prefix'        => 'Приставка',
 	'interwiki_reasonfield'   => 'Причина',
+	'interwiki_intro'         => 'См. $1, чтобы получить более подробную информацию о таблице интервики. Существует также  [[Special:Log/interwiki|журнал изменений]] таблицы интервики.',
 	'interwiki_delquestion'   => 'Удаление «$1»',
+	'interwiki_deleting'      => 'Вы удаляете приставку «$1».',
 	'interwiki_deleted'       => 'Приставка «$1» успешно удалена из таблицы интервики.',
 	'interwiki_delfailed'     => 'Приставка «$1» не может быть удалена из таблицы интервики.',
 	'interwiki_addtext'       => 'Добавить новую интервики-приставку',
