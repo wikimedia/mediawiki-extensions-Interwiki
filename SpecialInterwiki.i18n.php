@@ -244,6 +244,31 @@ $messages['hsb'] = array(
 	'interwiki_defaultreason' => 'žana přičina podata',
 );
 
+/** Hungarian (Magyar)
+ * @author Bdanee
+ */
+$messages['hu'] = array(
+	'interwiki'               => 'Interwiki adatok megtekintése és szerkesztése',
+	'interwiki_prefix'        => 'Előtag',
+	'interwiki_reasonfield'   => 'Ok',
+	'interwiki_intro'         => 'Lásd a(z) $1 lapot további információkért az interwiki táblákról. Megtekintheted az interwiki táblában bekövetkezett [[Special:Log/interwiki|változások naplóját]] is.',
+	'interwiki_error'         => 'HIBA: az interwiki-tábla üres, vagy valami elromlott.',
+	'interwiki_delquestion'   => '„$1” törlése',
+	'interwiki_deleting'      => 'A(z) „$1” előtag törlésére készülsz.',
+	'interwiki_deleted'       => 'A(z) „$1” előtagot sikeresen eltávolítottam az interwiki táblából.',
+	'interwiki_delfailed'     => 'A(z) „$1” előtagot nem sikerült eltávolítanom az interwiki táblából.',
+	'interwiki_addtext'       => 'Interwiki előtag hozzáadása',
+	'interwiki_addintro'      => 'Új interwiki előtag hozzáadására készülsz. Ügyelj arra, hogy ne tartalmazzon szóközt ( ), kettőspontot (:), és- (&), vagy egyenlő (=) jeleket.',
+	'interwiki_addbutton'     => 'Hozzáadás',
+	'interwiki_added'         => 'A(z) „$1” előtagot sikeresen hozzáadtam az interwiki táblához.',
+	'interwiki_addfailed'     => 'A(z) „$1” előtagot nem tudtam hozzáadni az interwiki táblához. Valószínűleg már létezik.',
+	'interwiki_logpagename'   => 'Interwiki tábla-napló',
+	'interwiki_log_added'     => '„$1” hozzáadva ($2) (ford: $3) (helyi: $4) az interwiki táblához: $5',
+	'interwiki_log_deleted'   => '„$1” előtag eltávolítva az interwiki táblából: $2',
+	'interwiki_logpagetext'   => 'Ez az [[Special:Interwiki|interwiki táblában]] történt változások naplója.',
+	'interwiki_defaultreason' => 'nincs ok megadva',
+);
+
 /** Latin (Latina)
  * @author UV
  * @author SPQRobin
