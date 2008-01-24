@@ -134,6 +134,13 @@ $messages['el'] = array(
 	'interwiki_defaultreason' => 'Δεν δίνετε λόγος',
 );
 
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'interwiki_defaultreason' => 'nenia kialo skribata',
+);
+
 /** French (Français)
  * @author Grondin
  * @author Sherbrooke
