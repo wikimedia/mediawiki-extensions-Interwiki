@@ -349,25 +349,30 @@ $messages['nl'] = array(
 	'interwiki_defaultreason' => 'geen reden gegeven',
 );
 
+/** Norwegian (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
 $messages['no'] = array(
-	'interwiki'             => 'Vis og manipuler interwikidata',
-	'interwiki_prefix'      => 'Prefiks',
-	'interwiki_local'       => 'Lokal',
-	'interwiki_trans'       => 'Trans',#identical but defined
-	'interwiki_reasonfield' => 'Grunn',
-	'interwiki_delquestion' => 'Sletter «$1»',
-	'interwiki_deleting'    => 'Du sletter prefikset «$1».',
-	'interwiki_deleted'     => 'Prefikset «$1» ble fjernet fra interwikitabellen.',
-	'interwiki_delfailed'   => 'Prefikset «$1» kunne ikke fjernes fra interwikitabellen.',
-	'interwiki_addtext'     => 'Legg til et interwikiprefiks.',
-	'interwiki_addbutton'   => 'Legg til',
-	'interwiki_added'       => 'Prefikset «$1» ble lagt til i interwikitabellen.',
-	'interwiki_addfailed'   => 'Prefikset «$1» kunne ikke legges til i interwikitabellen. Det er kanskje brukt der fra før.',
-	'interwiki_logpagename' => 'Interwikitabellogg',
-	'interwiki_log_added'   => 'La til «$1» ($) (trans: $3) (lokal: $4) til interwikitabellen: $5',
-	'interwiki_log_deleted' => 'Fjernet prefikset «$1» fra interwikitabellen: $2',
-	'interwiki_logpagetext' => 'Dette er en logg over endringer i [[Special:Interwiki|interwikitabellen]].',
-	'interwiki_error'       => 'FEIL: Interwikitabellen er tom, eller noe gikk gærent.',
+	'interwiki'               => 'Vis og manipuler interwikidata',
+	'interwiki_prefix'        => 'Prefiks',
+	'interwiki_reasonfield'   => 'Grunn',
+	'interwiki_intro'         => 'Se $1 for mer informasjon om interwikitabellen. Det er en [[Special:Log/interwiki|logg]] over endringer i interwikitabellen.',
+	'interwiki_local'         => 'Lokal',
+	'interwiki_error'         => 'FEIL: Interwikitabellen er tom, eller noe gikk gærent.',
+	'interwiki_delquestion'   => 'Sletter «$1»',
+	'interwiki_deleting'      => 'Du sletter prefikset «$1».',
+	'interwiki_deleted'       => 'Prefikset «$1» ble fjernet fra interwikitabellen.',
+	'interwiki_delfailed'     => 'Prefikset «$1» kunne ikke fjernes fra interwikitabellen.',
+	'interwiki_addtext'       => 'Legg til et interwikiprefiks.',
+	'interwiki_addintro'      => 'Du legger til et nytt interwikiprefiks. Husk at det ikke kan inneholde mellomrom ( ), kolon (:), &-tegn eller likhetstegn (=).',
+	'interwiki_addbutton'     => 'Legg til',
+	'interwiki_added'         => 'Prefikset «$1» ble lagt til i interwikitabellen.',
+	'interwiki_addfailed'     => 'Prefikset «$1» kunne ikke legges til i interwikitabellen. Det er kanskje brukt der fra før.',
+	'interwiki_logpagename'   => 'Interwikitabellogg',
+	'interwiki_log_added'     => 'La til «$1» ($) (trans: $3) (lokal: $4) til interwikitabellen: $5',
+	'interwiki_log_deleted'   => 'Fjernet prefikset «$1» fra interwikitabellen: $2',
+	'interwiki_logpagetext'   => 'Dette er en logg over endringer i [[Special:Interwiki|interwikitabellen]].',
+	'interwiki_defaultreason' => 'ingen grunn oppgitt',
 );
 
 /** Occitan (Occitan)
@@ -395,25 +400,30 @@ $messages['oc'] = array(
 	'interwiki_defaultreason' => 'Cap de motiu balhat',
 );
 
+/** Portuguese (Português)
+ * @author Malafaya
+ * @author 555
+ */
 $messages['pt'] = array(
-	'interwiki'             => 'Ver e manipular dados de interwikis',
-	'interwiki_prefix'      => 'Prefixo',
-	'interwiki_local'       => 'Local',#identical but defined
-	'interwiki_trans'       => 'Trans',#identical but defined
-	'interwiki_reasonfield' => 'Motivo',
-	'interwiki_delquestion' => 'A apagar "$1"',
-	'interwiki_deleting'    => 'Está a apagar o prefixo "$1".',
-	'interwiki_deleted'     => 'O prefixo "$1" foi removido da tabelas de interwikis com sucesso.',
-	'interwiki_delfailed'   => 'O prefixo "$1" não pôde ser removido da tabela de interwikis.',
-	'interwiki_addtext'     => 'Adicionar um prefixo de interwikis',
-	'interwiki_addbutton'   => 'Adicionar',
-	'interwiki_added'       => 'O prefixo "$1" foi adicionado à tabela de interwikis com sucesso.',
-	'interwiki_addfailed'   => 'O prefixo "$1" não pôde ser adicionado à tabela de interwikis. Possivelmente já existe nessa tabela.',
-	'interwiki_logpagename' => 'Registo da tabela de interwikis',
-	'interwiki_log_added'   => 'Adicionado "$1" ($2) (trans: $3) (local: $4) à tabela de interwikis: $5',
-	'interwiki_log_deleted' => 'Removido o prefixo "$1" da tabela de interwikis: $2',
-	'interwiki_logpagetext' => 'Este é um registo das alterações à [[{{ns:special}}:Interwiki|tabela de interwikis]].',
-	'interwiki_error'       => 'ERRO: A tabela de interwikis está vazia, ou alguma outra coisa não correu bem.',
+	'interwiki'               => 'Ver e manipular dados de interwikis',
+	'interwiki_prefix'        => 'Prefixo',
+	'interwiki_reasonfield'   => 'Motivo',
+	'interwiki_intro'         => 'Veja $1 para maiores informações em relação à tabela de interwikis. Há também um [[{{ns:special}}:Log/interwiki|registo de alterações]] na tabela de interwikis.',
+	'interwiki_error'         => 'ERRO: A tabela de interwikis está vazia, ou alguma outra coisa não correu bem.',
+	'interwiki_delquestion'   => 'A apagar "$1"',
+	'interwiki_deleting'      => 'Está a apagar o prefixo "$1".',
+	'interwiki_deleted'       => 'O prefixo "$1" foi removido da tabelas de interwikis com sucesso.',
+	'interwiki_delfailed'     => 'O prefixo "$1" não pôde ser removido da tabela de interwikis.',
+	'interwiki_addtext'       => 'Adicionar um prefixo de interwikis',
+	'interwiki_addintro'      => 'Você se encontra prestes a adicionar um novo prefixo de interwiki. Lembre-se de que ele não pode conter espaços ( ), dois-pontos (:), conjunções (&) ou sinais de igualdade (=).',
+	'interwiki_addbutton'     => 'Adicionar',
+	'interwiki_added'         => 'O prefixo "$1" foi adicionado à tabela de interwikis com sucesso.',
+	'interwiki_addfailed'     => 'O prefixo "$1" não pôde ser adicionado à tabela de interwikis. Possivelmente já existe nessa tabela.',
+	'interwiki_logpagename'   => 'Registo da tabela de interwikis',
+	'interwiki_log_added'     => 'Adicionado "$1" ($2) (trans: $3) (local: $4) à tabela de interwikis: $5',
+	'interwiki_log_deleted'   => 'Removido o prefixo "$1" da tabela de interwikis: $2',
+	'interwiki_logpagetext'   => 'Este é um registo das alterações à [[{{ns:special}}:Interwiki|tabela de interwikis]].',
+	'interwiki_defaultreason' => 'sem motivo especificado',
 );
 
 /** Russian (Русский)
