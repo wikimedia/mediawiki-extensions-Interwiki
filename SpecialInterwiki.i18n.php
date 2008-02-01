@@ -309,6 +309,7 @@ $messages['lb'] = array(
 	'interwiki_prefix'        => 'Prefix',
 	'interwiki_reasonfield'   => 'Grond',
 	'interwiki_delquestion'   => 'Läscht "$1"',
+	'interwiki_addbutton'     => 'Derbäisetzen',
 	'interwiki_defaultreason' => 'kee Grond uginn',
 );
 
