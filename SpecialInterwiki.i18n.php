@@ -518,3 +518,10 @@ $messages['stq'] = array(
 	'interwiki_defaultreason' => 'naan Gruund ounroat',
 );
 
+/** Swedish (Svenska)
+ * @author Max sonnelid
+ */
+$messages['sv'] = array(
+	'interwiki' => 'Visa och redigera interwiki data',
+);
+
