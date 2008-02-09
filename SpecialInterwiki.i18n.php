@@ -308,8 +308,10 @@ $messages['lb'] = array(
 	'interwiki'               => 'Interwiki-Date kucken a veränneren',
 	'interwiki_prefix'        => 'Prefix',
 	'interwiki_reasonfield'   => 'Grond',
+	'interwiki_local'         => 'Lokal',
 	'interwiki_delquestion'   => 'Läscht "$1"',
 	'interwiki_addbutton'     => 'Derbäisetzen',
+	'interwiki_defaulturl'    => 'http://www.beispill.com/$1',
 	'interwiki_defaultreason' => 'kee Grond uginn',
 );
 
@@ -519,9 +521,9 @@ $messages['stq'] = array(
 );
 
 /** Swedish (Svenska)
- * @author Max sonnelid
+ * @author Lejonel
  */
 $messages['sv'] = array(
-	'interwiki' => 'Visa och redigera interwiki data',
+	'interwiki' => 'Visa och redigera interwiki-data',
 );
 
