@@ -21,6 +21,7 @@ $messages = array();
 $messages['en'] = array(
 	# general messages
 	'interwiki' => 'View and edit interwiki data',
+	'interwiki-desc' => 'Adds a [[Special:Interwiki|special page]] to view and edit the interwiki table',
 	'interwiki_prefix' => 'Prefix',
 	'interwiki_reasonfield' => 'Reason',
 	'interwiki_intro' => 'See $1 for more information about the interwiki table. There is a [[Special:Log/interwiki|log of changes]] to the interwiki table.',
@@ -147,6 +148,7 @@ $messages['eo'] = array(
  */
 $messages['fr'] = array(
 	'interwiki'               => 'Voir et manipuler les données interwiki',
+	'interwiki-desc'          => 'Ajoute une [[Special:Interwiki|page spéciale]] pour voir et éditer la table interwiki',
 	'interwiki_prefix'        => 'Préfixe',
 	'interwiki_reasonfield'   => 'Motif',
 	'interwiki_intro'         => "Voyez $1 pour obtenir plus d'informations en ce qui concerne la table interwiki. Ceci est le [[Special:Log/interwiki|journal des modifications]] de la table interwiki.",

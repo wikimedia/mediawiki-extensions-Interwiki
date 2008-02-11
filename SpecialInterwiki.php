@@ -21,6 +21,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'description' => 'Adds a [[Special:Interwiki|special page]] to view and edit the interwiki table',
 	'version' => '2008-01-11',
 	'author'  => array( 'Stephanie Amanda Stevens', 'SPQRobin', 'others' ),
+	'descriptionmsg' => 'interwiki-desc',
 );
 
 $wgExtensionMessagesFiles['Interwiki'] = dirname(__FILE__) . '/SpecialInterwiki.i18n.php';
