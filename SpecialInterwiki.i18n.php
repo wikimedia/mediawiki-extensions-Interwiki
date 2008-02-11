@@ -100,6 +100,13 @@ $messages['bg'] = array(
 	'interwiki_defaultreason' => 'не е посочена причина',
 );
 
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'interwiki_addbutton' => 'Ouzhpennañ',
+);
+
 /** German (Deutsch)
  * @author MF-Warburg
  * @author Raimond Spekking
@@ -232,6 +239,7 @@ $messages['hr'] = array(
  */
 $messages['hsb'] = array(
 	'interwiki'               => 'Interwiki-daty wobhladać a změnić',
+	'interwiki-desc'          => 'Přidawa [[Special:Interwiki|specialnu stronu]] za wobhladowanje a wobdźěłowanje interwiki-tabele',
 	'interwiki_prefix'        => 'Prefiks',
 	'interwiki_reasonfield'   => 'Přičina',
 	'interwiki_intro'         => 'Hlej $1 za dalše informacije wo tabeli interwiki. Je [[Special:Log/interwiki|protokol změnow]] k tabeli interwiki.',
@@ -331,9 +339,11 @@ $messages['nds'] = array(
 
 /** Dutch (Nederlands)
  * @author SPQRobin
+ * @author Siebrand
  */
 $messages['nl'] = array(
 	'interwiki'               => 'Interwikigegevens bekijken en wijzigen',
+	'interwiki-desc'          => 'Voegt een [[Special:Interwiki|speciale pagina]] toe om de interwikitabel te bekijken en bewerken',
 	'interwiki_prefix'        => 'Voorvoegsel',
 	'interwiki_reasonfield'   => 'Reden',
 	'interwiki_intro'         => 'Zie $1 voor meer informatie over de interwikitabel. Er is een [[Special:Log/interwiki|logboek van wijzigingen]] aan de interwikitabel.',
@@ -403,6 +413,13 @@ $messages['oc'] = array(
 	'interwiki_log_deleted'   => 'Prefix « $1 » suprimit de la taula interwiki: $2',
 	'interwiki_logpagetext'   => 'Aquò es lo jornal dels cambiaments dins la [[Special:Interwiki|taula interwiki]].',
 	'interwiki_defaultreason' => 'Cap de motiu balhat',
+);
+
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'interwiki_reasonfield' => 'سبب',
 );
 
 /** Portuguese (Português)
