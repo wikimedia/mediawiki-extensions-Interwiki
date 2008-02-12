@@ -55,6 +55,7 @@ $messages['en'] = array(
  */
 $messages['ar'] = array(
 	'interwiki'               => 'عرض وتعديل بيانات الإنترويكي',
+	'interwiki-desc'          => 'يضيف [[Special:Interwiki|صفحة خاصة]] لرؤية وتعديل جدول الإنترويكي',
 	'interwiki_prefix'        => 'بادئة',
 	'interwiki_reasonfield'   => 'سبب',
 	'interwiki_intro'         => 'انظر $1 لمزيد من المعلومات حول جدول الإنترويكي. يوجد [[Special:Log/interwiki|سجل بالتغييرات]] لجدول الإنترويكي.',
@@ -390,6 +391,17 @@ $messages['no'] = array(
 	'interwiki_defaultreason' => 'ingen grunn oppgitt',
 );
 
+/** Northern Sotho (Sesotho sa Leboa)
+ * @author Mohau
+ */
+$messages['nso'] = array(
+	'interwiki_reasonfield'   => 'Lebaka',
+	'interwiki_delquestion'   => 'Phumula "$1"',
+	'interwiki_addbutton'     => 'Lokela',
+	'interwiki_defaulturl'    => 'http://www.mohlala.com/$1',
+	'interwiki_defaultreason' => 'gago lebaka leo lefilwego',
+);
+
 /** Occitan (Occitan)
  * @author Cedric31
  */
@@ -428,6 +440,7 @@ $messages['ps'] = array(
  */
 $messages['pt'] = array(
 	'interwiki'               => 'Ver e manipular dados de interwikis',
+	'interwiki-desc'          => 'Adiciona uma [[{{ns:Special}}:Interwiki|página especial]] para visualizar e editar a tabela de interwikis',
 	'interwiki_prefix'        => 'Prefixo',
 	'interwiki_reasonfield'   => 'Motivo',
 	'interwiki_intro'         => 'Veja $1 para maiores informações em relação à tabela de interwikis. Há também um [[{{ns:special}}:Log/interwiki|registo de alterações]] na tabela de interwikis.',
@@ -540,9 +553,12 @@ $messages['stq'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author M.M.S.
  * @author Lejonel
  */
 $messages['sv'] = array(
-	'interwiki' => 'Visa och redigera interwiki-data',
+	'interwiki'             => 'Visa och redigera interwiki-data',
+	'interwiki_delquestion' => 'Tar bort "$1"',
+	'interwiki_addbutton'   => 'Lägg till',
 );
 
