@@ -407,6 +407,7 @@ $messages['nso'] = array(
  */
 $messages['oc'] = array(
 	'interwiki'               => 'Veire e editar las donadas interwiki',
+	'interwiki-desc'          => 'Ajusta una [[Special:Interwiki|pagina especiala]] per veire e editar la taula interwiki',
 	'interwiki_prefix'        => 'Prefix',
 	'interwiki_reasonfield'   => 'Motiu',
 	'interwiki_intro'         => "Vejatz $1 per obténer mai d'informacions per çò que concernís la taula interwiki. Aquò es lo [[Special:Log/interwiki|jornal de las modificacions]] de la taula interwiki.",
@@ -507,6 +508,7 @@ $messages['sdc'] = array(
  */
 $messages['sk'] = array(
 	'interwiki'               => 'Zobraziť a upravovať údaje interwiki',
+	'interwiki-desc'          => 'Pridáva [[Special:Interwiki|špeciálnu stránku]] na zobrazovanie a upravovanie tabuľky interwiki',
 	'interwiki_prefix'        => 'Predpona',
 	'interwiki_reasonfield'   => 'Dôvod',
 	'interwiki_intro'         => 'Viac informácií o tabuľke interwiki nájdete na $1. Existuje [[Special:Log/interwiki|záznam zmien]] tabuľky interwiki.',
