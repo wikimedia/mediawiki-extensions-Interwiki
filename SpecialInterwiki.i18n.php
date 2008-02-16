@@ -560,6 +560,10 @@ $messages['stq'] = array(
  */
 $messages['sv'] = array(
 	'interwiki'             => 'Visa och redigera interwiki-data',
+	'interwiki-desc'        => 'Lägger till en [[Special:Interwiki|special sida]] till att visa och redigera interwiki tabellen',
+	'interwiki_prefix'      => 'Prefix',
+	'interwiki_reasonfield' => 'Anledning',
+	'interwiki_intro'       => 'Se $1 för mer information om interwiki tebellen. Det är en [[Special:Log/interwiki|logg av ändringar]] till interwiki tabellen.',
 	'interwiki_delquestion' => 'Tar bort "$1"',
 	'interwiki_addbutton'   => 'Lägg till',
 );
