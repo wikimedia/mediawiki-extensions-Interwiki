@@ -370,6 +370,7 @@ $messages['nl'] = array(
  */
 $messages['no'] = array(
 	'interwiki'               => 'Vis og manipuler interwikidata',
+	'interwiki-desc'          => 'Legger til en [[Special:Interwiki|spesialside]] som gjør at man kan se og redigere interwiki-tabellen.',
 	'interwiki_prefix'        => 'Prefiks',
 	'interwiki_reasonfield'   => 'Grunn',
 	'interwiki_intro'         => 'Se $1 for mer informasjon om interwikitabellen. Det er en [[Special:Log/interwiki|logg]] over endringer i interwikitabellen.',
