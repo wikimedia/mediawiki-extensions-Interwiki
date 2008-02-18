@@ -469,6 +469,7 @@ $messages['pt'] = array(
  */
 $messages['ru'] = array(
 	'interwiki'               => 'Просмотр и изменение настроек интервики',
+	'interwiki-desc'          => 'Добавляет [[Special:Interwiki|служебную страницу]] для просмотра и редактирования таблицы префиксов интервики.',
 	'interwiki_prefix'        => 'Приставка',
 	'interwiki_reasonfield'   => 'Причина',
 	'interwiki_intro'         => 'См. $1, чтобы получить более подробную информацию о таблице интервики. Существует также  [[Special:Log/interwiki|журнал изменений]] таблицы интервики.',
@@ -560,12 +561,14 @@ $messages['stq'] = array(
  * @author Lejonel
  */
 $messages['sv'] = array(
-	'interwiki'             => 'Visa och redigera interwiki-data',
-	'interwiki-desc'        => 'Lägger till en [[Special:Interwiki|special sida]] till att visa och redigera interwiki tabellen',
-	'interwiki_prefix'      => 'Prefix',
-	'interwiki_reasonfield' => 'Anledning',
-	'interwiki_intro'       => 'Se $1 för mer information om interwiki tebellen. Det är en [[Special:Log/interwiki|logg av ändringar]] till interwiki tabellen.',
-	'interwiki_delquestion' => 'Tar bort "$1"',
-	'interwiki_addbutton'   => 'Lägg till',
+	'interwiki'               => 'Visa och redigera interwiki-data',
+	'interwiki-desc'          => 'Lägger till en [[Special:Interwiki|special sida]] till att visa och redigera interwiki tabellen',
+	'interwiki_prefix'        => 'Prefix',
+	'interwiki_reasonfield'   => 'Anledning',
+	'interwiki_intro'         => 'Se $1 för mer information om interwiki tebellen. Det är en [[Special:Log/interwiki|logg av ändringar]] till interwiki tabellen.',
+	'interwiki_delquestion'   => 'Tar bort "$1"',
+	'interwiki_addtext'       => 'Lägg till ett interwiki prefix',
+	'interwiki_addbutton'     => 'Lägg till',
+	'interwiki_defaultreason' => 'ingen anledning given',
 );
 
