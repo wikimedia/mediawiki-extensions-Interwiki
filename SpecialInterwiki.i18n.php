@@ -572,3 +572,12 @@ $messages['sv'] = array(
 	'interwiki_defaultreason' => 'ingen anledning given',
 );
 
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'interwiki_reasonfield'   => 'కారణం',
+	'interwiki_addbutton'     => 'చేర్చు',
+	'interwiki_defaultreason' => 'కారణం ఇవ్వలేదు',
+);
+
