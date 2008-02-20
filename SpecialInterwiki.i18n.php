@@ -185,15 +185,17 @@ $messages['frp'] = array(
 );
 
 /** Galician (Galego)
- * @author Alma
  * @author Xosé
+ * @author Alma
+ * @author Toliño
  */
 $messages['gl'] = array(
 	'interwiki'               => 'Ver e manipular datos interwiki',
+	'interwiki-desc'          => 'Engade unha [[Special:Interwiki|páxina especial]] para ver e editar a táboa interwiki',
 	'interwiki_prefix'        => 'Prefixo',
 	'interwiki_reasonfield'   => 'Razón',
 	'interwiki_intro'         => 'Vexa $1 para máis información acerca da táboa interwiki. Hai un [[Special:Log/interwiki|rexistro de cambios]] á táboa interwiki.',
-	'interwiki_error'         => 'ERRO: A táboa interwiki está baleira, ou algo máis saleu mal.',
+	'interwiki_error'         => 'ERRO: A táboa interwiki está baleira, ou algo máis saíu mal.',
 	'interwiki_delquestion'   => 'Eliminando "$1"',
 	'interwiki_deleting'      => 'Vai eliminar o prefixo "$1".',
 	'interwiki_deleted'       => 'Eliminouse sen problemas o prefixo "$1" da táboa interwiki.',
@@ -433,7 +435,11 @@ $messages['oc'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'interwiki_reasonfield' => 'سبب',
+	'interwiki_prefix'        => 'مختاړی',
+	'interwiki_reasonfield'   => 'سبب',
+	'interwiki_deleting'      => 'تاسو د "$1" مختاړی ړنګوی.',
+	'interwiki_addbutton'     => 'ورګډول',
+	'interwiki_defaultreason' => 'هېڅ کوم سبب نه دی ورکړ شوی',
 );
 
 /** Portuguese (Português)
