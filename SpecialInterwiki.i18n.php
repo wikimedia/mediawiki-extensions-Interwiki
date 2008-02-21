@@ -575,6 +575,7 @@ $messages['sv'] = array(
 	'interwiki_delquestion'   => 'Tar bort "$1"',
 	'interwiki_addtext'       => 'Lägg till ett interwiki prefix',
 	'interwiki_addbutton'     => 'Lägg till',
+	'interwiki_logpagename'   => 'Interwiki tabells logg',
 	'interwiki_defaultreason' => 'ingen anledning given',
 );
 
