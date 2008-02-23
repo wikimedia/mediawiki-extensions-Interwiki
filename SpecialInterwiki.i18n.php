@@ -584,6 +584,7 @@ $messages['sv'] = array(
  */
 $messages['te'] = array(
 	'interwiki_reasonfield'   => 'కారణం',
+	'interwiki_delquestion'   => '"$1"ని తొలగిస్తున్నారు',
 	'interwiki_addbutton'     => 'చేర్చు',
 	'interwiki_defaultreason' => 'కారణం ఇవ్వలేదు',
 );
