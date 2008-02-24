@@ -153,6 +153,7 @@ $messages['eo'] = array(
 /** French (Français)
  * @author Grondin
  * @author Sherbrooke
+ * @author Urhixidur
  */
 $messages['fr'] = array(
 	'interwiki'               => 'Voir et manipuler les données interwiki',
@@ -163,7 +164,7 @@ $messages['fr'] = array(
 	'interwiki_error'         => "Erreur : la table des interwikis est vide ou un processus s'est mal déroulé.",
 	'interwiki_delquestion'   => 'Suppression "$1"',
 	'interwiki_deleting'      => 'Vous effacez présentement le préfixe « $1 ».',
-	'interwiki_deleted'       => '$1 a été enlevée avec succès de la table interwiki.',
+	'interwiki_deleted'       => '$1 a été enlevé avec succès de la table interwiki.',
 	'interwiki_delfailed'     => "$1 n'a pas pu être enlevé de la table interwiki.",
 	'interwiki_addtext'       => 'Ajoute un préfixe interwiki',
 	'interwiki_addintro'      => "Vous êtes en train d'ajouter un préfixe interwiki. Rappelez-vous qu'il ne peut pas contenir d'espaces ( ), de double points (:), d'éperluettes (&) ou de signes égal (=)",
@@ -587,5 +588,16 @@ $messages['te'] = array(
 	'interwiki_delquestion'   => '"$1"ని తొలగిస్తున్నారు',
 	'interwiki_addbutton'     => 'చేర్చు',
 	'interwiki_defaultreason' => 'కారణం ఇవ్వలేదు',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'interwiki'             => 'Xem và sửa đổi dữ liệu về liên kết liên wiki',
+	'interwiki_prefix'      => 'Tiền tố',
+	'interwiki_reasonfield' => 'Lý do',
+	'interwiki_addtext'     => 'Thêm tiền tố liên kết liên wiki',
+	'interwiki_addbutton'   => 'Thêm',
 );
 
