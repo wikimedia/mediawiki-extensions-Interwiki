@@ -290,6 +290,14 @@ $messages['hu'] = array(
 	'interwiki_defaultreason' => 'nincs ok megadva',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author Chhorran
+ */
+$messages['km'] = array(
+	'interwiki_reasonfield'   => 'ហេតុផល',
+	'interwiki_defaultreason' => 'គ្មានហេតុផល ត្រូវបានផ្តល់អោយ',
+);
+
 /** Latin (Latina)
  * @author UV
  * @author SPQRobin
