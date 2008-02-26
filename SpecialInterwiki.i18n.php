@@ -83,6 +83,7 @@ $messages['ar'] = array(
  */
 $messages['bg'] = array(
 	'interwiki'               => 'Преглед и управление на междууикитата',
+	'interwiki-desc'          => 'Добавя [[Special:Interwiki|специална страница]] за преглед и управление на таблицата с междууикита',
 	'interwiki_prefix'        => 'Представка:',
 	'interwiki_reasonfield'   => 'Причина',
 	'interwiki_intro'         => 'Вижте $1 за повече информация относно таблицата с междууикита. Съществува [[Special:Log/interwiki|дневник на промените]] в таблицата с междууикита.',
