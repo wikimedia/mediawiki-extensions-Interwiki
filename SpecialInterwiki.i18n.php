@@ -296,6 +296,7 @@ $messages['hu'] = array(
  */
 $messages['km'] = array(
 	'interwiki_reasonfield'   => 'ហេតុផល',
+	'interwiki_addbutton'     => 'បន្ថែម',
 	'interwiki_defaultreason' => 'គ្មានហេតុផល ត្រូវបានផ្តល់អោយ',
 );
 
