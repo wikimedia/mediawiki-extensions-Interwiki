@@ -39,7 +39,7 @@ $messages['en'] = array(
 	'interwiki_addintro' => 'You are adding a new interwiki prefix. Remember that it cannot contain spaces ( ), colons (:), ampersands (&), or equal signs (=).',
 	'interwiki_addbutton' => 'Add',
 	'interwiki_added' => 'Prefix "$1" was successfully added to the interwiki table.',
-	'interwiki_addfailed' => 'Prefix "$1" could not be added to the interwiki table. Possibly he already exists in the interwiki table.',
+	'interwiki_addfailed' => 'Prefix "$1" could not be added to the interwiki table. Possibly it already exists in the interwiki table.',
 	'interwiki_defaulturl' => 'http://www.example.com/$1', # only translate this message if you have to change it
 	# interwiki log
 	'interwiki_logpagename' => 'Interwiki table log',
