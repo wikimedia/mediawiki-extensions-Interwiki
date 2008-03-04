@@ -89,6 +89,7 @@ $messages['bg'] = array(
 	'interwiki_intro'         => 'Вижте $1 за повече информация относно таблицата с междууикита. Съществува [[Special:Log/interwiki|дневник на промените]] в таблицата с междууикита.',
 	'interwiki_error'         => 'ГРЕШКА: Таблицата с междууикита е празна или е възникнала друга грешка.',
 	'interwiki_delquestion'   => 'Изтриване на "$1"',
+	'interwiki_deleting'      => 'Изтриване на представката „$1“.',
 	'interwiki_deleted'       => '„$1“ беше успешно премахнато от таблицата с междууикита.',
 	'interwiki_delfailed'     => '„$1“ не може да бъде премахнато от таблицата с междууикита.',
 	'interwiki_addtext'       => 'Добавяне на ново междууики',
@@ -98,6 +99,7 @@ $messages['bg'] = array(
 	'interwiki_addfailed'     => '„$1“ не може да бъде добавено в таблицата с междууикита. Възможно е вече да е било добавено там.',
 	'interwiki_logpagename'   => 'Дневник на междууикитата',
 	'interwiki_log_added'     => 'добави „$1“ ($2) (trans: $3) (локално: $4) в таблицата с междууикита: $5',
+	'interwiki_log_deleted'   => 'Премахна представката „$1“ от таблицата с междууикитата: $2',
 	'interwiki_logpagetext'   => 'Тази страница съдържа дневник на промените в [[Special:Interwiki|таблицата с междууикита]].',
 	'interwiki_defaultreason' => 'не е посочена причина',
 );
@@ -149,6 +151,33 @@ $messages['el'] = array(
  */
 $messages['eo'] = array(
 	'interwiki_defaultreason' => 'nenia kialo skribata',
+);
+
+/** Finnish (Suomi)
+ * @author Nike
+ * @author Jack Phoenix
+ */
+$messages['fi'] = array(
+	'interwiki'               => 'Katso ja muokkaa wikien välisiä linkkejä',
+	'interwiki-desc'          => 'Lisää [[Special:Interwiki|toimintosivun]], jonka avulla voi katsoa ja muokata interwiki-taulua',
+	'interwiki_prefix'        => 'Etuliite',
+	'interwiki_reasonfield'   => 'Syy',
+	'interwiki_intro'         => 'Lisätietoja interwiki-taulusta on sivulla $1. On olemassa [[Special:Log/interwiki|loki]] interwiki-tauluun tehdyistä muutoksista.',
+	'interwiki_error'         => 'VIRHE: interwiki-taulu on tyhjä tai jokin muu meni pieleen.',
+	'interwiki_delquestion'   => 'Poistetaan ”$1”',
+	'interwiki_deleting'      => 'Olet poistamassa etuliitettä ”$1”.',
+	'interwiki_deleted'       => 'Etuliite ”$1” poistettiin onnistuneesti interwiki-taulusta.',
+	'interwiki_delfailed'     => 'Etuliitteen ”$1” poistaminen interwiki-taulusta epäonnistui.',
+	'interwiki_addtext'       => 'Lisää wikienvälinen etuliite',
+	'interwiki_addintro'      => 'Olet lisäämässä uutta wikienvälistä etuliitettä. Se ei voi sisältää välilyöntejä ( ), kaksoispisteitä (:), et-merkkejä (&), tai yhtäsuuruusmerkkejä (=).',
+	'interwiki_addbutton'     => 'Lisää',
+	'interwiki_added'         => 'Etuliite ”$1” lisättiin onnistuneesti interwiki-tauluun.',
+	'interwiki_addfailed'     => 'Etuliitteen ”$1” lisääminen interwiki-tauluun epäonnistui. Kyseinen etuliite saattaa jo olla interwiki-taulussa.',
+	'interwiki_logpagename'   => 'Loki muutoksista interwiki-tauluun',
+	'interwiki_log_added'     => 'Uusi etuliite ”$1” ($2) (trans: $3) (paikallinen: $4) interwiki-tauluun: $5',
+	'interwiki_log_deleted'   => 'Poisti etuliitteen ”$1” interwiki-taulusta: $2',
+	'interwiki_logpagetext'   => 'Tämä on loki muutoksista [[Special:Interwiki|interwiki-tauluun]].',
+	'interwiki_defaultreason' => 'ei annettua syytä',
 );
 
 /** French (Français)
@@ -295,8 +324,14 @@ $messages['hu'] = array(
  * @author Chhorran
  */
 $messages['km'] = array(
+	'interwiki'               => 'មើល និង កែប្រែ ទិន្នន័យ អន្តរវិគី',
 	'interwiki_reasonfield'   => 'ហេតុផល',
+	'interwiki_intro'         => 'មើល $1 ដើម្បី ពត៌មានបន្ថែម អំពី តារាង អន្តរវិគី ។ នេះ​ជា [[Special:Log/interwiki|កំណត់ហេតុ នៃ បំលាស់ប្តូរ]] ក្នុង តារាង អន្តរវិគី។',
+	'interwiki_delquestion'   => 'ការលុបចេញ "$1"',
 	'interwiki_addbutton'     => 'បន្ថែម',
+	'interwiki_logpagename'   => 'កំណត់ហេតុ តារាង អន្តរវិគី',
+	'interwiki_log_added'     => 'បានបន្ថែម "$1" ($2) (trans: $3) (local: $4) ក្នុង តារាង អន្តរវិគី ៖ $5',
+	'interwiki_logpagetext'   => 'នេះជា កំណត់ហេតុ នៃបំលាស់ប្តូរ ក្នុង [[Special:Interwiki|តារាង អន្តរវិគី]]។',
 	'interwiki_defaultreason' => 'គ្មានហេតុផល ត្រូវបានផ្តល់អោយ',
 );
 
