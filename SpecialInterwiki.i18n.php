@@ -630,8 +630,11 @@ $messages['sv'] = array(
  */
 $messages['te'] = array(
 	'interwiki_reasonfield'   => 'కారణం',
+	'interwiki_error'         => 'పొరపాటు: అంతర్వికీ పట్టిక ఖాళీగా ఉంది, లేదా ఏదో తప్పు జరిగింది.',
 	'interwiki_delquestion'   => '"$1"ని తొలగిస్తున్నారు',
 	'interwiki_addbutton'     => 'చేర్చు',
+	'interwiki_logpagename'   => 'అంతర్వికీ పట్టిక దినచర్య',
+	'interwiki_logpagetext'   => 'ఇది [[Special:Interwiki|అంతర్వికీ పట్టిక]]కి జరిగిన మార్పుల దినచర్య.',
 	'interwiki_defaultreason' => 'కారణం ఇవ్వలేదు',
 );
 
