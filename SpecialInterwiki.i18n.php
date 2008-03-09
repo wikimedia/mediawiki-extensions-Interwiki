@@ -322,12 +322,15 @@ $messages['hu'] = array(
 
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
+ * @author Lovekhmer
  */
 $messages['km'] = array(
 	'interwiki'               => 'មើល និង កែប្រែ ទិន្នន័យ អន្តរវិគី',
+	'interwiki_prefix'        => 'បុព្វបទ',
 	'interwiki_reasonfield'   => 'ហេតុផល',
 	'interwiki_intro'         => 'មើល $1 ដើម្បី ពត៌មានបន្ថែម អំពី តារាង អន្តរវិគី ។ នេះ​ជា [[Special:Log/interwiki|កំណត់ហេតុ នៃ បំលាស់ប្តូរ]] ក្នុង តារាង អន្តរវិគី។',
 	'interwiki_delquestion'   => 'ការលុបចេញ "$1"',
+	'interwiki_deleting'      => 'លោកអ្នកកំពុងលុបបុព្វបទ "$1"។',
 	'interwiki_addbutton'     => 'បន្ថែម',
 	'interwiki_logpagename'   => 'កំណត់ហេតុ តារាង អន្តរវិគី',
 	'interwiki_log_added'     => 'បានបន្ថែម "$1" ($2) (trans: $3) (local: $4) ក្នុង តារាង អន្តរវិគី ៖ $5',
