@@ -150,6 +150,11 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
+	'interwiki_prefix'        => 'Prefikso',
+	'interwiki_reasonfield'   => 'Kialo',
+	'interwiki_delquestion'   => 'Forigante "$1"',
+	'interwiki_deleting'      => 'Vi forigas prefikson "$1".',
+	'interwiki_deleted'       => 'Prefikso "$1" estis sukcese forigita de la intervikia tabelo.',
 	'interwiki_defaultreason' => 'nenia kialo skribata',
 );
 
@@ -480,6 +485,15 @@ $messages['oc'] = array(
 	'interwiki_defaultreason' => 'Cap de motiu balhat',
 );
 
+/** Polish (Polski)
+ * @author McMonster
+ */
+$messages['pl'] = array(
+	'interwiki_reasonfield'   => 'Powód',
+	'interwiki_addbutton'     => 'Dodaj',
+	'interwiki_defaultreason' => 'nie podano powodu',
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
@@ -632,9 +646,16 @@ $messages['sv'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
+	'interwiki'               => 'అంతర్వికీ భోగట్టాని చూడండి మరియు మార్చండి',
+	'interwiki_prefix'        => 'ఉపసర్గ',
 	'interwiki_reasonfield'   => 'కారణం',
+	'interwiki_intro'         => 'అంతర్వికీ పట్టిక గురించి మరింత సమాచారం కోసం $1ని చూడండి. అంతర్వికీ పట్టికకి [[Special:Log/interwiki|మార్పుల దినచర్య]] ఉంది.',
 	'interwiki_error'         => 'పొరపాటు: అంతర్వికీ పట్టిక ఖాళీగా ఉంది, లేదా ఏదో తప్పు జరిగింది.',
 	'interwiki_delquestion'   => '"$1"ని తొలగిస్తున్నారు',
+	'interwiki_deleting'      => 'మీరు "$1" అనే ఉపసర్గని తొలగించబోతున్నారు.',
+	'interwiki_deleted'       => 'అంతర్వికీ పట్టిక నుండి "$1" అనే ఉపసర్గని విజయవంతంగా తొలగించాం.',
+	'interwiki_delfailed'     => 'అంతర్వికీ పట్టిక నుండి "$1" అనే ఉపసర్గని తొలగించలేకపోయాం.',
+	'interwiki_addtext'       => 'ఓ అంతర్వికీ ఉపసర్గని చేర్చండి',
 	'interwiki_addbutton'     => 'చేర్చు',
 	'interwiki_logpagename'   => 'అంతర్వికీ పట్టిక దినచర్య',
 	'interwiki_logpagetext'   => 'ఇది [[Special:Interwiki|అంతర్వికీ పట్టిక]]కి జరిగిన మార్పుల దినచర్య.',
