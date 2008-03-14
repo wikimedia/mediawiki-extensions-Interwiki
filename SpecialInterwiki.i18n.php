@@ -117,6 +117,7 @@ $messages['br'] = array(
  */
 $messages['de'] = array(
 	'interwiki'               => 'Interwiki-Daten betrachten und bearbeiten',
+	'interwiki-desc'          => '[[Special:Interwiki|Spezialseite]] zur Pflege der Interwiki-Tabelle',
 	'interwiki_prefix'        => 'Präfix',
 	'interwiki_reasonfield'   => 'Grund',
 	'interwiki_intro'         => 'Siehe $1 für weitere Informationen über die Interwiki-Tabelle. Das [[Special:Log/interwiki|Logbuch]] zeigt alle Änderungen an der Interwiki-Tabelle.',
