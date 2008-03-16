@@ -422,7 +422,7 @@ $messages['nl'] = array(
 	'interwiki_defaultreason' => 'geen reden gegeven',
 );
 
-/** Norwegian (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
 $messages['no'] = array(
@@ -443,7 +443,7 @@ $messages['no'] = array(
 	'interwiki_added'         => 'Prefikset «$1» ble lagt til i interwikitabellen.',
 	'interwiki_addfailed'     => 'Prefikset «$1» kunne ikke legges til i interwikitabellen. Det er kanskje brukt der fra før.',
 	'interwiki_logpagename'   => 'Interwikitabellogg',
-	'interwiki_log_added'     => 'La til «$1» ($) (trans: $3) (lokal: $4) til interwikitabellen: $5',
+	'interwiki_log_added'     => 'La til «$1» ($2) (trans: $3) (lokal: $4) til interwikitabellen: $5',
 	'interwiki_log_deleted'   => 'Fjernet prefikset «$1» fra interwikitabellen: $2',
 	'interwiki_logpagetext'   => 'Dette er en logg over endringer i [[Special:Interwiki|interwikitabellen]].',
 	'interwiki_defaultreason' => 'ingen grunn oppgitt',
