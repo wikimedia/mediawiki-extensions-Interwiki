@@ -153,9 +153,12 @@ $messages['el'] = array(
 $messages['eo'] = array(
 	'interwiki_prefix'        => 'Prefikso',
 	'interwiki_reasonfield'   => 'Kialo',
+	'interwiki_error'         => 'ERARO: La intervikia tabelo estas malplena, aŭ iel misfunkciis.',
 	'interwiki_delquestion'   => 'Forigante "$1"',
 	'interwiki_deleting'      => 'Vi forigas prefikson "$1".',
 	'interwiki_deleted'       => 'Prefikso "$1" estis sukcese forigita de la intervikia tabelo.',
+	'interwiki_addtext'       => 'Aldonu intervikian prefikson',
+	'interwiki_addbutton'     => 'Aldonu',
 	'interwiki_defaultreason' => 'nenia kialo skribata',
 );
 
