@@ -392,6 +392,32 @@ $messages['lb'] = array(
 	'interwiki_defaultreason' => 'kee Grond uginn',
 );
 
+/** Marathi (मराठी)
+ * @author Kaustubh
+ */
+$messages['mr'] = array(
+	'interwiki'               => 'आंतरविकि डाटा पहा व संपादा',
+	'interwiki-desc'          => 'आंतरविकि सारणी पाहण्यासाठी व संपादन्यासाठी एक [[Special:Interwiki|विशेष पान]] वाढविते',
+	'interwiki_prefix'        => 'उपपद (पूर्वप्रत्यय)',
+	'interwiki_reasonfield'   => 'कारण',
+	'interwiki_intro'         => 'आंतरविकि सारणी बद्दल अधिक माहीतीसाठी $1 पहा. इथे आंतरविकि सारणीत करण्यात आलेल्या [[Special:Log/interwiki|बदलांची यादी]] आहे.',
+	'interwiki_error'         => 'त्रुटी: आंतरविकि सारणी रिकामी आहे, किंवा इतर काहीतरी चुकलेले आहे.',
+	'interwiki_delquestion'   => '"$1" वगळत आहे',
+	'interwiki_deleting'      => 'तुम्ही "$1" उपपद वगळत आहात.',
+	'interwiki_deleted'       => '"$1" उपपद आंतरविकि सारणीमधून वगळण्यात आलेले आहे.',
+	'interwiki_delfailed'     => '"$1" उपपद आंतरविकि सारणीतून वगळता आलेले नाही.',
+	'interwiki_addtext'       => 'एक आंतरविकि उपपद वाढवा',
+	'interwiki_addintro'      => 'तुम्ही एक नवीन आंतरविकि उपपद वाढवित आहात. कृपया लक्षात घ्या की त्यामध्ये स्पेस ( ), विसर्ग (:), आणिचिन्ह (&), किंवा बरोबरची खूण (=) असू शकत नाही.',
+	'interwiki_addbutton'     => 'वाढवा',
+	'interwiki_added'         => '"$1" उपपद आंतरविकि सारणी मध्ये वाढविण्यात आलेले आहे.',
+	'interwiki_addfailed'     => '"$1" उपपद आंतरविकि सारणी मध्ये वाढवू शकलेलो नाही. कदाचित ते अगोदरच अस्तित्वात असण्याची शक्यता आहे.',
+	'interwiki_logpagename'   => 'आंतरविकि सारणी नोंद',
+	'interwiki_log_added'     => 'आंतरविकि सारणी मध्ये "$1" ($2) (trans: $3) (local: $4) वाढविले: $5',
+	'interwiki_log_deleted'   => '"$1" उपपद आंतरविकिसारणी मधून वगळले: $2',
+	'interwiki_logpagetext'   => '[[Special:Interwiki|आंतरविकि सारणीत]] झालेल्या बदलांची ही सूची आहे.',
+	'interwiki_defaultreason' => 'कारण दिलेले नाही',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
