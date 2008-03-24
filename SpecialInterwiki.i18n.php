@@ -725,6 +725,13 @@ $messages['te'] = array(
 	'interwiki_defaultreason' => 'కారణం ఇవ్వలేదు',
 );
 
+/** Tetum (Tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'interwiki_delquestion' => 'Halakon $1',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */
