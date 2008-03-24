@@ -117,6 +117,13 @@ $messages['br'] = array(
 	'interwiki_addbutton' => 'Ouzhpennañ',
 );
 
+/** Danish (Dansk)
+ * @author Jon Harald Søby
+ */
+$messages['da'] = array(
+	'interwiki_reasonfield' => 'Begrundelse',
+);
+
 /** German (Deutsch)
  * @author MF-Warburg
  * @author Raimond Spekking
@@ -165,6 +172,7 @@ $messages['eo'] = array(
 	'interwiki_deleted'       => 'Prefikso "$1" estis sukcese forigita de la intervikia tabelo.',
 	'interwiki_addtext'       => 'Aldonu intervikian prefikson',
 	'interwiki_addbutton'     => 'Aldonu',
+	'interwiki_log_deleted'   => 'Forigita prefikso "$1" de la intervikia tabelo: $2',
 	'interwiki_defaultreason' => 'nenia kialo skribata',
 );
 
@@ -457,6 +465,14 @@ $messages['nl'] = array(
 	'interwiki_defaultreason' => 'geen reden gegeven',
 );
 
+/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+ * @author Jon Harald Søby
+ */
+$messages['nn'] = array(
+	'interwiki_reasonfield'   => 'Årsak',
+	'interwiki_defaultreason' => 'inga grunngjeving',
+);
+
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
@@ -464,7 +480,7 @@ $messages['no'] = array(
 	'interwiki'               => 'Vis og manipuler interwikidata',
 	'interwiki-desc'          => 'Legger til en [[Special:Interwiki|spesialside]] som gjør at man kan se og redigere interwiki-tabellen.',
 	'interwiki_prefix'        => 'Prefiks',
-	'interwiki_reasonfield'   => 'Grunn',
+	'interwiki_reasonfield'   => 'Årsak',
 	'interwiki_intro'         => 'Se $1 for mer informasjon om interwikitabellen. Det er en [[Special:Log/interwiki|logg]] over endringer i interwikitabellen.',
 	'interwiki_local'         => 'Lokal',
 	'interwiki_error'         => 'FEIL: Interwikitabellen er tom, eller noe gikk gærent.',
@@ -481,7 +497,7 @@ $messages['no'] = array(
 	'interwiki_log_added'     => 'La til «$1» ($2) (trans: $3) (lokal: $4) til interwikitabellen: $5',
 	'interwiki_log_deleted'   => 'Fjernet prefikset «$1» fra interwikitabellen: $2',
 	'interwiki_logpagetext'   => 'Dette er en logg over endringer i [[Special:Interwiki|interwikitabellen]].',
-	'interwiki_defaultreason' => 'ingen grunn oppgitt',
+	'interwiki_defaultreason' => 'ingen grunn gitt',
 );
 
 /** Northern Sotho (Sesotho sa Leboa)
