@@ -743,3 +743,22 @@ $messages['vi'] = array(
 	'interwiki_addbutton'   => 'Thêm',
 );
 
+/** Traditional Chinese (‪中文(繁體)‬)
+ * @author Alexsh
+ */
+$messages['zh-hant'] = array(
+	'interwiki'             => '跨語言連結表',
+	'interwiki-desc'        => '新增[[Special:Interwiki|特殊頁面]]以檢視或編輯跨語言連結表',
+	'interwiki_prefix'      => '連結字串',
+	'interwiki_reasonfield' => '原因',
+	'interwiki_intro'       => '請參閱$1以取得更多有關跨語言連結表的訊息。
+
+這裡有跨語言連結表的[[Special:Log/interwiki|更動日誌]]。',
+	'interwiki_error'       => '錯誤：跨語言連結表為空，或是發生其他錯誤。',
+	'interwiki_delquestion' => '正在刪除"$1"',
+	'interwiki_deleting'    => '您正在刪除連結字串"$1"',
+	'interwiki_deleted'     => '已成功從連結表中刪除連結字串"$1"',
+	'interwiki_delfailed'   => '無法從連結表刪除連結字串"$1"',
+	'interwiki_addtext'     => '新增跨語連結字串',
+);
+
