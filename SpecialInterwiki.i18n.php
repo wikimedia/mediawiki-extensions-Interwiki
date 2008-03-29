@@ -705,6 +705,13 @@ $messages['sv'] = array(
 	'interwiki_defaultreason' => 'ingen anledning given',
 );
 
+/** ślůnski (ślůnski)
+ * @author Herr Kriss
+ */
+$messages['szl'] = array(
+	'interwiki_reasonfield' => 'Čymu',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
