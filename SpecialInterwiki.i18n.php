@@ -164,14 +164,22 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
+	'interwiki'               => 'Rigardu kaj redaktu intervikiajn datenojn',
+	'interwiki-desc'          => 'Aldonas [[Special:Interwiki|specialan paĝon]] por rigardi kaj redakti la intervikian tabelon',
 	'interwiki_prefix'        => 'Prefikso',
 	'interwiki_reasonfield'   => 'Kialo',
+	'interwiki_intro'         => 'Vidu $1 por plia informo pri la intervikia tabelo.
+Ekzistas [[Special:Log/interwiki|loglibro pri ŝanĝoj]] por la intervikia tabelo.',
 	'interwiki_error'         => 'ERARO: La intervikia tabelo estas malplena, aŭ iel misfunkciis.',
 	'interwiki_delquestion'   => 'Forigante "$1"',
 	'interwiki_deleting'      => 'Vi forigas prefikson "$1".',
 	'interwiki_deleted'       => 'Prefikso "$1" estis sukcese forigita de la intervikia tabelo.',
+	'interwiki_delfailed'     => 'Prefikso "$1" ne eblis esti forigita el la intervikia tabelo.',
 	'interwiki_addtext'       => 'Aldonu intervikian prefikson',
 	'interwiki_addbutton'     => 'Aldonu',
+	'interwiki_addfailed'     => 'Prefikso "$1" ne eblis esti aldonita al la intervikia tabelo.
+Eble ĝi jam ekzistas en la intervikia tabelo.',
+	'interwiki_logpagename'   => 'Loglibro pri la intervikia tabelo',
 	'interwiki_log_deleted'   => 'Forigita prefikso "$1" de la intervikia tabelo: $2',
 	'interwiki_defaultreason' => 'nenia kialo skribata',
 );
