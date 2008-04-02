@@ -117,6 +117,13 @@ $messages['br'] = array(
 	'interwiki_addbutton' => 'Ouzhpennañ',
 );
 
+/** Welsh (Cymraeg)
+ * @author Lloffiwr
+ */
+$messages['cy'] = array(
+	'interwiki_defaultreason' => 'dim rheswm wedi ei roi',
+);
+
 /** Danish (Dansk)
  * @author Jon Harald Søby
  */
@@ -527,15 +534,15 @@ $messages['oc'] = array(
 	'interwiki-desc'          => 'Ajusta una [[Special:Interwiki|pagina especiala]] per veire e editar la taula interwiki',
 	'interwiki_prefix'        => 'Prefix',
 	'interwiki_reasonfield'   => 'Motiu',
-	'interwiki_intro'         => "Vejatz $1 per obténer mai d'informacions per çò que concernís la taula interwiki. Aquò es lo [[Special:Log/interwiki|jornal de las modificacions]] de la taula interwiki.",
+	'interwiki_intro'         => "Vejatz $1 per obténer mai d'entresenhas per çò que concernís la taula interwiki. Aquò es lo [[Special:Log/interwiki|jornal de las modificacions]] de la taula interwiki.",
 	'interwiki_error'         => "Error : la taula dels interwikis es voida o un processús s'es mal desenrotlat.",
 	'interwiki_delquestion'   => 'Supression "$1"',
 	'interwiki_deleting'      => 'Escafatz presentament lo prefix « $1 ».',
 	'interwiki_deleted'       => '$1 es estada levada amb succès de la taula interwiki.',
 	'interwiki_delfailed'     => '$1 a pas pogut èsser levat de la taula interwiki.',
 	'interwiki_addtext'       => 'Ajusta un prefix interwiki',
-	'interwiki_addintro'      => "Sètz a ajustar un prefix interwiki. Rapelatz-vos que pòt pas conténer d'espacis ( ), de punts dobles (:), d'eperluetas (&) o de signes egal (=)",
-	'interwiki_addbutton'     => 'Ajustar',
+	'interwiki_addintro'      => "Sètz a apondre un prefix interwiki. Rapelatz-vos que pòt pas conténer d'espacis ( ), de punts dobles (:), d'eperluetas (&) o de signes egal (=)",
+	'interwiki_addbutton'     => 'Apondre',
 	'interwiki_added'         => '$1 es estat ajustat amb succès dins la taula interwiki.',
 	'interwiki_addfailed'     => '$1 a pas pogut èsser ajustat a la taula interwiki.',
 	'interwiki_logpagename'   => 'Jornal de la taula interwiki',
