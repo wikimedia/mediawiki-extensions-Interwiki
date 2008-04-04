@@ -202,8 +202,8 @@ Eble ĝi jam ekzistas en la intervikia tabelo.',
 );
 
 /** Finnish (Suomi)
- * @author Nike
  * @author Jack Phoenix
+ * @author Nike
  */
 $messages['fi'] = array(
 	'interwiki'               => 'Katso ja muokkaa wikien välisiä linkkejä',
@@ -310,6 +310,14 @@ $messages['gu'] = array(
 $messages['haw'] = array(
 	'interwiki_reasonfield'   => 'Ke kumu',
 	'interwiki_defaultreason' => '‘a‘ohe kumu',
+);
+
+/** Hindi (हिन्दी)
+ * @author Kaustubh
+ */
+$messages['hi'] = array(
+	'interwiki_reasonfield' => 'कारण',
+	'interwiki_addbutton'   => 'बढायें',
 );
 
 $messages['hr'] = array(
@@ -481,7 +489,8 @@ $messages['nl'] = array(
 	'interwiki-desc'           => 'Voegt een [[Special:Interwiki|speciale pagina]] toe om de interwikitabel te bekijken en bewerken',
 	'interwiki_prefix'         => 'Voorvoegsel',
 	'interwiki_reasonfield'    => 'Reden',
-	'interwiki_intro'          => 'Zie $1 voor meer informatie over de interwikitabel. Er is een [[Special:Log/interwiki|logboek van wijzigingen]] aan de interwikitabel.',
+	'interwiki_intro'          => 'Zie $1 voor meer informatie over de interwikitabel.
+Er is een [[Special:Log/interwiki|logboek van wijzigingen]] aan de interwikitabel.',
 	'interwiki_error'          => 'FOUT: De interwikitabel is leeg, of iets anders ging verkeerd.',
 	'interwiki_delquestion'    => '"$1" aan het verwijderen',
 	'interwiki_deleting'       => 'U bent voorvoegsel "$1" aan het verwijderen.',
@@ -492,8 +501,15 @@ $messages['nl'] = array(
 	'interwiki_addbutton'      => 'Toevoegen',
 	'interwiki_added'          => 'Voorvoegsel "$1" is succesvol toegevoegd aan de interwikitabel.',
 	'interwiki_addfailed'      => 'Voorvoegsel "$1" kon niet worden toegevoegd aan de interwikitabel. Mogelijk bestaat hij al in de interwikitabel.',
+	'interwiki_edittext'       => 'Een interwikivoorvoegsel bewerken',
+	'interwiki_editintro'      => 'U bent een interwikivoorvoegsel aan het bewerken. Let op dat dit bestaande links kan breken.',
+	'interwiki_editbutton'     => 'Bewerken',
+	'interwiki_edited'         => 'Voorvoegsel "$1" is succesvol gewijzigd in de interwikitabel.',
+	'interwiki_editfailed'     => 'Voorvoegsel "$1" kon niet worden gewijzigd in de interwikitabel. Mogelijk is hij verwijderd of bestaat hij niet in de interwikitabel.',
+	'interwiki_editerror'      => 'Voorvoegsel "$1" kan niet worden gewijzigd in de interwikitabel. Mogelijk bestaat hij niet.',
 	'interwiki_logpagename'    => 'Logboek interwikitabel',
 	'interwiki_log_added'      => 'Voegde "$2" ($3) (trans: $4) (local: $5) toe aan de interwikitabel',
+	'interwiki_log_edited'     => 'wijzigde voorvoegsel "$2": ($3) (trans: $4) (local: $5) in de interwikitabel',
 	'interwiki_log_deleted'    => 'Verwijderde voorvoegsel "$2" van de interwikitabel',
 	'interwiki_logpagetext'    => 'Dit is een logboek van wijzigingen aan de [[Special:Interwiki|interwikitabel]].',
 	'interwiki_defaultreason'  => 'geen reden gegeven',
@@ -624,26 +640,34 @@ $messages['pt'] = array(
  * @author Illusion
  */
 $messages['ru'] = array(
-	'interwiki'               => 'Просмотр и изменение настроек интервики',
-	'interwiki-desc'          => 'Добавляет [[Special:Interwiki|служебную страницу]] для просмотра и редактирования таблицы префиксов интервики.',
-	'interwiki_prefix'        => 'Приставка',
-	'interwiki_reasonfield'   => 'Причина',
-	'interwiki_intro'         => 'См. $1, чтобы получить более подробную информацию о таблице интервики. Существует также  [[Special:Log/interwiki|журнал изменений]] таблицы интервики.',
-	'interwiki_error'         => 'ОШИБКА: таблица интервики пуста или что-то другое работает ошибочно.',
-	'interwiki_delquestion'   => 'Удаление «$1»',
-	'interwiki_deleting'      => 'Вы удаляете приставку «$1».',
-	'interwiki_deleted'       => 'Приставка «$1» успешно удалена из таблицы интервики.',
-	'interwiki_delfailed'     => 'Приставка «$1» не может быть удалена из таблицы интервики.',
-	'interwiki_addtext'       => 'Добавить новую интервики-приставку',
-	'interwiki_addintro'      => 'Вы собираетесь добавить новую интервики-приставку. Помните, что она не может содержать пробелы ( ), двоеточия (:), амперсанды (&) и знаки равенства (=).',
-	'interwiki_addbutton'     => 'Добавить',
-	'interwiki_added'         => 'Приставка «$1» успешно добавлена в таблицу интервики.',
-	'interwiki_addfailed'     => 'Приставка «$1» не может быть добавлена в таблицу интервики. Возможно, она уже присутствует в таблице интервики.',
-	'interwiki_logpagename'   => 'Журнал изменений таблицы интервики',
-	'interwiki_log_added'     => 'Приставка «$2» ($3) (trans: $4) (local: $5) добавлена в таблицу интервики',
-	'interwiki_log_deleted'   => 'Приставка «$2» удалена из таблицы интервики',
-	'interwiki_logpagetext'   => 'Это журнал изменений [[Special:Interwiki|таблицы интервики]].',
-	'interwiki_defaultreason' => 'причина не указана',
+	'interwiki'                => 'Просмотр и изменение настроек интервики',
+	'interwiki-title-norights' => 'Просмотреть данные об интервики',
+	'interwiki-desc'           => 'Добавляет [[Special:Interwiki|служебную страницу]] для просмотра и редактирования таблицы префиксов интервики.',
+	'interwiki_prefix'         => 'Приставка',
+	'interwiki_reasonfield'    => 'Причина',
+	'interwiki_intro'          => 'См. $1, чтобы получить более подробную информацию о таблице интервики. Существует также  [[Special:Log/interwiki|журнал изменений]] таблицы интервики.',
+	'interwiki_error'          => 'ОШИБКА: таблица интервики пуста или что-то другое работает ошибочно.',
+	'interwiki_delquestion'    => 'Удаление «$1»',
+	'interwiki_deleting'       => 'Вы удаляете приставку «$1».',
+	'interwiki_deleted'        => 'Приставка «$1» успешно удалена из таблицы интервики.',
+	'interwiki_delfailed'      => 'Приставка «$1» не может быть удалена из таблицы интервики.',
+	'interwiki_addtext'        => 'Добавить новую интервики-приставку',
+	'interwiki_addintro'       => 'Вы собираетесь добавить новую интервики-приставку. Помните, что она не может содержать пробелы ( ), двоеточия (:), амперсанды (&) и знаки равенства (=).',
+	'interwiki_addbutton'      => 'Добавить',
+	'interwiki_added'          => 'Приставка «$1» успешно добавлена в таблицу интервики.',
+	'interwiki_addfailed'      => 'Приставка «$1» не может быть добавлена в таблицу интервики. Возможно, она уже присутствует в таблице интервики.',
+	'interwiki_edittext'       => 'Редактирование интервики-приставок',
+	'interwiki_editintro'      => 'Вы редактируете интервики-приставку. Помните, что это может сломать существующие ссылки.',
+	'interwiki_editbutton'     => 'Редактировать',
+	'interwiki_edited'         => 'Приставка «$1» успешно изменена в интервики-таблице.',
+	'interwiki_editfailed'     => 'Приставка «$1» не может быть изменена в интервики-таблице. Возможно, её нет в интервики-таблице или она была удалена.',
+	'interwiki_editerror'      => 'Приставка «$1» не может быть изменена в интервики-таблице. Возможно, она не существует.',
+	'interwiki_logpagename'    => 'Журнал изменений таблицы интервики',
+	'interwiki_log_added'      => 'Приставка «$2» ($3) (trans: $4) (local: $5) добавлена в таблицу интервики',
+	'interwiki_log_edited'     => 'изменил приставку «$2»: ($3) (меж.: $4) (лок.: $5) в интервики-таблице',
+	'interwiki_log_deleted'    => 'Приставка «$2» удалена из таблицы интервики',
+	'interwiki_logpagetext'    => 'Это журнал изменений [[Special:Interwiki|таблицы интервики]].',
+	'interwiki_defaultreason'  => 'причина не указана',
 );
 
 /** Sassaresu (Sassaresu)
@@ -686,8 +710,6 @@ $messages['sk'] = array(
 	'interwiki_logpagetext'   => 'Toto je záznam zmien [[Special:Interwiki|tabuľky interwiki]].',
 	'interwiki_defaultreason' => 'nebol uvedený dôvod',
 );
-
-
 
 /** Seeltersk (Seeltersk)
  * @author Pyt
