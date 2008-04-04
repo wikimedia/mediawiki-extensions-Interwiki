@@ -38,10 +38,10 @@ class SpecialInterwiki extends SpecialPage {
 			$prefix = $wgRequest->getVal( 'prefix' );
 			$encPrefix = htmlspecialchars( $prefix );
 			$actionUrl = $selfTitle->escapeLocalURL( "action=submit" );
-			$button = wfMsgHtml("delete");
-			$topmessage = wfMsgHtml('interwiki_delquestion', $prefix);
-			$deletingmessage = wfMsgHtml('interwiki_deleting', $prefix);
-			$reasonmessage = wfMsgHtml('deletecomment');
+			$button = wfMsgHtml( 'delete' );
+			$topmessage = wfMsgHtml( 'interwiki_delquestion', $prefix );
+			$deletingmessage = wfMsgHtml( 'interwiki_deleting', $prefix );
+			$reasonmessage = wfMsgHtml( 'deletecomment' );
 			$defaultreason = wfMsgForContent( 'interwiki_defaultreason' );
 			$token = htmlspecialchars( $wgUser->editToken() );
 
@@ -66,7 +66,7 @@ class SpecialInterwiki extends SpecialPage {
 		case "edit" :
 		case "add" :
 			if( !$admin ){
-				$wgOut->permissionRequired('interwiki');
+				$wgOut->permissionRequired( 'interwiki' );
 				return;
 			}
 			if( $action == "edit" ){
@@ -74,7 +74,7 @@ class SpecialInterwiki extends SpecialPage {
 				$dbr = wfGetDB( DB_SLAVE );
 				$row = $dbr->selectRow( 'interwiki', '*', array( 'iw_prefix' => $prefix ) );
 				if( !$row ){
-					$errormessage = wfMsgHtml('interwiki_editerror');
+					$errormessage = wfMsgHtml( 'interwiki_editerror' );
 					$wgOut->addWikiText( "<br /><div class=\"error\">$errormessage</div><br />" );
 					return;
 				}
@@ -86,7 +86,7 @@ class SpecialInterwiki extends SpecialPage {
 				$old = "<input type='hidden' name='prefix' value='" . htmlspecialchars( $row->iw_prefix ) . "' />";
 				$topmessage = wfMsgHtml( 'interwiki_edittext' );
 				$intromessage = wfMsg( 'interwiki_editintro' );
-				$button = wfMsgHtml( 'interwiki_editbutton' );
+				$button = wfMsgHtml( 'edit' );
 			} else {
 				$prefix = "<input tabindex='1' type='text' name='prefix' maxlength='20' size='20' />";
 				$local = '';

@@ -50,8 +50,7 @@ Possibly it already exists in the interwiki table.',
 
 	# editing a prefix
 	'interwiki_edittext'       => 'Editing an interwiki prefix',
-	'interwiki_editintro'      => 'You are edit an interwiki prefix. Remember that this can break existing links',
-	'interwiki_editbutton'     => 'Edit',
+	'interwiki_editintro'      => 'You are editing an interwiki prefix. Remember that this can break existing links.',
 	'interwiki_edited'         => 'Prefix "$1" was successfully modified in the interwiki table.',
 	'interwiki_editfailed'     => 'Prefix "$1" could not be modified in the interwiki table. Possibly he doesn\'t exists in the interwiki table or has been deleted.',
 	'interwiki_editerror'      => 'Prefix "$1" can not be modified in the interwiki table. Possibly he doesn\'t exists.',
@@ -252,7 +251,6 @@ $messages['fr'] = array(
 	'interwiki_addfailed'      => "« $1 » n'a pas pu être ajouté à la table interwiki.",
 	'interwiki_edittext'       => 'Modifier un préfixe interwiki',
 	'interwiki_editintro'      => 'Vous modifiez un préfixe interwiki. Rapellez-vous que cela peut casser des liens existant.',
-	'interwiki_editbutton'     => 'Modifier',
 	'interwiki_edited'         => 'Le préfixe « $1 » a été modifié avec succès dans la table interwiki.',
 	'interwiki_editfailed'     => "Le préfixe « $1 » n'a pas pu être modifié dans la table interwiki. Il se peut qu'il n'existe pas ou qu'il ait été supprimé.",
 	'interwiki_editerror'      => "Le préfixe « $1 » ne peut pas être modifié. Il se peut qu'il n'existe pas.",
