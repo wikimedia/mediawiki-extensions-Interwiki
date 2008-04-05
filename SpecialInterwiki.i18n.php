@@ -195,6 +195,7 @@ Ekzistas [[Special:Log/interwiki|loglibro pri ŝanĝoj]] por la intervikia tabel
 	'interwiki_addbutton'     => 'Aldonu',
 	'interwiki_addfailed'     => 'Prefikso "$1" ne eblis esti aldonita al la intervikia tabelo.
 Eble ĝi jam ekzistas en la intervikia tabelo.',
+	'interwiki_edittext'      => 'Redaktante intervikian prefikson',
 	'interwiki_logpagename'   => 'Loglibro pri la intervikia tabelo',
 	'interwiki_log_deleted'   => 'Forigita prefikso "$2" de la intervikia tabelo',
 	'interwiki_defaultreason' => 'nenia kialo skribata',
@@ -525,27 +526,34 @@ $messages['nn'] = array(
  * @author Jon Harald Søby
  */
 $messages['no'] = array(
-	'interwiki'               => 'Vis og manipuler interwikidata',
-	'interwiki-desc'          => 'Legger til en [[Special:Interwiki|spesialside]] som gjør at man kan se og redigere interwiki-tabellen.',
-	'interwiki_prefix'        => 'Prefiks',
-	'interwiki_reasonfield'   => 'Årsak',
-	'interwiki_intro'         => 'Se $1 for mer informasjon om interwikitabellen. Det er en [[Special:Log/interwiki|logg]] over endringer i interwikitabellen.',
-	'interwiki_local'         => 'Lokal',
-	'interwiki_error'         => 'FEIL: Interwikitabellen er tom, eller noe gikk gærent.',
-	'interwiki_delquestion'   => 'Sletter «$1»',
-	'interwiki_deleting'      => 'Du sletter prefikset «$1».',
-	'interwiki_deleted'       => 'Prefikset «$1» ble fjernet fra interwikitabellen.',
-	'interwiki_delfailed'     => 'Prefikset «$1» kunne ikke fjernes fra interwikitabellen.',
-	'interwiki_addtext'       => 'Legg til et interwikiprefiks.',
-	'interwiki_addintro'      => 'Du legger til et nytt interwikiprefiks. Husk at det ikke kan inneholde mellomrom ( ), kolon (:), &-tegn eller likhetstegn (=).',
-	'interwiki_addbutton'     => 'Legg til',
-	'interwiki_added'         => 'Prefikset «$1» ble lagt til i interwikitabellen.',
-	'interwiki_addfailed'     => 'Prefikset «$1» kunne ikke legges til i interwikitabellen. Det er kanskje brukt der fra før.',
-	'interwiki_logpagename'   => 'Interwikitabellogg',
-	'interwiki_log_added'     => 'La til «$2» ($3) (trans: $4) (lokal: $5) til interwikitabellen',
-	'interwiki_log_deleted'   => 'Fjernet prefikset «$2» fra interwikitabellen',
-	'interwiki_logpagetext'   => 'Dette er en logg over endringer i [[Special:Interwiki|interwikitabellen]].',
-	'interwiki_defaultreason' => 'ingen grunn gitt',
+	'interwiki'                => 'Vis og manipuler interwikidata',
+	'interwiki-title-norights' => 'Vis interwikidata',
+	'interwiki-desc'           => 'Legger til en [[Special:Interwiki|spesialside]] som gjør at man kan se og redigere interwiki-tabellen.',
+	'interwiki_prefix'         => 'Prefiks',
+	'interwiki_reasonfield'    => 'Årsak',
+	'interwiki_intro'          => 'Se $1 for mer informasjon om interwikitabellen. Det er en [[Special:Log/interwiki|logg]] over endringer i interwikitabellen.',
+	'interwiki_local'          => 'Lokal',
+	'interwiki_error'          => 'FEIL: Interwikitabellen er tom, eller noe gikk gærent.',
+	'interwiki_delquestion'    => 'Sletter «$1»',
+	'interwiki_deleting'       => 'Du sletter prefikset «$1».',
+	'interwiki_deleted'        => 'Prefikset «$1» ble fjernet fra interwikitabellen.',
+	'interwiki_delfailed'      => 'Prefikset «$1» kunne ikke fjernes fra interwikitabellen.',
+	'interwiki_addtext'        => 'Legg til et interwikiprefiks.',
+	'interwiki_addintro'       => 'Du legger til et nytt interwikiprefiks. Husk at det ikke kan inneholde mellomrom ( ), kolon (:), &-tegn eller likhetstegn (=).',
+	'interwiki_addbutton'      => 'Legg til',
+	'interwiki_added'          => 'Prefikset «$1» ble lagt til i interwikitabellen.',
+	'interwiki_addfailed'      => 'Prefikset «$1» kunne ikke legges til i interwikitabellen. Det er kanskje brukt der fra før.',
+	'interwiki_edittext'       => 'Redigerer et interwikiprefiks',
+	'interwiki_editintro'      => 'Du redigerer et interwikiprefiks. Merk at dette kan ødelegge eksisterende lenker.',
+	'interwiki_edited'         => 'Prefikset «$1» ble endret i interwikitabellen.',
+	'interwiki_editfailed'     => 'Prefikset «$1» kunne ikke endres i interwikitabellen. Muligens finnes det ikke i interwikitabellen, eller det kan ha blitt slettet.',
+	'interwiki_editerror'      => 'Prefikset «$1» kan ikke endres i interwikitabellen. Det finnes muligens ikke.',
+	'interwiki_logpagename'    => 'Interwikitabellogg',
+	'interwiki_log_added'      => 'La til «$2» ($3) (trans: $4) (lokal: $5) til interwikitabellen',
+	'interwiki_log_edited'     => 'endret prefikset «$2»: ($3) (trans: $4) (lokal: $5) i interwikitabellen',
+	'interwiki_log_deleted'    => 'Fjernet prefikset «$2» fra interwikitabellen',
+	'interwiki_logpagetext'    => 'Dette er en logg over endringer i [[Special:Interwiki|interwikitabellen]].',
+	'interwiki_defaultreason'  => 'ingen grunn gitt',
 );
 
 /** Northern Sotho (Sesotho sa Leboa)
@@ -687,26 +695,33 @@ $messages['sdc'] = array(
  * @author Helix84
  */
 $messages['sk'] = array(
-	'interwiki'               => 'Zobraziť a upravovať údaje interwiki',
-	'interwiki-desc'          => 'Pridáva [[Special:Interwiki|špeciálnu stránku]] na zobrazovanie a upravovanie tabuľky interwiki',
-	'interwiki_prefix'        => 'Predpona',
-	'interwiki_reasonfield'   => 'Dôvod',
-	'interwiki_intro'         => 'Viac informácií o tabuľke interwiki nájdete na $1. Existuje [[Special:Log/interwiki|záznam zmien]] tabuľky interwiki.',
-	'interwiki_error'         => 'CHYBA: Tabuľka interwiki je prázdna alebo sa pokazilo niečo iné.',
-	'interwiki_delquestion'   => 'Maže sa „$1“',
-	'interwiki_deleting'      => 'Mažete predponu „$1“.',
-	'interwiki_deleted'       => 'Predpona „$1“ bola úspešne odstránená z tabuľky interwiki.',
-	'interwiki_delfailed'     => 'Predponu „$1“ nebola možné odstrániť z tabuľky interwiki.',
-	'interwiki_addtext'       => 'Pridať predponu interwiki',
-	'interwiki_addintro'      => 'Pridávate novú predponu interwiki. Pamätajte, že nemôže obsahovať medzery „ “, dvojbodky „:“, ampersand „&“ ani znak rovnosti „=“.',
-	'interwiki_addbutton'     => 'Pridať',
-	'interwiki_added'         => 'Predpona „$1“ bola úspešne pridaná do tabuľky interwiki.',
-	'interwiki_addfailed'     => 'Predponu „$1“ nebola možné pridať do tabuľky interwiki. Je možné, že už v tabuľke interwiki existuje.',
-	'interwiki_logpagename'   => 'Záznam zmien tabuľky interwiki',
-	'interwiki_log_added'     => 'Pridané „$2“ ($3) (trans: $4) (local: $5) do tabuľky interwiki',
-	'interwiki_log_deleted'   => 'Odstránené „$2“ z tabuľky interwiki',
-	'interwiki_logpagetext'   => 'Toto je záznam zmien [[Special:Interwiki|tabuľky interwiki]].',
-	'interwiki_defaultreason' => 'nebol uvedený dôvod',
+	'interwiki'                => 'Zobraziť a upravovať údaje interwiki',
+	'interwiki-title-norights' => 'Zobraziť údaje interwiki',
+	'interwiki-desc'           => 'Pridáva [[Special:Interwiki|špeciálnu stránku]] na zobrazovanie a upravovanie tabuľky interwiki',
+	'interwiki_prefix'         => 'Predpona',
+	'interwiki_reasonfield'    => 'Dôvod',
+	'interwiki_intro'          => 'Viac informácií o tabuľke interwiki nájdete na $1. Existuje [[Special:Log/interwiki|záznam zmien]] tabuľky interwiki.',
+	'interwiki_error'          => 'CHYBA: Tabuľka interwiki je prázdna alebo sa pokazilo niečo iné.',
+	'interwiki_delquestion'    => 'Maže sa „$1“',
+	'interwiki_deleting'       => 'Mažete predponu „$1“.',
+	'interwiki_deleted'        => 'Predpona „$1“ bola úspešne odstránená z tabuľky interwiki.',
+	'interwiki_delfailed'      => 'Predponu „$1“ nebola možné odstrániť z tabuľky interwiki.',
+	'interwiki_addtext'        => 'Pridať predponu interwiki',
+	'interwiki_addintro'       => 'Pridávate novú predponu interwiki. Pamätajte, že nemôže obsahovať medzery „ “, dvojbodky „:“, ampersand „&“ ani znak rovnosti „=“.',
+	'interwiki_addbutton'      => 'Pridať',
+	'interwiki_added'          => 'Predpona „$1“ bola úspešne pridaná do tabuľky interwiki.',
+	'interwiki_addfailed'      => 'Predponu „$1“ nebola možné pridať do tabuľky interwiki. Je možné, že už v tabuľke interwiki existuje.',
+	'interwiki_edittext'       => 'Upravuje sa predpona interwiki',
+	'interwiki_editintro'      => 'Upravujete predponu interwiki. Pamätajte na to, že týmto môžete pokaziť existujúce odkazy.',
+	'interwiki_edited'         => 'Predpona „$1“ bola úspešne zmenená v tabuľke interwiki.',
+	'interwiki_editfailed'     => 'Predponu „$1“ nebolo možné zmeniť v tabuľke interwiki. Je možné, že neexistuje v tabuľke interwiki alebo bola zmazaná.',
+	'interwiki_editerror'      => 'Predponu „$1“ nebolo možné zmeniť v tabuľke interwiki. Je možné, že neexistuje.',
+	'interwiki_logpagename'    => 'Záznam zmien tabuľky interwiki',
+	'interwiki_log_added'      => 'Pridané „$2“ ($3) (trans: $4) (local: $5) do tabuľky interwiki',
+	'interwiki_log_edited'     => 'zmenená predpona „$2“ : $3) (trans: $4) (lokálna: $5) v tabuľke interwiki',
+	'interwiki_log_deleted'    => 'Odstránené „$2“ z tabuľky interwiki',
+	'interwiki_logpagetext'    => 'Toto je záznam zmien [[Special:Interwiki|tabuľky interwiki]].',
+	'interwiki_defaultreason'  => 'nebol uvedený dôvod',
 );
 
 /** Seeltersk (Seeltersk)
@@ -795,6 +810,15 @@ $messages['tet'] = array(
 	'interwiki_delquestion' => 'Halakon $1',
 );
 
+/** Tajik (Cyrillic) (Тоҷикӣ/tojikī (Cyrillic))
+ * @author Ibrahim
+ */
+$messages['tg-cyrl'] = array(
+	'interwiki_reasonfield'   => 'Сабаб',
+	'interwiki_delquestion'   => 'Дар ҳоли ҳазфи "$1"',
+	'interwiki_defaultreason' => 'далеле мушаххас нашудааст',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */
@@ -824,3 +848,4 @@ $messages['zh-hant'] = array(
 	'interwiki_delfailed'   => '無法從連結表刪除連結字串"$1"',
 	'interwiki_addtext'     => '新增跨語連結字串',
 );
+
