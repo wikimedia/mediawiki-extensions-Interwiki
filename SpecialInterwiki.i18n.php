@@ -816,6 +816,7 @@ $messages['tet'] = array(
 $messages['tg-cyrl'] = array(
 	'interwiki_reasonfield'   => 'Сабаб',
 	'interwiki_delquestion'   => 'Дар ҳоли ҳазфи "$1"',
+	'interwiki_addbutton'     => 'Илова',
 	'interwiki_defaultreason' => 'далеле мушаххас нашудааст',
 );
 
