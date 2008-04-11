@@ -410,6 +410,23 @@ $messages['hu'] = array(
 	'interwiki_defaultreason' => 'nincs ok megadva',
 );
 
+/** Italian (Italiano)
+ * @author Cruccone
+ */
+$messages['it'] = array(
+	'interwiki'                => 'Visualizza e modifica i dati interwiki',
+	'interwiki-title-norights' => 'Visualizza i dati interwiki',
+	'interwiki-desc'           => 'Aggiunge una [[Speciale:Interwiki|pagina speciale]] per visualizzare e modificare la tabella degli interwiki',
+	'interwiki_prefix'         => 'Prefisso',
+	'interwiki_reasonfield'    => 'Motivo',
+	'interwiki_intro'          => 'Vedi $1 per maggiori informazioni sulla tabella degli interwiki.
+Esiste un [[Speciale:Log/interwiki|registro delle modifiche]] alla tabella degli interwiki.',
+	'interwiki_error'          => "ERRORE: La tabella degli interwiki è vuota, o c'è qualche altro errore.",
+	'interwiki_delquestion'    => 'Cancello "$1"',
+	'interwiki_deleting'       => 'Stai cancellando il prefisso "$1"',
+	'interwiki_deleted'        => 'Il prefisso "$1" è stato cancellato con successo dalla tabella degli interwiki.',
+);
+
 /** Japanese (日本語)
  * @author Mzm5zbC3
  */
@@ -505,14 +522,16 @@ $messages['la'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
-	'interwiki'               => 'Interwiki-Date kucken a veränneren',
-	'interwiki_prefix'        => 'Prefix',
-	'interwiki_reasonfield'   => 'Grond',
-	'interwiki_local'         => 'Lokal',
-	'interwiki_delquestion'   => 'Läscht "$1"',
-	'interwiki_addbutton'     => 'Derbäisetzen',
-	'interwiki_defaulturl'    => 'http://www.beispill.com/$1',
-	'interwiki_defaultreason' => 'kee Grond uginn',
+	'interwiki'                => 'Interwiki-Date kucken a veränneren',
+	'interwiki-title-norights' => 'Interwiki-Date kucken',
+	'interwiki-desc'           => "Setzt eng [[Special:Interwiki|Spezialsäit]] derbäi fir d'Interwiki-Tabell ze gesin an z'änneren",
+	'interwiki_prefix'         => 'Prefix',
+	'interwiki_reasonfield'    => 'Grond',
+	'interwiki_local'          => 'Lokal',
+	'interwiki_delquestion'    => 'Läscht "$1"',
+	'interwiki_addbutton'      => 'Derbäisetzen',
+	'interwiki_defaulturl'     => 'http://www.beispill.com/$1',
+	'interwiki_defaultreason'  => 'kee Grond uginn',
 );
 
 /** Marathi (मराठी)
@@ -673,19 +692,36 @@ $messages['oc'] = array(
  * @author McMonster
  */
 $messages['pl'] = array(
-	'interwiki_reasonfield'   => 'Powód',
-	'interwiki_delquestion'   => 'Czy usunąć „$1”',
-	'interwiki_deleting'      => 'Usuwasz prefiks „$1”.',
-	'interwiki_deleted'       => 'Prefiks „$1” został z powodzeniem usunięty z tablicy interwiki.',
-	'interwiki_delfailed'     => 'Prefiks „$1” nie może zostać usunięty z tablicy interwiki.',
-	'interwiki_addbutton'     => 'Dodaj',
-	'interwiki_added'         => 'Prefiks „$1” został z powodzeniem dodany do tablicy interwiki.',
-	'interwiki_addfailed'     => 'Prefiks „$1” nie może zostać dodany do tablicy interwiki.
+	'interwiki'                => 'Zobacz i edytuj dane interwiki',
+	'interwiki-title-norights' => 'Zobacz dane interwiki',
+	'interwiki-desc'           => 'Dodaje [[Special:Interwiki|stronę specjalną]] służącą do przeglądania i redakcji tablicy interwiki.',
+	'interwiki_prefix'         => 'Przedrostek',
+	'interwiki_reasonfield'    => 'Powód',
+	'interwiki_intro'          => 'Zobacz $1 aby uzyskać więcej informacji na temat tablicy interwiki.
+Historię zmian w tablicy interwiki możesz zobaczyć w [[Special:Log/interwiki|rejestrze]].',
+	'interwiki_error'          => 'BŁĄD: Tablica interwiki jest pusta lub coś wystąpił poważny problem.',
+	'interwiki_delquestion'    => 'Czy usunąć „$1”',
+	'interwiki_deleting'       => 'Usuwasz prefiks „$1”.',
+	'interwiki_deleted'        => 'Prefiks „$1” został z powodzeniem usunięty z tablicy interwiki.',
+	'interwiki_delfailed'      => 'Prefiks „$1” nie może zostać usunięty z tablicy interwiki.',
+	'interwiki_addtext'        => 'Dodaj przedrostek interwiki',
+	'interwiki_addintro'       => 'Edytujesz przedrostek interwiki.
+Pamiętaj, że nie może on zawierać znaku odstępu ( ), dwukropka (:), ampersandu (&) oraz znaku równości (=).',
+	'interwiki_addbutton'      => 'Dodaj',
+	'interwiki_added'          => 'Prefiks „$1” został z powodzeniem dodany do tablicy interwiki.',
+	'interwiki_addfailed'      => 'Prefiks „$1” nie może zostać dodany do tablicy interwiki.
 Prawdopodobnie ten prefiks już jest w tablicy.',
-	'interwiki_edited'        => 'Prefiks „$1” został z powodzeniem poprawiony w tablicy interwiki.',
-	'interwiki_editfailed'    => 'Prefiks „$1” nie może zostać poprawiony w tablicy interwiki. Prawdopodobnie nie ma go w tablicy - możliwe, że został usunięty.',
-	'interwiki_editerror'     => 'Prefiks „$1” nie może zostać poprawiony w tablicy interwiki. Prawdopodobnie nie ma go w tablicy.',
-	'interwiki_defaultreason' => 'nie podano powodu',
+	'interwiki_edittext'       => 'Edycja przedrostka interwiki',
+	'interwiki_editintro'      => 'Redagujesz przedrostek interwiki. Pamiętaj, że może to zerwać istniejące powiązania między projektami językowymi.',
+	'interwiki_edited'         => 'Prefiks „$1” został z powodzeniem poprawiony w tablicy interwiki.',
+	'interwiki_editfailed'     => 'Prefiks „$1” nie może zostać poprawiony w tablicy interwiki. Prawdopodobnie nie ma go w tablicy - możliwe, że został usunięty.',
+	'interwiki_editerror'      => 'Prefiks „$1” nie może zostać poprawiony w tablicy interwiki. Prawdopodobnie nie ma go w tablicy.',
+	'interwiki_logpagename'    => 'Rejestr tablicy interwiki',
+	'interwiki_log_added'      => 'dodał przedrostek „$2” ($3) (trans: $4) (local: $5) do tablicy interwiki',
+	'interwiki_log_edited'     => 'zmienił przedrostek „$2” : ($3) (trans: $4) (local: $5) w tablicy interwiki',
+	'interwiki_log_deleted'    => 'usunął przedrostek „$2” z tablicy interwiki',
+	'interwiki_logpagetext'    => 'Poniżej znajduje się rejestr zmian wykonanych w [[Special:Interwiki|tablicy interwiki]].',
+	'interwiki_defaultreason'  => 'nie podano powodu',
 );
 
 /** Pashto (پښتو)
@@ -932,14 +968,40 @@ $messages['uk'] = array(
 );
 
 /** Vietnamese (Tiếng Việt)
+ * @author Vinhtantran
  * @author Minh Nguyen
  */
 $messages['vi'] = array(
-	'interwiki'             => 'Xem và sửa đổi dữ liệu về liên kết liên wiki',
-	'interwiki_prefix'      => 'Tiền tố',
-	'interwiki_reasonfield' => 'Lý do',
-	'interwiki_addtext'     => 'Thêm tiền tố liên kết liên wiki',
-	'interwiki_addbutton'   => 'Thêm',
+	'interwiki'                => 'Xem và sửa đổi dữ liệu về liên kết liên wiki',
+	'interwiki-title-norights' => 'Xem dữ liệu liên wiki',
+	'interwiki-desc'           => 'Thêm một [[Special:Interwiki|trang đặc biệt]] để xem sửa đổi bảng liên wiki',
+	'interwiki_prefix'         => 'Tiền tố',
+	'interwiki_reasonfield'    => 'Lý do',
+	'interwiki_intro'          => 'Xem $1 để biết thêm thông tin về bảng liên wiki.
+Đây là [[Special:Log/interwiki|nhật trình các thay đổi]] tại bảng liên wiki.',
+	'interwiki_error'          => 'LỖi: Bảng liên wiki hiện đang trống, hoặc có vấn đề gì đó đã xảy ra.',
+	'interwiki_delquestion'    => 'Xóa “$1”',
+	'interwiki_deleting'       => 'Bạn đang xóa tiền tố “$1”.',
+	'interwiki_deleted'        => 'Tiền tố “$1” đã được xóa khỏi bảng liên wiki.',
+	'interwiki_delfailed'      => 'Tiền tố “$1” không thể xóa khỏi bảng liên wiki.',
+	'interwiki_addtext'        => 'Thêm tiền tố liên kết liên wiki',
+	'interwiki_addintro'       => 'Bạn đang thêm một tiền tố liên wiki mới.
+Hãy nhớ rằng nó không chứa được khoảng trắng ( ), dấu hai chấm (:), dấu và (&), hay dấu bằng (=).',
+	'interwiki_addbutton'      => 'Thêm',
+	'interwiki_added'          => 'Tiền tố “$1” đã được thêm vào bảng liên wiki.',
+	'interwiki_addfailed'      => 'Tiền tố “$1” không thể thêm vào bảng liên wiki.
+Có thể nó đã tồn tại trong bảng liên wiki rồi.',
+	'interwiki_edittext'       => 'Sửa đổi tiền tố liên wiki',
+	'interwiki_editintro'      => 'Bạn đang sửa đổi một tiền tố liên wiki. Hãy nhớ rằng việc làm này có thể phá hỏng các liên hết đã có.',
+	'interwiki_edited'         => 'Tiền tố “$1” đã thay đổi xong trong bảng liên wiki.',
+	'interwiki_editfailed'     => 'Tiền tố “$1” không thể thay đổi trong bảng liên wiki. Có thể nó không tồn tại trong bảng hoặc đã bị xóa.',
+	'interwiki_editerror'      => 'Tiền tố “$1” không thể thay đổi trong bảng liên wiki. Có thể nó không tồn tại.',
+	'interwiki_logpagename'    => 'Nhật trình bảng liên wiki',
+	'interwiki_log_added'      => 'đã thêm tiền tố “$2” ($3) (ngoài: $4) (trong:$5) vào bảng liên wiki',
+	'interwiki_log_edited'     => 'đã thay đổi tiền tố “$2” : ($3) (ngoài: $4) (trong: $5) trong bảng liên wiki',
+	'interwiki_log_deleted'    => 'đã xóa tiền tố “$2” khỏi bảng liên wiki',
+	'interwiki_logpagetext'    => 'Đây là nhật trình các thay đổi trong [[Special:Interwiki|bảng liên wiki]].',
+	'interwiki_defaultreason'  => 'không đưa ra lý do',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
