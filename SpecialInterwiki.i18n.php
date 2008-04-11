@@ -50,10 +50,13 @@ Possibly it already exists in the interwiki table.',
 
 	# editing a prefix
 	'interwiki_edittext'       => 'Editing an interwiki prefix',
-	'interwiki_editintro'      => 'You are editing an interwiki prefix. Remember that this can break existing links.',
+	'interwiki_editintro'      => 'You are editing an interwiki prefix.
+Remember that this can break existing links.',
 	'interwiki_edited'         => 'Prefix "$1" was successfully modified in the interwiki table.',
-	'interwiki_editfailed'     => 'Prefix "$1" could not be modified in the interwiki table. Possibly he doesn\'t exists in the interwiki table or has been deleted.',
-	'interwiki_editerror'      => 'Prefix "$1" can not be modified in the interwiki table. Possibly he doesn\'t exists.',
+	'interwiki_editfailed'     => 'Prefix "$1" could not be modified in the interwiki table.
+Possibly it does not exist in the interwiki table or has been deleted.',
+	'interwiki_editerror'      => 'Prefix "$1" can not be modified in the interwiki table.
+Possibly it does not exist.',
 
 	# interwiki log
 	'interwiki_logpagename'    => 'Interwiki table log',
