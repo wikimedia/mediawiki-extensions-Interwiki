@@ -183,52 +183,62 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
-	'interwiki'               => 'Rigardu kaj redaktu intervikiajn datenojn',
-	'interwiki-desc'          => 'Aldonas [[Special:Interwiki|specialan paĝon]] por rigardi kaj redakti la intervikian tabelon',
-	'interwiki_prefix'        => 'Prefikso',
-	'interwiki_reasonfield'   => 'Kialo',
-	'interwiki_intro'         => 'Vidu $1 por plia informo pri la intervikia tabelo.
+	'interwiki'                => 'Rigardu kaj redaktu intervikiajn datenojn',
+	'interwiki-title-norights' => 'Rigardu intervikiajn datenojn',
+	'interwiki-desc'           => 'Aldonas [[Special:Interwiki|specialan paĝon]] por rigardi kaj redakti la intervikian tabelon',
+	'interwiki_prefix'         => 'Prefikso',
+	'interwiki_reasonfield'    => 'Kialo',
+	'interwiki_intro'          => 'Vidu $1 por plia informo pri la intervikia tabelo.
 Ekzistas [[Special:Log/interwiki|loglibro pri ŝanĝoj]] por la intervikia tabelo.',
-	'interwiki_error'         => 'ERARO: La intervikia tabelo estas malplena, aŭ iel misfunkciis.',
-	'interwiki_delquestion'   => 'Forigante "$1"',
-	'interwiki_deleting'      => 'Vi forigas prefikson "$1".',
-	'interwiki_deleted'       => 'Prefikso "$1" estis sukcese forigita de la intervikia tabelo.',
-	'interwiki_delfailed'     => 'Prefikso "$1" ne eblis esti forigita el la intervikia tabelo.',
-	'interwiki_addtext'       => 'Aldonu intervikian prefikson',
-	'interwiki_addbutton'     => 'Aldonu',
-	'interwiki_addfailed'     => 'Prefikso "$1" ne eblis esti aldonita al la intervikia tabelo.
+	'interwiki_error'          => 'ERARO: La intervikia tabelo estas malplena, aŭ iel misfunkciis.',
+	'interwiki_delquestion'    => 'Forigante "$1"',
+	'interwiki_deleting'       => 'Vi forigas prefikson "$1".',
+	'interwiki_deleted'        => 'Prefikso "$1" estis sukcese forigita de la intervikia tabelo.',
+	'interwiki_delfailed'      => 'Prefikso "$1" ne eblis esti forigita el la intervikia tabelo.',
+	'interwiki_addtext'        => 'Aldonu intervikian prefikson',
+	'interwiki_addintro'       => 'Vi aldonas novan intervikian prefikson.
+Memoru ke ĝi ne povas enhavi spacetojn ( ), kolojn (:), kajsignojn (&), aŭ egalsignojn (=).',
+	'interwiki_addbutton'      => 'Aldonu',
+	'interwiki_added'          => 'Prefikso "$1" estis sukcese aldonita al la intervikia tabelo.',
+	'interwiki_addfailed'      => 'Prefikso "$1" ne eblis esti aldonita al la intervikia tabelo.
 Eble ĝi jam ekzistas en la intervikia tabelo.',
-	'interwiki_edittext'      => 'Redaktante intervikian prefikson',
-	'interwiki_logpagename'   => 'Loglibro pri la intervikia tabelo',
-	'interwiki_log_deleted'   => 'Forigita prefikso "$2" de la intervikia tabelo',
-	'interwiki_defaultreason' => 'nenia kialo skribata',
+	'interwiki_edittext'       => 'Redaktante intervikian prefikson',
+	'interwiki_logpagename'    => 'Loglibro pri la intervikia tabelo',
+	'interwiki_log_deleted'    => 'Forigita prefikso "$2" de la intervikia tabelo',
+	'interwiki_defaultreason'  => 'nenia kialo skribata',
 );
 
 /** Finnish (Suomi)
  * @author Jack Phoenix
  * @author Nike
+ * @author Crt
  */
 $messages['fi'] = array(
-	'interwiki'               => 'Katso ja muokkaa wikien välisiä linkkejä',
-	'interwiki-desc'          => 'Lisää [[Special:Interwiki|toimintosivun]], jonka avulla voi katsoa ja muokata interwiki-taulua',
-	'interwiki_prefix'        => 'Etuliite',
-	'interwiki_reasonfield'   => 'Syy',
-	'interwiki_intro'         => 'Lisätietoja interwiki-taulusta on sivulla $1. On olemassa [[Special:Log/interwiki|loki]] interwiki-tauluun tehdyistä muutoksista.',
-	'interwiki_error'         => 'VIRHE: interwiki-taulu on tyhjä tai jokin muu meni pieleen.',
-	'interwiki_delquestion'   => 'Poistetaan ”$1”',
-	'interwiki_deleting'      => 'Olet poistamassa etuliitettä ”$1”.',
-	'interwiki_deleted'       => 'Etuliite ”$1” poistettiin onnistuneesti interwiki-taulusta.',
-	'interwiki_delfailed'     => 'Etuliitteen ”$1” poistaminen interwiki-taulusta epäonnistui.',
-	'interwiki_addtext'       => 'Lisää wikienvälinen etuliite',
-	'interwiki_addintro'      => 'Olet lisäämässä uutta wikienvälistä etuliitettä. Se ei voi sisältää välilyöntejä ( ), kaksoispisteitä (:), et-merkkejä (&), tai yhtäsuuruusmerkkejä (=).',
-	'interwiki_addbutton'     => 'Lisää',
-	'interwiki_added'         => 'Etuliite ”$1” lisättiin onnistuneesti interwiki-tauluun.',
-	'interwiki_addfailed'     => 'Etuliitteen ”$1” lisääminen interwiki-tauluun epäonnistui. Kyseinen etuliite saattaa jo olla interwiki-taulussa.',
-	'interwiki_logpagename'   => 'Loki muutoksista interwiki-tauluun',
-	'interwiki_log_added'     => 'Uusi etuliite ”$2” ($3) (trans: $4) (paikallinen: $5) interwiki-tauluun',
-	'interwiki_log_deleted'   => 'Poisti etuliitteen ”$2” interwiki-taulusta',
-	'interwiki_logpagetext'   => 'Tämä on loki muutoksista [[Special:Interwiki|interwiki-tauluun]].',
-	'interwiki_defaultreason' => 'ei annettua syytä',
+	'interwiki'                => 'Katso ja muokkaa wikien välisiä linkkejä',
+	'interwiki-title-norights' => 'Selaa interwiki-tietueita',
+	'interwiki-desc'           => 'Lisää [[Special:Interwiki|toimintosivun]], jonka avulla voi katsoa ja muokata interwiki-taulua',
+	'interwiki_prefix'         => 'Etuliite',
+	'interwiki_reasonfield'    => 'Syy',
+	'interwiki_intro'          => 'Lisätietoja interwiki-taulusta on sivulla $1. On olemassa [[Special:Log/interwiki|loki]] interwiki-tauluun tehdyistä muutoksista.',
+	'interwiki_error'          => 'VIRHE: interwiki-taulu on tyhjä tai jokin muu meni pieleen.',
+	'interwiki_delquestion'    => 'Poistetaan ”$1”',
+	'interwiki_deleting'       => 'Olet poistamassa etuliitettä ”$1”.',
+	'interwiki_deleted'        => 'Etuliite ”$1” poistettiin onnistuneesti interwiki-taulusta.',
+	'interwiki_delfailed'      => 'Etuliitteen ”$1” poistaminen interwiki-taulusta epäonnistui.',
+	'interwiki_addtext'        => 'Lisää wikienvälinen etuliite',
+	'interwiki_addintro'       => 'Olet lisäämässä uutta wikienvälistä etuliitettä. Se ei voi sisältää välilyöntejä ( ), kaksoispisteitä (:), et-merkkejä (&), tai yhtäsuuruusmerkkejä (=).',
+	'interwiki_addbutton'      => 'Lisää',
+	'interwiki_added'          => 'Etuliite ”$1” lisättiin onnistuneesti interwiki-tauluun.',
+	'interwiki_addfailed'      => 'Etuliitteen ”$1” lisääminen interwiki-tauluun epäonnistui. Kyseinen etuliite saattaa jo olla interwiki-taulussa.',
+	'interwiki_edittext'       => 'Muokataan interwiki-etuliitettä',
+	'interwiki_editintro'      => 'Muokkaat interwiki-etuliitettä. Muista, että tämä voi rikkoa olemassa olevia linkkejä.',
+	'interwiki_edited'         => 'Etuliitettä ”$1” muokattiin onnistuneesti interwiki-taulukossa.',
+	'interwiki_editerror'      => 'Etuliitettä ”$1” ei voi muokata interwiki-taulukossa. Sitä ei mahdollisesti ole olemassa.',
+	'interwiki_logpagename'    => 'Loki muutoksista interwiki-tauluun',
+	'interwiki_log_added'      => 'Uusi etuliite ”$2” ($3) (trans: $4) (paikallinen: $5) interwiki-tauluun',
+	'interwiki_log_deleted'    => 'Poisti etuliitteen ”$2” interwiki-taulusta',
+	'interwiki_logpagetext'    => 'Tämä on loki muutoksista [[Special:Interwiki|interwiki-tauluun]].',
+	'interwiki_defaultreason'  => 'ei annettua syytä',
 );
 
 /** French (Français)
@@ -328,19 +338,27 @@ $messages['haw'] = array(
 $messages['hi'] = array(
 	'interwiki'                => 'आंतरविकि डाटा देखें एवं बदलें',
 	'interwiki-title-norights' => 'आंतरविकि डाटा देखें',
+	'interwiki-desc'           => 'आंतरविकि तालिका देखनेके लिये और बदलने के लिये एक [[Special:Interwiki|विशेष पॄष्ठ]]',
 	'interwiki_prefix'         => 'उपपद',
 	'interwiki_reasonfield'    => 'कारण',
+	'interwiki_intro'          => 'आंतरविकि तालिका के बारें में अधिक ज़ानकारी के लिये $1 देखें। यहां आंतरविकि तालिका में हुए [[Special:Log/interwiki|बदलावों की सूची]] हैं।',
 	'interwiki_error'          => 'गलती: आंतरविकि तालिका खाली हैं, या और कुछ गलत हैं।',
 	'interwiki_delquestion'    => '$1 को हटा रहें हैं',
 	'interwiki_deleting'       => 'आप "$1" उपपद हटा रहें हैं।',
 	'interwiki_deleted'        => '"$1" उपपद आंतरविकि तालिकासे हटा दिया गया हैं।',
 	'interwiki_delfailed'      => '"$1" उपपद आंतरविकि तालिकासे हटा नहीं पा रहें हैं।',
 	'interwiki_addtext'        => 'एक आंतरविकि उपपद दें',
+	'interwiki_addintro'       => 'आप एक नया आंतरविकि उपपद बढा रहें हैं। कृपया ध्यान रहें की इसमें स्पेस ( ), विसर्ग (:), और (&), या बराबर का चिन्ह (=) नहीम दे सकतें हैं।',
 	'interwiki_addbutton'      => 'बढायें',
 	'interwiki_added'          => '$1" उपपद आंतरविकि तालिका में बढाया गया हैं।',
+	'interwiki_addfailed'      => '"$1" उपपद आंतरविकि तालिका में बढा नहीं पायें।
+शायद वह पहले से अस्तित्वमें हैं।',
 	'interwiki_edittext'       => 'एक आंतरविकि उपपद बदल रहें हैं',
 	'interwiki_editintro'      => 'आप एक आंतरविकि उपपद बदल रहें हैं। ध्यान रखें ये पहले दी हुई कड़ीयों को तोड सकता हैं।',
 	'interwiki_edited'         => '"$1" उपपद आंतरविकि तालिका में बदला गया।',
+	'interwiki_editfailed'     => '"$1" उपपद आंतरविकि तालिका में बदल नहीं पायें।
+शायद वह अस्तित्वमें नहीं हैं या हटाया गया हैं।',
+	'interwiki_editerror'      => '"$1" उपपद आंतरविकि तालिका में बदल नहीं पायें। शायद वह अस्तित्वमें नहीं हैं।',
 	'interwiki_logpagename'    => 'आंतरविकि तालिका सूची',
 	'interwiki_log_added'      => 'आंतरविकि तालिकामें उपपद "$2" ($3) (trans: $4) (local: $5) बढाया',
 	'interwiki_log_edited'     => 'आंतरविकि तालिकामें उपपद "$2" : ($3) (trans: $4) (local: $5) को बदला',
@@ -541,26 +559,35 @@ $messages['lb'] = array(
  * @author Kaustubh
  */
 $messages['mr'] = array(
-	'interwiki'               => 'आंतरविकि डाटा पहा व संपादा',
-	'interwiki-desc'          => 'आंतरविकि सारणी पाहण्यासाठी व संपादन्यासाठी एक [[Special:Interwiki|विशेष पान]] वाढविते',
-	'interwiki_prefix'        => 'उपपद (पूर्वप्रत्यय)',
-	'interwiki_reasonfield'   => 'कारण',
-	'interwiki_intro'         => 'आंतरविकि सारणी बद्दल अधिक माहीतीसाठी $1 पहा. इथे आंतरविकि सारणीत करण्यात आलेल्या [[Special:Log/interwiki|बदलांची यादी]] आहे.',
-	'interwiki_error'         => 'त्रुटी: आंतरविकि सारणी रिकामी आहे, किंवा इतर काहीतरी चुकलेले आहे.',
-	'interwiki_delquestion'   => '"$1" वगळत आहे',
-	'interwiki_deleting'      => 'तुम्ही "$1" उपपद वगळत आहात.',
-	'interwiki_deleted'       => '"$1" उपपद आंतरविकि सारणीमधून वगळण्यात आलेले आहे.',
-	'interwiki_delfailed'     => '"$1" उपपद आंतरविकि सारणीतून वगळता आलेले नाही.',
-	'interwiki_addtext'       => 'एक आंतरविकि उपपद वाढवा',
-	'interwiki_addintro'      => 'तुम्ही एक नवीन आंतरविकि उपपद वाढवित आहात. कृपया लक्षात घ्या की त्यामध्ये स्पेस ( ), विसर्ग (:), आणिचिन्ह (&), किंवा बरोबरची खूण (=) असू शकत नाही.',
-	'interwiki_addbutton'     => 'वाढवा',
-	'interwiki_added'         => '"$1" उपपद आंतरविकि सारणी मध्ये वाढविण्यात आलेले आहे.',
-	'interwiki_addfailed'     => '"$1" उपपद आंतरविकि सारणी मध्ये वाढवू शकलेलो नाही. कदाचित ते अगोदरच अस्तित्वात असण्याची शक्यता आहे.',
-	'interwiki_logpagename'   => 'आंतरविकि सारणी नोंद',
-	'interwiki_log_added'     => 'आंतरविकि सारणी मध्ये "$2" ($3) (trans: $4) (local: $5) वाढविले',
-	'interwiki_log_deleted'   => '"$2" उपपद आंतरविकिसारणी मधून वगळले',
-	'interwiki_logpagetext'   => '[[Special:Interwiki|आंतरविकि सारणीत]] झालेल्या बदलांची ही सूची आहे.',
-	'interwiki_defaultreason' => 'कारण दिलेले नाही',
+	'interwiki'                => 'आंतरविकि डाटा पहा व संपादा',
+	'interwiki-title-norights' => 'अंतरविकि डाटा पहा',
+	'interwiki-desc'           => 'आंतरविकि सारणी पाहण्यासाठी व संपादन्यासाठी एक [[Special:Interwiki|विशेष पान]] वाढविते',
+	'interwiki_prefix'         => 'उपपद (पूर्वप्रत्यय)',
+	'interwiki_reasonfield'    => 'कारण',
+	'interwiki_intro'          => 'आंतरविकि सारणी बद्दल अधिक माहीतीसाठी $1 पहा. इथे आंतरविकि सारणीत करण्यात आलेल्या [[Special:Log/interwiki|बदलांची यादी]] आहे.',
+	'interwiki_error'          => 'त्रुटी: आंतरविकि सारणी रिकामी आहे, किंवा इतर काहीतरी चुकलेले आहे.',
+	'interwiki_delquestion'    => '"$1" वगळत आहे',
+	'interwiki_deleting'       => 'तुम्ही "$1" उपपद वगळत आहात.',
+	'interwiki_deleted'        => '"$1" उपपद आंतरविकि सारणीमधून वगळण्यात आलेले आहे.',
+	'interwiki_delfailed'      => '"$1" उपपद आंतरविकि सारणीतून वगळता आलेले नाही.',
+	'interwiki_addtext'        => 'एक आंतरविकि उपपद वाढवा',
+	'interwiki_addintro'       => 'तुम्ही एक नवीन आंतरविकि उपपद वाढवित आहात. कृपया लक्षात घ्या की त्यामध्ये स्पेस ( ), विसर्ग (:), आणिचिन्ह (&), किंवा बरोबरची खूण (=) असू शकत नाही.',
+	'interwiki_addbutton'      => 'वाढवा',
+	'interwiki_added'          => '"$1" उपपद आंतरविकि सारणी मध्ये वाढविण्यात आलेले आहे.',
+	'interwiki_addfailed'      => '"$1" उपपद आंतरविकि सारणी मध्ये वाढवू शकलेलो नाही. कदाचित ते अगोदरच अस्तित्वात असण्याची शक्यता आहे.',
+	'interwiki_edittext'       => 'एक अंतरविकि उपपद संपादित आहे',
+	'interwiki_editintro'      => 'तुम्ही एक अंतरविकि उपपद संपादित आहात.
+लक्षात ठेवा की यामुळे अगोदर दिलेले दुवे तुटू शकतात.',
+	'interwiki_edited'         => 'अंतरविकि सारणीमध्ये "$1" उपपद यशस्वीरित्या बदलण्यात आलेले आहे.',
+	'interwiki_editfailed'     => 'अंतरविकि सारणीमध्ये "$1" उपपद बदलू शकत नाही.',
+	'interwiki_editerror'      => 'अंतरविकि सारणीमध्ये "$1" उपपद बदलू शकत नाही.
+कदाचित ते अस्तित्वात नसेल.',
+	'interwiki_logpagename'    => 'आंतरविकि सारणी नोंद',
+	'interwiki_log_added'      => 'आंतरविकि सारणी मध्ये "$2" ($3) (trans: $4) (local: $5) वाढविले',
+	'interwiki_log_edited'     => 'अंतरविकि सारणीमध्ये उपपद "$2" : ($3) (trans: $4) (local: $5) बदलले',
+	'interwiki_log_deleted'    => '"$2" उपपद आंतरविकिसारणी मधून वगळले',
+	'interwiki_logpagetext'    => '[[Special:Interwiki|आंतरविकि सारणीत]] झालेल्या बदलांची ही सूची आहे.',
+	'interwiki_defaultreason'  => 'कारण दिलेले नाही',
 );
 
 /** Low German (Plattdüütsch)
@@ -744,26 +771,33 @@ $messages['ps'] = array(
  * @author 555
  */
 $messages['pt'] = array(
-	'interwiki'               => 'Ver e manipular dados de interwikis',
-	'interwiki-desc'          => 'Adiciona uma [[{{ns:Special}}:Interwiki|página especial]] para visualizar e editar a tabela de interwikis',
-	'interwiki_prefix'        => 'Prefixo',
-	'interwiki_reasonfield'   => 'Motivo',
-	'interwiki_intro'         => 'Veja $1 para maiores informações em relação à tabela de interwikis. Há também um [[{{ns:special}}:Log/interwiki|registo de alterações]] na tabela de interwikis.',
-	'interwiki_error'         => 'ERRO: A tabela de interwikis está vazia, ou alguma outra coisa não correu bem.',
-	'interwiki_delquestion'   => 'A apagar "$1"',
-	'interwiki_deleting'      => 'Está a apagar o prefixo "$1".',
-	'interwiki_deleted'       => 'O prefixo "$1" foi removido da tabelas de interwikis com sucesso.',
-	'interwiki_delfailed'     => 'O prefixo "$1" não pôde ser removido da tabela de interwikis.',
-	'interwiki_addtext'       => 'Adicionar um prefixo de interwikis',
-	'interwiki_addintro'      => 'Você se encontra prestes a adicionar um novo prefixo de interwiki. Lembre-se de que ele não pode conter espaços ( ), dois-pontos (:), conjunções (&) ou sinais de igualdade (=).',
-	'interwiki_addbutton'     => 'Adicionar',
-	'interwiki_added'         => 'O prefixo "$1" foi adicionado à tabela de interwikis com sucesso.',
-	'interwiki_addfailed'     => 'O prefixo "$1" não pôde ser adicionado à tabela de interwikis. Possivelmente já existe nessa tabela.',
-	'interwiki_logpagename'   => 'Registo da tabela de interwikis',
-	'interwiki_log_added'     => 'Adicionado "$2" ($3) (trans: $4) (local: $5) à tabela de interwikis',
-	'interwiki_log_deleted'   => 'Removido o prefixo "$2" da tabela de interwikis',
-	'interwiki_logpagetext'   => 'Este é um registo das alterações à [[{{ns:special}}:Interwiki|tabela de interwikis]].',
-	'interwiki_defaultreason' => 'sem motivo especificado',
+	'interwiki'                => 'Ver e manipular dados de interwikis',
+	'interwiki-title-norights' => 'Ver dados interwiki',
+	'interwiki-desc'           => 'Adiciona uma [[{{ns:Special}}:Interwiki|página especial]] para visualizar e editar a tabela de interwikis',
+	'interwiki_prefix'         => 'Prefixo',
+	'interwiki_reasonfield'    => 'Motivo',
+	'interwiki_intro'          => 'Veja $1 para maiores informações em relação à tabela de interwikis. Há também um [[{{ns:special}}:Log/interwiki|registo de alterações]] na tabela de interwikis.',
+	'interwiki_error'          => 'ERRO: A tabela de interwikis está vazia, ou alguma outra coisa não correu bem.',
+	'interwiki_delquestion'    => 'A apagar "$1"',
+	'interwiki_deleting'       => 'Está a apagar o prefixo "$1".',
+	'interwiki_deleted'        => 'O prefixo "$1" foi removido da tabelas de interwikis com sucesso.',
+	'interwiki_delfailed'      => 'O prefixo "$1" não pôde ser removido da tabela de interwikis.',
+	'interwiki_addtext'        => 'Adicionar um prefixo de interwikis',
+	'interwiki_addintro'       => 'Você se encontra prestes a adicionar um novo prefixo de interwiki. Lembre-se de que ele não pode conter espaços ( ), dois-pontos (:), conjunções (&) ou sinais de igualdade (=).',
+	'interwiki_addbutton'      => 'Adicionar',
+	'interwiki_added'          => 'O prefixo "$1" foi adicionado à tabela de interwikis com sucesso.',
+	'interwiki_addfailed'      => 'O prefixo "$1" não pôde ser adicionado à tabela de interwikis. Possivelmente já existe nessa tabela.',
+	'interwiki_edittext'       => 'Editando um prefixo interwiki',
+	'interwiki_editintro'      => 'Você está a editar um prefixo interwiki. Lembre-se de que isto pode quebrar ligações existentes.',
+	'interwiki_edited'         => 'O prefixo "$1" foi modificado na tabela de interwikis com sucesso.',
+	'interwiki_editfailed'     => 'O prefixo "$1" não pode ser modificado na tabela de interwikis. Possivelmente, não existe na tabela de interwikis ou foi apagado.',
+	'interwiki_editerror'      => 'O prefixo "$1" não pode ser modificado na tabela de interwikis. Possivelmente, não existe.',
+	'interwiki_logpagename'    => 'Registo da tabela de interwikis',
+	'interwiki_log_added'      => 'adicionado "$2" ($3) (trans: $4) (local: $5) à tabela de interwikis',
+	'interwiki_log_edited'     => 'modificado o prefixo "$2": ($3) (trans: $4) (local: $5) na tabela de interwikis',
+	'interwiki_log_deleted'    => 'removido o prefixo "$2" da tabela de interwikis',
+	'interwiki_logpagetext'    => 'Este é um registo das alterações à [[{{ns:special}}:Interwiki|tabela de interwikis]].',
+	'interwiki_defaultreason'  => 'sem motivo especificado',
 );
 
 /** Russian (Русский)
@@ -960,6 +994,15 @@ $messages['tg-cyrl'] = array(
 	'interwiki_delquestion'   => 'Дар ҳоли ҳазфи "$1"',
 	'interwiki_addbutton'     => 'Илова',
 	'interwiki_defaultreason' => 'далеле мушаххас нашудааст',
+);
+
+/** Thai (ไทย)
+ * @author Passawuth
+ */
+$messages['th'] = array(
+	'interwiki_reasonfield' => 'เหตุผล',
+	'interwiki_delquestion' => 'ลบ "$1"',
+	'interwiki_addbutton'   => 'เพิ่ม',
 );
 
 /** Ukrainian (Українська)
