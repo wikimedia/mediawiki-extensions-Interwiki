@@ -233,9 +233,12 @@ $messages['fi'] = array(
 	'interwiki_edittext'       => 'Muokataan interwiki-etuliitettä',
 	'interwiki_editintro'      => 'Muokkaat interwiki-etuliitettä. Muista, että tämä voi rikkoa olemassa olevia linkkejä.',
 	'interwiki_edited'         => 'Etuliitettä ”$1” muokattiin onnistuneesti interwiki-taulukossa.',
+	'interwiki_editfailed'     => 'Etuliitettä "$1" ei voitu muokata interwiki-taulussa.
+Ehkäpä sitä ei ole interwiki-taulussa tai se on poistettu.',
 	'interwiki_editerror'      => 'Etuliitettä ”$1” ei voi muokata interwiki-taulukossa. Sitä ei mahdollisesti ole olemassa.',
 	'interwiki_logpagename'    => 'Loki muutoksista interwiki-tauluun',
 	'interwiki_log_added'      => 'Uusi etuliite ”$2” ($3) (trans: $4) (paikallinen: $5) interwiki-tauluun',
+	'interwiki_log_edited'     => 'muokkasi etuliitettä "$2" : ($3) (trans: $4) (paikallisuus: $5) interwiki-taulussa',
 	'interwiki_log_deleted'    => 'Poisti etuliitteen ”$2” interwiki-taulusta',
 	'interwiki_logpagetext'    => 'Tämä on loki muutoksista [[Special:Interwiki|interwiki-tauluun]].',
 	'interwiki_defaultreason'  => 'ei annettua syytä',
@@ -446,6 +449,9 @@ Esiste un [[Speciale:Log/interwiki|registro delle modifiche]] alla tabella degli
 	'interwiki_delquestion'    => 'Cancello "$1"',
 	'interwiki_deleting'       => 'Stai cancellando il prefisso "$1"',
 	'interwiki_deleted'        => 'Il prefisso "$1" è stato cancellato con successo dalla tabella degli interwiki.',
+	'interwiki_delfailed'      => 'Rimozione del prefisso "$1" dalla tabella degli interwiki fallita.',
+	'interwiki_addtext'        => 'Aggiungi un prefisso interwiki',
+	'interwiki_addbutton'      => 'Aggiungi',
 );
 
 /** Japanese (日本語)
@@ -952,11 +958,12 @@ Det är möjligt att prefixet redan finns i tabellen.',
 	'interwiki_defaultreason'  => 'ingen anledning given',
 );
 
-/** ślůnski (ślůnski)
+/** Silesian (ślůnski)
  * @author Herr Kriss
  */
 $messages['szl'] = array(
 	'interwiki_reasonfield' => 'Čymu',
+	'interwiki_addbutton'   => 'Dodej',
 );
 
 /** Telugu (తెలుగు)
