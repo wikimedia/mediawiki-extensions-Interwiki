@@ -203,9 +203,26 @@ Memoru ke ĝi ne povas enhavi spacetojn ( ), kolojn (:), kajsignojn (&), aŭ ega
 	'interwiki_addfailed'      => 'Prefikso "$1" ne eblis esti aldonita al la intervikia tabelo.
 Eble ĝi jam ekzistas en la intervikia tabelo.',
 	'interwiki_edittext'       => 'Redaktante intervikian prefikson',
+	'interwiki_editintro'      => 'Vi redaktas intervikian prefikson.
+Notu ke ĉi tiu agon povas rompi ekzistantajn ligilojn.',
+	'interwiki_edited'         => 'Prefikso "$1" estis sukcese modifita en la intervikian tabelon.',
+	'interwiki_editfailed'     => 'Prefikso "$1" ne eblis esti modifita en la intervikia tabelo.
+Verŝajne ĝi ne ekzistas en la intervikia tabelo aŭ estis forigita.',
+	'interwiki_editerror'      => 'Prefikso "$1" ne eblis esti modifita en la intervikia tabelo.
+Verŝajne ĝi ne ekzistas.',
 	'interwiki_logpagename'    => 'Loglibro pri la intervikia tabelo',
+	'interwiki_log_added'      => 'Aldonis prefikson "$2" ($3) (transvikie: $4) (loke: $5) al la intervikia tabelo',
+	'interwiki_log_edited'     => 'modifis prefikson "$2" : ($3) (transvikie: $4) (loke: $5) en la intervikia tabelo',
 	'interwiki_log_deleted'    => 'Forigita prefikso "$2" de la intervikia tabelo',
+	'interwiki_logpagetext'    => 'Jen loglibro de ŝanĝoj al la [[Special:Interwiki|intervikia tabelo]].',
 	'interwiki_defaultreason'  => 'nenia kialo skribata',
+);
+
+/** Spanish (Español)
+ * @author Piolinfax
+ */
+$messages['es'] = array(
+	'interwiki_defaultreason' => 'no se da ninguna razón',
 );
 
 /** Finnish (Suomi)
@@ -233,12 +250,12 @@ $messages['fi'] = array(
 	'interwiki_edittext'       => 'Muokataan interwiki-etuliitettä',
 	'interwiki_editintro'      => 'Muokkaat interwiki-etuliitettä. Muista, että tämä voi rikkoa olemassa olevia linkkejä.',
 	'interwiki_edited'         => 'Etuliitettä ”$1” muokattiin onnistuneesti interwiki-taulukossa.',
-	'interwiki_editfailed'     => 'Etuliitettä "$1" ei voitu muokata interwiki-taulussa.
+	'interwiki_editfailed'     => 'Etuliitettä $1 ei voitu muokata interwiki-taulussa.
 Ehkäpä sitä ei ole interwiki-taulussa tai se on poistettu.',
 	'interwiki_editerror'      => 'Etuliitettä ”$1” ei voi muokata interwiki-taulukossa. Sitä ei mahdollisesti ole olemassa.',
 	'interwiki_logpagename'    => 'Loki muutoksista interwiki-tauluun',
 	'interwiki_log_added'      => 'Uusi etuliite ”$2” ($3) (trans: $4) (paikallinen: $5) interwiki-tauluun',
-	'interwiki_log_edited'     => 'muokkasi etuliitettä "$2" : ($3) (trans: $4) (paikallisuus: $5) interwiki-taulussa',
+	'interwiki_log_edited'     => '!muokkasi etuliitettä $2: ($3) (trans: $4) (paikallisuus: $5) interwiki-taulussa',
 	'interwiki_log_deleted'    => 'Poisti etuliitteen ”$2” interwiki-taulusta',
 	'interwiki_logpagetext'    => 'Tämä on loki muutoksista [[Special:Interwiki|interwiki-tauluun]].',
 	'interwiki_defaultreason'  => 'ei annettua syytä',
@@ -325,6 +342,13 @@ $messages['gl'] = array(
 /** Gujarati (ગુજરાતી) */
 $messages['gu'] = array(
 	'interwiki_reasonfield' => 'કારણ',
+);
+
+/** Manx (Gaelg)
+ * @author MacTire02
+ */
+$messages['gv'] = array(
+	'interwiki_reasonfield' => 'Fa',
 );
 
 /** Hawaiian (Hawai`i)
@@ -750,7 +774,8 @@ Prawdopodobnie ten prefiks już jest w tablicy.',
 	'interwiki_edittext'       => 'Edycja przedrostka interwiki',
 	'interwiki_editintro'      => 'Redagujesz przedrostek interwiki. Pamiętaj, że może to zerwać istniejące powiązania między projektami językowymi.',
 	'interwiki_edited'         => 'Prefiks „$1” został z powodzeniem poprawiony w tablicy interwiki.',
-	'interwiki_editfailed'     => 'Prefiks „$1” nie może zostać poprawiony w tablicy interwiki. Prawdopodobnie nie ma go w tablicy - możliwe, że został usunięty.',
+	'interwiki_editfailed'     => 'Prefiks „$1” nie może zostać poprawiony w tablicy interwiki.
+Prawdopodobnie nie ma go w tablicy – możliwe, że został usunięty.',
 	'interwiki_editerror'      => 'Prefiks „$1” nie może zostać poprawiony w tablicy interwiki. Prawdopodobnie nie ma go w tablicy.',
 	'interwiki_logpagename'    => 'Rejestr tablicy interwiki',
 	'interwiki_log_added'      => 'dodał przedrostek „$2” ($3) (trans: $4) (local: $5) do tablicy interwiki',
