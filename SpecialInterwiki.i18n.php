@@ -68,6 +68,21 @@ Possibly it does not exist.',
 	'interwiki_logentry'       => '', # do not translate this message
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Arnobarnard
+ */
+$messages['af'] = array(
+	'interwiki'                => 'Bekyk en wysig interwiki data',
+	'interwiki-title-norights' => 'Bekyk interwiki data',
+	'interwiki-desc'           => "Voeg 'n [[Special:Interwiki|spesiale bladsy]] by om die interwiki tabel te bekyk en wysig",
+	'interwiki_prefix'         => 'Voorvoegsel',
+	'interwiki_reasonfield'    => 'Rede',
+	'interwiki_delquestion'    => 'Besig om "$1" te verwyder',
+	'interwiki_deleting'       => 'U is besig om voorvoegsel "$1" te verwyder.',
+	'interwiki_logpagename'    => 'Interwiki tabel staaf',
+	'interwiki_defaultreason'  => 'geen rede gegee',
+);
+
 /** Arabic (العربية)
  * @author Meno25
  */
@@ -765,26 +780,33 @@ $messages['nso'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
-	'interwiki'               => 'Veire e editar las donadas interwiki',
-	'interwiki-desc'          => 'Ajusta una [[Special:Interwiki|pagina especiala]] per veire e editar la taula interwiki',
-	'interwiki_prefix'        => 'Prefix',
-	'interwiki_reasonfield'   => 'Motiu :',
-	'interwiki_intro'         => "Vejatz $1 per obténer mai d'entresenhas per çò que concernís la taula interwiki. Aquò es lo [[Special:Log/interwiki|jornal de las modificacions]] de la taula interwiki.",
-	'interwiki_error'         => "Error : la taula dels interwikis es voida o un processús s'es mal desenrotlat.",
-	'interwiki_delquestion'   => 'Supression "$1"',
-	'interwiki_deleting'      => 'Escafatz presentament lo prefix « $1 ».',
-	'interwiki_deleted'       => '$1 es estada levada amb succès de la taula interwiki.',
-	'interwiki_delfailed'     => '$1 a pas pogut èsser levat de la taula interwiki.',
-	'interwiki_addtext'       => 'Ajusta un prefix interwiki',
-	'interwiki_addintro'      => "Sètz a apondre un prefix interwiki. Rapelatz-vos que pòt pas conténer d'espacis ( ), de punts dobles (:), d'eperluetas (&) o de signes egal (=)",
-	'interwiki_addbutton'     => 'Apondre',
-	'interwiki_added'         => '$1 es estat ajustat amb succès dins la taula interwiki.',
-	'interwiki_addfailed'     => '$1 a pas pogut èsser ajustat a la taula interwiki.',
-	'interwiki_logpagename'   => 'Jornal de la taula interwiki',
-	'interwiki_log_added'     => 'Ajustat « $2 » ($3) (trans: $4) (local: $5) dins la taula interwiki',
-	'interwiki_log_deleted'   => 'Prefix « $2 » suprimit de la taula interwiki',
-	'interwiki_logpagetext'   => 'Aquò es lo jornal dels cambiaments dins la [[Special:Interwiki|taula interwiki]].',
-	'interwiki_defaultreason' => 'Cap de motiu balhat',
+	'interwiki'                => 'Veire e editar las donadas interwiki',
+	'interwiki-title-norights' => 'Veire las donadas interwiki',
+	'interwiki-desc'           => 'Ajusta una [[Special:Interwiki|pagina especiala]] per veire e editar la taula interwiki',
+	'interwiki_prefix'         => 'Prefix',
+	'interwiki_reasonfield'    => 'Motiu :',
+	'interwiki_intro'          => "Vejatz $1 per obténer mai d'entresenhas per çò que concernís la taula interwiki. Aquò es lo [[Special:Log/interwiki|jornal de las modificacions]] de la taula interwiki.",
+	'interwiki_error'          => "Error : la taula dels interwikis es voida o un processús s'es mal desenrotlat.",
+	'interwiki_delquestion'    => 'Supression "$1"',
+	'interwiki_deleting'       => 'Escafatz presentament lo prefix « $1 ».',
+	'interwiki_deleted'        => '$1 es estada levada amb succès de la taula interwiki.',
+	'interwiki_delfailed'      => '$1 a pas pogut èsser levat de la taula interwiki.',
+	'interwiki_addtext'        => 'Ajusta un prefix interwiki',
+	'interwiki_addintro'       => "Sètz a apondre un prefix interwiki. Rapelatz-vos que pòt pas conténer d'espacis ( ), de punts dobles (:), d'eperluetas (&) o de signes egal (=)",
+	'interwiki_addbutton'      => 'Apondre',
+	'interwiki_added'          => '$1 es estat ajustat amb succès dins la taula interwiki.',
+	'interwiki_addfailed'      => '$1 a pas pogut èsser ajustat a la taula interwiki.',
+	'interwiki_edittext'       => 'Modificar un prefix interwiki',
+	'interwiki_editintro'      => "Modificatz un prefix interwiki. Rapelatz-vos qu'aquò pòt rompre de ligams existents.",
+	'interwiki_edited'         => 'Lo prefix « $1 » es estat modificat amb succès dins la taula interwiki.',
+	'interwiki_editfailed'     => "Lo prefix « $1 » a pas pogut èsser modificat dins la taula interwiki. Es possible qu'exista pas o que siá estat suprimit.",
+	'interwiki_editerror'      => "Lo prefix « $1 » pòt pas èsser modificat. Es possible qu'exista pas.",
+	'interwiki_logpagename'    => 'Jornal de la taula interwiki',
+	'interwiki_log_added'      => 'Ajustat « $2 » ($3) (trans: $4) (local: $5) dins la taula interwiki',
+	'interwiki_log_edited'     => 'a modificat lo prefix « $2 » : ($3) (trans: $4) (local: $5) dins la taula interwiki',
+	'interwiki_log_deleted'    => 'Prefix « $2 » suprimit de la taula interwiki',
+	'interwiki_logpagetext'    => 'Aquò es lo jornal dels cambiaments dins la [[Special:Interwiki|taula interwiki]].',
+	'interwiki_defaultreason'  => 'Cap de motiu balhat',
 );
 
 /** Polish (Polski)
@@ -959,6 +981,8 @@ $messages['sk'] = array(
  */
 $messages['sr-ec'] = array(
 	'interwiki_reasonfield' => 'Разлог',
+	'interwiki_delquestion' => 'Бришем „$1”',
+	'interwiki_addbutton'   => 'Додај',
 );
 
 /** Seeltersk (Seeltersk)
