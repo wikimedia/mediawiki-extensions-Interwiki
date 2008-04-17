@@ -514,6 +514,7 @@ $messages['hu'] = array(
 );
 
 /** Italian (Italiano)
+ * @author BrokenArrow
  * @author Cruccone
  */
 $messages['it'] = array(
@@ -530,7 +531,26 @@ Esiste un [[Speciale:Log/interwiki|registro delle modifiche]] alla tabella degli
 	'interwiki_deleted'        => 'Il prefisso "$1" è stato cancellato con successo dalla tabella degli interwiki.',
 	'interwiki_delfailed'      => 'Rimozione del prefisso "$1" dalla tabella degli interwiki fallita.',
 	'interwiki_addtext'        => 'Aggiungi un prefisso interwiki',
+	'interwiki_addintro'       => 'Sta per essere aggiunto un nuovo prefisso interwiki.
+Non sono ammessi i caratteri: spazio ( ), due punti (:), e commerciale (&), simbolo di uguale (=).',
 	'interwiki_addbutton'      => 'Aggiungi',
+	'interwiki_added'          => 'Il prefisso "$1" è stato aggiunto alla tabella degli interwiki.',
+	'interwiki_addfailed'      => 'Impossibile aggiungere il prefisso "$1" alla tabella degli interwiki.
+Il prefisso potrebbe essere già presente in tabella.',
+	'interwiki_edittext'       => 'Modifica di un prefisso interwiki',
+	'interwiki_editintro'      => 'Si sta modificando un prefisso interwiki.
+Ciò può rendere non funzionanti dei collegamenti esistenti.',
+	'interwiki_edited'         => 'Il prefisso "$1" è stato modificato nella tabella degli interwiki.',
+	'interwiki_editfailed'     => 'Impossibile modificare il prefisso "$1" nella tabella degli interwiki.
+Il prefisso potrebbe non esistere nella tabella, o esserne stato cancellato.',
+	'interwiki_editerror'      => 'Impossibile modificare il prefisso "$1" nella tabella degli interwiki.
+Il prefisso potrebbe essere inesistente.',
+	'interwiki_logpagename'    => 'Registro tabella interwiki',
+	'interwiki_log_added'      => 'ha aggiunto il prefisso "$2" ($3) (trans: $4) (locale: $5) alla tabella degli interwiki',
+	'interwiki_log_edited'     => 'ha modificato il prefisso "$2" : ($3) (trans: $4) (locale: $5) nella tabella degli interwiki',
+	'interwiki_log_deleted'    => 'ha rimosso il prefisso "$2" dalla tabella degli interwiki',
+	'interwiki_logpagetext'    => 'Registro dei cambiamenti apportati alla [[Special:Interwiki|tabella degli interwiki]].',
+	'interwiki_defaultreason'  => 'nessuna motivazione indicata',
 );
 
 /** Japanese (日本語)
