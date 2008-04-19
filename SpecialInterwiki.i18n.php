@@ -111,6 +111,45 @@ $messages['ar'] = array(
 	'interwiki_defaultreason' => 'لا سبب معطى',
 );
 
+/** Kotava (Kotava)
+ * @author Wikimistusik
+ */
+$messages['avk'] = array(
+	'interwiki'                => "Wira va 'interwiki' orig isu betara",
+	'interwiki-title-norights' => "Wira va 'interwiki' orig",
+	'interwiki-desc'           => "Batcoba, ta wira va 'interwiki' origak isu betara, va [[Special:Interwiki|aptafu bu]] loplekur",
+	'interwiki_prefix'         => 'Abdueosta',
+	'interwiki_reasonfield'    => 'Lazava',
+	'interwiki_intro'          => "Ta lo giva icde 'interwiki' origak va $1 wil !
+Batcoba tir [[Special:Log/interwiki|'log' dem betaks]] va 'interwiki' origak.",
+	'interwiki_error'          => "ROKLA : 'Interwiki' origak tir vlardaf oke rotaca al sokir.",
+	'interwiki_delquestion'    => 'Sulara va "$1"',
+	'interwiki_deleting'       => 'Rin va "$1" abdueosta dun sulal.',
+	'interwiki_deleted'        => '"$1" abdueosta div \'interwiki\' origak al zo tioltenher.',
+	'interwiki_delfailed'      => '"$1" abdueosta div \'interwiki\' origak me zo rotiolter.',
+	'interwiki_addtext'        => "Loplekura va 'interwiki' abdueosta",
+	'interwiki_addintro'       => "Rin va warzafa 'interwiki' abdueosta dun loplekul.
+Me vulkul da bata va darka ( ) ik briva (:) ik 'ampersand' (&) ik miltastaa (=) me roruldar.",
+	'interwiki_addbutton'      => 'Loplekura',
+	'interwiki_added'          => '"$1" abdueosta ko \'interwiki\' origak al zo loplekunhur.',
+	'interwiki_addfailed'      => '"$1" abdueosta ko \'interwiki\' origak me zo roloplekur.
+Rotir koeon ixam tir.',
+	'interwiki_edittext'       => "Betara va 'interwiki' abdueosta",
+	'interwiki_editintro'      => "Rin va 'interwiki' abdueosta dun betal.
+Me vulkul da batcoba va kruldesi gluyasiki rotempar !",
+	'interwiki_edited'         => '"$1" abdueosta koe \'interwiki\' origak al zo betanhar.',
+	'interwiki_editfailed'     => '"$1" abdueosta koe \'interwiki\' origak me zo robetar.
+Rotir koeon me krulder oke tir sulayana.',
+	'interwiki_editerror'      => '"$1" abdueosta koe \'interwiki\' origak me zo robetar.
+Rotir koeon me krulder.',
+	'interwiki_logpagename'    => "'Interwiki' origak 'log'",
+	'interwiki_log_added'      => '"$2" abdueosta ($3) (trans: $4) (local: $5) loplekuyuna ko \'interwiki\' origak',
+	'interwiki_log_edited'     => '"$2" abdueosta ($3) (trans: $4) (local: $5) betayana koe \'interwiki\' origak',
+	'interwiki_log_deleted'    => '"$2" abdueosta plekuyuna div \'interwiki\' origak',
+	'interwiki_logpagetext'    => "Batcoba tir 'log' dem betaks va [[Special:Interwiki|'interwiki' origak]].",
+	'interwiki_defaultreason'  => 'Meka bazena lazava',
+);
+
 /** Bulgarian (Български)
  * @author DCLXVI
  */
@@ -744,11 +783,15 @@ Er is een [[Special:Log/interwiki|logboek van wijzigingen]] aan de interwikitabe
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+ * @author Eirik
  * @author Jon Harald Søby
  */
 $messages['nn'] = array(
-	'interwiki_reasonfield'   => 'Årsak',
-	'interwiki_defaultreason' => 'inga grunngjeving',
+	'interwiki'                => 'Vis og endre interwikidata',
+	'interwiki-title-norights' => 'Vis interwikidata',
+	'interwiki_prefix'         => 'Prefiks',
+	'interwiki_reasonfield'    => 'Årsak',
+	'interwiki_defaultreason'  => 'inga grunngjeving',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
