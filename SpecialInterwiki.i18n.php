@@ -609,6 +609,45 @@ $messages['ja'] = array(
 	'interwiki_defaultreason' => '理由が記述されていません',
 );
 
+/** Javanese (Basa Jawa)
+ * @author Meursault2004
+ */
+$messages['jv'] = array(
+	'interwiki'                => 'Ndeleng lan nyunting data interwiki',
+	'interwiki-title-norights' => 'Ndeleng data interwiki',
+	'interwiki-desc'           => 'Nambahaké sawijining [[Special:Interwiki|kaca astaméwa]] kanggo ndeleng lan nyunting tabèl interwiki',
+	'interwiki_prefix'         => 'Préfiks (sisipan awal)',
+	'interwiki_reasonfield'    => 'Alesan',
+	'interwiki_intro'          => 'Mangga mirsani $1 kanggo informasi sabanjuré perkara tabèl interwiki.
+Ana sawijining [[Special:Log/interwiki|log owah-owahan]] perkara tabèl interwiki.',
+	'interwiki_error'          => 'KALUPUTAN: Tabèl interwikiné kosong, utawa ana masalah liya.',
+	'interwiki_delquestion'    => 'Mbusak "$1"',
+	'interwiki_deleting'       => 'Panjenengan mbusak préfiks utawa sisipan awal "$1".',
+	'interwiki_deleted'        => 'Préfisk "$1" bisa kasil dibusak saka tabèl interwiki.',
+	'interwiki_delfailed'      => 'Préfiks "$1" ora bisa diilangi saka tabèl interwiki.',
+	'interwiki_addtext'        => 'Nambah préfiks interwiki',
+	'interwiki_addintro'       => 'Panjenengan nambah préfiks utawa sisipan awal interwiki anyar.
+Élinga yèn iku ora bisa ngandhut spasi ( ), pada pangkat (:), ampersands (&), utawa tandha padha (=).',
+	'interwiki_addbutton'      => 'Nambah',
+	'interwiki_added'          => 'Préfiks utawa sisipan awal "$1" bisa kasil ditambahaké ing tabèl interwiki.',
+	'interwiki_addfailed'      => 'Préfiks "$1" ora bisa ditambahaké ing tabèl interwiki.
+Mbok-menawa iki pancèn wis ana ing tabèl interwiki.',
+	'interwiki_edittext'       => 'Nyunting sawijining préfiks interwiki',
+	'interwiki_editintro'      => 'Panjenengan nyunting préfiks interwiki.
+Élinga yèn iki ora bisa nugel pranala-pranala sing wis ana.',
+	'interwiki_edited'         => 'Préfiks "$1" bisa suksès dimodifikasi ing tabèl interwiki.',
+	'interwiki_editfailed'     => 'Préfiks "$1" ora bisa dimodifikasi ing tabèl interwiki.
+Mbok-menawa iki pancèn ora ana ing tabèl interwiki table utawa wis dibusak.',
+	'interwiki_editerror'      => 'Préfiks utawa sisipan awal "$1" ora bisa dimodifikasi ing tabèl interwiki.
+Mbok-menawa iki ora ana.',
+	'interwiki_logpagename'    => 'Log tabèl interwiki',
+	'interwiki_log_added'      => 'nambahaké préfiks (sisipan awal) "$2" ($3) (trans: $4) (local: $5) ing tabèl interwiki',
+	'interwiki_log_edited'     => 'modifikasi préfiks (sisipan awal) "$2" : ($3) (trans: $4) (local: $5) ing tabèl interwiki',
+	'interwiki_log_deleted'    => 'ngilangi sisipan awal (préfiks) "$2" saka tabèl interwiki',
+	'interwiki_logpagetext'    => 'Kaca iki log owah-owahan kanggo [[Special:Interwiki|tabèl interwiki]].',
+	'interwiki_defaultreason'  => 'ora mènèhi alesan',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Lovekhmer
@@ -633,7 +672,7 @@ $messages['km'] = array(
 $messages['ko'] = array(
 	'interwiki'                => '인터위키 목록 보기/고치기',
 	'interwiki-title-norights' => '인터위키 보기',
-	'interwiki-desc'           => '인터위키 표를 보거나 고치기 위해 [[Special:Interwiki|특수문서]]를 추가해주세요.',
+	'interwiki-desc'           => '인터위키 표를 보거나 고칠 수 있는 [[Special:Interwiki|특수문서]]를 추가',
 	'interwiki_prefix'         => '접두어',
 	'interwiki_reasonfield'    => '이유',
 	'interwiki_intro'          => '인터위키 표에 대한 더 많은 정보는 $1을 참고하세요. 표의 [[Special:Log/interwiki|바뀜 기록]]이 있습니다.',
