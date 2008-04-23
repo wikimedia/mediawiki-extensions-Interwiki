@@ -83,6 +83,13 @@ $messages['af'] = array(
 	'interwiki_defaultreason'  => 'geen rede gegee',
 );
 
+/** Aragonese (Aragonés)
+ * @author Juanpabl
+ */
+$messages['an'] = array(
+	'interwiki_reasonfield' => 'Razón',
+);
+
 /** Arabic (العربية)
  * @author Meno25
  */
@@ -555,6 +562,14 @@ $messages['hu'] = array(
 	'interwiki_defaultreason' => 'nincs ok megadva',
 );
 
+/** Icelandic (Íslenska)
+ * @author S.Örvarr.S
+ */
+$messages['is'] = array(
+	'interwiki_reasonfield'   => 'Ástæða',
+	'interwiki_defaultreason' => 'engin ástæða gefin',
+);
+
 /** Italian (Italiano)
  * @author BrokenArrow
  * @author Cruccone
@@ -738,6 +753,8 @@ $messages['lb'] = array(
 	'interwiki_delquestion'    => 'Läscht "$1"',
 	'interwiki_addbutton'      => 'Derbäisetzen',
 	'interwiki_defaulturl'     => 'http://www.beispill.com/$1',
+	'interwiki_logpagename'    => 'Lëscht mat der Interwikitabell',
+	'interwiki_logpagetext'    => 'Dëst ass eng Lëscht mat den Ännerunge vun der [[Special:Interwiki|Interwikitabell]].',
 	'interwiki_defaultreason'  => 'kee Grond uginn',
 );
 
