@@ -1268,6 +1268,13 @@ Có thể nó đã tồn tại trong bảng liên wiki rồi.',
 	'interwiki_defaultreason'  => 'không đưa ra lý do',
 );
 
+/** Volapük (Volapük)
+ * @author Malafaya
+ */
+$messages['vo'] = array(
+	'interwiki_reasonfield' => 'Kod',
+);
+
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Alexsh
  */
