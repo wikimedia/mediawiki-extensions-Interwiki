@@ -458,16 +458,27 @@ $messages['hi'] = array(
 	'interwiki_defaultreason'  => 'कारण दिया नहीं',
 );
 
+/** Croatian (Hrvatski)
+ * @author SpeedyGonsales
+ * @author Dalibor Bosits
+ */
 $messages['hr'] = array(
-	'interwiki'             => 'Vidi i uredi međuwiki podatke',
-	'interwiki_prefix'      => 'Prefiks',
-	'interwiki_local'       => 'Lokalno',
-	'interwiki_trans'       => 'Međuwiki',
-	'interwiki_reasonfield' => 'Razlog',
-	'interwiki_delquestion' => 'Brišem "$1"',
-	'interwiki_deleting'    => 'Brišete prefiks "$1".',
-	'interwiki_addtext'     => 'Dodaj međuwiki prefiks',
-	'interwiki_addbutton'   => 'Dodaj',
+	'interwiki'               => 'Vidi i uredi međuwiki podatke',
+	'interwiki-desc'          => 'Dodaje [[Special:Interwiki|posebnu stranicu]] za gledanje i uređivanje interwiki tablice',
+	'interwiki_prefix'        => 'Prefiks',
+	'interwiki_reasonfield'   => 'Razlog',
+	'interwiki_local'         => 'Lokalno',
+	'interwiki_trans'         => 'Međuwiki',
+	'interwiki_delquestion'   => 'Brišem "$1"',
+	'interwiki_deleting'      => 'Brišete prefiks "$1".',
+	'interwiki_addtext'       => 'Dodaj međuwiki prefiks',
+	'interwiki_addbutton'     => 'Dodaj',
+	'interwiki_logpagename'   => 'Evidencije interwiki tablice',
+	'interwiki_log_added'     => 'dodan prefiks "$2" ($3) (trans: $4) (lokalno: $5) u interwiki tablicu',
+	'interwiki_log_edited'    => 'promijenjen prefiks "$2" : ($3) (trans: $4) (lokalno: $5) u interwiki tablici',
+	'interwiki_log_deleted'   => 'uklonjen prefiks "$2" iz interwiki tablice',
+	'interwiki_logpagetext'   => 'Ovo su evidencije promjena na [[Special:Interwiki|interwiki tablici]].',
+	'interwiki_defaultreason' => 'nema razloga',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
@@ -756,6 +767,15 @@ $messages['lb'] = array(
 	'interwiki_logpagename'    => 'Lëscht mat der Interwikitabell',
 	'interwiki_logpagetext'    => 'Dëst ass eng Lëscht mat den Ännerunge vun der [[Special:Interwiki|Interwikitabell]].',
 	'interwiki_defaultreason'  => 'kee Grond uginn',
+);
+
+/** Malayalam (മലയാളം)
+ * @author Shijualex
+ */
+$messages['ml'] = array(
+	'interwiki_reasonfield'   => 'കാരണം',
+	'interwiki_addbutton'     => 'ചേര്‍ക്കുക',
+	'interwiki_defaultreason' => 'കാരണമൊന്നും സൂചിപ്പിച്ചിട്ടില്ല',
 );
 
 /** Marathi (मराठी)
