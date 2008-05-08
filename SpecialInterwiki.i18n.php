@@ -253,7 +253,7 @@ $messages['eo'] = array(
 	'interwiki_prefix'         => 'Prefikso',
 	'interwiki_reasonfield'    => 'Kialo',
 	'interwiki_intro'          => 'Vidu $1 por plia informo pri la intervikia tabelo.
-Ekzistas [[Special:Log/interwiki|loglibro pri ŝanĝoj]] por la intervikia tabelo.',
+Ekzistas [[Special:Log/interwiki|protokolo pri ŝanĝoj]] por la intervikia tabelo.',
 	'interwiki_error'          => 'ERARO: La intervikia tabelo estas malplena, aŭ iel misfunkciis.',
 	'interwiki_delquestion'    => 'Forigante "$1"',
 	'interwiki_deleting'       => 'Vi forigas prefikson "$1".',
