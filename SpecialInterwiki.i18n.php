@@ -79,6 +79,7 @@ $messages['af'] = array(
 	'interwiki_reasonfield'    => 'Rede',
 	'interwiki_delquestion'    => 'Besig om "$1" te verwyder',
 	'interwiki_deleting'       => 'U is besig om voorvoegsel "$1" te verwyder.',
+	'interwiki_addbutton'      => 'Voeg by',
 	'interwiki_logpagename'    => 'Interwiki tabel staaf',
 	'interwiki_defaultreason'  => 'geen rede gegee',
 );
@@ -795,6 +796,7 @@ $messages['lb'] = array(
  */
 $messages['ml'] = array(
 	'interwiki_reasonfield'   => 'കാരണം',
+	'interwiki_delquestion'   => '"$1" മായ്ച്ചുകൊണ്ടിരിക്കുന്നു',
 	'interwiki_addbutton'     => 'ചേര്‍ക്കുക',
 	'interwiki_defaultreason' => 'കാരണമൊന്നും സൂചിപ്പിച്ചിട്ടില്ല',
 );
@@ -858,6 +860,7 @@ $messages['nl'] = array(
 	'interwiki_reasonfield'    => 'Reden',
 	'interwiki_intro'          => 'Zie $1 voor meer informatie over de interwikitabel.
 Er is een [[Special:Log/interwiki|logboek van wijzigingen]] aan de interwikitabel.',
+	'interwiki_local'          => 'Lokaal',
 	'interwiki_error'          => 'FOUT: De interwikitabel is leeg, of iets anders ging verkeerd.',
 	'interwiki_delquestion'    => '"$1" aan het verwijderen',
 	'interwiki_deleting'       => 'U bent voorvoegsel "$1" aan het verwijderen.',
@@ -870,7 +873,6 @@ Er is een [[Special:Log/interwiki|logboek van wijzigingen]] aan de interwikitabe
 	'interwiki_addfailed'      => 'Voorvoegsel "$1" kon niet worden toegevoegd aan de interwikitabel. Mogelijk bestaat hij al in de interwikitabel.',
 	'interwiki_edittext'       => 'Een interwikivoorvoegsel bewerken',
 	'interwiki_editintro'      => 'U bent een interwikivoorvoegsel aan het bewerken. Let op dat dit bestaande links kan breken.',
-	'interwiki_editbutton'     => 'Bewerken',
 	'interwiki_edited'         => 'Voorvoegsel "$1" is succesvol gewijzigd in de interwikitabel.',
 	'interwiki_editfailed'     => 'Voorvoegsel "$1" kon niet worden gewijzigd in de interwikitabel. Mogelijk is hij verwijderd of bestaat hij niet in de interwikitabel.',
 	'interwiki_editerror'      => 'Voorvoegsel "$1" kan niet worden gewijzigd in de interwikitabel. Mogelijk bestaat hij niet.',
