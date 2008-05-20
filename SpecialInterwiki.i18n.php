@@ -796,10 +796,12 @@ $messages['lb'] = array(
  * @author Shijualex
  */
 $messages['ml'] = array(
-	'interwiki_reasonfield'   => 'കാരണം',
-	'interwiki_delquestion'   => '"$1" മായ്ച്ചുകൊണ്ടിരിക്കുന്നു',
-	'interwiki_addbutton'     => 'ചേര്‍ക്കുക',
-	'interwiki_defaultreason' => 'കാരണമൊന്നും സൂചിപ്പിച്ചിട്ടില്ല',
+	'interwiki'                => 'ഇന്റര്‍ വിക്കി ഡാറ്റ കാണുകയും തിരുത്തുകയും ചെയ്യുക',
+	'interwiki-title-norights' => 'ഇന്റര്‍‌വിക്കി ഡാറ്റ കാണുക',
+	'interwiki_reasonfield'    => 'കാരണം',
+	'interwiki_delquestion'    => '"$1" മായ്ച്ചുകൊണ്ടിരിക്കുന്നു',
+	'interwiki_addbutton'      => 'ചേര്‍ക്കുക',
+	'interwiki_defaultreason'  => 'കാരണമൊന്നും സൂചിപ്പിച്ചിട്ടില്ല',
 );
 
 /** Marathi (मराठी)
