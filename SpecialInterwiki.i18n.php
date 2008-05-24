@@ -93,30 +93,32 @@ $messages['an'] = array(
 
 /** Arabic (العربية)
  * @author Meno25
+ * @author OsamaK
  */
 $messages['ar'] = array(
-	'interwiki'               => 'عرض وتعديل بيانات الإنترويكي',
-	'interwiki-desc'          => 'يضيف [[Special:Interwiki|صفحة خاصة]] لرؤية وتعديل جدول الإنترويكي',
-	'interwiki_prefix'        => 'بادئة',
-	'interwiki_reasonfield'   => 'سبب',
-	'interwiki_intro'         => 'انظر $1 لمزيد من المعلومات حول جدول الإنترويكي. يوجد [[Special:Log/interwiki|سجل بالتغييرات]] لجدول الإنترويكي.',
-	'interwiki_local'         => 'محلي',
-	'interwiki_trans'         => 'نقل',
-	'interwiki_error'         => 'خطأ: جدول الإنترويكي فارغ، أو حدث خطأ آخر.',
-	'interwiki_delquestion'   => 'حذف "$1"',
-	'interwiki_deleting'      => 'أنت تحذف البادئة "$1".',
-	'interwiki_deleted'       => 'البادئة "$1" تمت إزالتها بنجاح من جدول الإنترويكي.',
-	'interwiki_delfailed'     => 'البادئة "$1" لم يمكن إزالتها من جدول الإنترويكي.',
-	'interwiki_addtext'       => 'أضف بادئة إنترويكي',
-	'interwiki_addintro'      => 'أنت تضيف بادئة إنترويكي جديدة. تذكر أنها لا يمكن أن تحتوي على مسافات ( )، نقطتين فوق بعض (:)، علامة و (&)، أو علامة يساوي (=).',
-	'interwiki_addbutton'     => 'إضافة',
-	'interwiki_added'         => 'البادئة "$1" تمت إضافتها بنجاح إلى جدول الإنترويكي.',
-	'interwiki_addfailed'     => 'البادئة "$1" لم يمكن إضافتها إلى جدول الإنترويكي. على الأرجح هي موجودة بالفعل في جدول الإنترويكي.',
-	'interwiki_logpagename'   => 'سجل جدول الإنترويكي',
-	'interwiki_log_added'     => 'أضاف "$2" ($3) (نقل: $4) (محلي: $5) إلى جدول الإنترويكي',
-	'interwiki_log_deleted'   => 'أزال البادئة "$2" من جدول الإنترويكي',
-	'interwiki_logpagetext'   => 'هذا سجل بالتغييرات في [[Special:Interwiki|جدول الإنترويكي]].',
-	'interwiki_defaultreason' => 'لا سبب معطى',
+	'interwiki'                => 'عرض وتعديل بيانات الإنترويكي',
+	'interwiki-title-norights' => 'عرض معلومات الإنترويكي',
+	'interwiki-desc'           => 'يضيف [[Special:Interwiki|صفحة خاصة]] لرؤية وتعديل جدول الإنترويكي',
+	'interwiki_prefix'         => 'بادئة',
+	'interwiki_reasonfield'    => 'سبب',
+	'interwiki_intro'          => 'انظر $1 لمزيد من المعلومات حول جدول الإنترويكي. يوجد [[Special:Log/interwiki|سجل بالتغييرات]] لجدول الإنترويكي.',
+	'interwiki_local'          => 'محلي',
+	'interwiki_trans'          => 'نقل',
+	'interwiki_error'          => 'خطأ: جدول الإنترويكي فارغ، أو حدث خطأ آخر.',
+	'interwiki_delquestion'    => 'حذف "$1"',
+	'interwiki_deleting'       => 'أنت تحذف البادئة "$1".',
+	'interwiki_deleted'        => 'البادئة "$1" تمت إزالتها بنجاح من جدول الإنترويكي.',
+	'interwiki_delfailed'      => 'البادئة "$1" لم يمكن إزالتها من جدول الإنترويكي.',
+	'interwiki_addtext'        => 'أضف بادئة إنترويكي',
+	'interwiki_addintro'       => 'أنت تضيف بادئة إنترويكي جديدة. تذكر أنها لا يمكن أن تحتوي على مسافات ( )، نقطتين فوق بعض (:)، علامة و (&)، أو علامة يساوي (=).',
+	'interwiki_addbutton'      => 'إضافة',
+	'interwiki_added'          => 'البادئة "$1" تمت إضافتها بنجاح إلى جدول الإنترويكي.',
+	'interwiki_addfailed'      => 'البادئة "$1" لم يمكن إضافتها إلى جدول الإنترويكي. على الأرجح هي موجودة بالفعل في جدول الإنترويكي.',
+	'interwiki_logpagename'    => 'سجل جدول الإنترويكي',
+	'interwiki_log_added'      => 'أضاف "$2" ($3) (نقل: $4) (محلي: $5) إلى جدول الإنترويكي',
+	'interwiki_log_deleted'    => 'أزال البادئة "$2" من جدول الإنترويكي',
+	'interwiki_logpagetext'    => 'هذا سجل بالتغييرات في [[Special:Interwiki|جدول الإنترويكي]].',
+	'interwiki_defaultreason'  => 'لا سبب معطى',
 );
 
 /** Kotava (Kotava)
@@ -263,13 +265,13 @@ Ekzistas [[Special:Log/interwiki|protokolo pri ŝanĝoj]] por la intervikia tabe
 	'interwiki_addtext'        => 'Aldonu intervikian prefikson',
 	'interwiki_addintro'       => 'Vi aldonas novan intervikian prefikson.
 Memoru ke ĝi ne povas enhavi spacetojn ( ), kolojn (:), kajsignojn (&), aŭ egalsignojn (=).',
-	'interwiki_addbutton'      => 'Aldonu',
+	'interwiki_addbutton'      => 'Aldoni',
 	'interwiki_added'          => 'Prefikso "$1" estis sukcese aldonita al la intervikia tabelo.',
 	'interwiki_addfailed'      => 'Prefikso "$1" ne eblis esti aldonita al la intervikia tabelo.
 Eble ĝi jam ekzistas en la intervikia tabelo.',
 	'interwiki_edittext'       => 'Redaktante intervikian prefikson',
 	'interwiki_editintro'      => 'Vi redaktas intervikian prefikson.
-Notu ke ĉi tiu agon povas rompi ekzistantajn ligilojn.',
+Notu ke ĉi tiu ago povas rompi ekzistantajn ligilojn.',
 	'interwiki_edited'         => 'Prefikso "$1" estis sukcese modifita en la intervikian tabelon.',
 	'interwiki_editfailed'     => 'Prefikso "$1" ne eblis esti modifita en la intervikia tabelo.
 Verŝajne ĝi ne ekzistas en la intervikia tabelo aŭ estis forigita.',
@@ -747,6 +749,46 @@ $messages['ko'] = array(
 	'interwiki_log_deleted'    => '접두어 "$2"을(를) 인터위키 목록에서 지웠습니다.',
 	'interwiki_logpagetext'    => '[[Special:Interwiki|인터위키]] 목록의 바뀐 내역입니다.',
 	'interwiki_defaultreason'  => '이유가 제시되지 않았습니다.',
+);
+
+/** Ripoarisch (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'interwiki'                => 'Engerwiki Date beloere un änndere',
+	'interwiki-title-norights' => 'Engerwiki Date beloore',
+	'interwiki-desc'           => 'Brengk de Sondersigg [[{{NS:Special}}:Interwiki]], öm Engerwiki Date ze beloore un ze ändere',
+	'interwiki_prefix'         => 'Försaz',
+	'interwiki_reasonfield'    => 'Aanlass',
+	'interwiki_intro'          => 'Op dä Sigg $1 fingk mer mieh do dröver, wat et met dä Tabäll met de Engerwiki Date op sich hät.
+Et [[Special:Log/interwiki|Logbuch med de Engerwiki Date]] zeichnet all de Änderunge aan de Engerwiki Date op.',
+	'interwiki_local'          => 'Lokal',
+	'interwiki_error'          => '<span style="text-transform:uppercase">Fähler:</span> de Tabäll met de Engerwiki Date is leddisch.',
+	'interwiki_delquestion'    => '„$1“ weed fottjeschmeße',
+	'interwiki_deleting'       => 'Do wells dä Engerwiki Försaz „$1“ fott schmiiße.',
+	'interwiki_deleted'        => 'Dä Försaz „$1“ es jäz uß dä Engerwiki Date erusjeschmesse.',
+	'interwiki_delfailed'      => 'Dä Försaz „$1“ konnt nit uß dä Engerwiki Date jenomme wääde.',
+	'interwiki_addtext'        => 'Ene Engerwiki Försaz dobei donn',
+	'interwiki_addintro'       => 'Do bes an ennem Engerwiki Fösaz am dobei donn.
+Denk draan, et dörfe kei Zweschräum ( ), Koufmanns-Un (&amp;), Jlisch-Zeiche (=), un kein Dubbelpünkscher (:) do dren sin.',
+	'interwiki_addbutton'      => 'Dobei donn',
+	'interwiki_added'          => 'Dä Försaz „$1“ es jäz bei de Engerwiki Date dobei jekomme.',
+	'interwiki_addfailed'      => 'Dä Försaz „$1“ konnt nit bei de Engerwiki Date dobeijedonn wäde.
+Maach sin, dat dä en de Engerwiki Tabäll ald dren wor un es.',
+	'interwiki_edittext'       => 'Enne Engerwiki Fürsaz Ändere',
+	'interwiki_editintro'      => 'Do bes an ennem Engerwiki Fösaz am ändere.
+Denk draan, domet könnts De Links em Wiki kapott maache, die velleich do drop opboue.',
+	'interwiki_edited'         => 'Föz dä Försaz „$1“ sen de Engerwiki Date jäz jetuusch.',
+	'interwiki_editfailed'     => 'Dä Försaz „$1“ konnt en de Engerwiki Date nit beärrbeidt wäde.
+Maach sin, dat dä en de Engerwiki Tabäll nit dren is, oddo hä wood erus jeworfe.',
+	'interwiki_editerror'      => 'Dä Försaz „$1“ konnt en de Engerwiki Date nit beärrbeidt wäde.
+Maach sin, dat et inn nit jitt.',
+	'interwiki_logpagename'    => 'Logbooch fun de Engerwiki Tabäll',
+	'interwiki_log_added'      => 'hät dä Försaz „$2“ ($3) (Trans: $4) (Lokal: $5) en de Engerwiki Date eren jedonn',
+	'interwiki_log_edited'     => 'hät dä Försaz „$2“ ($3) (Trans: $4) (Lokal: $5) en de Engerwiki Date ömjemodelt',
+	'interwiki_log_deleted'    => 'hät dä Försaz „$2“ es us de Engerwiki Date eruß jeworfe',
+	'interwiki_logpagetext'    => 'Hee is dat Logboch met de Änderonge aan de [[Special:Interwiki|Engerwiki Date]].',
+	'interwiki_defaultreason'  => 'Keine Aanlass aanjejovve',
 );
 
 /** Latin (Latina)
