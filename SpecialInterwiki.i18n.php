@@ -597,6 +597,13 @@ $messages['hu'] = array(
 	'interwiki_defaultreason' => 'nincs ok megadva',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Rex
+ */
+$messages['id'] = array(
+	'interwiki_reasonfield' => 'Alasan',
+);
+
 /** Icelandic (Íslenska)
  * @author S.Örvarr.S
  */
