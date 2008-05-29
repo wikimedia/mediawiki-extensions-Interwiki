@@ -1001,7 +1001,7 @@ $messages['nso'] = array(
 $messages['oc'] = array(
 	'interwiki'                => 'Veire e editar las donadas interwiki',
 	'interwiki-title-norights' => 'Veire las donadas interwiki',
-	'interwiki-desc'           => 'Ajusta una [[Special:Interwiki|pagina especiala]] per veire e editar la taula interwiki',
+	'interwiki-desc'           => 'Apondís una [[Special:Interwiki|pagina especiala]] per veire e editar la taula interwiki',
 	'interwiki_prefix'         => 'Prefix',
 	'interwiki_reasonfield'    => 'Motiu :',
 	'interwiki_intro'          => "Vejatz $1 per obténer mai d'entresenhas per çò que concernís la taula interwiki. Aquò es lo [[Special:Log/interwiki|jornal de las modificacions]] de la taula interwiki.",
@@ -1010,7 +1010,7 @@ $messages['oc'] = array(
 	'interwiki_deleting'       => 'Escafatz presentament lo prefix « $1 ».',
 	'interwiki_deleted'        => '$1 es estada levada amb succès de la taula interwiki.',
 	'interwiki_delfailed'      => '$1 a pas pogut èsser levat de la taula interwiki.',
-	'interwiki_addtext'        => 'Ajusta un prefix interwiki',
+	'interwiki_addtext'        => 'Apondís un prefix interwiki',
 	'interwiki_addintro'       => "Sètz a apondre un prefix interwiki. Rapelatz-vos que pòt pas conténer d'espacis ( ), de punts dobles (:), d'eperluetas (&) o de signes egal (=)",
 	'interwiki_addbutton'      => 'Apondre',
 	'interwiki_added'          => '$1 es estat ajustat amb succès dins la taula interwiki.',
@@ -1397,3 +1397,4 @@ $messages['zh-hant'] = array(
 	'interwiki_delfailed'   => '無法從連結表刪除連結字串"$1"',
 	'interwiki_addtext'     => '新增跨語連結字串',
 );
+
