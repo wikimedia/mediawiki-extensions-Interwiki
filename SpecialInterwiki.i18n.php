@@ -66,6 +66,8 @@ Possibly it does not exist.',
 	'interwiki_logpagetext'    => 'This is a log of changes to the [[Special:Interwiki|interwiki table]].',
 	'interwiki_defaultreason'  => 'no reason given',
 	'interwiki_logentry'       => '', # do not translate this message
+
+	'right-interwiki'          => 'Edit interwiki data',
 );
 
 /** Afrikaans (Afrikaans)
@@ -1395,4 +1397,3 @@ $messages['zh-hant'] = array(
 	'interwiki_delfailed'   => '無法從連結表刪除連結字串"$1"',
 	'interwiki_addtext'     => '新增跨語連結字串',
 );
-

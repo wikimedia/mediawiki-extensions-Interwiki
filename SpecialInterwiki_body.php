@@ -107,7 +107,7 @@ class SpecialInterwiki extends SpecialPage {
 			$token = htmlspecialchars( $wgUser->editToken() );
 			$defaultreason = wfMsgForContent( 'interwiki_defaultreason' );
 
-			$wgOut->addHTML( 
+			$wgOut->addHTML(
 				"<fieldset>
 				<legend>$topmessage</legend>
 				$intromessage
@@ -168,7 +168,7 @@ class SpecialInterwiki extends SpecialPage {
 				$theurl = $wgRequest->getVal('theurl');
 				$local = $wgRequest->getCheck('local') ? 1 : 0;
 				$trans = $wgRequest->getCheck('trans') ? 1 : 0;
-				$data = array( 'iw_prefix' => $prefix, 'iw_url'    => $theurl, 
+				$data = array( 'iw_prefix' => $prefix, 'iw_url'    => $theurl,
 					'iw_local'  => $local, 'iw_trans'  => $trans );
 
 				if( $do == 'add' ){

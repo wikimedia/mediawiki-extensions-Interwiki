@@ -16,12 +16,12 @@
 if (!defined('MEDIAWIKI')) die();
 
 $wgExtensionCredits['specialpage'][] = array(
-	'name' => 'SpecialInterwiki',
-	'url' => 'http://mediawiki.org/wiki/Extension:SpecialInterwiki',
-	'description' => 'Adds a [[Special:Interwiki|special page]] to view and edit the interwiki table',
-	'svn-date' => '$LastChangedDate$',
-	'svn-revision' => '$LastChangedRevision$',
-	'author'  => array( 'Stephanie Amanda Stevens', 'SPQRobin', 'others' ),
+	'name'           => 'SpecialInterwiki',
+	'url'            => 'http://mediawiki.org/wiki/Extension:SpecialInterwiki',
+	'description'    => 'Adds a [[Special:Interwiki|special page]] to view and edit the interwiki table',
+	'svn-date'       => '$LastChangedDate$',
+	'svn-revision'   => '$LastChangedRevision$',
+	'author'         => array( 'Stephanie Amanda Stevens', 'SPQRobin', 'others' ),
 	'descriptionmsg' => 'interwiki-desc',
 );
 
@@ -29,6 +29,8 @@ $wgExtensionMessagesFiles['Interwiki'] = dirname( __FILE__ ) . '/SpecialInterwik
 
 $wgSpecialPages['Interwiki'] = 'SpecialInterwiki';
 $wgAutoloadClasses['SpecialInterwiki'] = dirname( __FILE__ ) . '/SpecialInterwiki_body.php';
+
+$wgAvailableRights[] = 'interwiki';
 
 $wgLogTypes[] = 'interwiki';
 $wgLogNames['interwiki'] = 'interwiki_logpagename';
