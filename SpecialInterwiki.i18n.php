@@ -237,6 +237,7 @@ $messages['de'] = array(
 	'interwiki_log_deleted'   => 'hat „$2“ aus der Interwiki-Tabelle entfernt',
 	'interwiki_logpagetext'   => 'In diesem Logbuch werden Änderungen an der [[Special:Interwiki|Interwiki-Tabelle]] protokolliert.',
 	'interwiki_defaultreason' => 'kein Grund angegeben',
+	'right-interwiki'         => 'Interwiki-Tabelle bearbeiten',
 );
 
 /** Greek (Ελληνικά)
