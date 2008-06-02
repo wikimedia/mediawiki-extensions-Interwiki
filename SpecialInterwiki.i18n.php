@@ -365,6 +365,7 @@ $messages['fr'] = array(
 	'interwiki_log_deleted'    => 'a supprimé le préfixe « $2 » de la table interwiki',
 	'interwiki_logpagetext'    => 'Ceci est le journal des changements dans la [[Special:Interwiki|table interwiki]].',
 	'interwiki_defaultreason'  => 'Aucun motif donné',
+	'right-interwiki'          => 'Modifier les données interwiki',
 );
 
 /** Franco-Provençal (Arpetan)
@@ -407,6 +408,7 @@ $messages['gl'] = array(
 	'interwiki_log_deleted'    => 'Eliminouse o prefixo "$2" da táboa interwiki',
 	'interwiki_logpagetext'    => 'Este é un rexistro dos cambios a [[Special:Interwiki|táboa interwiki]].',
 	'interwiki_defaultreason'  => 'ningunha razón foi dada',
+	'right-interwiki'          => 'Editar os datos do interwiki',
 );
 
 /** Gujarati (ગુજરાતી) */
@@ -889,6 +891,7 @@ $messages['mr'] = array(
 	'interwiki_log_deleted'    => '"$2" उपपद आंतरविकिसारणी मधून वगळले',
 	'interwiki_logpagetext'    => '[[Special:Interwiki|आंतरविकि सारणीत]] झालेल्या बदलांची ही सूची आहे.',
 	'interwiki_defaultreason'  => 'कारण दिलेले नाही',
+	'right-interwiki'          => 'आंतरविकि डाटा बदला',
 );
 
 /** Low German (Plattdüütsch)
@@ -937,6 +940,7 @@ Er is een [[Special:Log/interwiki|logboek van wijzigingen]] aan de interwikitabe
 	'interwiki_log_deleted'    => 'Verwijderde voorvoegsel "$2" van de interwikitabel',
 	'interwiki_logpagetext'    => 'Dit is een logboek van wijzigingen aan de [[Special:Interwiki|interwikitabel]].',
 	'interwiki_defaultreason'  => 'geen reden gegeven',
+	'right-interwiki'          => 'Interwikigegevens bewerken',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
@@ -983,6 +987,7 @@ $messages['no'] = array(
 	'interwiki_log_deleted'    => 'Fjernet prefikset «$2» fra interwikitabellen',
 	'interwiki_logpagetext'    => 'Dette er en logg over endringer i [[Special:Interwiki|interwikitabellen]].',
 	'interwiki_defaultreason'  => 'ingen grunn gitt',
+	'right-interwiki'          => 'Redigere interwikidata',
 );
 
 /** Northern Sotho (Sesotho sa Leboa)
@@ -1027,6 +1032,7 @@ $messages['oc'] = array(
 	'interwiki_log_deleted'    => 'Prefix « $2 » suprimit de la taula interwiki',
 	'interwiki_logpagetext'    => 'Aquò es lo jornal dels cambiaments dins la [[Special:Interwiki|taula interwiki]].',
 	'interwiki_defaultreason'  => 'Cap de motiu balhat',
+	'right-interwiki'          => 'Modificar las donadas interwiki',
 );
 
 /** Polish (Polski)
@@ -1194,6 +1200,7 @@ $messages['sk'] = array(
 	'interwiki_log_deleted'    => 'Odstránené „$2“ z tabuľky interwiki',
 	'interwiki_logpagetext'    => 'Toto je záznam zmien [[Special:Interwiki|tabuľky interwiki]].',
 	'interwiki_defaultreason'  => 'nebol uvedený dôvod',
+	'right-interwiki'          => 'Upraviť interwiki údaje',
 );
 
 /** Serbian Cyrillic ekavian (ћирилица)
@@ -1265,6 +1272,7 @@ Det är möjligt att prefixet redan finns i tabellen.',
 	'interwiki_log_deleted'    => 'tog bort prefixet "$2" från interwikitabellen',
 	'interwiki_logpagetext'    => 'Detta är en logg över ändringar i [[Special:Interwiki|interwikitabellen]].',
 	'interwiki_defaultreason'  => 'ingen anledning given',
+	'right-interwiki'          => 'Redigera interwikidata',
 );
 
 /** Silesian (ślůnski)
