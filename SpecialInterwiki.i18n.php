@@ -844,6 +844,7 @@ $messages['lb'] = array(
 	'interwiki_logpagename'    => 'Lëscht mat der Interwikitabell',
 	'interwiki_logpagetext'    => 'Dëst ass eng Lëscht mat den Ännerunge vun der [[Special:Interwiki|Interwikitabell]].',
 	'interwiki_defaultreason'  => 'kee Grond uginn',
+	'right-interwiki'          => 'Interwiki-Daten änneren',
 );
 
 /** Malayalam (മലയാളം)
@@ -1063,8 +1064,8 @@ Prawdopodobnie ten prefiks już jest w tablicy.',
 	'interwiki_editintro'      => 'Redagujesz przedrostek interwiki. Pamiętaj, że może to zerwać istniejące powiązania między projektami językowymi.',
 	'interwiki_edited'         => 'Prefiks „$1” został z powodzeniem poprawiony w tablicy interwiki.',
 	'interwiki_editfailed'     => 'Prefiks „$1” nie może zostać poprawiony w tablicy interwiki.
-Prawdopodobnie nie ma go w tablicy – możliwe, że został usunięty.',
-	'interwiki_editerror'      => 'Prefiks „$1” nie może zostać poprawiony w tablicy interwiki. Prawdopodobnie nie ma go w tablicy.',
+Prawdopodobnie brak go w tablicy – możliwe, że został usunięty.',
+	'interwiki_editerror'      => 'Prefiks „$1” nie może zostać poprawiony w tablicy interwiki. Prawdopodobnie nie brak w tablicy.',
 	'interwiki_logpagename'    => 'Rejestr tablicy interwiki',
 	'interwiki_log_added'      => 'dodał przedrostek „$2” ($3) (trans: $4) (local: $5) do tablicy interwiki',
 	'interwiki_log_edited'     => 'zmienił przedrostek „$2” : ($3) (trans: $4) (local: $5) w tablicy interwiki',
