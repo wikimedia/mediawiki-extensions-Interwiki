@@ -1238,6 +1238,14 @@ $messages['stq'] = array(
 	'interwiki_defaultreason' => 'naan Gruund ounroat',
 );
 
+/** Sundanese (Basa Sunda)
+ * @author Irwangatot
+ */
+$messages['su'] = array(
+	'interwiki_reasonfield' => 'Alesan',
+	'interwiki_delquestion' => 'Ngahapus "$1"',
+);
+
 /** Swedish (Svenska)
  * @author Lejonel
  * @author M.M.S.
