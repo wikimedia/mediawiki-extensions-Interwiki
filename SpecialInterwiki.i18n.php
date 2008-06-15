@@ -116,11 +116,13 @@ $messages['ar'] = array(
 	'interwiki_addbutton'      => 'إضافة',
 	'interwiki_added'          => 'البادئة "$1" تمت إضافتها بنجاح إلى جدول الإنترويكي.',
 	'interwiki_addfailed'      => 'البادئة "$1" لم يمكن إضافتها إلى جدول الإنترويكي. على الأرجح هي موجودة بالفعل في جدول الإنترويكي.',
+	'interwiki_edittext'       => 'تعديل بادئة إنترويكي',
 	'interwiki_logpagename'    => 'سجل جدول الإنترويكي',
 	'interwiki_log_added'      => 'أضاف "$2" ($3) (نقل: $4) (محلي: $5) إلى جدول الإنترويكي',
 	'interwiki_log_deleted'    => 'أزال البادئة "$2" من جدول الإنترويكي',
 	'interwiki_logpagetext'    => 'هذا سجل بالتغييرات في [[Special:Interwiki|جدول الإنترويكي]].',
 	'interwiki_defaultreason'  => 'لا سبب معطى',
+	'right-interwiki'          => 'تعديل بيانات الإنترويكي',
 );
 
 /** Kotava (Kotava)
@@ -425,9 +427,11 @@ $messages['gv'] = array(
 
 /** Hawaiian (Hawai`i)
  * @author SPQRobin
+ * @author Singularity
  */
 $messages['haw'] = array(
 	'interwiki_reasonfield'   => 'Ke kumu',
+	'interwiki_addbutton'     => 'Ho‘ohui',
 	'interwiki_defaultreason' => '‘a‘ohe kumu',
 );
 
