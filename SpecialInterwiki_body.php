@@ -74,8 +74,7 @@ class SpecialInterwiki extends SpecialPage {
 				$dbr = wfGetDB( DB_SLAVE );
 				$row = $dbr->selectRow( 'interwiki', '*', array( 'iw_prefix' => $prefix ) );
 				if( !$row ){
-					$errormessage = wfMsgHtml( 'interwiki_editerror', $prefix );
-					$wgOut->addWikiText( "<br /><div class=\"error\">$errormessage</div><br />" );
+					$wgOut->wrapWikiMsg( '<div class="errorbox">$1</div>', array( 'interwiki_editerror', $prefix ) );
 					return;
 				}
 				$prefix = htmlspecialchars( $row->iw_prefix );
