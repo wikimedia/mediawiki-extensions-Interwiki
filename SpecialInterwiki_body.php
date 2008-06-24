@@ -74,7 +74,7 @@ class SpecialInterwiki extends SpecialPage {
 				$dbr = wfGetDB( DB_SLAVE );
 				$row = $dbr->selectRow( 'interwiki', '*', array( 'iw_prefix' => $prefix ) );
 				if( !$row ){
-					$errormessage = wfMsgHtml( 'interwiki_editerror' );
+					$errormessage = wfMsgHtml( 'interwiki_editerror', $prefix );
 					$wgOut->addWikiText( "<br /><div class=\"error\">$errormessage</div><br />" );
 					return;
 				}
@@ -85,7 +85,7 @@ class SpecialInterwiki extends SpecialPage {
 				$local = $row->iw_local ? " checked='checked'" : '';
 				$old = "<input type='hidden' name='prefix' value='" . htmlspecialchars( $row->iw_prefix ) . "' />";
 				$topmessage = wfMsgHtml( 'interwiki_edittext' );
-				$intromessage = wfMsg( 'interwiki_editintro' );
+				$intromessage = wfMsgHtml( 'interwiki_editintro' );
 				$button = wfMsgHtml( 'edit' );
 			} else {
 				$prefix = "<input tabindex='1' type='text' name='prefix' maxlength='20' size='20' />";
@@ -94,7 +94,7 @@ class SpecialInterwiki extends SpecialPage {
 				$old = '';
 				$defaulturl = wfMsgHtml( 'interwiki_defaulturl' );
 				$topmessage = wfMsgHtml( 'interwiki_addtext' );
-				$intromessage = wfMsg( 'interwiki_addintro' );
+				$intromessage = wfMsgHtml( 'interwiki_addintro' );
 				$button = wfMsgHtml( 'interwiki_addbutton' );
 			}
 
@@ -105,7 +105,7 @@ class SpecialInterwiki extends SpecialPage {
 			$reasonmessage = wfMsgHtml( 'interwiki_reasonfield' );
 			$urlmessage = wfMsgHtml( 'interwiki_url' );
 			$token = htmlspecialchars( $wgUser->editToken() );
-			$defaultreason = wfMsgForContent( 'interwiki_defaultreason' );
+			$defaultreason = htmlspecialchars( wfMsgForContent( 'interwiki_defaultreason' ) );
 
 			$wgOut->addHTML(
 				"<fieldset>
