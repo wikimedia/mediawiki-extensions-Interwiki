@@ -426,11 +426,11 @@ $messages['gv'] = array(
 );
 
 /** Hawaiian (Hawai`i)
- * @author SPQRobin
  * @author Singularity
+ * @author SPQRobin
  */
 $messages['haw'] = array(
-	'interwiki_reasonfield'   => 'Ke kumu',
+	'interwiki_reasonfield'   => 'Kumu',
 	'interwiki_addbutton'     => 'Ho‘ohui',
 	'interwiki_defaultreason' => '‘a‘ohe kumu',
 );
