@@ -39,8 +39,8 @@ class SpecialInterwiki extends SpecialPage {
 			$encPrefix = htmlspecialchars( $prefix );
 			$actionUrl = $selfTitle->escapeLocalURL( "action=submit" );
 			$button = wfMsgHtml( 'delete' );
-			$topmessage = wfMsgHtml( 'interwiki_delquestion', $prefix );
-			$deletingmessage = wfMsgHtml( 'interwiki_deleting', $prefix );
+			$topmessage = wfMsgHtml( 'interwiki_delquestion', $encPrefix );
+			$deletingmessage = wfMsgHtml( 'interwiki_deleting', $encPrefix );
 			$reasonmessage = wfMsgHtml( 'deletecomment' );
 			$defaultreason = wfMsgForContent( 'interwiki_defaultreason' );
 			$token = htmlspecialchars( $wgUser->editToken() );
