@@ -70,6 +70,13 @@ Possibly it does not exist.',
 	'right-interwiki'          => 'Edit interwiki data',
 );
 
+/** Niuean (native name missing)
+ * @author Jose77
+ */
+$messages['niu'] = array(
+	'interwiki_reasonfield' => 'Kakano',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  */
@@ -606,11 +613,49 @@ $messages['hu'] = array(
 	'interwiki_defaultreason' => 'nincs ok megadva',
 );
 
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'interwiki_reasonfield' => 'Motivo',
+);
+
 /** Indonesian (Bahasa Indonesia)
  * @author Rex
  */
 $messages['id'] = array(
-	'interwiki_reasonfield' => 'Alasan',
+	'interwiki'                => 'Lihat dan sunting data interwiki',
+	'interwiki-title-norights' => 'Lihat data interwiki',
+	'interwiki-desc'           => 'Menambahkan sebuah [[Special:Interwiki|halaman istimewa]] untuk menampilkan dan menyunting tabel interwiki',
+	'interwiki_prefix'         => 'Prefiks',
+	'interwiki_reasonfield'    => 'Alasan',
+	'interwiki_intro'          => 'Lihat $1 untuk informasi lebih lanjut mengenai tabel interwiki. Lihat [[Special:Log/interwiki|log perubahan]] tabel interwiki.',
+	'interwiki_error'          => 'KESALAHAN: Tabel interwiki kosong, atau terjadi kesalahan lain.',
+	'interwiki_delquestion'    => 'Menghapus "$1"',
+	'interwiki_deleting'       => 'Anda menghapus prefiks "$1".',
+	'interwiki_deleted'        => 'Prefiks "$1" berhasil dihapus dari tabel interwiki.',
+	'interwiki_delfailed'      => 'Prefiks "$1" tidak dapat dihapuskan dari tabel interwiki.',
+	'interwiki_addtext'        => 'Menambahkan sebuah prefiks interwiki',
+	'interwiki_addintro'       => 'Anda akan menambahkan sebuah prefiks interwiki.
+Ingat bahwa prefiks tidak boleh mengandung tanda spasi ( ), titik dua (:), lambang dan (&), atau tanda sama dengan (=).',
+	'interwiki_addbutton'      => 'Tambahkan',
+	'interwiki_added'          => 'Prefiks "$" berhasil ditambahkan ke tabel interwiki.',
+	'interwiki_addfailed'      => 'Prefiks "$1" tidak dapat ditambahkan ke tabel interwiki. Kemungkinan dikarenakan prefiks ini telah ada di tabel interwiki.',
+	'interwiki_edittext'       => 'Menyunting sebuah prefiks interwiki',
+	'interwiki_editintro'      => 'Anda sedang menyunting sebuah prefiks interwiki.
+Ingat bahwa tindakan ini dapat mempengaruhi pranala yang telah eksis.',
+	'interwiki_edited'         => 'Prefiks "$1" berhasil diubah di tabel interwiki.',
+	'interwiki_editfailed'     => 'Prefiks "$1" tidak dapat diubah di tabel interwiki.
+Kemungkinan karena tidak ditemukan di tabel interwiki atau telah dihapuskan.',
+	'interwiki_editerror'      => 'Prefiks "$1" tidak dapat diubah di tabel interwiki.
+Kemungkinan karena prefiks ini tidak ada.',
+	'interwiki_logpagename'    => 'Log tabel interwiki',
+	'interwiki_log_added'      => 'menambahkan prefiks "$2" ($3) (trans: $4) (lokal: $5) ke tabel interwiki',
+	'interwiki_log_edited'     => 'mengubah prefiks "$2" : ($3) (trans: $4) (lokal: $5) di tabel interwiki',
+	'interwiki_log_deleted'    => 'menghapus prefiks "$2" dari tabel interwiki',
+	'interwiki_logpagetext'    => 'Ini adalah log perubahan [[Special:Interwiki|tabel interwiki]].',
+	'interwiki_defaultreason'  => 'tidak ada ringkasan penjelasan',
+	'right-interwiki'          => 'Menyunting data interwiki',
 );
 
 /** Icelandic (Íslenska)
@@ -841,10 +886,13 @@ $messages['lb'] = array(
 	'interwiki-desc'           => "Setzt eng [[Special:Interwiki|Spezialsäit]] derbäi fir d'Interwiki-Tabell ze gesin an z'änneren",
 	'interwiki_prefix'         => 'Prefix',
 	'interwiki_reasonfield'    => 'Grond',
+	'interwiki_intro'          => "Kuckt $1 fir méi Informatiounen iwwert d'Interwiki-Tabell.
+Et gëtt eng [[Special:Log/interwiki|Lëscht vun den Ännerungen]] vun dëser Interwiki-Tabell.",
 	'interwiki_local'          => 'Lokal',
 	'interwiki_delquestion'    => 'Läscht "$1"',
 	'interwiki_addbutton'      => 'Derbäisetzen',
 	'interwiki_defaulturl'     => 'http://www.beispill.com/$1',
+	'interwiki_edittext'       => 'En interwiki Prefix änneren',
 	'interwiki_logpagename'    => 'Lëscht mat der Interwikitabell',
 	'interwiki_logpagetext'    => 'Dëst ass eng Lëscht mat den Ännerunge vun der [[Special:Interwiki|Interwikitabell]].',
 	'interwiki_defaultreason'  => 'kee Grond uginn',
