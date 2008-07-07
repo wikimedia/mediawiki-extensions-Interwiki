@@ -70,7 +70,7 @@ Possibly it does not exist.',
 	'right-interwiki'          => 'Edit interwiki data',
 );
 
-/** Niuean (native name missing)
+/** Niuean (ko e vagahau Niuē)
  * @author Jose77
  */
 $messages['niu'] = array(
