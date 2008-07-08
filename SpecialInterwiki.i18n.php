@@ -30,7 +30,7 @@ There is a [[Special:Log/interwiki|log of changes]] to the interwiki table.',
 	'interwiki_url'            => 'URL', # only translate this message if you have to change it
 	'interwiki_local'          => 'Local', # only translate this message if you have to change it
 	'interwiki_trans'          => 'Trans', # only translate this message if you have to change it
-	'interwiki_error'          => 'ERROR: The interwiki table is empty, or something else went wrong.',
+	'interwiki_error'          => 'Error: The interwiki table is empty, or something else went wrong.',
 
 	# deleting a prefix
 	'interwiki_delquestion'    => 'Deleting "$1"',
