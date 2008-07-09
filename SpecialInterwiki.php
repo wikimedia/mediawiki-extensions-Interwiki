@@ -25,10 +25,12 @@ $wgExtensionCredits['specialpage'][] = array(
 	'descriptionmsg' => 'interwiki-desc',
 );
 
-$wgExtensionMessagesFiles['Interwiki'] = dirname( __FILE__ ) . '/SpecialInterwiki.i18n.php';
+$dir = dirname(__FILE__) . '/';
+$wgExtensionMessagesFiles['Interwiki'] = $dir . 'SpecialInterwiki.i18n.php';
+$wgExtensionAliasesFiles['Interwiki'] = $dir . 'SpecialInterwiki.alias.php';
 
 $wgSpecialPages['Interwiki'] = 'SpecialInterwiki';
-$wgAutoloadClasses['SpecialInterwiki'] = dirname( __FILE__ ) . '/SpecialInterwiki_body.php';
+$wgAutoloadClasses['SpecialInterwiki'] = $dir . 'SpecialInterwiki_body.php';
 
 $wgAvailableRights[] = 'interwiki';
 
