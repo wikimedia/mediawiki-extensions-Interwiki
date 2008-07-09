@@ -295,6 +295,7 @@ Verŝajne ĝi ne ekzistas.',
 	'interwiki_log_deleted'    => 'Forigita prefikso "$2" de la intervikia tabelo',
 	'interwiki_logpagetext'    => 'Jen loglibro de ŝanĝoj al la [[Special:Interwiki|intervikia tabelo]].',
 	'interwiki_defaultreason'  => 'nenia kialo skribata',
+	'right-interwiki'          => 'Redakti intervikiajn datenojn',
 );
 
 /** Spanish (Español)
@@ -420,7 +421,9 @@ $messages['gl'] = array(
 	'right-interwiki'          => 'Editar os datos do interwiki',
 );
 
-/** Gujarati (ગુજરાતી) */
+/** Gujarati (ગુજરાતી)
+ * @author SPQRobin
+ */
 $messages['gu'] = array(
 	'interwiki_reasonfield' => 'કારણ',
 );
@@ -766,17 +769,19 @@ Mbok-menawa iki ora ana.',
  * @author គីមស៊្រុន
  */
 $messages['km'] = array(
-	'interwiki'               => 'មើល និង កែប្រែ ទិន្នន័យ អន្តរវិគី',
+	'interwiki'               => 'មើលនិងកែប្រែទិន្នន័យអន្តរវិគី',
 	'interwiki_prefix'        => 'បុព្វបទ',
 	'interwiki_reasonfield'   => 'មូលហេតុ',
 	'interwiki_intro'         => 'មើល $1 ដើម្បី ពត៌មានបន្ថែម អំពី តារាង អន្តរវិគី ។ នេះ​ជា [[Special:Log/interwiki|កំណត់ហេតុ នៃ បំលាស់ប្តូរ]] ក្នុង តារាង អន្តរវិគី។',
 	'interwiki_delquestion'   => 'ការលុបចេញ "$1"',
 	'interwiki_deleting'      => 'លោកអ្នកកំពុងលុបបុព្វបទ "$1"។',
+	'interwiki_addtext'       => 'បន្ថែមបុព្វបទអន្តរវិគី',
 	'interwiki_addbutton'     => 'បន្ថែម',
 	'interwiki_logpagename'   => 'កំណត់ហេតុ តារាង អន្តរវិគី',
 	'interwiki_log_added'     => 'បានបន្ថែម "$2" ($3) (trans: $4) (local: $5) ក្នុង តារាង អន្តរវិគី ៖',
 	'interwiki_logpagetext'   => 'នេះជា កំណត់ហេតុ នៃបំលាស់ប្តូរ ក្នុង [[Special:Interwiki|តារាង អន្តរវិគី]]។',
 	'interwiki_defaultreason' => 'គ្មានហេតុផល ត្រូវបានផ្តល់អោយ',
+	'right-interwiki'         => 'កែប្រែទិន្នន័យអន្តរវិគី',
 );
 
 /** Korean (한국어)
@@ -1195,7 +1200,6 @@ $messages['ru'] = array(
 	'interwiki_addfailed'      => 'Приставка «$1» не может быть добавлена в таблицу интервики. Возможно, она уже присутствует в таблице интервики.',
 	'interwiki_edittext'       => 'Редактирование интервики-приставок',
 	'interwiki_editintro'      => 'Вы редактируете интервики-приставку. Помните, что это может сломать существующие ссылки.',
-	'interwiki_editbutton'     => 'Редактировать',
 	'interwiki_edited'         => 'Приставка «$1» успешно изменена в интервики-таблице.',
 	'interwiki_editfailed'     => 'Приставка «$1» не может быть изменена в интервики-таблице. Возможно, её нет в интервики-таблице или она была удалена.',
 	'interwiki_editerror'      => 'Приставка «$1» не может быть изменена в интервики-таблице. Возможно, она не существует.',
@@ -1336,7 +1340,7 @@ Det är möjligt att prefixet redan finns i tabellen.',
 	'right-interwiki'          => 'Redigera interwikidata',
 );
 
-/** Silesian (ślůnski)
+/** Silesian (Ślůnski)
  * @author Herr Kriss
  */
 $messages['szl'] = array(
