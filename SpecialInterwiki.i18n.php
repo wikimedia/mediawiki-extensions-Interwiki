@@ -171,6 +171,13 @@ Rotir koeon me krulder.',
 	'interwiki_defaultreason'  => 'Meka bazena lazava',
 );
 
+/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+ * @author EugeneZelenko
+ */
+$messages['be-tarask'] = array(
+	'interwiki_reasonfield' => 'Прычына',
+);
+
 /** Bulgarian (Български)
  * @author DCLXVI
  */
@@ -620,7 +627,8 @@ $messages['hu'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'interwiki_reasonfield' => 'Motivo',
+	'interwiki_reasonfield'   => 'Motivo',
+	'interwiki_defaultreason' => 'nulle ration date',
 );
 
 /** Indonesian (Bahasa Indonesia)
