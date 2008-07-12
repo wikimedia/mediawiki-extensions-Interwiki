@@ -903,6 +903,7 @@ $messages['lb'] = array(
 Et gëtt eng [[Special:Log/interwiki|Lëscht vun den Ännerungen]] vun dëser Interwiki-Tabell.",
 	'interwiki_local'          => 'Lokal',
 	'interwiki_delquestion'    => 'Läscht "$1"',
+	'interwiki_addtext'        => 'En Interwiki-prefix derbäisetzen',
 	'interwiki_addbutton'      => 'Derbäisetzen',
 	'interwiki_defaulturl'     => 'http://www.beispill.com/$1',
 	'interwiki_edittext'       => 'En interwiki Prefix änneren',
