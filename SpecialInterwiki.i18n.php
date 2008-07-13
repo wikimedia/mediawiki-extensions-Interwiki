@@ -902,6 +902,7 @@ $messages['lb'] = array(
 	'interwiki_intro'          => "Kuckt $1 fir méi Informatiounen iwwert d'Interwiki-Tabell.
 Et gëtt eng [[Special:Log/interwiki|Lëscht vun den Ännerungen]] vun dëser Interwiki-Tabell.",
 	'interwiki_local'          => 'Lokal',
+	'interwiki_error'          => "Feeler: D'Interwiki-Tabell ass eidel.",
 	'interwiki_delquestion'    => 'Läscht "$1"',
 	'interwiki_addtext'        => 'En Interwiki-prefix derbäisetzen',
 	'interwiki_addbutton'      => 'Derbäisetzen',
