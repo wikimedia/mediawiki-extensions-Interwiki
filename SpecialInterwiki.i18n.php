@@ -628,6 +628,7 @@ $messages['hu'] = array(
  */
 $messages['ia'] = array(
 	'interwiki_reasonfield'   => 'Motivo',
+	'interwiki_addbutton'     => 'Adder',
 	'interwiki_defaultreason' => 'nulle ration date',
 );
 
