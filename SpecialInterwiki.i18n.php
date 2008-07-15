@@ -778,19 +778,30 @@ Mbok-menawa iki ora ana.',
  * @author គីមស៊្រុន
  */
 $messages['km'] = array(
-	'interwiki'               => 'មើលនិងកែប្រែទិន្នន័យអន្តរវិគី',
-	'interwiki_prefix'        => 'បុព្វបទ',
-	'interwiki_reasonfield'   => 'មូលហេតុ',
-	'interwiki_intro'         => 'មើល $1 ដើម្បី ពត៌មានបន្ថែម អំពី តារាង អន្តរវិគី ។ នេះ​ជា [[Special:Log/interwiki|កំណត់ហេតុ នៃ បំលាស់ប្តូរ]] ក្នុង តារាង អន្តរវិគី។',
-	'interwiki_delquestion'   => 'ការលុបចេញ "$1"',
-	'interwiki_deleting'      => 'លោកអ្នកកំពុងលុបបុព្វបទ "$1"។',
-	'interwiki_addtext'       => 'បន្ថែមបុព្វបទអន្តរវិគី',
-	'interwiki_addbutton'     => 'បន្ថែម',
-	'interwiki_logpagename'   => 'កំណត់ហេតុ តារាង អន្តរវិគី',
-	'interwiki_log_added'     => 'បានបន្ថែម "$2" ($3) (trans: $4) (local: $5) ក្នុង តារាង អន្តរវិគី ៖',
-	'interwiki_logpagetext'   => 'នេះជា កំណត់ហេតុ នៃបំលាស់ប្តូរ ក្នុង [[Special:Interwiki|តារាង អន្តរវិគី]]។',
-	'interwiki_defaultreason' => 'គ្មានហេតុផល ត្រូវបានផ្តល់អោយ',
-	'right-interwiki'         => 'កែប្រែទិន្នន័យអន្តរវិគី',
+	'interwiki'                => 'មើលនិងកែប្រែទិន្នន័យអន្តរវិគី',
+	'interwiki-title-norights' => 'មើលទិន្នន័យអន្តរវិគី',
+	'interwiki-desc'           => 'បន្ថែម[[Special:Interwiki|ទំព័រពិសេស]]ដើម្បីមើលនិងកែប្រែតារាងអន្តរវិគី',
+	'interwiki_prefix'         => 'បុព្វបទ',
+	'interwiki_reasonfield'    => 'មូលហេតុ',
+	'interwiki_intro'          => 'មើល$1ចំពោះពត៌មានបន្ថែមអំពីតារាងអន្តរវិគី។ នេះ​ជា[[Special:Log/interwiki|កំនត់ហេតុនៃបំលាស់ប្តូរ]]ក្នុងតារាងអន្តរវិគីនេះ។',
+	'interwiki_error'          => 'កំហុស:តារាងអន្តរវិគីគឺទទេ ឬក៏មានអ្វីផ្សេងទៀតមានបញ្ហា។',
+	'interwiki_delquestion'    => 'ការលុបចេញ "$1"',
+	'interwiki_deleting'       => 'លោកអ្នកកំពុងលុបបុព្វបទ "$1"។',
+	'interwiki_deleted'        => 'បុព្វបទ"$1"បានដកចេញពីតារាងអន្តរវិគីដោយជោគជ័យហើយ។',
+	'interwiki_delfailed'      => 'បុព្វបទ"$1"មិនអាចដកចេញពីតារាងអន្តរវិគីបានទេ។',
+	'interwiki_addtext'        => 'បន្ថែមបុព្វបទអន្តរវិគី',
+	'interwiki_addbutton'      => 'បន្ថែម',
+	'interwiki_edittext'       => 'ការកែប្រែបុព្វបទអន្តរវិគី',
+	'interwiki_editintro'      => 'អ្នកកំពុងកែប្រែបុព្វបទអន្តរវិគី។
+
+ចូរចងចាំថាវាអាចនាំអោយខូចតំនភ្ជាប់ដែលមានស្រេច។',
+	'interwiki_edited'         => 'បុព្វបទ"$1"ត្រូវបានកែសំរួលក្នុងតារាងអន្តរវិគីដោយជោគជ័យហើយ។',
+	'interwiki_logpagename'    => 'កំណត់ហេតុតារាងអន្តរវិគី',
+	'interwiki_log_added'      => 'បានបន្ថែម "$2" ($3) (trans: $4) (local: $5) ក្នុង តារាង អន្តរវិគី ៖',
+	'interwiki_log_deleted'    => 'បានដកបុព្វបទ"$2"ចេញពីតារាងអន្តរវិគី',
+	'interwiki_logpagetext'    => 'នេះជាកំនត់ហេតុនៃបំលាស់ប្តូរក្នុង[[Special:Interwiki|តារាងអន្តរវិគី]]។',
+	'interwiki_defaultreason'  => 'គ្មានមូលហេតុត្រូវបានផ្តល់អោយ',
+	'right-interwiki'          => 'កែប្រែទិន្នន័យអន្តរវិគី',
 );
 
 /** Korean (한국어)
