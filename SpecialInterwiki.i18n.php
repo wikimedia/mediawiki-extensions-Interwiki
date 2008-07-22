@@ -124,6 +124,9 @@ $messages['ar'] = array(
 	'interwiki_added'          => 'البادئة "$1" تمت إضافتها بنجاح إلى جدول الإنترويكي.',
 	'interwiki_addfailed'      => 'البادئة "$1" لم يمكن إضافتها إلى جدول الإنترويكي. على الأرجح هي موجودة بالفعل في جدول الإنترويكي.',
 	'interwiki_edittext'       => 'تعديل بادئة إنترويكي',
+	'interwiki_editintro'      => 'أنت تعدل بادئة إنترويكي موجودة.
+تذكر أن هذا يمكن أن يكسر الوصلات الحالية.',
+	'interwiki_edited'         => 'البادئة "$1" تم تعديلها بنجاح في جدول الإنترويكي..',
 	'interwiki_logpagename'    => 'سجل جدول الإنترويكي',
 	'interwiki_log_added'      => 'أضاف "$2" ($3) (نقل: $4) (محلي: $5) إلى جدول الإنترويكي',
 	'interwiki_log_deleted'    => 'أزال البادئة "$2" من جدول الإنترويكي',
@@ -1197,6 +1200,13 @@ $messages['pt'] = array(
 	'interwiki_log_deleted'    => 'removido o prefixo "$2" da tabela de interwikis',
 	'interwiki_logpagetext'    => 'Este é um registo das alterações à [[Special:Interwiki|tabela de interwikis]].',
 	'interwiki_defaultreason'  => 'sem motivo especificado',
+);
+
+/** Romanian (Română)
+ * @author KlaudiuMihaila
+ */
+$messages['ro'] = array(
+	'interwiki_reasonfield' => 'Motiv',
 );
 
 /** Russian (Русский)
