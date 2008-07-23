@@ -203,11 +203,14 @@ $messages['bg'] = array(
 	'interwiki_added'          => '„$1“ беше успешно добавено в таблицата с междууикита.',
 	'interwiki_addfailed'      => '„$1“ не може да бъде добавено в таблицата с междууикита. Възможно е вече да е било добавено там.',
 	'interwiki_defaulturl'     => 'http://www.пример.com/$1',
+	'interwiki_edittext'       => 'Редактиране на междууики представка',
+	'interwiki_edited'         => 'Представката „$1“ беше успешно променена в таблицата с междууикита.',
 	'interwiki_logpagename'    => 'Дневник на междууикитата',
 	'interwiki_log_added'      => 'добави „$2“ ($3) (trans: $4) (локално: $5) в таблицата с междууикита',
 	'interwiki_log_deleted'    => 'Премахна представката „$2“ от таблицата с междууикитата',
 	'interwiki_logpagetext'    => 'Тази страница съдържа дневник на промените в [[Special:Interwiki|таблицата с междууикита]].',
 	'interwiki_defaultreason'  => 'не е посочена причина',
+	'right-interwiki'          => 'Редактиране на междууикитата',
 );
 
 /** Breton (Brezhoneg)
@@ -975,6 +978,13 @@ $messages['mr'] = array(
 	'interwiki_logpagetext'    => '[[Special:Interwiki|आंतरविकि सारणीत]] झालेल्या बदलांची ही सूची आहे.',
 	'interwiki_defaultreason'  => 'कारण दिलेले नाही',
 	'right-interwiki'          => 'आंतरविकि डाटा बदला',
+);
+
+/** Nahuatl (Nahuatl)
+ * @author Fluence
+ */
+$messages['nah'] = array(
+	'interwiki_defaultreason' => 'ahmo cah īxtlamatiliztli',
 );
 
 /** Low German (Plattdüütsch)
