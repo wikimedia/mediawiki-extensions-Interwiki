@@ -106,23 +106,26 @@ $messages['an'] = array(
  */
 $messages['ar'] = array(
 	'interwiki'                => 'عرض وتعديل بيانات الإنترويكي',
-	'interwiki-title-norights' => 'عرض معلومات الإنترويكي',
+	'interwiki-title-norights' => 'عرض بيانات الإنترويكي',
 	'interwiki-desc'           => 'يضيف [[Special:Interwiki|صفحة خاصة]] لرؤية وتعديل جدول الإنترويكي',
 	'interwiki_prefix'         => 'بادئة',
 	'interwiki_reasonfield'    => 'سبب',
-	'interwiki_intro'          => 'انظر $1 لمزيد من المعلومات حول جدول الإنترويكي. يوجد [[Special:Log/interwiki|سجل بالتغييرات]] لجدول الإنترويكي.',
+	'interwiki_intro'          => 'انظر $1 لمزيد من المعلومات حول جدول الإنترويكي.
+يوجد [[Special:Log/interwiki|سجل بالتغييرات]] لجدول الإنترويكي.',
 	'interwiki_local'          => 'محلي',
-	'interwiki_trans'          => 'نقل',
+	'interwiki_trans'          => 'عابر',
 	'interwiki_error'          => 'خطأ: جدول الإنترويكي فارغ، أو حدث خطأ آخر.',
 	'interwiki_delquestion'    => 'حذف "$1"',
 	'interwiki_deleting'       => 'أنت تحذف البادئة "$1".',
 	'interwiki_deleted'        => 'البادئة "$1" تمت إزالتها بنجاح من جدول الإنترويكي.',
 	'interwiki_delfailed'      => 'البادئة "$1" لم يمكن إزالتها من جدول الإنترويكي.',
 	'interwiki_addtext'        => 'أضف بادئة إنترويكي',
-	'interwiki_addintro'       => 'أنت تضيف بادئة إنترويكي جديدة. تذكر أنها لا يمكن أن تحتوي على مسافات ( )، نقطتين فوق بعض (:)، علامة و (&)، أو علامة يساوي (=).',
+	'interwiki_addintro'       => 'أنت تضيف بادئة إنترويكي جديدة.
+تذكر أنها لا يمكن أن تحتوي على مسافات ( )، نقطتين فوق بعض (:)، علامة و (&)، أو علامة يساوي (=).',
 	'interwiki_addbutton'      => 'إضافة',
 	'interwiki_added'          => 'البادئة "$1" تمت إضافتها بنجاح إلى جدول الإنترويكي.',
-	'interwiki_addfailed'      => 'البادئة "$1" لم يمكن إضافتها إلى جدول الإنترويكي. على الأرجح هي موجودة بالفعل في جدول الإنترويكي.',
+	'interwiki_addfailed'      => 'البادئة "$1" لم يمكن إضافتها إلى جدول الإنترويكي.
+على الأرجح هي موجودة بالفعل في جدول الإنترويكي.',
 	'interwiki_edittext'       => 'تعديل بادئة إنترويكي',
 	'interwiki_editintro'      => 'أنت تعدل بادئة إنترويكي موجودة.
 تذكر أن هذا يمكن أن يكسر الوصلات الحالية.',
@@ -364,6 +367,7 @@ Ehkäpä sitä ei ole interwiki-taulussa tai se on poistettu.',
  * @author IAlex
  * @author Sherbrooke
  * @author Urhixidur
+ * @author Louperivois
  */
 $messages['fr'] = array(
 	'interwiki'                => 'Voir et manipuler les données interwiki',
@@ -378,12 +382,12 @@ $messages['fr'] = array(
 	'interwiki_deleted'        => '« $1 » a été enlevé avec succès de la table interwiki.',
 	'interwiki_delfailed'      => "« $1 » n'a pas pu être enlevé de la table interwiki.",
 	'interwiki_addtext'        => 'Ajouter un préfixe interwiki',
-	'interwiki_addintro'       => "Vous êtes en train d'ajouter un préfixe interwiki. Rappelez-vous qu'il ne peut pas contenir d'espaces ( ), de deux-points (:), d'éperluettes (&) ou de signes égal (=).",
+	'interwiki_addintro'       => "Vous êtes en train d'ajouter un préfixe interwiki. Rappelez-vous qu'il ne peut pas contenir d'espaces ( ), de deux-points (:), d'esperluettes (&) ou de signes égal (=).",
 	'interwiki_addbutton'      => 'Ajouter',
 	'interwiki_added'          => '« $1 » a été ajouté avec succès dans la table interwiki.',
 	'interwiki_addfailed'      => "« $1 » n'a pas pu être ajouté à la table interwiki.",
 	'interwiki_edittext'       => 'Modifier un préfixe interwiki',
-	'interwiki_editintro'      => 'Vous modifiez un préfixe interwiki. Rapellez-vous que cela peut casser des liens existant.',
+	'interwiki_editintro'      => 'Vous modifiez un préfixe interwiki. Rappelez-vous que cela peut casser des liens existants.',
 	'interwiki_edited'         => 'Le préfixe « $1 » a été modifié avec succès dans la table interwiki.',
 	'interwiki_editfailed'     => "Le préfixe « $1 » n'a pas pu être modifié dans la table interwiki. Il se peut qu'il n'existe pas ou qu'il ait été supprimé.",
 	'interwiki_editerror'      => "Le préfixe « $1 » ne peut pas être modifié. Il se peut qu'il n'existe pas.",
@@ -989,6 +993,8 @@ $messages['mr'] = array(
  * @author Fluence
  */
 $messages['nah'] = array(
+	'interwiki_reasonfield'   => 'Īxtlamatiliztli',
+	'interwiki_addbutton'     => 'Ticcētilīz',
 	'interwiki_defaultreason' => 'ahmo cah īxtlamatiliztli',
 );
 
