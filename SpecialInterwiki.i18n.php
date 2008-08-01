@@ -1123,8 +1123,9 @@ $messages['oc'] = array(
 	'interwiki_addtext'        => 'Apondís un prefix interwiki',
 	'interwiki_addintro'       => "Sètz a apondre un prefix interwiki. Rapelatz-vos que pòt pas conténer d'espacis ( ), de punts dobles (:), d'eperluetas (&) o de signes egal (=)",
 	'interwiki_addbutton'      => 'Apondre',
-	'interwiki_added'          => '$1 es estat ajustat amb succès dins la taula interwiki.',
-	'interwiki_addfailed'      => '$1 a pas pogut èsser ajustat a la taula interwiki.',
+	'interwiki_added'          => '$1 es estat apondut amb succès dins la taula interwiki.',
+	'interwiki_addfailed'      => '$1 a pas pogut èsser apondut a la taula interwiki.
+Benlèu i existís ja.',
 	'interwiki_edittext'       => 'Modificar un prefix interwiki',
 	'interwiki_editintro'      => "Modificatz un prefix interwiki. Rapelatz-vos qu'aquò pòt rompre de ligams existents.",
 	'interwiki_edited'         => 'Lo prefix « $1 » es estat modificat amb succès dins la taula interwiki.',
