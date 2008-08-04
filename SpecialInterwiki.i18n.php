@@ -467,6 +467,19 @@ $messages['haw'] = array(
 	'interwiki_defaultreason' => '‘a‘ohe kumu',
 );
 
+/** Hebrew (עברית)
+ * @author Rotemliss
+ * @author Agbad
+ */
+$messages['he'] = array(
+	'interwiki-desc'        => 'הוספת [[Special:Interwiki|דף מיוחד]] להצגת ולעריכת טבלת הבינוויקי',
+	'interwiki_addbutton'   => 'הוספה',
+	'interwiki_editintro'   => 'הנכם עורכים תחילית בינוויקי.
+זכרו שפעולה זו עלולה לשבור קישורים קיימים.',
+	'interwiki_logpagename' => 'יומן טבלת הבינוויקי',
+	'interwiki_logpagetext' => 'זהו יומן השינויים שנערכו ב[[Special:Interwiki|טבלת הבינוויקי]].',
+);
+
 /** Hindi (हिन्दी)
  * @author Kaustubh
  */
