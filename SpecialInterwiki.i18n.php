@@ -472,12 +472,24 @@ $messages['haw'] = array(
  * @author Agbad
  */
 $messages['he'] = array(
-	'interwiki-desc'        => 'הוספת [[Special:Interwiki|דף מיוחד]] להצגת ולעריכת טבלת הבינוויקי',
-	'interwiki_addbutton'   => 'הוספה',
-	'interwiki_editintro'   => 'הנכם עורכים תחילית בינוויקי.
+	'interwiki'                => 'הצגת ועריכת מידע הבינוויקי',
+	'interwiki-title-norights' => 'הצגת מידע הבינוויקי',
+	'interwiki-desc'           => 'הוספת [[Special:Interwiki|דף מיוחד]] להצגת ולעריכת טבלת הבינוויקי',
+	'interwiki_prefix'         => 'תחילית',
+	'interwiki_reasonfield'    => 'סיבה',
+	'interwiki_intro'          => 'ראו $1 למידע נוסף אודות טבלת הבינוויקי.
+ישנו [[Special:Log/interwiki|יומן שינויים]] לטבלת הבינוויקי.',
+	'interwiki_error'          => 'שגיאה: טבלת הבינוויקי ריקה, או שיש שגיאה אחרת.',
+	'interwiki_addtext'        => 'הוספת תחילית בינוויקי',
+	'interwiki_addbutton'      => 'הוספה',
+	'interwiki_added'          => 'התחילית "$1" הוספה בהצלחה לטבלת הבינוויקי.',
+	'interwiki_editintro'      => 'הנכם עורכים תחילית בינוויקי.
 זכרו שפעולה זו עלולה לשבור קישורים קיימים.',
-	'interwiki_logpagename' => 'יומן טבלת הבינוויקי',
-	'interwiki_logpagetext' => 'זהו יומן השינויים שנערכו ב[[Special:Interwiki|טבלת הבינוויקי]].',
+	'interwiki_logpagename'    => 'יומן טבלת הבינוויקי',
+	'interwiki_log_deleted'    => 'הסיר את התחילית "$2" מטבלת הבינוויקי',
+	'interwiki_logpagetext'    => 'זהו יומן השינויים שנערכו ב[[Special:Interwiki|טבלת הבינוויקי]].',
+	'interwiki_defaultreason'  => 'לא ניתנה סיבה',
+	'right-interwiki'          => 'עריכת מידע הבינוויקי',
 );
 
 /** Hindi (हिन्दी)
