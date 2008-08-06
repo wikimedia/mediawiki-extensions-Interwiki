@@ -470,6 +470,7 @@ $messages['haw'] = array(
 /** Hebrew (עברית)
  * @author Rotemliss
  * @author Agbad
+ * @author דניאל ב.
  */
 $messages['he'] = array(
 	'interwiki'                => 'הצגת ועריכת מידע הבינוויקי',
@@ -482,7 +483,7 @@ $messages['he'] = array(
 	'interwiki_error'          => 'שגיאה: טבלת הבינוויקי ריקה, או שיש שגיאה אחרת.',
 	'interwiki_addtext'        => 'הוספת תחילית בינוויקי',
 	'interwiki_addbutton'      => 'הוספה',
-	'interwiki_added'          => 'התחילית "$1" הוספה בהצלחה לטבלת הבינוויקי.',
+	'interwiki_added'          => 'הקידומת"$1" הוספה בהצלחה לטבלת הבינוויקי.',
 	'interwiki_editintro'      => 'הנכם עורכים תחילית בינוויקי.
 זכרו שפעולה זו עלולה לשבור קישורים קיימים.',
 	'interwiki_logpagename'    => 'יומן טבלת הבינוויקי',
