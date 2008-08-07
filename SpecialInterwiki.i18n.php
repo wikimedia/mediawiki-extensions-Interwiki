@@ -53,8 +53,6 @@ Possibly it already exists in the interwiki table.',
 	'interwiki_editintro'      => 'You are editing an interwiki prefix.
 Remember that this can break existing links.',
 	'interwiki_edited'         => 'Prefix "$1" was successfully modified in the interwiki table.',
-	'interwiki_editfailed'     => 'Prefix "$1" could not be modified in the interwiki table.
-Possibly it does not exist in the interwiki table or has been deleted.',
 	'interwiki_editerror'      => 'Prefix "$1" can not be modified in the interwiki table.
 Possibly it does not exist.',
 
@@ -130,8 +128,6 @@ $messages['ar'] = array(
 	'interwiki_editintro'      => 'أنت تعدل بادئة إنترويكي موجودة.
 تذكر أن هذا يمكن أن يكسر الوصلات الحالية.',
 	'interwiki_edited'         => 'البادئة "$1" تم تعديلها بنجاح في جدول الإنترويكي..',
-	'interwiki_editfailed'     => 'البادئة "$1" لم يمكن تعديلها في جدول الإنترويكي.
-من المحتمل أنها غير موجودة في جدول الإنترويكي أو تم حذفها.',
 	'interwiki_editerror'      => 'البادئة "$1" لم يمكن تعديلها في جدول الإنترويكي.
 من المحتمل أنها غير موجودة.',
 	'interwiki_logpagename'    => 'سجل جدول الإنترويكي',
@@ -170,8 +166,6 @@ Rotir koeon ixam tir.',
 	'interwiki_editintro'      => "Rin va 'interwiki' abdueosta dun betal.
 Me vulkul da batcoba va kruldesi gluyasiki rotempar !",
 	'interwiki_edited'         => '"$1" abdueosta koe \'interwiki\' origak al zo betanhar.',
-	'interwiki_editfailed'     => '"$1" abdueosta koe \'interwiki\' origak me zo robetar.
-Rotir koeon me krulder oke tir sulayana.',
 	'interwiki_editerror'      => '"$1" abdueosta koe \'interwiki\' origak me zo robetar.
 Rotir koeon me krulder.',
 	'interwiki_logpagename'    => "'Interwiki' origak 'log'",
@@ -306,8 +300,6 @@ Eble ĝi jam ekzistas en la intervikia tabelo.',
 	'interwiki_editintro'      => 'Vi redaktas intervikian prefikson.
 Notu ke ĉi tiu ago povas rompi ekzistantajn ligilojn.',
 	'interwiki_edited'         => 'Prefikso "$1" estis sukcese modifita en la intervikian tabelon.',
-	'interwiki_editfailed'     => 'Prefikso "$1" ne eblis esti modifita en la intervikia tabelo.
-Verŝajne ĝi ne ekzistas en la intervikia tabelo aŭ estis forigita.',
 	'interwiki_editerror'      => 'Prefikso "$1" ne eblis esti modifita en la intervikia tabelo.
 Verŝajne ĝi ne ekzistas.',
 	'interwiki_logpagename'    => 'Loglibro pri la intervikia tabelo',
@@ -351,8 +343,6 @@ $messages['fi'] = array(
 	'interwiki_edittext'       => 'Muokataan interwiki-etuliitettä',
 	'interwiki_editintro'      => 'Muokkaat interwiki-etuliitettä. Muista, että tämä voi rikkoa olemassa olevia linkkejä.',
 	'interwiki_edited'         => 'Etuliitettä ”$1” muokattiin onnistuneesti interwiki-taulukossa.',
-	'interwiki_editfailed'     => 'Etuliitettä $1 ei voitu muokata interwiki-taulussa.
-Ehkäpä sitä ei ole interwiki-taulussa tai se on poistettu.',
 	'interwiki_editerror'      => 'Etuliitettä ”$1” ei voi muokata interwiki-taulukossa. Sitä ei mahdollisesti ole olemassa.',
 	'interwiki_logpagename'    => 'Loki muutoksista interwiki-tauluun',
 	'interwiki_log_added'      => 'Uusi etuliite ”$2” ($3) (trans: $4) (paikallinen: $5) interwiki-tauluun',
@@ -389,7 +379,6 @@ $messages['fr'] = array(
 	'interwiki_edittext'       => 'Modifier un préfixe interwiki',
 	'interwiki_editintro'      => 'Vous modifiez un préfixe interwiki. Rappelez-vous que cela peut casser des liens existants.',
 	'interwiki_edited'         => 'Le préfixe « $1 » a été modifié avec succès dans la table interwiki.',
-	'interwiki_editfailed'     => "Le préfixe « $1 » n'a pas pu être modifié dans la table interwiki. Il se peut qu'il n'existe pas ou qu'il ait été supprimé.",
 	'interwiki_editerror'      => "Le préfixe « $1 » ne peut pas être modifié. Il se peut qu'il n'existe pas.",
 	'interwiki_logpagename'    => 'Journal de la table interwiki',
 	'interwiki_log_added'      => 'a ajouté « $2 » ($3) (trans: $4) (local: $5) dans la table interwiki',
@@ -432,7 +421,6 @@ $messages['gl'] = array(
 	'interwiki_edittext'       => 'Editando un prefixo interwiki',
 	'interwiki_editintro'      => 'Está editando un prefixo interwiki. Lembre que isto pode quebrar ligazóns existentes.',
 	'interwiki_edited'         => 'O prefixo "$1" foi modificado con éxito na táboa do interwiki.',
-	'interwiki_editfailed'     => 'O prefixo "$1" non pode ser modificado na táboa do interwiki. Posiblemente non existe ou foi eliminado.',
 	'interwiki_editerror'      => 'O prefixo "$1" non pode ser modificado na táboa do interwiki. Posiblemente non existe.',
 	'interwiki_logpagename'    => 'Rexistro de táboas interwiki',
 	'interwiki_log_added'      => 'Engadir "$2" ($3) (trans: $4) (local: $5) á táboa interwiki',
@@ -444,7 +432,7 @@ $messages['gl'] = array(
 );
 
 /** Gujarati (ગુજરાતી)
- * @author SPQRobin
+
  */
 $messages['gu'] = array(
 	'interwiki_reasonfield' => 'કારણ',
@@ -459,7 +447,6 @@ $messages['gv'] = array(
 
 /** Hawaiian (Hawai`i)
  * @author Singularity
- * @author SPQRobin
  */
 $messages['haw'] = array(
 	'interwiki_reasonfield'   => 'Kumu',
@@ -517,8 +504,6 @@ $messages['hi'] = array(
 	'interwiki_edittext'       => 'एक आंतरविकि उपपद बदल रहें हैं',
 	'interwiki_editintro'      => 'आप एक आंतरविकि उपपद बदल रहें हैं। ध्यान रखें ये पहले दी हुई कड़ीयों को तोड सकता हैं।',
 	'interwiki_edited'         => '"$1" उपपद आंतरविकि तालिका में बदला गया।',
-	'interwiki_editfailed'     => '"$1" उपपद आंतरविकि तालिका में बदल नहीं पायें।
-शायद वह अस्तित्वमें नहीं हैं या हटाया गया हैं।',
 	'interwiki_editerror'      => '"$1" उपपद आंतरविकि तालिका में बदल नहीं पायें। शायद वह अस्तित्वमें नहीं हैं।',
 	'interwiki_logpagename'    => 'आंतरविकि तालिका सूची',
 	'interwiki_log_added'      => 'आंतरविकि तालिकामें उपपद "$2" ($3) (trans: $4) (local: $5) बढाया',
@@ -562,7 +547,6 @@ Postoji [[Special:Log/interwiki|evidencija promjena]] za interwiki tablicu.',
 	'interwiki_edittext'       => 'Uređivanje interwiki prefiksa',
 	'interwiki_editintro'      => 'Uređujete interwiki prefiks. Ovo može oštetiti postojeće poveznice.',
 	'interwiki_edited'         => 'Prefiks "$1" je uspješno promijenjen u interwiki tablici.',
-	'interwiki_editfailed'     => 'Prefiks "$1" nije mogao biti promijenjen u interwiki tablici. Vjerojatno ne postoji u interwiki tablici ili je obrisan.',
 	'interwiki_editerror'      => 'Prefiks "$1" ne može biti promijenjen u interwiki tablici. Vjerojatno ne postoji.',
 	'interwiki_logpagename'    => 'Evidencije interwiki tablice',
 	'interwiki_log_added'      => 'dodan prefiks "$2" ($3) (trans: $4) (lokalno: $5) u interwiki tablicu',
@@ -627,8 +611,6 @@ Posibleman paske li deja ekziste nan tab interwiki-a.',
 	'interwiki_editintro'      => 'W’ap edite yon prefix interwiki.
 Sonje ke sa ka kase chèn ki deja ekziste.',
 	'interwiki_edited'         => 'Prefix "$1" te modifye nan tab interwiki-a avèk siksès.',
-	'interwiki_editfailed'     => 'Prefix "$1" Pa t’ kapab modifye nan tab interwiki-a.
-Posibleman paske li pa ekziste nan tab interwiki-a oubien li te delete.',
 	'interwiki_editerror'      => 'Prefix "$1" pa ka modifye nan tab interwiki-a.
 Posibleman li pa ekziste.',
 	'interwiki_logpagename'    => 'Jounal tab interwiki-a',
@@ -698,8 +680,6 @@ Ingat bahwa prefiks tidak boleh mengandung tanda spasi ( ), titik dua (:), lamba
 	'interwiki_editintro'      => 'Anda sedang menyunting sebuah prefiks interwiki.
 Ingat bahwa tindakan ini dapat mempengaruhi pranala yang telah eksis.',
 	'interwiki_edited'         => 'Prefiks "$1" berhasil diubah di tabel interwiki.',
-	'interwiki_editfailed'     => 'Prefiks "$1" tidak dapat diubah di tabel interwiki.
-Kemungkinan karena tidak ditemukan di tabel interwiki atau telah dihapuskan.',
 	'interwiki_editerror'      => 'Prefiks "$1" tidak dapat diubah di tabel interwiki.
 Kemungkinan karena prefiks ini tidak ada.',
 	'interwiki_logpagename'    => 'Log tabel interwiki',
@@ -747,8 +727,6 @@ Il prefisso potrebbe essere già presente in tabella.',
 	'interwiki_editintro'      => 'Si sta modificando un prefisso interwiki.
 Ciò può rendere non funzionanti dei collegamenti esistenti.',
 	'interwiki_edited'         => 'Il prefisso "$1" è stato modificato nella tabella degli interwiki.',
-	'interwiki_editfailed'     => 'Impossibile modificare il prefisso "$1" nella tabella degli interwiki.
-Il prefisso potrebbe non esistere nella tabella, o esserne stato cancellato.',
 	'interwiki_editerror'      => 'Impossibile modificare il prefisso "$1" nella tabella degli interwiki.
 Il prefisso potrebbe essere inesistente.',
 	'interwiki_logpagename'    => 'Registro tabella interwiki',
@@ -801,8 +779,6 @@ Mbok-menawa iki pancèn wis ana ing tabèl interwiki.',
 	'interwiki_editintro'      => 'Panjenengan nyunting préfiks interwiki.
 Élinga yèn iki ora bisa nugel pranala-pranala sing wis ana.',
 	'interwiki_edited'         => 'Préfiks "$1" bisa suksès dimodifikasi ing tabèl interwiki.',
-	'interwiki_editfailed'     => 'Préfiks "$1" ora bisa dimodifikasi ing tabèl interwiki.
-Mbok-menawa iki pancèn ora ana ing tabèl interwiki table utawa wis dibusak.',
 	'interwiki_editerror'      => 'Préfiks utawa sisipan awal "$1" ora bisa dimodifikasi ing tabèl interwiki.
 Mbok-menawa iki ora ana.',
 	'interwiki_logpagename'    => 'Log tabèl interwiki',
@@ -868,7 +844,6 @@ $messages['ko'] = array(
 	'interwiki_edittext'       => '접두어 고치기',
 	'interwiki_editintro'      => '인터위키 접두어를 고칩니다. 이미 만들어진 인터위키를 망가뜨릴 수 있으니 주의해 주세요.',
 	'interwiki_edited'         => '접두어 "$1"을(를) 고쳤습니다.',
-	'interwiki_editfailed'     => '접두어 "$1"을(를) 고칠 수 없습니다. 목록에 없거나 이미 지워졌을 수 있습니다.',
 	'interwiki_editerror'      => '접두어 "$1"을(를) 고칠 수 없습니다. 목록에 없는 접두어일 수 있습니다.',
 	'interwiki_logpagename'    => '인터위키 수정 기록',
 	'interwiki_log_added'      => '접두어 "$2" ($3) (trans: $4) (local: $5) 을(를) 인터위키 목록에 더했습니다.',
@@ -906,8 +881,6 @@ Maach sin, dat dä en de Engerwiki Tabäll ald dren wor un es.',
 	'interwiki_editintro'      => 'Do bes an ennem Engerwiki Fösaz am ändere.
 Denk draan, domet könnts De Links em Wiki kapott maache, die velleich do drop opboue.',
 	'interwiki_edited'         => 'Föz dä Försaz „$1“ sen de Engerwiki Date jäz jetuusch.',
-	'interwiki_editfailed'     => 'Dä Försaz „$1“ konnt en de Engerwiki Date nit beärrbeidt wäde.
-Maach sin, dat dä en de Engerwiki Tabäll nit dren is, oddo hä wood erus jeworfe.',
 	'interwiki_editerror'      => 'Dä Försaz „$1“ konnt en de Engerwiki Date nit beärrbeidt wäde.
 Maach sin, dat et inn nit jitt.',
 	'interwiki_logpagename'    => 'Logbooch fun de Engerwiki Tabäll',
@@ -1003,7 +976,6 @@ $messages['mr'] = array(
 	'interwiki_editintro'      => 'तुम्ही एक अंतरविकि उपपद संपादित आहात.
 लक्षात ठेवा की यामुळे अगोदर दिलेले दुवे तुटू शकतात.',
 	'interwiki_edited'         => 'अंतरविकि सारणीमध्ये "$1" उपपद यशस्वीरित्या बदलण्यात आलेले आहे.',
-	'interwiki_editfailed'     => 'अंतरविकि सारणीमध्ये "$1" उपपद बदलू शकत नाही.',
 	'interwiki_editerror'      => 'अंतरविकि सारणीमध्ये "$1" उपपद बदलू शकत नाही.
 कदाचित ते अस्तित्वात नसेल.',
 	'interwiki_logpagename'    => 'आंतरविकि सारणी नोंद',
@@ -1015,7 +987,7 @@ $messages['mr'] = array(
 	'right-interwiki'          => 'आंतरविकि डाटा बदला',
 );
 
-/** Nahuatl (Nahuatl)
+/** Nahuatl (Nāhuatl)
  * @author Fluence
  */
 $messages['nah'] = array(
@@ -1062,7 +1034,6 @@ Er is een [[Special:Log/interwiki|logboek van wijzigingen]] aan de interwikitabe
 	'interwiki_edittext'       => 'Een interwikivoorvoegsel bewerken',
 	'interwiki_editintro'      => 'U bent een interwikivoorvoegsel aan het bewerken. Let op dat dit bestaande links kan breken.',
 	'interwiki_edited'         => 'Voorvoegsel "$1" is succesvol gewijzigd in de interwikitabel.',
-	'interwiki_editfailed'     => 'Voorvoegsel "$1" kon niet worden gewijzigd in de interwikitabel. Mogelijk is hij verwijderd of bestaat hij niet in de interwikitabel.',
 	'interwiki_editerror'      => 'Voorvoegsel "$1" kan niet worden gewijzigd in de interwikitabel. Mogelijk bestaat hij niet.',
 	'interwiki_logpagename'    => 'Logboek interwikitabel',
 	'interwiki_log_added'      => 'Voegde "$2" ($3) (trans: $4) (local: $5) toe aan de interwikitabel',
@@ -1109,7 +1080,6 @@ $messages['no'] = array(
 	'interwiki_edittext'       => 'Redigerer et interwikiprefiks',
 	'interwiki_editintro'      => 'Du redigerer et interwikiprefiks. Merk at dette kan ødelegge eksisterende lenker.',
 	'interwiki_edited'         => 'Prefikset «$1» ble endret i interwikitabellen.',
-	'interwiki_editfailed'     => 'Prefikset «$1» kunne ikke endres i interwikitabellen. Muligens finnes det ikke i interwikitabellen, eller det kan ha blitt slettet.',
 	'interwiki_editerror'      => 'Prefikset «$1» kan ikke endres i interwikitabellen. Det finnes muligens ikke.',
 	'interwiki_logpagename'    => 'Interwikitabellogg',
 	'interwiki_log_added'      => 'La til «$2» ($3) (trans: $4) (lokal: $5) til interwikitabellen',
@@ -1155,7 +1125,6 @@ Benlèu i existís ja.',
 	'interwiki_edittext'       => 'Modificar un prefix interwiki',
 	'interwiki_editintro'      => "Modificatz un prefix interwiki. Rapelatz-vos qu'aquò pòt rompre de ligams existents.",
 	'interwiki_edited'         => 'Lo prefix « $1 » es estat modificat amb succès dins la taula interwiki.',
-	'interwiki_editfailed'     => "Lo prefix « $1 » a pas pogut èsser modificat dins la taula interwiki. Es possible qu'exista pas o que siá estat suprimit.",
 	'interwiki_editerror'      => "Lo prefix « $1 » pòt pas èsser modificat. Es possible qu'exista pas.",
 	'interwiki_logpagename'    => 'Jornal de la taula interwiki',
 	'interwiki_log_added'      => 'Ajustat « $2 » ($3) (trans: $4) (local: $5) dins la taula interwiki',
@@ -1193,8 +1162,6 @@ Prawdopodobnie ten prefiks już jest w tablicy.',
 	'interwiki_edittext'       => 'Edycja przedrostka interwiki',
 	'interwiki_editintro'      => 'Redagujesz przedrostek interwiki. Pamiętaj, że może to zerwać istniejące powiązania między projektami językowymi.',
 	'interwiki_edited'         => 'Prefiks „$1” został z powodzeniem poprawiony w tablicy interwiki.',
-	'interwiki_editfailed'     => 'Prefiks „$1” nie może zostać poprawiony w tablicy interwiki.
-Prawdopodobnie brak go w tablicy – możliwe, że został usunięty.',
 	'interwiki_editerror'      => 'Prefiks „$1” nie może zostać poprawiony w tablicy interwiki. Prawdopodobnie nie brak w tablicy.',
 	'interwiki_logpagename'    => 'Rejestr tablicy interwiki',
 	'interwiki_log_added'      => 'dodał przedrostek „$2” ($3) (trans: $4) (local: $5) do tablicy interwiki',
@@ -1240,7 +1207,6 @@ $messages['pt'] = array(
 	'interwiki_edittext'       => 'Editando um prefixo interwiki',
 	'interwiki_editintro'      => 'Você está a editar um prefixo interwiki. Lembre-se de que isto pode quebrar ligações existentes.',
 	'interwiki_edited'         => 'O prefixo "$1" foi modificado na tabela de interwikis com sucesso.',
-	'interwiki_editfailed'     => 'O prefixo "$1" não pode ser modificado na tabela de interwikis. Possivelmente, não existe na tabela de interwikis ou foi apagado.',
 	'interwiki_editerror'      => 'O prefixo "$1" não pode ser modificado na tabela de interwikis. Possivelmente, não existe.',
 	'interwiki_logpagename'    => 'Registo da tabela de interwikis',
 	'interwiki_log_added'      => 'adicionado "$2" ($3) (trans: $4) (local: $5) à tabela de interwikis',
@@ -1281,7 +1247,6 @@ $messages['ru'] = array(
 	'interwiki_edittext'       => 'Редактирование интервики-приставок',
 	'interwiki_editintro'      => 'Вы редактируете интервики-приставку. Помните, что это может сломать существующие ссылки.',
 	'interwiki_edited'         => 'Приставка «$1» успешно изменена в интервики-таблице.',
-	'interwiki_editfailed'     => 'Приставка «$1» не может быть изменена в интервики-таблице. Возможно, её нет в интервики-таблице или она была удалена.',
 	'interwiki_editerror'      => 'Приставка «$1» не может быть изменена в интервики-таблице. Возможно, она не существует.',
 	'interwiki_logpagename'    => 'Журнал изменений таблицы интервики',
 	'interwiki_log_added'      => 'Приставка «$2» ($3) (trans: $4) (local: $5) добавлена в таблицу интервики',
@@ -1329,7 +1294,6 @@ $messages['sk'] = array(
 	'interwiki_edittext'       => 'Upravuje sa predpona interwiki',
 	'interwiki_editintro'      => 'Upravujete predponu interwiki. Pamätajte na to, že týmto môžete pokaziť existujúce odkazy.',
 	'interwiki_edited'         => 'Predpona „$1“ bola úspešne zmenená v tabuľke interwiki.',
-	'interwiki_editfailed'     => 'Predponu „$1“ nebolo možné zmeniť v tabuľke interwiki. Je možné, že neexistuje v tabuľke interwiki alebo bola zmazaná.',
 	'interwiki_editerror'      => 'Predponu „$1“ nebolo možné zmeniť v tabuľke interwiki. Je možné, že neexistuje.',
 	'interwiki_logpagename'    => 'Záznam zmien tabuľky interwiki',
 	'interwiki_log_added'      => 'Pridané „$2“ ($3) (trans: $4) (local: $5) do tabuľky interwiki',
@@ -1409,7 +1373,6 @@ Det är möjligt att prefixet redan finns i tabellen.',
 	'interwiki_edittext'       => 'Redigera ett interwikiprefix',
 	'interwiki_editintro'      => 'Du redigerar ett interwikiprefix. Notera att detta kan förstöra existerande länkar.',
 	'interwiki_edited'         => 'Prefixet "$1" har ändrats i interwikitabellen.',
-	'interwiki_editfailed'     => 'Prefixet "$1" kunde inte ändras i interwikitabellen. Det är möjligt att det inte finns i interwikitabellen eller att det har raderats.',
 	'interwiki_editerror'      => 'Prefixet "$1" kan inte ändras i interwikitabellen. Det är möjligt att det inte finns.',
 	'interwiki_logpagename'    => 'Interwikitabellogg',
 	'interwiki_log_added'      => 'lade till prefixet "$2" ($3) (trans: $4) (lokal: $5) i interwikitabellen',
@@ -1455,7 +1418,7 @@ $messages['tet'] = array(
 	'interwiki_delquestion' => 'Halakon $1',
 );
 
-/** Tajik (Cyrillic) (Тоҷикӣ/tojikī (Cyrillic))
+/** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1516,7 +1479,6 @@ Có thể nó đã tồn tại trong bảng liên wiki rồi.',
 	'interwiki_edittext'       => 'Sửa đổi tiền tố liên wiki',
 	'interwiki_editintro'      => 'Bạn đang sửa đổi một tiền tố liên wiki. Hãy nhớ rằng việc làm này có thể phá hỏng các liên hết đã có.',
 	'interwiki_edited'         => 'Tiền tố “$1” đã thay đổi xong trong bảng liên wiki.',
-	'interwiki_editfailed'     => 'Tiền tố “$1” không thể thay đổi trong bảng liên wiki. Có thể nó không tồn tại trong bảng hoặc đã bị xóa.',
 	'interwiki_editerror'      => 'Tiền tố “$1” không thể thay đổi trong bảng liên wiki. Có thể nó không tồn tại.',
 	'interwiki_logpagename'    => 'Nhật trình bảng liên wiki',
 	'interwiki_log_added'      => 'đã thêm tiền tố “$2” ($3) (ngoài: $4) (trong:$5) vào bảng liên wiki',
