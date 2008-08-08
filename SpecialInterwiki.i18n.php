@@ -396,6 +396,13 @@ $messages['frp'] = array(
 	'interwiki_defaulturl' => 'http://www.ègzemplo.com/$1',
 );
 
+/** Western Frisian (Frysk)
+ * @author Snakesteuben
+ */
+$messages['fy'] = array(
+	'interwiki_addbutton' => 'Tafoegje',
+);
+
 /** Galician (Galego)
  * @author Toliño
  * @author Alma
@@ -702,6 +709,7 @@ $messages['is'] = array(
 /** Italian (Italiano)
  * @author BrokenArrow
  * @author Cruccone
+ * @author Darth Kule
  */
 $messages['it'] = array(
 	'interwiki'                => 'Visualizza e modifica i dati interwiki',
@@ -735,6 +743,7 @@ Il prefisso potrebbe essere inesistente.',
 	'interwiki_log_deleted'    => 'ha rimosso il prefisso "$2" dalla tabella degli interwiki',
 	'interwiki_logpagetext'    => 'Registro dei cambiamenti apportati alla [[Special:Interwiki|tabella degli interwiki]].',
 	'interwiki_defaultreason'  => 'nessuna motivazione indicata',
+	'right-interwiki'          => 'Modifica i dati interwiki',
 );
 
 /** Japanese (日本語)
