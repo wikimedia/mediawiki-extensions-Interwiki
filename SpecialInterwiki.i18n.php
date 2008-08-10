@@ -471,7 +471,7 @@ $messages['gl'] = array(
 	'right-interwiki' => 'Editar os datos do interwiki',
 );
 
-/** Gothic (í €í¼²í €í¼¿í €í½„í €í¼¹í €í½ƒí €í¼º)
+/** Gothic (ğŒ²ğŒ¿ğ„ğŒ¹ğƒğŒº)
  * @author Jocke Pirat
  */
 $messages['got'] = array(
