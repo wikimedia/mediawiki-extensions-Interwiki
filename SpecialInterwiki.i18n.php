@@ -69,7 +69,9 @@ Possibly it does not exist.',
 );
 
 /** Message documentation (Message documentation)
+ * @author Jon Harald Søby
  * @author Meno25
+ * @author SPQRobin
  */
 $messages['qqq'] = array(
 	'interwiki' => 'Part of the interwiki extension. This message is the title of the special page [[Special:Interwiki]].',
