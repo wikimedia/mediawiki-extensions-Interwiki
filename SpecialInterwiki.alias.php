@@ -28,6 +28,11 @@ $aliases['arz'] = array(
 	'Interwiki' => array( 'إنترويكى' ),
 );
 
+/** Dutch (Nederlands) */
+$aliases['nl'] = array(
+	'Interwiki' => array( 'Interwiki' ),
+);
+
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
