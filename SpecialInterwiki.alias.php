@@ -28,6 +28,11 @@ $aliases['arz'] = array(
 	'Interwiki' => array( 'إنترويكى' ),
 );
 
+/** Korean (한국어) */
+$aliases['ko'] = array(
+	'Interwiki' => array( '인터위키' ),
+);
+
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
 	'Interwiki' => array( 'Interwiki' ),
