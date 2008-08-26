@@ -33,6 +33,11 @@ $aliases['ko'] = array(
 	'Interwiki' => array( '인터위키' ),
 );
 
+/** Luxembourgish (Lëtzebuergesch) */
+$aliases['lb'] = array(
+	'Interwiki' => array( 'Interwiki' ),
+);
+
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
 	'Interwiki' => array( 'Interwiki' ),
