@@ -1048,6 +1048,14 @@ $messages['mr'] = array(
 	'right-interwiki' => 'आंतरविकि डाटा बदला',
 );
 
+/** Erzya (Эрзянь)
+ * @author Botuzhaleny-sodamo
+ */
+$messages['myv'] = array(
+	'interwiki_reasonfield' => 'Тувтал',
+	'interwiki_defaultreason' => 'тувтал апак ёвта',
+);
+
 /** Nahuatl (Nāhuatl)
  * @author Fluence
  */
