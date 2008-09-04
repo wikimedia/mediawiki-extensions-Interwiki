@@ -838,6 +838,13 @@ Mbok-menawa iki ora ana.',
 	'interwiki_defaultreason' => 'ora mènèhi alesan',
 );
 
+/** Georgian (ქართული)
+ * @author Malafaya
+ */
+$messages['ka'] = array(
+	'interwiki_reasonfield' => 'მიზეზი',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Lovekhmer
