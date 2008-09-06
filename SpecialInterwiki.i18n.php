@@ -174,6 +174,46 @@ $messages['ar'] = array(
 	'right-interwiki' => 'تعديل بيانات الإنترويكي',
 );
 
+/** Egyptian Spoken Arabic (مصرى)
+ * @author Meno25
+ */
+$messages['arz'] = array(
+	'interwiki' => 'عرض وتعديل بيانات الإنترويكي',
+	'interwiki-title-norights' => 'عرض بيانات الإنترويكي',
+	'interwiki-desc' => 'يضيف [[Special:Interwiki|صفحة خاصة]] لرؤية وتعديل جدول الإنترويكي',
+	'interwiki_prefix' => 'بادئة',
+	'interwiki_reasonfield' => 'سبب',
+	'interwiki_intro' => 'انظر $1 لمزيد من المعلومات حول جدول الإنترويكي.
+يوجد [[Special:Log/interwiki|سجل بالتغييرات]] لجدول الإنترويكي.',
+	'interwiki_local' => 'محلي',
+	'interwiki_trans' => 'عابر',
+	'interwiki_error' => 'خطأ: جدول الإنترويكى فارغ، أو حدث خطأ آخر.',
+	'interwiki_delquestion' => 'حذف "$1"',
+	'interwiki_deleting' => 'أنت تحذف البادئة "$1".',
+	'interwiki_deleted' => 'البادئة "$1" تمت إزالتها بنجاح من جدول الإنترويكي.',
+	'interwiki_delfailed' => 'البادئة "$1" لم يمكن إزالتها من جدول الإنترويكي.',
+	'interwiki_addtext' => 'أضف بادئة إنترويكي',
+	'interwiki_addintro' => 'أنت تضيف بادئة إنترويكى جديدة.
+تذكر أنها لا يمكن أن تحتوى على مسافات ( )، نقطتين فوق بعض (:)، علامة و (&)، أو علامة يساوى (=).',
+	'interwiki_addbutton' => 'إضافة',
+	'interwiki_added' => 'البادئة "$1" تمت إضافتها بنجاح إلى جدول الإنترويكي.',
+	'interwiki_addfailed' => 'البادئة "$1" لم يمكن إضافتها إلى جدول الإنترويكي.
+على الأرجح هى موجودة بالفعل فى جدول الإنترويكي.',
+	'interwiki_edittext' => 'تعديل بادئة إنترويكي',
+	'interwiki_editintro' => 'أنت تعدل بادئة إنترويكى موجودة.
+تذكر أن هذا يمكن أن يكسر الوصلات الحالية.',
+	'interwiki_edited' => 'البادئة "$1" تم تعديلها بنجاح فى جدول الإنترويكي..',
+	'interwiki_editerror' => 'البادئة "$1" لم يمكن تعديلها فى جدول الإنترويكي.
+من المحتمل أنها غير موجودة.',
+	'interwiki_logpagename' => 'سجل جدول الإنترويكي',
+	'interwiki_log_added' => 'أضاف "$2" ($3) (نقل: $4) (محلي: $5) إلى جدول الإنترويكي',
+	'interwiki_log_edited' => 'عدل البادئة "$2" : ($3) (عابر: $4) (محلي: $5) فى جدول الإنترويكي',
+	'interwiki_log_deleted' => 'أزال البادئة "$2" من جدول الإنترويكي',
+	'interwiki_logpagetext' => 'هذا سجل بالتغييرات فى [[Special:Interwiki|جدول الإنترويكي]].',
+	'interwiki_defaultreason' => 'لا سبب معطى',
+	'right-interwiki' => 'تعديل بيانات الإنترويكي',
+);
+
 /** Kotava (Kotava)
  * @author Wikimistusik
  */
@@ -697,9 +737,38 @@ $messages['hu'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
+	'interwiki' => 'Vider e modificar datos interwiki',
+	'interwiki-title-norights' => 'Vider datos interwiki',
+	'interwiki-desc' => 'Adde un [[Special:Interwiki|pagina special]] pro vider e modificar le tabella interwiki',
+	'interwiki_prefix' => 'Prefixo',
 	'interwiki_reasonfield' => 'Motivo',
+	'interwiki_intro' => 'Vider $1 pro ulterior informationes super le tabella interwiki.
+Existe un [[Special:Log/interwiki|registro de modificationes]] al tabella interwiki.',
+	'interwiki_error' => 'Error: Le tabella interwiki es vacue, o un altere cosa faceva falta.',
+	'interwiki_delquestion' => 'Deletion de "$1"',
+	'interwiki_deleting' => 'Tu sta super le puncto de deler le prefixo "$1".',
+	'interwiki_deleted' => 'Le prefixo "$1" ha essite removite del tabella interwiki con successo.',
+	'interwiki_delfailed' => 'Le prefixo "$1" non poteva esser removite del tabella interwiki.',
+	'interwiki_addtext' => 'Adder un prefixo interwiki',
+	'interwiki_addintro' => 'Tu sta super le puncto de adder un nove prefixo interwiki.
+Memora que illo non pote continer spatios (&nbsp;), duo punctos (:), signos et (&), o signos equal (=).',
 	'interwiki_addbutton' => 'Adder',
+	'interwiki_added' => 'Le prefixo "$1" ha essite addite al tabella interwiki con successo.',
+	'interwiki_addfailed' => 'Le prefixo "$1" non poteva esser addite al tabella interwiki.
+Es possibile que illo ja existe in le tabella interwiki.',
+	'interwiki_edittext' => 'Modificar un prefixo interwiki',
+	'interwiki_editintro' => 'Tu modifica un prefixo interwiki.
+Memora que isto pote rumper ligamines existente.',
+	'interwiki_edited' => 'Le prefixo "$1" ha essite modificate in le tabella interwiki con successo.',
+	'interwiki_editerror' => 'Le prefixo "$1" non pote esser modificate in le tabella interwiki.
+Es possibile que illo non existe.',
+	'interwiki_logpagename' => 'Registro del tabella interwiki',
+	'interwiki_log_added' => 'addeva le prefixo "$2" ($3) (trans: $4) (local: $5) al tabella interwiki',
+	'interwiki_log_edited' => 'modificava le prefixo "$2" : ($3) (trans: $4) (local: $5) in le tabella interwiki',
+	'interwiki_log_deleted' => 'removeva le prefixo "$2" del tabella interwiki',
+	'interwiki_logpagetext' => 'Isto es un registro de modificationes in le [[Special:Interwiki|tabella interwiki]].',
 	'interwiki_defaultreason' => 'nulle ration date',
+	'right-interwiki' => 'Modificar datos interwiki',
 );
 
 /** Indonesian (Bahasa Indonesia)
