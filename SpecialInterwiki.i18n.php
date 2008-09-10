@@ -509,7 +509,7 @@ $messages['gl'] = array(
 	'interwiki_log_edited' => 'modificou o prefixo "$2": ($3) (trans: $4) (local: $5) na táboa do interwiki',
 	'interwiki_log_deleted' => 'Eliminouse o prefixo "$2" da táboa interwiki',
 	'interwiki_logpagetext' => 'Este é un rexistro dos cambios a [[Special:Interwiki|táboa interwiki]].',
-	'interwiki_defaultreason' => 'ningunha razón foi dada',
+	'interwiki_defaultreason' => 'non foi dada ningunha razón',
 	'right-interwiki' => 'Editar os datos do interwiki',
 );
 
