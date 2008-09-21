@@ -856,17 +856,25 @@ Il prefisso potrebbe essere inesistente.',
 );
 
 /** Japanese (日本語)
+ * @author Fievarsty
  * @author Mzm5zbC3
  */
 $messages['ja'] = array(
 	'interwiki' => 'インターウィキ一覧の表示と編集',
+	'interwiki-title-norights' => 'インターウィキデータの一覧',
 	'interwiki-desc' => 'インターウィキ一覧の表示と追加・編集・削除を行う[[Special:Interwiki|特別ページ]]。',
 	'interwiki_prefix' => 'プリフィックス',
 	'interwiki_reasonfield' => '理由',
+	'interwiki_intro' => 'インターウィキテーブルについては$1をご覧ください。インターウィキテーブルの[[Special:Log/interwiki|ログ]]もあります。',
+	'interwiki_deleted' => '"$1" はインターウィキテーブルから正常に削除されました。',
 	'interwiki_addtext' => 'インターウィキを追加する',
+	'interwiki_addintro' => 'あなたは新しいインターウィキを追加しようとしています。その中にスペース ( ) 、コロン (:) 、アンパサンド (&) 、等号 (=) といった記号と、全角文字を含むことができないことに注意してください。',
 	'interwiki_addbutton' => '追加',
 	'interwiki_edittext' => 'インターウィキの編集',
-	'interwiki_logpagename' => 'インターウィキ編集記録',
+	'interwiki_logpagename' => 'インターウィキテーブルログ',
+	'interwiki_log_added' => 'インターウィキテーブルより "$2" ($3) (trans: $4) (local: $5) を追加しました。',
+	'interwiki_log_edited' => 'インターウィキテーブルより "$2" を ($3) (trans: $4) (local: $5) に変更しました。',
+	'interwiki_log_deleted' => '"$2" をインターウィキテーブルから削除しました。',
 	'interwiki_defaultreason' => '理由が記述されていません',
 );
 
