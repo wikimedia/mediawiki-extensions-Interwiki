@@ -856,6 +856,7 @@ Il prefisso potrebbe essere inesistente.',
 );
 
 /** Japanese (日本語)
+ * @author Aotake
  * @author Fievarsty
  * @author Mzm5zbC3
  */
@@ -874,10 +875,10 @@ $messages['ja'] = array(
 	'interwiki_addtext' => 'インターウィキを追加する',
 	'interwiki_addintro' => 'あなたは新しいインターウィキを追加しようとしています。その中にスペース( )、コロン(:)、アンパーサンド(&)、等号(=) といった記号を含むことができないことに注意してください。',
 	'interwiki_addbutton' => '追加',
-	'interwiki_added' => '"$1" はインターウィキテーブルに正常に追加されました。',
+	'interwiki_added' => 'プレフィクス"$1" はインターウィキテーブルに正常に追加されました。',
 	'interwiki_addfailed' => '"$1" をインターウィキテーブルに追加することができませんでした。すでに同じものが、インターウィキテーブルの中に存在している可能性があります。',
 	'interwiki_edittext' => 'インターウィキの編集',
-	'interwiki_editintro' => 'あなたはインターウィキを編集しようとしています。',
+	'interwiki_editintro' => 'あなたはインターウィキ用のプレフィクスを編集しようとしています。この作業によりすでに存在しているリンクを破壊する可能性があります。',
 	'interwiki_edited' => '"$1" はインターウィキテーブルより正常に変更されました。',
 	'interwiki_editerror' => 'インターウィキテーブルより $1 を変更できませんでした。それは存在していません。',
 	'interwiki_logpagename' => 'インターウィキ編集記録',
