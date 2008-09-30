@@ -1563,7 +1563,7 @@ $messages['te'] = array(
 	'interwiki' => 'అంతర్వికీ భోగట్టాని చూడండి మరియు మార్చండి',
 	'interwiki_prefix' => 'ఉపసర్గ',
 	'interwiki_reasonfield' => 'కారణం',
-	'interwiki_intro' => 'అంతర్వికీ పట్టిక గురించి మరింత సమాచారం కోసం $1ని చూడండి. అంతర్వికీ పట్టికకి [[Special:Log/interwiki|మార్పుల దినచర్య]] ఉంది.',
+	'interwiki_intro' => 'అంతర్వికీ పట్టిక గురించి మరింత సమాచారం కోసం $1ని చూడండి. అంతర్వికీ పట్టికకి [[Special:Log/interwiki|మార్పుల చిట్టా]] ఉంది.',
 	'interwiki_error' => 'పొరపాటు: అంతర్వికీ పట్టిక ఖాళీగా ఉంది, లేదా ఏదో తప్పు జరిగింది.',
 	'interwiki_delquestion' => '"$1"ని తొలగిస్తున్నారు',
 	'interwiki_deleting' => 'మీరు "$1" అనే ఉపసర్గని తొలగించబోతున్నారు.',
@@ -1571,8 +1571,8 @@ $messages['te'] = array(
 	'interwiki_delfailed' => 'అంతర్వికీ పట్టిక నుండి "$1" అనే ఉపసర్గని తొలగించలేకపోయాం.',
 	'interwiki_addtext' => 'ఓ అంతర్వికీ ఉపసర్గని చేర్చండి',
 	'interwiki_addbutton' => 'చేర్చు',
-	'interwiki_logpagename' => 'అంతర్వికీ పట్టిక దినచర్య',
-	'interwiki_logpagetext' => 'ఇది [[Special:Interwiki|అంతర్వికీ పట్టిక]]కి జరిగిన మార్పుల దినచర్య.',
+	'interwiki_logpagename' => 'అంతర్వికీ పట్టిక చిట్టా',
+	'interwiki_logpagetext' => 'ఇది [[Special:Interwiki|అంతర్వికీ పట్టిక]]కి జరిగిన మార్పుల చిట్టా.',
 	'interwiki_defaultreason' => 'కారణం ఇవ్వలేదు',
 );
 
