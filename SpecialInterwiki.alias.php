@@ -28,6 +28,11 @@ $aliases['arz'] = array(
 	'Interwiki' => array( 'إنترويكى' ),
 );
 
+/** Persian (فارسی) */
+$aliases['fa'] = array(
+	'Interwiki' => array( 'میانویکی' ),
+);
+
 /** Khmer (ភាសាខ្មែរ) */
 $aliases['km'] = array(
 	'Interwiki' => array( 'អន្តរវិគី' ),
