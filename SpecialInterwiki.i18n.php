@@ -641,6 +641,7 @@ Postoji [[Special:Log/interwiki|evidencija promjena]] za interwiki tablicu.',
 	'interwiki_log_deleted' => 'uklonjen prefiks "$2" iz interwiki tablice',
 	'interwiki_logpagetext' => 'Ovo su evidencije promjena na [[Special:Interwiki|interwiki tablici]].',
 	'interwiki_defaultreason' => 'nema razloga',
+	'right-interwiki' => 'Uređivanje interwiki podataka',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
@@ -1149,6 +1150,7 @@ $messages['mr'] = array(
  */
 $messages['myv'] = array(
 	'interwiki_reasonfield' => 'Тувтал',
+	'interwiki_addbutton' => 'Поладомс',
 	'interwiki_defaultreason' => 'тувтал апак ёвта',
 );
 
