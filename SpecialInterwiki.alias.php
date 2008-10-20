@@ -30,7 +30,12 @@ $aliases['arz'] = array(
 
 /** Persian (فارسی) */
 $aliases['fa'] = array(
-	'Interwiki' => array( 'میانویکی' ),
+	'Interwiki' => array( 'میان‌ویکی' ),
+);
+
+/** Hebrew (עברית) */
+$aliases['he'] = array(
+	'Interwiki' => array( 'בינוויקי' ),
 );
 
 /** Khmer (ភាសាខ្មែរ) */
