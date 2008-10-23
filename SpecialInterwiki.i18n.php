@@ -312,11 +312,13 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
+ * @author Church of emacs
  * @author MF-Warburg
  * @author Raimond Spekking
  */
 $messages['de'] = array(
 	'interwiki' => 'Interwiki-Daten betrachten und bearbeiten',
+	'interwiki-title-norights' => 'Interwiki-Daten betrachten',
 	'interwiki-desc' => '[[Special:Interwiki|Spezialseite]] zur Pflege der Interwiki-Tabelle',
 	'interwiki_prefix' => 'Präfix',
 	'interwiki_reasonfield' => 'Grund',
@@ -324,6 +326,7 @@ $messages['de'] = array(
 	'interwiki_local' => 'Lokal',
 	'interwiki_error' => 'Fehler: Die Interwiki-Tabelle ist leer.',
 	'interwiki_delquestion' => 'Löscht „$1“',
+	'interwiki_deleting' => 'Du bist dabei das Präfix „$1“ zu löschen.',
 	'interwiki_deleted' => '„$1“ wurde erfolgreich aus der Interwiki-Tabelle entfernt.',
 	'interwiki_delfailed' => '„$1“ konnte nicht aus der Interwiki-Tabelle gelöscht werden.',
 	'interwiki_addtext' => 'Ein Interwiki-Präfix hinzufügen',
@@ -331,6 +334,12 @@ $messages['de'] = array(
 	'interwiki_addbutton' => 'Hinzufügen',
 	'interwiki_added' => '„$1“ wurde erfolgreich der Interwiki-Tabelle hinzugefügt.',
 	'interwiki_addfailed' => '„$1“ konnte nicht der Interwiki-Tabelle hinzugefügt werden.',
+	'interwiki_edittext' => 'Interwiki-Präfix bearbeiten',
+	'interwiki_editintro' => 'Du bist dabei ein Präfix zu ändern.
+Beachte, dass dies bereits vorhandene Links ungültig machen kann.',
+	'interwiki_edited' => 'Das Präfix „$1“ wurde erfolgreich in der Interwiki-Tabelle geändert.',
+	'interwiki_editerror' => 'Das Präfix „$1“ kann in der Interwiki-Tabelle nicht geändert werden.
+Möglicherweise existiert es nicht.',
 	'interwiki_logpagename' => 'Interwikitabelle-Logbuch',
 	'interwiki_log_added' => 'hat „$2“ ($3) (trans: $4) (lokal: $5) der Interwiki-Tabelle hinzugefügt',
 	'interwiki_log_deleted' => 'hat „$2“ aus der Interwiki-Tabelle entfernt',
@@ -874,7 +883,7 @@ Il prefisso potrebbe essere inesistente.',
 $messages['ja'] = array(
 	'interwiki' => 'インターウィキデータの閲覧と編集',
 	'interwiki-title-norights' => 'インターウィキデータの一覧',
-	'interwiki-desc' => 'インターウィキデータの閲覧と追加・編集・削除を行う[[Special:Interwiki|特別ページ]]。',
+	'interwiki-desc' => 'インターウィキテーブルの閲覧と編集を行う[[Special:Interwiki|特別ページ]]を追加',
 	'interwiki_prefix' => 'プリフィックス',
 	'interwiki_reasonfield' => '理由',
 	'interwiki_intro' => 'インターウィキテーブルについては$1をご覧ください。インターウィキテーブルの[[Special:Log/interwiki|ログ]]もあります。',
@@ -896,7 +905,7 @@ $messages['ja'] = array(
 	'interwiki_editerror' => 'インターウィキテーブルよりプレフィクス "$1" を変更できませんでした。それは存在していない可能性があります。',
 	'interwiki_logpagename' => 'インターウィキ編集記録',
 	'interwiki_log_added' => 'インターウィキテーブルにプレフィクス "$2" ($3) (trans: $4) (local: $5) を追加しました。',
-	'interwiki_log_edited' => 'インターウィキテーブルよりプレフィクス "$2" を ($3) (trans: $4) (local: $5) に変更しました。',
+	'interwiki_log_edited' => 'インターウィキテーブルのプレフィクス "$2" を ($3) (trans: $4) (local: $5) に変更しました。',
 	'interwiki_log_deleted' => 'インターウィキテーブルからプレフィクス "$2" を削除しました。',
 	'interwiki_logpagetext' => 'これは[[Special:Interwiki|インターウィキテーブル]]の変更記録です。',
 	'interwiki_defaultreason' => '理由が記述されていません',
