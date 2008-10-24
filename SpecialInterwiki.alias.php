@@ -38,6 +38,11 @@ $aliases['he'] = array(
 	'Interwiki' => array( 'בינוויקי' ),
 );
 
+/** Upper Sorbian (Hornjoserbsce) */
+$aliases['hsb'] = array(
+	'Interwiki' => array( 'Interwiki' ),
+);
+
 /** Khmer (ភាសាខ្មែរ) */
 $aliases['km'] = array(
 	'Interwiki' => array( 'អន្តរវិគី' ),
