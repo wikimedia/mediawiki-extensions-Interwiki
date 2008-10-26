@@ -1119,6 +1119,13 @@ Et gëtt eng [[Special:Log/interwiki|Lëscht vun den Ännerungen]] vun dëser In
 	'right-interwiki' => 'Interwiki-Daten änneren',
 );
 
+/** Eastern Mari (Олык Марий)
+ * @author Сай
+ */
+$messages['mhr'] = array(
+	'interwiki_reasonfield' => 'Амал',
+);
+
 /** Malayalam (മലയാളം)
  * @author Shijualex
  */
