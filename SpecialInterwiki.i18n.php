@@ -1452,7 +1452,7 @@ $messages['ru'] = array(
 	'interwiki_log_deleted' => 'Приставка «$2» удалена из таблицы интервики',
 	'interwiki_logpagetext' => 'Это журнал изменений [[Special:Interwiki|таблицы интервики]].',
 	'interwiki_defaultreason' => 'причина не указана',
-	'right-interwiki' => 'Правка информации интервики',
+	'right-interwiki' => 'Правка интервики',
 );
 
 /** Sassaresu (Sassaresu)
