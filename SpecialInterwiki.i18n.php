@@ -316,6 +316,7 @@ $messages['da'] = array(
 /** German (Deutsch)
  * @author Church of emacs
  * @author MF-Warburg
+ * @author Metalhead64
  * @author Raimond Spekking
  */
 $messages['de'] = array(
@@ -344,6 +345,7 @@ Beachte, dass dies bereits vorhandene Links ungültig machen kann.',
 Möglicherweise existiert es nicht.',
 	'interwiki_logpagename' => 'Interwikitabelle-Logbuch',
 	'interwiki_log_added' => 'hat „$2“ ($3) (trans: $4) (lokal: $5) der Interwiki-Tabelle hinzugefügt',
+	'interwiki_log_edited' => 'veränderte Präfix „$2“: ($3) (trans: $4) (lokal: $5) in der Interwiki-Tabelle',
 	'interwiki_log_deleted' => 'hat „$2“ aus der Interwiki-Tabelle entfernt',
 	'interwiki_logpagetext' => 'In diesem Logbuch werden Änderungen an der [[Special:Interwiki|Interwiki-Tabelle]] protokolliert.',
 	'interwiki_defaultreason' => 'kein Grund angegeben',
