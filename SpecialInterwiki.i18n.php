@@ -365,8 +365,8 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
-	'interwiki' => 'Rigardu kaj redaktu intervikiajn datenojn',
-	'interwiki-title-norights' => 'Rigardu intervikiajn datenojn',
+	'interwiki' => 'Rigardi kaj redakti intervikiajn datenojn',
+	'interwiki-title-norights' => 'Rigardi intervikiajn datenojn',
 	'interwiki-desc' => 'Aldonas [[Special:Interwiki|specialan paĝon]] por rigardi kaj redakti la intervikian tabelon',
 	'interwiki_prefix' => 'Prefikso',
 	'interwiki_reasonfield' => 'Kialo',
