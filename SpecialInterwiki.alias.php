@@ -33,6 +33,11 @@ $aliases['fa'] = array(
 	'Interwiki' => array( 'میان‌ویکی' ),
 );
 
+/** Galician (Galego) */
+$aliases['gl'] = array(
+	'Interwiki' => array( 'Interwiki' ),
+);
+
 /** Hebrew (עברית) */
 $aliases['he'] = array(
 	'Interwiki' => array( 'בינוויקי' ),
