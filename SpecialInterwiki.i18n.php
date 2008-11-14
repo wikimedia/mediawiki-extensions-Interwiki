@@ -299,6 +299,13 @@ $messages['br'] = array(
 	'interwiki_addbutton' => 'Ouzhpennañ',
 );
 
+/** Bosnian (Bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'interwiki_addbutton' => 'Dodaj',
+);
+
 /** Welsh (Cymraeg)
  * @author Lloffiwr
  */
