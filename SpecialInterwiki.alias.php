@@ -33,6 +33,11 @@ $aliases['bs'] = array(
 	'Interwiki' => array( 'Medjuwiki' ),
 );
 
+/** German (Deutsch) */
+$aliases['de'] = array(
+	'Interwiki' => array( 'Interwiki' ),
+);
+
 /** Persian (فارسی) */
 $aliases['fa'] = array(
 	'Interwiki' => array( 'میان‌ویکی' ),
