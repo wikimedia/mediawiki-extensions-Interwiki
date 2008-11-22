@@ -1356,6 +1356,13 @@ Benlèu i existís ja.',
 	'right-interwiki' => 'Modificar las donadas interwiki',
 );
 
+/** Ossetic (Иронау)
+ * @author Amikeco
+ */
+$messages['os'] = array(
+	'interwiki_reasonfield' => 'Аххос',
+);
+
 /** Polish (Polski)
  * @author McMonster
  * @author Sp5uhe
