@@ -303,6 +303,7 @@ $messages['br'] = array(
  * @author CERminator
  */
 $messages['bs'] = array(
+	'interwiki_reasonfield' => 'Razlog',
 	'interwiki_addbutton' => 'Dodaj',
 );
 
