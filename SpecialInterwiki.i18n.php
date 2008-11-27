@@ -258,6 +258,7 @@ $messages['be-tarask'] = array(
 	'interwiki' => 'Прагляд і рэдагаваньне зьвестак пра інтэрвікі',
 	'interwiki-title-norights' => 'Прагляд зьвестак пра інтэрвікі',
 	'interwiki_reasonfield' => 'Прычына',
+	'interwiki_addbutton' => 'Дадаць',
 );
 
 /** Bulgarian (Български)
@@ -1450,6 +1451,15 @@ $messages['pt'] = array(
  */
 $messages['ro'] = array(
 	'interwiki_reasonfield' => 'Motiv',
+);
+
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'interwiki_reasonfield' => 'Mutive',
+	'interwiki_addbutton' => 'Aggiunge',
+	'interwiki_defaultreason' => 'Nisciune mutive date',
 );
 
 /** Russian (Русский)

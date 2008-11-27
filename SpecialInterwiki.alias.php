@@ -85,3 +85,8 @@ $aliases['no'] = array(
 	'Interwiki' => array( 'Interwiki' ),
 );
 
+/** Swahili (Kiswahili) */
+$aliases['sw'] = array(
+	'Interwiki' => array( 'Viungovyawiki' ),
+);
+
