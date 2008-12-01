@@ -1029,6 +1029,7 @@ $messages['km'] = array(
 );
 
 /** Korean (한국어)
+ * @author Kwj2772
  * @author ToePeu
  */
 $messages['ko'] = array(
@@ -1058,6 +1059,7 @@ $messages['ko'] = array(
 	'interwiki_log_deleted' => '접두어 "$2"을(를) 인터위키 목록에서 지웠습니다.',
 	'interwiki_logpagetext' => '[[Special:Interwiki|인터위키]] 목록의 바뀐 내역입니다.',
 	'interwiki_defaultreason' => '이유가 제시되지 않았습니다.',
+	'right-interwiki' => '인터위키 목록을 편집',
 );
 
 /** Ripoarisch (Ripoarisch)

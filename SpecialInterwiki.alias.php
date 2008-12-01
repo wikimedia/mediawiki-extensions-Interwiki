@@ -58,6 +58,11 @@ $aliases['hsb'] = array(
 	'Interwiki' => array( 'Interwiki' ),
 );
 
+/** Japanese (日本語) */
+$aliases['ja'] = array(
+	'Interwiki' => array( 'インターウィキ' ),
+);
+
 /** Khmer (ភាសាខ្មែរ) */
 $aliases['km'] = array(
 	'Interwiki' => array( 'អន្តរវិគី' ),
