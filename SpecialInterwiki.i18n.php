@@ -1418,6 +1418,7 @@ $messages['ps'] = array(
 /** Portuguese (Português)
  * @author 555
  * @author Malafaya
+ * @author Waldir
  */
 $messages['pt'] = array(
 	'interwiki' => 'Ver e manipular dados de interwikis',
@@ -1446,6 +1447,7 @@ $messages['pt'] = array(
 	'interwiki_log_deleted' => 'removido o prefixo "$2" da tabela de interwikis',
 	'interwiki_logpagetext' => 'Este é um registo das alterações à [[Special:Interwiki|tabela de interwikis]].',
 	'interwiki_defaultreason' => 'sem motivo especificado',
+	'right-interwiki' => 'Editar dados de interwiki',
 );
 
 /** Romanian (Română)
