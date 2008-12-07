@@ -361,6 +361,44 @@ Möglicherweise existiert es nicht.',
 	'right-interwiki' => 'Interwiki-Tabelle bearbeiten',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'interwiki' => 'Daty interwiki se wobglědaś a wobźěłaś',
+	'interwiki-title-norights' => 'Daty interwiki se wobglědaś',
+	'interwiki-desc' => 'Pśidawa [[Special:Interwiki|specialny bok]] za woglědowanje a wobźěłowanje tabele interwiki',
+	'interwiki_prefix' => 'Prefiks',
+	'interwiki_reasonfield' => 'Pśicyna',
+	'interwiki_intro' => 'Glědaj $1 za dalšne informacije wó tabeli interwiki.
+Jo [[Special:Log/interwiki|protokol změnow]] za tabelu interwiki.',
+	'interwiki_error' => 'Zmólka: Tabela interwiki jo prozna abo něco druge jo wopak.',
+	'interwiki_delquestion' => '"$1" se lašujo',
+	'interwiki_deleting' => 'Lašujoš prefiks "$1".',
+	'interwiki_deleted' => 'Prefiks "$1" jo se wuspěšnje z tabele interwiki wupórał.',
+	'interwiki_delfailed' => 'Prefiks "$1" njejo se dał z tabele interwiki wupóraś.',
+	'interwiki_addtext' => 'Prefiks interwiki pśidaś',
+	'interwiki_addintro' => 'Pśidawaš nowy prefiks interwiki.
+Źiwaj na to, až njesmějo wopśimjeś prozne znamjenja ( ), dwójodypki (:), pśekupny A (&) abo znamuška rownosći (=).',
+	'interwiki_addbutton' => 'Pśidaś',
+	'interwiki_added' => 'Prefiks "$1" jo se wuspěšnje tabeli interwiki pśidał.',
+	'interwiki_addfailed' => 'Prefiks "$1" njejo se dał tabeli interwiki pśidaś.
+Snaź eksistujo južo w tabeli interwiki.',
+	'interwiki_edittext' => 'Prefiks interwiki wobźěłaś',
+	'interwiki_editintro' => 'Wobźěłujoš prefiks interwiki.
+Źiwaj na to, až to móžo eksistujuce wótkaze skóńcowaś',
+	'interwiki_edited' => 'Prefiks "$1" jo se wuspěšnje w tabeli interwiki změnił.',
+	'interwiki_editerror' => 'Prefiks "$1" njedajo se w tabeli interwiki změniś.
+Snaź njeeksistujo.',
+	'interwiki_logpagename' => 'Protokol tabele interwiki',
+	'interwiki_log_added' => 'jo pśidał prefiks "$2" ($3) (trans: $4) (lokalny: $5) tabeli interwiki',
+	'interwiki_log_edited' => 'jo změnił prefiks "$2": ($3) (trans: $4) (lokalny: $5) w tabeli interwiki',
+	'interwiki_log_deleted' => 'jo wupórał prefiks "$2" z tabele interwiki',
+	'interwiki_logpagetext' => 'To jo protokol změnow k [[Special:Interwiki|tabeli interwiki]].',
+	'interwiki_defaultreason' => 'žedna pśicyna pódana',
+	'right-interwiki' => 'Daty interwiki wobźěłaś',
+);
+
 /** Greek (Ελληνικά)
  * @author Consta
  */
@@ -696,6 +734,7 @@ Postoji [[Special:Log/interwiki|evidencija promjena]] za interwiki tablicu.',
  */
 $messages['hsb'] = array(
 	'interwiki' => 'Interwiki-daty wobhladać a změnić',
+	'interwiki-title-norights' => 'Daty interwiki wobhladać',
 	'interwiki-desc' => 'Přidawa [[Special:Interwiki|specialnu stronu]] za wobhladowanje a wobdźěłowanje interwiki-tabele',
 	'interwiki_prefix' => 'Prefiks',
 	'interwiki_reasonfield' => 'Přičina',
@@ -711,11 +750,19 @@ $messages['hsb'] = array(
 	'interwiki_addbutton' => 'Přidać',
 	'interwiki_added' => 'Prefiks "$1" je so wuspěšnje interwiki-tabeli přidał.',
 	'interwiki_addfailed' => 'Prefiks "$1" njeda so interwiki-tabeli přidać. Snano eksistuje hižo w interwiki-tabeli.',
+	'interwiki_edittext' => 'Prefiks interwiki wobdźěłać',
+	'interwiki_editintro' => 'Wobdźěłuješ prefiks interwiki.
+Wobkedźbuj, zo to móže eksistowace wotkazy skóncować.',
+	'interwiki_edited' => 'Prefiks "$1" je so wuspěšnje w tabeli interwiki změnil.',
+	'interwiki_editerror' => 'Prefiks "$1" njeda so w tabeli interwiki změnić.
+Snano njeeksistuje.',
 	'interwiki_logpagename' => 'Protokol interwiki-tabele',
 	'interwiki_log_added' => 'Je "$2" ($3) (trans: $4) (lokalny: $5) interwiki-tabeli přidał',
+	'interwiki_log_edited' => 'změni prefiks "$2": ($3) (trans: $4) (lokalny: $5) w tabeli interwiki',
 	'interwiki_log_deleted' => 'je prefiks "$2" z interwiki-tabele wotstronił',
 	'interwiki_logpagetext' => 'To je protokol změnow na [[Special:Interwiki|interwiki-tabeli]].',
 	'interwiki_defaultreason' => 'žana přičina podata',
+	'right-interwiki' => 'Daty interwiki wobdźěłać',
 );
 
 /** Haitian (Kreyòl ayisyen)
