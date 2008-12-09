@@ -1034,6 +1034,7 @@ $messages['ka'] = array(
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Lovekhmer
+ * @author Thearith
  * @author គីមស៊្រុន
  */
 $messages['km'] = array(
@@ -1042,7 +1043,7 @@ $messages['km'] = array(
 	'interwiki-desc' => 'បន្ថែម[[Special:Interwiki|ទំព័រពិសេស]]ដើម្បីមើលនិងកែប្រែតារាងអន្តរវិគី',
 	'interwiki_prefix' => 'បុព្វបទ',
 	'interwiki_reasonfield' => 'មូលហេតុ',
-	'interwiki_intro' => 'មើល$1ចំពោះពត៌មានបន្ថែមអំពីតារាងអន្តរវិគី។ នេះ​ជា[[Special:Log/interwiki|កំនត់ហេតុនៃបំលាស់ប្តូរ]]ក្នុងតារាងអន្តរវិគីនេះ។',
+	'interwiki_intro' => 'មើល$1ចំពោះព័ត៌មានបន្ថែមអំពីតារាងអន្តរវិគី។ នេះ​ជា[[Special:Log/interwiki|កំណត់ហេតុនៃបំលាស់ប្តូរ]]ក្នុងតារាងអន្តរវិគីនេះ។',
 	'interwiki_error' => 'កំហុស:តារាងអន្តរវិគីគឺទទេ ឬក៏មានអ្វីផ្សេងទៀតមានបញ្ហា។',
 	'interwiki_delquestion' => 'ការលុបចេញ "$1"',
 	'interwiki_deleting' => 'លោកអ្នកកំពុងលុបបុព្វបទ "$1"។',
@@ -1061,17 +1062,17 @@ $messages['km'] = array(
 	'interwiki_edittext' => 'ការកែប្រែបុព្វបទអន្តរវិគី',
 	'interwiki_editintro' => 'អ្នកកំពុងកែប្រែបុព្វបទអន្តរវិគី។
 
-ចូរចងចាំថាវាអាចនាំអោយខូចតំនភ្ជាប់ដែលមានស្រេច។',
-	'interwiki_edited' => 'បុព្វបទ"$1"ត្រូវបានកែសំរួលក្នុងតារាងអន្តរវិគីដោយជោគជ័យហើយ។',
-	'interwiki_editerror' => 'បុព្វបទ "$1" មិនអាចកែសំរួលនៅក្នុងតារាងអន្តរវិគីបានទេ។
+ចូរចងចាំថាវាអាចនាំឱ្យខូចតំណភ្ជាប់ដែលមានស្រេច។',
+	'interwiki_edited' => 'បុព្វបទ"$1"ត្រូវបានកែសម្រួលក្នុងតារាងអន្តរវិគីដោយជោគជ័យហើយ។',
+	'interwiki_editerror' => 'បុព្វបទ "$1" មិនអាចកែសម្រួលនៅក្នុងតារាងអន្តរវិគីបានទេ។
 
 ប្រហែលជាវាមិនមានអត្ថិភាពទេ។',
-	'interwiki_logpagename' => 'កំនត់ហេតុតារាងអន្តរវិគី',
+	'interwiki_logpagename' => 'កំណត់ហេតុតារាងអន្តរវិគី',
 	'interwiki_log_added' => 'បានបន្ថែម "$2" ($3) (trans: $4) (local: $5) ក្នុងតារាងអន្តរវិគី ៖',
-	'interwiki_log_edited' => 'កែសំរួលបុព្វបទ "$2" : ($3) (trans: $4) (local: $5) នៅក្នុងតារាងអន្តរវិគី',
+	'interwiki_log_edited' => 'កែសម្រួលបុព្វបទ "$2" : ($3) (trans: $4) (local: $5) នៅក្នុងតារាងអន្តរវិគី',
 	'interwiki_log_deleted' => 'បានដកបុព្វបទ"$2"ចេញពីតារាងអន្តរវិគី',
-	'interwiki_logpagetext' => 'នេះជាកំនត់ហេតុនៃបំលាស់ប្តូរក្នុង[[Special:Interwiki|តារាងអន្តរវិគី]]។',
-	'interwiki_defaultreason' => 'គ្មានមូលហេតុត្រូវបានផ្តល់អោយ',
+	'interwiki_logpagetext' => 'នេះជាកំណត់ហេតុនៃបំលាស់ប្តូរក្នុង[[Special:Interwiki|តារាងអន្តរវិគី]]។',
+	'interwiki_defaultreason' => 'គ្មានមូលហេតុត្រូវបានផ្តល់ឱ្យ',
 	'right-interwiki' => 'កែប្រែទិន្នន័យអន្តរវិគី',
 );
 
@@ -1278,6 +1279,13 @@ $messages['nds'] = array(
 	'interwiki_addtext' => 'Interwiki-Präfix tofögen',
 	'interwiki_addbutton' => 'Tofögen',
 	'interwiki_defaultreason' => 'keen Grund angeven',
+);
+
+/** Nedersaksisch (Nedersaksisch)
+ * @author Servien
+ */
+$messages['nds-nl'] = array(
+	'interwiki_addbutton' => 'Toevoegen',
 );
 
 /** Dutch (Nederlands)
