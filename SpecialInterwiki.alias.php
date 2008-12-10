@@ -48,6 +48,11 @@ $aliases['gl'] = array(
 	'Interwiki' => array( 'Interwiki' ),
 );
 
+/** Swiss German (Alemannisch) */
+$aliases['gsw'] = array(
+	'Interwiki' => array( 'Interwiki' ),
+);
+
 /** Hebrew (עברית) */
 $aliases['he'] = array(
 	'Interwiki' => array( 'בינוויקי' ),

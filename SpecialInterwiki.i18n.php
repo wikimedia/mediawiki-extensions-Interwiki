@@ -958,7 +958,7 @@ Il prefisso potrebbe essere inesistente.',
 $messages['ja'] = array(
 	'interwiki' => 'インターウィキデータの閲覧と編集',
 	'interwiki-title-norights' => 'インターウィキデータの一覧',
-	'interwiki-desc' => 'インターウィキテーブルの閲覧と編集を行う[[Special:Interwiki|特別ページ]]を追加',
+	'interwiki-desc' => 'インターウィキテーブルの表示と編集を行う[[Special:Interwiki|特別ページ]]を追加する',
 	'interwiki_prefix' => 'プリフィックス',
 	'interwiki_reasonfield' => '理由',
 	'interwiki_intro' => 'インターウィキテーブルについては$1をご覧ください。インターウィキテーブルの[[Special:Log/interwiki|ログ]]もあります。',
