@@ -372,6 +372,7 @@ $messages['dsb'] = array(
 	'interwiki_reasonfield' => 'Pśicyna',
 	'interwiki_intro' => 'Glědaj $1 za dalšne informacije wó tabeli interwiki.
 Jo [[Special:Log/interwiki|protokol změnow]] za tabelu interwiki.',
+	'interwiki_local' => 'Lokalny',
 	'interwiki_error' => 'Zmólka: Tabela interwiki jo prozna abo něco druge jo wopak.',
 	'interwiki_delquestion' => '"$1" se lašujo',
 	'interwiki_deleting' => 'Lašujoš prefiks "$1".',
