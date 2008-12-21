@@ -384,13 +384,13 @@ Jo [[Special:Log/interwiki|protokol změnow]] za tabelu interwiki.',
 	'interwiki_addbutton' => 'Pśidaś',
 	'interwiki_added' => 'Prefiks "$1" jo se wuspěšnje tabeli interwiki pśidał.',
 	'interwiki_addfailed' => 'Prefiks "$1" njejo se dał tabeli interwiki pśidaś.
-Snaź eksistujo južo w tabeli interwiki.',
+Snaź eksistěrujo južo w tabeli interwiki.',
 	'interwiki_edittext' => 'Prefiks interwiki wobźěłaś',
 	'interwiki_editintro' => 'Wobźěłujoš prefiks interwiki.
-Źiwaj na to, až to móžo eksistujuce wótkaze skóńcowaś',
+Źiwaj na to, až to móžo eksistěrujuce wótkaze skóńcowaś',
 	'interwiki_edited' => 'Prefiks "$1" jo se wuspěšnje w tabeli interwiki změnił.',
 	'interwiki_editerror' => 'Prefiks "$1" njedajo se w tabeli interwiki změniś.
-Snaź njeeksistujo.',
+Snaź njeeksistěrujo.',
 	'interwiki_logpagename' => 'Protokol tabele interwiki',
 	'interwiki_log_added' => 'jo pśidał prefiks "$2" ($3) (trans: $4) (lokalny: $5) tabeli interwiki',
 	'interwiki_log_edited' => 'jo změnił prefiks "$2": ($3) (trans: $4) (lokalny: $5) w tabeli interwiki',
