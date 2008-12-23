@@ -83,6 +83,11 @@ $aliases['lb'] = array(
 	'Interwiki' => array( 'Interwiki' ),
 );
 
+/** Macedonian (Македонски) */
+$aliases['mk'] = array(
+	'Interwiki' => array( 'Интервики' ),
+);
+
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
 	'Interwiki' => array( 'Interwiki' ),
