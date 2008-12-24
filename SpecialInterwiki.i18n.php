@@ -1147,6 +1147,7 @@ Maach sin, dat et inn nit jitt.',
 	'interwiki_log_deleted' => 'hät dä Försaz „$2“ es us de Engerwiki Date eruß jeworfe',
 	'interwiki_logpagetext' => 'Hee is dat Logboch met de Änderonge aan de [[Special:Interwiki|Engerwiki Date]].',
 	'interwiki_defaultreason' => 'Keine Aanlass aanjejovve',
+	'right-interwiki' => 'de Tabäll met de Engerwiki Date ändere',
 );
 
 /** Latin (Latina)
