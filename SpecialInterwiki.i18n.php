@@ -1328,14 +1328,42 @@ Er is een [[Special:Log/interwiki|logboek van wijzigingen]] aan de interwikitabe
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Eirik
+ * @author Harald Khan
  * @author Jon Harald Søby
  */
 $messages['nn'] = array(
 	'interwiki' => 'Vis og endre interwikidata',
 	'interwiki-title-norights' => 'Vis interwikidata',
+	'interwiki-desc' => 'Legg ti ei [[Special:Interwiki|spesialsida]] som gjer at ein kan syna og endra interwikitabellen.',
 	'interwiki_prefix' => 'Prefiks',
 	'interwiki_reasonfield' => 'Årsak',
+	'interwiki_intro' => 'Sjå $1 for meir informasjon om interwikitabellen.
+Det finst ein [[Special:Log/interwiki|logg]] over endringar i interwikitabellen.',
+	'interwiki_error' => 'Feil: Interwikitabellen er tom, eller noko anna gjekk gale.',
+	'interwiki_delquestion' => 'Slettar «$1»',
+	'interwiki_deleting' => 'Du slettar prefikset «$1».',
+	'interwiki_deleted' => 'Prefikset «$1» blei fjerna frå interwikitabellen.',
+	'interwiki_delfailed' => 'Prefikset «$1» kunne ikkje bli fjerna frå interwikitabellen.',
+	'interwiki_addtext' => 'Legg til eit interwikiprefiks',
+	'interwiki_addintro' => 'Du legg til eit nytt interwikiprefiks.
+Hugs at det ikkje kan innehalda mellomrom ( ), kolon (:), et (&) eller likskapsteikn (=).',
+	'interwiki_addbutton' => 'Legg til',
+	'interwiki_added' => 'Prefikset «$1» blei lagt til i interwikitabellen.',
+	'interwiki_addfailed' => 'Prefikset «$1» kunne ikkje bli lagt til i interwikitabellen. 
+Kanskje er det i bruk frå før.',
+	'interwiki_edittext' => 'Endrar eit interwikiprefiks',
+	'interwiki_editintro' => 'Du endrar eit interwikiprefiks. 
+Hugs at dette kan øydeleggja lenkjer som finst frå før.',
+	'interwiki_edited' => 'Prefikset «$1» blei endra i interwikitabellen.',
+	'interwiki_editerror' => 'Prefikset «$1» kan ikkje bli endra i interwikitabellen. 
+Kanskje finst det ikkje.',
+	'interwiki_logpagename' => 'Logg for interwikitabell',
+	'interwiki_log_added' => 'la til «$2» ($3) (trans: $4) (lokal: $5) til interwikitabellen',
+	'interwiki_log_edited' => 'endra prefikset «$2»: ($3) (trans: $4) (lokal: $5) i interwikitabellen',
+	'interwiki_log_deleted' => 'fjerna prefikset «$2» frå interwikitabellen',
+	'interwiki_logpagetext' => 'Dette er ein logg over endringar i [[Special:Interwiki|interwikitabellen]].',
 	'interwiki_defaultreason' => 'inga grunngjeving',
+	'right-interwiki' => 'Endra interwikidata',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
@@ -1512,6 +1540,7 @@ $messages['pt'] = array(
  */
 $messages['ro'] = array(
 	'interwiki_reasonfield' => 'Motiv',
+	'interwiki_addbutton' => 'Adaugă',
 );
 
 /** Tarandíne (Tarandíne)
@@ -1802,9 +1831,11 @@ $messages['vo'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Alexsh
+ * @author Wrightbus
  */
 $messages['zh-hant'] = array(
 	'interwiki' => '跨語言連結表',
+	'interwiki-title-norights' => '檢視跨維基資料',
 	'interwiki-desc' => '新增[[Special:Interwiki|特殊頁面]]以檢視或編輯跨語言連結表',
 	'interwiki_prefix' => '連結字串',
 	'interwiki_reasonfield' => '原因',
@@ -1817,5 +1848,6 @@ $messages['zh-hant'] = array(
 	'interwiki_deleted' => '已成功從連結表中刪除連結字串"$1"',
 	'interwiki_delfailed' => '無法從連結表刪除連結字串"$1"',
 	'interwiki_addtext' => '新增跨語連結字串',
+	'right-interwiki' => '修改跨維基資料',
 );
 
