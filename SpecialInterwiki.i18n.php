@@ -482,10 +482,11 @@ $messages['fi'] = array(
 	'interwiki_editerror' => 'Etuliitettä ”$1” ei voi muokata interwiki-taulukossa. Sitä ei mahdollisesti ole olemassa.',
 	'interwiki_logpagename' => 'Loki muutoksista interwiki-tauluun',
 	'interwiki_log_added' => 'Uusi etuliite ”$2” ($3) (trans: $4) (paikallinen: $5) interwiki-tauluun',
-	'interwiki_log_edited' => '!muokkasi etuliitettä $2: ($3) (trans: $4) (paikallisuus: $5) interwiki-taulussa',
+	'interwiki_log_edited' => 'muokkasi etuliitettä ”$2”: ($3) (trans: $4) (paikallinen: $5) interwiki-taulussa',
 	'interwiki_log_deleted' => 'Poisti etuliitteen ”$2” interwiki-taulusta',
 	'interwiki_logpagetext' => 'Tämä on loki muutoksista [[Special:Interwiki|interwiki-tauluun]].',
 	'interwiki_defaultreason' => 'ei annettua syytä',
+	'right-interwiki' => 'Muokata interwiki-dataa',
 );
 
 /** French (Français)
@@ -1541,6 +1542,7 @@ $messages['pt'] = array(
 $messages['ro'] = array(
 	'interwiki_reasonfield' => 'Motiv',
 	'interwiki_addbutton' => 'Adaugă',
+	'interwiki_defaultreason' => 'nici un motiv oferit',
 );
 
 /** Tarandíne (Tarandíne)
