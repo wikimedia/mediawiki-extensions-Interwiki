@@ -28,8 +28,8 @@ $messages['en'] = array(
 	'interwiki_intro'          => 'See $1 for more information about the interwiki table.
 There is a [[Special:Log/interwiki|log of changes]] to the interwiki table.',
 	'interwiki_url'            => 'URL', # only translate this message if you have to change it
-	'interwiki_local'          => 'Local', # only translate this message if you have to change it
-	'interwiki_trans'          => 'Trans', # only translate this message if you have to change it
+	'interwiki_local'          => 'Define this as a local wiki', # needs a better description. Exactly _what_ does iw_local mean?
+	'interwiki_trans'          => 'Allow interwiki transclusions', # only translate this message if you have to change it
 	'interwiki_error'          => 'Error: The interwiki table is empty, or something else went wrong.',
 
 	# deleting a prefix
@@ -1350,13 +1350,13 @@ Det finst ein [[Special:Log/interwiki|logg]] over endringar i interwikitabellen.
 Hugs at det ikkje kan innehalda mellomrom ( ), kolon (:), et (&) eller likskapsteikn (=).',
 	'interwiki_addbutton' => 'Legg til',
 	'interwiki_added' => 'Prefikset «$1» blei lagt til i interwikitabellen.',
-	'interwiki_addfailed' => 'Prefikset «$1» kunne ikkje bli lagt til i interwikitabellen. 
+	'interwiki_addfailed' => 'Prefikset «$1» kunne ikkje bli lagt til i interwikitabellen.
 Kanskje er det i bruk frå før.',
 	'interwiki_edittext' => 'Endrar eit interwikiprefiks',
-	'interwiki_editintro' => 'Du endrar eit interwikiprefiks. 
+	'interwiki_editintro' => 'Du endrar eit interwikiprefiks.
 Hugs at dette kan øydeleggja lenkjer som finst frå før.',
 	'interwiki_edited' => 'Prefikset «$1» blei endra i interwikitabellen.',
-	'interwiki_editerror' => 'Prefikset «$1» kan ikkje bli endra i interwikitabellen. 
+	'interwiki_editerror' => 'Prefikset «$1» kan ikkje bli endra i interwikitabellen.
 Kanskje finst det ikkje.',
 	'interwiki_logpagename' => 'Logg for interwikitabell',
 	'interwiki_log_added' => 'la til «$2» ($3) (trans: $4) (lokal: $5) til interwikitabellen',
