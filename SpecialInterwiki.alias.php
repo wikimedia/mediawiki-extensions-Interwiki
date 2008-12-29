@@ -63,6 +63,11 @@ $aliases['hsb'] = array(
 	'Interwiki' => array( 'Interwiki' ),
 );
 
+/** Hungarian (Magyar) */
+$aliases['hu'] = array(
+	'Interwiki' => array( 'Wikiközi hivatkozások' ),
+);
+
 /** Japanese (日本語) */
 $aliases['ja'] = array(
 	'Interwiki' => array( 'インターウィキ' ),
