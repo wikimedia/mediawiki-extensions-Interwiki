@@ -46,7 +46,7 @@ Remember that it cannot contain spaces ( ), colons (:), ampersands (&), or equal
 	'interwiki_added'          => 'Prefix "$1" was successfully added to the interwiki table.',
 	'interwiki_addfailed'      => 'Prefix "$1" could not be added to the interwiki table.
 Possibly it already exists in the interwiki table.',
-	'interwiki_defaulturl'     => 'http://www.example.com/$1', # only translate this message if you have to change it
+	'interwiki_defaulturl'     => 'http://www.example.com/$1', # only translate this message to other languages if you have to change it
 
 	# editing a prefix
 	'interwiki_edittext'       => 'Editing an interwiki prefix',
@@ -575,7 +575,7 @@ $messages['gl'] = array(
 	'right-interwiki' => 'Editar os datos do interwiki',
 );
 
-/** Gothic (𐌲𐌿𐍄𐌹𐍃𐌺)
+/** Gothic
  * @author Jocke Pirat
  */
 $messages['got'] = array(
