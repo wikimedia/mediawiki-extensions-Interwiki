@@ -83,6 +83,11 @@ $aliases['ko'] = array(
 	'Interwiki' => array( '인터위키' ),
 );
 
+/** Latin (Latina) */
+$aliases['la'] = array(
+	'Interwiki' => array( 'Intervici' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $aliases['lb'] = array(
 	'Interwiki' => array( 'Interwiki' ),
