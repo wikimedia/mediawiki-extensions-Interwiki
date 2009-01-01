@@ -280,7 +280,7 @@ $messages['be-tarask'] = array(
 	'interwiki-title-norights' => 'Прагляд зьвестак пра інтэрвікі',
 	'interwiki_prefix' => 'Прэфікс',
 	'interwiki_reasonfield' => 'Прычына',
-	'interwiki_intro' => 'Глядзіце падрабязнасьці пра табліцу інтэрвікі на [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org].
+	'interwiki_intro' => 'Глядзіце падрабязнасьці пра табліцу інтэрвікі на $1.
 Таксама існуе [[Special:Log/interwiki|журнал зьменаў]] табліцы інтэрвікі.',
 	'interwiki_local' => 'Вызначана як лякальная вікі',
 	'interwiki_trans' => 'Дазволіць інтэрвікі ўключэньні',
@@ -1578,6 +1578,7 @@ $messages['mr'] = array(
 
 /** Malay (Bahasa Melayu)
  * @author Aviator
+ * @author Diagramma Della Verita
  */
 $messages['ms'] = array(
 	'interwiki' => 'Lihat dan ubah data interwiki',
@@ -1601,6 +1602,7 @@ $messages['ms'] = array(
 	'interwiki_editintro' => 'Anda sedang mengubah suatu awalan interwiki. Sila ingat bahawa perbuatan ini boleh merosakkan pautan-pautan yang sudah ada.',
 	'interwiki_edited' => 'Awalan "$1" telah diubah dalam jadual interwiki.',
 	'interwiki_editerror' => 'Awalan "$1" tidak boleh diubah dalam jadual interwiki. Barangkali awalan ini tidak wujud.',
+	'interwiki_logpagename' => 'Log maklumat Interwiki',
 	'interwiki_log_added' => 'menampah awalan "$2" ($3) (penyertaan: $4) (tempatan: $5) ke dalam jadual interwiki',
 	'interwiki_log_edited' => 'mengubah awalan "$2" : ($3) (penyertaan: $4) (tempatan: $5) in the interwiki table',
 	'interwiki_log_deleted' => 'membuang awalan "$2" daripada jadual interwiki',
@@ -2241,10 +2243,11 @@ $messages['th'] = array(
 $messages['tl'] = array(
 	'interwiki' => "Tingnan at baguhin ang datong pangugnayang-wiki (''interwiki'')",
 	'interwiki-title-norights' => "Tingnan ang datong pangugnayang-wiki (''interwiki'')",
+	'interwiki-desc' => 'Nagdaragdag ng isang [[Special:Interwiki|natatanging pahina]] upang matingnan at mabago ang tablang pang-ugnayang wiki',
 	'interwiki_prefix' => 'Unlapi',
 	'interwiki_reasonfield' => 'Dahilan',
-	'interwiki_intro' => "Tingnan ang  [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] para sa mas maraming pang kabatiran tungkol sa tablang panguganayang-wiki (''interwiki'').
-Mayroong isang [[Special:Log/interwiki|talaan ng mga pagbabagong]] ginawa sa tablang pangugnayang-wiki.",
+	'interwiki_intro' => "Tingnan ang $1 para sa mas marami pang kabatiran tungkol sa tablang pang-ugnayang wiki (''interwiki'').
+May isang [[Special:Log/interwiki|talaan ng mga pagbabago]] sa tablang pang-ugnayang wiki.",
 	'interwiki_local' => 'Bigyang kahulugan ito bilang isang pampook (lokal) na wiki',
 	'interwiki_trans' => 'Pahintulutan ang mga paglipat-samang (transklusyon) pangugnayang-wiki',
 	'interwiki_error' => "Kamalian: Walang laman ang tablang pangugnayang-wiki (''interwiki''), o may iba pang bagay na nagkaroon ng kamalian/suliranin.",
@@ -2266,9 +2269,11 @@ Tandaan na maaaring maputol nito ang umiiral na mga kawing.",
 	'interwiki_edited' => "Matagumpay na nabago ang unlaping \"\$1\" sa loob ng tablang pangugnayang-wiki (''interwiki'').",
 	'interwiki_editerror' => "Hindi mabago ang unlaping \"\$1\" sa loob ng tablang pangugnayang-wiki (''interwiki'').
 Maaaring hindi pa ito umiiral.",
+	'interwiki_logpagename' => 'Talaan ng tablang pang-ugnayang wiki',
 	'interwiki_log_added' => 'idinagdag ang unlaping "$2" ($3) (trans: $4) (lokal: $5) sa tablang pangugnayang-wiki (\'\'interwiki\'\')',
 	'interwiki_log_edited' => 'binago ang unlaping "$2" : ($3) (trans: $4) (lokal: $5) sa loob ng tablang pangugnayang-wiki (\'\'interwiki\'\')',
 	'interwiki_log_deleted' => "tinanggal ang unlaping \"\$2\" mula tablang pangugnayang-wiki (''interwiki'')",
+	'interwiki_logpagetext' => 'Isa itong talaan ng mga pagbabago sa [[Special:Interwiki|tablang pang-ugnayang wiki]].',
 	'interwiki_defaultreason' => 'walang dahilang ibinigay',
 	'right-interwiki' => "Baguhin ang datong pangugnayang-wiki (''interwiki'')",
 );
