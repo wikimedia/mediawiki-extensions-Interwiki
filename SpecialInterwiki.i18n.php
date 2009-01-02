@@ -55,6 +55,7 @@ Remember that this can break existing links.',
 	'interwiki_edited'         => 'Prefix "$1" was successfully modified in the interwiki table.',
 	'interwiki_editerror'      => 'Prefix "$1" can not be modified in the interwiki table.
 Possibly it does not exist.',
+	'interwiki-badprefix' => 'Specified interwiki prefix "$1" contains invalid characters',
 
 	# interwiki log
 	'interwiki_logpagename'    => 'Interwiki table log',
@@ -66,6 +67,7 @@ Possibly it does not exist.',
 	'interwiki_logentry'       => '', # do not translate this message
 
 	'right-interwiki'          => 'Edit interwiki data',
+	'action-interwiki' => 'change this interwiki entry',
 );
 
 /** Message documentation (Message documentation)
