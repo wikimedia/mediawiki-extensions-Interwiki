@@ -114,6 +114,7 @@ Meaning of the data in the column:
 
 {{Identical|No reason given}}',
 	'right-interwiki' => '{{doc-right}}',
+	'action-interwiki' => '{{doc-action}}',
 );
 
 /** Niuean (ko e vagahau Niuē)
@@ -186,6 +187,7 @@ $messages['ar'] = array(
 	'interwiki_edited' => 'البادئة "$1" تم تعديلها بنجاح في جدول الإنترويكي..',
 	'interwiki_editerror' => 'البادئة "$1" لم يمكن تعديلها في جدول الإنترويكي.
 من المحتمل أنها غير موجودة.',
+	'interwiki-badprefix' => 'بادئة إنترويكي محددة "$1" تحتوي أحرفا غير صحيحة',
 	'interwiki_logpagename' => 'سجل جدول الإنترويكي',
 	'interwiki_log_added' => 'أضاف "$2" ($3) (نقل: $4) (محلي: $5) إلى جدول الإنترويكي',
 	'interwiki_log_edited' => 'عدل البادئة "$2" : ($3) (عابر: $4) (محلي: $5) في جدول الإنترويكي',
@@ -193,6 +195,7 @@ $messages['ar'] = array(
 	'interwiki_logpagetext' => 'هذا سجل بالتغييرات في [[Special:Interwiki|جدول الإنترويكي]].',
 	'interwiki_defaultreason' => 'لا سبب معطى',
 	'right-interwiki' => 'تعديل بيانات الإنترويكي',
+	'action-interwiki' => 'تغيير مدخلة الإنترويكي هذه',
 );
 
 /** Egyptian Spoken Arabic (مصرى)
@@ -511,6 +514,7 @@ Snaź eksistěrujo južo w tabeli interwiki.',
 	'interwiki_edited' => 'Prefiks "$1" jo se wuspěšnje w tabeli interwiki změnił.',
 	'interwiki_editerror' => 'Prefiks "$1" njedajo se w tabeli interwiki změniś.
 Snaź njeeksistěrujo.',
+	'interwiki-badprefix' => 'Podaty prefiks interwiki "$1" wopśimujo njepłaśiwe znamuška',
 	'interwiki_logpagename' => 'Protokol tabele interwiki',
 	'interwiki_log_added' => 'jo pśidał prefiks "$2" ($3) (trans: $4) (lokalny: $5) tabeli interwiki',
 	'interwiki_log_edited' => 'jo změnił prefiks "$2": ($3) (trans: $4) (lokalny: $5) w tabeli interwiki',
@@ -518,6 +522,7 @@ Snaź njeeksistěrujo.',
 	'interwiki_logpagetext' => 'To jo protokol změnow k [[Special:Interwiki|tabeli interwiki]].',
 	'interwiki_defaultreason' => 'žedna pśicyna pódana',
 	'right-interwiki' => 'Daty interwiki wobźěłaś',
+	'action-interwiki' => 'toś ten zapisk interwiki změniś',
 );
 
 /** Greek (Ελληνικά)
@@ -698,6 +703,7 @@ $messages['fi'] = array(
 );
 
 /** French (Français)
+ * @author Crochet.david
  * @author Grondin
  * @author IAlex
  * @author Louperivois
@@ -728,6 +734,7 @@ Il existe un [[Special:Log/interwiki|journal des modifications]] de la table int
 	'interwiki_editintro' => 'Vous modifiez un préfixe interwiki. Rappelez-vous que cela peut casser des liens existants.',
 	'interwiki_edited' => 'Le préfixe « $1 » a été modifié avec succès dans la table interwiki.',
 	'interwiki_editerror' => "Le préfixe « $1 » ne peut pas être modifié. Il se peut qu'il n'existe pas.",
+	'interwiki-badprefix' => 'Le préfixe interwiki spécifié « $1 » contient des caractères invalides',
 	'interwiki_logpagename' => 'Journal de la table interwiki',
 	'interwiki_log_added' => 'a ajouté « $2 » ($3) (trans: $4) (local: $5) dans la table interwiki',
 	'interwiki_log_edited' => 'a modifié le préfixe « $2 » : ($3) (trans: $4) (local: $5) dans la table interwiki',
@@ -735,6 +742,7 @@ Il existe un [[Special:Log/interwiki|journal des modifications]] de la table int
 	'interwiki_logpagetext' => 'Ceci est le journal des changements dans la [[Special:Interwiki|table interwiki]].',
 	'interwiki_defaultreason' => 'Aucun motif donné',
 	'right-interwiki' => 'Modifier les données interwiki',
+	'action-interwiki' => 'modifier cette entrée interwiki',
 );
 
 /** Franco-Provençal (Arpetan)
@@ -780,6 +788,7 @@ Hai un [[Special:Log/interwiki|rexistro de cambios]] realizados á táboa interw
 	'interwiki_editintro' => 'Está editando un prefixo interwiki. Lembre que isto pode quebrar ligazóns existentes.',
 	'interwiki_edited' => 'O prefixo "$1" foi modificado con éxito na táboa do interwiki.',
 	'interwiki_editerror' => 'O prefixo "$1" non pode ser modificado na táboa do interwiki. Posiblemente non existe.',
+	'interwiki-badprefix' => 'O prefixo interwiki especificado "$1" contén caracteres inválidos',
 	'interwiki_logpagename' => 'Rexistro de táboas interwiki',
 	'interwiki_log_added' => 'Engadir "$2" ($3) (trans: $4) (local: $5) á táboa interwiki',
 	'interwiki_log_edited' => 'modificou o prefixo "$2": ($3) (trans: $4) (local: $5) na táboa do interwiki',
@@ -787,6 +796,7 @@ Hai un [[Special:Log/interwiki|rexistro de cambios]] realizados á táboa interw
 	'interwiki_logpagetext' => 'Este é un rexistro dos cambios a [[Special:Interwiki|táboa interwiki]].',
 	'interwiki_defaultreason' => 'non foi dada ningunha razón',
 	'right-interwiki' => 'Editar os datos do interwiki',
+	'action-interwiki' => 'cambiar esta entrada de interwiki',
 );
 
 /** Gothic
@@ -1031,6 +1041,7 @@ Wobkedźbuj, zo to móže eksistowace wotkazy skóncować.',
 	'interwiki_edited' => 'Prefiks "$1" je so wuspěšnje w tabeli interwiki změnil.',
 	'interwiki_editerror' => 'Prefiks "$1" njeda so w tabeli interwiki změnić.
 Snano njeeksistuje.',
+	'interwiki-badprefix' => 'Podaty prefiks interwiki "$1" wobsahuje njepłaćiwe znamješka',
 	'interwiki_logpagename' => 'Protokol interwiki-tabele',
 	'interwiki_log_added' => 'Je "$2" ($3) (trans: $4) (lokalny: $5) interwiki-tabeli přidał',
 	'interwiki_log_edited' => 'změni prefiks "$2": ($3) (trans: $4) (lokalny: $5) w tabeli interwiki',
@@ -1038,6 +1049,7 @@ Snano njeeksistuje.',
 	'interwiki_logpagetext' => 'To je protokol změnow na [[Special:Interwiki|interwiki-tabeli]].',
 	'interwiki_defaultreason' => 'žana přičina podata',
 	'right-interwiki' => 'Daty interwiki wobdźěłać',
+	'action-interwiki' => 'tutón zapisk interwiki změnić',
 );
 
 /** Haitian (Kreyòl ayisyen)
@@ -1270,6 +1282,7 @@ $messages['ja'] = array(
 	'interwiki_editintro' => 'あなたはインターウィキ用接頭辞を編集しようとしています。この作業によりすでに存在しているリンクを破壊する可能性があります。',
 	'interwiki_edited' => '接頭辞 "$1" はインターウィキテーブル内で正常に変更されました。',
 	'interwiki_editerror' => 'インターウィキテーブル内で接頭辞 "$1" を変更できませんでした。存在していない可能性があります。',
+	'interwiki-badprefix' => '指定されたインターウィキ接頭辞 "$1" は無効な文字を含んでいます',
 	'interwiki_logpagename' => 'インターウィキ編集記録',
 	'interwiki_log_added' => 'インターウィキテーブルに接頭辞 "$2" ($3) (trans: $4) (local: $5) を追加しました',
 	'interwiki_log_edited' => 'インターウィキテーブル内の接頭辞 "$2" を ($3) (trans: $4) (local: $5) に変更しました',
@@ -1277,6 +1290,7 @@ $messages['ja'] = array(
 	'interwiki_logpagetext' => 'これは[[Special:Interwiki|インターウィキテーブル]]の変更記録です。',
 	'interwiki_defaultreason' => '理由が記述されていません',
 	'right-interwiki' => 'インターウィキの編集データ',
+	'action-interwiki' => 'このインターウィキ項目の変更',
 );
 
 /** Javanese (Basa Jawa)
@@ -1440,6 +1454,7 @@ Denk draan, domet könnts De Links em Wiki kapott maache, die velleich do drop o
 	'interwiki_edited' => 'Föz dä Försaz „$1“ sen de Engerwiki Date jäz jetuusch.',
 	'interwiki_editerror' => 'Dä Försaz „$1“ konnt en de Engerwiki Date nit beärrbeidt wäde.
 Maach sin, dat et inn nit jitt.',
+	'interwiki-badprefix' => 'Dä aanjejovve Engerwiki-Försatz „$1“ änthät onjöltijje Zeiche',
 	'interwiki_logpagename' => 'Logbooch fun de Engerwiki Tabäll',
 	'interwiki_log_added' => 'hät dä Försaz „$2“ ($3) (Trans: $4) (Lokal: $5) en de Engerwiki Date eren jedonn',
 	'interwiki_log_edited' => 'hät dä Försaz „$2“ ($3) (Trans: $4) (Lokal: $5) en de Engerwiki Date ömjemodelt',
@@ -1447,6 +1462,7 @@ Maach sin, dat et inn nit jitt.',
 	'interwiki_logpagetext' => 'Hee is dat Logboch met de Änderonge aan de [[Special:Interwiki|Engerwiki Date]].',
 	'interwiki_defaultreason' => 'Keine Aanlass aanjejovve',
 	'right-interwiki' => 'de Tabäll met de Engerwiki Date ändere',
+	'action-interwiki' => 'Donn hee dä Engerwiki Enndraach ändere',
 );
 
 /** Latin (Latina)
@@ -1678,6 +1694,7 @@ Er is een [[Special:Log/interwiki|logboek van wijzigingen]] aan de interwikitabe
 	'interwiki_editintro' => 'U bent een interwikivoorvoegsel aan het bewerken. Let op dat dit bestaande links kan breken.',
 	'interwiki_edited' => 'Voorvoegsel "$1" is gewijzigd in de interwikitabel.',
 	'interwiki_editerror' => 'Voorvoegsel "$1" kan niet worden gewijzigd in de interwikitabel. Mogelijk bestaat hij niet.',
+	'interwiki-badprefix' => 'Het interwikivoorvoegsel "$1" bevat ongeldige karakters',
 	'interwiki_logpagename' => 'Logboek interwikitabel',
 	'interwiki_log_added' => 'Voegde "$2" ($3) (trans: $4) (local: $5) toe aan de interwikitabel',
 	'interwiki_log_edited' => 'wijzigde voorvoegsel "$2": ($3) (trans: $4) (local: $5) in de interwikitabel',
@@ -1685,6 +1702,7 @@ Er is een [[Special:Log/interwiki|logboek van wijzigingen]] aan de interwikitabe
 	'interwiki_logpagetext' => 'Dit is een logboek van wijzigingen aan de [[Special:Interwiki|interwikitabel]].',
 	'interwiki_defaultreason' => 'geen reden gegeven',
 	'right-interwiki' => 'Interwikigegevens bewerken',
+	'action-interwiki' => 'deze interwikilink te wijzigen',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
@@ -1695,7 +1713,7 @@ Er is een [[Special:Log/interwiki|logboek van wijzigingen]] aan de interwikitabe
 $messages['nn'] = array(
 	'interwiki' => 'Vis og endre interwikidata',
 	'interwiki-title-norights' => 'Vis interwikidata',
-	'interwiki-desc' => 'Legg ti ei [[Special:Interwiki|spesialsida]] som gjer at ein kan syna og endra interwikitabellen.',
+	'interwiki-desc' => 'Legg til ei [[Special:Interwiki|spesialsida]] som gjer at ein kan syna og endra interwikitabellen.',
 	'interwiki_prefix' => 'Prefiks',
 	'interwiki_reasonfield' => 'Årsak',
 	'interwiki_intro' => 'Sjå [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] for meir informasjon om interwikitabellen.
@@ -1720,6 +1738,7 @@ Hugs at dette kan øydeleggja lenkjer som finst frå før.',
 	'interwiki_edited' => 'Prefikset «$1» blei endra i interwikitabellen.',
 	'interwiki_editerror' => 'Prefikset «$1» kan ikkje bli endra i interwikitabellen. 
 Kanskje finst det ikkje.',
+	'interwiki-badprefix' => 'Det oppgjevne interwikiprefikset «$1» inneheld ugyldige teikn.',
 	'interwiki_logpagename' => 'Logg for interwikitabell',
 	'interwiki_log_added' => 'la til «$2» ($3) (trans: $4) (lokal: $5) til interwikitabellen',
 	'interwiki_log_edited' => 'endra prefikset «$2»: ($3) (trans: $4) (lokal: $5) i interwikitabellen',
@@ -1727,6 +1746,7 @@ Kanskje finst det ikkje.',
 	'interwiki_logpagetext' => 'Dette er ein logg over endringar i [[Special:Interwiki|interwikitabellen]].',
 	'interwiki_defaultreason' => 'inga grunngjeving',
 	'right-interwiki' => 'Endra interwikidata',
+	'action-interwiki' => 'endra dette interwikielementet',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
@@ -1902,6 +1922,7 @@ $messages['pt'] = array(
 	'interwiki_editintro' => 'Você está a editar um prefixo interwiki. Lembre-se de que isto pode quebrar ligações existentes.',
 	'interwiki_edited' => 'O prefixo "$1" foi modificado na tabela de interwikis com sucesso.',
 	'interwiki_editerror' => 'O prefixo "$1" não pode ser modificado na tabela de interwikis. Possivelmente, não existe.',
+	'interwiki-badprefix' => 'O prefixo interwiki "$1" contém caracteres inválidos',
 	'interwiki_logpagename' => 'Registo da tabela de interwikis',
 	'interwiki_log_added' => 'adicionado "$2" ($3) (trans: $4) (local: $5) à tabela de interwikis',
 	'interwiki_log_edited' => 'modificado o prefixo "$2": ($3) (trans: $4) (local: $5) na tabela de interwikis',
@@ -1909,6 +1930,7 @@ $messages['pt'] = array(
 	'interwiki_logpagetext' => 'Este é um registo das alterações à [[Special:Interwiki|tabela de interwikis]].',
 	'interwiki_defaultreason' => 'sem motivo especificado',
 	'right-interwiki' => 'Editar dados de interwiki',
+	'action-interwiki' => 'alterar esta entrada interwiki',
 );
 
 /** Romanian (Română)
@@ -2373,9 +2395,16 @@ Có thể nó đã tồn tại trong bảng liên wiki rồi.',
 
 /** Volapük (Volapük)
  * @author Malafaya
+ * @author Smeira
  */
 $messages['vo'] = array(
 	'interwiki_reasonfield' => 'Kod',
+	'interwiki_delquestion' => 'El „$1“ pamoükon',
+	'interwiki_deleting' => 'Moükol foyümoti: „$1“.',
+	'interwiki_addtext' => 'Läükön foyümoti vüvükik',
+	'interwiki_addbutton' => 'Läükön',
+	'interwiki_edittext' => 'Votükam foyümota vüvükik',
+	'interwiki_defaultreason' => 'Kod nonik pegivon',
 );
 
 /** Yue (粵語) */

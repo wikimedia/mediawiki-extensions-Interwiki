@@ -98,6 +98,11 @@ $aliases['mk'] = array(
 	'Interwiki' => array( 'Интервики' ),
 );
 
+/** Maltese (Malti) */
+$aliases['mt'] = array(
+	'Interwiki' => array( 'Interwiki' ),
+);
+
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
 	'Interwiki' => array( 'Interwiki' ),
