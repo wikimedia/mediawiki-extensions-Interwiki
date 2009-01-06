@@ -38,6 +38,11 @@ $aliases['de'] = array(
 	'Interwiki' => array( 'Interwiki' ),
 );
 
+/** Basque (Euskara) */
+$aliases['eu'] = array(
+	'Interwiki' => array( 'Interwiki' ),
+);
+
 /** Persian (فارسی) */
 $aliases['fa'] = array(
 	'Interwiki' => array( 'میان‌ویکی' ),

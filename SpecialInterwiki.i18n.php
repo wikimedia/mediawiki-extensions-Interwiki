@@ -362,7 +362,7 @@ $messages['bs'] = array(
 	'interwiki-title-norights' => 'Pregled interwiki podataka',
 	'interwiki_prefix' => 'Prefiks',
 	'interwiki_reasonfield' => 'Razlog',
-	'interwiki_intro' => 'Pogledajte [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] za više informacija o interwiki tabelama.
+	'interwiki_intro' => 'Pogledajte $1 za više informacija o interwiki tabelama.
 Ovdje se nalazi [[Special:Log/interwiki|zapis izmjena]] učinjenih na interwiki tabeli.',
 	'interwiki_local' => 'Odredi ovu kao lokalnu wiki',
 	'interwiki_trans' => 'Dopusti interwiki uključenja',
@@ -385,6 +385,7 @@ Zapamtite da ovo može poremetiti postojeće linkove.',
 	'interwiki_edited' => 'Prefiks "$1" je uspješno izmijenjen u interwiki tabeli.',
 	'interwiki_editerror' => 'Prefiks "$1" ne može biti izmijenjen u interwiki tabeli.
 Moguće je da uopće ne postoji.',
+	'interwiki-badprefix' => 'Navedeni interwiki prefiks "$1" sadrži nevaljane znakove',
 	'interwiki_log_added' => 'dodat prefiks "$2" ($3) (trans: $4) (local: $5) u interwiki tabelu',
 	'interwiki_log_edited' => 'izmijenjen prefiks "$2" : ($3) (trans: $4) (local: $5) u interwiki tabeli',
 	'interwiki_log_deleted' => 'uklonjen prefiks "$2" iz interwiki tabele',
@@ -1819,6 +1820,7 @@ Benlèu i existís ja.',
 	'interwiki_editintro' => "Modificatz un prefix interwiki. Rapelatz-vos qu'aquò pòt rompre de ligams existents.",
 	'interwiki_edited' => 'Lo prefix « $1 » es estat modificat amb succès dins la taula interwiki.',
 	'interwiki_editerror' => "Lo prefix « $1 » pòt pas èsser modificat. Es possible qu'exista pas.",
+	'interwiki-badprefix' => 'Lo prefix interwiki especificat « $1 » conten de caractèrs invalids',
 	'interwiki_logpagename' => 'Jornal de la taula interwiki',
 	'interwiki_log_added' => 'Ajustat « $2 » ($3) (trans: $4) (local: $5) dins la taula interwiki',
 	'interwiki_log_edited' => 'a modificat lo prefix « $2 » : ($3) (trans: $4) (local: $5) dins la taula interwiki',
@@ -1826,6 +1828,7 @@ Benlèu i existís ja.',
 	'interwiki_logpagetext' => 'Aquò es lo jornal dels cambiaments dins la [[Special:Interwiki|taula interwiki]].',
 	'interwiki_defaultreason' => 'Cap de motiu balhat',
 	'right-interwiki' => 'Modificar las donadas interwiki',
+	'action-interwiki' => 'modificar aquesta entrada interwiki',
 );
 
 /** Ossetic (Иронау)
