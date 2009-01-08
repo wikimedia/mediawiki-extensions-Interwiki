@@ -475,6 +475,7 @@ Beachte, dass dies bereits vorhandene Links ungültig machen kann.',
 	'interwiki_edited' => 'Das Präfix „$1“ wurde erfolgreich in der Interwiki-Tabelle geändert.',
 	'interwiki_editerror' => 'Das Präfix „$1“ kann in der Interwiki-Tabelle nicht geändert werden.
 Möglicherweise existiert es nicht.',
+	'interwiki-badprefix' => 'Festgelegtes Interwikipräfix „$1“ beinhaltet ungültige Zeichen',
 	'interwiki_logpagename' => 'Interwikitabelle-Logbuch',
 	'interwiki_log_added' => 'hat „$2“ ($3) (trans: $4) (lokal: $5) der Interwiki-Tabelle hinzugefügt',
 	'interwiki_log_edited' => 'veränderte Präfix „$2“: ($3) (trans: $4) (lokal: $5) in der Interwiki-Tabelle',
@@ -482,6 +483,7 @@ Möglicherweise existiert es nicht.',
 	'interwiki_logpagetext' => 'In diesem Logbuch werden Änderungen an der [[Special:Interwiki|Interwiki-Tabelle]] protokolliert.',
 	'interwiki_defaultreason' => 'kein Grund angegeben',
 	'right-interwiki' => 'Interwiki-Tabelle bearbeiten',
+	'action-interwiki' => 'Diesen Interwiki-Eintrag ändern',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -626,6 +628,18 @@ Posiblemente no exista.',
 	'interwiki_log_deleted' => 'eliminado el prefijo «$2» de la tabla de interwikis',
 	'interwiki_defaultreason' => 'no se da ninguna razón',
 	'right-interwiki' => 'Editar datos de interwiki',
+);
+
+/** Basque (Euskara)
+ * @author Kobazulo
+ */
+$messages['eu'] = array(
+	'interwiki_prefix' => 'Aurrizkia',
+	'interwiki_reasonfield' => 'Arrazoia',
+	'interwiki_delquestion' => '"$1" ezabatzen',
+	'interwiki_deleting' => '"$1" aurrizkia ezabatzen ari zara.',
+	'interwiki_addbutton' => 'Erantsi',
+	'interwiki_edittext' => 'Interwiki aurrizkia editatzen',
 );
 
 /** Persian (فارسی)
@@ -2108,6 +2122,7 @@ $messages['sk'] = array(
 	'interwiki_editintro' => 'Upravujete predponu interwiki. Pamätajte na to, že týmto môžete pokaziť existujúce odkazy.',
 	'interwiki_edited' => 'Predpona „$1“ bola úspešne zmenená v tabuľke interwiki.',
 	'interwiki_editerror' => 'Predponu „$1“ nebolo možné zmeniť v tabuľke interwiki. Je možné, že neexistuje.',
+	'interwiki-badprefix' => 'Uvedená predpona interwiki „$1“ obsahuje neplatné znaky',
 	'interwiki_logpagename' => 'Záznam zmien tabuľky interwiki',
 	'interwiki_log_added' => 'Pridané „$2“ ($3) (trans: $4) (local: $5) do tabuľky interwiki',
 	'interwiki_log_edited' => 'zmenená predpona „$2“ : ($3) (trans: $4) (lokálna: $5) v tabuľke interwiki',
@@ -2115,6 +2130,7 @@ $messages['sk'] = array(
 	'interwiki_logpagetext' => 'Toto je záznam zmien [[Special:Interwiki|tabuľky interwiki]].',
 	'interwiki_defaultreason' => 'nebol uvedený dôvod',
 	'right-interwiki' => 'Upraviť interwiki údaje',
+	'action-interwiki' => 'zmeniť tento záznam interwiki',
 );
 
 /** Serbian Cyrillic ekavian (ћирилица)
