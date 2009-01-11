@@ -25,7 +25,7 @@ $messages['en'] = array(
 	'interwiki-desc'           => 'Adds a [[Special:Interwiki|special page]] to view and edit the interwiki table',
 	'interwiki_prefix'         => 'Prefix',
 	'interwiki_reasonfield'    => 'Reason',
-	'interwiki_intro'          => 'See $1 for more information about the interwiki table.
+	'interwiki_intro'          => 'See [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] for more information about the interwiki table.
 There is a [[Special:Log/interwiki|log of changes]] to the interwiki table.',
 	'interwiki_url'            => 'URL', # only translate this message if you have to change it
 	'interwiki_local'          => 'Define this as a local wiki', # needs a better description. Exactly _what_ does iw_local mean?
