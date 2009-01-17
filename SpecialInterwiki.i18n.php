@@ -279,34 +279,36 @@ Rotir koeon me krulder.',
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
  * @author EugeneZelenko
  * @author Jim-by
+ * @author Red Winged Duck
  */
 $messages['be-tarask'] = array(
 	'interwiki' => 'Прагляд і рэдагаваньне зьвестак пра інтэрвікі',
 	'interwiki-title-norights' => 'Прагляд зьвестак пра інтэрвікі',
 	'interwiki_prefix' => 'Прэфікс',
 	'interwiki_reasonfield' => 'Прычына',
-	'interwiki_intro' => 'Глядзіце падрабязнасьці пра табліцу інтэрвікі на $1.
+	'interwiki_intro' => 'Глядзіце падрабязнасьці пра табліцу інтэрвікі на [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org].
 Таксама існуе [[Special:Log/interwiki|журнал зьменаў]] табліцы інтэрвікі.',
 	'interwiki_local' => 'Вызначана як лякальная вікі',
-	'interwiki_trans' => 'Дазволіць інтэрвікі ўключэньні',
-	'interwiki_error' => 'Памылка: Табліца інтэрвікі пустая альбо ўзьніклі іншыя праблемы.',
+	'interwiki_trans' => 'Дазволіць інтэрвікі-ўключэньні',
+	'interwiki_error' => 'Памылка: табліца інтэрвікі пустая альбо ўзьніклі іншыя праблемы.',
 	'interwiki_delquestion' => 'Выдаленьне «$1»',
 	'interwiki_deleting' => 'Вы выдаляеце прэфікс «$1».',
 	'interwiki_deleted' => 'Прэфікс «$1» быў пасьпяхова выдалены з табліцы інтэрвікі.',
 	'interwiki_delfailed' => 'Прэфікс «$1» ня можа быць выдалены з табліцы інтэрвікі.',
 	'interwiki_addtext' => 'Дадаць прэфікс інтэрвікі',
 	'interwiki_addintro' => "Вы дадаеце новы прэфікс інтэрвікі.
-Памятайце, што ён не можа ўтрымліваць прабелы ( ), двукроп'і (:), ампэрсанды (&), ці знакі роўнасьці (=).",
+Памятайце, што ён ня можа ўтрымліваць прабелы ( ), двукроп'і (:), ампэрсанды (&), ці знакі роўнасьці (=).",
 	'interwiki_addbutton' => 'Дадаць',
 	'interwiki_added' => 'Прэфікс «$1» быў пасьпяхова дададзены да табліцы інтэрвікі.',
-	'interwiki_addfailed' => 'Прэфікс «$1» не можа быць дададзены да табліцы інтэрвікі.
-Верагодна ён ўжо ёсьць у табліцы інтэрвікі.',
+	'interwiki_addfailed' => 'Прэфікс «$1» ня можа быць дададзены да табліцы інтэрвікі.
+Верагодна ён ужо ёсьць у табліцы інтэрвікі.',
 	'interwiki_edittext' => 'Рэдагаваньне прэфікса інтэрвікі',
 	'interwiki_editintro' => 'Вы рэдагуеце прэфікс інтэрвікі.
 Памятайце, гэта можа сапсаваць існуючыя спасылкі.',
 	'interwiki_edited' => 'Прэфікс «$1» быў пасьпяхова зьменены ў табліцы інтэрвікі.',
-	'interwiki_editerror' => 'Прэфікс «$1» не можа быць зьменены ў табліцы інтэрвікі.
+	'interwiki_editerror' => 'Прэфікс «$1» ня можа быць зьменены ў табліцы інтэрвікі.
 Верагодна ён не існуе.',
+	'interwiki-badprefix' => 'Пазначаны прэфікс інтэрвікі «$1» утрымлівае няслушныя сымбалі',
 	'interwiki_log_added' => 'прэфікс «$2» ($3) (trans: $4) (local: $5) дададзены ў табліцу інтэрвікі',
 	'interwiki_log_edited' => 'зьменены прэфікс «$2» : ($3) (trans: $4) (local: $5) у табліцы інтэрвікі',
 	'interwiki_log_deleted' => 'прэфікс «$2» выдалены з табліцы інтэрвікі',
@@ -859,6 +861,7 @@ $messages['grc'] = array(
 $messages['gsw'] = array(
 	'interwiki' => 'Interwiki-Date aaluege un bearbeite',
 	'interwiki-title-norights' => 'Interwiki-Date aaluege',
+	'interwiki-desc' => '[[Special:Interwiki|Spezialsyte]] zum Interwiki-Tabälle pfläge',
 	'interwiki_prefix' => 'Präfix',
 	'interwiki_reasonfield' => 'Grund',
 	'interwiki_intro' => 'Lueg [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] fir meh Informatione iber d Interwiki-Tabälle. S [[Special:Log/interwiki|Logbuech]] zeigt alli Änderige an dr Interwiki-Tabälle.',
@@ -880,11 +883,15 @@ Gib Acht, ass des Gleicher cha uugiltig mache, wu s scho git.',
 	'interwiki_edited' => 'S Präfix „$1“ isch mit Erfolg in dr Interwiki-Tabälle gänderet wore.',
 	'interwiki_editerror' => 'S Präfix „$1“ cha in dr Interwiki-Tabälle nit gänderet wäre.
 Villicht git s es nit.',
+	'interwiki-badprefix' => 'Im feschtgleite Interwikipräfix „$1“ het s nit giltigi Zeiche din',
+	'interwiki_logpagename' => 'Interwikitabälle-Logbuech',
 	'interwiki_log_added' => 'het „$2“ ($3) (trans: $4) (lokal: $5) dr Interwiki-Tabälle zuegfiegt',
 	'interwiki_log_edited' => 'gändereti Präfix „$2“: ($3) (trans: $4) (lokal: $5) in dr Interwiki-Tabälle',
 	'interwiki_log_deleted' => 'het „$2“ us dr Interwiki-Tabälle usegnuh',
+	'interwiki_logpagetext' => 'In däm Logbuech wäre Änderige an dr [[Special:Interwiki|Interwiki-Tabälle]] protokolliert.',
 	'interwiki_defaultreason' => 'kei Grund aagee',
 	'right-interwiki' => 'Interwiki-Tabälle bearbeite',
+	'action-interwiki' => 'Där Interwiki-Yytrag ändere',
 );
 
 /** Gujarati (ગુજરાતી) */
@@ -2176,6 +2183,7 @@ $messages['su'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author Boivie
  * @author Lejonel
  * @author M.M.S.
  * @author Najami
@@ -2206,6 +2214,7 @@ Det är möjligt att prefixet redan finns i tabellen.',
 	'interwiki_editintro' => 'Du redigerar ett interwikiprefix. Notera att detta kan förstöra existerande länkar.',
 	'interwiki_edited' => 'Prefixet "$1" har ändrats i interwikitabellen.',
 	'interwiki_editerror' => 'Prefixet "$1" kan inte ändras i interwikitabellen. Det är möjligt att det inte finns.',
+	'interwiki-badprefix' => 'Specificerat interwikiprefix "$1" innehåller ogiltiga tecken',
 	'interwiki_logpagename' => 'Interwikitabellogg',
 	'interwiki_log_added' => 'lade till prefixet "$2" ($3) (trans: $4) (lokal: $5) i interwikitabellen',
 	'interwiki_log_edited' => 'ändrade prefixet "$2" ($3) (trans: $4) (lokal: $5) i interwikitabellen',
@@ -2213,6 +2222,7 @@ Det är möjligt att prefixet redan finns i tabellen.',
 	'interwiki_logpagetext' => 'Detta är en logg över ändringar i [[Special:Interwiki|interwikitabellen]].',
 	'interwiki_defaultreason' => 'ingen anledning given',
 	'right-interwiki' => 'Redigera interwikidata',
+	'action-interwiki' => 'ändra det här interwikielementet',
 );
 
 /** Silesian (Ślůnski)
@@ -2417,13 +2427,40 @@ Có thể nó đã tồn tại trong bảng liên wiki rồi.',
  * @author Smeira
  */
 $messages['vo'] = array(
+	'interwiki' => 'Logön e bevobön nünodis vüvükik',
+	'interwiki-title-norights' => 'Logön nünodis vüvükik',
+	'interwiki-desc' => 'Läükön [[Special:Interwiki|padi patik]] ad logön e bevobön taibi vüvükik',
+	'interwiki_prefix' => 'Foyümot',
 	'interwiki_reasonfield' => 'Kod',
+	'interwiki_intro' => 'Logön eli [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] ad tuvön nünis pluik tefü taib vüvükik.
+Dabinon [[Special:Log/interwiki|jenotalised votükamas]] taiba vüvükik.',
+	'interwiki_error' => 'Pöl: Taib vüvükik vagon, u ba pöl votik ejenon.',
 	'interwiki_delquestion' => 'El „$1“ pamoükon',
 	'interwiki_deleting' => 'Moükol foyümoti: „$1“.',
+	'interwiki_deleted' => 'Foyümot: „$1“ pemoükon benosekiko se taib vüvükik.',
+	'interwiki_delfailed' => 'No eplöpos ad moükön foyümot: „$1“ se taib vüvükik.',
 	'interwiki_addtext' => 'Läükön foyümoti vüvükik',
+	'interwiki_addintro' => 'Läükol foyümoti vüvükik nulik.
+Demolös, das foyümot no dalon ninädon spadis ( ), telpünis (:), (&), u (=).',
 	'interwiki_addbutton' => 'Läükön',
+	'interwiki_added' => 'Foyümot: „$1“ peläükon benosekiko taibe vüvükik.',
+	'interwiki_addfailed' => 'No eplöpos ad läükön foyümoti: „$1“ taibe vüvükik.
+Ba ya dabinon in taib vüvükik.',
 	'interwiki_edittext' => 'Votükam foyümota vüvükik',
+	'interwiki_editintro' => 'Bevobol foyümoti vüvükik.
+Demolös, das atos kanon breikön yümis dabinöl.',
+	'interwiki_edited' => 'Foyümot: „$1“ pevotükon benosekiko in taib vüvükik.',
+	'interwiki_editerror' => 'No eplöpos ad votükön foyümoti: „$1“ in taib vüvükik.
+Ba no dabinon.',
+	'interwiki-badprefix' => 'Foyümot vüvükik pavilöl: „$1“ ninädon malatis no lonöfölis',
+	'interwiki_logpagename' => 'Jenotalised taiba vüvükik',
+	'interwiki_log_added' => 'eläükön foyümoti: „$2“ ($3) (trans: $4) (local: $5) taibe vüvükik.',
+	'interwiki_log_edited' => 'evotükon foyümoti: „$2“ : ($3) (trans: $4) (local: $5) in taib vüvükik',
+	'interwiki_log_deleted' => 'emoükon foyümoti: „$2“ se taib vüvükik',
+	'interwiki_logpagetext' => 'Is palisedons votükams [[Special:Interwiki|taiba vüvükik]].',
 	'interwiki_defaultreason' => 'Kod nonik pegivon',
+	'right-interwiki' => 'Bevobön nünis vüvükik',
+	'action-interwiki' => 'votükön pati vüvükik at',
 );
 
 /** Yue (粵語) */
