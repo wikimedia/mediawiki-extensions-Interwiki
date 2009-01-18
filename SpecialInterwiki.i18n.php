@@ -829,7 +829,6 @@ Hai un [[Special:Log/interwiki|rexistro de cambios]] realizados á táboa interw
 $messages['got'] = array(
 	'interwiki_reasonfield' => 'Faírina',
 );
-
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
  * @author Omnipaedista
  */
@@ -965,6 +964,7 @@ $messages['he'] = array(
 	'interwiki_logpagetext' => 'זהו יומן השינויים שנערכו ב[[Special:Interwiki|טבלת הבינוויקי]].',
 	'interwiki_defaultreason' => 'לא ניתנה סיבה',
 	'right-interwiki' => 'עריכת נתוני הבינוויקי',
+	'action-interwiki' => 'שינוי רשומת בינוויקי זו',
 );
 
 /** Hindi (हिन्दी)
@@ -1575,6 +1575,7 @@ Méiglecherweis gëtt et en net.',
 	'interwiki_logpagetext' => 'Dëst ass eng Lëscht mat den Ännerunge vun der [[Special:Interwiki|Interwikitabell]].',
 	'interwiki_defaultreason' => 'kee Grond uginn',
 	'right-interwiki' => 'Interwiki-Daten änneren',
+	'action-interwiki' => "dës Interwiki-Informatioun z'änneren",
 );
 
 /** Eastern Mari (Олык Марий)
@@ -2318,7 +2319,7 @@ $messages['tl'] = array(
 	'interwiki-desc' => 'Nagdaragdag ng isang [[Special:Interwiki|natatanging pahina]] upang matingnan at mabago ang tablang pang-ugnayang wiki',
 	'interwiki_prefix' => 'Unlapi',
 	'interwiki_reasonfield' => 'Dahilan',
-	'interwiki_intro' => "Tingnan ang $1 para sa mas marami pang kabatiran tungkol sa tablang pang-ugnayang wiki (''interwiki'').
+	'interwiki_intro' => "Tingnan ang [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] para sa mas marami pang kabatiran tungkol sa tablang pang-ugnayang wiki (''interwiki'').
 May isang [[Special:Log/interwiki|talaan ng mga pagbabago]] sa tablang pang-ugnayang wiki.",
 	'interwiki_local' => 'Bigyang kahulugan ito bilang isang pampook (lokal) na wiki',
 	'interwiki_trans' => 'Pahintulutan ang mga paglipat-samang (transklusyon) pangugnayang-wiki',
@@ -2349,6 +2350,7 @@ Maaaring hindi pa ito umiiral.",
 	'interwiki_logpagetext' => 'Isa itong talaan ng mga pagbabago sa [[Special:Interwiki|tablang pang-ugnayang wiki]].',
 	'interwiki_defaultreason' => 'walang dahilang ibinigay',
 	'right-interwiki' => "Baguhin ang datong pangugnayang-wiki (''interwiki'')",
+	'action-interwiki' => "baguhin ang ipinasok/entradang ito na pang-ugnayang wiki (''interwiki'')",
 );
 
 /** Turkish (Türkçe)
