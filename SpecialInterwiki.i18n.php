@@ -964,7 +964,7 @@ $messages['he'] = array(
 	'interwiki_logpagetext' => 'זהו יומן השינויים שנערכו ב[[Special:Interwiki|טבלת הבינוויקי]].',
 	'interwiki_defaultreason' => 'לא ניתנה סיבה',
 	'right-interwiki' => 'עריכת נתוני הבינוויקי',
-	'action-interwiki' => 'שינוי רשומת בינוויקי זו',
+	'action-interwiki' => 'לשנות את רשומת הבינוויקי הזו',
 );
 
 /** Hindi (हिन्दी)
