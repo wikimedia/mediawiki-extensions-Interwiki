@@ -1444,6 +1444,7 @@ $messages['ko'] = array(
 	'interwiki_editintro' => '인터위키 접두어를 고칩니다. 이미 만들어진 인터위키를 망가뜨릴 수 있으니 주의해 주세요.',
 	'interwiki_edited' => '접두어 "$1"을(를) 고쳤습니다.',
 	'interwiki_editerror' => '접두어 "$1"을(를) 고칠 수 없습니다. 목록에 없는 접두어일 수 있습니다.',
+	'interwiki-badprefix' => '당신이 입력한 인터위키 접두어 "$1"은(는) 잘못된 문자를 포함하고 있습니다.',
 	'interwiki_logpagename' => '인터위키 수정 기록',
 	'interwiki_log_added' => '접두어 "$2" ($3) (trans: $4) (local: $5) 을(를) 인터위키 목록에 더했습니다.',
 	'interwiki_log_edited' => '접두어 "$2" ($3) (trans: $4) (local: $5) 을(를) 인터위키 목록에서 고쳤습니다.',
@@ -1451,6 +1452,7 @@ $messages['ko'] = array(
 	'interwiki_logpagetext' => '[[Special:Interwiki|인터위키]] 목록의 바뀐 내역입니다.',
 	'interwiki_defaultreason' => '이유가 제시되지 않았습니다.',
 	'right-interwiki' => '인터위키 목록을 편집',
+	'action-interwiki' => '이 인터위키 접두어를 수정',
 );
 
 /** Ripoarisch (Ripoarisch)
@@ -1576,6 +1578,42 @@ Méiglecherweis gëtt et en net.',
 	'interwiki_defaultreason' => 'kee Grond uginn',
 	'right-interwiki' => 'Interwiki-Daten änneren',
 	'action-interwiki' => "dës Interwiki-Informatioun z'änneren",
+);
+
+/** Classical Chinese (文言) */
+$messages['lzh'] = array(
+	'interwiki' => '察與修跨維表',
+	'interwiki-title-norights' => '察跨維',
+	'interwiki_prefix' => '前',
+	'interwiki_reasonfield' => '因',
+	'interwiki_intro' => '閱[http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]之。
+有跨維之[[Special:Log/interwiki|誌]]。',
+	'interwiki_local' => '定為本維',
+	'interwiki_trans' => '許跨維之含',
+	'interwiki_error' => '錯：跨維為空，或它錯發生。',
+	'interwiki_delquestion' => '現刪「$1」',
+	'interwiki_deleting' => '爾正刪「$1」。',
+	'interwiki_deleted' => '已刪「$1」。',
+	'interwiki_delfailed' => '無刪「$1」。',
+	'interwiki_addtext' => '加跨維',
+	'interwiki_addintro' => '爾正加新之跨。
+記無含空（ ）、冒（:）、連（&），或等（=）。',
+	'interwiki_addbutton' => '加',
+	'interwiki_added' => '「$1」加至跨維也。',
+	'interwiki_addfailed' => '「$1」無加跨維也。
+或已存在之。',
+	'interwiki_edittext' => '改跨維',
+	'interwiki_editintro' => '爾正改跨維。
+記此能斷現連。',
+	'interwiki_edited' => '「$1」已改之。',
+	'interwiki_editerror' => '「$1」無改之。
+無存。',
+	'interwiki-badprefix' => '定之跨維前「$1」含有無效之字也',
+	'interwiki_log_added' => '加「$2」（$3）（含：$4）（本：$5）至跨維表',
+	'interwiki_log_edited' => '改「$2」：（$3）（含：$4）（本：$5）自跨維表',
+	'interwiki_log_deleted' => '刪跨維表自「$2」',
+	'interwiki_defaultreason' => '無因',
+	'right-interwiki' => '改跨維',
 );
 
 /** Eastern Mari (Олык Марий)
@@ -2521,42 +2559,6 @@ $messages['yue'] = array(
 	'interwiki_log_deleted' => '響個跨維基表度拎走咗前綴 "$2"',
 	'interwiki_defaultreason' => '無畀到原因',
 	'right-interwiki' => '編輯跨維基資料',
-);
-
-/** Classical Chinese (文言) */
-$messages['lzh'] = array(
-	'interwiki' => '察與修跨維表',
-	'interwiki-title-norights' => '察跨維',
-	'interwiki_prefix' => '前',
-	'interwiki_reasonfield' => '因',
-	'interwiki_intro' => '閱[http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]之。
-有跨維之[[Special:Log/interwiki|誌]]。',
-	'interwiki_local' => '定為本維',
-	'interwiki_trans' => '許跨維之含',
-	'interwiki_error' => '錯：跨維為空，或它錯發生。',
-	'interwiki_delquestion' => '現刪「$1」',
-	'interwiki_deleting' => '爾正刪「$1」。',
-	'interwiki_deleted' => '已刪「$1」。',
-	'interwiki_delfailed' => '無刪「$1」。',
-	'interwiki_addtext' => '加跨維',
-	'interwiki_addintro' => '爾正加新之跨。
-記無含空（ ）、冒（:）、連（&），或等（=）。',
-	'interwiki_addbutton' => '加',
-	'interwiki_added' => '「$1」加至跨維也。',
-	'interwiki_addfailed' => '「$1」無加跨維也。
-或已存在之。',
-	'interwiki_edittext' => '改跨維',
-	'interwiki_editintro' => '爾正改跨維。
-記此能斷現連。',
-	'interwiki_edited' => '「$1」已改之。',
-	'interwiki_editerror' => '「$1」無改之。
-無存。',
-	'interwiki-badprefix' => '定之跨維前「$1」含有無效之字也',
-	'interwiki_log_added' => '加「$2」（$3）（含：$4）（本：$5）至跨維表',
-	'interwiki_log_edited' => '改「$2」：（$3）（含：$4）（本：$5）自跨維表',
-	'interwiki_log_deleted' => '刪跨維表自「$2」',
-	'interwiki_defaultreason' => '無因',
-	'right-interwiki' => '改跨維',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
