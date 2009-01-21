@@ -2524,7 +2524,7 @@ $messages['yue'] = array(
 );
 
 /** Classical Chinese (文言) */
-$messages['zh-classical'] = array(
+$messages['lzh'] = array(
 	'interwiki' => '察與修跨維表',
 	'interwiki-title-norights' => '察跨維',
 	'interwiki_prefix' => '前',
