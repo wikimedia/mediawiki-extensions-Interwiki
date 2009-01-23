@@ -1300,7 +1300,7 @@ $messages['ja'] = array(
 	'interwiki-desc' => 'インターウィキテーブルの表示と編集を行う[[Special:Interwiki|特別ページ]]を追加する',
 	'interwiki_prefix' => '接頭辞',
 	'interwiki_reasonfield' => '理由',
-	'interwiki_intro' => 'インターウィキテーブルについては[http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]をご覧ください。インターウィキテーブルの[[Special:Log/interwiki|ログ]]もあります。',
+	'interwiki_intro' => 'インターウィキテーブルについては [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] をご覧ください。インターウィキテーブルの[[Special:Log/interwiki|変更記録]]もあります。',
 	'interwiki_local' => 'ローカルウィキとして定義',
 	'interwiki_trans' => 'ウィキ間トランスクルージョンを許可',
 	'interwiki_error' => 'エラー: インターウィキテーブルが空か、他の理由でうまくいきませんでした。',
@@ -1767,7 +1767,7 @@ Er is een [[Special:Log/interwiki|logboek van wijzigingen]] aan de interwikitabe
 	'interwiki_added' => 'Voorvoegsel "$1" is toegevoegd aan de interwikitabel.',
 	'interwiki_addfailed' => 'Voorvoegsel "$1" kon niet worden toegevoegd aan de interwikitabel. Mogelijk bestaat hij al in de interwikitabel.',
 	'interwiki_edittext' => 'Een interwikivoorvoegsel bewerken',
-	'interwiki_editintro' => 'U bent een interwikivoorvoegsel aan het bewerken. Let op dat dit bestaande links kan breken.',
+	'interwiki_editintro' => 'U bent een interwikivoorvoegsel aan het bewerken. Let op dat dit bestaande verwijzingen kan breken.',
 	'interwiki_edited' => 'Voorvoegsel "$1" is gewijzigd in de interwikitabel.',
 	'interwiki_editerror' => 'Voorvoegsel "$1" kan niet worden gewijzigd in de interwikitabel. Mogelijk bestaat hij niet.',
 	'interwiki-badprefix' => 'Het interwikivoorvoegsel "$1" bevat ongeldige karakters',
@@ -1778,7 +1778,7 @@ Er is een [[Special:Log/interwiki|logboek van wijzigingen]] aan de interwikitabe
 	'interwiki_logpagetext' => 'Dit is een logboek van wijzigingen aan de [[Special:Interwiki|interwikitabel]].',
 	'interwiki_defaultreason' => 'geen reden gegeven',
 	'right-interwiki' => 'Interwikigegevens bewerken',
-	'action-interwiki' => 'deze interwikilink te wijzigen',
+	'action-interwiki' => 'deze interwikiverwijzing te wijzigen',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
