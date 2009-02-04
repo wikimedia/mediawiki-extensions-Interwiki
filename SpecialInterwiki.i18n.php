@@ -238,6 +238,7 @@ $messages['arz'] = array(
 	'interwiki_logpagetext' => 'هذا سجل بالتغييرات فى [[Special:Interwiki|جدول الإنترويكي]].',
 	'interwiki_defaultreason' => 'لا سبب معطى',
 	'right-interwiki' => 'تعديل بيانات الإنترويكي',
+	'action-interwiki' => 'تغيير مدخلة الإنترويكى هذه',
 );
 
 /** Kotava (Kotava)
@@ -363,6 +364,7 @@ $messages['br'] = array(
 $messages['bs'] = array(
 	'interwiki' => 'Vidi i uredi međuwiki podatke',
 	'interwiki-title-norights' => 'Pregled interwiki podataka',
+	'interwiki-desc' => 'Dodaje [[Special:Interwiki|posebnu stranicu]] za pregled i uređivanje interwiki tabele',
 	'interwiki_prefix' => 'Prefiks',
 	'interwiki_reasonfield' => 'Razlog',
 	'interwiki_intro' => 'Pogledajte $1 za više informacija o interwiki tabelama.
@@ -389,11 +391,14 @@ Zapamtite da ovo može poremetiti postojeće linkove.',
 	'interwiki_editerror' => 'Prefiks "$1" ne može biti izmijenjen u interwiki tabeli.
 Moguće je da uopće ne postoji.',
 	'interwiki-badprefix' => 'Navedeni interwiki prefiks "$1" sadrži nevaljane znakove',
+	'interwiki_logpagename' => 'Zapisnik tabele interwikija',
 	'interwiki_log_added' => 'dodat prefiks "$2" ($3) (trans: $4) (local: $5) u interwiki tabelu',
 	'interwiki_log_edited' => 'izmijenjen prefiks "$2" : ($3) (trans: $4) (local: $5) u interwiki tabeli',
 	'interwiki_log_deleted' => 'uklonjen prefiks "$2" iz interwiki tabele',
+	'interwiki_logpagetext' => 'Ovo je zapisnik izmjena na [[Special:Interwiki|interwiki tabeli]].',
 	'interwiki_defaultreason' => 'nije naveden razlog',
 	'right-interwiki' => 'Uređivanje interwiki podataka',
+	'action-interwiki' => 'mijenjate ovu stavku interwikija',
 );
 
 /** Czech (Česky)
@@ -694,7 +699,7 @@ $messages['fa'] = array(
  * @author Nike
  */
 $messages['fi'] = array(
-	'interwiki' => 'Katso ja muokkaa wikien välisiä linkkejä',
+	'interwiki' => 'Wikien väliset linkit',
 	'interwiki-title-norights' => 'Selaa interwiki-tietueita',
 	'interwiki-desc' => 'Lisää [[Special:Interwiki|toimintosivun]], jonka avulla voi katsoa ja muokata interwiki-taulua',
 	'interwiki_prefix' => 'Etuliite',
@@ -717,13 +722,14 @@ $messages['fi'] = array(
 	'interwiki_edited' => 'Etuliitettä ”$1” muokattiin onnistuneesti interwiki-taulukossa.',
 	'interwiki_editerror' => 'Etuliitettä ”$1” ei voi muokata interwiki-taulukossa. Sitä ei mahdollisesti ole olemassa.',
 	'interwiki-badprefix' => 'Annettu interwiki-etuliite <code>$1</code> sisältää virheellisiä merkkejä',
-	'interwiki_logpagename' => 'Loki muutoksista interwiki-tauluun',
-	'interwiki_log_added' => 'Uusi etuliite ”$2” ($3) (trans: $4) (paikallinen: $5) interwiki-tauluun',
+	'interwiki_logpagename' => 'Interwikitaululoki',
+	'interwiki_log_added' => 'lisäsi uuden etuliitteen ”$2” ($3) (trans: $4) (paikallinen: $5) interwiki-tauluun',
 	'interwiki_log_edited' => 'muokkasi etuliitettä ”$2”: ($3) (trans: $4) (paikallinen: $5) interwiki-taulussa',
-	'interwiki_log_deleted' => 'Poisti etuliitteen ”$2” interwiki-taulusta',
+	'interwiki_log_deleted' => 'poisti etuliitteen ”$2” interwiki-taulusta',
 	'interwiki_logpagetext' => 'Tämä on loki muutoksista [[Special:Interwiki|interwiki-tauluun]].',
 	'interwiki_defaultreason' => 'ei annettua syytä',
 	'right-interwiki' => 'Muokata interwiki-dataa',
+	'action-interwiki' => 'muokata tätä interwiki-merkintää',
 );
 
 /** French (Français)
