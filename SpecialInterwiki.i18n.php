@@ -27,26 +27,29 @@ $messages['en'] = array(
 	'interwiki'                => 'View and edit interwiki data',
 	'interwiki-title-norights' => 'View interwiki data',
 	'interwiki-desc'           => 'Adds a [[Special:Interwiki|special page]] to view and edit the interwiki table',
-	'interwiki_prefix'         => 'Prefix',
-	'interwiki_reasonfield'    => 'Reason',
 	'interwiki_intro'          => 'This is an overwiew of the interwiki table. Meanings of the data in the columns:',
+	'interwiki_prefix'         => 'Prefix',
 	'interwiki_prefix_intro'   => 'Interwiki prefix to be used in <code>[<nowiki />[prefix:<i>pagename</i>]]</code> wikitext syntax.',
+	'interwiki_url'            => 'URL', # only translate this message if you have to change it
 	'interwiki_url_intro'      => 'Template for URLs. The placeholder $1 will be replaced by the <i>pagename</i> of the wikitext, when the abovementioned wikitext syntax is used.',
+	'interwiki_local'          => 'Forward', 
 	'interwiki_local_intro'    => 'An http request to the local wiki with this interwiki prefix in the URl is:',
 	'interwiki_local_0_intro'  => 'not honored, usually blocked by "page not found",',
 	'interwiki_local_1_intro'  => 'redirected to the target URL given in the interwiki link definitions (i.e. treated like references in local pages)',
+	'interwiki_trans'          => 'Transclude', 
 	'interwiki_trans_intro'    => 'If wikitext syntax <code>{<nowiki />{prefix:<i>pagename</i>}}</code> is used, then:',
 	'interwiki_trans_1_intro'  => 'allow transclusion from the foreign wiki, if interwiki transclusions are generally permitted in this wiki,',
 	'interwiki_trans_0_intro'  => 'do not allow it, rather look for a page in the template namespace.',
 	'interwiki_intro_footer'   => 'See [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] for more information about the interwiki table.
 There is a [[Special:Log/interwiki|log of changes]] to the interwiki table.',
-	'interwiki_url'            => 'URL', # only translate this message if you have to change it
-	'interwiki_local'          => 'Forward', # needs a better description. Exactly _what_ does iw_local mean?
-	'interwiki_trans'          => 'Transclude', # only translate this message if you have to change it
 	'interwiki_1'              => 'yes',
 	'interwiki_0'              => 'no',
 	'interwiki_error'          => 'Error: The interwiki table is empty, or something else went wrong.',
+
+        # modifying permitted 
 	'interwiki_edit'           => 'Edit',
+	'interwiki_reasonfield'    => 'Reason',
+	'interwiki_defaultreason'  => 'no reason given',
 
 	# deleting a prefix
 	'interwiki_delquestion'    => 'Deleting "$1"',
@@ -79,9 +82,9 @@ Possibly it does not exist.',
 	'interwiki_log_edited'     => 'modified prefix "$2" : ($3) (trans: $4) (local: $5) in the interwiki table',
 	'interwiki_log_deleted'    => 'removed prefix "$2" from the interwiki table',
 	'interwiki_logpagetext'    => 'This is a log of changes to the [[Special:Interwiki|interwiki table]].',
-	'interwiki_defaultreason'  => 'no reason given',
 	'interwiki_logentry'       => '', # do not translate this message
 
+	# rights
 	'right-interwiki'          => 'Edit interwiki data',
 	'action-interwiki' => 'change this interwiki entry',
 );
@@ -1513,6 +1516,7 @@ De Daate en de einzel Shpallde bedügge:',
 Et [[Special:Log/interwiki|Logbuch med de Engerwiki Date]] zeichnet all de Änderunge aan de Engerwiki Date op.',
 	'interwiki_local' => '(local)',
 	'interwiki_trans' => '(trans)',
+	'interwiki_trans_0_intro' => ': donn dat nit, un sk noh en {{ns:template}} met dmm kompltte Name hee em Wiki.',
 	'interwiki_1' => 'Jo',
 	'interwiki_0' => 'Nä',
 	'interwiki_edit' => 'Beärbeide',
