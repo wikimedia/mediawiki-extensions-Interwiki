@@ -18,19 +18,39 @@
 
 $messages = array();
 
+/** English (English)
+ * @author Stephanie Amanda Stevens
+ * @author SPQRobin
+ * @author Purodha
+ */
 $messages['en'] = array(
 	# general messages
 	'interwiki'                => 'View and edit interwiki data',
 	'interwiki-title-norights' => 'View interwiki data',
 	'interwiki-desc'           => 'Adds a [[Special:Interwiki|special page]] to view and edit the interwiki table',
+	'interwiki_intro'          => 'This is an overwiew of the interwiki table. Meanings of the data in the columns:',
 	'interwiki_prefix'         => 'Prefix',
-	'interwiki_reasonfield'    => 'Reason',
-	'interwiki_intro'          => 'See [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] for more information about the interwiki table.
-There is a [[Special:Log/interwiki|log of changes]] to the interwiki table.',
+	'interwiki_prefix_intro'   => 'Interwiki prefix to be used in <code>[<nowiki />[prefix:<i>pagename</i>]]</code> wikitext syntax.',
 	'interwiki_url'            => 'URL', # only translate this message if you have to change it
-	'interwiki_local'          => 'Define this as a local wiki', # needs a better description. Exactly _what_ does iw_local mean?
-	'interwiki_trans'          => 'Allow interwiki transclusions', # only translate this message if you have to change it
+	'interwiki_url_intro'      => 'Template for URLs. The placeholder $1 will be replaced by the <i>pagename</i> of the wikitext, when the abovementioned wikitext syntax is used.',
+	'interwiki_local'          => 'Forward', 
+	'interwiki_local_intro'    => 'An http request to the local wiki with this interwiki prefix in the URl is:',
+	'interwiki_local_0_intro'  => 'not honored, usually blocked by "page not found",',
+	'interwiki_local_1_intro'  => 'redirected to the target URL given in the interwiki link definitions (i.e. treated like references in local pages)',
+	'interwiki_trans'          => 'Transclude', 
+	'interwiki_trans_intro'    => 'If wikitext syntax <code>{<nowiki />{prefix:<i>pagename</i>}}</code> is used, then:',
+	'interwiki_trans_1_intro'  => 'allow transclusion from the foreign wiki, if interwiki transclusions are generally permitted in this wiki,',
+	'interwiki_trans_0_intro'  => 'do not allow it, rather look for a page in the template namespace.',
+	'interwiki_intro_footer'   => 'See [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] for more information about the interwiki table.
+There is a [[Special:Log/interwiki|log of changes]] to the interwiki table.',
+	'interwiki_1'              => 'yes',
+	'interwiki_0'              => 'no',
 	'interwiki_error'          => 'Error: The interwiki table is empty, or something else went wrong.',
+
+        # modifying permitted 
+	'interwiki_edit'           => 'Edit',
+	'interwiki_reasonfield'    => 'Reason',
+	'interwiki_defaultreason'  => 'no reason given',
 
 	# deleting a prefix
 	'interwiki_delquestion'    => 'Deleting "$1"',
@@ -63,9 +83,9 @@ Possibly it does not exist.',
 	'interwiki_log_edited'     => 'modified prefix "$2" : ($3) (trans: $4) (local: $5) in the interwiki table',
 	'interwiki_log_deleted'    => 'removed prefix "$2" from the interwiki table',
 	'interwiki_logpagetext'    => 'This is a log of changes to the [[Special:Interwiki|interwiki table]].',
-	'interwiki_defaultreason'  => 'no reason given',
 	'interwiki_logentry'       => '', # do not translate this message
 
+	# rights
 	'right-interwiki'          => 'Edit interwiki data',
 	'action-interwiki' => 'change this interwiki entry',
 );
@@ -82,20 +102,28 @@ $messages['qqq'] = array(
 	'interwiki-title-norights' => 'Part of the interwiki extension. This message is the title of the special page [[Special:Interwiki]] when the user has no right to edit the interwiki data, so can only view them.',
 	'interwiki-desc' => 'Part of the interwiki extension. This message is the description shown on [[Special:Version]].',
 	'interwiki_prefix' => 'Used on [[Special:Interwiki]] as a column header of the table.',
+	'interwiki_prefix_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|interwiki_prefix}} column of the table.',
+	'interwiki_url' => 'Used on [[Special:Interwiki]] as a column header in the table.',
+	'interwiki_url_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|interwiki_url}} column of the table.',
 	'interwiki_reasonfield' => '{{Identical|Reason}}',
-	'interwiki_intro' => 'Part of the interwiki extension.
+	'interwiki_intro' => 'Part of the interwiki extension. Shown as introductory text on [[Special:INterwiki]].',
+	'interwiki_intro_footer' => 'Part of the interwiki extension.
+Shown as last pice of the introductory text on [[Special:Interwiki]].
 Parameter $1 contains the following (a link): [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]',
-	'interwiki_local' => 'Used on [[Special:Interwiki]] as a column header.
-
-Meaning of the column data are: References to this via URL from external sources are:
-* 0: not honored (usually blocked by "page not found")
-* 1: redirected to the target URLs given the interwiki link definitions (treated like references in local pages)',
-	'interwiki_trans' => 'User in [[Special:Interwiki]] as table column header.
-
-Meaning of the data in the column:
-* 1: Allow interwiki transclusions
-* 0: Do not allow them',
+	'interwiki_local' => 'Used on [[Special:Interwiki]] as a table column header.', 
+	'interwiki_local_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|interwiki_local}} column of the table.',
+	'interwiki_local_0_intro' => 'Used on [[Special:Interwiki]] so as to descripe the meaning of the value 0 in the {{msg-mw|interwiki_local}} column of the table.',
+	'interwiki_local_1_intro' => 'Used on [[Special:Interwiki]] so as to descripe the meaning of the value 1 in the {{msg-mw|interwiki_local}} column of the table.',
+	'interwiki_trans' => 'Used in [[Special:Interwiki]] as a table column header.', 
+	'interwiki_trans_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|interwiki_trans}} column of the table.',
+	'interwiki_trans_0_intro' => 'Used on [[Special:Interwiki]] so as to descripe the meaning of the value 0 in the {{msg-mw|interwiki_trans}} column of the table.',
+	'interwiki_trans_1_intro' => 'Used on [[Special:Interwiki]] so as to descripe the meaning of the value 1 in the {{msg-mw|interwiki_trans}} column of the table.',
+	'interwiki_1' => '\'\'\Yes\'\'\'-value to be inserted into the columns headed by {{msg-mw|interwiki_local}} and {{msg-mw|interwiki_trans}}.',
+	'interwiki_0' => '\'\'\No\'\'\'-value to be inserted into the columns headed by {{msg-mw|interwiki_local}} and {{msg-mw|interwiki_trans}}.',
 	'interwiki_error' => 'This error message is shown when the Special:Interwiki page is empty.',
+	'interwiki_edit' => 'For users allowed to edit the interwiki table via [[Special:Interwiki]], this text is shown as the column header above the edit buttons.
+
+{{Identical|edit}}',
 	'interwiki_delquestion' => 'Parameter $1 is the interwiki prefix you are deleting.
 
 {{Identical|Deleting $1}}',
@@ -448,15 +476,21 @@ $messages['cy'] = array(
 
 /** Danish (Dansk)
  * @author Jon Harald Søby
+ * @author Purodha
  */
 $messages['da'] = array(
 	'interwiki_reasonfield' => 'Begrundelse',
+	'interwiki_local' => '(local)',
+	'interwiki_trans' => '(trans)',
+	'interwiki_1' => 'ja',
+	'interwiki_0' => 'nej',
 );
 
 /** German (Deutsch)
  * @author Church of emacs
  * @author MF-Warburg
  * @author Metalhead64
+ * @author Purodha
  * @author Raimond Spekking
  */
 $messages['de'] = array(
@@ -468,6 +502,8 @@ $messages['de'] = array(
 	'interwiki_intro' => 'Siehe [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] für weitere Informationen über die Interwiki-Tabelle. Das [[Special:Log/interwiki|Logbuch]] zeigt alle Änderungen an der Interwiki-Tabelle.',
 	'interwiki_local' => 'Dieses als ein lokales Wiki definieren',
 	'interwiki_trans' => 'Interwikitransklusionen erlauben',
+	'interwiki_1' => 'ja',
+	'interwiki_0' => 'nein',
 	'interwiki_error' => 'Fehler: Die Interwiki-Tabelle ist leer.',
 	'interwiki_delquestion' => 'Löscht „$1“',
 	'interwiki_deleting' => 'Du bist dabei das Präfix „$1“ zu löschen.',
@@ -737,6 +773,7 @@ $messages['fi'] = array(
  * @author Grondin
  * @author IAlex
  * @author Louperivois
+ * @author Purodha
  * @author Sherbrooke
  * @author Urhixidur
  */
@@ -750,6 +787,8 @@ $messages['fr'] = array(
 Il existe un [[Special:Log/interwiki|journal des modifications]] de la table interwiki.",
 	'interwiki_local' => 'Définir ceci comme un wiki local',
 	'interwiki_trans' => 'Autoriser les inclusions interwiki',
+	'interwiki_1' => 'oui',
+	'interwiki_0' => 'non',
 	'interwiki_error' => "Erreur : la table des interwikis est vide ou un processus s'est mal déroulé.",
 	'interwiki_delquestion' => 'Suppression de « $1 »',
 	'interwiki_deleting' => 'Vous effacez présentement le préfixe « $1 ».',
@@ -1266,6 +1305,8 @@ $messages['it'] = array(
 	'interwiki_reasonfield' => 'Motivo',
 	'interwiki_intro' => 'Vedi [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] per maggiori informazioni sulla tabella degli interwiki.
 Esiste un [[Special:Log/interwiki|registro delle modifiche]] alla tabella degli interwiki.',
+	'interwiki_1' => 'si',
+	'interwiki_0' => 'no',
 	'interwiki_error' => "ERRORE: La tabella degli interwiki è vuota, o c'è qualche altro errore.",
 	'interwiki_delquestion' => 'Cancello "$1"',
 	'interwiki_deleting' => 'Stai cancellando il prefisso "$1"',
@@ -1470,21 +1511,23 @@ $messages['ksh'] = array(
 	'interwiki-desc' => 'Brengk de Sondersigg [[Special:Interwiki]], öm Engerwiki Date ze beloore un ze ändere.',
 	'interwiki_prefix' => 'Försaz',
 	'interwiki_reasonfield' => 'Aanlass',
-	'interwiki_intro' => 'Op dä Sigg [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] fingk mer mieh do dröver, wat et met dä Tabäll met de Engerwiki Date op sich hät.
+	'interwiki_intro' => 'Hee is ene ?verbleck övver de Engerwiki-Tabäll.
+De Daate en de einzel Shpallde bedügge:',
+	'interwiki_intro_footer' => 'Op dä Sigg [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] fingk mer mieh do dröver, wat et met dä Tabäll met de Engerwiki Date op sich hät.
 Et [[Special:Log/interwiki|Logbuch med de Engerwiki Date]] zeichnet all de Änderunge aan de Engerwiki Date op.',
-	'interwiki_local' => 'En&nbsp;URLs:
-1:&nbsp;Wiggerleide
-0:&nbsp;Hee&nbsp;oplöse',
-	'interwiki_trans' => 'Enbenge övver Ingerwikilengks
-1:&nbsp;zolohße
-0:&nbsp;verbeede',
+	'interwiki_local' => '(local)',
+	'interwiki_trans' => '(trans)',
+	'interwiki_trans_0_intro' => ': donn dat nit, un sk noh en {{ns:template}} met dmm kompltte Name hee em Wiki.',
+	'interwiki_1' => 'Jo',
+	'interwiki_0' => 'Nä',
+	'interwiki_edit' => 'Beärbeide',
 	'interwiki_error' => "'''Fähler:''' de Tabäll met de Engerwiki Date is leddisch.",
 	'interwiki_delquestion' => '„$1“ weed fottjeschmeße',
 	'interwiki_deleting' => 'Do wells dä Engerwiki Försaz „$1“ fott schmiiße.',
 	'interwiki_deleted' => 'Dä Försaz „$1“ es jäz uß dä Engerwiki Date erusjeschmesse.',
 	'interwiki_delfailed' => 'Dä Försaz „$1“ konnt nit uß dä Engerwiki Date jenomme wääde.',
 	'interwiki_addtext' => 'Ene Engerwiki Försaz dobei donn',
-	'interwiki_addintro' => 'Do bes an ennem Engerwiki Fösaz am dobei donn.
+	'interwiki_addintro' => 'Do bes ennem Engerwiki Fösaz dobei aam donn.
 Denk draan, et dörfe kei Zweschräum ( ), Koufmanns-Un (&amp;), Jlisch-Zeiche (=), un kein Dubbelpünkscher (:) do dren sin.',
 	'interwiki_addbutton' => 'Dobei donn',
 	'interwiki_added' => 'Dä Försaz „$1“ es jäz bei de Engerwiki Date dobei jekomme.',
@@ -1730,6 +1773,7 @@ $messages['nah'] = array(
 );
 
 /** Low German (Plattdüütsch)
+ * @author Purodha
  * @author Slomox
  */
 $messages['nds'] = array(
