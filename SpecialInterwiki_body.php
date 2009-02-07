@@ -206,14 +206,38 @@ class SpecialInterwiki extends SpecialPage {
 		}	
 	}
 
+	function trans_local($tl, $msg0, $msg1)
+	{
+		if($tl==='0')	return ($msg0);
+		if($tl==='1')	return ($msg1);
+		return ( htmlspecialchars( $tl ));
+	}
+
 	function showList( $admin ) {
 		global $wgUser, $wgOut; 
 		$prefixmessage = wfMsgHtml( 'interwiki_prefix' );
 		$urlmessage = wfMsgHtml( 'interwiki_url' );
 		$localmessage = wfMsgHtml( 'interwiki_local' );
 		$transmessage = wfMsgHtml( 'interwiki_trans' );
+		$message_0 = wfMsgHtml( 'interwiki_0' );
+		$message_1 = wfMsgHtml( 'interwiki_1' );
 
+		$sty='padding-right:1.4ex; vertical-align:top; text-align:';
+		$out = '
+<table width="100%" cellspacing="0" cellpadding="0" border="0" style="border:0" class="wikitable">
+<tr><th style="'.$sty.'left">'.$prefixmessage.'</th><td>'.wfMsg( 'interwiki_prefix_intro' ).'</td></tr>
+<tr><th style="'.$sty.'left">'.$urlmessage.'</th><td>'.wfMsg( 'interwiki_url_intro' ).'</td></tr>
+<tr><th style="'.$sty.'left">'.$localmessage.'</th><td>'.wfMsg( 'interwiki_local_intro' ).'</td></tr>
+<tr><th style="'.$sty.'right">'.$message_0.'</th><td>'.wfMsg( 'interwiki_local_0_intro' ).'</td></tr>
+<tr><th style="'.$sty.'right">'.$message_1.'</th><td>'.wfMsg( 'interwiki_local_1_intro' ).'</td></tr>
+<tr><th style="'.$sty.'left">'.$transmessage.'</th><td>'.wfMsg( 'interwiki_trans_intro' ).'</td></tr>
+<tr><th style="'.$sty.'right">'.$message_1.'</th><td>'.wfMsg( 'interwiki_trans_1_intro' ).'</td></tr>
+<tr><th style="'.$sty.'right">'.$message_0.'</th><td>'.wfMsg( 'interwiki_trans_0_intro' ).'</td></tr>
+</table>
+';
 		$wgOut->addWikiMsg( 'interwiki_intro' );
+		$wgOut->addHTML( $out );
+		$wgOut->addWikiMsg( 'interwiki_intro_footer' );
 		$selfTitle = $this->getTitle();
 
 		if ( $admin ) {
@@ -238,20 +262,20 @@ class SpecialInterwiki extends SpecialPage {
 		if( $admin ) {
 			$deletemessage = wfMsgHtml( 'delete' );
 			$editmessage = wfMsgHtml( 'edit' );
-			$out .= "<th>$editmessage</th>";
+			$out .= '<th>'.wfMsgHtml( 'interwiki_edit' ).'</th>';
 		}
 		$out .= "</tr>\n";
 		
 		while( $s = $res->fetchObject() ) {
 			$prefix = htmlspecialchars( $s->iw_prefix );
 			$url = htmlspecialchars( $s->iw_url );
-			$trans = htmlspecialchars( $s->iw_trans );
-			$local = htmlspecialchars( $s->iw_local );
+			$trans = $this->trans_local( $s->iw_trans, $message_0, $message_1 );
+			$local = $this->trans_local( $s->iw_local, $message_0, $message_1 );
 			$out .= "<tr class='mw-interwikitable-row'>
 				<td class='mw-interwikitable-prefix'>$prefix</td>
 				<td class='mw-interwikitable-url'>$url</td>
-				<td class='mw-interwikitable-local'>$local</td>
-				<td class='mw-interwikitable-trans'>$trans</td>";
+				<td class='center mw-interwikitable-local'>$local</td>
+				<td class='center mw-interwikitable-trans'>$trans</td>";
 			if( $admin ) {
 				$out .= '<td class="mw-interwikitable-modify">';
 				$out .= $skin->link( $selfTitle, $editmessage, array(),
