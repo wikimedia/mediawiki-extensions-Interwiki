@@ -35,7 +35,8 @@ table.mw-interwikitable.intro th.mw-align-right  {
 }
 
 table.mw-interwikitable.body td.mw-interwikitable-local,
-table.mw-interwikitable.body td.mw-interwikitable-trans {
+table.mw-interwikitable.body td.mw-interwikitable-trans,
+table.mw-interwikitable.body td.mw-interwikitable-modify {
     text-align: center;
 }
 
