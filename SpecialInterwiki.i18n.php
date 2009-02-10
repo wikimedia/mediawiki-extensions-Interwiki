@@ -254,18 +254,18 @@ $messages['arz'] = array(
 	'interwiki' => 'عرض وتعديل بيانات الإنترويكي',
 	'interwiki-title-norights' => 'عرض بيانات الإنترويكي',
 	'interwiki-desc' => 'يضيف [[Special:Interwiki|صفحة خاصة]] لرؤية وتعديل جدول الإنترويكي',
-	'interwiki_intro' => 'هذا عرض عام لجدول الإنترويكى. معاني البيانات فى العواميد:',
+	'interwiki_intro' => 'هذا عرض عام لجدول الإنترويكى. معانى البيانات فى العواميد:',
 	'interwiki_prefix' => 'بادئة',
-	'interwiki_prefix_intro' => 'بادئة الإنترويكى ليتم استخدامها في صياغة نص الويكى <code>[<nowiki />[prefix:<i>pagename</i>]]</code>.',
+	'interwiki_prefix_intro' => 'بادئة الإنترويكى ليتم استخدامها فى صياغة نص الويكى <code>[<nowiki />[prefix:<i>pagename</i>]]</code>.',
 	'interwiki_url_intro' => 'قالب للمسارات. حامل المكان $1 سيتم استبداله بواسطة <i>pagename</i> لنص الويكى، عندما يتم استخدام صياغة نص الويكى المذكورة بالأعلى.',
 	'interwiki_local' => 'إرسال',
 	'interwiki_local_intro' => 'طلب http للويكى المحلى ببادئة الإنترويكى هذه فى URl هو:',
 	'interwiki_local_0_intro' => 'لا يتم أخذها فى الاعتبار، عادة يتم المنع بواسطة "page not found"،',
-	'interwiki_local_1_intro' => 'يتم التحويل للمسار الهدف المعطى في تعريفات وصلة الإنترويكى (أى تتم معاملتها مثل المراجع في الصفحات المحلية)',
+	'interwiki_local_1_intro' => 'يتم التحويل للمسار الهدف المعطى فى تعريفات وصلة الإنترويكى (أى تتم معاملتها مثل المراجع فى الصفحات المحلية)',
 	'interwiki_trans' => 'تضمين',
 	'interwiki_trans_intro' => 'لو أن صياغة نص الويكى <code>{<nowiki />{prefix:<i>pagename</i>}}</code> تم استخدامها، إذا:',
-	'interwiki_trans_1_intro' => 'يسمح بالتضمين من الويكى الأجنبى، لو أن تضمينات الإنترويكى مسموح بها عموما في هذا الويكى،',
-	'interwiki_trans_0_intro' => 'لا تسمح به، ولكن ابحث عن صفحة في نطاق القوالب.',
+	'interwiki_trans_1_intro' => 'يسمح بالتضمين من الويكى الأجنبى، لو أن تضمينات الإنترويكى مسموح بها عموما فى هذا الويكى،',
+	'interwiki_trans_0_intro' => 'لا تسمح به، ولكن ابحث عن صفحة فى نطاق القوالب.',
 	'interwiki_intro_footer' => 'انظر [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] للمزيد من المعلومات حول جدول الإنترويكى.
 هناك [[Special:Log/interwiki|سجل بالتغييرات]] لجدول الإنترويكى.',
 	'interwiki_1' => 'نعم',
@@ -472,11 +472,10 @@ Moguće je da uopće ne postoji.',
 $messages['cs'] = array(
 	'interwiki' => 'Zobrazit a upravovat interwiki',
 	'interwiki-title-norights' => 'Zobrazit interwiki',
-	'interwiki_intro' => 'Více informací o interwiki tabulce najdete na [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org].
-Vizte též [[Special:Log/interwiki|knihu změn]] v interwiki tabulce.',
+	'interwiki_intro' => 'Toto je přehled tabulky interwiki odkazů. Významy dat ve sloupcích:',
 	'interwiki_prefix' => 'Prefix',
-	'interwiki_local' => 'Nastavit jako lokální wiki',
-	'interwiki_trans' => 'Povolit interwiki transkluze',
+	'interwiki_local' => 'Přesměrovat',
+	'interwiki_trans' => 'Transkluze',
 	'interwiki_error' => 'CHYBA: Interwiki tabulka je prázdná anebo se pokazilo něco jiného.',
 	'interwiki_reasonfield' => 'Důvod',
 	'interwiki_defaultreason' => 'důvod neuveden',
@@ -965,6 +964,7 @@ $messages['got'] = array(
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ * @author Crazymadlover
  * @author Omnipaedista
  */
 $messages['grc'] = array(
@@ -974,6 +974,7 @@ $messages['grc'] = array(
 	'interwiki_local' => 'Ὁρίσειν τόδε ὡς τοπικὸν ϝίκι',
 	'interwiki_trans' => 'Ἀποδέχεσθαι ὑπερδιαϝίκι-ὑπερδιαποκλῄσεις',
 	'interwiki_error' => 'Σφάλμα: Ὁ διαϝίκι-πίναξ κενός ἐστίν, ἢ ἑτέρα ἐσφαλμένη ἐνέργειά τι συνέβη.',
+	'interwiki_edit' => 'Μεταγράφειν',
 	'interwiki_reasonfield' => 'Αἰτία',
 	'interwiki_defaultreason' => 'οὐδεμία δεδομένη αἰτία',
 	'interwiki_delquestion' => 'Διαγράφειν τὴν "$1"',
@@ -1410,6 +1411,13 @@ Kemungkinan karena prefiks ini tidak ada.',
 	'interwiki_log_deleted' => 'menghapus prefiks "$2" dari tabel interwiki',
 	'interwiki_logpagetext' => 'Ini adalah log perubahan [[Special:Interwiki|tabel interwiki]].',
 	'right-interwiki' => 'Menyunting data interwiki',
+);
+
+/** Ido (Ido)
+ * @author Malafaya
+ */
+$messages['io'] = array(
+	'interwiki_1' => 'yes',
 );
 
 /** Icelandic (Íslenska)
@@ -2637,8 +2645,7 @@ $messages['tl'] = array(
 	'interwiki' => "Tingnan at baguhin ang datong pangugnayang-wiki (''interwiki'')",
 	'interwiki-title-norights' => "Tingnan ang datong pangugnayang-wiki (''interwiki'')",
 	'interwiki-desc' => 'Nagdaragdag ng isang [[Special:Interwiki|natatanging pahina]] upang matingnan at mabago ang tablang pang-ugnayang wiki',
-	'interwiki_intro' => "Tingnan ang [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] para sa mas marami pang kabatiran tungkol sa tablang pang-ugnayang wiki (''interwiki'').
-May isang [[Special:Log/interwiki|talaan ng mga pagbabago]] sa tablang pang-ugnayang wiki.",
+	'interwiki_intro' => "Isa itong paglalarawan ng tabla ng ugnayang-wiki (''interwiki''). Nasa loob ng pababang mga hanay ang mga kahulugan ng dato:",
 	'interwiki_prefix' => 'Unlapi',
 	'interwiki_prefix_intro' => 'Unlapi ng ugnayang-wiki na gagamitin sa loob ng palaugnayang <code>[<nowiki />[prefix:<i>pagename</i>]]</code> ng teksto ng wiki.',
 	'interwiki_url' => 'URL',
