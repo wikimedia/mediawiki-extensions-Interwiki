@@ -30,6 +30,7 @@ $wgExtensionMessagesFiles['Interwiki'] = $dir . 'SpecialInterwiki.i18n.php';
 $wgExtensionAliasesFiles['Interwiki'] = $dir . 'SpecialInterwiki.alias.php';
 
 $wgSpecialPages['Interwiki'] = 'SpecialInterwiki';
+$wgSpecialPageGroups['Interwiki'] = 'wiki';
 $wgAutoloadClasses['SpecialInterwiki'] = $dir . 'SpecialInterwiki_body.php';
 
 $wgAvailableRights[] = 'interwiki';
