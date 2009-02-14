@@ -643,8 +643,8 @@ $messages['el'] = array(
 	'interwiki' => 'Εμφάνιση και επεξεργασία των δεδομένων ιντερβίκι',
 	'interwiki-title-norights' => 'Εμφάνιση δεδομένων ιντερβίκι',
 	'interwiki_prefix' => 'Πρόθεμα',
-	'interwiki_local' => 'Ορισμός αυτού ως τοπικού wiki',
-	'interwiki_trans' => 'Να επιτρέπονται υπεραποκλεισμοί interwiki',
+	'interwiki_local' => 'Προώθηση',
+	'interwiki_trans' => 'Υπεραποκλεισμοί',
 	'interwiki_error' => 'Σφάλμα: Ο πίνακας ιντερβίκι είναι άδειος, ή κάτι άλλο έχει πάει στραβά.',
 	'interwiki_reasonfield' => 'Λόγος',
 	'interwiki_defaultreason' => 'Δεν δίνετε λόγος',
@@ -971,8 +971,8 @@ $messages['grc'] = array(
 	'interwiki' => 'Ὁρᾶν καὶ μεταγράφειν διαϝίκι-δεδομένα',
 	'interwiki-title-norights' => 'Ὁρᾶν διαϝίκι-δεδομένα',
 	'interwiki_prefix' => 'Πρόθεμα',
-	'interwiki_local' => 'Ὁρίσειν τόδε ὡς τοπικὸν ϝίκι',
-	'interwiki_trans' => 'Ἀποδέχεσθαι ὑπερδιαϝίκι-ὑπερδιαποκλῄσεις',
+	'interwiki_local' => 'Ἀκολούθησις',
+	'interwiki_trans' => 'Ὑπερδιαποκλῄειν',
 	'interwiki_error' => 'Σφάλμα: Ὁ διαϝίκι-πίναξ κενός ἐστίν, ἢ ἑτέρα ἐσφαλμένη ἐνέργειά τι συνέβη.',
 	'interwiki_edit' => 'Μεταγράφειν',
 	'interwiki_reasonfield' => 'Αἰτία',
@@ -1662,19 +1662,19 @@ $messages['ksh'] = array(
 	'interwiki_intro' => 'Hee is ene Övverbleck övver de Engerwiki-Tabäll.
 De Daate en de einzel Shpallde bedügge:',
 	'interwiki_prefix' => 'Försaz',
-	'interwiki_prefix_intro' => 'Dä Fösatz för Engewiki Lengks wie hä em Wikitex en Sigge jebruch weed, wam_mer <code>[<nowiki />[Fösatz:<i>Siggename</i>]]</code> schrieve deijt.',
+	'interwiki_prefix_intro' => 'Dä Fösatz för Engewiki Lengks wie hä em Wikitex en Sigge jebruch weed, wam_mer <code>[<nowiki />[<i>{{lc:{{int:Interwiki_prefix}}}}</i>:<i>Siggename</i>]]</code> schrieve deijt.',
 	'interwiki_url' => 'URL',
-	'interwiki_url_intro' => 'E Muster för en URL. Dä Plazhallder „$1“ do dren weet ußjetuusch, wann dat Denge jebruch weet — wann di Syntax vun bovve em Wikitext op en Sigg aanjezeish weed, dann kütt dä <code>Siggenam</code> aan dä Plaz vun däm $1.',
+	'interwiki_url_intro' => 'E Muster för en URL. Dä Plazhallder „$1“ do dren weet ußjetuusch, wann dat Denge jebruch weet — wann di Syntax vun bovve em Wikitext op en Sigg aanjezeish weed, dann kütt dä <code><i">Siggenam</i></code> aan dä Plaz vun däm $1.',
 	'interwiki_local' => 'Wiggerjevve?',
 	'interwiki_local_intro' => 'Wann övver et Internet ene Sigge-Oproof aan dat Wiki hee jescheck weed, un dä Försatz es em Sigge-Tittel dren, dann:',
 	'interwiki_local_0_intro' => 'donn dä nit als ene Vöratz behandelle, un sök noh su en Sigg hee em Wiki — dat jeiht fö jewööhnlesch uß met: „esu en Sigg hann mir nit“,',
 	'interwiki_local_1_intro' => 'dä Oproof weed wiggerjejovve aan dä Wiki, esu wi et hee unger URL enjedraaren es, well heiße, dä weed jenou esu behandelt, wi ene Oproof ennerhallf vun en Sigg hee em Wiki.',
 	'interwiki_trans' => 'Ennfööje?',
-	'interwiki_trans_intro' => 'Wann em  Wikitex en ener Sigg de Syntax <code>{<nowiki />{prefix:<i>pagename</i>}}</code> jebruch weed, dann:',
+	'interwiki_trans_intro' => 'Wann em  Wikitex en ener Sigg de Syntax <code>{<nowiki />{<i>{{lc:{{int:Interwiki_prefix}}}}</i>:<i>pagename</i>}}</code> jebruch weed, dann:',
 	'interwiki_trans_1_intro' => 'lohß et zoh — wann dat en hee dämm Wiki övverhoup zohjelohße es — dat en Sigg uß däm andere Wiki hee enjeföösh weed,',
 	'interwiki_trans_0_intro' => 'dunn dat nit, un sök hee em Wiki noh ene {{ns:template}} met dämm komplätte Name.',
 	'interwiki_intro_footer' => 'Op dä Sigg [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] fingk mer mieh do dröver, wat et met dä Tabäll met de Engerwiki Date op sich hät.
-Et [[Special:Log/interwiki|Logbuch med de Engerwiki Date]] zeichnet all de Änderunge aan de Engerwiki Date op.',
+Et [[Special:Log/interwiki|{{int:interwiki_logpagename}}]] zeichnet all de Änderunge aan de Engerwiki Date op.',
 	'interwiki_1' => 'Jo',
 	'interwiki_0' => 'Nä',
 	'interwiki_error' => "'''Fähler:''' de Tabäll met de Engerwiki Date is leddisch.",
@@ -1686,7 +1686,7 @@ Et [[Special:Log/interwiki|Logbuch med de Engerwiki Date]] zeichnet all de Ände
 	'interwiki_deleted' => 'Dä Försaz „$1“ es jäz uß dä Engerwiki Date erusjeschmesse.',
 	'interwiki_delfailed' => 'Dä Försaz „$1“ konnt nit uß dä Engerwiki Date jenomme wääde.',
 	'interwiki_addtext' => 'Ene Engerwiki Försaz dobei donn',
-	'interwiki_addintro' => 'Do bes ennem Engerwiki Fösaz dobei aam donn.
+	'interwiki_addintro' => 'Do bes ennem Engerwiki Försaz dobei aam donn.
 Denk draan, et dörfe kei Zweschräum ( ), Koufmanns-Un (&amp;), Jlisch-Zeiche (=), un kein Dubbelpünkscher (:) do dren sin.',
 	'interwiki_addbutton' => 'Dobei donn',
 	'interwiki_added' => 'Dä Försaz „$1“ es jäz bei de Engerwiki Date dobei jekomme.',
@@ -1699,7 +1699,7 @@ Denk draan, domet könnts De Links em Wiki kapott maache, die velleich do drop o
 	'interwiki_edited' => 'Föz dä Försaz „$1“ sen de Engerwiki Date jäz jetuusch.',
 	'interwiki_editerror' => 'Dä Försaz „$1“ konnt en de Engerwiki Date nit beärrbeidt wäde.
 Maach sin, dat et inn nit jitt.',
-	'interwiki-badprefix' => 'Dä aanjejovve Engerwiki-Försatz „$1“ änthät onjöltijje Zeiche',
+	'interwiki-badprefix' => 'Dä aanjejovve Engerwiki-Försatz „$1“ änthäld onjöltijje Zeiche',
 	'interwiki_logpagename' => 'Logbooch fun de Engerwiki Tabäll',
 	'interwiki_log_added' => 'hät dä Försaz „$2“ ($3) (Trans: $4) (Lokal: $5) en de Engerwiki Date eren jedonn',
 	'interwiki_log_edited' => 'hät dä Försaz „$2“ ($3) (Trans: $4) (Lokal: $5) en de Engerwiki Date ömjemodelt',
@@ -1710,13 +1710,14 @@ Maach sin, dat et inn nit jitt.',
 );
 
 /** Latin (Latina)
+ * @author Omnipaedista
  * @author SPQRobin
  * @author UV
  */
 $messages['la'] = array(
 	'interwiki' => 'Videre et recensere data intervica',
 	'interwiki-title-norights' => 'Videre data intervica',
-	'interwiki_intro' => 'De tabula intervica, vide etiam [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]. Etiam sunt [[Special:Log/interwiki|acta mutationum]] tabulae intervicae.',
+	'interwiki_intro' => 'De tabula intervica. Etiam sunt tabulae:',
 	'interwiki_prefix' => 'Praefixum',
 	'interwiki_error' => 'ERROR: Tabula intervica est vacua, aut aerumna alia occurrit.',
 	'interwiki_reasonfield' => 'Causa',
@@ -2220,6 +2221,11 @@ Prawdopodobnie ten prefiks już jest w tableli.',
  * @author Omnipaedista
  */
 $messages['pnt'] = array(
+	'interwiki_prefix' => 'Πρόθεμαν',
+	'interwiki_trans' => 'Υπερκλεισμοί',
+	'interwiki_1' => 'ναι',
+	'interwiki_0' => 'όχι',
+	'interwiki_edit' => 'Ἀλλαγμαν',
 	'interwiki_delquestion' => 'Διαγραφήν του "$1"',
 );
 
