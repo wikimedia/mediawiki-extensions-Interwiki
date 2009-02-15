@@ -1717,7 +1717,7 @@ Maach sin, dat et inn nit jitt.',
 $messages['la'] = array(
 	'interwiki' => 'Videre et recensere data intervica',
 	'interwiki-title-norights' => 'Videre data intervica',
-	'interwiki_intro' => 'De tabula intervica. Etiam sunt tabulae:',
+	'interwiki_intro' => 'De tabula intervica. Sunt hae columnae:',
 	'interwiki_prefix' => 'Praefixum',
 	'interwiki_error' => 'ERROR: Tabula intervica est vacua, aut aerumna alia occurrit.',
 	'interwiki_reasonfield' => 'Causa',
@@ -2106,6 +2106,13 @@ $messages['no'] = array(
 	'interwiki_log_deleted' => 'Fjernet prefikset «$2» fra interwikitabellen',
 	'interwiki_logpagetext' => 'Dette er en logg over endringer i [[Special:Interwiki|interwikitabellen]].',
 	'right-interwiki' => 'Redigere interwikidata',
+);
+
+/** Novial (Novial)
+ * @author Malafaya
+ */
+$messages['nov'] = array(
+	'interwiki_reasonfield' => 'Resone',
 );
 
 /** Northern Sotho (Sesotho sa Leboa)
@@ -2720,12 +2727,14 @@ $messages['uk'] = array(
 $messages['vec'] = array(
 	'interwiki' => 'Varda e modìfega i dati interwiki',
 	'interwiki-title-norights' => 'Varda i dati interwiki',
-	'interwiki_intro' => 'Varda [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] par savérghene piassè su la tabèla dei interwiki.
-Ghe xe anca un [[Special:Log/interwiki|registro de le modìfeghe]] a la tabèla dei interwiki.',
+	'interwiki_intro' => 'Sta qua la xe na panoramica de la tabèla dei interwiki. El significato dei dati in te le colòne xe:',
 	'interwiki_prefix' => 'Prefisso',
-	'interwiki_local' => 'Definir sta qua come na wiki locale',
-	'interwiki_trans' => 'Permeti trasclusioni interwiki',
+	'interwiki_local' => 'Avanti',
+	'interwiki_trans' => 'Transcludi',
+	'interwiki_1' => 'sì',
+	'interwiki_0' => 'no',
 	'interwiki_error' => 'ERÓR: La tabèla dei interwiki la xe voda, o ghe xe qualche altro erór.',
+	'interwiki_edit' => 'Modìfega',
 	'interwiki_reasonfield' => 'Motivassion',
 	'interwiki_defaultreason' => 'nissuna motivassion indicà',
 	'interwiki_delquestion' => 'Scancelassion de "$1"',
@@ -2746,9 +2755,11 @@ Ocio a no desfar i colegamenti esistenti.',
 	'interwiki_editerror' => 'No se riesse a canbiar el prefisso "$1" in te la tabèla dei interwiki.
 Sto prefisso el podarìa èssar inesistente.',
 	'interwiki-badprefix' => 'El prefisso interwiki speçificà ("$1") el contien caràteri mia validi',
+	'interwiki_logpagename' => 'Registro de la tabèla interwiki',
 	'interwiki_log_added' => 'gà zontà el prefisso "$2" ($3) (trans: $4) (locale: $5) a la tabèla dei interwiki',
 	'interwiki_log_edited' => 'gà canbià el prefisso "$2" : ($3) (trans: $4) (locale: $5) in te la tabèla dei interwiki',
 	'interwiki_log_deleted' => 'gà cavà el prefisso "$2" da la tabèla dei interwiki',
+	'interwiki_logpagetext' => 'Registro dei canbiamenti fati a la [[Special:Interwiki|tabèla dei interwiki]].',
 	'right-interwiki' => 'Cànbia i dati interwiki',
 );
 

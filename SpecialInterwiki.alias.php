@@ -130,3 +130,8 @@ $aliases['sw'] = array(
 	'Interwiki' => array( 'Viungovyawiki' ),
 );
 
+/** Tagalog (Tagalog) */
+$aliases['tl'] = array(
+	'Interwiki' => array( 'Ugnayang-wiki' ),
+);
+
