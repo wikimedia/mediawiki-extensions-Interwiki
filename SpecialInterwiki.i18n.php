@@ -636,6 +636,7 @@ Snaź njeeksistěrujo.',
 
 /** Greek (Ελληνικά)
  * @author Consta
+ * @author Dead3y3
  * @author Omnipaedista
  * @author ZaDiak
  */
@@ -644,7 +645,7 @@ $messages['el'] = array(
 	'interwiki-title-norights' => 'Εμφάνιση δεδομένων ιντερβίκι',
 	'interwiki_prefix' => 'Πρόθεμα',
 	'interwiki_local' => 'Προώθηση',
-	'interwiki_trans' => 'Υπεραποκλεισμοί',
+	'interwiki_trans' => 'Ενσωμάτωση',
 	'interwiki_error' => 'Σφάλμα: Ο πίνακας ιντερβίκι είναι άδειος, ή κάτι άλλο έχει πάει στραβά.',
 	'interwiki_reasonfield' => 'Λόγος',
 	'interwiki_defaultreason' => 'Δεν δίνετε λόγος',
@@ -1080,8 +1081,7 @@ $messages['he'] = array(
 	'interwiki' => 'הצגת ועריכת מידע הבינוויקי',
 	'interwiki-title-norights' => 'הצגת מידע הבינוויקי',
 	'interwiki-desc' => 'הוספת [[Special:Interwiki|דף מיוחד]] להצגת ולעריכת טבלת הבינוויקי',
-	'interwiki_intro' => 'ראו [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] למידע נוסף אודות טבלת הבינוויקי.
-ישנו [[Special:Log/interwiki|יומן שינויים]] לטבלת הבינוויקי.',
+	'interwiki_intro' => 'זוהי סקירה של טבלת הבינוויקי. משמעויות הנתונים שבעמודות:',
 	'interwiki_prefix' => 'קידומת',
 	'interwiki_prefix_intro' => 'קידומת הבינוויקי שתשמש בתחביר <code>[<nowiki />[prefix:<i>שם_הדף</i>]]</code>',
 	'interwiki_url_intro' => 'תבנית עבור כתובות. ממלא המקום $1 יוחלף על ידי <i>שם_הדף</i>, כאשר נעשה שימוש בתחביר שהוזכר לעיל.',
@@ -1343,12 +1343,24 @@ $messages['ia'] = array(
 	'interwiki' => 'Vider e modificar datos interwiki',
 	'interwiki-title-norights' => 'Vider datos interwiki',
 	'interwiki-desc' => 'Adde un [[Special:Interwiki|pagina special]] pro vider e modificar le tabella interwiki',
-	'interwiki_intro' => 'Vider [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] pro ulterior informationes super le tabella interwiki.
-Existe un [[Special:Log/interwiki|registro de modificationes]] al tabella interwiki.',
+	'interwiki_intro' => 'Isto es un summario del tabella interwiki. Significatos del datos in le columnas:',
 	'interwiki_prefix' => 'Prefixo',
-	'interwiki_local' => 'Definir isto como un wiki local',
-	'interwiki_trans' => 'Permitter le transclusiones interwiki',
+	'interwiki_prefix_intro' => 'Prefixo interwiki pro usar in le syntaxe de wikitexto <code>[<nowiki />[prefixo:<i>nomine de pagina</i>]]</code>.',
+	'interwiki_url_intro' => 'Patrono pro adresses URL. Le marcator $1 essera reimplaciate per le <i>nomine de pagina</i> del wikitexto, quando le syntaxe de wikitexto supra mentionate es usate.',
+	'interwiki_local' => 'Facer sequer',
+	'interwiki_local_intro' => 'Un requesta HTTP al wiki local con iste prefixo interwiki in le adresse URL es:',
+	'interwiki_local_0_intro' => 'refusate, normalmente blocate con "pagina non trovate",',
+	'interwiki_local_1_intro' => 'redirigite verso le adresse URL de destination specificate in le definitiones de ligamines interwiki (i.e. tractate como referentias in paginas local)',
+	'interwiki_trans' => 'Transcluder',
+	'interwiki_trans_intro' => 'Si le syntaxe de wikitexto <code>{<nowiki />{prefixo:<i>nomine de pagina</i>}}</code> es usate, alora:',
+	'interwiki_trans_1_intro' => 'permitte le transclusion ab le wiki externe, si le transclusiones interwiki es generalmente permittite in iste wiki,',
+	'interwiki_trans_0_intro' => 'non permitte lo, ma cerca un pagina in le spatio de nomines "Patrono".',
+	'interwiki_intro_footer' => 'Vide [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] pro plus informationes super le tabella interwiki.
+Existe un [[Special:Log/interwiki|registro de modificationes]] al tabella interwiki.',
+	'interwiki_1' => 'si',
+	'interwiki_0' => 'no',
 	'interwiki_error' => 'Error: Le tabella interwiki es vacue, o un altere cosa faceva falta.',
+	'interwiki_edit' => 'Modificar',
 	'interwiki_reasonfield' => 'Motivo',
 	'interwiki_defaultreason' => 'nulle ration date',
 	'interwiki_delquestion' => 'Deletion de "$1"',
@@ -1375,6 +1387,7 @@ Es possibile que illo non existe.',
 	'interwiki_log_deleted' => 'removeva le prefixo "$2" del tabella interwiki',
 	'interwiki_logpagetext' => 'Isto es un registro de modificationes in le [[Special:Interwiki|tabella interwiki]].',
 	'right-interwiki' => 'Modificar datos interwiki',
+	'action-interwiki' => 'alterar iste entrata interwiki',
 );
 
 /** Indonesian (Bahasa Indonesia)
