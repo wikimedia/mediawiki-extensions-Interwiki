@@ -974,6 +974,8 @@ $messages['grc'] = array(
 	'interwiki_prefix' => 'Πρόθεμα',
 	'interwiki_local' => 'Ἀκολούθησις',
 	'interwiki_trans' => 'Ὑπερδιαποκλῄειν',
+	'interwiki_1' => 'ναί',
+	'interwiki_0' => 'οὐ',
 	'interwiki_error' => 'Σφάλμα: Ὁ διαϝίκι-πίναξ κενός ἐστίν, ἢ ἑτέρα ἐσφαλμένη ἐνέργειά τι συνέβη.',
 	'interwiki_edit' => 'Μεταγράφειν',
 	'interwiki_reasonfield' => 'Αἰτία',
@@ -1730,7 +1732,7 @@ Maach sin, dat et inn nit jitt.',
 $messages['la'] = array(
 	'interwiki' => 'Videre et recensere data intervica',
 	'interwiki-title-norights' => 'Videre data intervica',
-	'interwiki_intro' => 'De tabula intervica. Sunt hae columnae:',
+	'interwiki_intro' => 'De tabula intervicia. Sunt hae columnae:',
 	'interwiki_prefix' => 'Praefixum',
 	'interwiki_error' => 'ERROR: Tabula intervica est vacua, aut aerumna alia occurrit.',
 	'interwiki_reasonfield' => 'Causa',
@@ -2033,6 +2035,7 @@ Er is een [[Special:Log/interwiki|veranderingslogboek]] voor de interwikitabel.'
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Eirik
+ * @author Gunnernett
  * @author Harald Khan
  * @author Jon Harald Søby
  */
@@ -2044,7 +2047,7 @@ $messages['nn'] = array(
 	'interwiki_prefix' => 'Forstaving',
 	'interwiki_prefix_intro' => 'Interwikiforstaving som skal verta nytta i <code>[<nowiki />[forstaving:<i>sidenamn</i>]]</code>-wikisyntaks.',
 	'interwiki_url_intro' => 'Mal for adresser. Variabelen $1 vil verta bytt ut med <i>sidenamn</i> i wikiteksten når wikisyntakset ovanfor vert nytta.',
-	'interwiki_local' => 'Definer dette som ein lokal wiki',
+	'interwiki_local' => 'Send vidare',
 	'interwiki_local_intro' => 'Ein http-førespurnad til den lokale wikien med denne interwikiforstavinga i adressa, er:',
 	'interwiki_local_0_intro' => 'ikkje æra, vanlegvis blokkert med «finn ikkje websida»,',
 	'interwiki_local_1_intro' => 'omdirigert til måladressa oppgjeven i interwikilenkjedefinisjonane (med andre ord handsama som refereransar på lokale sider)',
@@ -2568,7 +2571,7 @@ $messages['sv'] = array(
 	'interwiki_intro' => 'Se [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] för mer information om interwikitabellen.
 Det finns en [[Special:Log/interwiki|logg]] över ändringar av interwikitabellen.',
 	'interwiki_prefix' => 'Prefix',
-	'interwiki_local' => 'Definiera detta som en lokal wiki',
+	'interwiki_local' => 'Vidarebefordra',
 	'interwiki_trans' => 'Transkludera',
 	'interwiki_intro_footer' => 'Se [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] för mer information om interwikitabellen.
 Det finns en [[Special:Log/interwiki|logg över ändringar]] i interwikitabellen.',
@@ -2900,6 +2903,7 @@ $messages['yue'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Gaoxuewei
+ * @author Wmr89502270
  */
 $messages['zh-hans'] = array(
 	'interwiki' => '查看并编辑跨维基连结表',
@@ -2909,6 +2913,8 @@ $messages['zh-hans'] = array(
 	'interwiki_prefix' => '前缀',
 	'interwiki_local' => '定义这个为一个本地wiki',
 	'interwiki_trans' => '容许跨维基包含',
+	'interwiki_1' => '是',
+	'interwiki_0' => '否',
 	'interwiki_error' => '错误: 跨维基连结表为空，或是发生其它错误。',
 	'interwiki_reasonfield' => '原因',
 	'interwiki_defaultreason' => '无给出原因',
