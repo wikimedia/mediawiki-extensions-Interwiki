@@ -580,6 +580,16 @@ Möglicherweise existiert es nicht.',
 	'action-interwiki' => 'Diesen Interwiki-Eintrag ändern',
 );
 
+/** German (formal address) (Deutsch (Sie-Form))
+ * @author MichaelFrey
+ */
+$messages['de-formal'] = array(
+	'interwiki_deleting' => 'Sie sind dabei das Präfix „$1“ zu löschen.',
+	'interwiki_addintro' => 'Sie fügen ein neues Interwiki-Präfix hinzu. Beachten Sie, dass es kein Leerzeichen ( ), Kaufmännisches Und (&), Gleichheitszeichen (=) und keinen Doppelpunkt (:) enthalten darf.',
+	'interwiki_editintro' => 'Sie sind dabei ein Präfix zu ändern.
+Beachten Sie, dass dies bereits vorhandene Links ungültig machen kann.',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
