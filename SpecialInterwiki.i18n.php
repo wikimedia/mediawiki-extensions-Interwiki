@@ -2739,10 +2739,13 @@ Maaaring hindi pa ito umiiral.",
 );
 
 /** Turkish (Türkçe)
+ * @author Karduelis
  * @author Suelnur
  */
 $messages['tr'] = array(
+	'interwiki_1' => 'evet',
 	'interwiki_reasonfield' => 'Neden',
+	'interwiki_addbutton' => 'Ekle',
 );
 
 /** Ukrainian (Українська)
