@@ -511,6 +511,7 @@ $messages['cy'] = array(
 );
 
 /** Danish (Dansk)
+ * @author Byrial
  * @author Jon Harald Søby
  * @author Purodha
  */
@@ -520,6 +521,7 @@ $messages['da'] = array(
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nej',
 	'interwiki_reasonfield' => 'Begrundelse',
+	'action-interwiki' => 'ændre dette interwiki-element',
 );
 
 /** German (Deutsch)
