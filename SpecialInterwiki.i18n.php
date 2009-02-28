@@ -1732,7 +1732,7 @@ Maach sin, dat et inn nit jitt.',
 	'interwiki_log_edited' => 'hät dä Försaz „$2“ ($3) (Trans: $4) (Lokal: $5) en de Engerwiki Date ömjemodelt',
 	'interwiki_log_deleted' => 'hät dä Försaz „$2“ es us de Engerwiki Date eruß jeworfe',
 	'interwiki_logpagetext' => 'Hee is dat Logboch met de Änderonge aan de [[Special:Interwiki|Engerwiki Date]].',
-	'right-interwiki' => 'de Tabäll met de Engerwiki Date ändere',
+	'right-interwiki' => 'Engerwiki Date ändere',
 	'action-interwiki' => 'Donn hee dä Engerwiki Enndraach ändere',
 );
 
