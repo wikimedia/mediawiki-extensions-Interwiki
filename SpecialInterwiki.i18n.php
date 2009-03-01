@@ -2329,6 +2329,56 @@ Existe um [[Special:Log/interwiki|registo de modificações]] à tabela de inter
 	'action-interwiki' => 'alterar esta entrada interwiki',
 );
 
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Eduardo.mps
+ */
+$messages['pt-br'] = array(
+	'interwiki' => 'Ver e editar dados de interwikis',
+	'interwiki-title-norights' => 'Ver dados interwiki',
+	'interwiki-desc' => 'Adiciona uma [[Special:Interwiki|página especial]] para visualizar e editar a tabela de interwikis',
+	'interwiki_intro' => 'Isto é um resumo da tabela de interwikis. Significado dos dados nas colunas:',
+	'interwiki_prefix' => 'Prefixo',
+	'interwiki_prefix_intro' => 'Prefixo de interwiki a ser usado na sintaxe de wikitexto <code>[<nowiki />[prefix:<i>nome_página</i>]]</code>.',
+	'interwiki_url_intro' => 'Modelo para URL. O marcador $1 será substituído pelo <i>nome_página</i> do wikitexto, quando a sintaxe de wikitexto acima mencionada for usada.',
+	'interwiki_local' => 'Encaminhar',
+	'interwiki_local_intro' => 'Um pedido http para o wiki local com este prefixo de interwiki na URL é:',
+	'interwiki_local_0_intro' => 'ignorado, geralmente bloqueado por "página não encontrada",',
+	'interwiki_local_1_intro' => 'redirecionado para a URL alvo dada nas definições de ligação interwiki (p. ex. tratado como referências em páginas locais)',
+	'interwiki_trans' => 'Transcluir',
+	'interwiki_trans_intro' => 'Se a sintaxe de wikitexto <code>{<nowiki />{prefix:<i>nome_página</i>}}</code> for usada, então:',
+	'interwiki_trans_1_intro' => 'permite transclusão do wiki externo, se transclusões interwiki forem permitidas de forma geral neste wiki,',
+	'interwiki_trans_0_intro' => 'não o permite; ao invés, procura uma página no espaço nominal de predefinições.',
+	'interwiki_intro_footer' => 'Veja [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] para mais informações sobre a tabela de interwikis.
+Existe um [[Special:Log/interwiki|registro de modificações]] à tabela de interwikis.',
+	'interwiki_1' => 'sim',
+	'interwiki_0' => 'não',
+	'interwiki_error' => 'ERRO: A tabela de interwikis está vazia, ou alguma outra coisa não correu bem.',
+	'interwiki_edit' => 'Editar',
+	'interwiki_reasonfield' => 'Motivo',
+	'interwiki_defaultreason' => 'sem motivo especificado',
+	'interwiki_delquestion' => 'Apagando "$1"',
+	'interwiki_deleting' => 'Você está apagando o prefixo "$1".',
+	'interwiki_deleted' => 'O prefixo "$1" foi removido da tabelas de interwikis com sucesso.',
+	'interwiki_delfailed' => 'O prefixo "$1" não pôde ser removido da tabela de interwikis.',
+	'interwiki_addtext' => 'Adicionar um prefixo de interwikis',
+	'interwiki_addintro' => 'Você se encontra prestes a adicionar um novo prefixo de interwiki. Lembre-se de que ele não pode conter espaços ( ), dois-pontos (:), conjunções (&) ou sinais de igualdade (=).',
+	'interwiki_addbutton' => 'Adicionar',
+	'interwiki_added' => 'O prefixo "$1" foi adicionado à tabela de interwikis com sucesso.',
+	'interwiki_addfailed' => 'O prefixo "$1" não pôde ser adicionado à tabela de interwikis. Possivelmente já existe nessa tabela.',
+	'interwiki_edittext' => 'Editando um prefixo interwiki',
+	'interwiki_editintro' => 'Você está editando um prefixo interwiki. Lembre-se de que isto pode quebrar ligações existentes.',
+	'interwiki_edited' => 'O prefixo "$1" foi modificado na tabela de interwikis com sucesso.',
+	'interwiki_editerror' => 'O prefixo "$1" não pode ser modificado na tabela de interwikis. Possivelmente, não existe.',
+	'interwiki-badprefix' => 'O prefixo interwiki "$1" contém caracteres inválidos',
+	'interwiki_logpagename' => 'Registro da tabela de interwikis',
+	'interwiki_log_added' => 'adicionado "$2" ($3) (trans: $4) (local: $5) à tabela de interwikis',
+	'interwiki_log_edited' => 'modificado o prefixo "$2": ($3) (trans: $4) (local: $5) na tabela de interwikis',
+	'interwiki_log_deleted' => 'removido o prefixo "$2" da tabela de interwikis',
+	'interwiki_logpagetext' => 'Este é um registro das alterações à [[Special:Interwiki|tabela de interwikis]].',
+	'right-interwiki' => 'Editar dados de interwiki',
+	'action-interwiki' => 'alterar esta entrada interwiki',
+);
+
 /** Romanian (Română)
  * @author KlaudiuMihaila
  */
