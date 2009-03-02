@@ -1459,13 +1459,13 @@ $messages['is'] = array(
  * @author BrokenArrow
  * @author Cruccone
  * @author Darth Kule
+ * @author Pietrodn
  */
 $messages['it'] = array(
 	'interwiki' => 'Visualizza e modifica i dati interwiki',
 	'interwiki-title-norights' => 'Visualizza i dati interwiki',
 	'interwiki-desc' => 'Aggiunge una [[Special:Interwiki|pagina speciale]] per visualizzare e modificare la tabella degli interwiki',
-	'interwiki_intro' => 'Vedi [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] per maggiori informazioni sulla tabella degli interwiki.
-Esiste un [[Special:Log/interwiki|registro delle modifiche]] alla tabella degli interwiki.',
+	'interwiki_intro' => 'Questa è una panoramica della tabella degli interwiki. Il significato dei dati nelle colonne:',
 	'interwiki_prefix' => 'Prefisso',
 	'interwiki_1' => 'si',
 	'interwiki_0' => 'no',
