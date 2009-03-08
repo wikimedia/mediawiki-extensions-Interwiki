@@ -510,6 +510,10 @@ Pravděpodobně neexistuje.',
  * @author Lloffiwr
  */
 $messages['cy'] = array(
+	'interwiki' => 'Gweld a golygu data rhyngwici',
+	'interwiki-title-norights' => 'Gweld y data rhyngwici',
+	'interwiki_prefix' => 'Rhagddodiad',
+	'interwiki_local' => 'Anfon ymlaen',
 	'interwiki_defaultreason' => 'dim rheswm wedi ei roi',
 );
 
