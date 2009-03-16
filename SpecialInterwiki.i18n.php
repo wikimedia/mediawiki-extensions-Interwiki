@@ -655,6 +655,7 @@ Snaź njeeksistěrujo.',
 
 /** Greek (Ελληνικά)
  * @author Consta
+ * @author Crazymadlover
  * @author Dead3y3
  * @author Omnipaedista
  * @author ZaDiak
@@ -665,6 +666,8 @@ $messages['el'] = array(
 	'interwiki_prefix' => 'Πρόθεμα',
 	'interwiki_local' => 'Προώθηση',
 	'interwiki_trans' => 'Ενσωμάτωση',
+	'interwiki_1' => 'ναι',
+	'interwiki_0' => 'όχι',
 	'interwiki_error' => 'Σφάλμα: Ο πίνακας ιντερβίκι είναι άδειος, ή κάτι άλλο έχει πάει στραβά.',
 	'interwiki_reasonfield' => 'Λόγος',
 	'interwiki_defaultreason' => 'Δεν δίνετε λόγος',
@@ -1553,7 +1556,7 @@ $messages['ja'] = array(
 	'interwiki_log_edited' => 'インターウィキテーブル内の接頭辞 "$2" を ($3) (trans: $4) (local: $5) に変更しました',
 	'interwiki_log_deleted' => 'インターウィキテーブルから接頭辞 "$2" を削除しました',
 	'interwiki_logpagetext' => 'これは[[Special:Interwiki|インターウィキテーブル]]の変更記録です。',
-	'right-interwiki' => 'インターウィキの編集データ',
+	'right-interwiki' => 'インターウィキデータの編集',
 	'action-interwiki' => 'このインターウィキ項目の変更',
 );
 
