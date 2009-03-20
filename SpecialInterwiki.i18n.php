@@ -159,6 +159,15 @@ $messages['niu'] = array(
 	'interwiki_reasonfield' => 'Kakano',
 );
 
+/** Veps (Vepsan kel')
+ * @author Игорь Бродский
+ */
+$messages['vep'] = array(
+	'interwiki_1' => 'ka',
+	'interwiki_0' => 'ei',
+	'interwiki_addbutton' => 'Ližata',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  */
