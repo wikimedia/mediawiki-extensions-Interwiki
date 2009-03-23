@@ -132,6 +132,6 @@ $aliases['sw'] = array(
 
 /** Tagalog (Tagalog) */
 $aliases['tl'] = array(
-	'Interwiki' => array( 'Ugnayang-wiki' ),
+	'Interwiki' => array( 'Kawing-wiki' ),
 );
 
