@@ -159,15 +159,6 @@ $messages['niu'] = array(
 	'interwiki_reasonfield' => 'Kakano',
 );
 
-/** Veps (Vepsan kel')
- * @author Игорь Бродский
- */
-$messages['vep'] = array(
-	'interwiki_1' => 'ka',
-	'interwiki_0' => 'ei',
-	'interwiki_addbutton' => 'Ližata',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  */
@@ -2876,6 +2867,15 @@ Sto prefisso el podarìa èssar inesistente.',
 	'interwiki_log_deleted' => 'gà cavà el prefisso "$2" da la tabèla dei interwiki',
 	'interwiki_logpagetext' => 'Registro dei canbiamenti fati a la [[Special:Interwiki|tabèla dei interwiki]].',
 	'right-interwiki' => 'Cànbia i dati interwiki',
+);
+
+/** Veps (Vepsan kel')
+ * @author Игорь Бродский
+ */
+$messages['vep'] = array(
+	'interwiki_1' => 'ka',
+	'interwiki_0' => 'ei',
+	'interwiki_addbutton' => 'Ližata',
 );
 
 /** Vietnamese (Tiếng Việt)
