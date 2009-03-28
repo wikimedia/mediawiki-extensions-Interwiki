@@ -829,14 +829,17 @@ $messages['fa'] = array(
  * @author Nike
  */
 $messages['fi'] = array(
-	'interwiki' => 'Wikien väliset linkit',
+	'interwiki' => 'Wikienväliset linkit',
 	'interwiki-title-norights' => 'Selaa interwiki-tietueita',
-	'interwiki-desc' => 'Lisää [[Special:Interwiki|toimintosivun]], jonka avulla voi katsoa ja muokata interwiki-taulua',
+	'interwiki-desc' => 'Lisää [[Special:Interwiki|toimintosivun]], jonka avulla voi katsoa ja muokata interwiki-taulua.',
 	'interwiki_intro' => 'Lisätietoja interwiki-taulusta on sivulla [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]. On olemassa [[Special:Log/interwiki|loki]] interwiki-tauluun tehdyistä muutoksista.',
 	'interwiki_prefix' => 'Etuliite',
 	'interwiki_local' => 'Paikallinen wiki',
-	'interwiki_trans' => 'Salli wikienvälinen sisällytys.',
+	'interwiki_trans' => 'Sisällytä',
+	'interwiki_1' => 'kyllä',
+	'interwiki_0' => 'ei',
 	'interwiki_error' => 'Virhe: Interwiki-taulu on tyhjä tai jokin muu meni pieleen.',
+	'interwiki_edit' => 'Muokkaa',
 	'interwiki_reasonfield' => 'Syy',
 	'interwiki_defaultreason' => 'ei annettua syytä',
 	'interwiki_delquestion' => 'Poistetaan ”$1”',
