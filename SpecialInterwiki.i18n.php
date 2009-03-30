@@ -2466,8 +2466,7 @@ $messages['ru'] = array(
 $messages['sah'] = array(
 	'interwiki' => 'Интервики туруорууларын көрүү уонна уларытыы',
 	'interwiki-title-norights' => 'Интервики туһунан',
-	'interwiki_intro' => 'Инервики табылыыссатын туһунан сиһилии билиэххин баҕардаххына маны [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] көр. 
-Өссө интервики табылыыссатын [[Special:Log/interwiki|уларытыытын сурунаала]] баар.',
+	'interwiki_intro' => 'Бу интервики табылыыссата. Колонкаларга:',
 	'interwiki_prefix' => 'Префикс (эбиискэ)',
 	'interwiki_error' => 'Алҕас: Интервики табылыыссата кураанах эбэтэр туга эрэ сатамматах.',
 	'interwiki_reasonfield' => 'Төрүөтэ',
