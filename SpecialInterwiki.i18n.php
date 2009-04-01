@@ -1624,7 +1624,7 @@ $messages['km'] = array(
 	'interwiki' => 'មើលនិងកែប្រែទិន្នន័យអន្តរវិគី',
 	'interwiki-title-norights' => 'មើលទិន្នន័យអន្តរវិគី',
 	'interwiki-desc' => 'បន្ថែម[[Special:Interwiki|ទំព័រពិសេស]]ដើម្បីមើលនិងកែប្រែតារាងអន្តរវិគី',
-	'interwiki_intro' => 'មើល[http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]ចំពោះព័ត៌មានបន្ថែមអំពីតារាងអន្តរវិគី។ នេះ​ជា[[Special:Log/interwiki|កំណត់ហេតុនៃបំលាស់ប្តូរ]]ក្នុងតារាងអន្តរវិគីនេះ។',
+	'interwiki_intro' => 'នេះ​គឺជា​ទិដ្ឋភាពទូទៅ​នៃ​តារាង​អន្តរវិគី​។ ដែល​ជា​អត្ថន័យ​នៃ​ទិន្នន័យ​នៅ​ក្នុង​ជួរឈរ:',
 	'interwiki_prefix' => 'បុព្វបទ',
 	'interwiki_error' => 'កំហុស:តារាងអន្តរវិគីគឺទទេ ឬក៏មានអ្វីផ្សេងទៀតមានបញ្ហា។',
 	'interwiki_reasonfield' => 'មូលហេតុ',
@@ -2877,7 +2877,9 @@ Sto prefisso el podarìa èssar inesistente.',
 $messages['vep'] = array(
 	'interwiki_1' => 'ka',
 	'interwiki_0' => 'ei',
+	'interwiki_edit' => 'Redaktiruida',
 	'interwiki_addbutton' => 'Ližata',
+	'interwiki_edittext' => 'Interwiki-prefiksoiden redaktiruind',
 );
 
 /** Vietnamese (Tiếng Việt)
