@@ -391,6 +391,7 @@ $messages['be-tarask'] = array(
 	'interwiki_log_deleted' => 'прэфікс «$2» выдалены з табліцы інтэрвікі',
 	'interwiki_logpagetext' => 'Гэта журнал зьменаў [[Special:Interwiki|табліцы інтэрвікі]].',
 	'right-interwiki' => 'Рэдагаваньне зьвестак інтэрвікі',
+	'action-interwiki' => 'зьмяніць гэты элемэнт інтэрвікі',
 );
 
 /** Bulgarian (Български)
