@@ -2248,6 +2248,13 @@ $messages['os'] = array(
 	'interwiki_reasonfield' => 'Аххос',
 );
 
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'interwiki_edit' => 'Ennere',
+);
+
 /** Polish (Polski)
  * @author Leinad
  * @author McMonster
