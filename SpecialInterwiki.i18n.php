@@ -2625,11 +2625,47 @@ Obsahuje [[Special:Log/interwiki|záznam zmien]] tabuľky interwiki.',
 
 /** Serbian Cyrillic ekavian (ћирилица)
  * @author Sasa Stefanovic
+ * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
+	'interwiki' => 'Прегледај и измени податке о међувикију',
+	'interwiki-title-norights' => 'Прегледај податке о међувикију',
+	'interwiki-desc' => 'Додаје [[Special:Interwiki|специјалну страну]] за преглед и измену табеле међувикија',
+	'interwiki_intro' => 'Ово је преглед табеле међувикија. Значења података у колонама:',
+	'interwiki_prefix' => 'Префикс',
+	'interwiki_prefix_intro' => 'Међувики префикс који ће бити коришћен у <code>[<nowiki />[prefix:<i>pagename</i>]]</code> викитекст синтакси.',
+	'interwiki_local' => 'Напред',
+	'interwiki_trans_intro' => 'Ако је коришћена викитекст синтакса <code>{<nowiki />{prefix:<i>pagename</i>}}</code>, онда:',
+	'interwiki_1' => 'да',
+	'interwiki_0' => 'не',
+	'interwiki_error' => 'Грешка: табела међувикија је празна, или нешто друго није у реду.',
+	'interwiki_edit' => 'Измени',
 	'interwiki_reasonfield' => 'Разлог',
+	'interwiki_defaultreason' => 'није дат разлог',
 	'interwiki_delquestion' => 'Бришем „$1”',
+	'interwiki_deleting' => 'Ви бришете префикс "$1".',
+	'interwiki_deleted' => 'Префикс "$1" је успешно обрисан из табеле међувикија.',
+	'interwiki_delfailed' => 'Префикс "$1" није могао бити обрисан из табеле међувикија.',
+	'interwiki_addtext' => 'Додај интервики префикс',
+	'interwiki_addintro' => 'Ви додајете један интервики префикс.
+Имајте на уму да он не може да садржи размаке ( ), двотачку (:), амерсанд (&), или знак једнакости (=).',
 	'interwiki_addbutton' => 'Додај',
+	'interwiki_added' => 'Префикс "$1" је успешно додат у табелу међувикија.',
+	'interwiki_addfailed' => 'Префикс "$1" није могао бити додат у табелу међувикија.
+Вероватно већ постоји у њој.',
+	'interwiki_edittext' => 'Мењање међувики префикса',
+	'interwiki_editintro' => 'Ви менате један међувики префикс.
+Имајте на уму да ти може да оштети постојеће међувики везе.',
+	'interwiki_edited' => 'Префикс "$1" је успешно измењен у табели међувикија.',
+	'interwiki_editerror' => 'Префикс "$1" не може бити измењен у табели међувикија.
+Вероватно затшо што не постоји.',
+	'interwiki-badprefix' => 'Задати међувики префикс "$1" садржи недозвољене знакове',
+	'interwiki_logpagename' => 'Историја табеле међувикија',
+	'interwiki_log_added' => 'додат префикс "$2" ($3) (транс: $4) (локално: $5) табели међувикија',
+	'interwiki_log_edited' => 'измењен је префикс "$2" : ($3) (транс: $4) (локално: %5) у табели међувикија',
+	'interwiki_log_deleted' => 'префикс "$2" је избрисан из табеле међувикија',
+	'interwiki_logpagetext' => 'Ово је историја измена [[Special:Interwiki|табеле међувикија]].',
+	'right-interwiki' => 'Измени међувики',
 );
 
 /** Seeltersk (Seeltersk)
