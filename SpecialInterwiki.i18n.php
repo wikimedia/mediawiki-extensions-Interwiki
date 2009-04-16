@@ -135,9 +135,7 @@ Parameter $1 contains the following (a link): [http://www.mediawiki.org/wiki/Int
 	'interwiki_defaultreason' => 'This message is the default reason in the interwiki log (when adding or deleting a prefix).
 
 {{Identical|No reason given}}',
-	'interwiki_delquestion' => 'Parameter $1 is the interwiki prefix you are deleting.
-
-{{Identical|Deleting $1}}',
+	'interwiki_delquestion' => 'Parameter $1 is the interwiki prefix you are deleting.',
 	'interwiki_deleting' => '-',
 	'interwiki_addbutton' => 'This message is the text of the button to submit the interwiki prefix you are adding.
 
