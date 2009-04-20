@@ -1814,6 +1814,7 @@ $messages['lb'] = array(
 	'interwiki_intro' => "Dëst ass en Iwwerbléck iwwert d'Interwiki-Tabell.
 D'Bedeitung vun den Informatiounen an de Kolonnen:",
 	'interwiki_prefix' => 'Prefix',
+	'interwiki_prefix_intro' => 'Interwiki-Prefix fir an der Form <code>[<nowiki />[prefix:<i>Säitennumm</i>]]</code> am Wikitext gebraucht ze ginn.',
 	'interwiki_url_intro' => 'Schabloun fir URLen. $1 gëtt duerch <i>Säitennumm</i> aus der uewe genannter Syntax am Wikitext ersat.',
 	'interwiki_local' => 'Viruleeden',
 	'interwiki_local_0_intro' => 'net erfëllt, gëtt normalerweis mat „Säit net fonnt“ blockéiert',
@@ -2297,6 +2298,7 @@ Prawdopodobnie ten prefiks już jest w tableli.',
 );
 
 /** Pontic (Ποντιακά)
+ * @author Crazymadlover
  * @author Omnipaedista
  */
 $messages['pnt'] = array(
