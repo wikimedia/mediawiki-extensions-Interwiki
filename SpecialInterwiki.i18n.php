@@ -2308,6 +2308,7 @@ $messages['pnt'] = array(
 	'interwiki_0' => 'όχι',
 	'interwiki_edit' => 'Ἀλλαγμαν',
 	'interwiki_delquestion' => 'Διαγραφήν του "$1"',
+	'right-interwiki' => 'Άλλαξον τα δογμενία ιντερβίκι',
 );
 
 /** Pashto (پښتو)
@@ -2448,6 +2449,7 @@ $messages['roa-tara'] = array(
 /** Russian (Русский)
  * @author Ferrer
  * @author Illusion
+ * @author Innv
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -2459,7 +2461,10 @@ $messages['ru'] = array(
 	'interwiki_local' => 'Определено как локальная вики',
 	'interwiki_local_intro' => 'HTTP-запросом в местную вики с интервики-приставкой в URL является:',
 	'interwiki_trans' => 'Резрешение интервики-включений',
+	'interwiki_1' => 'да',
+	'interwiki_0' => 'нет',
 	'interwiki_error' => 'ОШИБКА: таблица интервики пуста или что-то другое работает ошибочно.',
+	'interwiki_edit' => 'Править',
 	'interwiki_reasonfield' => 'Причина',
 	'interwiki_defaultreason' => 'причина не указана',
 	'interwiki_delquestion' => 'Удаление «$1»',
