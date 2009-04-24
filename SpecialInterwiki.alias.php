@@ -48,6 +48,11 @@ $aliases['fa'] = array(
 	'Interwiki' => array( 'میان‌ویکی' ),
 );
 
+/** Franco-Provençal (Arpetan) */
+$aliases['frp'] = array(
+	'Interwiki' => array( 'Entèrvouiqui' ),
+);
+
 /** Galician (Galego) */
 $aliases['gl'] = array(
 	'Interwiki' => array( 'Interwiki' ),
