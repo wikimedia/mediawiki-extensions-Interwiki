@@ -16,6 +16,7 @@
 if (!defined('MEDIAWIKI')) die();
 
 $wgExtensionCredits['specialpage'][] = array(
+	'path'           => __FILE__,
 	'name'           => 'SpecialInterwiki',
 	'url'            => 'http://mediawiki.org/wiki/Extension:SpecialInterwiki',
 	'description'    => 'Adds a [[Special:Interwiki|special page]] to view and edit the interwiki table',
