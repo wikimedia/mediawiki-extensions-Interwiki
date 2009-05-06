@@ -2486,7 +2486,7 @@ $messages['ru'] = array(
 	'interwiki_log_edited' => 'изменил приставку «$2»: ($3) (меж.: $4) (лок.: $5) в интервики-таблице',
 	'interwiki_log_deleted' => 'Приставка «$2» удалена из таблицы интервики',
 	'interwiki_logpagetext' => 'Это журнал изменений [[Special:Interwiki|таблицы интервики]].',
-	'right-interwiki' => 'Правка интервики',
+	'right-interwiki' => 'правка интервики',
 );
 
 /** Yakut (Саха тыла)
