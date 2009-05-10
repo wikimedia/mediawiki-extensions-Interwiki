@@ -1096,9 +1096,12 @@ Villicht git s es nit.',
 	'action-interwiki' => 'Där Interwiki-Yytrag ändere',
 );
 
-/** Gujarati (ગુજરાતી) */
+/** Gujarati (ગુજરાતી)
+ * @author Dineshjk
+ */
 $messages['gu'] = array(
 	'interwiki_reasonfield' => 'કારણ',
+	'interwiki_defaultreason' => 'કોઇ કારણ દર્શાવવામાં આવ્યું નથી',
 );
 
 /** Manx (Gaelg)
