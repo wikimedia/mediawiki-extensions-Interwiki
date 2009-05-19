@@ -488,6 +488,13 @@ Moguće je da uopće ne postoji.',
 	'action-interwiki' => 'mijenjate ovu stavku interwikija',
 );
 
+/** Catalan (Català)
+ * @author Solde
+ */
+$messages['ca'] = array(
+	'interwiki_reasonfield' => 'Motiu',
+);
+
 /** Czech (Česky)
  * @author Danny B.
  */
