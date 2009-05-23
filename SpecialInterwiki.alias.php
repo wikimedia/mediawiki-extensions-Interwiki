@@ -93,6 +93,11 @@ $aliases['ko'] = array(
 	'Interwiki' => array( '인터위키' ),
 );
 
+/** Ripoarisch (Ripoarisch) */
+$aliases['ksh'] = array(
+	'Interwiki' => array( 'EngerWiki', 'Engerwiki' ),
+);
+
 /** Latin (Latina) */
 $aliases['la'] = array(
 	'Interwiki' => array( 'Intervici' ),
