@@ -492,7 +492,11 @@ Moguće je da uopće ne postoji.',
  * @author Solde
  */
 $messages['ca'] = array(
+	'interwiki_1' => 'sí',
+	'interwiki_0' => 'no',
+	'interwiki_edit' => 'Edita',
 	'interwiki_reasonfield' => 'Motiu',
+	'interwiki_delquestion' => 'S\'està eliminant "$1"',
 );
 
 /** Czech (Česky)
