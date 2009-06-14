@@ -699,6 +699,7 @@ $messages['el'] = array(
 	'interwiki_1' => 'ναι',
 	'interwiki_0' => 'όχι',
 	'interwiki_error' => 'Σφάλμα: Ο πίνακας ιντερβίκι είναι άδειος, ή κάτι άλλο έχει πάει στραβά.',
+	'interwiki_edit' => 'Επεξεργασία',
 	'interwiki_reasonfield' => 'Λόγος',
 	'interwiki_defaultreason' => 'Δεν δίνετε λόγος',
 	'interwiki_delquestion' => 'Διαγραφή του "$1"',
