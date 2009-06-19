@@ -489,6 +489,7 @@ Moguće je da uopće ne postoji.',
 );
 
 /** Catalan (Català)
+ * @author SMP
  * @author Solde
  */
 $messages['ca'] = array(
@@ -496,7 +497,7 @@ $messages['ca'] = array(
 	'interwiki_0' => 'no',
 	'interwiki_edit' => 'Edita',
 	'interwiki_reasonfield' => 'Motiu',
-	'interwiki_delquestion' => 'S\'està eliminant "$1"',
+	'interwiki_delquestion' => "S'està eliminant «$1»",
 );
 
 /** Czech (Česky)
@@ -2158,14 +2159,17 @@ Kanskje finst det ikkje.',
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
+ * @author Nghtwlkr
  */
 $messages['no'] = array(
 	'interwiki' => 'Vis og manipuler interwikidata',
 	'interwiki-title-norights' => 'Vis interwikidata',
 	'interwiki-desc' => 'Legger til en [[Special:Interwiki|spesialside]] som gjør at man kan se og redigere interwiki-tabellen.',
-	'interwiki_intro' => 'Se [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] for mer informasjon om interwikitabellen. Det er en [[Special:Log/interwiki|logg]] over endringer i interwikitabellen.',
+	'interwiki_intro' => 'Dette er en oversikt over interwikitabellen. Betydningene til dataene i kolonnene:',
 	'interwiki_prefix' => 'Prefiks',
-	'interwiki_local' => 'Lokal',
+	'interwiki_local' => 'Videresend',
+	'interwiki_1' => 'ja',
+	'interwiki_0' => 'nei',
 	'interwiki_error' => 'FEIL: Interwikitabellen er tom, eller noe gikk gærent.',
 	'interwiki_reasonfield' => 'Årsak',
 	'interwiki_defaultreason' => 'ingen grunn gitt',
@@ -2270,7 +2274,9 @@ $messages['os'] = array(
  * @author Xqt
  */
 $messages['pdc'] = array(
+	'interwiki_1' => 'ya',
 	'interwiki_edit' => 'Ennere',
+	'interwiki_reasonfield' => 'Grund',
 );
 
 /** Polish (Polski)
