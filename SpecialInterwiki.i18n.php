@@ -2480,11 +2480,20 @@ $messages['ru'] = array(
 	'interwiki' => 'Просмотр и изменение настроек интервики',
 	'interwiki-title-norights' => 'Просмотреть данные об интервики',
 	'interwiki-desc' => 'Добавляет [[Special:Interwiki|служебную страницу]] для просмотра и редактирования таблицы префиксов интервики.',
-	'interwiki_intro' => 'См. [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org], чтобы получить более подробную информацию о таблице интервики. Существует также  [[Special:Log/interwiki|журнал изменений]] таблицы интервики.',
+	'interwiki_intro' => 'Это обзор таблицы интервики. Значения данных в колонках:',
 	'interwiki_prefix' => 'Приставка',
-	'interwiki_local' => 'Определено как локальная вики',
+	'interwiki_prefix_intro' => 'Приставка интервики для использования в <code>[<nowiki />[prefix:<i>pagename</i>]]</code> синтаксисе вики-текста.',
+	'interwiki_url_intro' => 'Шаблон лоя URL. Место $1 может быть заменено <i>pagename</i> в вики-тексте, когда вышестоящий синтаксис викитекста используется.',
+	'interwiki_local' => 'Передний',
 	'interwiki_local_intro' => 'HTTP-запросом в местную вики с интервики-приставкой в URL является:',
+	'interwiki_local_0_intro' => 'не допускается, блокируется «страница не найдена»,',
+	'interwiki_local_1_intro' => 'перенаправляет на целевой URL, данный в определении интервики ссылки (т.е. как и ссылки на локальные страницы)',
 	'interwiki_trans' => 'Включение',
+	'interwiki_trans_intro' => 'Если синтактис вики-текста <code>{<nowiki />{prefix:<i>pagename</i>}}</code> используется, тогда:',
+	'interwiki_trans_1_intro' => 'позволяет включение из других вики, если включение интервики разрешено в этой вики,',
+	'interwiki_trans_0_intro' => 'не позволяют ему, посмотреть для страницы в шаблоне пространства имён.',
+	'interwiki_intro_footer' => 'Смотрите [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] для больше информации о таблице интервики.
+Существует [[Special:Log/interwiki|журнал изменений]] таблицы интервики.',
 	'interwiki_1' => 'да',
 	'interwiki_0' => 'нет',
 	'interwiki_error' => 'ОШИБКА: таблица интервики пуста или что-то другое работает ошибочно.',
@@ -2511,6 +2520,7 @@ $messages['ru'] = array(
 	'interwiki_log_deleted' => 'Приставка «$2» удалена из таблицы интервики',
 	'interwiki_logpagetext' => 'Это журнал изменений [[Special:Interwiki|таблицы интервики]].',
 	'right-interwiki' => 'правка интервики',
+	'action-interwiki' => 'изменил запись интервики',
 );
 
 /** Yakut (Саха тыла)
