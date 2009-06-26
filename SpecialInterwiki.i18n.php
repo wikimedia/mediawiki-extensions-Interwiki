@@ -1453,6 +1453,7 @@ Es possibile que illo non existe.',
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author Bennylin
  * @author Rex
  */
 $messages['id'] = array(
@@ -1461,9 +1462,12 @@ $messages['id'] = array(
 	'interwiki-desc' => 'Menambahkan sebuah [[Special:Interwiki|halaman istimewa]] untuk menampilkan dan menyunting tabel interwiki',
 	'interwiki_intro' => 'Lihat [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] untuk informasi lebih lanjut mengenai tabel interwiki. Lihat [[Special:Log/interwiki|log perubahan]] tabel interwiki.',
 	'interwiki_prefix' => 'Prefiks',
+	'interwiki_1' => 'ya',
+	'interwiki_0' => 'tidak',
 	'interwiki_error' => 'KESALAHAN: Tabel interwiki kosong, atau terjadi kesalahan lain.',
+	'interwiki_edit' => 'Sunting',
 	'interwiki_reasonfield' => 'Alasan',
-	'interwiki_defaultreason' => 'tidak ada ringkasan penjelasan',
+	'interwiki_defaultreason' => 'tidak ada alasan yang diberikan',
 	'interwiki_delquestion' => 'Menghapus "$1"',
 	'interwiki_deleting' => 'Anda menghapus prefiks "$1".',
 	'interwiki_deleted' => 'Prefiks "$1" berhasil dihapus dari tabel interwiki.',
