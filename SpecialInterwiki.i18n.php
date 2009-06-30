@@ -1604,13 +1604,13 @@ $messages['ja'] = array(
 
 /** Javanese (Basa Jawa)
  * @author Meursault2004
+ * @author Pras
  */
 $messages['jv'] = array(
 	'interwiki' => 'Ndeleng lan nyunting data interwiki',
 	'interwiki-title-norights' => 'Ndeleng data interwiki',
 	'interwiki-desc' => 'Nambahaké sawijining [[Special:Interwiki|kaca astaméwa]] kanggo ndeleng lan nyunting tabèl interwiki',
-	'interwiki_intro' => 'Mangga mirsani [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] kanggo informasi sabanjuré perkara tabèl interwiki.
-Ana sawijining [[Special:Log/interwiki|log owah-owahan]] perkara tabèl interwiki.',
+	'interwiki_intro' => 'Iki sawijining gambaran saka tabel interwiki. Makna data sing ana ing kolom:',
 	'interwiki_prefix' => 'Préfiks (sisipan awal)',
 	'interwiki_error' => 'KALUPUTAN: Tabèl interwikiné kosong, utawa ana masalah liya.',
 	'interwiki_reasonfield' => 'Alesan',
@@ -2454,12 +2454,14 @@ Existe um [[Special:Log/interwiki|registro de modificações]] à tabela de inte
 );
 
 /** Romanian (Română)
+ * @author Firilacroco
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
 	'interwiki_reasonfield' => 'Motiv',
 	'interwiki_defaultreason' => 'nici un motiv oferit',
 	'interwiki_addbutton' => 'Adaugă',
+	'action-interwiki' => 'modificaţi această legătură interwiki',
 );
 
 /** Tarandíne (Tarandíne)
