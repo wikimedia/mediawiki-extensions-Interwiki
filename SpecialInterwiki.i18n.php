@@ -1233,16 +1233,16 @@ $messages['hil'] = array(
 /** Croatian (Hrvatski)
  * @author Dalibor Bosits
  * @author SpeedyGonsales
+ * @author Suradnik13
  */
 $messages['hr'] = array(
 	'interwiki' => 'Vidi i uredi međuwiki podatke',
 	'interwiki-title-norights' => 'Gledanje interwiki tablice',
 	'interwiki-desc' => 'Dodaje [[Special:Interwiki|posebnu stranicu]] za gledanje i uređivanje interwiki tablice',
-	'interwiki_intro' => 'Pogledajte [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] za više informacija o interwiki tablici.
-Postoji [[Special:Log/interwiki|evidencija promjena]] za interwiki tablicu.',
+	'interwiki_intro' => 'Ovo je pregled međuwiki tablice. Značenja podataka u stupcima:',
 	'interwiki_prefix' => 'Prefiks',
-	'interwiki_local' => 'Odredi kao mjesni wiki',
-	'interwiki_trans' => 'Odobri međuwiki transkluziju',
+	'interwiki_local' => 'Proslijedi',
+	'interwiki_trans' => 'Transkludiraj',
 	'interwiki_error' => 'GREŠKA: Interwiki tablica je prazna, ili je nešto drugo neispravno.',
 	'interwiki_reasonfield' => 'Razlog',
 	'interwiki_defaultreason' => 'nema razloga',
@@ -1970,6 +1970,7 @@ $messages['mr'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Aurora
  * @author Aviator
  * @author Diagramma Della Verita
  */
@@ -1980,6 +1981,7 @@ $messages['ms'] = array(
 	'interwiki_prefix' => 'Awalan',
 	'interwiki_local' => 'Tetapkan sebagai wiki tempatan',
 	'interwiki_trans' => 'Benarkan penyertaan interwiki',
+	'interwiki_1' => 'ya',
 	'interwiki_error' => 'Ralat: Jadual interwiki kosong atau sesuatu yang tidak kena berlaku.',
 	'interwiki_reasonfield' => 'Sebab',
 	'interwiki_defaultreason' => 'tiada sebab diberikan',
