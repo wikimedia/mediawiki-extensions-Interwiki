@@ -113,6 +113,11 @@ $aliases['mk'] = array(
 	'Interwiki' => array( 'Интервики' ),
 );
 
+/** Malayalam (മലയാളം) */
+$aliases['ml'] = array(
+	'Interwiki' => array( 'അന്തര്‍‌വിക്കി' ),
+);
+
 /** Maltese (Malti) */
 $aliases['mt'] = array(
 	'Interwiki' => array( 'Interwiki' ),
