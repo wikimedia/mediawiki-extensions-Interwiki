@@ -757,12 +757,14 @@ Verŝajne ĝi ne ekzistas.',
 /** Spanish (Español)
  * @author Crazymadlover
  * @author Imre
+ * @author Locos epraix
  * @author Piolinfax
  * @author Sanbec
  */
 $messages['es'] = array(
 	'interwiki' => 'Ver y editar la tabla de interwikis',
 	'interwiki-title-norights' => 'Ver datos de interwikis',
+	'interwiki-desc' => 'Añade una [[Special:Interwiki|página especial]] para ver y editar la tabla de interwikis',
 	'interwiki_intro' => 'Esta es una visión general de la tabla intewiki. Los significados de los datos en las columnas:',
 	'interwiki_prefix' => 'Prefijo',
 	'interwiki_local' => 'Adelante',
@@ -791,10 +793,12 @@ Recuerda que esto puede romper enlaces existentes.',
 	'interwiki_editerror' => 'El prefijo «$1» no puede ser modificado en la tabla de interwikis.
 Posiblemente no exista.',
 	'interwiki-badprefix' => 'El prefijo interwiki especificado «$1» contiene caracteres no válidos',
+	'interwiki_logpagename' => 'Tabla de registro de interwiki',
 	'interwiki_log_added' => 'añadido el prefijo «$2» ($3) (trans: $4) (local: $5) a la tabla de interwikis',
 	'interwiki_log_edited' => 'modificado el prefijo «$2» : ($3) (trans: $4) (local: $5) en la tabla de interwikis',
 	'interwiki_log_deleted' => 'eliminado el prefijo «$2» de la tabla de interwikis',
 	'right-interwiki' => 'Editar datos de interwiki',
+	'action-interwiki' => 'cambiar esta entrada interwiki',
 );
 
 /** Basque (Euskara)
