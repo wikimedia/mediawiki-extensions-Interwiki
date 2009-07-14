@@ -2285,6 +2285,7 @@ $messages['os'] = array(
  */
 $messages['pdc'] = array(
 	'interwiki_1' => 'ya',
+	'interwiki_0' => 'nee',
 	'interwiki_edit' => 'Ennere',
 	'interwiki_reasonfield' => 'Grund',
 );
