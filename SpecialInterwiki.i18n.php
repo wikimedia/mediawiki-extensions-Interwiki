@@ -2296,7 +2296,7 @@ $messages['pdc'] = array(
  * @author Sp5uhe
  */
 $messages['pl'] = array(
-	'interwiki' => 'Zobacz i edytuj dane interwiki',
+	'interwiki' => 'Podgląd i edycja danych interwiki',
 	'interwiki-title-norights' => 'Zobacz dane interwiki',
 	'interwiki-desc' => 'Dodaje [[Special:Interwiki|stronę specjalną]] służącą do przeglądania i redakcji tablicy interwiki.',
 	'interwiki_intro' => 'Przegląd tabeli interwiki. W kolumnach tabeli umieszczono następujące informacje:',
