@@ -806,7 +806,10 @@ Posiblemente no exista.',
  */
 $messages['eu'] = array(
 	'interwiki_prefix' => 'Aurrizkia',
+	'interwiki_1' => 'bai',
+	'interwiki_0' => 'ez',
 	'interwiki_reasonfield' => 'Arrazoia',
+	'interwiki_defaultreason' => 'ez da arrazoirik eman',
 	'interwiki_delquestion' => '"$1" ezabatzen',
 	'interwiki_deleting' => '"$1" aurrizkia ezabatzen ari zara.',
 	'interwiki_addbutton' => 'Erantsi',
