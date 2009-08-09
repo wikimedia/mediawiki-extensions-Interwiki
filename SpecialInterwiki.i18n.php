@@ -2354,6 +2354,7 @@ $messages['pnt'] = array(
  */
 $messages['ps'] = array(
 	'interwiki_prefix' => 'مختاړی',
+	'interwiki_edit' => 'سمون',
 	'interwiki_reasonfield' => 'سبب',
 	'interwiki_defaultreason' => 'هېڅ کوم سبب نه دی ورکړ شوی',
 	'interwiki_delquestion' => '"$1" د ړنګولو په حال کې دی...',
