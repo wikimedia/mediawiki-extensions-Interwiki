@@ -801,6 +801,17 @@ Posiblemente no exista.',
 	'action-interwiki' => 'cambiar esta entrada interwiki',
 );
 
+/** Estonian (Eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'interwiki_1' => 'jah',
+	'interwiki_0' => 'ei',
+	'interwiki_edit' => 'Redigeeri',
+	'interwiki_reasonfield' => 'Põhjus',
+	'interwiki_defaultreason' => 'põhjendust ei ole kirja pandud',
+);
+
 /** Basque (Euskara)
  * @author Kobazulo
  */
@@ -1658,6 +1669,7 @@ $messages['ka'] = array(
  * @author Lovekhmer
  * @author Thearith
  * @author គីមស៊្រុន
+ * @author វ័ណថារិទ្ធ
  */
 $messages['km'] = array(
 	'interwiki' => 'មើលនិងកែប្រែទិន្នន័យអន្តរវិគី',
@@ -1666,6 +1678,7 @@ $messages['km'] = array(
 	'interwiki_intro' => 'នេះ​គឺជា​ទិដ្ឋភាពទូទៅ​នៃ​តារាង​អន្តរវិគី​។ ដែល​ជា​អត្ថន័យ​នៃ​ទិន្នន័យ​នៅ​ក្នុង​ជួរឈរ:',
 	'interwiki_prefix' => 'បុព្វបទ',
 	'interwiki_error' => 'កំហុស:តារាងអន្តរវិគីគឺទទេ ឬក៏មានអ្វីផ្សេងទៀតមានបញ្ហា។',
+	'interwiki_edit' => 'កែប្រែ​',
 	'interwiki_reasonfield' => 'មូលហេតុ',
 	'interwiki_defaultreason' => 'គ្មានមូលហេតុត្រូវបានផ្តល់ឱ្យ',
 	'interwiki_delquestion' => 'ការលុបចេញ "$1"',
@@ -1986,10 +1999,12 @@ $messages['ms'] = array(
 	'interwiki-title-norights' => 'Lihat data interwiki',
 	'interwiki_intro' => 'Lihat [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] untuk maklumat lanjut mengenai jadual interwiki. Terdapat sebuah [[Special:Log/interwiki|log untuk perubahan-perubahan]] pada jadual interwiki.',
 	'interwiki_prefix' => 'Awalan',
-	'interwiki_local' => 'Tetapkan sebagai wiki tempatan',
+	'interwiki_local' => 'Kiriman',
 	'interwiki_trans' => 'Benarkan penyertaan interwiki',
 	'interwiki_1' => 'ya',
+	'interwiki_0' => 'tidak',
 	'interwiki_error' => 'Ralat: Jadual interwiki kosong atau sesuatu yang tidak kena berlaku.',
+	'interwiki_edit' => 'Sunting',
 	'interwiki_reasonfield' => 'Sebab',
 	'interwiki_defaultreason' => 'tiada sebab diberikan',
 	'interwiki_delquestion' => 'Menghapuskan "$1"',
@@ -2010,6 +2025,7 @@ $messages['ms'] = array(
 	'interwiki_log_edited' => 'mengubah awalan "$2" : ($3) (penyertaan: $4) (tempatan: $5) in the interwiki table',
 	'interwiki_log_deleted' => 'membuang awalan "$2" daripada jadual interwiki',
 	'right-interwiki' => 'Ubah data interwiki',
+	'action-interwiki' => 'tukar data interwiki berikut',
 );
 
 /** Erzya (Эрзянь)
@@ -2469,8 +2485,13 @@ Existe um [[Special:Log/interwiki|registro de modificações]] à tabela de inte
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
+	'interwiki_prefix' => 'Prefix',
+	'interwiki_1' => 'da',
+	'interwiki_0' => 'nu',
+	'interwiki_edit' => 'Modificare',
 	'interwiki_reasonfield' => 'Motiv',
 	'interwiki_defaultreason' => 'nici un motiv oferit',
+	'interwiki_delquestion' => 'Ştergere "$1"',
 	'interwiki_addbutton' => 'Adaugă',
 	'action-interwiki' => 'modificaţi această legătură interwiki',
 );
@@ -2723,6 +2744,50 @@ $messages['sr-ec'] = array(
 	'interwiki_log_deleted' => 'префикс "$2" је избрисан из табеле међувикија',
 	'interwiki_logpagetext' => 'Ово је историја измена [[Special:Interwiki|табеле међувикија]].',
 	'right-interwiki' => 'Измени међувики',
+);
+
+/** latinica (latinica)
+ * @author Michaello
+ */
+$messages['sr-el'] = array(
+	'interwiki' => 'Pregledaj i izmeni podatke o međuvikiju',
+	'interwiki-title-norights' => 'Pregledaj podatke o međuvikiju',
+	'interwiki-desc' => 'Dodaje [[Special:Interwiki|specijalnu stranu]] za pregled i izmenu tabele međuvikija',
+	'interwiki_intro' => 'Ovo je pregled tabele međuvikija. Značenja podataka u kolonama:',
+	'interwiki_prefix' => 'Prefiks',
+	'interwiki_prefix_intro' => 'Međuviki prefiks koji će biti korišćen u <code>[<nowiki />[prefix:<i>pagename</i>]]</code> vikitekst sintaksi.',
+	'interwiki_local' => 'Napred',
+	'interwiki_trans_intro' => 'Ako je korišćena vikitekst sintaksa <code>{<nowiki />{prefix:<i>pagename</i>}}</code>, onda:',
+	'interwiki_1' => 'da',
+	'interwiki_0' => 'ne',
+	'interwiki_error' => 'Greška: tabela međuvikija je prazna, ili nešto drugo nije u redu.',
+	'interwiki_edit' => 'Izmeni',
+	'interwiki_reasonfield' => 'Razlog',
+	'interwiki_defaultreason' => 'nije dat razlog',
+	'interwiki_delquestion' => 'Brišem „$1”',
+	'interwiki_deleting' => 'Vi brišete prefiks "$1".',
+	'interwiki_deleted' => 'Prefiks "$1" je uspešno obrisan iz tabele međuvikija.',
+	'interwiki_delfailed' => 'Prefiks "$1" nije mogao biti obrisan iz tabele međuvikija.',
+	'interwiki_addtext' => 'Dodaj interviki prefiks',
+	'interwiki_addintro' => 'Vi dodajete jedan interviki prefiks.
+Imajte na umu da on ne može da sadrži razmake ( ), dvotačku (:), amersand (&), ili znak jednakosti (=).',
+	'interwiki_addbutton' => 'Dodaj',
+	'interwiki_added' => 'Prefiks "$1" je uspešno dodat u tabelu međuvikija.',
+	'interwiki_addfailed' => 'Prefiks "$1" nije mogao biti dodat u tabelu međuvikija.
+Verovatno već postoji u njoj.',
+	'interwiki_edittext' => 'Menjanje međuviki prefiksa',
+	'interwiki_editintro' => 'Vi menate jedan međuviki prefiks.
+Imajte na umu da ti može da ošteti postojeće međuviki veze.',
+	'interwiki_edited' => 'Prefiks "$1" je uspešno izmenjen u tabeli međuvikija.',
+	'interwiki_editerror' => 'Prefiks "$1" ne može biti izmenjen u tabeli međuvikija.
+Verovatno zatšo što ne postoji.',
+	'interwiki-badprefix' => 'Zadati međuviki prefiks "$1" sadrži nedozvoljene znakove',
+	'interwiki_logpagename' => 'Istorija tabele međuvikija',
+	'interwiki_log_added' => 'dodat prefiks "$2" ($3) (trans: $4) (lokalno: $5) tabeli međuvikija',
+	'interwiki_log_edited' => 'izmenjen je prefiks "$2" : ($3) (trans: $4) (lokalno: %5) u tabeli međuvikija',
+	'interwiki_log_deleted' => 'prefiks "$2" je izbrisan iz tabele međuvikija',
+	'interwiki_logpagetext' => 'Ovo je istorija izmena [[Special:Interwiki|tabele međuvikija]].',
+	'right-interwiki' => 'Izmeni međuviki',
 );
 
 /** Seeltersk (Seeltersk)
