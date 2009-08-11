@@ -1711,6 +1711,14 @@ $messages['km'] = array(
 	'right-interwiki' => 'កែប្រែទិន្នន័យអន្តរវិគី',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author Nayvik
+ */
+$messages['kn'] = array(
+	'interwiki_1' => 'ಹೌದು',
+	'interwiki_0' => 'ಇಲ್ಲ',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  * @author ToePeu
@@ -3249,6 +3257,8 @@ $messages['zh-hant'] = array(
 	'interwiki_prefix' => '前綴',
 	'interwiki_local' => '定義這個為一個本地wiki',
 	'interwiki_trans' => '容許跨維基包含',
+	'interwiki_1' => '是',
+	'interwiki_0' => '否',
 	'interwiki_error' => '錯誤: 跨維基連結表為空，或是發生其它錯誤。',
 	'interwiki_reasonfield' => '原因',
 	'interwiki_defaultreason' => '無給出原因',
