@@ -1962,6 +1962,13 @@ $messages['ml'] = array(
 	'interwiki_addbutton' => 'ചേര്‍ക്കുക',
 );
 
+/** Mongolian (Монгол)
+ * @author Chinneeb
+ */
+$messages['mn'] = array(
+	'interwiki_1' => 'тийм',
+);
+
 /** Marathi (मराठी)
  * @author Kaustubh
  */
