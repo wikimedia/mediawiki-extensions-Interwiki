@@ -965,9 +965,16 @@ Il existe un [[Special:Log/interwiki|journal des modifications]] de la table int
 );
 
 /** Franco-Provençal (Arpetan)
+ * @author Cedric31
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
+	'interwiki_1' => 'ouè',
+	'interwiki_0' => 'nan',
+	'interwiki_edit' => 'Changiér',
+	'interwiki_reasonfield' => 'Rêson',
+	'interwiki_defaultreason' => 'Gins de rêson balyê',
+	'interwiki_addbutton' => 'Apondre',
 	'interwiki_defaulturl' => 'http://www.ègzemplo.com/$1',
 );
 
