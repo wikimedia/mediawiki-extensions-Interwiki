@@ -159,12 +159,16 @@ $messages['niu'] = array(
 
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
+ * @author Naudefj
  */
 $messages['af'] = array(
 	'interwiki' => 'Bekyk en wysig interwiki data',
 	'interwiki-title-norights' => 'Bekyk interwiki data',
 	'interwiki-desc' => "Voeg 'n [[Special:Interwiki|spesiale bladsy]] by om die interwiki tabel te bekyk en wysig",
 	'interwiki_prefix' => 'Voorvoegsel',
+	'interwiki_1' => 'ja',
+	'interwiki_0' => 'nee',
+	'interwiki_edit' => 'Wysig',
 	'interwiki_reasonfield' => 'Rede',
 	'interwiki_defaultreason' => 'geen rede gegee',
 	'interwiki_delquestion' => 'Besig om "$1" te verwyder',
