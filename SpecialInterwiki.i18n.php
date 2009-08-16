@@ -1548,9 +1548,20 @@ $messages['it'] = array(
 	'interwiki-desc' => 'Aggiunge una [[Special:Interwiki|pagina speciale]] per visualizzare e modificare la tabella degli interwiki',
 	'interwiki_intro' => 'Questa è una panoramica della tabella degli interwiki. Il significato dei dati nelle colonne:',
 	'interwiki_prefix' => 'Prefisso',
+	'interwiki_prefix_intro' => 'Prefisso interwiki da utilizzare nella sintassi <code>[<nowiki />[prefisso:<i>nomepagina</i>]]</code>.',
+	'interwiki_url_intro' => 'Modello per gli URL. $1 sarà sostituito dal <i>nomepagina</i> del testo, quando la suddetta sintassi viene utilizzata.',
+	'interwiki_local_intro' => "Una richiesta HTTP al sito locale con questo prefisso interwiki nell'URL è:",
+	'interwiki_local_0_intro' => 'non eseguita, di solito bloccata da "pagina non trovata",',
+	'interwiki_local_1_intro' => "reindirizzata all'URL di destinazione indicato nella definizione del link interwiki (cioè trattati come riferimenti nelle pagine locali)",
+	'interwiki_trans' => 'Inclusione',
+	'interwiki_trans_intro' => 'Se la sintassi <code>{<nowiki />{prefisso:<i>nomepagina</i>}}</code> è usata, allora:',
+	'interwiki_trans_1_intro' => "permette l'inclusione da siti esterni, se le inclusioni interwiki sono generalmente permesse in questo sito,",
+	'interwiki_trans_0_intro' => 'non la permette, invece cerca una pagina nel namespace template.',
+	'interwiki_intro_footer' => 'Consultare [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] per maggiori informazioni sulle tabelle degli interwiki. Esiste un [[Special:Log/interwiki|registro delle modifiche]] alla tabella degli interwiki.',
 	'interwiki_1' => 'si',
 	'interwiki_0' => 'no',
 	'interwiki_error' => "ERRORE: La tabella degli interwiki è vuota, o c'è qualche altro errore.",
+	'interwiki_edit' => 'Modifica',
 	'interwiki_reasonfield' => 'Motivo',
 	'interwiki_defaultreason' => 'nessuna motivazione indicata',
 	'interwiki_delquestion' => 'Cancello "$1"',
@@ -1577,6 +1588,7 @@ Il prefisso potrebbe essere inesistente.',
 	'interwiki_log_deleted' => 'ha rimosso il prefisso "$2" dalla tabella degli interwiki',
 	'interwiki_logpagetext' => 'Registro dei cambiamenti apportati alla [[Special:Interwiki|tabella degli interwiki]].',
 	'right-interwiki' => 'Modifica i dati interwiki',
+	'action-interwiki' => 'modificare questo interwiki',
 );
 
 /** Japanese (日本語)
@@ -1613,7 +1625,7 @@ $messages['ja'] = array(
 	'interwiki_deleted' => '接頭辞 "$1" はインターウィキテーブルから正常に削除されました。',
 	'interwiki_delfailed' => '接頭辞 "$1" をインターウィキテーブルから削除できませんでした。',
 	'interwiki_addtext' => 'インターウィキの接頭辞を追加する',
-	'interwiki_addintro' => 'あなたはインターウィキの新しい接頭辞を追加しようとしています。その中にスペース ( )、コロン (:)、アンパーサンド (&)、等号 (=) といった記号を含むことができないことに注意してください。',
+	'interwiki_addintro' => 'あなたはインターウィキの新しい接頭辞を追加しようとしています。その中にスペース （ ）、コロン （:）、アンパーサンド （&）、等号 （=） といった記号を含むことができないことに注意してください。',
 	'interwiki_addbutton' => '追加',
 	'interwiki_added' => '接頭辞 "$1" はインターウィキテーブルに正常に追加されました。',
 	'interwiki_addfailed' => '接頭辞 "$1" をインターウィキテーブルに追加することができませんでした。すでに同じものが、インターウィキテーブルの中に存在している可能性があります。',
@@ -1623,8 +1635,8 @@ $messages['ja'] = array(
 	'interwiki_editerror' => 'インターウィキテーブル内で接頭辞 "$1" を変更できませんでした。存在していない可能性があります。',
 	'interwiki-badprefix' => '指定されたインターウィキ接頭辞 "$1" は無効な文字を含んでいます',
 	'interwiki_logpagename' => 'インターウィキ編集記録',
-	'interwiki_log_added' => 'インターウィキテーブルに接頭辞 "$2" ($3) (trans: $4) (local: $5) を追加しました',
-	'interwiki_log_edited' => 'インターウィキテーブル内の接頭辞 "$2" を ($3) (trans: $4) (local: $5) に変更しました',
+	'interwiki_log_added' => 'インターウィキテーブルに接頭辞 "$2" （$3） （trans: $4） （local: $5） を追加しました',
+	'interwiki_log_edited' => 'インターウィキテーブル内の接頭辞 "$2" を （$3） （trans: $4） （local: $5） に変更しました',
 	'interwiki_log_deleted' => 'インターウィキテーブルから接頭辞 "$2" を削除しました',
 	'interwiki_logpagetext' => 'これは[[Special:Interwiki|インターウィキテーブル]]の変更記録です。',
 	'right-interwiki' => 'インターウィキデータの編集',
@@ -2851,6 +2863,7 @@ $messages['su'] = array(
 
 /** Swedish (Svenska)
  * @author Boivie
+ * @author Fluff
  * @author Lejonel
  * @author M.M.S.
  * @author Najami
@@ -2862,7 +2875,9 @@ $messages['sv'] = array(
 	'interwiki_intro' => 'Se [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] för mer information om interwikitabellen.
 Det finns en [[Special:Log/interwiki|logg]] över ändringar av interwikitabellen.',
 	'interwiki_prefix' => 'Prefix',
+	'interwiki_prefix_intro' => 'Interwiki-prefix avsedda att användas i <code>[<nowiki />[prefix:<i>pagename</i>]]</code>-wikisyntax.',
 	'interwiki_local' => 'Vidarebefordra',
+	'interwiki_local_intro' => 'En HTTP-förfrågan till den lokala wikin med denna interwiki-prefix i webbadressen är:',
 	'interwiki_trans' => 'Transkludera',
 	'interwiki_intro_footer' => 'Se [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] för mer information om interwikitabellen.
 Det finns en [[Special:Log/interwiki|logg över ändringar]] i interwikitabellen.',
@@ -3244,7 +3259,7 @@ $messages['zh-hans'] = array(
 	'interwiki_delfailed' => '无法从连结表删除前缀"$1"。',
 	'interwiki_addtext' => '新增一个跨维基前缀',
 	'interwiki_addintro' => '您现在加入一个新的跨维基连结前缀。
-要记住它不可以包含空格 ( )、冒号 (:)、连字号 (&)，或者是等号 (=)。',
+要记住它不可以包含空格 （ ）、冒号 （:）、连字号 （&），或者是等号 （=）。',
 	'interwiki_addbutton' => '加入',
 	'interwiki_added' => '前缀 "$1" 已经成功地加入到跨维基连结表。',
 	'interwiki_addfailed' => '前缀 "$1" 不能加入到跨维基连结表。
@@ -3256,8 +3271,8 @@ $messages['zh-hans'] = array(
 	'interwiki_editerror' => '前缀 "$1" 不能在跨维基连结表中修改。
 可能它并不存在。',
 	'interwiki-badprefix' => '所指定的跨维基前缀 "$1" 含有无效的字母',
-	'interwiki_log_added' => '加入了连结前缀 "$2" ($3) (含: $4) (本: $5) 到跨维基连结表中',
-	'interwiki_log_edited' => '在跨维基连结表中修改了连结前缀 "$2" : ($3) (含: $4) (本: $5)',
+	'interwiki_log_added' => '加入了连结前缀 "$2" （$3） （含: $4） （本: $5） 到跨维基连结表中',
+	'interwiki_log_edited' => '在跨维基连结表中修改了连结前缀 "$2" : （$3） （含: $4） （本: $5）',
 	'interwiki_log_deleted' => '在跨维基连结表中已删除 "$2"',
 	'right-interwiki' => '修改跨维基资料',
 );
@@ -3286,7 +3301,7 @@ $messages['zh-hant'] = array(
 	'interwiki_delfailed' => '無法從連結表刪除前綴"$1"。',
 	'interwiki_addtext' => '新增一個跨維基前綴',
 	'interwiki_addintro' => '您現在加入一個新的跨維基連結前綴。
-要記住它不可以包含空格 ( )、冒號 (:)、連字號 (&)，或者是等號 (=)。',
+要記住它不可以包含空格 （ ）、冒號 （:）、連字號 （&），或者是等號 （=）。',
 	'interwiki_addbutton' => '加入',
 	'interwiki_added' => '前綴 "$1" 已經成功地加入到跨維基連結表。',
 	'interwiki_addfailed' => '前綴 "$1" 不能加入到跨維基連結表。
@@ -3298,8 +3313,8 @@ $messages['zh-hant'] = array(
 	'interwiki_editerror' => '前綴 "$1" 不能在跨維基連結表中修改。
 可能它並不存在。',
 	'interwiki-badprefix' => '所指定的跨維基前綴 "$1" 含有無效的字母',
-	'interwiki_log_added' => '加入了連結前綴 "$2" ($3) (含: $4) (本: $5) 到跨維基連結表中',
-	'interwiki_log_edited' => '在跨維基連結表中修改了連結前綴 "$2" : ($3) (含: $4) (本: $5)',
+	'interwiki_log_added' => '加入了連結前綴 "$2" （$3） （含: $4） （本: $5） 到跨維基連結表中',
+	'interwiki_log_edited' => '在跨維基連結表中修改了連結前綴 "$2" : （$3） （含: $4） （本: $5）',
 	'interwiki_log_deleted' => '在跨維基連結表中已刪除 "$2"',
 	'right-interwiki' => '修改跨維基資料',
 );
