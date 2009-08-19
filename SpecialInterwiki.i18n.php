@@ -729,7 +729,10 @@ Ekzistas [[Special:Log/interwiki|protokolo pri ŝanĝoj]] por la intervikia tabe
 	'interwiki_prefix' => 'Prefikso',
 	'interwiki_local' => 'Defini ĉi tiun kiel lokan vikion',
 	'interwiki_trans' => 'Permesi intervikiajn transinkluzivaĵojn',
+	'interwiki_1' => 'jes',
+	'interwiki_0' => 'ne',
 	'interwiki_error' => 'ERARO: La intervikia tabelo estas malplena, aŭ iel misfunkciis.',
+	'interwiki_edit' => 'Redakti',
 	'interwiki_reasonfield' => 'Kialo',
 	'interwiki_defaultreason' => 'nenia kialo skribata',
 	'interwiki_delquestion' => 'Forigante "$1"',
@@ -3238,16 +3241,16 @@ $messages['yue'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Gaoxuewei
+ * @author Liangent
  * @author Wmr89502270
  */
 $messages['zh-hans'] = array(
 	'interwiki' => '查看并编辑跨维基连结表',
 	'interwiki-title-norights' => '查看跨维基资料',
-	'interwiki_intro' => '请参阅[http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]以取得更多有关跨维基连结表的信息。
-这里有跨维基连结表的[[Special:Log/interwiki|更动日志]]。',
+	'interwiki_intro' => '这是跨维基链接表的概览。列中的数据的含义：',
 	'interwiki_prefix' => '前缀',
-	'interwiki_local' => '定义这个为一个本地wiki',
-	'interwiki_trans' => '容许跨维基包含',
+	'interwiki_local' => '转发',
+	'interwiki_trans' => '包含',
 	'interwiki_1' => '是',
 	'interwiki_0' => '否',
 	'interwiki_error' => '错误: 跨维基连结表为空，或是发生其它错误。',
