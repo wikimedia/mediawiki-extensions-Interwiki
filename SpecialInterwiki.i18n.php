@@ -2069,6 +2069,13 @@ $messages['ms'] = array(
 	'action-interwiki' => 'tukar data interwiki berikut',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'interwiki_edit' => 'Editja',
+);
+
 /** Erzya (Эрзянь)
  * @author Botuzhaleny-sodamo
  */
