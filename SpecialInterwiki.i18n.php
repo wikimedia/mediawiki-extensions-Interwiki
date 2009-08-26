@@ -2931,16 +2931,19 @@ $messages['szl'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Kiranmayee
  * @author Veeven
  */
 $messages['te'] = array(
 	'interwiki' => 'అంతర్వికీ భోగట్టాని చూడండి మరియు మార్చండి',
 	'interwiki-title-norights' => 'అంతర్వికీ భోగట్టా చూడండి',
-	'interwiki_intro' => 'అంతర్వికీ పట్టిక గురించి మరింత సమాచారం కోసం [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]ని చూడండి. అంతర్వికీ పట్టికకి [[Special:Log/interwiki|మార్పుల చిట్టా]] ఉంది.',
+	'interwiki_intro' => 'అంతర్వికీ పట్టిక యొక్క సమీక్ష. పట్టికలోని కాలమ్న్స్ సమాచారము అర్ధము:',
 	'interwiki_prefix' => 'ఉపసర్గ',
+	'interwiki_local' => 'ముందుకు',
 	'interwiki_1' => 'అవును',
 	'interwiki_0' => 'కాదు',
 	'interwiki_error' => 'పొరపాటు: అంతర్వికీ పట్టిక ఖాళీగా ఉంది, లేదా ఏదో తప్పు జరిగింది.',
+	'interwiki_edit' => 'మార్చు',
 	'interwiki_reasonfield' => 'కారణం',
 	'interwiki_defaultreason' => 'కారణం ఇవ్వలేదు',
 	'interwiki_delquestion' => '"$1"ని తొలగిస్తున్నారు',
@@ -2951,6 +2954,7 @@ $messages['te'] = array(
 	'interwiki_addbutton' => 'చేర్చు',
 	'interwiki_logpagename' => 'అంతర్వికీ పట్టిక చిట్టా',
 	'interwiki_logpagetext' => 'ఇది [[Special:Interwiki|అంతర్వికీ పట్టిక]]కి జరిగిన మార్పుల చిట్టా.',
+	'right-interwiki' => 'అంతర్వికీ సమాచారము మార్చు',
 );
 
 /** Tetum (Tetun)
