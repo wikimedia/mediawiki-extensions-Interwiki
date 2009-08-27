@@ -1,8 +1,9 @@
 <?php
 /**
- * Internationalisation file for extension Interwiki.
+ * Internationalisation file for Interwiki extension.
  *
- * @addtogroup Extensions
+ * @file
+ * @ingroup Extensions
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,68 +26,68 @@ $messages = array();
  */
 $messages['en'] = array(
 	# general messages
-	'interwiki'                => 'View and edit interwiki data',
+	'interwiki' => 'View and edit interwiki data',
 	'interwiki-title-norights' => 'View interwiki data',
-	'interwiki-desc'           => 'Adds a [[Special:Interwiki|special page]] to view and edit the interwiki table',
-	'interwiki_intro'          => 'This is an overview of the interwiki table. Meanings of the data in the columns:',
-	'interwiki_prefix'         => 'Prefix',
-	'interwiki_prefix_intro'   => 'Interwiki prefix to be used in <code>[<nowiki />[prefix:<i>pagename</i>]]</code> wikitext syntax.',
-	'interwiki_url'            => 'URL', # only translate this message if you have to change it
-	'interwiki_url_intro'      => 'Template for URLs. The placeholder $1 will be replaced by the <i>pagename</i> of the wikitext, when the abovementioned wikitext syntax is used.',
-	'interwiki_local'          => 'Forward', 
-	'interwiki_local_intro'    => 'An HTTP request to the local wiki with this interwiki prefix in the URL is:',
-	'interwiki_local_0_intro'  => 'not honored, usually blocked by "page not found",',
-	'interwiki_local_1_intro'  => 'redirected to the target URL given in the interwiki link definitions (i.e. treated like references in local pages)',
-	'interwiki_trans'          => 'Transclude', 
-	'interwiki_trans_intro'    => 'If wikitext syntax <code>{<nowiki />{prefix:<i>pagename</i>}}</code> is used, then:',
-	'interwiki_trans_1_intro'  => 'allow transclusion from the foreign wiki, if interwiki transclusions are generally permitted in this wiki,',
-	'interwiki_trans_0_intro'  => 'do not allow it, rather look for a page in the template namespace.',
-	'interwiki_intro_footer'   => 'See [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] for more information about the interwiki table.
+	'interwiki-desc' => 'Adds a [[Special:Interwiki|special page]] to view and edit the interwiki table',
+	'interwiki_intro' => 'This is an overview of the interwiki table. Meanings of the data in the columns:',
+	'interwiki_prefix' => 'Prefix',
+	'interwiki_prefix_intro' => 'Interwiki prefix to be used in <code>[<nowiki />[prefix:<i>pagename</i>]]</code> wikitext syntax.',
+	'interwiki_url' => 'URL', # only translate this message if you have to change it
+	'interwiki_url_intro' => 'Template for URLs. The placeholder $1 will be replaced by the <i>pagename</i> of the wikitext, when the abovementioned wikitext syntax is used.',
+	'interwiki_local' => 'Forward', 
+	'interwiki_local_intro' => 'An HTTP request to the local wiki with this interwiki prefix in the URL is:',
+	'interwiki_local_0_intro' => 'not honored, usually blocked by "page not found",',
+	'interwiki_local_1_intro' => 'redirected to the target URL given in the interwiki link definitions (i.e. treated like references in local pages)',
+	'interwiki_trans' => 'Transclude', 
+	'interwiki_trans_intro' => 'If wikitext syntax <code>{<nowiki />{prefix:<i>pagename</i>}}</code> is used, then:',
+	'interwiki_trans_1_intro' => 'allow transclusion from the foreign wiki, if interwiki transclusions are generally permitted in this wiki,',
+	'interwiki_trans_0_intro' => 'do not allow it, rather look for a page in the template namespace.',
+	'interwiki_intro_footer' => 'See [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] for more information about the interwiki table.
 There is a [[Special:Log/interwiki|log of changes]] to the interwiki table.',
-	'interwiki_1'              => 'yes',
-	'interwiki_0'              => 'no',
-	'interwiki_error'          => 'Error: The interwiki table is empty, or something else went wrong.',
+	'interwiki_1' => 'yes',
+	'interwiki_0' => 'no',
+	'interwiki_error' => 'Error: The interwiki table is empty, or something else went wrong.',
 
-        # modifying permitted 
-	'interwiki_edit'           => 'Edit',
-	'interwiki_reasonfield'    => 'Reason',
-	'interwiki_defaultreason'  => 'no reason given',
+	# modifying permitted 
+	'interwiki_edit' => 'Edit',
+	'interwiki_reasonfield' => 'Reason',
+	'interwiki_defaultreason' => 'no reason given',
 
 	# deleting a prefix
-	'interwiki_delquestion'    => 'Deleting "$1"',
-	'interwiki_deleting'       => 'You are deleting prefix "$1".',
-	'interwiki_deleted'        => 'Prefix "$1" was successfully removed from the interwiki table.',
-	'interwiki_delfailed'      => 'Prefix "$1" could not be removed from the interwiki table.',
+	'interwiki_delquestion' => 'Deleting "$1"',
+	'interwiki_deleting' => 'You are deleting prefix "$1".',
+	'interwiki_deleted' => 'Prefix "$1" was successfully removed from the interwiki table.',
+	'interwiki_delfailed' => 'Prefix "$1" could not be removed from the interwiki table.',
 
 	# adding a prefix
-	'interwiki_addtext'        => 'Add an interwiki prefix',
-	'interwiki_addintro'       => 'You are adding a new interwiki prefix.
+	'interwiki_addtext' => 'Add an interwiki prefix',
+	'interwiki_addintro' => 'You are adding a new interwiki prefix.
 Remember that it cannot contain spaces ( ), colons (:), ampersands (&), or equal signs (=).',
-	'interwiki_addbutton'      => 'Add',
-	'interwiki_added'          => 'Prefix "$1" was successfully added to the interwiki table.',
-	'interwiki_addfailed'      => 'Prefix "$1" could not be added to the interwiki table.
+	'interwiki_addbutton' => 'Add',
+	'interwiki_added' => 'Prefix "$1" was successfully added to the interwiki table.',
+	'interwiki_addfailed' => 'Prefix "$1" could not be added to the interwiki table.
 Possibly it already exists in the interwiki table.',
-	'interwiki_defaulturl'     => 'http://www.example.com/$1', # only translate this message to other languages if you have to change it
+	'interwiki_defaulturl' => 'http://www.example.com/$1', # only translate this message to other languages if you have to change it
 
 	# editing a prefix
-	'interwiki_edittext'       => 'Editing an interwiki prefix',
-	'interwiki_editintro'      => 'You are editing an interwiki prefix.
+	'interwiki_edittext' => 'Editing an interwiki prefix',
+	'interwiki_editintro' => 'You are editing an interwiki prefix.
 Remember that this can break existing links.',
-	'interwiki_edited'         => 'Prefix "$1" was successfully modified in the interwiki table.',
-	'interwiki_editerror'      => 'Prefix "$1" can not be modified in the interwiki table.
+	'interwiki_edited' => 'Prefix "$1" was successfully modified in the interwiki table.',
+	'interwiki_editerror' => 'Prefix "$1" can not be modified in the interwiki table.
 Possibly it does not exist.',
 	'interwiki-badprefix' => 'Specified interwiki prefix "$1" contains invalid characters',
 
 	# interwiki log
-	'interwiki_logpagename'    => 'Interwiki table log',
-	'interwiki_log_added'      => 'added prefix "$2" ($3) (trans: $4) (local: $5) to the interwiki table',
-	'interwiki_log_edited'     => 'modified prefix "$2" : ($3) (trans: $4) (local: $5) in the interwiki table',
-	'interwiki_log_deleted'    => 'removed prefix "$2" from the interwiki table',
-	'interwiki_logpagetext'    => 'This is a log of changes to the [[Special:Interwiki|interwiki table]].',
-	'interwiki_logentry'       => '', # do not translate this message
+	'interwiki_logpagename' => 'Interwiki table log',
+	'interwiki_log_added' => 'added prefix "$2" ($3) (trans: $4) (local: $5) to the interwiki table',
+	'interwiki_log_edited' => 'modified prefix "$2" : ($3) (trans: $4) (local: $5) in the interwiki table',
+	'interwiki_log_deleted' => 'removed prefix "$2" from the interwiki table',
+	'interwiki_logpagetext' => 'This is a log of changes to the [[Special:Interwiki|interwiki table]].',
+	'interwiki_logentry' => '', # do not translate this message
 
 	# rights
-	'right-interwiki'          => 'Edit interwiki data',
+	'right-interwiki' => 'Edit interwiki data',
 	'action-interwiki' => 'change this interwiki entry',
 );
 

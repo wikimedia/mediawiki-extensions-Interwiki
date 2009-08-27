@@ -2,7 +2,8 @@
 /**
  * Aliases for Special:Interwiki
  *
- * @addtogroup Extensions
+ * @file
+ * @ingroup Extensions
  */
 
 $aliases = array();
@@ -11,7 +12,7 @@ $aliases = array();
  * @author Jon Harald Søby
  */
 $aliases['en'] = array(
-	'Interwiki' => array('Interwiki'),
+	'Interwiki' => array( 'Interwiki' ),
 );
 
 /** Arabic (العربية)
