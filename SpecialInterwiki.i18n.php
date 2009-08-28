@@ -67,7 +67,7 @@ Remember that it cannot contain spaces ( ), colons (:), ampersands (&), or equal
 	'interwiki_added' => 'Prefix "$1" was successfully added to the interwiki table.',
 	'interwiki_addfailed' => 'Prefix "$1" could not be added to the interwiki table.
 Possibly it already exists in the interwiki table.',
-	'interwiki_defaulturl' => 'http://www.example.com/$1', # only translate this message to other languages if you have to change it
+	'interwiki_defaulturl' => 'http://www.example.com/$1', # do not translate or duplicate this message to other languages
 
 	# editing a prefix
 	'interwiki_edittext' => 'Editing an interwiki prefix',
@@ -419,7 +419,6 @@ $messages['bg'] = array(
 	'interwiki_addbutton' => 'Добавяне',
 	'interwiki_added' => '„$1“ беше успешно добавено в таблицата с междууикита.',
 	'interwiki_addfailed' => '„$1“ не може да бъде добавено в таблицата с междууикита. Възможно е вече да е било добавено там.',
-	'interwiki_defaulturl' => 'http://www.пример.com/$1',
 	'interwiki_edittext' => 'Редактиране на междууики представка',
 	'interwiki_edited' => 'Представката „$1“ беше успешно променена в таблицата с междууикита.',
 	'interwiki_logpagename' => 'Дневник на междууикитата',
@@ -476,7 +475,6 @@ Zapamtite da ne može sadržavati razmake ( ), dvotačke (:), znak and (&), ili 
 	'interwiki_added' => 'Prefiks "$1" je uspješno dodat u interwiki tabelu.',
 	'interwiki_addfailed' => 'Prefiks "$1" nije bilo moguće dodati u interwiki tabelu.
 Moguće je da već postoji u interwiki tabeli.',
-	'interwiki_defaulturl' => 'http://www.primjer.com/$1',
 	'interwiki_edittext' => 'Uređivanje interwiki prefiksa',
 	'interwiki_editintro' => 'Uređujete interwiki prefiks.
 Zapamtite da ovo može poremetiti postojeće linkove.',
@@ -983,7 +981,6 @@ $messages['frp'] = array(
 	'interwiki_reasonfield' => 'Rêson',
 	'interwiki_defaultreason' => 'Gins de rêson balyê',
 	'interwiki_addbutton' => 'Apondre',
-	'interwiki_defaulturl' => 'http://www.ègzemplo.com/$1',
 );
 
 /** Western Frisian (Frysk)
@@ -1721,7 +1718,6 @@ $messages['km'] = array(
 	'interwiki_addfailed' => 'បុព្វបទ "$1" មិនអាចបន្ថែមទៅក្នុងតារាងអន្តរវិគីបានទេ។
 
 ប្រហែលជាវាមានរួចហើយនៅក្នុងតារាងអន្តរវិគី។',
-	'interwiki_defaulturl' => 'http://www.example.com/$1',
 	'interwiki_edittext' => 'ការកែប្រែបុព្វបទអន្តរវិគី',
 	'interwiki_editintro' => 'អ្នកកំពុងកែប្រែបុព្វបទអន្តរវិគី។
 
@@ -1826,7 +1822,6 @@ Denk draan, et dörfe kei Zweschräum ( ), Koufmanns-Un (&amp;), Jlisch-Zeiche (
 	'interwiki_added' => 'Dä Försaz „$1“ es jäz bei de Engerwiki Date dobei jekomme.',
 	'interwiki_addfailed' => 'Dä Försaz „$1“ konnt nit bei de Engerwiki Date dobeijedonn wäde.
 Maach sin, dat dä en de Engerwiki Tabäll ald dren wor un es.',
-	'interwiki_defaulturl' => 'http://www.example.com/$1',
 	'interwiki_edittext' => 'Enne Engerwiki Fürsaz Ändere',
 	'interwiki_editintro' => 'Do bes an ennem Engerwiki Fösaz am ändere.
 Denk draan, domet könnts De Links em Wiki kapott maache, die velleich do drop opboue.',
@@ -1917,7 +1912,6 @@ Denkt drunn datt keng Espacen ( ), Et-commerciale (&), Gläichzeechen (=) a keng
 	'interwiki_added' => 'De Prefix "$1" gou an d\'Interwiki-Tabell derbäigesat.',
 	'interwiki_addfailed' => 'De Prefix "$1" konnt net an d\'Interwiki-Tabell derbäigesat ginn.
 Méiglecherweis gëtt et e schn an der Interwiki-Tabell.',
-	'interwiki_defaulturl' => 'http://www.beispill.com/$1',
 	'interwiki_edittext' => 'En interwiki Prefix änneren',
 	'interwiki_editintro' => 'Dir ännert en Interwiki Prefix.
 Denkt drun, datt dëst kann dozou féieren datt Linen déi et scho gëtt net méi fonctionnieren.',
@@ -2287,7 +2281,6 @@ $messages['nso'] = array(
 	'interwiki_defaultreason' => 'gago lebaka leo lefilwego',
 	'interwiki_delquestion' => 'Phumula "$1"',
 	'interwiki_addbutton' => 'Lokela',
-	'interwiki_defaulturl' => 'http://www.mohlala.com/$1',
 );
 
 /** Occitan (Occitan)
@@ -2671,7 +2664,6 @@ Non sunnu ammittuti li caràttiri: spàzziu ( ), dui punti (:), e cummirciali (&
 	'interwiki_added' => 'Lu prifissi "$1" vinni iunciutu a la tabedda di li interwiki.',
 	'interwiki_addfailed' => 'Mpussìbbili iunciri lu prufissu "$1" a la tabedda di li interwiki.
 Lu prifissi putissi èssiri già prisenti ntâ tabedda.',
-	'interwiki_defaulturl' => 'http://www.example.com/$1',
 	'interwiki_edittext' => 'Mudìfica di nu prifissu interwiki',
 	'interwiki_editintro' => 'Si sta pi mudificari nu prifissu interwiki.
 Chistu pò non fari funziunari arcuni lijami ca ci sù.',
@@ -3033,7 +3025,6 @@ Tandaan lamang na hindi ito maaaring maglaman ng mga puwang ( ), mga tutuldok (:
 	'interwiki_added' => "Matagumpay na naidagdag ang unlaping \"\$1\" sa tablang pangugnayang-wiki (''interwiki'').",
 	'interwiki_addfailed' => "Hindi maidagdag ang unlaping \"\$1\" sa tablang pangugnayang-wiki (''interwiki'').
 Maaaring umiiral na ito sa loob ng tablang pangugnayang-wiki.",
-	'interwiki_defaulturl' => 'http://www.halimbawa.com/$1',
 	'interwiki_edittext' => "Binabago ang isang unlaping pangugnayang-wiki (''interwiki'')",
 	'interwiki_editintro' => "Binabago mo ang unlaping pangugnayang-wiki (''interwiki'').
 Tandaan na maaaring maputol nito ang umiiral na mga kawing.",
