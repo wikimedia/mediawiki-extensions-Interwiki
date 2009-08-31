@@ -922,11 +922,12 @@ $messages['fi'] = array(
  * @author Purodha
  * @author Sherbrooke
  * @author Urhixidur
+ * @author Verdy p
  */
 $messages['fr'] = array(
 	'interwiki' => 'Voir et manipuler les données interwiki',
 	'interwiki-title-norights' => 'Voir les données interwiki',
-	'interwiki-desc' => 'Ajoute une [[Special:Interwiki|page spéciale]] pour voir et éditer la table interwiki',
+	'interwiki-desc' => 'Ajoute une [[Special:Interwiki|page spéciale]] pour voir et modifier la table interwiki',
 	'interwiki_intro' => 'Ceci est aperçu de la table interwiki. Voici les significations des données de colonnes :',
 	'interwiki_prefix' => 'Préfixe',
 	'interwiki_prefix_intro' => 'Préfixe interwiki à utiliser dans <code>[<nowiki />[préfixe:<i>nom de la page</i>]]</code> de la syntaxe wiki.',
@@ -1484,6 +1485,7 @@ Es possibile que illo non existe.',
 
 /** Indonesian (Bahasa Indonesia)
  * @author Bennylin
+ * @author Irwangatot
  * @author Rex
  */
 $messages['id'] = array(
@@ -1492,6 +1494,18 @@ $messages['id'] = array(
 	'interwiki-desc' => 'Menambahkan sebuah [[Special:Interwiki|halaman istimewa]] untuk menampilkan dan menyunting tabel interwiki',
 	'interwiki_intro' => 'Ini adalah sebuah laporan mengenai tabel interwiki. Arti dari data di kolom:',
 	'interwiki_prefix' => 'Prefiks',
+	'interwiki_prefix_intro' => 'Interwiki prefix akan digunakan dalam  <code>[<nowiki />[prefix:<i>pagename</i>]]</code> sintak teksWiki',
+	'interwiki_url_intro' => 'Template untuk URL. Tempat $1 akan digantikan oleh <i>judul</i> dari teksWiki, ketika  sintaks teksWiki tersebut di atas digunakan.',
+	'interwiki_local' => 'Meneruskan',
+	'interwiki_local_intro' => 'Diperlukan HTTP untuk wiki lokal dengan prefix interwiki ini dalam URL:',
+	'interwiki_local_0_intro' => 'tidak dihormati, biasanya diblokir oleh "halaman tidak ditemukan",',
+	'interwiki_local_1_intro' => 'pengalihan ke URL target akan meberikan definis pranala interwiki (contoh. seperti referensi di halaman lokal)',
+	'interwiki_trans' => 'Transclude',
+	'interwiki_trans_intro' => 'Jika sintak tekswiki <code>{<nowiki />{prefix:<i>pagename</i>}}</code> digunakan, maka:',
+	'interwiki_trans_1_intro' => 'memperbolehkan transklusi dari wiki lain, jika transklusi interwiki diizinkan di wiki ini,',
+	'interwiki_trans_0_intro' => 'tidak mengizinkan hal itu, lebih baik mencari halaman pada ruang nama templat.',
+	'interwiki_intro_footer' => 'Lihat [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] untuk informasi lebih lanjut tentang tabel interwiki. 
+Ada [[Special:Log/interwiki|log perubahan]] ke tabel interwiki.',
 	'interwiki_1' => 'ya',
 	'interwiki_0' => 'tidak',
 	'interwiki_error' => 'KESALAHAN: Tabel interwiki kosong, atau terjadi kesalahan lain.',
@@ -1514,12 +1528,14 @@ Ingat bahwa tindakan ini dapat mempengaruhi pranala yang telah eksis.',
 	'interwiki_edited' => 'Prefiks "$1" berhasil diubah di tabel interwiki.',
 	'interwiki_editerror' => 'Prefiks "$1" tidak dapat diubah di tabel interwiki.
 Kemungkinan karena prefiks ini tidak ada.',
+	'interwiki-badprefix' => 'Ditentukan interwiki awalan "$1" mengandung karakter yang tidak sah',
 	'interwiki_logpagename' => 'Log tabel interwiki',
 	'interwiki_log_added' => 'menambahkan prefiks "$2" ($3) (trans: $4) (lokal: $5) ke tabel interwiki',
 	'interwiki_log_edited' => 'mengubah prefiks "$2" : ($3) (trans: $4) (lokal: $5) di tabel interwiki',
 	'interwiki_log_deleted' => 'menghapus prefiks "$2" dari tabel interwiki',
 	'interwiki_logpagetext' => 'Ini adalah log perubahan [[Special:Interwiki|tabel interwiki]].',
 	'right-interwiki' => 'Menyunting data interwiki',
+	'action-interwiki' => 'Ubah masukan untuk interwiki ini',
 );
 
 /** Ido (Ido)
