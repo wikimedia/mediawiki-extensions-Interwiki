@@ -709,6 +709,7 @@ $messages['el'] = array(
 	'interwiki_delquestion' => 'Διαγραφή του "$1"',
 	'interwiki_deleting' => 'Διαγράφεις το πρόθεμα "$1".',
 	'interwiki_deleted' => 'Το πρόθεμα "$1" αφαιρέθηκε με επιτυχία από τον πίνακα των interwiki.',
+	'interwiki_addtext' => 'Προσθήκη ενός προθέματος interwiki',
 	'interwiki_addbutton' => 'Προσθήκη',
 	'interwiki_editerror' => 'Το πρόθεμα "$1" δεν μπορεί να τροποποιηθεί στον πίνακα interwiki.
 Πιθανώς να μην υπάρχει.',
@@ -1156,9 +1157,11 @@ $messages['gv'] = array(
 );
 
 /** Hawaiian (Hawai`i)
+ * @author Kalani
  * @author Singularity
  */
 $messages['haw'] = array(
+	'interwiki_edit' => 'E hoʻololi',
 	'interwiki_reasonfield' => 'Kumu',
 	'interwiki_defaultreason' => '‘a‘ohe kumu',
 	'interwiki_addbutton' => 'Ho‘ohui',
