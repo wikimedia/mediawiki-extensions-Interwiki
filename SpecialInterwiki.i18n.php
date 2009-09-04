@@ -2855,7 +2855,8 @@ Verovatno zatšo što ne postoji.',
  */
 $messages['stq'] = array(
 	'interwiki' => 'Interwiki-Doaten bekiekje un beoarbaidje',
-	'interwiki_intro' => 'Sjuch [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] foar wiedere Informatione uur ju Interwiki-Tabelle. Dät [[Special:Log/interwiki|Logbouk]] wiest aal Annerengen an ju Interwiki-Tabelle.',
+	'interwiki_intro' => 'Dit is n Uursicht fon dän Inhoold fon ju Interwiki-Tabelle.
+Do Doaten in do eenpelde Spalten hääbe ju foulgjende Betjuudenge:',
 	'interwiki_prefix' => 'Präfix',
 	'interwiki_error' => 'Failer: Ju Interwiki-Tabelle is loos.',
 	'interwiki_reasonfield' => 'Gruund',
