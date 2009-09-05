@@ -714,6 +714,7 @@ $messages['el'] = array(
 	'interwiki_editerror' => 'Το πρόθεμα "$1" δεν μπορεί να τροποποιηθεί στον πίνακα interwiki.
 Πιθανώς να μην υπάρχει.',
 	'interwiki-badprefix' => 'Το καθορισμένο πρόθεμα interwiki "$1" περιέχει μη έγκυρους χαρακτήρες',
+	'interwiki_logpagename' => 'Αρχείο του πίνακα ιντερβίκι',
 	'right-interwiki' => 'Επεξεργασία των δεδομένων ιντερβίκι',
 );
 
