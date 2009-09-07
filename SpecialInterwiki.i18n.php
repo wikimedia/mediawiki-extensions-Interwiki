@@ -1395,18 +1395,21 @@ Posibleman li pa ekziste.',
 
 /** Hungarian (Magyar)
  * @author Dani
+ * @author Glanthor Reviol
  * @author Gondnok
  */
 $messages['hu'] = array(
 	'interwiki' => 'Wikiközi hivatkozások adatainak megtekintése és szerkesztése',
 	'interwiki-title-norights' => 'Wikiközi hivatkozások adatainak megtekintése',
 	'interwiki-desc' => '[[Special:Interwiki|Speciális lap]], ahol megtekinthető és szerkeszthető a wikiközi hivatkozások táblája',
-	'interwiki_intro' => 'Lásd a(z) [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] lapot további információkért a wikiközi hivatkozások táblájáról.
-Megtekintheted a wikiközi hivatkozások táblájában bekövetkezett [[Special:Log/interwiki|változások naplóját]] is.',
+	'interwiki_intro' => 'Ez egy áttekintés a wikiközi hivatkozások táblájáról. Az adatok jelentése az oszlopokban:',
 	'interwiki_prefix' => 'Előtag',
-	'interwiki_local' => 'Beállítás helyi wikiként',
+	'interwiki_local' => 'Továbbítás',
 	'interwiki_trans' => 'Wikiközi beillesztések engedélyezve',
+	'interwiki_1' => 'igen',
+	'interwiki_0' => 'nem',
 	'interwiki_error' => 'Hiba: A wikiközi hivatkozások táblája üres, vagy valami más romlott el.',
+	'interwiki_edit' => 'Szerkesztés',
 	'interwiki_reasonfield' => 'Indoklás',
 	'interwiki_defaultreason' => 'nincs ok megadva',
 	'interwiki_delquestion' => '„$1” törlése',
@@ -1431,6 +1434,7 @@ Valószínűleg nem létezik ilyen előtag.',
 	'interwiki_log_deleted' => 'eltávolította a(z) „$2” előtagot a wikiközi hivatkozások táblájából',
 	'interwiki_logpagetext' => 'Ez az [[Special:Interwiki|interwiki táblában]] történt változások naplója.',
 	'right-interwiki' => 'wikiközi hivatkozások módosítása',
+	'action-interwiki' => 'eme wikiközi bejegyzés megváltoztatása',
 );
 
 /** Interlingua (Interlingua)
@@ -1632,7 +1636,7 @@ $messages['ja'] = array(
 	'interwiki_local_1_intro' => 'インターウィキウィキリンクの定義で指定された対象URLに転送されます。言い換えると、同一ウィキ内のページへのリンクのように扱います。',
 	'interwiki_trans' => 'トランスクルージョン',
 	'interwiki_trans_intro' => '<code>{<nowiki />{接頭辞:<i>ページ名</i>}}</code> というウィキテキストの構文が使われた場合、',
-	'interwiki_trans_1_intro' => '（一般的に）ウィキ間トランスクルージョンがこのウィキで許可されているならば、この外部ウィキからのトランスクルージョンを許可します。',
+	'interwiki_trans_1_intro' => '(一般的に)ウィキ間トランスクルージョンがこのウィキで許可されているならば、この外部ウィキからのトランスクルージョンを許可します。',
 	'interwiki_trans_0_intro' => '許可せず、テンプレート名前空間でページを探します。',
 	'interwiki_intro_footer' => 'インターウィキテーブルについて、より詳しくは [http://www.mediawiki.org/wiki/Interwiki_table/ja MediaWiki.org] を参照してください。また、インターウィキテーブルの[[Special:Log/interwiki|変更記録]]があります。',
 	'interwiki_1' => 'はい',
@@ -1646,7 +1650,7 @@ $messages['ja'] = array(
 	'interwiki_deleted' => '接頭辞 "$1" はインターウィキテーブルから正常に削除されました。',
 	'interwiki_delfailed' => '接頭辞 "$1" をインターウィキテーブルから削除できませんでした。',
 	'interwiki_addtext' => 'インターウィキの接頭辞を追加する',
-	'interwiki_addintro' => 'あなたはインターウィキの新しい接頭辞を追加しようとしています。その中にスペース （ ）、コロン （:）、アンパーサンド （&）、等号 （=） といった記号を含むことができないことに注意してください。',
+	'interwiki_addintro' => 'あなたはインターウィキの新しい接頭辞を追加しようとしています。その中にスペース ( )、コロン (:)、アンパーサンド (&)、等号 (=) といった記号を含むことができないことに注意してください。',
 	'interwiki_addbutton' => '追加',
 	'interwiki_added' => '接頭辞 "$1" はインターウィキテーブルに正常に追加されました。',
 	'interwiki_addfailed' => '接頭辞 "$1" をインターウィキテーブルに追加することができませんでした。すでに同じものが、インターウィキテーブルの中に存在している可能性があります。',
@@ -1656,8 +1660,8 @@ $messages['ja'] = array(
 	'interwiki_editerror' => 'インターウィキテーブル内で接頭辞 "$1" を変更できませんでした。存在していない可能性があります。',
 	'interwiki-badprefix' => '指定されたインターウィキ接頭辞 "$1" は無効な文字を含んでいます',
 	'interwiki_logpagename' => 'インターウィキ編集記録',
-	'interwiki_log_added' => 'インターウィキテーブルに接頭辞 "$2" （$3） （trans: $4） （local: $5） を追加しました',
-	'interwiki_log_edited' => 'インターウィキテーブル内の接頭辞 "$2" を （$3） （trans: $4） （local: $5） に変更しました',
+	'interwiki_log_added' => 'インターウィキテーブルに接頭辞 "$2" ($3) (trans: $4) (local: $5) を追加しました',
+	'interwiki_log_edited' => 'インターウィキテーブル内の接頭辞 "$2" を ($3) (trans: $4) (local: $5) に変更しました',
 	'interwiki_log_deleted' => 'インターウィキテーブルから接頭辞 "$2" を削除しました',
 	'interwiki_logpagetext' => 'これは[[Special:Interwiki|インターウィキテーブル]]の変更記録です。',
 	'right-interwiki' => 'インターウィキデータの編集',
