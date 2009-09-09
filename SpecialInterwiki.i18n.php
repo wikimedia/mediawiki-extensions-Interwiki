@@ -1952,6 +1952,19 @@ Méiglecherweis gëtt et en net.',
 	'action-interwiki' => "dës Interwiki-Informatioun z'änneren",
 );
 
+/** Lithuanian (Lietuvių)
+ * @author Homo
+ */
+$messages['lt'] = array(
+	'interwiki' => 'Žiūrėti ir redaguoti interwiki duomenis',
+	'interwiki-title-norights' => 'Žiūrėti interwiki duomenis',
+	'interwiki-desc' => 'Prideda [[Special:Interwiki|specialųjį puslapį]] interwiki lentelei peržiūrėti ir redaguoti',
+	'interwiki_local' => 'Persiųsti',
+	'interwiki_addbutton' => 'Pridėti',
+	'interwiki_logpagetext' => 'Tai pakeitimų [[Special:Interwiki|interwiki lentelėje]] sąrašas',
+	'right-interwiki' => 'Redaguoti interwiki duomenis',
+);
+
 /** Literary Chinese (文言) */
 $messages['lzh'] = array(
 	'interwiki' => '察與修跨維表',
