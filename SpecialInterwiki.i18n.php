@@ -111,7 +111,9 @@ Do translate both words inside the square brackets as placeholders, where "prefi
 	'interwiki_url_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|interwiki_url}} column of the table.
 
 $1 is being rendered verbatim. It rerfers to the syntax of the values listed in de "prefix" column, and does not mark a substitutible variable of this message.',
-	'interwiki_local' => 'Used on [[Special:Interwiki]] as a column header.',
+	'interwiki_local' => 'Used on [[Special:Interwiki]] as a column header.
+
+{{Identical|Forward}}',
 	'interwiki_local_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|interwiki_local}} column of the table.',
 	'interwiki_local_0_intro' => 'Used on [[Special:Interwiki]] so as to descripe the meaning of the value 0 in the {{msg-mw|interwiki_local}} column of the table.',
 	'interwiki_local_1_intro' => 'Used on [[Special:Interwiki]] so as to descripe the meaning of the value 1 in the {{msg-mw|interwiki_local}} column of the table.',
@@ -138,6 +140,7 @@ Parameter $1 contains the following (a link): [http://www.mediawiki.org/wiki/Int
 {{Identical|No reason given}}',
 	'interwiki_delquestion' => 'Parameter $1 is the interwiki prefix you are deleting.',
 	'interwiki_deleting' => '-',
+	'interwiki_deleted' => '',
 	'interwiki_addbutton' => 'This message is the text of the button to submit the interwiki prefix you are adding.
 
 {{Identical|Add}}',
@@ -167,6 +170,7 @@ $messages['af'] = array(
 	'interwiki-title-norights' => 'Bekyk interwiki data',
 	'interwiki-desc' => "Voeg 'n [[Special:Interwiki|spesiale bladsy]] by om die interwiki tabel te bekyk en wysig",
 	'interwiki_prefix' => 'Voorvoegsel',
+	'interwiki_local' => 'Aanstuur',
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nee',
 	'interwiki_edit' => 'Wysig',
