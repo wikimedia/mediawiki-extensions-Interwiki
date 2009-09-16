@@ -720,6 +720,7 @@ $messages['el'] = array(
 Πιθανώς να μην υπάρχει.',
 	'interwiki-badprefix' => 'Το καθορισμένο πρόθεμα interwiki "$1" περιέχει μη έγκυρους χαρακτήρες',
 	'interwiki_logpagename' => 'Αρχείο του πίνακα ιντερβίκι',
+	'interwiki_logpagetext' => 'Αυτό είναι ένα ημερολόγιο αλλαγών στον [[Special:Interwiki|πίνακα ιντερβίκι]].',
 	'right-interwiki' => 'Επεξεργασία των δεδομένων ιντερβίκι',
 	'action-interwiki' => 'αλλαγή αυτής της καταχώρισης ιντερβίκι',
 );
