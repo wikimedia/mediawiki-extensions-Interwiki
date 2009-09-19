@@ -3150,9 +3150,12 @@ Sto prefisso el podarìa èssar inesistente.',
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
+	'interwiki_prefix' => 'Prefiks',
 	'interwiki_1' => 'ka',
 	'interwiki_0' => 'ei',
 	'interwiki_edit' => 'Redaktiruida',
+	'interwiki_reasonfield' => 'Sü',
+	'interwiki_defaultreason' => 'Süd ei anttihe',
 	'interwiki_addbutton' => 'Ližata',
 	'interwiki_edittext' => 'Interwiki-prefiksoiden redaktiruind',
 );
