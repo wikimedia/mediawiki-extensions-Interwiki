@@ -3087,10 +3087,16 @@ Maaaring hindi pa ito umiiral.",
 );
 
 /** Turkish (Türkçe)
+ * @author Joseph
  * @author Karduelis
  * @author Suelnur
  */
 $messages['tr'] = array(
+	'interwiki' => 'Vikilerarası veriyi gör ve değiştir',
+	'interwiki-title-norights' => 'Vikilerarası veriyi gör',
+	'interwiki-desc' => 'Vikilerarası tabloyu görmek ve değiştirmek için [[Special:Interwiki|özel bir sayfa]] ekler',
+	'interwiki_intro' => 'Bu vikilerarası tabloya genel bir bakıştır. Sütunlardaki verinin anlamları:',
+	'interwiki_prefix' => 'Önek',
 	'interwiki_1' => 'evet',
 	'interwiki_reasonfield' => 'Neden',
 	'interwiki_addbutton' => 'Ekle',
