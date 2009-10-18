@@ -3103,10 +3103,12 @@ $messages['tr'] = array(
 );
 
 /** Ukrainian (Українська)
+ * @author AS
  * @author Ahonc
  */
 $messages['uk'] = array(
 	'interwiki_prefix' => 'Префікс',
+	'interwiki_edit' => 'Редагувати',
 	'interwiki_reasonfield' => 'Причина',
 );
 
