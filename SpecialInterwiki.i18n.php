@@ -3262,6 +3262,13 @@ Ba no dabinon.',
 	'action-interwiki' => 'votükön pati vüvükik at',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'interwiki_addbutton' => 'צולייגן',
+);
+
 /** Yue (粵語) */
 $messages['yue'] = array(
 	'interwiki' => '去睇同編輯跨維基資料',
