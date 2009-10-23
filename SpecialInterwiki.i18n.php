@@ -1416,9 +1416,13 @@ $messages['hu'] = array(
 	'interwiki_local' => 'Továbbítás',
 	'interwiki_local_intro' => 'Egy HTTP kérés a helyi wikihez ezzel a wikiközi előtaggal az URL-ben:',
 	'interwiki_local_0_intro' => 'nem teljesül, általában blokkolja a „lap nem található”,',
+	'interwiki_local_1_intro' => 'átirányítva a wikiközi hivatkozások definícióiban megadott cél URL-re  (azaz olyan, mint a hivatkozások a helyi lapokon)',
 	'interwiki_trans' => 'Wikiközi beillesztés',
+	'interwiki_trans_intro' => 'Ha az <code>{<nowiki />{előtag:<i>lapnév</i>}}</code> wikiszöveg szintaxist használjuk, akkor:',
 	'interwiki_trans_1_intro' => 'engedd a beillesztést az idegen wikiről, ha a wikiközi beillesztések általában megengedettek ezen a wikin,',
 	'interwiki_trans_0_intro' => 'ne engedd, inkább keress egy lapot a sablon névtérben.',
+	'interwiki_intro_footer' => 'Az interwiki táblázattal kapcsolatos további információkért lásd a [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]-on.
+A táblázat változásait [[Special:Log/interwiki|a naplóban megnézheted]].',
 	'interwiki_1' => 'igen',
 	'interwiki_0' => 'nem',
 	'interwiki_error' => 'Hiba: A wikiközi hivatkozások táblája üres, vagy valami más romlott el.',
