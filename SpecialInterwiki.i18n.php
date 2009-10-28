@@ -2476,6 +2476,7 @@ $messages['ps'] = array(
 
 /** Portuguese (Português)
  * @author 555
+ * @author Hamilton Abreu
  * @author Malafaya
  * @author Waldir
  */
@@ -2488,12 +2489,12 @@ $messages['pt'] = array(
 	'interwiki_prefix_intro' => 'Prefixo de interwiki a ser usado na sintaxe de wikitexto <code>[<nowiki />[prefix:<i>nome_página</i>]]</code>.',
 	'interwiki_url_intro' => 'Modelo para URL. O marcador $1 será substituído pelo <i>nome_página</i> do wikitexto, quando a sintaxe de wikitexto acima mencionada for usada.',
 	'interwiki_local' => 'Encaminhar',
-	'interwiki_local_intro' => 'Um pedido http para o wiki local com este prefixo de interwiki na URL é:',
+	'interwiki_local_intro' => 'Um pedido http para a wiki local, com este prefixo de interwiki na URL, é:',
 	'interwiki_local_0_intro' => 'ignorado, geralmente bloqueado por "página não encontrada",',
 	'interwiki_local_1_intro' => 'redirecionado para a URL alvo dada nas definições de ligação interwiki (p. ex. tratado como referências em páginas locais)',
 	'interwiki_trans' => 'Transcluir',
 	'interwiki_trans_intro' => 'Se a sintaxe de wikitexto <code>{<nowiki />{prefix:<i>nome_página</i>}}</code> for usada, então:',
-	'interwiki_trans_1_intro' => 'permite transclusão do wiki externo, se transclusões interwiki forem permitidas de forma geral neste wiki,',
+	'interwiki_trans_1_intro' => 'permite transclusão da wiki externa, se transclusões interwiki forem permitidas de forma geral nesta wiki,',
 	'interwiki_trans_0_intro' => 'não o permite; ao invés, procura uma página no espaço nominal de predefinições.',
 	'interwiki_intro_footer' => 'Veja [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] para mais informações sobre a tabela de interwikis.
 Existe um [[Special:Log/interwiki|registo de modificações]] à tabela de interwikis.',
