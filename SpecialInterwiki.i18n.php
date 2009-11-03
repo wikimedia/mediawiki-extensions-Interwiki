@@ -433,9 +433,16 @@ $messages['bg'] = array(
 );
 
 /** Breton (Brezhoneg)
+ * @author Fohanno
  * @author Fulup
+ * @author Y-M D
  */
 $messages['br'] = array(
+	'interwiki_prefix' => 'Rakger',
+	'interwiki_1' => 'ya',
+	'interwiki_0' => 'nann',
+	'interwiki_edit' => 'Aozañ',
+	'interwiki_reasonfield' => 'Abeg',
 	'interwiki_addbutton' => 'Ouzhpennañ',
 );
 
