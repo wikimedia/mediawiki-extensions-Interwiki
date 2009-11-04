@@ -438,7 +438,9 @@ $messages['bg'] = array(
  * @author Y-M D
  */
 $messages['br'] = array(
+	'interwiki-title-norights' => 'Gwelet ar roadennoù interwiki',
 	'interwiki_prefix' => 'Rakger',
+	'interwiki_trans' => 'Ebarzhiñ',
 	'interwiki_1' => 'ya',
 	'interwiki_0' => 'nann',
 	'interwiki_edit' => 'Aozañ',
