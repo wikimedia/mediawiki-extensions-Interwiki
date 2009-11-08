@@ -411,7 +411,10 @@ $messages['bg'] = array(
 	'interwiki_intro' => 'Вижте [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] за повече информация относно таблицата с междууикита. Съществува [[Special:Log/interwiki|дневник на промените]] в таблицата с междууикита.',
 	'interwiki_prefix' => 'Представка:',
 	'interwiki_local' => 'Локално',
+	'interwiki_1' => 'да',
+	'interwiki_0' => 'не',
 	'interwiki_error' => 'ГРЕШКА: Таблицата с междууикита е празна или е възникнала друга грешка.',
+	'interwiki_edit' => 'Редактиране',
 	'interwiki_reasonfield' => 'Причина',
 	'interwiki_defaultreason' => 'не е посочена причина',
 	'interwiki_delquestion' => 'Изтриване на "$1"',
@@ -442,7 +445,7 @@ $messages['br'] = array(
 	'interwiki_prefix' => 'Rakger',
 	'interwiki_trans' => 'Ebarzhiñ',
 	'interwiki_1' => 'ya',
-	'interwiki_0' => 'nann',
+	'interwiki_0' => 'ket',
 	'interwiki_edit' => 'Aozañ',
 	'interwiki_reasonfield' => 'Abeg',
 	'interwiki_addbutton' => 'Ouzhpennañ',
@@ -735,17 +738,17 @@ $messages['el'] = array(
 );
 
 /** Esperanto (Esperanto)
+ * @author Michawiki
  * @author Yekrats
  */
 $messages['eo'] = array(
 	'interwiki' => 'Rigardi kaj redakti intervikiajn datenojn',
 	'interwiki-title-norights' => 'Rigardi intervikiajn datenojn',
 	'interwiki-desc' => 'Aldonas [[Special:Interwiki|specialan paĝon]] por rigardi kaj redakti la intervikian tabelon',
-	'interwiki_intro' => 'Vidu [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] por plia informo pri la intervikia tabelo.
-Ekzistas [[Special:Log/interwiki|protokolo pri ŝanĝoj]] por la intervikia tabelo.',
+	'interwiki_intro' => 'Tio estas superrigardo de la intervikia tabelo. Signifoj de la datumoj en la kolumnoj:',
 	'interwiki_prefix' => 'Prefikso',
-	'interwiki_local' => 'Defini ĉi tiun kiel lokan vikion',
-	'interwiki_trans' => 'Permesi intervikiajn transinkluzivaĵojn',
+	'interwiki_local' => 'Plu',
+	'interwiki_trans' => 'Transinkluzivi',
 	'interwiki_1' => 'jes',
 	'interwiki_0' => 'ne',
 	'interwiki_error' => 'ERARO: La intervikia tabelo estas malplena, aŭ iel misfunkciis.',
@@ -769,7 +772,7 @@ Notu ke ĉi tiu ago povas rompi ekzistantajn ligilojn.',
 	'interwiki_edited' => 'Prefikso "$1" estis sukcese modifita en la intervikian tabelon.',
 	'interwiki_editerror' => 'Prefikso "$1" ne eblis esti modifita en la intervikia tabelo.
 Verŝajne ĝi ne ekzistas.',
-	'interwiki-badprefix' => 'Specifigita intervika prefikso "$1" enhavas nevalidajn signojn',
+	'interwiki-badprefix' => 'Specifita intervika prefikso "$1" enhavas nevalidajn signojn',
 	'interwiki_logpagename' => 'Loglibro pri la intervikia tabelo',
 	'interwiki_log_added' => 'Aldonis prefikson "$2" ($3) (transvikie: $4) (loke: $5) al la intervikia tabelo',
 	'interwiki_log_edited' => 'modifis prefikson "$2" : ($3) (transvikie: $4) (loke: $5) en la intervikia tabelo',
@@ -2412,6 +2415,7 @@ $messages['pdc'] = array(
 	'interwiki_0' => 'nee',
 	'interwiki_edit' => 'Ennere',
 	'interwiki_reasonfield' => 'Grund',
+	'interwiki_addbutton' => 'Dezu duh',
 );
 
 /** Polish (Polski)
