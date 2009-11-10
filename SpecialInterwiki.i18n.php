@@ -1041,7 +1041,7 @@ Ademais, existe un [[Special:Log/interwiki|rexistro dos cambios]] realizados á 
 	'interwiki_error' => 'ERRO: A táboa interwiki está baleira, ou algo máis saíu mal.',
 	'interwiki_edit' => 'Editar',
 	'interwiki_reasonfield' => 'Razón',
-	'interwiki_defaultreason' => 'non foi dada ningunha razón',
+	'interwiki_defaultreason' => 'non se deu ningunha razón',
 	'interwiki_delquestion' => 'Eliminando "$1"',
 	'interwiki_deleting' => 'Vai eliminar o prefixo "$1".',
 	'interwiki_deleted' => 'Eliminouse sen problemas o prefixo "$1" da táboa interwiki.',
