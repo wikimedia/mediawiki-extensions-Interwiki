@@ -95,6 +95,7 @@ Possibly it does not exist.',
  * @author Fryed-peach
  * @author Jon Harald Søby
  * @author Meno25
+ * @author Mormegil
  * @author Purodha
  * @author SPQRobin
  * @author Siebrand
@@ -102,7 +103,7 @@ Possibly it does not exist.',
 $messages['qqq'] = array(
 	'interwiki' => 'This message is the title of the special page [[Special:Interwiki]].',
 	'interwiki-title-norights' => 'Part of the interwiki extension. This message is the title of the special page [[Special:Interwiki]] when the user has no right to edit the interwiki data, so can only view them.',
-	'interwiki-desc' => '-',
+	'interwiki-desc' => '{{desc}}',
 	'interwiki_intro' => 'Part of the interwiki extension. Shown as introductory text on [[Special:Interwiki]].',
 	'interwiki_prefix' => 'Used on [[Special:Interwiki]] as a column header of the table.',
 	'interwiki_prefix_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|interwiki_prefix}} column of the table.
@@ -124,10 +125,10 @@ $1 is being rendered verbatim. It rerfers to the syntax of the values listed in 
 	'interwiki_intro_footer' => 'Part of the interwiki extension.
 Shown as last pice of the introductory text on [[Special:Interwiki]].
 Parameter $1 contains the following (a link): [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]',
-	'interwiki_1' => "''\\Yes'''-value to be inserted into the columns headed by {{msg-mw|interwiki_local}} and {{msg-mw|interwiki_trans}}.
+	'interwiki_1' => "'''Yes'''-value to be inserted into the columns headed by {{msg-mw|interwiki_local}} and {{msg-mw|interwiki_trans}}.
 
 {{Identical|Yes}}",
-	'interwiki_0' => "''\\No'''-value to be inserted into the columns headed by {{msg-mw|interwiki_local}} and {{msg-mw|interwiki_trans}}.
+	'interwiki_0' => "'''No'''-value to be inserted into the columns headed by {{msg-mw|interwiki_local}} and {{msg-mw|interwiki_trans}}.
 
 {{Identical|No}}",
 	'interwiki_error' => 'This error message is shown when the Special:Interwiki page is empty.',
@@ -441,14 +442,21 @@ $messages['bg'] = array(
  * @author Y-M D
  */
 $messages['br'] = array(
+	'interwiki' => 'Gwelet hag aozañ ar roadennoù interwiki',
 	'interwiki-title-norights' => 'Gwelet ar roadennoù interwiki',
 	'interwiki_prefix' => 'Rakger',
+	'interwiki_local' => 'Treuzkas',
 	'interwiki_trans' => 'Ebarzhiñ',
 	'interwiki_1' => 'ya',
 	'interwiki_0' => 'ket',
 	'interwiki_edit' => 'Aozañ',
 	'interwiki_reasonfield' => 'Abeg',
+	'interwiki_defaultreason' => "n'eus bet roet abeg ebet",
+	'interwiki_delquestion' => 'O tilemel « $1 »',
+	'interwiki_deleting' => "Emaoc'h o tilemel ar rakger « $1 ».",
+	'interwiki_addtext' => 'Ouzhpennañ ur rakger interwiki',
 	'interwiki_addbutton' => 'Ouzhpennañ',
+	'interwiki_edittext' => "Oc'h aozañ ur rakger interwiki",
 );
 
 /** Bosnian (Bosanski)
@@ -521,39 +529,57 @@ $messages['ca'] = array(
 
 /** Czech (Česky)
  * @author Danny B.
+ * @author Mormegil
  */
 $messages['cs'] = array(
 	'interwiki' => 'Zobrazit a upravovat interwiki',
 	'interwiki-title-norights' => 'Zobrazit interwiki',
+	'interwiki-desc' => 'Přidává [[Special:Interwiki|speciální stránku]], na které lze prohlížet a editovat tabulku interwiki',
 	'interwiki_intro' => 'Toto je přehled tabulky interwiki odkazů. Významy dat ve sloupcích:',
 	'interwiki_prefix' => 'Prefix',
+	'interwiki_prefix_intro' => 'Interwiki prefix používaný v syntaxi wikitextu <code>[<nowiki />[prefix:<i>stránka</i>]]</code>.',
+	'interwiki_url_intro' => 'Vzor pro URL. Místo $1 se vloží <i>stránka</i> z wikitextu uvedeného v příkladu výše.',
 	'interwiki_local' => 'Přesměrovat',
+	'interwiki_local_intro' => 'HTTP požadavek na tuto wiki s tímto interwiki prefixem v URL je:',
+	'interwiki_local_0_intro' => 'odmítnut, zpravidla s výsledkem „stránka nenalezena“,',
+	'interwiki_local_1_intro' => 'přesměrován na cílové URL podle definice v tabulce interwiki odkazů (tj. chová se jako odkazy v lokálních stránkách)',
 	'interwiki_trans' => 'Transkluze',
+	'interwiki_trans_intro' => 'Při použití syntaxe wikitextu <code>{<nowiki />{prefix:<i>stránka</i>}}</code>:',
+	'interwiki_trans_1_intro' => 'umožnit vložení z druhé wiki, pokud je interwiki transkluze na této wiki obecně povolena,',
+	'interwiki_trans_0_intro' => 'to nedovolit, místo toho použít stránku ve jmenném prostoru šablon.',
+	'interwiki_intro_footer' => 'Více informací o tabulce interwiki najdete na [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org].
+Existuje také [[Special:Log/interwiki|protokol změn]] tabulky interwiki.',
+	'interwiki_1' => 'ano',
+	'interwiki_0' => 'ne',
 	'interwiki_error' => 'CHYBA: Interwiki tabulka je prázdná anebo se pokazilo něco jiného.',
+	'interwiki_edit' => 'Editovat',
 	'interwiki_reasonfield' => 'Důvod',
 	'interwiki_defaultreason' => 'důvod neuveden',
-	'interwiki_delquestion' => 'Odstraňuje se „$1”',
-	'interwiki_deleting' => 'Mažete prefix „$1”.',
-	'interwiki_deleted' => 'Prefix „$1” byl úspěšně odstraněn z tabulky interwiki.',
-	'interwiki_delfailed' => 'Prefix „$1” nebylo možné odstranit z tabulky interwiki.',
+	'interwiki_delquestion' => 'Mazání „$1“',
+	'interwiki_deleting' => 'Mažete prefix „$1“.',
+	'interwiki_deleted' => 'Prefix „$1“ byl úspěšně odstraněn z tabulky interwiki.',
+	'interwiki_delfailed' => 'Prefix „$1“ nebylo možné odstranit z tabulky interwiki.',
 	'interwiki_addtext' => 'Přidat interwiki prefix',
 	'interwiki_addintro' => 'Přidáváte nový interwiki prefix.
-Mějte na vědomí, že nemůže obsahovat mezery ( ), dvojtečky (:), ampersandy (&), nebo rovnítka (=).',
+Mějte na vědomí, že nemůže obsahovat mezery ( ), dvojtečky (:), ampersandy (&), ani rovnítka (=).',
 	'interwiki_addbutton' => 'Přidat',
-	'interwiki_added' => 'Prefix „$1” byl úspěšně přidán do tabulky interwiki.',
-	'interwiki_addfailed' => 'Prefix „$1” nemohl být přidán do tabulky interwiki.
+	'interwiki_added' => 'Prefix „$1“ byl úspěšně přidán do tabulky interwiki.',
+	'interwiki_addfailed' => 'Prefix „$1“ nemohl být přidán do tabulky interwiki.
 Pravděpodobně tam již existuje.',
 	'interwiki_edittext' => 'Editace interwiki prefixu',
 	'interwiki_editintro' => 'Editujete interwiki prefix.
 Mějte na vědomí, že to může znefunkčnit existující odkazy.',
-	'interwiki_edited' => 'Prefix „$1” byl úspěšně modifikován v tabulce interwiki.',
-	'interwiki_editerror' => 'Prefix „$1” nemohl být modifikován v tabulce interwiki.
+	'interwiki_edited' => 'Prefix „$1“ v tabulce interwiki byl úspěšně modifikován.',
+	'interwiki_editerror' => 'Prefix „$1“ v tabulce interwiki nemohl být modifikován.
 Pravděpodobně neexistuje.',
 	'interwiki-badprefix' => 'Uvedený interwiki prefix „$1“ obsahuje nepovolený znak',
-	'interwiki_log_added' => 'přidal prefix „$2” ($3) (trans: $4) (local: $5) to interwiki tabulky',
-	'interwiki_log_edited' => 'změnil prefix „$2” : ($3) (trans: $4) (local: $5) v interwiki tabulce',
-	'interwiki_log_deleted' => 'odstranil prefix „$2” z interwiki tabulky',
+	'interwiki_logpagename' => 'Kniha změn tabulky interwiki',
+	'interwiki_log_added' => 'přidal prefix „$2“ ($3) (trans: $4) (local: $5) do tabulky interwiki',
+	'interwiki_log_edited' => 'změnil prefix „$2“ : ($3) (trans: $4) (local: $5) v tabulce interwiki',
+	'interwiki_log_deleted' => 'odstranil prefix „$2“ z tabulky interwiki',
+	'interwiki_logpagetext' => 'Toto je seznam změn [[Special:Interwiki|tabulky interwiki]].',
 	'right-interwiki' => 'Editování interwiki záznamů',
+	'action-interwiki' => 'změnit tento záznam interwiki',
 );
 
 /** Welsh (Cymraeg)
