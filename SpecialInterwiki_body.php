@@ -101,7 +101,7 @@ class SpecialInterwiki extends SpecialPage {
 				'<td class="mw-input">' .
 				Xml::input( 'wpInterwikiReason', 60, $defaultreason, array( 'tabindex' => '1', 'id' => 'mw-interwiki-deletereason', 'maxlength' => '200' ) ) .
 				'</td></tr>' .
-				'<tr><td class="mw-submit">' . Xml::submitButton( $button, array( 'id' => 'mw-interwiki-submit' ) ) .
+				'<tr><td></td><td class="mw-submit">' . Xml::submitButton( $button, array( 'id' => 'mw-interwiki-submit' ) ) .
 				Xml::hidden( 'wpInterwikiPrefix', $prefix ) .
 				Xml::hidden( 'wpInterwikiAction', $action ) .
 				Xml::hidden( 'wpEditToken', $token ) .
@@ -166,7 +166,7 @@ class SpecialInterwiki extends SpecialPage {
 				$old .
 				Xml::hidden( 'wpEditToken', $token ) .
 				'</td></tr>' .
-				'<tr><td class="mw-submit">' . Xml::submitButton( $button, array( 'id' => 'mw-interwiki-submit' ) ) . '</td></tr>' .
+				'<tr><td></td><td class="mw-submit">' . Xml::submitButton( $button, array( 'id' => 'mw-interwiki-submit' ) ) . '</td></tr>' .
 				Xml::closeElement( 'table' ) .
 				Xml::closeElement( 'form' ) .
 				Xml::closeElement( 'fieldset' )
@@ -283,13 +283,13 @@ class SpecialInterwiki extends SpecialPage {
 		}
 
 		$out = "
-		<table width='100%' class='mw-interwikitable wikitable body'>
+		<table width='100%' class='mw-interwikitable wikitable sortable body'>
 		<tr id='interwikitable-header'><th>$prefixmessage</th> <th>$urlmessage</th> <th>$localmessage</th> <th>$transmessage</th>";
 		// Privileged users can modify and delete existing prefixes
 		if( $admin ) {
 			$deletemessage = wfMsgHtml( 'delete' );
 			$editmessage = wfMsgHtml( 'edit' );
-			$out .= '<th>' . wfMsgHtml( 'interwiki_edit' ) . '</th>';
+			$out .= '<th class="unsortable">' . wfMsgHtml( 'interwiki_edit' ) . '</th>';
 		}
 		$out .= "</tr>\n";
 
@@ -307,7 +307,7 @@ class SpecialInterwiki extends SpecialPage {
 				$out .= '<td class="mw-interwikitable-modify">';
 				$out .= $skin->link( $selfTitle, $editmessage, array(),
 					array( 'action' => 'edit', 'prefix' => $s->iw_prefix ) );
-				$out .= ', ';
+				$out .= wfMsg( 'comma-separator' );
 				$out .= $skin->link( $selfTitle, $deletemessage, array(),
 					array( 'action' => 'delete', 'prefix' => $s->iw_prefix ) );
 				$out .= '</td>';
