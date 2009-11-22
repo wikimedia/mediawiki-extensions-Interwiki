@@ -140,11 +140,11 @@ class SpecialInterwiki extends SpecialPage {
 				$button = wfMsg( 'interwiki_addbutton' );
 			}
 
-			$prefixmessage = wfMsgHtml( 'interwiki_prefix' );
-			$localmessage = wfMsg( 'interwiki_local' );
-			$transmessage = wfMsg( 'interwiki_trans' );
+			$prefixmessage = wfMsgHtml( 'interwiki-prefix-label' );
+			$localmessage = wfMsg( 'interwiki-local-label' );
+			$transmessage = wfMsg( 'interwiki-trans-label' );
 			$reasonmessage = wfMsg( 'interwiki_reasonfield' );
-			$urlmessage = wfMsg( 'interwiki_url' );
+			$urlmessage = wfMsg( 'interwiki-url-label' );
 
 			$wgOut->addHTML(
 				Xml::fieldset( $topmessage ) .
