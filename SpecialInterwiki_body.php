@@ -80,7 +80,6 @@ class SpecialInterwiki extends SpecialPage {
 
 		$actionUrl = $this->getTitle()->getLocalURL( 'action=submit' );
 		$token = $wgUser->editToken();
-		$defaultreason = $wgRequest->getVal( 'wpInterwikiReason', wfMsgForContent( 'interwiki_defaultreason' ) );
 
 		switch( $action ){
 		case 'delete':
@@ -99,7 +98,7 @@ class SpecialInterwiki extends SpecialPage {
 				"<tr><td>$deletingmessage</td></tr>".
 				'<tr><td class="mw-label">' . Xml::label( $reasonmessage, 'mw-interwiki-deletereason' ) . '</td>' .
 				'<td class="mw-input">' .
-				Xml::input( 'wpInterwikiReason', 60, $defaultreason, array( 'tabindex' => '1', 'id' => 'mw-interwiki-deletereason', 'maxlength' => '200' ) ) .
+				Xml::input( 'wpInterwikiReason', 60, '', array( 'tabindex' => '1', 'id' => 'mw-interwiki-deletereason', 'maxlength' => '200' ) ) .
 				'</td></tr>' .
 				'<tr><td></td><td class="mw-submit">' . Xml::submitButton( $button, array( 'id' => 'mw-interwiki-submit' ) ) .
 				Xml::hidden( 'wpInterwikiPrefix', $prefix ) .
@@ -148,8 +147,7 @@ class SpecialInterwiki extends SpecialPage {
 			$urlmessage = wfMsg( 'interwiki_url' );
 
 			$wgOut->addHTML(
-				Xml::openElement( 'fieldset' ) .
-				Xml::element( 'legend', null, $topmessage ) .
+				Xml::fieldset( $topmessage ) .
 				$intromessage .
 				Xml::openElement( 'form', array( 'id' => 'mw-interwiki-editform', 'method' => 'post', 'action' => $actionUrl ) ) .
 				Xml::openElement( 'table', array( 'id' => "mw-interwiki-$action" ) ) .
@@ -161,7 +159,7 @@ class SpecialInterwiki extends SpecialPage {
 				'<tr><td class="mw-label">' . Xml::label( $urlmessage, 'mw-interwiki-url' ) . '</td>' .
 				'<td class="mw-input">' . Xml::input( 'wpInterwikiURL', 60, $defaulturl, array( 'tabindex' => '1', 'maxlength' => '200', 'id' => 'mw-interwiki-url' ) ) . '</td></tr>' .
 				'<tr><td class="mw-label">' . Xml::label( $reasonmessage, 'mw-interwiki-editreason' ) . '</td>' .
-				'<td class="mw-input">' . Xml::input( 'wpInterwikiReason', 60, $defaultreason, array( 'tabindex' => '1', 'id' => 'mw-interwiki-editreason', 'maxlength' => '200' ) ) .
+				'<td class="mw-input">' . Xml::input( 'wpInterwikiReason', 60, '', array( 'tabindex' => '1', 'id' => 'mw-interwiki-editreason', 'maxlength' => '200' ) ) .
 				Xml::hidden( 'wpInterwikiAction', $action ) .
 				$old .
 				Xml::hidden( 'wpEditToken', $token ) .

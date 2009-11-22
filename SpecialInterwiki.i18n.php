@@ -50,8 +50,7 @@ There is a [[Special:Log/interwiki|log of changes]] to the interwiki table.',
 
 	# modifying permitted 
 	'interwiki_edit' => 'Edit',
-	'interwiki_reasonfield' => 'Reason',
-	'interwiki_defaultreason' => 'no reason given',
+	'interwiki_reasonfield' => 'Reason:',
 
 	# deleting a prefix
 	'interwiki_delquestion' => 'Deleting "$1"',
