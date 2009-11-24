@@ -417,7 +417,7 @@ $messages['be-tarask'] = array(
 	'interwiki_0' => 'не',
 	'interwiki_error' => 'Памылка: табліца інтэрвікі пустая альбо ўзьніклі іншыя праблемы.',
 	'interwiki_edit' => 'Рэдагаваць',
-	'interwiki_reasonfield' => 'Прычына',
+	'interwiki_reasonfield' => 'Прычына:',
 	'interwiki_delquestion' => 'Выдаленьне «$1»',
 	'interwiki_deleting' => 'Вы выдаляеце прэфікс «$1».',
 	'interwiki_deleted' => 'Прэфікс «$1» быў пасьпяхова выдалены з табліцы інтэрвікі.',
@@ -643,6 +643,21 @@ $messages['cy'] = array(
 	'interwiki-prefix-label' => 'Rhagddodiad:',
 	'interwiki_local' => 'Anfon ymlaen',
 	'interwiki-local-label' => 'Anfon ymlaen:',
+	'interwiki_trans' => 'Trawsgynnwys',
+	'interwiki-trans-label' => 'Trawsgynnwys:',
+	'interwiki_intro_footer' => "Cewch ragor o wybodaeth am y tabl rhyngwici ar [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org].
+Cofnodir newidiadau i'r tabl rhyngwici ar y [[Special:Log/interwiki|lòg newidiadau]].",
+	'interwiki_1' => 'gellir',
+	'interwiki_0' => 'ni ellir',
+	'interwiki_edit' => 'Golygu',
+	'interwiki_reasonfield' => 'Rheswm:',
+	'interwiki_addtext' => 'Ychwanegu rhagddodiad rhyngwici',
+	'interwiki_addintro' => 'Rydych yn ychwanegu rhagddodiad rhyngwici newydd.
+Cofiwch na all gynnwys bwlch ( ), gorwahannod (:), ampersand (&), na hafalnod (=).',
+	'interwiki_addbutton' => 'Ychwaneger',
+	'interwiki_added' => 'Llwyddwyd i ychwanegu\'r rhagddodiad "$1" at y tabl rhyngwici.',
+	'interwiki_addfailed' => 'Methwyd ychwanegu\'r rhagddodiad "$1" at y tabl rhyngwici.
+Efallai ei fod eisoes yn y tabl rhyngwici.',
 );
 
 /** Danish (Dansk)
