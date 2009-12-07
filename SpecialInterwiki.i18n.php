@@ -493,7 +493,7 @@ $messages['br'] = array(
 	'interwiki_local' => 'Treuzkas',
 	'interwiki-local-label' => 'Treuzkas :',
 	'interwiki_trans' => 'Ebarzhiñ',
-	'interwiki-trans-label' => 'Ebarzhiñ :',
+	'interwiki-trans-label' => 'Treuzkludañ :',
 	'interwiki_1' => 'ya',
 	'interwiki_0' => 'ket',
 	'interwiki_edit' => 'Aozañ',
@@ -567,11 +567,12 @@ Moguće je da uopće ne postoji.',
 /** Catalan (Català)
  * @author SMP
  * @author Solde
+ * @author Ssola
  */
 $messages['ca'] = array(
 	'interwiki_1' => 'sí',
 	'interwiki_0' => 'no',
-	'interwiki_edit' => 'Edita',
+	'interwiki_edit' => 'Modifica',
 	'interwiki_reasonfield' => 'Motiu',
 	'interwiki_delquestion' => "S'està eliminant «$1»",
 );
@@ -823,7 +824,7 @@ $messages['el'] = array(
 	'interwiki_0' => 'όχι',
 	'interwiki_error' => 'Σφάλμα: Ο πίνακας ιντερβίκι είναι άδειος, ή κάτι άλλο έχει πάει στραβά.',
 	'interwiki_edit' => 'Επεξεργασία',
-	'interwiki_reasonfield' => 'Λόγος',
+	'interwiki_reasonfield' => 'Λόγος:',
 	'interwiki_delquestion' => 'Διαγραφή του "$1"',
 	'interwiki_deleting' => 'Διαγράφεις το πρόθεμα "$1".',
 	'interwiki_deleted' => 'Το πρόθεμα "$1" αφαιρέθηκε με επιτυχία από τον πίνακα των interwiki.',
@@ -1205,7 +1206,7 @@ $messages['grc'] = array(
 	'interwiki_0' => 'οὐ',
 	'interwiki_error' => 'Σφάλμα: Ὁ διαβικι-πίναξ κενός ἐστίν, ἢ ἑτέρα ἐσφαλμένη ἐνέργειά τι συνέβη.',
 	'interwiki_edit' => 'Μεταγράφειν',
-	'interwiki_reasonfield' => 'Αἰτία',
+	'interwiki_reasonfield' => 'Αἰτία:',
 	'interwiki_delquestion' => 'Διαγράφειν τὴν "$1"',
 	'interwiki_deleting' => 'Διαγράφεις τὸ πρόθεμα "$1".',
 	'interwiki_deleted' => 'Τὸ πρόθεμα "$1" ἀφῃρημένον ἐπιτυχῶς ἐστὶ ἐκ τοῦ διαβικι-πίνακος.',
@@ -3344,7 +3345,7 @@ $messages['vec'] = array(
 	'interwiki_0' => 'no',
 	'interwiki_error' => 'ERÓR: La tabèla dei interwiki la xe voda, o ghe xe qualche altro erór.',
 	'interwiki_edit' => 'Modìfega',
-	'interwiki_reasonfield' => 'Motivassion',
+	'interwiki_reasonfield' => 'Motivassion:',
 	'interwiki_delquestion' => 'Scancelassion de "$1"',
 	'interwiki_deleting' => 'Te sì drio scancelar el prefisso "$1"',
 	'interwiki_deleted' => 'El prefisso "$1" el xe stà scancelà da la tabèla dei interwiki.',
