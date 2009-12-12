@@ -903,12 +903,12 @@ $messages['es'] = array(
 	'interwiki_local' => 'Adelante',
 	'interwiki-local-label' => 'Adelante:',
 	'interwiki_trans' => 'transcluir',
-	'interwiki-trans-label' => 'transcluir:',
+	'interwiki-trans-label' => 'Transcluir:',
 	'interwiki_1' => 'Sí',
 	'interwiki_0' => 'no',
 	'interwiki_error' => 'Error: La tabla de interwikis está vacía, u otra cosa salió mal.',
 	'interwiki_edit' => 'Editar',
-	'interwiki_reasonfield' => 'Motivo',
+	'interwiki_reasonfield' => 'Motivo:',
 	'interwiki_delquestion' => 'Borrando «$1»',
 	'interwiki_deleting' => 'Estás borrando el prefijo «$1».',
 	'interwiki_deleted' => 'El prefijo «$1» ha sido borrado correctamente de la tabla de interwikis.',
@@ -3320,12 +3320,14 @@ $messages['tr'] = array(
 /** Ukrainian (Українська)
  * @author AS
  * @author Ahonc
+ * @author Prima klasy4na
  */
 $messages['uk'] = array(
 	'interwiki_prefix' => 'Префікс',
 	'interwiki-prefix-label' => 'Префікс:',
+	'interwiki_0' => 'ні',
 	'interwiki_edit' => 'Редагувати',
-	'interwiki_reasonfield' => 'Причина',
+	'interwiki_reasonfield' => 'Причина:',
 );
 
 /** Vèneto (Vèneto)
