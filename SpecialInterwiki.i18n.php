@@ -3212,7 +3212,7 @@ $messages['te'] = array(
  * @author MF-Warburg
  */
 $messages['tet'] = array(
-	'interwiki_reasonfield' => 'Motivu',
+	'interwiki_reasonfield' => 'Motivu:',
 	'interwiki_delquestion' => 'Halakon $1',
 	'interwiki_addbutton' => 'Tau tan',
 );
