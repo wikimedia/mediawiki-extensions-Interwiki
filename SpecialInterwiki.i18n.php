@@ -503,6 +503,7 @@ $messages['br'] = array(
 	'interwiki_addtext' => 'Ouzhpennañ ur rakger interwiki',
 	'interwiki_addbutton' => 'Ouzhpennañ',
 	'interwiki_edittext' => "Oc'h aozañ ur rakger interwiki",
+	'right-interwiki' => 'Aozañ ar roadennoù interwiki',
 );
 
 /** Bosnian (Bosanski)
@@ -3532,6 +3533,7 @@ $messages['yue'] = array(
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Gaoxuewei
  * @author Liangent
+ * @author PhiLiP
  * @author Wmr89502270
  */
 $messages['zh-hans'] = array(
@@ -3547,7 +3549,7 @@ $messages['zh-hans'] = array(
 	'interwiki_1' => '是',
 	'interwiki_0' => '否',
 	'interwiki_error' => '错误: 跨维基连结表为空，或是发生其它错误。',
-	'interwiki_reasonfield' => '原因',
+	'interwiki_reasonfield' => '原因：',
 	'interwiki_delquestion' => '正在删除"$1"',
 	'interwiki_deleting' => '您正在删除前缀"$1"。',
 	'interwiki_deleted' => '已成功地从连结表中删除前缀"$1"。',
