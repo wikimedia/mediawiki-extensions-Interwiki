@@ -2623,6 +2623,13 @@ Prawdopodobnie ten prefiks już jest w tableli.',
 	'right-interwiki' => 'Edytowanie tabeli interwiki',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'interwiki' => 'Varda e modìfica dat antërwiki',
+);
+
 /** Pontic (Ποντιακά)
  * @author Crazymadlover
  * @author Omnipaedista
