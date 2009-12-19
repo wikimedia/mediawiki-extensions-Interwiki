@@ -2185,6 +2185,26 @@ $messages['mhr'] = array(
 	'interwiki_reasonfield' => 'Амал',
 );
 
+/** Macedonian (Македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'interwiki-title-norights' => 'Види интервики податоци',
+	'interwiki_prefix' => 'Префикс',
+	'interwiki-prefix-label' => 'Префикс:',
+	'interwiki_local' => 'Препратка',
+	'interwiki-local-label' => 'Препратка:',
+	'interwiki_trans' => 'Вклучување',
+	'interwiki-trans-label' => 'Вклучување:',
+	'interwiki_1' => 'да',
+	'interwiki_0' => 'не',
+	'interwiki_edit' => 'Уреди',
+	'interwiki_reasonfield' => 'Причина:',
+	'interwiki_addbutton' => 'Додај',
+	'right-interwiki' => 'Уреди интервики',
+	'action-interwiki' => 'менување на овој интервики-запис',
+);
+
 /** Malayalam (മലയാളം)
  * @author Shijualex
  */
@@ -2465,6 +2485,7 @@ $messages['no'] = array(
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nei',
 	'interwiki_error' => 'FEIL: Interwikitabellen er tom, eller noe gikk gærent.',
+	'interwiki_edit' => 'Rediger',
 	'interwiki_reasonfield' => 'Årsak:',
 	'interwiki_delquestion' => 'Sletter «$1»',
 	'interwiki_deleting' => 'Du sletter prefikset «$1».',
@@ -2512,16 +2533,16 @@ $messages['oc'] = array(
 	'interwiki-desc' => 'Apond una [[Special:Interwiki|pagina especiala]] per veire e editar la taula interwiki',
 	'interwiki_intro' => 'Aquò es un apercebut de la taula interwiki. Vaquí las significacions de las donadas de colomnas :',
 	'interwiki_prefix' => 'Prefix',
-	'interwiki-prefix-label' => 'Prefix:',
+	'interwiki-prefix-label' => 'Prefix :',
 	'interwiki_prefix_intro' => "Prefix interwiki d'utilizar dins <code>[<nowiki />[prefix :<i>nom de la pagina</i>]]</code> de la sintaxi wiki.",
 	'interwiki_url_intro' => 'Modèl per las URLs. $1 serà remplaçat pel <i>nom de la pagina</i> del wikitèxt, quora la sintaxi çaisús es utilizada.',
 	'interwiki_local' => 'Far seguir',
-	'interwiki-local-label' => 'Far seguir:',
+	'interwiki-local-label' => 'Far seguir :',
 	'interwiki_local_intro' => "Una requèsta HTTP sus aqueste wiki amb aqueste prefix interwiki dins l'URL serà :",
 	'interwiki_local_0_intro' => 'regetat, blocat generalament per « Marrit títol »,',
 	'interwiki_local_1_intro' => "redirigit cap a l'URL cibla en foncion de la definicion del prefix interwiki (es a dire tractat coma un ligam dins una pagina del wiki)",
 	'interwiki_trans' => 'Enclure',
-	'interwiki-trans-label' => 'Enclure:',
+	'interwiki-trans-label' => 'Enclure :',
 	'interwiki_trans_intro' => 'Se la sintaxi <code>{<nowiki />{prefix :<i>nom de la pagina</i>}}</code> es utilizada, alara :',
 	'interwiki_trans_1_intro' => "l'inclusion a partir del wiki serà autorizada, se las inclusions interwiki son autorizadas dins aqueste wiki,",
 	'interwiki_trans_0_intro' => "l'inclusion serà regetada, e la pagina correspondenta serà recercada dins l'espaci de noms « Modèl ».",
@@ -2628,6 +2649,10 @@ Prawdopodobnie ten prefiks już jest w tableli.',
  */
 $messages['pms'] = array(
 	'interwiki' => 'Varda e modìfica dat antërwiki',
+	'interwiki-title-norights' => 'Varda dat antërwiki',
+	'interwiki_intro' => "Sta sì a l'é na previsualisassion dla tàula antërwiki. Significà dij dat ant le colone:",
+	'interwiki_prefix' => 'Prefiss',
+	'interwiki-prefix-label' => 'Prefiss:',
 );
 
 /** Pontic (Ποντιακά)
