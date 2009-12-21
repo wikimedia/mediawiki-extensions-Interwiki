@@ -2645,14 +2645,20 @@ Prawdopodobnie ten prefiks już jest w tableli.',
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
 	'interwiki' => 'Varda e modìfica dat antërwiki',
 	'interwiki-title-norights' => 'Varda dat antërwiki',
-	'interwiki_intro' => "Sta sì a l'é na previsualisassion dla tàula antërwiki. Significà dij dat ant le colone:",
+	'interwiki-desc' => 'A gionta na [[Special:Interwiki|pàgina special]] për vëdde e modifiché la tàula antërwiki',
+	'interwiki_intro' => "Costa-sì a l'é na previsualisassion dla tàula antërwiki. Significà dij dat ant le colòne:",
 	'interwiki_prefix' => 'Prefiss',
 	'interwiki-prefix-label' => 'Prefiss:',
+	'interwiki_prefix_intro' => 'Prefiss antërwiki da dovré ant la sintassi dël test wiki <code>[<nowiki />[prefix:<i>nòm pàgina</i>]]</code>',
+	'interwiki_url_intro' => "Stamp për anliure. Ël marca-pòst $1 a sarà rimpiassà dal <i>nòm pàgina</i> dël test wiki, quand la sintassi dël test wiki dzor-dit a l'é dovrà.",
+	'interwiki_local' => 'Anans',
+	'interwiki-local-label' => 'Anans:',
 );
 
 /** Pontic (Ποντιακά)
