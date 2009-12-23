@@ -244,7 +244,7 @@ $messages['ar'] = array(
 	'interwiki-desc' => 'يضيف [[Special:Interwiki|صفحة خاصة]] لرؤية وتعديل جدول الإنترويكي',
 	'interwiki_intro' => 'هذا عرض عام لجدول الإنترويكي. معاني البيانات في العواميد:',
 	'interwiki_prefix' => 'بادئة',
-	'interwiki-prefix-label' => 'بادئة:',
+	'interwiki-prefix-label' => 'البادئة:',
 	'interwiki_prefix_intro' => 'بادئة الإنترويكي ليتم استخدامها في صياغة نص الويكي <code>[<nowiki />[prefix:<i>pagename</i>]]</code>.',
 	'interwiki_url' => 'مسار',
 	'interwiki-url-label' => 'مسار:',
@@ -265,7 +265,7 @@ $messages['ar'] = array(
 	'interwiki_0' => 'لا',
 	'interwiki_error' => 'خطأ: جدول الإنترويكي فارغ، أو حدث خطأ آخر.',
 	'interwiki_edit' => 'عدل',
-	'interwiki_reasonfield' => 'سبب',
+	'interwiki_reasonfield' => 'السبب:',
 	'interwiki_delquestion' => 'حذف "$1"',
 	'interwiki_deleting' => 'أنت تحذف البادئة "$1".',
 	'interwiki_deleted' => 'البادئة "$1" تمت إزالتها بنجاح من جدول الإنترويكي.',
@@ -1337,7 +1337,7 @@ $messages['he'] = array(
 	'interwiki_0' => 'לא',
 	'interwiki_error' => 'שגיאה: טבלת הבינוויקי ריקה, או שיש שגיאה אחרת.',
 	'interwiki_edit' => 'עריכה',
-	'interwiki_reasonfield' => 'סיבה',
+	'interwiki_reasonfield' => 'סיבה:',
 	'interwiki_delquestion' => 'מחיקת "$1"',
 	'interwiki_deleting' => 'הנכם מוחקים את הקידומת "$1".',
 	'interwiki_deleted' => 'הקידומת "$1" הוסרה בהצלחה מטבלת הבינוויקי.',
@@ -2659,6 +2659,46 @@ $messages['pms'] = array(
 	'interwiki_url_intro' => "Stamp për anliure. Ël marca-pòst $1 a sarà rimpiassà dal <i>nòm pàgina</i> dël test wiki, quand la sintassi dël test wiki dzor-dit a l'é dovrà.",
 	'interwiki_local' => 'Anans',
 	'interwiki-local-label' => 'Anans:',
+	'interwiki_local_intro' => "N'arcesta HTTP a la wiki local con sto prefiss antërwiki-sì ant l'anliura a l'é:",
+	'interwiki_local_0_intro' => 'pa fàit, normalment blocà da "pàgina pa trovà"',
+	'interwiki_local_1_intro' => "rediressionà a l'anliura ëd destinassion dàita ant la definission dël colegament antërwiki (visadì tratà com arferiment ant le pàgine locaj)",
+	'interwiki_trans' => 'Anseriment',
+	'interwiki-trans-label' => 'Anseriment:',
+	'interwiki_trans_intro' => "Se la sintass wikitest <code>{<nowiki />{prefix:<i>nòmpàgina</i>}}</code> a l'é dovrà, antlora:",
+	'interwiki_trans_1_intro' => "përmëtt anseriment da la wiki strangera, se j'anseriment antërwiki a son generalment përmëttù an sta wiki-sì,",
+	'interwiki_trans_0_intro' => 'përmëtt pa lòn, nopà serca na pàgina ant lë spassi nominal dlë stamp.',
+	'interwiki_intro_footer' => 'Varda [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] për savèjne ëd pi an sla tàula antërwiki.
+A-i é un [[Special:Log/interwiki|registr dij cambi]] për la tàula antërwiki.',
+	'interwiki_1' => 'é!',
+	'interwiki_0' => 'nò',
+	'interwiki_error' => "Eror: La tàula antërwiki a l'é veuida, o cheicòs d'àutr a l'ha andàit mal.",
+	'interwiki_edit' => 'Modìfica',
+	'interwiki_reasonfield' => 'Rason:',
+	'interwiki_delquestion' => 'Scanselé "$1"',
+	'interwiki_deleting' => 'I-të stas scanseland ël prefiss "$1".',
+	'interwiki_deleted' => 'Ël prefiss "$1" a l\'é stàit gavà da bin da la tàula antërwiki.',
+	'interwiki_delfailed' => 'Ël prefiss "$1" a peul pa esse gavà da la tàula antërwiki.',
+	'interwiki_addtext' => 'Gionta un prefiss antërwiki',
+	'interwiki_addintro' => "I-të stas giontand un neuv prefiss antërwiki.
+Arcòrda che a peul pa conten-e spassi (), doi pont (:), e comersial (&), o l'ugual (=).",
+	'interwiki_addbutton' => 'Gionta',
+	'interwiki_added' => 'Ël prefiss "$1" a l\'é stàit giontà da bin a la tàula antërwiki.',
+	'interwiki_addfailed' => 'Ël prefiss "$1" a peul pa esse giontà a la tàula antërwiki.
+A peul esse ch\'a esista già ant la tàula antërwiki.',
+	'interwiki_edittext' => 'Modifiché un prefiss antërwiki',
+	'interwiki_editintro' => 'I-të stas modificand un prefiss antërwiki.
+Arcòrda che sòn-sì a peul rumpe un colegament esistent.',
+	'interwiki_edited' => 'Ël prefiss "$1" a l\'é stàit modificà da bin ant la tàula antërwiki.',
+	'interwiki_editerror' => 'Ël prefiss "$1" a peul pa esse modificà ant la tàula antërwiki.
+A peul esse che a esista pa.',
+	'interwiki-badprefix' => 'Ël prefiss antërwiki specificà "$1" a conten caràter pa bon.',
+	'interwiki_logpagename' => 'Registr tàula antërwiki',
+	'interwiki_log_added' => 'giontà ël prefiss "$2" ($3) (trans: $4) (local: $5) a la tàula antërwiki',
+	'interwiki_log_edited' => 'mdificà ël prefiss "$2" : ($3) (trans: $4) (local: $5) ant la tàula antërwiki',
+	'interwiki_log_deleted' => 'gavà ël prefiss "$2" da la tàula antërwiki',
+	'interwiki_logpagetext' => "Sto-sì a l'é un registr dij cambi a la [[Special:Interwiki|tàula antërwiki]].",
+	'right-interwiki' => 'Modìfica dat antërwiki',
+	'action-interwiki' => 'cambia sto dat antërwiki-sì',
 );
 
 /** Pontic (Ποντιακά)
@@ -3235,7 +3275,7 @@ $messages['te'] = array(
 	'interwiki_0' => 'కాదు',
 	'interwiki_error' => 'పొరపాటు: అంతర్వికీ పట్టిక ఖాళీగా ఉంది, లేదా ఏదో తప్పు జరిగింది.',
 	'interwiki_edit' => 'మార్చు',
-	'interwiki_reasonfield' => 'కారణం',
+	'interwiki_reasonfield' => 'కారణం:',
 	'interwiki_delquestion' => '"$1"ని తొలగిస్తున్నారు',
 	'interwiki_deleting' => 'మీరు "$1" అనే ఉపసర్గని తొలగించబోతున్నారు.',
 	'interwiki_deleted' => 'అంతర్వికీ పట్టిక నుండి "$1" అనే ఉపసర్గని విజయవంతంగా తొలగించాం.',
@@ -3343,6 +3383,7 @@ Maaaring hindi pa ito umiiral.",
  * @author Joseph
  * @author Karduelis
  * @author Suelnur
+ * @author Vito Genovese
  */
 $messages['tr'] = array(
 	'interwiki' => 'Vikilerarası veriyi gör ve değiştir',
@@ -3352,7 +3393,8 @@ $messages['tr'] = array(
 	'interwiki_prefix' => 'Önek',
 	'interwiki-prefix-label' => 'Önek:',
 	'interwiki_1' => 'evet',
-	'interwiki_reasonfield' => 'Neden',
+	'interwiki_edit' => 'Değiştir',
+	'interwiki_reasonfield' => 'Neden:',
 	'interwiki_addbutton' => 'Ekle',
 );
 
