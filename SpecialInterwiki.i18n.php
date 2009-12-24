@@ -2482,6 +2482,7 @@ $messages['no'] = array(
 	'interwiki-prefix-label' => 'Prefiks:',
 	'interwiki_local' => 'Videresend',
 	'interwiki-local-label' => 'Videresend:',
+	'interwiki_trans_0_intro' => 'ikke tillat det, se heller etter en side i malnavnerommet.',
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nei',
 	'interwiki_error' => 'FEIL: Interwikitabellen er tom, eller noe gikk gærent.',
@@ -2506,6 +2507,7 @@ $messages['no'] = array(
 	'interwiki_log_deleted' => 'Fjernet prefikset «$2» fra interwikitabellen',
 	'interwiki_logpagetext' => 'Dette er en logg over endringer i [[Special:Interwiki|interwikitabellen]].',
 	'right-interwiki' => 'Redigere interwikidata',
+	'action-interwiki' => 'endre dette interwikielementet',
 );
 
 /** Novial (Novial)
@@ -2661,42 +2663,42 @@ $messages['pms'] = array(
 	'interwiki-local-label' => 'Anans:',
 	'interwiki_local_intro' => "N'arcesta HTTP a la wiki local con sto prefiss antërwiki-sì ant l'anliura a l'é:",
 	'interwiki_local_0_intro' => 'pa fàit, normalment blocà da "pàgina pa trovà"',
-	'interwiki_local_1_intro' => "rediressionà a l'anliura ëd destinassion dàita ant la definission dël colegament antërwiki (visadì tratà com arferiment ant le pàgine locaj)",
+	'interwiki_local_1_intro' => "ridiressionà a l'anliura ëd destinassion dàita ant la definission dël colegament antërwiki (visadì tratà com arferiment ant le pàgine locaj)",
 	'interwiki_trans' => 'Anseriment',
 	'interwiki-trans-label' => 'Anseriment:',
-	'interwiki_trans_intro' => "Se la sintass wikitest <code>{<nowiki />{prefix:<i>nòmpàgina</i>}}</code> a l'é dovrà, antlora:",
-	'interwiki_trans_1_intro' => "përmëtt anseriment da la wiki strangera, se j'anseriment antërwiki a son generalment përmëttù an sta wiki-sì,",
-	'interwiki_trans_0_intro' => 'përmëtt pa lòn, nopà serca na pàgina ant lë spassi nominal dlë stamp.',
+	'interwiki_trans_intro' => "Se la sintassi wikitest <code>{<nowiki />{prefix:<i>nòmpàgina</i>}}</code> a l'é dovrà, antlora:",
+	'interwiki_trans_1_intro' => "a përmet anseriment da la wiki strangera, se j'anseriment antërwiki a son generalment përmëttù an sta wiki-sì,",
+	'interwiki_trans_0_intro' => 'a përmet pa lòn, nopà a sërca na pàgina ant lë spassi nominal dlë stamp.',
 	'interwiki_intro_footer' => 'Varda [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] për savèjne ëd pi an sla tàula antërwiki.
 A-i é un [[Special:Log/interwiki|registr dij cambi]] për la tàula antërwiki.',
 	'interwiki_1' => 'é!',
 	'interwiki_0' => 'nò',
-	'interwiki_error' => "Eror: La tàula antërwiki a l'é veuida, o cheicòs d'àutr a l'ha andàit mal.",
+	'interwiki_error' => "Eror: La tàula antërwiki a l'é veuida, o cheicòs d'àutr a l'é andàit mal.",
 	'interwiki_edit' => 'Modìfica',
 	'interwiki_reasonfield' => 'Rason:',
-	'interwiki_delquestion' => 'Scanselé "$1"',
-	'interwiki_deleting' => 'I-të stas scanseland ël prefiss "$1".',
+	'interwiki_delquestion' => 'Scancelassion ëd "$1"',
+	'interwiki_deleting' => 'It ses an camin a scancelé ël prefiss "$1".',
 	'interwiki_deleted' => 'Ël prefiss "$1" a l\'é stàit gavà da bin da la tàula antërwiki.',
 	'interwiki_delfailed' => 'Ël prefiss "$1" a peul pa esse gavà da la tàula antërwiki.',
 	'interwiki_addtext' => 'Gionta un prefiss antërwiki',
-	'interwiki_addintro' => "I-të stas giontand un neuv prefiss antërwiki.
-Arcòrda che a peul pa conten-e spassi (), doi pont (:), e comersial (&), o l'ugual (=).",
+	'interwiki_addintro' => "A l'é an camin ch'a gionta un neuv prefiss antërwiki.
+Ch'as visa che a peul pa conten-e spassi ( ), doi pont (:), e comersial (&), o l'ugual (=).",
 	'interwiki_addbutton' => 'Gionta',
 	'interwiki_added' => 'Ël prefiss "$1" a l\'é stàit giontà da bin a la tàula antërwiki.',
 	'interwiki_addfailed' => 'Ël prefiss "$1" a peul pa esse giontà a la tàula antërwiki.
 A peul esse ch\'a esista già ant la tàula antërwiki.',
 	'interwiki_edittext' => 'Modifiché un prefiss antërwiki',
-	'interwiki_editintro' => 'I-të stas modificand un prefiss antërwiki.
-Arcòrda che sòn-sì a peul rumpe un colegament esistent.',
+	'interwiki_editintro' => "A l'é an camin ch'a modìfica un prefiss antërwiki.
+Ch'as visa che sòn a peul rompe un colegament esistent.",
 	'interwiki_edited' => 'Ël prefiss "$1" a l\'é stàit modificà da bin ant la tàula antërwiki.',
 	'interwiki_editerror' => 'Ël prefiss "$1" a peul pa esse modificà ant la tàula antërwiki.
 A peul esse che a esista pa.',
 	'interwiki-badprefix' => 'Ël prefiss antërwiki specificà "$1" a conten caràter pa bon.',
 	'interwiki_logpagename' => 'Registr tàula antërwiki',
 	'interwiki_log_added' => 'giontà ël prefiss "$2" ($3) (trans: $4) (local: $5) a la tàula antërwiki',
-	'interwiki_log_edited' => 'mdificà ël prefiss "$2" : ($3) (trans: $4) (local: $5) ant la tàula antërwiki',
+	'interwiki_log_edited' => 'modificà ël prefiss "$2" : ($3) (trans: $4) (local: $5) ant la tàula antërwiki',
 	'interwiki_log_deleted' => 'gavà ël prefiss "$2" da la tàula antërwiki',
-	'interwiki_logpagetext' => "Sto-sì a l'é un registr dij cambi a la [[Special:Interwiki|tàula antërwiki]].",
+	'interwiki_logpagetext' => "Cost-sì a l'é un registr dij cambi a la [[Special:Interwiki|tàula antërwiki]].",
 	'right-interwiki' => 'Modìfica dat antërwiki',
 	'action-interwiki' => 'cambia sto dat antërwiki-sì',
 );
