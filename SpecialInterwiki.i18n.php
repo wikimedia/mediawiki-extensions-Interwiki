@@ -322,23 +322,23 @@ $messages['arz'] = array(
 	'interwiki_0' => 'لا',
 	'interwiki_error' => 'خطأ: جدول الإنترويكى فارغ، أو حدث خطأ آخر.',
 	'interwiki_edit' => 'عدل',
-	'interwiki_reasonfield' => 'سبب',
+	'interwiki_reasonfield' => 'سبب:',
 	'interwiki_delquestion' => 'حذف "$1"',
 	'interwiki_deleting' => 'أنت تحذف البادئة "$1".',
-	'interwiki_deleted' => 'البادئة "$1" تمت إزالتها بنجاح من جدول الإنترويكي.',
-	'interwiki_delfailed' => 'البادئة "$1" لم يمكن إزالتها من جدول الإنترويكي.',
+	'interwiki_deleted' => 'البادئة "$1" تمت إزالتها بنجاح من جدول الإنترويكى.',
+	'interwiki_delfailed' => 'البادئة "$1" لم يمكن إزالتها من جدول الإنترويكى.',
 	'interwiki_addtext' => 'أضف بادئة إنترويكي',
 	'interwiki_addintro' => 'أنت تضيف بادئة إنترويكى جديدة.
 تذكر أنها لا يمكن أن تحتوى على مسافات ( )، نقطتين فوق بعض (:)، علامة و (&)، أو علامة يساوى (=).',
 	'interwiki_addbutton' => 'إضافة',
-	'interwiki_added' => 'البادئة "$1" تمت إضافتها بنجاح إلى جدول الإنترويكي.',
-	'interwiki_addfailed' => 'البادئة "$1" لم يمكن إضافتها إلى جدول الإنترويكي.
-على الأرجح هى موجودة بالفعل فى جدول الإنترويكي.',
+	'interwiki_added' => 'البادئة "$1" تمت إضافتها بنجاح إلى جدول الإنترويكى.',
+	'interwiki_addfailed' => 'البادئة "$1" لم يمكن إضافتها إلى جدول الإنترويكى.
+على الأرجح هى موجودة بالفعل فى جدول الإنترويكى.',
 	'interwiki_edittext' => 'تعديل بادئة إنترويكي',
 	'interwiki_editintro' => 'أنت تعدل بادئة إنترويكى موجودة.
 تذكر أن هذا يمكن أن يكسر الوصلات الحالية.',
-	'interwiki_edited' => 'البادئة "$1" تم تعديلها بنجاح فى جدول الإنترويكي..',
-	'interwiki_editerror' => 'البادئة "$1" لم يمكن تعديلها فى جدول الإنترويكي.
+	'interwiki_edited' => 'البادئة "$1" تم تعديلها بنجاح فى جدول الإنترويكى..',
+	'interwiki_editerror' => 'البادئة "$1" لم يمكن تعديلها فى جدول الإنترويكى.
 من المحتمل أنها غير موجودة.',
 	'interwiki-badprefix' => 'بادئة إنترويكى محددة "$1" فيها حروف مش صحيحة',
 	'interwiki_logpagename' => 'سجل جدول الإنترويكي',
@@ -1929,6 +1929,7 @@ $messages['km'] = array(
 $messages['kn'] = array(
 	'interwiki_1' => 'ಹೌದು',
 	'interwiki_0' => 'ಇಲ್ಲ',
+	'interwiki_reasonfield' => 'ಕಾರಣ:',
 );
 
 /** Korean (한국어)
@@ -2189,18 +2190,53 @@ $messages['mhr'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
+	'interwiki' => 'Преглед и уредување на интервики податоци',
 	'interwiki-title-norights' => 'Види интервики податоци',
+	'interwiki-desc' => 'Додава [[Special:Interwiki|специјална страница]] за преглед и уредување на интервики-табелата',
+	'interwiki_intro' => 'Ова е преглед на интервики-табелата. Значења на податоците во колоните:',
 	'interwiki_prefix' => 'Префикс',
 	'interwiki-prefix-label' => 'Префикс:',
+	'interwiki_prefix_intro' => 'Интервики префикс за користење во викитекст-синтаксата <code>[<nowiki />[префикс:<i>име на страница</i>]]</code>.',
+	'interwiki_url_intro' => 'Шаблон за URL-адреси. Наместо $1 ќе биде поставено <i>име на страницата</i> на викитекстот, кога се користи гореспоменатата виктекст-синтакса.',
 	'interwiki_local' => 'Препратка',
 	'interwiki-local-label' => 'Препратка:',
+	'interwiki_local_intro' => 'HTTP-барање до локалното вики со овој интервики префикс во URL-адресата:',
+	'interwiki_local_0_intro' => 'не се почитува, туку обично се блокира со пораката „страницата не е пронајдена“,',
+	'interwiki_local_1_intro' => 'се пренасочува кон целната URL-адреса посочена во дефинициите на интервики-врските (т.е. се третира како референтните врски на локалните страници)',
 	'interwiki_trans' => 'Вклучување',
 	'interwiki-trans-label' => 'Вклучување:',
+	'interwiki_trans_intro' => 'Ако се користи викитекст-синтаксата <code>{<nowiki />{префикс:<i>име на страница</i>}}</code>, тогаш:',
+	'interwiki_trans_1_intro' => 'дозволи вклучување од други викија, ако тоа е начелно дозволено на ова вики,',
+	'interwiki_trans_0_intro' => 'не дозволувак, туку барај страница во шаблонскиот именски простор.',
+	'interwiki_intro_footer' => 'Погледајте ја страницата [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] за повеќе информации за интервики-табелата.
+Постои [[Special:Log/interwiki|дневник на промени]] во интервики-табелата.',
 	'interwiki_1' => 'да',
 	'interwiki_0' => 'не',
+	'interwiki_error' => 'Грешка: Интервики-табелата е празна, или нешто друго не е во ред.',
 	'interwiki_edit' => 'Уреди',
 	'interwiki_reasonfield' => 'Причина:',
+	'interwiki_delquestion' => 'Бришење на „$1“',
+	'interwiki_deleting' => 'Го бришете префиксот „$1“.',
+	'interwiki_deleted' => 'Префиксот „$1“ е успешно отстранет од интервики-табелата.',
+	'interwiki_delfailed' => 'Префиксот „$1“ не можеше да се отстрани од интервики-табелата.',
+	'interwiki_addtext' => 'Додај интервики префикс',
+	'interwiki_addintro' => 'Запомнете дека не смее да содржи празни простори ( ), две точки (:), амперсанди (&) и знаци на равенство (=).',
 	'interwiki_addbutton' => 'Додај',
+	'interwiki_added' => 'Префиксот „$1“ е успешно додаден кон интервики-табелата',
+	'interwiki_addfailed' => 'Префиксот „$1“ не можеше да се додаде во интервики-табелата.
+Веројатно таму веќе постои.',
+	'interwiki_edittext' => 'Уредување на интервики префикс',
+	'interwiki_editintro' => 'Уредувате интервики префикс.
+Запомнете дека ова може да ги раскине постоечките врски.',
+	'interwiki_edited' => 'Префиксот „$1“ е успешно изменет во интервики-табелата.',
+	'interwiki_editerror' => 'Префиксот „$1“ не може да се менува во интервики-табелата.
+Можеби тој не постои.',
+	'interwiki-badprefix' => 'Назначениот интервики префикс „$1“ содржи неважечки знаци',
+	'interwiki_logpagename' => 'Дневник на измени во интервики-табелата',
+	'interwiki_log_added' => 'го додаде префиксот „$2“ ($3) (меѓ: $4) (лок: $5) во интервики-табелата',
+	'interwiki_log_edited' => 'го измени префиксот „$2“ : ($3) (меѓ: $4) (лок: $5) во интервики-табелата',
+	'interwiki_log_deleted' => 'го додаде префиксот „$2“ во интервики-табелата',
+	'interwiki_logpagetext' => 'Ова е дневник на промени во [[Special:Interwiki|интервики-табелата]].',
 	'right-interwiki' => 'Уреди интервики',
 	'action-interwiki' => 'менување на овој интервики-запис',
 );
@@ -2501,6 +2537,7 @@ $messages['no'] = array(
 	'interwiki_editintro' => 'Du redigerer et interwikiprefiks. Merk at dette kan ødelegge eksisterende lenker.',
 	'interwiki_edited' => 'Prefikset «$1» ble endret i interwikitabellen.',
 	'interwiki_editerror' => 'Prefikset «$1» kan ikke endres i interwikitabellen. Det finnes muligens ikke.',
+	'interwiki-badprefix' => 'Det oppgitte interwikiprefikset «$1» innholder ugyldige tegn',
 	'interwiki_logpagename' => 'Interwikitabellogg',
 	'interwiki_log_added' => 'La til «$2» ($3) (trans: $4) (lokal: $5) til interwikitabellen',
 	'interwiki_log_edited' => 'endret prefikset «$2»: ($3) (trans: $4) (lokal: $5) i interwikitabellen',
@@ -3621,6 +3658,7 @@ $messages['yue'] = array(
 $messages['zh-hans'] = array(
 	'interwiki' => '查看并编辑跨维基连结表',
 	'interwiki-title-norights' => '查看跨维基资料',
+	'interwiki-desc' => '新增[[Special:Interwiki|特殊页面]]以检视或编辑跨语言连结表',
 	'interwiki_intro' => '这是跨维基链接表的概览。列中的数据的含义：',
 	'interwiki_prefix' => '前缀',
 	'interwiki-prefix-label' => '前缀:',
