@@ -3344,6 +3344,14 @@ $messages['tg-cyrl'] = array(
 	'interwiki_addbutton' => 'Илова',
 );
 
+/** Tajik (Latin) (Тоҷикӣ (Latin))
+ * @author Liangent
+ */
+$messages['tg-latn'] = array(
+	'interwiki_delquestion' => 'Dar holi hazfi "$1"',
+	'interwiki_addbutton' => 'Ilova',
+);
+
 /** Thai (ไทย)
  * @author Manop
  * @author Passawuth
@@ -3658,7 +3666,7 @@ $messages['yue'] = array(
 $messages['zh-hans'] = array(
 	'interwiki' => '查看并编辑跨维基连结表',
 	'interwiki-title-norights' => '查看跨维基资料',
-	'interwiki-desc' => '新增[[Special:Interwiki|特殊页面]]以检视或编辑跨语言连结表',
+	'interwiki-desc' => '新增[[Special:Interwiki|特殊页面]]以查看或编辑跨语言链接表',
 	'interwiki_intro' => '这是跨维基链接表的概览。列中的数据的含义：',
 	'interwiki_prefix' => '前缀',
 	'interwiki-prefix-label' => '前缀:',
@@ -3696,24 +3704,24 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Alexsh
+ * @author Liangent
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
 	'interwiki' => '檢視並編輯跨維基連結表',
 	'interwiki-title-norights' => '檢視跨維基資料',
 	'interwiki-desc' => '新增[[Special:Interwiki|特殊頁面]]以檢視或編輯跨語言連結表',
-	'interwiki_intro' => '請參閱[http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]以取得更多有關跨維基連結表的訊息。
-這裏有跨維基連結表的[[Special:Log/interwiki|更動日誌]]。',
+	'interwiki_intro' => '這是跨維基連結表的概覽。列中的數據的含義：',
 	'interwiki_prefix' => '前綴',
 	'interwiki-prefix-label' => '前綴:',
-	'interwiki_local' => '定義這個為一個本地wiki',
+	'interwiki_local' => '轉發',
 	'interwiki-local-label' => '定義這個為一個本地wiki:',
-	'interwiki_trans' => '容許跨維基包含',
+	'interwiki_trans' => '包含',
 	'interwiki-trans-label' => '容許跨維基包含:',
 	'interwiki_1' => '是',
 	'interwiki_0' => '否',
 	'interwiki_error' => '錯誤: 跨維基連結表為空，或是發生其它錯誤。',
-	'interwiki_reasonfield' => '原因',
+	'interwiki_reasonfield' => '原因：',
 	'interwiki_delquestion' => '正在刪除"$1"',
 	'interwiki_deleting' => '您正在刪除前綴"$1"。',
 	'interwiki_deleted' => '已成功地從連結表中刪除前綴"$1"。',
