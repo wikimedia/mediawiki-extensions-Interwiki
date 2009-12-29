@@ -3368,6 +3368,13 @@ $messages['th'] = array(
 	'right-interwiki' => 'แก้ไขข้อมูลอินเตอร์วิกิ',
 );
 
+/** Turkmen (Türkmençe)
+ * @author Hanberke
+ */
+$messages['tk'] = array(
+	'interwiki_edit' => 'Redaktirle',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
