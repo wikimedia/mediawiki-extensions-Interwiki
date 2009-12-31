@@ -860,7 +860,7 @@ $messages['eo'] = array(
 	'interwiki_0' => 'ne',
 	'interwiki_error' => 'ERARO: La intervikia tabelo estas malplena, aŭ iel misfunkciis.',
 	'interwiki_edit' => 'Redakti',
-	'interwiki_reasonfield' => 'Kialo',
+	'interwiki_reasonfield' => 'Kialo:',
 	'interwiki_delquestion' => 'Forigante "$1"',
 	'interwiki_deleting' => 'Vi forigas prefikson "$1".',
 	'interwiki_deleted' => 'Prefikso "$1" estis sukcese forigita de la intervikia tabelo.',
@@ -2827,6 +2827,7 @@ Lembre-se que este não pode conter espaços ( ), dois-pontos (:), conjunções 
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
+ * @author Luckas Blade
  */
 $messages['pt-br'] = array(
 	'interwiki' => 'Ver e editar dados de interwikis',
@@ -2853,7 +2854,7 @@ Existe um [[Special:Log/interwiki|registro de modificações]] à tabela de inte
 	'interwiki_0' => 'não',
 	'interwiki_error' => 'ERRO: A tabela de interwikis está vazia, ou alguma outra coisa não correu bem.',
 	'interwiki_edit' => 'Editar',
-	'interwiki_reasonfield' => 'Motivo',
+	'interwiki_reasonfield' => 'Motivo:',
 	'interwiki_delquestion' => 'Apagando "$1"',
 	'interwiki_deleting' => 'Você está apagando o prefixo "$1".',
 	'interwiki_deleted' => 'O prefixo "$1" foi removido da tabelas de interwikis com sucesso.',
