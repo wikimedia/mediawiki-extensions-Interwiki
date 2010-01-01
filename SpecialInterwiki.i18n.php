@@ -3447,10 +3447,19 @@ $messages['tr'] = array(
 	'interwiki_intro' => 'Bu vikilerarası tabloya genel bir bakıştır. Sütunlardaki verinin anlamları:',
 	'interwiki_prefix' => 'Önek',
 	'interwiki-prefix-label' => 'Önek:',
+	'interwiki_local' => 'Yönlendir',
+	'interwiki-local-label' => 'Yönlendir:',
+	'interwiki_trans' => 'Görüntüle',
+	'interwiki-trans-label' => 'Görüntüle:',
 	'interwiki_1' => 'evet',
+	'interwiki_0' => 'hayır',
+	'interwiki_error' => 'Hata: İnterviki tablosu boş ya da başka bir şeyde sorun çıktı.',
 	'interwiki_edit' => 'Değiştir',
 	'interwiki_reasonfield' => 'Neden:',
+	'interwiki_addtext' => 'Bir interviki öneki ekler',
 	'interwiki_addbutton' => 'Ekle',
+	'right-interwiki' => 'İnterviki verilerini düzenler',
+	'action-interwiki' => 'bu interviki girdisini değiştir',
 );
 
 /** Ukrainian (Українська)
