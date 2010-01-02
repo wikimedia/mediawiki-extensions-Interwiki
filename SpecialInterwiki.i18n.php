@@ -3243,6 +3243,7 @@ $messages['su'] = array(
  * @author Lejonel
  * @author M.M.S.
  * @author Najami
+ * @author Per
  * @author Purodha
  */
 $messages['sv'] = array(
