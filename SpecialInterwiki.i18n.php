@@ -496,6 +496,7 @@ $messages['br'] = array(
 	'interwiki-trans-label' => 'Treuzkludañ :',
 	'interwiki_1' => 'ya',
 	'interwiki_0' => 'ket',
+	'interwiki_error' => 'Fazi : goullo eo an daolenn interwiki, pe un dra bennak all zo aet a-dreuz.',
 	'interwiki_edit' => 'Aozañ',
 	'interwiki_reasonfield' => 'Abeg :',
 	'interwiki_delquestion' => 'O tilemel « $1 »',
