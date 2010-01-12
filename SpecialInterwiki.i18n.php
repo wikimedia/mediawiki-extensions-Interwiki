@@ -504,6 +504,12 @@ $messages['br'] = array(
 	'interwiki_addtext' => 'Ouzhpennañ ur rakger interwiki',
 	'interwiki_addbutton' => 'Ouzhpennañ',
 	'interwiki_edittext' => "Oc'h aozañ ur rakger interwiki",
+	'interwiki_editintro' => "Emaoc'h oc'h aozañ ur rakger interwiki.
+Ho pezet soñj e c'hall an dra-se terriñ liammoù zo anezho dija.",
+	'interwiki_edited' => 'Ar rakger « $1 » zo bet kemmet en daolenn interwiki.',
+	'interwiki_editerror' => "Ar rakger « $1 » ne c'hall ket bezañ kemmet en daolenn interwiki.
+Marteze n'eus ket anezhañ.",
+	'interwiki_logpagename' => 'Deizlevr an daolenn interwiki',
 	'right-interwiki' => 'Aozañ ar roadennoù interwiki',
 );
 
