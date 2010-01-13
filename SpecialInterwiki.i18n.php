@@ -2077,6 +2077,7 @@ Fortasse nondum est in tabula intervica.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
+ * @author Les Meloures
  * @author Purodha
  * @author Robby
  */
@@ -2098,7 +2099,7 @@ D'Bedeitung vun den Informatiounen an de Kolonnen:",
 	'interwiki_local_1_intro' => "automatesch op d'Zil-URL virugeleed déi an den Interwikilink-Definitiounen uginn ass (d. h. gëtt wéi en Interwikilink op enger lokaler Säit behandelt)",
 	'interwiki_trans' => 'Interwiki-Abannungen',
 	'interwiki-trans-label' => 'Abannen:',
-	'interwiki_trans_intro' => "Wann d'Wiki-Syntax <code>{<nowiki />{präfix:<i>Numm vun der Säit</i>}}</code> benotzt gëtt, dann:",
+	'interwiki_trans_intro' => "Wann d'Wiki-Syntax <code>{<nowiki />{prefix:<i>Numm vun der Säit</i>}}</code> benotzt gëtt, dann:",
 	'interwiki_trans_1_intro' => "erlaabt Abannunge vun anere Wikien, wann d'Interwiki-Abannungen an dëser Wiki allgemeng zoulässeg sinn,",
 	'interwiki_trans_0_intro' => 'erlaabt et net, an huelt éischter eng Säit aus dem Nummraum:Schabloun.',
 	'interwiki_intro_footer' => "Kuckt [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org], fir weider Informatiounen iwwer d'Interwiki-Tabell ze kréien. D'[[Special:Log/interwiki|Logbuch]] weist e Protokoll vun allen Ännerungen an der Interwiki-Tabell.",
