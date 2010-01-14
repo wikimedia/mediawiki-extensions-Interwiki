@@ -501,6 +501,7 @@ $messages['br'] = array(
 	'interwiki_reasonfield' => 'Abeg :',
 	'interwiki_delquestion' => 'O tilemel « $1 »',
 	'interwiki_deleting' => "Emaoc'h o tilemel ar rakger « $1 ».",
+	'interwiki_deleted' => 'Lamet eo bet ar rakger « $1 » eus an daolenn interwiki.',
 	'interwiki_addtext' => 'Ouzhpennañ ur rakger interwiki',
 	'interwiki_addbutton' => 'Ouzhpennañ',
 	'interwiki_edittext' => "Oc'h aozañ ur rakger interwiki",
@@ -510,6 +511,7 @@ Ho pezet soñj e c'hall an dra-se terriñ liammoù zo anezho dija.",
 	'interwiki_editerror' => "Ar rakger « $1 » ne c'hall ket bezañ kemmet en daolenn interwiki.
 Marteze n'eus ket anezhañ.",
 	'interwiki_logpagename' => 'Deizlevr an daolenn interwiki',
+	'interwiki_log_deleted' => 'en deus lamet ar rakger « $2 » eus an daolenn interwiki',
 	'right-interwiki' => 'Aozañ ar roadennoù interwiki',
 );
 
