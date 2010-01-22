@@ -1416,8 +1416,8 @@ $messages['hil'] = array(
 
 /** Croatian (Hrvatski)
  * @author Dalibor Bosits
+ * @author Ex13
  * @author SpeedyGonsales
- * @author Suradnik13
  */
 $messages['hr'] = array(
 	'interwiki' => 'Vidi i uredi međuwiki podatke',
@@ -2187,6 +2187,13 @@ $messages['lzh'] = array(
 	'interwiki_log_edited' => '改「$2」：（$3）（含：$4）（本：$5）自跨維表',
 	'interwiki_log_deleted' => '刪跨維表自「$2」',
 	'right-interwiki' => '改跨維',
+);
+
+/** Malagasy (Malagasy)
+ * @author Jagwar
+ */
+$messages['mg'] = array(
+	'right-interwiki' => 'Manova ny data interwiki',
 );
 
 /** Eastern Mari (Олык Марий)
