@@ -12,6 +12,13 @@ class SpecialInterwiki extends SpecialPage {
 		parent::__construct( 'Interwiki' );
 	}
 
+	function getDescription() {
+		global $wgUser;
+
+		return wfMsg( $wgUser->isAllowed( 'interwiki' ) ?
+			'interwiki' : 'interwiki-title-norights' );
+	}
+
 	/**
 	 * Show the special page
 	 *
@@ -28,11 +35,6 @@ class SpecialInterwiki extends SpecialPage {
 		$this->outputHeader();
 
 		$admin = $wgUser->isAllowed( 'interwiki' );
-		if ( $admin ) {
-			$wgOut->setPageTitle( wfMsg( 'interwiki' ) );
-		} else {
-			$wgOut->setPageTitle( wfMsg( 'interwiki-title-norights' ) );
-		}
 		$action = $wgRequest->getVal( 'action', $par );
 
 		switch( $action ){
