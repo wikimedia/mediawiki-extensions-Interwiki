@@ -510,6 +510,7 @@ Ho pezet soñj e c'hall an dra-se terriñ liammoù zo anezho dija.",
 	'interwiki_edited' => 'Ar rakger « $1 » zo bet kemmet en daolenn interwiki.',
 	'interwiki_editerror' => "Ar rakger « $1 » ne c'hall ket bezañ kemmet en daolenn interwiki.
 Marteze n'eus ket anezhañ.",
+	'interwiki-badprefix' => 'Arouezennoù direizh zo er rakger interwiki « $1 »',
 	'interwiki_logpagename' => 'Deizlevr an daolenn interwiki',
 	'interwiki_log_deleted' => 'en deus lamet ar rakger « $2 » eus an daolenn interwiki',
 	'right-interwiki' => 'Aozañ ar roadennoù interwiki',
