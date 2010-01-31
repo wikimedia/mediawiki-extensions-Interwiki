@@ -957,6 +957,7 @@ $messages['et'] = array(
 );
 
 /** Basque (Euskara)
+ * @author An13sa
  * @author Kobazulo
  */
 $messages['eu'] = array(
@@ -964,7 +965,8 @@ $messages['eu'] = array(
 	'interwiki-prefix-label' => 'Aurrizkia:',
 	'interwiki_1' => 'bai',
 	'interwiki_0' => 'ez',
-	'interwiki_reasonfield' => 'Arrazoia',
+	'interwiki_edit' => 'Aldatu',
+	'interwiki_reasonfield' => 'Arrazoia:',
 	'interwiki_delquestion' => '"$1" ezabatzen',
 	'interwiki_deleting' => '"$1" aurrizkia ezabatzen ari zara.',
 	'interwiki_addbutton' => 'Erantsi',
