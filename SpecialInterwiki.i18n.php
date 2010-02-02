@@ -903,6 +903,7 @@ Verŝajne ĝi ne ekzistas.',
  * @author Locos epraix
  * @author Piolinfax
  * @author Sanbec
+ * @author Translationista
  */
 $messages['es'] = array(
 	'interwiki' => 'Ver y editar la tabla de interwikis',
@@ -911,10 +912,13 @@ $messages['es'] = array(
 	'interwiki_intro' => 'Esta es una visión general de la tabla intewiki. Los significados de los datos en las columnas:',
 	'interwiki_prefix' => 'Prefijo',
 	'interwiki-prefix-label' => 'Prefijo:',
+	'interwiki_url_intro' => 'Plantilla para URLs. El marcador $1 será reemplazado por el <i>nombre de página</i> del wikitexto cuando se use la sintaxis de wikitexto arriba mostrada.',
 	'interwiki_local' => 'Adelante',
 	'interwiki-local-label' => 'Adelante:',
+	'interwiki_local_intro' => 'Una solicitud HTTP a la wiki local con este prefijo interwiki en la URL es:',
 	'interwiki_trans' => 'transcluir',
 	'interwiki-trans-label' => 'Transcluir:',
+	'interwiki_trans_0_intro' => 'no permitirlo. En su lugar, buscar una página en el espacio de nombre de la plantilla.',
 	'interwiki_1' => 'Sí',
 	'interwiki_0' => 'no',
 	'interwiki_error' => 'Error: La tabla de interwikis está vacía, u otra cosa salió mal.',
@@ -942,6 +946,7 @@ Posiblemente no exista.',
 	'interwiki_log_added' => 'añadido el prefijo «$2» ($3) (trans: $4) (local: $5) a la tabla de interwikis',
 	'interwiki_log_edited' => 'modificado el prefijo «$2» : ($3) (trans: $4) (local: $5) en la tabla de interwikis',
 	'interwiki_log_deleted' => 'eliminado el prefijo «$2» de la tabla de interwikis',
+	'interwiki_logpagetext' => 'Este es un registro de los cambios hechos a la [[Special:Interwiki|tabla interwiki]].',
 	'right-interwiki' => 'Editar datos de interwiki',
 	'action-interwiki' => 'cambiar esta entrada interwiki',
 );
