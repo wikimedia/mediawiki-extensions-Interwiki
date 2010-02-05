@@ -2543,7 +2543,12 @@ $messages['no'] = array(
 	'interwiki-prefix-label' => 'Prefiks:',
 	'interwiki_local' => 'Videresend',
 	'interwiki-local-label' => 'Videresend:',
+	'interwiki_trans' => 'Transkluder',
+	'interwiki-trans-label' => 'Transkluder:',
+	'interwiki_trans_1_intro' => 'tillat transklusjon fra en fremmed wiki, om interwikitranskluderinger generellt er tillatt på denne wikien,',
 	'interwiki_trans_0_intro' => 'ikke tillat det, se heller etter en side i malnavnerommet.',
+	'interwiki_intro_footer' => 'Se [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] for mer informasjon om interwikitabellen.
+Det finnes en [[Special:Log/interwiki|endringslogg]] for interwikitabellen.',
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nei',
 	'interwiki_error' => 'FEIL: Interwikitabellen er tom, eller noe gikk gærent.',
