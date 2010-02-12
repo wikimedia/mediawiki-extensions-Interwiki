@@ -3715,6 +3715,7 @@ $messages['yue'] = array(
  * @author Gaoxuewei
  * @author Liangent
  * @author PhiLiP
+ * @author Vina
  * @author Wmr89502270
  */
 $messages['zh-hans'] = array(
@@ -3731,6 +3732,7 @@ $messages['zh-hans'] = array(
 	'interwiki_1' => '是',
 	'interwiki_0' => '否',
 	'interwiki_error' => '错误: 跨维基连结表为空，或是发生其它错误。',
+	'interwiki_edit' => '编辑',
 	'interwiki_reasonfield' => '原因：',
 	'interwiki_delquestion' => '正在删除"$1"',
 	'interwiki_deleting' => '您正在删除前缀"$1"。',
@@ -3754,6 +3756,7 @@ $messages['zh-hans'] = array(
 	'interwiki_log_edited' => '在跨维基连结表中修改了连结前缀 "$2" : （$3） （含: $4） （本: $5）',
 	'interwiki_log_deleted' => '在跨维基连结表中已删除 "$2"',
 	'right-interwiki' => '修改跨维基资料',
+	'action-interwiki' => '修正这个跨语言链接',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
