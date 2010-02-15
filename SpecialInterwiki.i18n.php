@@ -3670,6 +3670,7 @@ Ba no dabinon.',
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'interwiki_edit' => 'רעדאַקטירן',
 	'interwiki_addbutton' => 'צולייגן',
 );
 
