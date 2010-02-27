@@ -2800,10 +2800,10 @@ $messages['pnt'] = array(
 $messages['ps'] = array(
 	'interwiki_prefix' => 'مختاړی',
 	'interwiki-prefix-label' => 'مختاړی:',
-	'interwiki_edit' => 'سمون',
-	'interwiki_reasonfield' => 'سبب',
+	'interwiki_edit' => 'سمول',
+	'interwiki_reasonfield' => 'سبب:',
 	'interwiki_delquestion' => '"$1" د ړنګولو په حال کې دی...',
-	'interwiki_deleting' => 'تاسو د "$1" مختاړی ړنګوی.',
+	'interwiki_deleting' => 'تاسې د "$1" مختاړی ړنګوی.',
 	'interwiki_addbutton' => 'ورګډول',
 );
 
