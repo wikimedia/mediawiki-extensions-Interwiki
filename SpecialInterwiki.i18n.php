@@ -3474,6 +3474,7 @@ Maaaring hindi pa ito umiiral.",
 );
 
 /** Turkish (Türkçe)
+ * @author Homonihilis
  * @author Joseph
  * @author Karduelis
  * @author Suelnur
@@ -3495,6 +3496,7 @@ $messages['tr'] = array(
 	'interwiki_error' => 'Hata: İnterviki tablosu boş ya da başka bir şeyde sorun çıktı.',
 	'interwiki_edit' => 'Değiştir',
 	'interwiki_reasonfield' => 'Neden:',
+	'interwiki_delquestion' => '"$ 1" siliniyor',
 	'interwiki_addtext' => 'Bir interviki öneki ekler',
 	'interwiki_addbutton' => 'Ekle',
 	'right-interwiki' => 'İnterviki verilerini düzenler',
