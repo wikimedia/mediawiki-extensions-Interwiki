@@ -513,7 +513,9 @@ Marteze n'eus ket anezhañ.",
 	'interwiki-badprefix' => 'Arouezennoù direizh zo er rakger interwiki « $1 »',
 	'interwiki_logpagename' => 'Deizlevr an daolenn interwiki',
 	'interwiki_log_deleted' => 'en deus lamet ar rakger « $2 » eus an daolenn interwiki',
+	'interwiki_logpagetext' => "Ur marilh eus ar c'hemmoù en [[Special:Interwiki|daolenn etrewiki]] eo.",
 	'right-interwiki' => 'Aozañ ar roadennoù interwiki',
+	'action-interwiki' => "kemmañ ar c'hasadenn etrewiki-se",
 );
 
 /** Bosnian (Bosanski)
