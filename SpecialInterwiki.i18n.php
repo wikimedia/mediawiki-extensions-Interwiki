@@ -488,6 +488,7 @@ $messages['bg'] = array(
 $messages['br'] = array(
 	'interwiki' => 'Gwelet hag aozañ ar roadennoù interwiki',
 	'interwiki-title-norights' => 'Gwelet ar roadennoù interwiki',
+	'interwiki-desc' => 'Ouzhpennañ a ra ur [[Special:Interwiki|bajenn dibar]] evit gwelet ha kemmañ an daolenn etrewiki',
 	'interwiki_prefix' => 'Rakger',
 	'interwiki-prefix-label' => 'Rakger :',
 	'interwiki_local' => 'Treuzkas',
@@ -502,6 +503,7 @@ $messages['br'] = array(
 	'interwiki_delquestion' => 'O tilemel « $1 »',
 	'interwiki_deleting' => "Emaoc'h o tilemel ar rakger « $1 ».",
 	'interwiki_deleted' => 'Lamet eo bet ar rakger « $1 » eus an daolenn interwiki.',
+	'interwiki_delfailed' => 'N\'eus ket bet tu dilemel "$1" eus an daolenn etrewiki.',
 	'interwiki_addtext' => 'Ouzhpennañ ur rakger interwiki',
 	'interwiki_addbutton' => 'Ouzhpennañ',
 	'interwiki_edittext' => "Oc'h aozañ ur rakger interwiki",
@@ -3285,13 +3287,13 @@ $messages['su'] = array(
  * @author Najami
  * @author Per
  * @author Purodha
+ * @author Sertion
  */
 $messages['sv'] = array(
 	'interwiki' => 'Visa och redigera interwiki-data',
 	'interwiki-title-norights' => 'Visa interwiki-data',
 	'interwiki-desc' => 'Lägger till en [[Special:Interwiki|specialsida]] för att visa och ändra interwikitabellen',
-	'interwiki_intro' => 'Se [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] för mer information om interwikitabellen.
-Det finns en [[Special:Log/interwiki|logg]] över ändringar av interwikitabellen.',
+	'interwiki_intro' => 'Det här är en överblick över interwiki-tabellen. Datan i tabellerna representerar:',
 	'interwiki_prefix' => 'Prefix',
 	'interwiki-prefix-label' => 'Prefix:',
 	'interwiki_prefix_intro' => 'Interwiki-prefix avsedda att användas i <code>[<nowiki />[prefix:<i>pagename</i>]]</code>-wikisyntax.',
