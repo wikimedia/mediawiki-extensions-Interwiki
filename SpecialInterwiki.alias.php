@@ -75,7 +75,7 @@ $aliases['ko'] = array(
 	'Interwiki' => array( '인터위키' ),
 );
 
-/** Ripoarisch (Ripoarisch) */
+/** Colognian (Ripoarisch) */
 $aliases['ksh'] = array(
 	'Interwiki' => array( 'EngerWiki', 'Engerwiki' ),
 );
