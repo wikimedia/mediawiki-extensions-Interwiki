@@ -1331,6 +1331,7 @@ $messages['haw'] = array(
 
 /** Hebrew (עברית)
  * @author Agbad
+ * @author Amire80
  * @author Rotemliss
  * @author YaronSh
  * @author דניאל ב.
@@ -1352,7 +1353,7 @@ $messages['he'] = array(
 	'interwiki_trans' => 'הכללת מקטעים חיצוניים',
 	'interwiki-trans-label' => 'הכללת מקטעים חיצוניים:',
 	'interwiki_trans_intro' => 'אם נעשה שימוש בתחביר <code>{<nowiki />{prefix:<i>שם_הדף</i>}}</code>,אז:',
-	'interwiki_trans_1_intro' => 'תינתן האפשרות להכללת מקטעים חיצוניים מאתר ויקי זר, במידה שהכללות מקטעי ויקי חיצוניים מורשים באופן כללי באתר ויקי זה,',
+	'interwiki_trans_1_intro' => 'תינתן האפשרות להכללת מקטעים חיצוניים מאתר ויקי זר, אם הכללות מקטעי ויקי חיצוניים מורשים באופן כללי באתר ויקי זה,',
 	'interwiki_trans_0_intro' => 'אין לאפשר זאת, במקום זאת יש לחפש דף במרחב השם תבנית.',
 	'interwiki_intro_footer' => 'עיינו ב־[http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] למידע נוסף אודות טבלת הבינוויקי.
 ישנו [[Special:Log/interwiki|יומן שינויים]] לטבלת הבינוויקי.',
