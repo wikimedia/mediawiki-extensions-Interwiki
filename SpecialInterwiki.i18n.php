@@ -907,6 +907,7 @@ Verŝajne ĝi ne ekzistas.',
  * @author Crazymadlover
  * @author Imre
  * @author Locos epraix
+ * @author Pertile
  * @author Piolinfax
  * @author Sanbec
  * @author Translationista
@@ -918,13 +919,20 @@ $messages['es'] = array(
 	'interwiki_intro' => 'Esta es una visión general de la tabla intewiki. Los significados de los datos en las columnas:',
 	'interwiki_prefix' => 'Prefijo',
 	'interwiki-prefix-label' => 'Prefijo:',
+	'interwiki_prefix_intro' => 'Prefijo interwiki que se utilizará en sintaxis wikitexto <code>[<nowiki />[prefix:<i>pagename</i>]]</code> wikitext syntax.',
 	'interwiki_url_intro' => 'Plantilla para URLs. El marcador $1 será reemplazado por el <i>nombre de página</i> del wikitexto cuando se use la sintaxis de wikitexto arriba mostrada.',
 	'interwiki_local' => 'Adelante',
 	'interwiki-local-label' => 'Adelante:',
 	'interwiki_local_intro' => 'Una solicitud HTTP a la wiki local con este prefijo interwiki en la URL es:',
+	'interwiki_local_0_intro' => 'no se satisfizo, normalmente bloqueado por "página no encontrada",',
+	'interwiki_local_1_intro' => 'redirigido a la URL objetivo en las definiciones de enlaces interwiki (es decir, se la trata como a las referencias en páginas locales)',
 	'interwiki_trans' => 'transcluir',
 	'interwiki-trans-label' => 'Transcluir:',
+	'interwiki_trans_intro' => 'Si se utiliza la sintaxis de wikitexto <code>{<nowiki />{prefix:<i>pagename</i>}}</code>, entonces:',
+	'interwiki_trans_1_intro' => 'permitir la transclusión desde la wiki foránea, si las transclusiones de interwiki son por lo general permitidas en esta wiki,',
 	'interwiki_trans_0_intro' => 'no permitirlo. En su lugar, buscar una página en el espacio de nombre de la plantilla.',
+	'interwiki_intro_footer' => 'Para más información consulte [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] acerca de la tabla de interwiki.
+Hay un [[Special:Log/interwiki|registro de cambios]] a esta tabla de interwiki.',
 	'interwiki_1' => 'Sí',
 	'interwiki_0' => 'no',
 	'interwiki_error' => 'Error: La tabla de interwikis está vacía, u otra cosa salió mal.',
@@ -2723,7 +2731,8 @@ Prawdopodobnie ten prefiks już jest w tableli.',
 	'interwiki_log_edited' => 'zmienił przedrostek „$2” : ($3) (trans: $4) (local: $5) w tabeli interwiki',
 	'interwiki_log_deleted' => 'usunął przedrostek „$2” z tabeli interwiki',
 	'interwiki_logpagetext' => 'Poniżej znajduje się rejestr zmian wykonanych w [[Special:Interwiki|tablicy interwiki]].',
-	'right-interwiki' => 'Edytowanie tabeli interwiki',
+	'right-interwiki' => 'Edycja danych interwiki',
+	'action-interwiki' => 'zmień ten wpis interwiki',
 );
 
 /** Piedmontese (Piemontèis)
@@ -2820,22 +2829,22 @@ $messages['ps'] = array(
  */
 $messages['pt'] = array(
 	'interwiki' => 'Ver e manipular dados de interwikis',
-	'interwiki-title-norights' => 'Ver dados interwiki',
+	'interwiki-title-norights' => 'Ver dados de interwikis',
 	'interwiki-desc' => '[[Special:Interwiki|Página especial]] para visualizar e editar a tabela de interwikis',
 	'interwiki_intro' => 'Isto é um resumo da tabela de interwikis. Significado dos dados nas colunas:',
 	'interwiki_prefix' => 'Prefixo',
 	'interwiki-prefix-label' => 'Prefixo:',
-	'interwiki_prefix_intro' => 'Prefixo de interwiki a ser usado na sintaxe de wikitexto <code>[<nowiki />[prefix:<i>nome_página</i>]]</code>.',
+	'interwiki_prefix_intro' => 'Prefixo de interwikis a ser usado na sintaxe de texto wiki <code>[<nowiki />[prefix:<i>nome_página</i>]]</code>.',
 	'interwiki_url_intro' => 'Modelo para URL. O marcador $1 será substituído pelo <i>nome_página</i> do wikitexto, quando a sintaxe de wikitexto acima mencionada for usada.',
 	'interwiki_local' => 'Encaminhar',
 	'interwiki-local-label' => 'Encaminhar:',
-	'interwiki_local_intro' => 'Um pedido http para a wiki local, com este prefixo de interwiki na URL, é:',
+	'interwiki_local_intro' => 'Um pedido http para a wiki local, com este prefixo de interwikis na URL, é:',
 	'interwiki_local_0_intro' => 'ignorado, geralmente bloqueado por "página não encontrada",',
-	'interwiki_local_1_intro' => 'redirecionado para a URL alvo dada nas definições de ligação interwiki (p. ex. tratado como referências em páginas locais)',
+	'interwiki_local_1_intro' => 'redireccionado para a URL de destino especificada nas definições dos links interwikis (isto é, tratado como referências em páginas locais)',
 	'interwiki_trans' => 'Transcluir',
 	'interwiki-trans-label' => 'Transcluir:',
 	'interwiki_trans_intro' => 'Se a sintaxe de wikitexto <code>{<nowiki />{prefix:<i>nome_página</i>}}</code> for usada, então:',
-	'interwiki_trans_1_intro' => 'permite transclusão da wiki externa, se transclusões interwiki forem permitidas de forma geral nesta wiki,',
+	'interwiki_trans_1_intro' => 'permite transclusão da wiki externa, se transclusões interwikis forem permitidas de forma geral nesta wiki,',
 	'interwiki_trans_0_intro' => 'não o permite; ao invés, procura uma página no espaço nominal de predefinições.',
 	'interwiki_intro_footer' => 'Veja [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] para mais informações sobre a tabela de interwikis.
 Existe um [[Special:Log/interwiki|registo de modificações]] à tabela de interwikis.',
@@ -2847,25 +2856,25 @@ Existe um [[Special:Log/interwiki|registo de modificações]] à tabela de inter
 	'interwiki_delquestion' => 'A apagar "$1"',
 	'interwiki_deleting' => 'Está a apagar o prefixo "$1".',
 	'interwiki_deleted' => 'O prefixo "$1" foi removido da tabela de interwikis com sucesso.',
-	'interwiki_delfailed' => 'O prefixo "$1" não pôde ser removido da tabela de interwikis.',
+	'interwiki_delfailed' => 'Não foi possível remover o prefixo "$1" da tabela de interwikis.',
 	'interwiki_addtext' => 'Adicionar um prefixo de interwikis',
-	'interwiki_addintro' => 'Está prestes a adicionar um novo prefixo interwiki.
+	'interwiki_addintro' => 'Está prestes a adicionar um novo prefixo de interwikis.
 Lembre-se que este não pode conter espaços ( ), dois-pontos (:), conjunções (&) ou sinais de igualdade (=).',
 	'interwiki_addbutton' => 'Adicionar',
 	'interwiki_added' => 'O prefixo "$1" foi adicionado à tabela de interwikis com sucesso.',
-	'interwiki_addfailed' => 'O prefixo "$1" não pôde ser adicionado à tabela de interwikis. Possivelmente já existe nessa tabela.',
-	'interwiki_edittext' => 'Editando um prefixo interwiki',
-	'interwiki_editintro' => 'Está a editar um prefixo interwiki. Lembre-se de que isto pode quebrar ligações existentes.',
-	'interwiki_edited' => 'O prefixo "$1" foi modificado na tabela de interwikis com sucesso.',
-	'interwiki_editerror' => 'O prefixo "$1" não pode ser modificado na tabela de interwikis. Possivelmente, não existe.',
-	'interwiki-badprefix' => 'O prefixo interwiki "$1" contém caracteres inválidos',
+	'interwiki_addfailed' => 'Não foi possível adicionar o prefixo "$1" à tabela de interwikis. Possivelmente já existe nessa tabela.',
+	'interwiki_edittext' => 'A editar um prefixo de interwikis',
+	'interwiki_editintro' => 'Está a editar um prefixo de interwikis. Lembre-se de que isto pode quebrar links existentes.',
+	'interwiki_edited' => 'O prefixo "$1" foi modificado com sucesso na tabela de interwikis.',
+	'interwiki_editerror' => 'Não foi possível modificar o prefixo "$1" na tabela de interwikis. Possivelmente, não existe.',
+	'interwiki-badprefix' => 'O prefixo de interwikis "$1" contém caracteres inválidos',
 	'interwiki_logpagename' => 'Registo da tabela de interwikis',
-	'interwiki_log_added' => 'adicionado "$2" ($3) (trans: $4) (local: $5) à tabela de interwikis',
-	'interwiki_log_edited' => 'modificado o prefixo "$2": ($3) (trans: $4) (local: $5) na tabela de interwikis',
-	'interwiki_log_deleted' => 'removido o prefixo "$2" da tabela de interwikis',
+	'interwiki_log_added' => 'adicionou o prefixo "$2" ($3) (trans: $4) (local: $5) à tabela de interwikis',
+	'interwiki_log_edited' => 'modificou o prefixo "$2": ($3) (trans: $4) (local: $5) na tabela de interwikis',
+	'interwiki_log_deleted' => 'removeu o prefixo "$2" da tabela de interwikis',
 	'interwiki_logpagetext' => 'Este é um registo das alterações à [[Special:Interwiki|tabela de interwikis]].',
-	'right-interwiki' => 'Editar dados de interwiki',
-	'action-interwiki' => 'alterar esta entrada interwiki',
+	'right-interwiki' => 'Editar dados de interwikis',
+	'action-interwiki' => 'alterar esta entrada interwikis',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
