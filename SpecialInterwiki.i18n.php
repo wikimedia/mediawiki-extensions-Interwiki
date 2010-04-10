@@ -580,6 +580,7 @@ Moguće je da uopće ne postoji.',
 );
 
 /** Catalan (Català)
+ * @author Paucabot
  * @author SMP
  * @author Solde
  * @author Ssola
@@ -588,7 +589,7 @@ $messages['ca'] = array(
 	'interwiki_1' => 'sí',
 	'interwiki_0' => 'no',
 	'interwiki_edit' => 'Modifica',
-	'interwiki_reasonfield' => 'Motiu',
+	'interwiki_reasonfield' => 'Raó:',
 	'interwiki_delquestion' => "S'està eliminant «$1»",
 );
 
