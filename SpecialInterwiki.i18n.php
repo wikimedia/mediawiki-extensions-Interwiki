@@ -1966,6 +1966,7 @@ $messages['kn'] = array(
 );
 
 /** Korean (한국어)
+ * @author Devunt
  * @author Kwj2772
  * @author ToePeu
  */
@@ -1977,7 +1978,7 @@ $messages['ko'] = array(
 	'interwiki_prefix' => '접두어',
 	'interwiki-prefix-label' => '접두어:',
 	'interwiki_local' => '이것을 로컬 위키로 정의',
-	'interwiki-local-label' => '이것을 로컬 위키로 정의:',
+	'interwiki-local-label' => '전달',
 	'interwiki_trans' => '인터위키 포함',
 	'interwiki-trans-label' => '인터위키 포함:',
 	'interwiki_1' => '예',
