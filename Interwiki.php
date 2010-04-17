@@ -33,9 +33,9 @@ $wgExtensionCredits['specialpage'][] = array(
 
 // Set up the new special page
 $dir = dirname( __FILE__ ) . '/';
-$wgExtensionMessagesFiles['Interwiki'] = $dir . 'SpecialInterwiki.i18n.php';
-$wgExtensionAliasesFiles['Interwiki'] = $dir . 'SpecialInterwiki.alias.php';
-$wgAutoloadClasses['SpecialInterwiki'] = $dir . 'SpecialInterwiki_body.php';
+$wgExtensionMessagesFiles['Interwiki'] = $dir . 'Interwiki.i18n.php';
+$wgExtensionAliasesFiles['Interwiki'] = $dir . 'Interwiki.alias.php';
+$wgAutoloadClasses['SpecialInterwiki'] = $dir . 'Interwiki_body.php';
 $wgSpecialPages['Interwiki'] = 'SpecialInterwiki';
 $wgSpecialPageGroups['Interwiki'] = 'wiki';
 

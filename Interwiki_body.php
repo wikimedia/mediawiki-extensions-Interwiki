@@ -239,7 +239,7 @@ class SpecialInterwiki extends SpecialPage {
 	function showList( $admin ) {
 		global $wgUser, $wgOut, $wgScriptPath;
 
-		$wgOut->addExtensionStyle( "{$wgScriptPath}/extensions/Interwiki/SpecialInterwiki.css" );
+		$wgOut->addExtensionStyle( "{$wgScriptPath}/extensions/Interwiki/Interwiki.css" );
 
 		$prefixmessage = wfMsgHtml( 'interwiki_prefix' );
 		$urlmessage = wfMsgHtml( 'interwiki_url' );
