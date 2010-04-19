@@ -2713,6 +2713,9 @@ $messages['pl'] = array(
 	'interwiki-trans-label' => 'Transkluzja:',
 	'interwiki_trans_intro' => 'Jeśli składnia wiki <code>{<nowiki />{przedrostek:<i>nazwastrony</i>}}</code> została użyta, to:',
 	'interwiki_trans_1_intro' => 'pozwala na transkluzję z innych wiki, jeśli transkluzja interwiki jest w ogóle dozwolona na tej wiki,',
+	'interwiki_trans_0_intro' => 'nie pozwalaj na nią, raczej szukaj strony w przestrzeni szablonów.',
+	'interwiki_intro_footer' => 'Na [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] odnajdziesz więcej informacji na temat tabeli interwiki.
+Tutaj znajduje się [[Special:Log/interwiki|rejestr zmian]] tabeli interwiki.',
 	'interwiki_1' => 'tak',
 	'interwiki_0' => 'nie',
 	'interwiki_error' => 'BŁĄD: Tabela interwiki jest pusta lub wystąpił jakiś inny problem.',
