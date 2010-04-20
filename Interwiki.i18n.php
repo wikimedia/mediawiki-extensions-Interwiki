@@ -2163,6 +2163,13 @@ Méiglecherweis gëtt et en net.',
 	'action-interwiki' => "dës Interwiki-Informatioun z'änneren",
 );
 
+/** Ganda (Luganda)
+ * @author Kizito
+ */
+$messages['lg'] = array(
+	'interwiki_edit' => 'Kyusa',
+);
+
 /** Lithuanian (Lietuvių)
  * @author Homo
  */
