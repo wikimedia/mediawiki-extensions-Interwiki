@@ -2009,7 +2009,7 @@ $messages['ko'] = array(
 	'action-interwiki' => '이 인터위키 접두어를 수정',
 );
 
-/** Ripoarisch (Ripoarisch)
+/** Colognian (Ripoarisch)
  * @author Purodha
  */
 $messages['ksh'] = array(
@@ -3710,7 +3710,7 @@ $messages['yi'] = array(
 	'interwiki_addbutton' => 'צולייגן',
 );
 
-/** Yue (粵語) */
+/** Cantonese (粵語) */
 $messages['yue'] = array(
 	'interwiki' => '去睇同編輯跨維基資料',
 	'interwiki-title-norights' => '去睇跨維基資料',
