@@ -1962,6 +1962,7 @@ $messages['km'] = array(
 $messages['kn'] = array(
 	'interwiki_1' => 'ಹೌದು',
 	'interwiki_0' => 'ಇಲ್ಲ',
+	'interwiki_edit' => 'ಸಂಪಾದಿಸಿ',
 	'interwiki_reasonfield' => 'ಕಾರಣ:',
 );
 
