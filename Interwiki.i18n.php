@@ -2113,7 +2113,7 @@ Fortasse nondum est in tabula intervica.',
 $messages['lb'] = array(
 	'interwiki' => 'Interwiki-Date kucken a veränneren',
 	'interwiki-title-norights' => 'Interwiki-Date kucken',
-	'interwiki-desc' => "Setzt eng [[Special:Interwiki|Spezialsäit]] derbäi fir d'Interwiki-Tabell ze gesin an z'änneren",
+	'interwiki-desc' => "Setzt eng [[Special:Interwiki|Spezialsäit]] derbäi fir d'Interwiki-Tabell ze gesinn an z'änneren",
 	'interwiki_intro' => "Dëst ass en Iwwerbléck iwwert d'Interwiki-Tabell.
 D'Bedeitung vun den Informatiounen an de Kolonnen:",
 	'interwiki_prefix' => 'Prefix',
@@ -2150,7 +2150,7 @@ Denkt drunn datt keng Espacen ( ), Et-commerciale (&), Gläichzeechen (=) a keng
 Méiglecherweis gëtt et e schn an der Interwiki-Tabell.',
 	'interwiki_edittext' => 'En interwiki Prefix änneren',
 	'interwiki_editintro' => 'Dir ännert en Interwiki Prefix.
-Denkt drun, datt dëst kann dozou féieren datt Linen déi et scho gëtt net méi fonctionnieren.',
+Denkt drun, datt dat kann dozou féieren datt Linken déi et scho gëtt net méi fonctionnéieren.',
 	'interwiki_edited' => 'De Prefix "$1" gouf an der Interwiki-Tabell geännert.',
 	'interwiki_editerror' => 'De Prefix "$1" kann an der Interwiki-Tabell net geännert ginn.
 Méiglecherweis gëtt et en net.',
@@ -2833,6 +2833,8 @@ $messages['pnt'] = array(
 $messages['ps'] = array(
 	'interwiki_prefix' => 'مختاړی',
 	'interwiki-prefix-label' => 'مختاړی:',
+	'interwiki_1' => 'هو',
+	'interwiki_0' => 'نه',
 	'interwiki_edit' => 'سمول',
 	'interwiki_reasonfield' => 'سبب:',
 	'interwiki_delquestion' => '"$1" د ړنګولو په حال کې دی...',
