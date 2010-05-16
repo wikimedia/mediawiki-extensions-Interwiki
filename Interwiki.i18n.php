@@ -3801,6 +3801,7 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Alexsh
+ * @author Horacewai2
  * @author Liangent
  * @author Wrightbus
  */
@@ -3811,6 +3812,7 @@ $messages['zh-hant'] = array(
 	'interwiki_intro' => '這是跨維基連結表的概覽。列中的數據的含義：',
 	'interwiki_prefix' => '前綴',
 	'interwiki-prefix-label' => '前綴:',
+	'interwiki_prefix_intro' => '跨網站的前綴，用於<code>[ [prefix: <i>pagename</i> ]]</code> <nowiki /> <code>[ [prefix: <i>pagename</i> ]]</code>。',
 	'interwiki_local' => '轉發',
 	'interwiki-local-label' => '定義這個為一個本地wiki:',
 	'interwiki_trans' => '包含',
@@ -3818,6 +3820,7 @@ $messages['zh-hant'] = array(
 	'interwiki_1' => '是',
 	'interwiki_0' => '否',
 	'interwiki_error' => '錯誤: 跨維基連結表為空，或是發生其它錯誤。',
+	'interwiki_edit' => '編輯',
 	'interwiki_reasonfield' => '原因：',
 	'interwiki_delquestion' => '正在刪除"$1"',
 	'interwiki_deleting' => '您正在刪除前綴"$1"。',
@@ -3837,9 +3840,11 @@ $messages['zh-hant'] = array(
 	'interwiki_editerror' => '前綴 "$1" 不能在跨維基連結表中修改。
 可能它並不存在。',
 	'interwiki-badprefix' => '所指定的跨維基前綴 "$1" 含有無效的字母',
+	'interwiki_logpagename' => '跨維基連結修改日誌',
 	'interwiki_log_added' => '加入了連結前綴 "$2" （$3） （含: $4） （本: $5） 到跨維基連結表中',
 	'interwiki_log_edited' => '在跨維基連結表中修改了連結前綴 "$2" : （$3） （含: $4） （本: $5）',
 	'interwiki_log_deleted' => '在跨維基連結表中已刪除 "$2"',
+	'interwiki_logpagetext' => '這是一個[[Special:Interwiki|跨維基連結]]修改的日誌。',
 	'right-interwiki' => '修改跨維基資料',
 );
 
