@@ -2964,7 +2964,7 @@ $messages['ro'] = array(
 	'interwiki_reasonfield' => 'Motiv',
 	'interwiki_delquestion' => 'Ştergere "$1"',
 	'interwiki_addbutton' => 'Adaugă',
-	'action-interwiki' => 'modificaţi această legătură interwiki',
+	'action-interwiki' => 'modificați această legătură interwiki',
 );
 
 /** Tarandíne (Tarandíne)
