@@ -1742,6 +1742,12 @@ Kemungkinan karena prefiks ini tidak ada.',
 	'action-interwiki' => 'Ubah masukan untuk interwiki ini',
 );
 
+/** Igbo (Igbo) */
+$messages['ig'] = array(
+	'interwiki_edit' => 'Rüwa',
+	'interwiki_reasonfield' => 'Mgbaghaputa:',
+);
+
 /** Ido (Ido)
  * @author Malafaya
  */
