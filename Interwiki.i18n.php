@@ -231,7 +231,8 @@ $messages['am'] = array(
  * @author Juanpabl
  */
 $messages['an'] = array(
-	'interwiki_reasonfield' => 'Razón',
+	'interwiki_1' => 'Sí',
+	'interwiki_reasonfield' => 'Razón:',
 );
 
 /** Arabic (العربية)
@@ -454,7 +455,7 @@ $messages['bg'] = array(
 	'interwiki-desc' => 'Добавя [[Special:Interwiki|специална страница]] за преглед и управление на таблицата с междууикита',
 	'interwiki_intro' => 'Вижте [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] за повече информация относно таблицата с междууикита. Съществува [[Special:Log/interwiki|дневник на промените]] в таблицата с междууикита.',
 	'interwiki_prefix' => 'Представка:',
-	'interwiki-prefix-label' => 'Представка::',
+	'interwiki-prefix-label' => 'Представка:',
 	'interwiki_local' => 'Локално',
 	'interwiki-local-label' => 'Локално:',
 	'interwiki_1' => 'да',
