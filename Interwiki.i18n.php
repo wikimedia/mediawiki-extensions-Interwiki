@@ -2962,6 +2962,7 @@ Existe um [[Special:Log/interwiki|registro de modificações]] à tabela de inte
 /** Romanian (Română)
  * @author Firilacroco
  * @author KlaudiuMihaila
+ * @author Minisarm
  */
 $messages['ro'] = array(
 	'interwiki_prefix' => 'Prefix',
@@ -2970,7 +2971,7 @@ $messages['ro'] = array(
 	'interwiki_0' => 'nu',
 	'interwiki_edit' => 'Modificare',
 	'interwiki_reasonfield' => 'Motiv',
-	'interwiki_delquestion' => 'Ştergere "$1"',
+	'interwiki_delquestion' => 'Ștergere „$1”',
 	'interwiki_addbutton' => 'Adaugă',
 	'action-interwiki' => 'modificați această legătură interwiki',
 );
