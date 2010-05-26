@@ -27,8 +27,6 @@ class SpecialInterwiki extends SpecialPage {
 	public function execute( $par ) {
 		global $wgRequest, $wgOut, $wgUser;
 
-		wfLoadExtensionMessages( 'Interwiki' );
-
 		$admin = $wgUser->isAllowed( 'interwiki' );
 
 		$this->setHeaders();
