@@ -2995,6 +2995,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (Русский)
  * @author Ferrer
+ * @author Grigol
  * @author Illusion
  * @author Innv
  * @author Lockal
@@ -3003,7 +3004,7 @@ $messages['roa-tara'] = array(
 $messages['ru'] = array(
 	'interwiki' => 'Просмотр и изменение настроек интервики',
 	'interwiki-title-norights' => 'Просмотреть данные об интервики',
-	'interwiki-desc' => 'Добавляет [[Special:Interwiki|служебную страницу]] для просмотра и редактирования таблицы префиксов интервики.',
+	'interwiki-desc' => 'Добавляет [[Special:Interwiki|служебную страницу]] для просмотра и редактирования таблицы приставок интервики.',
 	'interwiki_intro' => 'Это обзор таблицы интервики. Значения данных в колонках:',
 	'interwiki_prefix' => 'Приставка',
 	'interwiki-prefix-label' => 'Приставка:',
@@ -3041,9 +3042,9 @@ $messages['ru'] = array(
 	'interwiki_editerror' => 'Приставка «$1» не может быть изменена в интервики-таблице. Возможно, она не существует.',
 	'interwiki-badprefix' => 'Указанная интервики-приставка «$1» содержит недопустимые символы',
 	'interwiki_logpagename' => 'Журнал изменений таблицы интервики',
-	'interwiki_log_added' => 'Приставка «$2» ($3) (trans: $4) (local: $5) добавлена в таблицу интервики',
+	'interwiki_log_added' => 'добавил приставку «$2» ($3) (меж.: $4) (лок.: $5) в таблицу интервики',
 	'interwiki_log_edited' => 'изменил приставку «$2»: ($3) (меж.: $4) (лок.: $5) в интервики-таблице',
-	'interwiki_log_deleted' => 'Приставка «$2» удалена из таблицы интервики',
+	'interwiki_log_deleted' => 'удалил приставку «$2» из таблицы интервики',
 	'interwiki_logpagetext' => 'Это журнал изменений [[Special:Interwiki|таблицы интервики]].',
 	'right-interwiki' => 'правка интервики',
 	'action-interwiki' => 'изменение записи интервики',
