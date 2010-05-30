@@ -490,10 +490,12 @@ $messages['br'] = array(
 	'interwiki' => 'Gwelet hag aozañ ar roadennoù interwiki',
 	'interwiki-title-norights' => 'Gwelet ar roadennoù interwiki',
 	'interwiki-desc' => 'Ouzhpennañ a ra ur [[Special:Interwiki|bajenn dibar]] evit gwelet ha kemmañ an daolenn etrewiki',
+	'interwiki_intro' => 'Hemañ zo un alberz eus an daolenn etrewiki. Setu talvoudegezh ar roadennoù zo er bannoù :',
 	'interwiki_prefix' => 'Rakger',
 	'interwiki-prefix-label' => 'Rakger :',
 	'interwiki_local' => 'Treuzkas',
 	'interwiki-local-label' => 'Treuzkas :',
+	'interwiki_local_0_intro' => 'nac\'het, stanket alies gant "pajenn nann-kavet",',
 	'interwiki_trans' => 'Ebarzhiñ',
 	'interwiki-trans-label' => 'Treuzkludañ :',
 	'interwiki_1' => 'ya',
@@ -593,6 +595,13 @@ $messages['ca'] = array(
 	'interwiki_edit' => 'Modifica',
 	'interwiki_reasonfield' => 'Raó:',
 	'interwiki_delquestion' => "S'està eliminant «$1»",
+);
+
+/** Chechen (Нохчийн)
+ * @author Sasan700
+ */
+$messages['ce'] = array(
+	'interwiki_edit' => 'Нисйé',
 );
 
 /** Czech (Česky)
