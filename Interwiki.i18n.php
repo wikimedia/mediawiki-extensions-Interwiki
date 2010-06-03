@@ -710,6 +710,7 @@ $messages['da'] = array(
 /** German (Deutsch)
  * @author Als-Holder
  * @author Church of emacs
+ * @author Kghbln
  * @author MF-Warburg
  * @author Metalhead64
  * @author Purodha
@@ -719,7 +720,7 @@ $messages['da'] = array(
 $messages['de'] = array(
 	'interwiki' => 'Interwiki-Daten betrachten und bearbeiten',
 	'interwiki-title-norights' => 'Interwiki-Daten betrachten',
-	'interwiki-desc' => '[[Special:Interwiki|Spezialseite]] zur Pflege der Interwiki-Tabelle',
+	'interwiki-desc' => 'Ergänzt eine [[Special:Interwiki|Spezialseite]] zur Pflege der Interwiki-Tabelle',
 	'interwiki_intro' => 'Dies ist ein Überblick des Inhalts der Interwiki-Tabelle.
 Die Daten in den einzelnen Spalten haben die folgende Bedeutung:',
 	'interwiki_prefix' => 'Präfix',
