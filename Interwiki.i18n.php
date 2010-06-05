@@ -603,6 +603,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'interwiki_edit' => 'Нисйé',
+	'interwiki_addbutton' => 'Тlетоха',
 );
 
 /** Czech (Česky)
@@ -3224,7 +3225,7 @@ $messages['sr-ec'] = array(
 	'interwiki_0' => 'не',
 	'interwiki_error' => 'Грешка: табела међувикија је празна, или нешто друго није у реду.',
 	'interwiki_edit' => 'Измени',
-	'interwiki_reasonfield' => 'Разлог',
+	'interwiki_reasonfield' => 'Разлог:',
 	'interwiki_delquestion' => 'Бришем „$1”',
 	'interwiki_deleting' => 'Ви бришете префикс "$1".',
 	'interwiki_deleted' => 'Префикс "$1" је успешно обрисан из табеле међувикија.',
