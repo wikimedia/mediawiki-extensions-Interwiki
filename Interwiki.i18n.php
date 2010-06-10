@@ -3270,7 +3270,7 @@ $messages['sr-el'] = array(
 	'interwiki_0' => 'ne',
 	'interwiki_error' => 'Greška: tabela međuvikija je prazna, ili nešto drugo nije u redu.',
 	'interwiki_edit' => 'Izmeni',
-	'interwiki_reasonfield' => 'Razlog',
+	'interwiki_reasonfield' => 'Razlog:',
 	'interwiki_delquestion' => 'Brišem „$1”',
 	'interwiki_deleting' => 'Vi brišete prefiks "$1".',
 	'interwiki_deleted' => 'Prefiks "$1" je uspešno obrisan iz tabele međuvikija.',
@@ -3787,6 +3787,7 @@ $messages['zh-hans'] = array(
 	'interwiki_intro' => '这是跨维基链接表的概览。列中的数据的含义：',
 	'interwiki_prefix' => '前缀',
 	'interwiki-prefix-label' => '前缀:',
+	'interwiki_prefix_intro' => '跨网站的前缀，用于<code>[ [prefix: <i>pagename</i> ]]</code> <nowiki /> <code>[ [prefix: <i>pagename</i> ]]</code>。',
 	'interwiki_local' => '转发',
 	'interwiki-local-label' => '转发:',
 	'interwiki_trans' => '包含',
@@ -3814,9 +3815,11 @@ $messages['zh-hans'] = array(
 	'interwiki_editerror' => '前缀 "$1" 不能在跨维基连结表中修改。
 可能它并不存在。',
 	'interwiki-badprefix' => '所指定的跨维基前缀 "$1" 含有无效的字母',
+	'interwiki_logpagename' => '跨维基连结修改日志',
 	'interwiki_log_added' => '加入了连结前缀 "$2" （$3） （含: $4） （本: $5） 到跨维基连结表中',
 	'interwiki_log_edited' => '在跨维基连结表中修改了连结前缀 "$2" : （$3） （含: $4） （本: $5）',
 	'interwiki_log_deleted' => '在跨维基连结表中已删除 "$2"',
+	'interwiki_logpagetext' => '这是一个[[Special:Interwiki|跨维基连结]]修改的日志。',
 	'right-interwiki' => '修改跨维基资料',
 	'action-interwiki' => '修正这个跨语言链接',
 );
@@ -3868,5 +3871,6 @@ $messages['zh-hant'] = array(
 	'interwiki_log_deleted' => '在跨維基連結表中已刪除 "$2"',
 	'interwiki_logpagetext' => '這是一個[[Special:Interwiki|跨維基連結]]修改的日誌。',
 	'right-interwiki' => '修改跨維基資料',
+	'action-interwiki' => '修正這個跨語言鏈接',
 );
 
