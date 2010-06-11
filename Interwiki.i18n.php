@@ -3731,6 +3731,10 @@ Ba no dabinon.',
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'interwiki_prefix' => 'פרעפֿיקס',
+	'interwiki-prefix-label' => 'פרעפֿיקס:',
+	'interwiki_1' => 'יא',
+	'interwiki_0' => 'ניין',
 	'interwiki_edit' => 'רעדאַקטירן',
 	'interwiki_addbutton' => 'צולייגן',
 );
