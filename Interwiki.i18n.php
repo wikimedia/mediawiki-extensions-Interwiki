@@ -1927,7 +1927,7 @@ Mbok-menawa iki ora ana.',
  * @author Malafaya
  */
 $messages['ka'] = array(
-	'interwiki_reasonfield' => 'მიზეზი',
+	'interwiki_reasonfield' => 'მიზეზი:',
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -2920,6 +2920,7 @@ Lembre-se que este não pode conter espaços ( ), dois-pontos (:), conjunções 
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
+ * @author Giro720
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
