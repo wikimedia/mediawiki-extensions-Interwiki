@@ -3699,6 +3699,7 @@ $messages['vo'] = array(
 Dabinon [[Special:Log/interwiki|jenotalised votükamas]] taiba vüvükik.',
 	'interwiki_prefix' => 'Foyümot',
 	'interwiki-prefix-label' => 'Foyümot:',
+	'interwiki_0' => 'nö',
 	'interwiki_error' => 'Pöl: Taib vüvükik vagon, u ba pöl votik ejenon.',
 	'interwiki_reasonfield' => 'Kod',
 	'interwiki_delquestion' => 'El „$1“ pamoükon',
