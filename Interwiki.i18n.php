@@ -2313,12 +2313,13 @@ $messages['mk'] = array(
 );
 
 /** Malayalam (മലയാളം)
+ * @author Praveenp
  * @author Shijualex
  */
 $messages['ml'] = array(
 	'interwiki' => 'ഇന്റർ വിക്കി ഡാറ്റ കാണുകയും തിരുത്തുകയും ചെയ്യുക',
 	'interwiki-title-norights' => 'ഇന്റർ‌വിക്കി ഡാറ്റ കാണുക',
-	'interwiki_reasonfield' => 'കാരണം',
+	'interwiki_reasonfield' => 'കാരണം:',
 	'interwiki_delquestion' => '"$1" മായ്ച്ചുകൊണ്ടിരിക്കുന്നു',
 	'interwiki_addbutton' => 'ചേർക്കുക',
 );
