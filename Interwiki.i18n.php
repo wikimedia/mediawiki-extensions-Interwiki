@@ -2871,7 +2871,7 @@ $messages['ps'] = array(
  */
 $messages['pt'] = array(
 	'interwiki' => 'Ver e manipular dados de interwikis',
-	'interwiki-title-norights' => 'Ver dados de interwikis',
+	'interwiki-title-norights' => 'Dados de interwikis',
 	'interwiki-desc' => '[[Special:Interwiki|Página especial]] para ver e editar a tabela de interwikis',
 	'interwiki_intro' => 'Isto é um resumo da tabela de interwikis. Significado dos dados nas colunas:',
 	'interwiki_prefix' => 'Prefixo',
