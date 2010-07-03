@@ -225,7 +225,7 @@ Moontlik bestaan dit nie.',
  * @author Codex Sinaiticus
  */
 $messages['am'] = array(
-	'interwiki_reasonfield' => 'ምክንያት',
+	'interwiki_reasonfield' => 'ምክንያት:',
 );
 
 /** Aragonese (Aragonés)
@@ -463,7 +463,7 @@ $messages['bg'] = array(
 	'interwiki_0' => 'не',
 	'interwiki_error' => 'ГРЕШКА: Таблицата с междууикита е празна или е възникнала друга грешка.',
 	'interwiki_edit' => 'Редактиране',
-	'interwiki_reasonfield' => 'Причина',
+	'interwiki_reasonfield' => 'Причина:',
 	'interwiki_delquestion' => 'Изтриване на "$1"',
 	'interwiki_deleting' => 'Изтриване на представката „$1“.',
 	'interwiki_deleted' => '„$1“ беше успешно премахнато от таблицата с междууикита.',
@@ -987,7 +987,7 @@ $messages['et'] = array(
 	'interwiki_1' => 'jah',
 	'interwiki_0' => 'ei',
 	'interwiki_edit' => 'Redigeeri',
-	'interwiki_reasonfield' => 'Põhjus',
+	'interwiki_reasonfield' => 'Põhjus:',
 );
 
 /** Basque (Euskara)
@@ -1022,7 +1022,7 @@ $messages['fa'] = array(
 	'interwiki_trans' => 'اجازهٔ گنجاندن میان‌ویکی را بده',
 	'interwiki-trans-label' => 'اجازهٔ گنجاندن میان‌ویکی را بده:',
 	'interwiki_error' => 'خطا: جدول میان‌ویکی خالی است، یا چیز دیگری مشکل دارد.',
-	'interwiki_reasonfield' => 'دلایل',
+	'interwiki_reasonfield' => 'دلیل:',
 	'interwiki_delquestion' => 'حذف «$1»',
 	'interwiki_deleting' => 'شما در حال حذف کردن پیشوند «$1» هستید.',
 	'interwiki_deleted' => 'پیشوند «$1» با موفقیت از جدول میان‌ویکی حذف شد.',
@@ -1161,7 +1161,7 @@ $messages['frp'] = array(
 	'interwiki_1' => 'ouè',
 	'interwiki_0' => 'nan',
 	'interwiki_edit' => 'Changiér',
-	'interwiki_reasonfield' => 'Rêson',
+	'interwiki_reasonfield' => 'Rêson :',
 	'interwiki_addbutton' => 'Apondre',
 );
 
@@ -1332,14 +1332,14 @@ Villicht git s es nit.',
  * @author Dineshjk
  */
 $messages['gu'] = array(
-	'interwiki_reasonfield' => 'કારણ',
+	'interwiki_reasonfield' => 'કારણ:',
 );
 
 /** Manx (Gaelg)
  * @author MacTire02
  */
 $messages['gv'] = array(
-	'interwiki_reasonfield' => 'Fa',
+	'interwiki_reasonfield' => 'Fa:',
 );
 
 /** Hawaiian (Hawai`i)
@@ -1348,7 +1348,7 @@ $messages['gv'] = array(
  */
 $messages['haw'] = array(
 	'interwiki_edit' => 'E hoʻololi',
-	'interwiki_reasonfield' => 'Kumu',
+	'interwiki_reasonfield' => 'Kumu:',
 	'interwiki_addbutton' => 'Ho‘ohui',
 );
 
@@ -1423,7 +1423,7 @@ $messages['hi'] = array(
 	'interwiki_prefix' => 'उपपद',
 	'interwiki-prefix-label' => 'उपपद:',
 	'interwiki_error' => 'गलती: आंतरविकि तालिका खाली हैं, या और कुछ गलत हैं।',
-	'interwiki_reasonfield' => 'कारण',
+	'interwiki_reasonfield' => 'कारण:',
 	'interwiki_delquestion' => '$1 को हटा रहें हैं',
 	'interwiki_deleting' => 'आप "$1" उपपद हटा रहें हैं।',
 	'interwiki_deleted' => '"$1" उपपद आंतरविकि तालिकासे हटा दिया गया हैं।',
@@ -1449,7 +1449,7 @@ $messages['hi'] = array(
  * @author Jose77
  */
 $messages['hil'] = array(
-	'interwiki_reasonfield' => 'Rason',
+	'interwiki_reasonfield' => 'Rason:',
 );
 
 /** Croatian (Hrvatski)
@@ -1469,7 +1469,7 @@ $messages['hr'] = array(
 	'interwiki_trans' => 'Transkludiraj',
 	'interwiki-trans-label' => 'Transkludiraj:',
 	'interwiki_error' => 'GREŠKA: Interwiki tablica je prazna, ili je nešto drugo neispravno.',
-	'interwiki_reasonfield' => 'Razlog',
+	'interwiki_reasonfield' => 'Razlog:',
 	'interwiki_delquestion' => 'Brišem "$1"',
 	'interwiki_deleting' => 'Brišete prefiks "$1".',
 	'interwiki_deleted' => 'Prefiks "$1" je uspješno uklonjen iz interwiki tablice.',
@@ -1560,7 +1560,7 @@ Geyen yon [[Special:Log/interwiki|jounal pou chanjman yo]] nan tab interwiki-a.'
 	'interwiki_prefix' => 'Prefix',
 	'interwiki-prefix-label' => 'Prefix:',
 	'interwiki_error' => 'ERÈ:  Tab interwiki-a vid, oubien yon lòt bagay mal mache.',
-	'interwiki_reasonfield' => 'Rezon',
+	'interwiki_reasonfield' => 'Rezon:',
 	'interwiki_delquestion' => 'Delete "$1"',
 	'interwiki_deleting' => 'W’ap delete prefix "$1".',
 	'interwiki_deleted' => 'Prefix "$1" te retire nan tab interwiki-a avèk siksès.',
@@ -1773,7 +1773,7 @@ $messages['io'] = array(
  * @author S.Örvarr.S
  */
 $messages['is'] = array(
-	'interwiki_reasonfield' => 'Ástæða',
+	'interwiki_reasonfield' => 'Ástæða:',
 );
 
 /** Italian (Italiano)
@@ -1898,7 +1898,7 @@ $messages['jv'] = array(
 	'interwiki_prefix' => 'Préfiks (sisipan awal)',
 	'interwiki-prefix-label' => 'Préfiks (sisipan awal):',
 	'interwiki_error' => 'KALUPUTAN: Tabèl interwikiné kosong, utawa ana masalah liya.',
-	'interwiki_reasonfield' => 'Alesan',
+	'interwiki_reasonfield' => 'Alesan:',
 	'interwiki_delquestion' => 'Mbusak "$1"',
 	'interwiki_deleting' => 'Panjenengan mbusak préfiks utawa sisipan awal "$1".',
 	'interwiki_deleted' => 'Préfisk "$1" bisa kasil dibusak saka tabèl interwiki.',
@@ -1946,7 +1946,7 @@ $messages['km'] = array(
 	'interwiki-prefix-label' => 'បុព្វបទ:',
 	'interwiki_error' => 'កំហុស:តារាងអន្តរវិគីគឺទទេ ឬក៏មានអ្វីផ្សេងទៀតមានបញ្ហា។',
 	'interwiki_edit' => 'កែប្រែ​',
-	'interwiki_reasonfield' => 'មូលហេតុ',
+	'interwiki_reasonfield' => 'មូលហេតុ៖',
 	'interwiki_delquestion' => 'ការលុបចេញ "$1"',
 	'interwiki_deleting' => 'លោកអ្នកកំពុងលុបបុព្វបទ "$1"។',
 	'interwiki_deleted' => 'បុព្វបទ"$1"បានដកចេញពីតារាងអន្តរវិគីដោយជោគជ័យហើយ។',
@@ -2003,9 +2003,12 @@ $messages['ko'] = array(
 	'interwiki-local-label' => '전달',
 	'interwiki_trans' => '인터위키 포함',
 	'interwiki-trans-label' => '인터위키 포함:',
+	'interwiki_intro_footer' => '인터위키 테이블에 대한 자세한 내용을 [http://www.mediawiki.org/wiki/Interwiki_table/ko MediaWiki.org]에서 보세요
+인터위키 테이블의 [[Special:Log/interwiki|바뀜 기록]]이 존재합니다.',
 	'interwiki_1' => '예',
 	'interwiki_0' => '아니오',
 	'interwiki_error' => '오류: 인터위키 표가 비어 있거나 다른 무엇인가가 잘못되었습니다.',
+	'interwiki_edit' => '편집',
 	'interwiki_reasonfield' => '이유:',
 	'interwiki_delquestion' => '"$1" 지우기',
 	'interwiki_deleting' => '접두어 "$1"을(를) 지웁니다.',
@@ -2218,7 +2221,7 @@ $messages['lzh'] = array(
 	'interwiki_trans' => '許跨維之含',
 	'interwiki-trans-label' => '許跨維之含:',
 	'interwiki_error' => '錯：跨維為空，或它錯發生。',
-	'interwiki_reasonfield' => '因',
+	'interwiki_reasonfield' => '因：',
 	'interwiki_delquestion' => '現刪「$1」',
 	'interwiki_deleting' => '爾正刪「$1」。',
 	'interwiki_deleted' => '已刪「$1」。',
@@ -2254,7 +2257,7 @@ $messages['mg'] = array(
  * @author Сай
  */
 $messages['mhr'] = array(
-	'interwiki_reasonfield' => 'Амал',
+	'interwiki_reasonfield' => 'Амал:',
 );
 
 /** Macedonian (Македонски)
@@ -2342,7 +2345,7 @@ $messages['mr'] = array(
 	'interwiki_prefix' => 'उपपद (पूर्वप्रत्यय)',
 	'interwiki-prefix-label' => 'उपपद (पूर्वप्रत्यय):',
 	'interwiki_error' => 'त्रुटी: आंतरविकि सारणी रिकामी आहे, किंवा इतर काहीतरी चुकलेले आहे.',
-	'interwiki_reasonfield' => 'कारण',
+	'interwiki_reasonfield' => 'कारण:',
 	'interwiki_delquestion' => '"$1" वगळत आहे',
 	'interwiki_deleting' => 'तुम्ही "$1" उपपद वगळत आहात.',
 	'interwiki_deleted' => '"$1" उपपद आंतरविकि सारणीमधून वगळण्यात आलेले आहे.',
@@ -2418,7 +2421,7 @@ $messages['mt'] = array(
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
-	'interwiki_reasonfield' => 'Тувтал',
+	'interwiki_reasonfield' => 'Тувталось:',
 	'interwiki_addbutton' => 'Поладомс',
 );
 
@@ -2426,7 +2429,7 @@ $messages['myv'] = array(
  * @author Fluence
  */
 $messages['nah'] = array(
-	'interwiki_reasonfield' => 'Īxtlamatiliztli',
+	'interwiki_reasonfield' => 'Īxtlamatiliztli:',
 	'interwiki_delquestion' => 'Mopolocah "$1"',
 	'interwiki_addbutton' => 'Ticcētilīz',
 );
@@ -2634,14 +2637,14 @@ Det finnes en [[Special:Log/interwiki|endringslogg]] for interwikitabellen.',
  * @author Malafaya
  */
 $messages['nov'] = array(
-	'interwiki_reasonfield' => 'Resone',
+	'interwiki_reasonfield' => 'Resone:',
 );
 
 /** Northern Sotho (Sesotho sa Leboa)
  * @author Mohau
  */
 $messages['nso'] = array(
-	'interwiki_reasonfield' => 'Lebaka',
+	'interwiki_reasonfield' => 'Lebaka:',
 	'interwiki_delquestion' => 'Phumula "$1"',
 	'interwiki_addbutton' => 'Lokela',
 );
@@ -2703,7 +2706,7 @@ Benlèu i existís ja.',
  * @author Amikeco
  */
 $messages['os'] = array(
-	'interwiki_reasonfield' => 'Аххос',
+	'interwiki_reasonfield' => 'Аххос:',
 );
 
 /** Deitsch (Deitsch)
@@ -2749,7 +2752,7 @@ Tutaj znajduje się [[Special:Log/interwiki|rejestr zmian]] tabeli interwiki.',
 	'interwiki_0' => 'nie',
 	'interwiki_error' => 'BŁĄD: Tabela interwiki jest pusta lub wystąpił jakiś inny problem.',
 	'interwiki_edit' => 'Edytuj',
-	'interwiki_reasonfield' => 'Powód:',
+	'interwiki_reasonfield' => 'Powód',
 	'interwiki_delquestion' => 'Czy usunąć „$1”',
 	'interwiki_deleting' => 'Usuwasz prefiks „$1”.',
 	'interwiki_deleted' => 'Prefiks „$1” został z powodzeniem usunięty z tabeli interwiki.',
@@ -2984,7 +2987,7 @@ $messages['ro'] = array(
 	'interwiki_1' => 'da',
 	'interwiki_0' => 'nu',
 	'interwiki_edit' => 'Modificare',
-	'interwiki_reasonfield' => 'Motiv',
+	'interwiki_reasonfield' => 'Motiv:',
 	'interwiki_delquestion' => 'Ștergere „$1”',
 	'interwiki_addbutton' => 'Adaugă',
 	'action-interwiki' => 'modificați această legătură interwiki',
@@ -3184,7 +3187,7 @@ Obsahuje [[Special:Log/interwiki|záznam zmien]] tabuľky interwiki.',
 	'interwiki_0' => 'nie',
 	'interwiki_error' => 'CHYBA: Tabuľka interwiki je prázdna alebo sa pokazilo niečo iné.',
 	'interwiki_edit' => 'Upraviť',
-	'interwiki_reasonfield' => 'Dôvod',
+	'interwiki_reasonfield' => 'Dôvod:',
 	'interwiki_delquestion' => 'Maže sa „$1“',
 	'interwiki_deleting' => 'Mažete predponu „$1“.',
 	'interwiki_deleted' => 'Predpona „$1“ bola úspešne odstránená z tabuľky interwiki.',
@@ -3330,7 +3333,7 @@ Do Doaten in do eenpelde Spalten hääbe ju foulgjende Betjuudenge:',
  * @author Irwangatot
  */
 $messages['su'] = array(
-	'interwiki_reasonfield' => 'Alesan',
+	'interwiki_reasonfield' => 'Alesan:',
 	'interwiki_delquestion' => 'Ngahapus "$1"',
 );
 
@@ -3393,7 +3396,7 @@ Det är möjligt att prefixet redan finns i tabellen.',
  * @author Herr Kriss
  */
 $messages['szl'] = array(
-	'interwiki_reasonfield' => 'Čymu',
+	'interwiki_reasonfield' => 'Čymu:',
 	'interwiki_addbutton' => 'Dodej',
 );
 
@@ -3460,7 +3463,7 @@ $messages['th'] = array(
 	'interwiki-title-norights' => 'ดูข้อมูลอินเตอร์วิกิ',
 	'interwiki_prefix' => 'คำนำหน้า',
 	'interwiki-prefix-label' => 'คำนำหน้า:',
-	'interwiki_reasonfield' => 'เหตุผล',
+	'interwiki_reasonfield' => 'เหตุผล:',
 	'interwiki_delquestion' => 'ลบ "$1"',
 	'interwiki_addbutton' => 'เพิ่ม',
 	'interwiki_edittext' => 'แก้ไขคำนำหน้าอินเตอร์วิกิ',
@@ -3628,7 +3631,7 @@ $messages['vep'] = array(
 	'interwiki_1' => 'ka',
 	'interwiki_0' => 'ei',
 	'interwiki_edit' => 'Redaktiruida',
-	'interwiki_reasonfield' => 'Sü',
+	'interwiki_reasonfield' => 'Sü:',
 	'interwiki_addbutton' => 'Ližata',
 	'interwiki_edittext' => 'Interwiki-prefiksoiden redaktiruind',
 );
@@ -3702,7 +3705,7 @@ Dabinon [[Special:Log/interwiki|jenotalised votükamas]] taiba vüvükik.',
 	'interwiki-prefix-label' => 'Foyümot:',
 	'interwiki_0' => 'nö',
 	'interwiki_error' => 'Pöl: Taib vüvükik vagon, u ba pöl votik ejenon.',
-	'interwiki_reasonfield' => 'Kod',
+	'interwiki_reasonfield' => 'Kod:',
 	'interwiki_delquestion' => 'El „$1“ pamoükon',
 	'interwiki_deleting' => 'Moükol foyümoti: „$1“.',
 	'interwiki_deleted' => 'Foyümot: „$1“ pemoükon benosekiko se taib vüvükik.',
