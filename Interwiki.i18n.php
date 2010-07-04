@@ -162,7 +162,7 @@ Parameter $1 contains the following (a link): [http://www.mediawiki.org/wiki/Int
  * @author Jose77
  */
 $messages['niu'] = array(
-	'interwiki_reasonfield' => 'Kakano',
+	'interwiki_reasonfield' => 'Kakano:',
 );
 
 /** Afrikaans (Afrikaans)
@@ -364,7 +364,7 @@ Batcoba tir [[Special:Log/interwiki|'log' dem betaks]] va 'interwiki' origak.",
 	'interwiki_prefix' => 'Abdueosta',
 	'interwiki-prefix-label' => 'Abdueosta:',
 	'interwiki_error' => "ROKLA : 'Interwiki' origak tir vlardaf oke rotaca al sokir.",
-	'interwiki_reasonfield' => 'Lazava',
+	'interwiki_reasonfield' => 'Lazava :',
 	'interwiki_delquestion' => 'Sulara va "$1"',
 	'interwiki_deleting' => 'Rin va "$1" abdueosta dun sulal.',
 	'interwiki_deleted' => '"$1" abdueosta div \'interwiki\' origak al zo tioltenher.',
@@ -834,6 +834,11 @@ Snaź njeeksistěrujo.',
 	'interwiki_logpagetext' => 'To jo protokol změnow k [[Special:Interwiki|tabeli interwiki]].',
 	'right-interwiki' => 'Daty interwiki wobźěłaś',
 	'action-interwiki' => 'toś ten zapisk interwiki změniś',
+);
+
+/** Ewe (Eʋegbe) */
+$messages['ee'] = array(
+	'interwiki_edit' => 'Trɔ asi le eŋu',
 );
 
 /** Greek (Ελληνικά)
@@ -2388,7 +2393,7 @@ $messages['ms'] = array(
 	'interwiki_0' => 'tidak',
 	'interwiki_error' => 'Ralat: Jadual interwiki kosong atau sesuatu yang tidak kena berlaku.',
 	'interwiki_edit' => 'Sunting',
-	'interwiki_reasonfield' => 'Sebab',
+	'interwiki_reasonfield' => 'Sebab:',
 	'interwiki_delquestion' => 'Menghapuskan "$1"',
 	'interwiki_deleting' => 'Anda sedang menghapuskan awalan "$1".',
 	'interwiki_deleted' => 'Awalan "$1" telah dibuang daripada jadual interwiki.',
@@ -2551,7 +2556,7 @@ Det finst ein [[Special:Log/interwiki|logg over endringar]] i interwikitabellen.
 	'interwiki_0' => 'nei',
 	'interwiki_error' => 'Feil: Interwikitabellen er tom, eller noko anna gjekk gale.',
 	'interwiki_edit' => 'Endra',
-	'interwiki_reasonfield' => 'Årsak',
+	'interwiki_reasonfield' => 'Årsak:',
 	'interwiki_delquestion' => 'Slettar «$1»',
 	'interwiki_deleting' => 'Du slettar prefikset «$1».',
 	'interwiki_deleted' => 'Prefikset «$1» blei fjerna frå interwikitabellen.',
@@ -3077,7 +3082,7 @@ $messages['sah'] = array(
 	'interwiki_prefix' => 'Префикс (эбиискэ)',
 	'interwiki-prefix-label' => 'Префикс (эбиискэ):',
 	'interwiki_error' => 'Алҕас: Интервики табылыыссата кураанах эбэтэр туга эрэ сатамматах.',
-	'interwiki_reasonfield' => 'Төрүөтэ',
+	'interwiki_reasonfield' => 'Төрүөтэ:',
 	'interwiki_delquestion' => '"$1" сотуу',
 	'interwiki_deleting' => '"$1" префиксы сотон эрэҕин.',
 	'interwiki_deleted' => '"$1" префикс интервики табылыыссатыттан сотулунна.',
@@ -3119,7 +3124,7 @@ C'è nu [[Special:Log/interwiki|riggistru di li canciamenti]] a la tabedda di li
 	'interwiki_trans' => 'Cunzenti interwiki transclusions',
 	'interwiki-trans-label' => 'Cunzenti interwiki transclusions:',
 	'interwiki_error' => "SBÀGGHIU: La tabedda di li interwiki è vacanti, o c'è qualchi àutru sbàgghiu.",
-	'interwiki_reasonfield' => 'Mutivu',
+	'interwiki_reasonfield' => 'Mutivu:',
 	'interwiki_delquestion' => 'Scancellu "$1"',
 	'interwiki_deleting' => 'Stai pi scancillari lu prufissu "$1"',
 	'interwiki_deleted' => 'Lu prifissu "$1" vinni scancillatu cu successu dâ tabedda di li interwiki.',
@@ -3441,7 +3446,7 @@ $messages['tet'] = array(
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
-	'interwiki_reasonfield' => 'Сабаб',
+	'interwiki_reasonfield' => 'Сабаб:',
 	'interwiki_delquestion' => 'Дар ҳоли ҳазфи "$1"',
 	'interwiki_addbutton' => 'Илова',
 );
@@ -3731,6 +3736,11 @@ Ba no dabinon.',
 	'interwiki_logpagetext' => 'Is palisedons votükams [[Special:Interwiki|taiba vüvükik]].',
 	'right-interwiki' => 'Bevobön nünis vüvükik',
 	'action-interwiki' => 'votükön pati vüvükik at',
+);
+
+/** Wu (吴语) */
+$messages['wuu'] = array(
+	'interwiki_reasonfield' => '理由：',
 );
 
 /** Yiddish (ייִדיש)
