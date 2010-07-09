@@ -3164,6 +3164,16 @@ $messages['sdc'] = array(
 	'interwiki_logpagename' => 'Rigisthru di la table interwiki',
 );
 
+/** Sinhala (සිංහල)
+ * @author බිඟුවා
+ */
+$messages['si'] = array(
+	'interwiki_1' => 'ඔව්',
+	'interwiki_0' => 'නැත',
+	'interwiki_edit' => 'සංස්කරණය',
+	'interwiki_reasonfield' => 'හේතුව:',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
@@ -3455,6 +3465,7 @@ $messages['tg-cyrl'] = array(
  * @author Liangent
  */
 $messages['tg-latn'] = array(
+	'interwiki_reasonfield' => 'Sabab:',
 	'interwiki_delquestion' => 'Dar holi hazfi "$1"',
 	'interwiki_addbutton' => 'Ilova',
 );
