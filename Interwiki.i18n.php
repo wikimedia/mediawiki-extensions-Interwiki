@@ -1785,6 +1785,7 @@ $messages['is'] = array(
  * @author BrokenArrow
  * @author Cruccone
  * @author Darth Kule
+ * @author OrbiliusMagister
  * @author Pietrodn
  */
 $messages['it'] = array(
@@ -1796,6 +1797,8 @@ $messages['it'] = array(
 	'interwiki-prefix-label' => 'Prefisso:',
 	'interwiki_prefix_intro' => 'Prefisso interwiki da utilizzare nella sintassi <code>[<nowiki />[prefisso:<i>nomepagina</i>]]</code>.',
 	'interwiki_url_intro' => 'Modello per gli URL. $1 sarà sostituito dal <i>nomepagina</i> del testo, quando la suddetta sintassi viene utilizzata.',
+	'interwiki_local' => 'Avanti',
+	'interwiki-local-label' => 'Avanti:',
 	'interwiki_local_intro' => "Una richiesta HTTP al sito locale con questo prefisso interwiki nell'URL è:",
 	'interwiki_local_0_intro' => 'non eseguita, di solito bloccata da "pagina non trovata",',
 	'interwiki_local_1_intro' => "reindirizzata all'URL di destinazione indicato nella definizione del link interwiki (cioè trattati come riferimenti nelle pagine locali)",
