@@ -3075,6 +3075,17 @@ $messages['ru'] = array(
 	'action-interwiki' => 'изменение записи интервики',
 );
 
+/** Rusyn (русиньскый язык)
+ * @author Gazeb
+ */
+$messages['rue'] = array(
+	'interwiki_1' => 'гей',
+	'interwiki_0' => 'нїт',
+	'interwiki_edit' => 'Едітовати',
+	'interwiki_reasonfield' => 'Причіна:',
+	'interwiki_addbutton' => 'Придати',
+);
+
 /** Yakut (Саха тыла)
  * @author HalanTul
  */
