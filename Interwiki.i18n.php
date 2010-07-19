@@ -2258,6 +2258,16 @@ $messages['lzh'] = array(
  * @author Jagwar
  */
 $messages['mg'] = array(
+	'interwiki' => 'Hijery sy hikasika ny data interwiki',
+	'interwiki-title-norights' => 'Hijery ny data interwiki',
+	'interwiki-desc' => "Manampy [[Special:Interwiki|pejy manokana iray]] ho an'ny fijerena sy ho an'ny fanovana ny tabilao interwiki",
+	'interwiki_intro' => "Ity dia topi-mason'ny tabilao interwiki. Ity ny dikan'ny fampahalalàn'ny tsanganana :",
+	'interwiki_prefix' => 'Tovona',
+	'interwiki-prefix-label' => 'Tovona',
+	'interwiki_local' => 'Hanohy',
+	'interwiki-local-label' => 'Hanohy',
+	'interwiki_1' => 'eny',
+	'interwiki_0' => 'tsia',
 	'right-interwiki' => 'Manova ny data interwiki',
 );
 
