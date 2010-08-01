@@ -3605,6 +3605,14 @@ $messages['tr'] = array(
 	'action-interwiki' => 'bu interviki girdisini değiştir',
 );
 
+/** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+ * @author Ильнар
+ */
+$messages['tt-cyrl'] = array(
+	'interwiki_1' => 'әйе',
+	'interwiki_0' => 'юк',
+);
+
 /** Ukrainian (Українська)
  * @author AS
  * @author Ahonc
