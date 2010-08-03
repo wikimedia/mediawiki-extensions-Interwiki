@@ -1761,10 +1761,12 @@ Kemungkinan karena prefiks ini tidak ada.',
 	'action-interwiki' => 'Ubah masukan untuk interwiki ini',
 );
 
-/** Igbo (Igbo) */
+/** Igbo (Igbo)
+ * @author Ukabia
+ */
 $messages['ig'] = array(
 	'interwiki_edit' => 'Rüwa',
-	'interwiki_reasonfield' => 'Mgbaghaputa:',
+	'interwiki_reasonfield' => 'Mgbághapụtà:',
 );
 
 /** Ido (Ido)
