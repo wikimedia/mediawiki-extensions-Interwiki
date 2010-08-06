@@ -1347,6 +1347,11 @@ $messages['gv'] = array(
 	'interwiki_reasonfield' => 'Fa:',
 );
 
+/** Hausa (هَوُسَ) */
+$messages['ha'] = array(
+	'interwiki_reasonfield' => 'Dalili:',
+);
+
 /** Hawaiian (Hawai`i)
  * @author Kalani
  * @author Singularity
