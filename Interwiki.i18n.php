@@ -606,6 +606,11 @@ $messages['ce'] = array(
 	'interwiki_addbutton' => 'Тlетоха',
 );
 
+/** Sorani (کوردی) */
+$messages['ckb'] = array(
+	'interwiki_reasonfield' => 'هۆکار:',
+);
+
 /** Czech (Česky)
  * @author Danny B.
  * @author Mormegil
