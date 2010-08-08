@@ -3638,6 +3638,11 @@ $messages['uk'] = array(
 	'interwiki_reasonfield' => 'Причина:',
 );
 
+/** Urdu (اردو) */
+$messages['ur'] = array(
+	'interwiki_reasonfield' => 'وجہ:',
+);
+
 /** Vèneto (Vèneto)
  * @author Candalua
  */
