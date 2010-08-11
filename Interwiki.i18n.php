@@ -668,6 +668,13 @@ Pravděpodobně neexistuje.',
 	'action-interwiki' => 'změnit tento záznam interwiki',
 );
 
+/** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+ * @author ОйЛ
+ */
+$messages['cu'] = array(
+	'interwiki_0' => 'нѣ́тъ',
+);
+
 /** Welsh (Cymraeg)
  * @author Lloffiwr
  */
