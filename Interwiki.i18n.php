@@ -1250,7 +1250,7 @@ Ademais, existe un [[Special:Log/interwiki|rexistro dos cambios]] realizados á 
  * @author Omnipaedista
  */
 $messages['got'] = array(
-	'interwiki_reasonfield' => 'Faírina',
+	'interwiki_reasonfield' => 'Faírina:',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
