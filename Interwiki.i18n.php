@@ -731,8 +731,8 @@ $messages['da'] = array(
  * @author Umherirrender
  */
 $messages['de'] = array(
-	'interwiki' => 'Interwiki-Daten betrachten und bearbeiten',
-	'interwiki-title-norights' => 'Interwiki-Daten betrachten',
+	'interwiki' => 'Interwikidaten betrachten und bearbeiten',
+	'interwiki-title-norights' => 'Interwikidaten betrachten',
 	'interwiki-desc' => 'Ergänzt eine [[Special:Interwiki|Spezialseite]] zur Pflege der Interwiki-Tabelle',
 	'interwiki_intro' => 'Dies ist ein Überblick des Inhalts der Interwiki-Tabelle.
 Die Daten in den einzelnen Spalten haben die folgende Bedeutung:',
@@ -3635,14 +3635,51 @@ $messages['tt-cyrl'] = array(
 /** Ukrainian (Українська)
  * @author AS
  * @author Ahonc
+ * @author Hypers
  * @author Prima klasy4na
  */
 $messages['uk'] = array(
+	'interwiki' => 'Перегляд і редагування даних інтервікі',
+	'interwiki-title-norights' => 'Переглянути дані інтервікі',
+	'interwiki-desc' => 'Додає [[Special:Interwiki|спеціальну сторінку]] для перегляду і редагування таблиці інтервікі',
+	'interwiki_intro' => 'Це огляд таблиці інтервікі. Значення даних в колонках:',
 	'interwiki_prefix' => 'Префікс',
 	'interwiki-prefix-label' => 'Префікс:',
+	'interwiki_prefix_intro' => 'Префікс інтервікі для використання у синтаксисі вікі-тексту: <code>[<nowiki />[префікс:<i>назва сторінки</i>]]</code>.',
+	'interwiki_url_intro' => 'Шаблон для URL-адрес. Замість $1 буде підставлено <i>назву сторінки</i> вікітексту, якщо використовується вищезазначений синтаксис вікітексту.',
+	'interwiki_local' => 'Відсилання',
+	'interwiki-local-label' => 'Відсилання:',
+	'interwiki_local_intro' => 'HTTP-запит у місцеву вікі з інтервікі-префіксом в URL:',
+	'interwiki_local_0_intro' => 'не допускається, як правило, блокується повідомленням "сторінка не знайдена",',
+	'interwiki_local_1_intro' => 'перенаправляє на цільовий URL, вказаний у визначенні інтервікі-посилання (тобто, розглядається як посилання на місцевих сторінках)',
+	'interwiki_trans' => 'Включення',
+	'interwiki-trans-label' => 'Включення:',
+	'interwiki_trans_intro' => 'Якщо використовується синтаксис вікітексту <code>{<nowiki />{префікс:<i>назва сторінки</i>}}</code>, то:',
+	'interwiki_trans_1_intro' => 'дозволяє включення з інших вікі, якщо інтервікі-включення дозволені в цій вікі,',
+	'interwiki_trans_0_intro' => 'не дозволяє включення, натомість шукається сторінка у просторі імен шаблонів.',
+	'interwiki_intro_footer' => 'Докладніше про таблицю інтервікі можна подивитись на [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org].
+Існує також [[Special:Log/interwiki|журнал змін]] таблиці інтервікі.',
+	'interwiki_1' => 'так',
 	'interwiki_0' => 'ні',
+	'interwiki_error' => 'Помилка: таблиця інтервікі порожня або щось іще пішло не так.',
 	'interwiki_edit' => 'Редагувати',
 	'interwiki_reasonfield' => 'Причина:',
+	'interwiki_delquestion' => 'Вилучення "$1"',
+	'interwiki_deleted' => 'Префікс "$1" було успішно видалено з таблиці інтервікі.',
+	'interwiki_delfailed' => 'Префікс "$1" не може бути видалений з таблиці інтервікі.',
+	'interwiki_addtext' => 'Додати префікс інтервікі',
+	'interwiki_addintro' => "Ви додаєте новий префікс інтервікі.
+Пам'ятайте, що він не може містити пробіли ( ), двокрапки (:), амперсанди (&) або знаки рівності (=).",
+	'interwiki_addbutton' => 'Додати',
+	'interwiki_added' => 'Префікс "$1" було успішно додано до таблиці інтервікі.',
+	'interwiki_addfailed' => 'Префікс "$1" не може бути доданий до таблиці інтервікі.
+Можливо, він вже існує в таблиці інтервікі.',
+	'interwiki_edittext' => 'Редагування префіксу інтервікі',
+	'interwiki_editintro' => "Ви редагуєте префікс інтервікі.
+Пам'ятайте, що це може пошкодити існуючі посилання.",
+	'interwiki_edited' => 'Префікс "$1" був успішно змінений в таблиці інтервікі.',
+	'interwiki_editerror' => 'Префікс "$1" не може бути змінений в таблиці інтервікі.
+Можливо, його не існує.',
 );
 
 /** Urdu (اردو) */
