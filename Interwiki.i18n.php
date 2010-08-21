@@ -3665,6 +3665,7 @@ $messages['uk'] = array(
 	'interwiki_edit' => 'Редагувати',
 	'interwiki_reasonfield' => 'Причина:',
 	'interwiki_delquestion' => 'Вилучення "$1"',
+	'interwiki_deleting' => 'Ви видаляєте префікс "$1".',
 	'interwiki_deleted' => 'Префікс "$1" було успішно видалено з таблиці інтервікі.',
 	'interwiki_delfailed' => 'Префікс "$1" не може бути видалений з таблиці інтервікі.',
 	'interwiki_addtext' => 'Додати префікс інтервікі',
@@ -3680,6 +3681,14 @@ $messages['uk'] = array(
 	'interwiki_edited' => 'Префікс "$1" був успішно змінений в таблиці інтервікі.',
 	'interwiki_editerror' => 'Префікс "$1" не може бути змінений в таблиці інтервікі.
 Можливо, його не існує.',
+	'interwiki-badprefix' => 'Зазначений інтервікі-префікс "$1" містить неприпустимі символи',
+	'interwiki_logpagename' => 'Журнал таблиці інтервікі',
+	'interwiki_log_added' => 'додав префікс "$2" ($3) (trans: $4) (local: $5) в таблицю інтервікі',
+	'interwiki_log_edited' => 'змінив префікс "$2" : ($3) (trans: $4) (local: $5) в таблиці інтервікі',
+	'interwiki_log_deleted' => 'видалив префікс "$2" з таблиці інтервікі',
+	'interwiki_logpagetext' => 'Це журнал змін [[Special:Interwiki|таблиці інтервікі]].',
+	'right-interwiki' => 'Редагувати дані інтервікі',
+	'action-interwiki' => 'зміну цього запису інтервікі',
 );
 
 /** Urdu (اردو) */
