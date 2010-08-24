@@ -3269,6 +3269,14 @@ Obsahuje [[Special:Log/interwiki|záznam zmien]] tabuľky interwiki.',
 	'action-interwiki' => 'zmeniť tento záznam interwiki',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'interwiki_1' => 'da',
+	'interwiki_0' => 'ne',
+);
+
 /** Serbian Cyrillic ekavian (Српски (ћирилица))
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
