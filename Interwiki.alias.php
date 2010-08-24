@@ -15,118 +15,110 @@ $aliases['en'] = array(
 	'Interwiki' => array( 'Interwiki' ),
 );
 
-/** Arabic (العربية) */
 $aliases['ar'] = array(
-	'Interwiki' => array( 'إنترويكي' ),
+	'Interwiki'   => array( 'إنترويكي' ),
 );
 
-/** Bulgarian (Български) */
+$aliases['arz'] = array(
+	'Interwiki'   => array( 'إنترويكى' ),
+);
+
 $aliases['bg'] = array(
-	'Interwiki' => array( 'Междууикита' ),
+	'Interwiki'   => array( 'Междууикита' ),
 );
 
-/** Breton (Brezhoneg) */
 $aliases['br'] = array(
-	'Interwiki' => array( 'Etrewiki' ),
+	'Interwiki'   => array( 'Etrewiki' ),
 );
 
-/** Bosnian (Bosanski) */
 $aliases['bs'] = array(
-	'Interwiki' => array( 'Medjuwiki' ),
+	'Interwiki'   => array( 'Medjuwiki' ),
 );
 
-/** Esperanto (Esperanto) */
 $aliases['eo'] = array(
-	'Interwiki' => array( 'Intervikia ligilo' ),
+	'Interwiki'   => array( 'Intervikia_ligilo' ),
 );
 
-/** Spanish (Español) */
 $aliases['es'] = array(
-	'Interwiki' => array( 'Enlaces interligüísticos' ),
+	'Interwiki'   => array( 'Enlaces_interligüísticos' ),
 );
 
-/** Persian (فارسی) */
 $aliases['fa'] = array(
-	'Interwiki' => array( 'میان‌ویکی' ),
+	'Interwiki'   => array( 'میان‌ویکی' ),
 );
 
-/** Franco-Provençal (Arpetan) */
 $aliases['frp'] = array(
-	'Interwiki' => array( 'Entèrvouiqui' ),
+	'Interwiki'   => array( 'Entèrvouiqui' ),
 );
 
-/** Hebrew (עברית) */
 $aliases['he'] = array(
-	'Interwiki' => array( 'בינוויקי' ),
+	'Interwiki'   => array( 'בינוויקי' ),
 );
 
-/** Hungarian (Magyar) */
 $aliases['hu'] = array(
-	'Interwiki' => array( 'Wikiközi hivatkozások' ),
+	'Interwiki'   => array( 'Wikiközi_hivatkozások' ),
 );
 
-/** Japanese (日本語) */
 $aliases['ja'] = array(
-	'Interwiki' => array( 'インターウィキ' ),
+	'Interwiki'   => array( 'インターウィキ' ),
 );
 
-/** Khmer (ភាសាខ្មែរ) */
 $aliases['km'] = array(
-	'Interwiki' => array( 'អន្តរវិគី' ),
+	'Interwiki'   => array( 'អន្តរវិគី' ),
 );
 
-/** Korean (한국어) */
 $aliases['ko'] = array(
-	'Interwiki' => array( '인터위키' ),
+	'Interwiki'   => array( '인터위키' ),
 );
 
-/** Colognian (Ripoarisch) */
 $aliases['ksh'] = array(
-	'Interwiki' => array( 'EngerWiki', 'Engerwiki' ),
+	'Interwiki'   => array( 'EngerWiki', 'Engerwiki' ),
 );
 
-/** Latin (Latina) */
 $aliases['la'] = array(
-	'Interwiki' => array( 'Intervici' ),
+	'Interwiki'   => array( 'Intervici' ),
 );
 
-/** Macedonian (Македонски) */
+$aliases['lad'] = array(
+	'Interwiki'   => array( 'Interviki' ),
+);
+
 $aliases['mk'] = array(
-	'Interwiki' => array( 'Интервики' ),
+	'Interwiki'   => array( 'Интервики' ),
 );
 
-/** Malayalam (മലയാളം) */
 $aliases['ml'] = array(
-	'Interwiki' => array( 'അന്തർ‌വിക്കി' ),
+	'Interwiki'   => array( 'അന്തർ‌വിക്കി' ),
 );
 
-/** Marathi (मराठी) */
 $aliases['mr'] = array(
-	'Interwiki' => array( 'आंतरविकि' ),
+	'Interwiki'   => array( 'आंतरविकि' ),
 );
 
-/** Portuguese (Português) */
 $aliases['pt'] = array(
-	'Interwiki' => array( 'Interwikis' ),
+	'Interwiki'   => array( 'Interwikis' ),
 );
 
-/** Sanskrit (संस्कृत) */
 $aliases['sa'] = array(
-	'Interwiki' => array( 'आंन्तरविकि' ),
+	'Interwiki'   => array( 'आंन्तरविकि' ),
 );
 
-/** Swahili (Kiswahili) */
 $aliases['sw'] = array(
-	'Interwiki' => array( 'Viungovyawiki' ),
+	'Interwiki'   => array( 'Viungovyawiki' ),
 );
 
-/** Tagalog (Tagalog) */
+$aliases['te'] = array(
+	'Interwiki'   => array( 'అంతర్వికీ' ),
+);
+
 $aliases['tl'] = array(
-	'Interwiki' => array( 'Kawing-wiki' ),
+	'Interwiki'   => array( 'Kawing-wiki' ),
 );
 
-/** Turkish (Türkçe) */
 $aliases['tr'] = array(
-	'Interwiki' => array( 'İnterviki' ),
+	'Interwiki'   => array( 'İnterviki' ),
 );
 
+$aliases['zh-hant'] = array(
+	'Interwiki'   => array( '跨維基連結' ),
+);
