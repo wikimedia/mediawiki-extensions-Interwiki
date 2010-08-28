@@ -1486,11 +1486,16 @@ $messages['hr'] = array(
 	'interwiki_intro' => 'Ovo je pregled međuwiki tablice. Značenja podataka u stupcima:',
 	'interwiki_prefix' => 'Prefiks',
 	'interwiki-prefix-label' => 'Prefiks:',
+	'interwiki_prefix_intro' => 'Međuwiki prefiks koji će se rabiti u <code>[<nowiki />[prefix:<i>pagename</i>]]</code> wikitekst sintaksi.',
+	'interwiki_url_intro' => 'Predložak za URL-ove. Varijabla $1 biti će zamijenjena s <i>pagename</i> u wikitekst, kad će navedena wikitekst sintaksa biti rabljena.',
 	'interwiki_local' => 'Proslijedi',
 	'interwiki-local-label' => 'Proslijedi:',
 	'interwiki_trans' => 'Transkludiraj',
-	'interwiki-trans-label' => 'Transkludiraj:',
+	'interwiki-trans-label' => 'Uključi:',
+	'interwiki_1' => 'da',
+	'interwiki_0' => 'ne',
 	'interwiki_error' => 'GREŠKA: Interwiki tablica je prazna, ili je nešto drugo neispravno.',
+	'interwiki_edit' => 'Uredi',
 	'interwiki_reasonfield' => 'Razlog:',
 	'interwiki_delquestion' => 'Brišem "$1"',
 	'interwiki_deleting' => 'Brišete prefiks "$1".',
@@ -1512,6 +1517,7 @@ $messages['hr'] = array(
 	'interwiki_log_deleted' => 'uklonjen prefiks "$2" iz interwiki tablice',
 	'interwiki_logpagetext' => 'Ovo su evidencije promjena na [[Special:Interwiki|interwiki tablici]].',
 	'right-interwiki' => 'Uređivanje interwiki podataka',
+	'action-interwiki' => 'uredi ovaj međuwiki zapis',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
