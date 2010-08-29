@@ -3285,6 +3285,7 @@ $messages['sl'] = array(
 
 /** Serbian Cyrillic ekavian (Српски (ћирилица))
  * @author Sasa Stefanovic
+ * @author Жељко Тодоровић
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
@@ -3315,8 +3316,8 @@ $messages['sr-ec'] = array(
 	'interwiki_addfailed' => 'Префикс "$1" није могао бити додат у табелу међувикија.
 Вероватно већ постоји у њој.',
 	'interwiki_edittext' => 'Мењање међувики префикса',
-	'interwiki_editintro' => 'Ви менате један међувики префикс.
-Имајте на уму да ти може да оштети постојеће међувики везе.',
+	'interwiki_editintro' => 'Ви мењате један међувики префикс.
+Имајте на уму да може да оштети постојеће међувики везе.',
 	'interwiki_edited' => 'Префикс "$1" је успешно измењен у табели међувикија.',
 	'interwiki_editerror' => 'Префикс "$1" не може бити измењен у табели међувикија.
 Вероватно затшо што не постоји.',
@@ -3331,6 +3332,7 @@ $messages['sr-ec'] = array(
 
 /** Serbian Latin ekavian (Srpski (latinica))
  * @author Michaello
+ * @author Жељко Тодоровић
  */
 $messages['sr-el'] = array(
 	'interwiki' => 'Pregledaj i izmeni podatke o međuvikiju',
@@ -3360,8 +3362,8 @@ Imajte na umu da on ne može da sadrži razmake ( ), dvotačku (:), amersand (&)
 	'interwiki_addfailed' => 'Prefiks "$1" nije mogao biti dodat u tabelu međuvikija.
 Verovatno već postoji u njoj.',
 	'interwiki_edittext' => 'Menjanje međuviki prefiksa',
-	'interwiki_editintro' => 'Vi menate jedan međuviki prefiks.
-Imajte na umu da ti može da ošteti postojeće međuviki veze.',
+	'interwiki_editintro' => 'Vi menjate jedan međuviki prefiks.
+Imajte na umu da može da ošteti postojeće međuviki veze.',
 	'interwiki_edited' => 'Prefiks "$1" je uspešno izmenjen u tabeli međuvikija.',
 	'interwiki_editerror' => 'Prefiks "$1" ne može biti izmenjen u tabeli međuvikija.
 Verovatno zatšo što ne postoji.',
