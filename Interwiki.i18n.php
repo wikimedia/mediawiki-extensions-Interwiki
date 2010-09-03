@@ -1812,6 +1812,7 @@ $messages['is'] = array(
  * @author Darth Kule
  * @author OrbiliusMagister
  * @author Pietrodn
+ * @author VittGam
  */
 $messages['it'] = array(
 	'interwiki' => 'Visualizza e modifica i dati interwiki',
@@ -1822,8 +1823,8 @@ $messages['it'] = array(
 	'interwiki-prefix-label' => 'Prefisso:',
 	'interwiki_prefix_intro' => 'Prefisso interwiki da utilizzare nella sintassi <code>[<nowiki />[prefisso:<i>nomepagina</i>]]</code>.',
 	'interwiki_url_intro' => 'Modello per gli URL. $1 sarà sostituito dal <i>nomepagina</i> del testo, quando la suddetta sintassi viene utilizzata.',
-	'interwiki_local' => 'Avanti',
-	'interwiki-local-label' => 'Avanti:',
+	'interwiki_local' => 'Reindirizza',
+	'interwiki-local-label' => 'Reindirizza:',
 	'interwiki_local_intro' => "Una richiesta HTTP al sito locale con questo prefisso interwiki nell'URL è:",
 	'interwiki_local_0_intro' => 'non eseguita, di solito bloccata da "pagina non trovata",',
 	'interwiki_local_1_intro' => "reindirizzata all'URL di destinazione indicato nella definizione del link interwiki (cioè trattati come riferimenti nelle pagine locali)",
@@ -1833,7 +1834,7 @@ $messages['it'] = array(
 	'interwiki_trans_1_intro' => "permette l'inclusione da siti esterni, se le inclusioni interwiki sono generalmente permesse in questo sito,",
 	'interwiki_trans_0_intro' => 'non la permette, invece cerca una pagina nel namespace template.',
 	'interwiki_intro_footer' => 'Consultare [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] per maggiori informazioni sulle tabelle degli interwiki. Esiste un [[Special:Log/interwiki|registro delle modifiche]] alla tabella degli interwiki.',
-	'interwiki_1' => 'si',
+	'interwiki_1' => 'sì',
 	'interwiki_0' => 'no',
 	'interwiki_error' => "ERRORE: La tabella degli interwiki è vuota, o c'è qualche altro errore.",
 	'interwiki_edit' => 'Modifica',
