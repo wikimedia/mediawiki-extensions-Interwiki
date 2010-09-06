@@ -3467,6 +3467,13 @@ Det är möjligt att prefixet redan finns i tabellen.',
 	'action-interwiki' => 'ändra det här interwikielementet',
 );
 
+/** Swahili (Kiswahili)
+ * @author Ikiwaner
+ */
+$messages['sw'] = array(
+	'interwiki_1' => 'ndiyo',
+);
+
 /** Silesian (Ślůnski)
  * @author Herr Kriss
  */
