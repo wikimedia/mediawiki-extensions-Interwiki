@@ -6,119 +6,154 @@
  * @ingroup Extensions
  */
 
-$aliases = array();
-
 /** English
  * @author Jon Harald Søby
  */
-$aliases['en'] = array(
+$specialPageAliases['en'] = array(
 	'Interwiki' => array( 'Interwiki' ),
 );
 
-$aliases['ar'] = array(
-	'Interwiki'   => array( 'إنترويكي' ),
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'Interwiki' => array( 'إنترويكي' ),
 );
 
-$aliases['arz'] = array(
-	'Interwiki'   => array( 'إنترويكى' ),
+/** Egyptian Spoken Arabic (مصرى) */
+$specialPageAliases['arz'] = array(
+	'Interwiki' => array( 'إنترويكى' ),
 );
 
-$aliases['bg'] = array(
-	'Interwiki'   => array( 'Междууикита' ),
+/** Bulgarian (Български) */
+$specialPageAliases['bg'] = array(
+	'Interwiki' => array( 'Междууикита' ),
 );
 
-$aliases['br'] = array(
-	'Interwiki'   => array( 'Etrewiki' ),
+/** Breton (Brezhoneg) */
+$specialPageAliases['br'] = array(
+	'Interwiki' => array( 'Etrewiki' ),
 );
 
-$aliases['bs'] = array(
-	'Interwiki'   => array( 'Medjuwiki' ),
+/** Bosnian (Bosanski) */
+$specialPageAliases['bs'] = array(
+	'Interwiki' => array( 'Medjuwiki' ),
 );
 
-$aliases['eo'] = array(
-	'Interwiki'   => array( 'Intervikia_ligilo' ),
+/** Esperanto (Esperanto) */
+$specialPageAliases['eo'] = array(
+	'Interwiki' => array( 'Intervikia_ligilo' ),
 );
 
-$aliases['es'] = array(
-	'Interwiki'   => array( 'Enlaces_interligüísticos' ),
+/** Spanish (Español) */
+$specialPageAliases['es'] = array(
+	'Interwiki' => array( 'Enlaces_interligüísticos' ),
 );
 
-$aliases['fa'] = array(
-	'Interwiki'   => array( 'میان‌ویکی' ),
+/** Persian (فارسی) */
+$specialPageAliases['fa'] = array(
+	'Interwiki' => array( 'میان‌ویکی' ),
 );
 
-$aliases['frp'] = array(
-	'Interwiki'   => array( 'Entèrvouiqui' ),
+/** Franco-Provençal (Arpetan) */
+$specialPageAliases['frp'] = array(
+	'Interwiki' => array( 'Entèrvouiqui' ),
 );
 
-$aliases['he'] = array(
-	'Interwiki'   => array( 'בינוויקי' ),
+/** Hebrew (עברית) */
+$specialPageAliases['he'] = array(
+	'Interwiki' => array( 'בינוויקי' ),
 );
 
-$aliases['hu'] = array(
-	'Interwiki'   => array( 'Wikiközi_hivatkozások' ),
+/** Hungarian (Magyar) */
+$specialPageAliases['hu'] = array(
+	'Interwiki' => array( 'Wikiközi_hivatkozások' ),
 );
 
-$aliases['ja'] = array(
-	'Interwiki'   => array( 'インターウィキ' ),
+/** Indonesian (Bahasa Indonesia) */
+$specialPageAliases['id'] = array(
+	'Interwiki' => array( 'Interwiki' ),
 );
 
-$aliases['km'] = array(
-	'Interwiki'   => array( 'អន្តរវិគី' ),
+/** Japanese (日本語) */
+$specialPageAliases['ja'] = array(
+	'Interwiki' => array( 'インターウィキ' ),
 );
 
-$aliases['ko'] = array(
-	'Interwiki'   => array( '인터위키' ),
+/** Khmer (ភាសាខ្មែរ) */
+$specialPageAliases['km'] = array(
+	'Interwiki' => array( 'អន្តរវិគី' ),
 );
 
-$aliases['ksh'] = array(
-	'Interwiki'   => array( 'EngerWiki', 'Engerwiki' ),
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'Interwiki' => array( '인터위키' ),
 );
 
-$aliases['la'] = array(
-	'Interwiki'   => array( 'Intervici' ),
+/** Colognian (Ripoarisch) */
+$specialPageAliases['ksh'] = array(
+	'Interwiki' => array( 'EngerWiki', 'Engerwiki' ),
 );
 
-$aliases['lad'] = array(
-	'Interwiki'   => array( 'Interviki' ),
+/** Latin (Latina) */
+$specialPageAliases['la'] = array(
+	'Interwiki' => array( 'Intervici' ),
 );
 
-$aliases['mk'] = array(
-	'Interwiki'   => array( 'Интервики' ),
+/** Ladino (Ladino) */
+$specialPageAliases['lad'] = array(
+	'Interwiki' => array( 'Interviki' ),
 );
 
-$aliases['ml'] = array(
-	'Interwiki'   => array( 'അന്തർ‌വിക്കി' ),
+/** Macedonian (Македонски) */
+$specialPageAliases['mk'] = array(
+	'Interwiki' => array( 'Интервики' ),
 );
 
-$aliases['mr'] = array(
-	'Interwiki'   => array( 'आंतरविकि' ),
+/** Malayalam (മലയാളം) */
+$specialPageAliases['ml'] = array(
+	'Interwiki' => array( 'അന്തർ‌വിക്കി' ),
 );
 
-$aliases['pt'] = array(
-	'Interwiki'   => array( 'Interwikis' ),
+/** Marathi (मराठी) */
+$specialPageAliases['mr'] = array(
+	'Interwiki' => array( 'आंतरविकि' ),
 );
 
-$aliases['sa'] = array(
-	'Interwiki'   => array( 'आंन्तरविकि' ),
+/** Portuguese (Português) */
+$specialPageAliases['pt'] = array(
+	'Interwiki' => array( 'Interwikis' ),
 );
 
-$aliases['sw'] = array(
-	'Interwiki'   => array( 'Viungovyawiki' ),
+/** Sanskrit (संस्कृत) */
+$specialPageAliases['sa'] = array(
+	'Interwiki' => array( 'आंन्तरविकि' ),
 );
 
-$aliases['te'] = array(
-	'Interwiki'   => array( 'అంతర్వికీ' ),
+/** Swahili (Kiswahili) */
+$specialPageAliases['sw'] = array(
+	'Interwiki' => array( 'Viungovyawiki' ),
 );
 
-$aliases['tl'] = array(
-	'Interwiki'   => array( 'Kawing-wiki' ),
+/** Telugu (తెలుగు) */
+$specialPageAliases['te'] = array(
+	'Interwiki' => array( 'అంతర్వికీ' ),
 );
 
-$aliases['tr'] = array(
-	'Interwiki'   => array( 'İnterviki' ),
+/** Tagalog (Tagalog) */
+$specialPageAliases['tl'] = array(
+	'Interwiki' => array( 'Kawing-wiki' ),
 );
 
-$aliases['zh-hant'] = array(
-	'Interwiki'   => array( '跨維基連結' ),
+/** Turkish (Türkçe) */
+$specialPageAliases['tr'] = array(
+	'Interwiki' => array( 'İnterviki' ),
 );
+
+/** Traditional Chinese (‪中文(繁體)‬) */
+$specialPageAliases['zh-hant'] = array(
+	'Interwiki' => array( '跨維基連結' ),
+);
+
+/**
+ * For backwards compatibility with MediaWiki 1.15 and earlier.
+ */
+$aliases =& $specialPageAliases;
