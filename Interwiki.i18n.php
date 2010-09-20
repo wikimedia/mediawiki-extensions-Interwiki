@@ -3657,6 +3657,7 @@ $messages['tt-cyrl'] = array(
 	'interwiki_1' => 'әйе',
 	'interwiki_0' => 'юк',
 	'interwiki_reasonfield' => 'Сәбәп:',
+	'interwiki_addbutton' => 'Өстәргә',
 );
 
 /** Ukrainian (Українська)
