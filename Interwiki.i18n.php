@@ -3113,7 +3113,7 @@ $messages['ru'] = array(
 	'action-interwiki' => 'изменение записи интервики',
 );
 
-/** Rusyn (русиньскый язык)
+/** Rusyn (Русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
