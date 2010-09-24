@@ -2467,6 +2467,11 @@ $messages['mt'] = array(
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
+	'interwiki_prefix' => 'Икелькс пене',
+	'interwiki-prefix-label' => 'Икелькс пенезэ:',
+	'interwiki_local' => 'Пачтямс седе тов',
+	'interwiki-local-label' => 'Пачтямс седе тов:',
+	'interwiki_edit' => 'Витнеме-петнеме',
 	'interwiki_reasonfield' => 'Тувталось:',
 	'interwiki_addbutton' => 'Поладомс',
 );
