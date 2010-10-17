@@ -2020,6 +2020,7 @@ $messages['kn'] = array(
 	'interwiki_0' => 'ಇಲ್ಲ',
 	'interwiki_edit' => 'ಸಂಪಾದಿಸಿ',
 	'interwiki_reasonfield' => 'ಕಾರಣ:',
+	'interwiki_addbutton' => 'ಸೇರಿಸು',
 );
 
 /** Korean (한국어)
