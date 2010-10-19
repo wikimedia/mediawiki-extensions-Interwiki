@@ -2381,6 +2381,7 @@ $messages['mn'] = array(
 	'interwiki_1' => 'тийм',
 	'interwiki_0' => 'үгүй',
 	'interwiki_reasonfield' => 'Шалтгаан:',
+	'interwiki_addbutton' => 'Нэмэх',
 );
 
 /** Marathi (मराठी)
