@@ -389,6 +389,14 @@ Rotir koeon me krulder.',
 	'interwiki_logpagetext' => "Batcoba tir 'log' dem betaks va [[Special:Interwiki|'interwiki' origak]].",
 );
 
+/** Belarusian (Беларуская)
+ * @author Тест
+ */
+$messages['be'] = array(
+	'interwiki_reasonfield' => 'Прычына:',
+	'interwiki_addbutton' => 'Дадаць',
+);
+
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
  * @author EugeneZelenko
  * @author Jim-by
