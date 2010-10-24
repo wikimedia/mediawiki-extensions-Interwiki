@@ -295,6 +295,19 @@ $messages['ar'] = array(
 	'action-interwiki' => 'تغيير مدخلة الإنترويكي هذه',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'interwiki_prefix' => 'ܫܪܘܝܐ',
+	'interwiki-prefix-label' => 'ܫܪܘܝܐ:',
+	'interwiki_1' => 'ܐܝܢ',
+	'interwiki_0' => 'ܠܐ',
+	'interwiki_edit' => 'ܫܚܠܦ',
+	'interwiki_reasonfield' => 'ܥܠܬܐ:',
+	'interwiki_addbutton' => 'ܐܘܣܦ',
+);
+
 /** Egyptian Spoken Arabic (مصرى)
  * @author Ghaly
  * @author Meno25
@@ -3514,6 +3527,8 @@ $messages['te'] = array(
 	'interwiki-prefix-label' => 'ఉపసర్గ:',
 	'interwiki_local' => 'ముందుకు',
 	'interwiki-local-label' => 'ముందుకు:',
+	'interwiki_intro_footer' => 'అంతర్వికీ పట్టిక గురించిన మరింత సమాచారాన్ని [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]లో చూడండి.
+అంతర్వికీ పట్టికకి జరిగిన [[Special:Log/interwiki|మార్పుల యొక్క చిట్టా]] కూడా ఉంది.',
 	'interwiki_1' => 'అవును',
 	'interwiki_0' => 'కాదు',
 	'interwiki_error' => 'పొరపాటు: అంతర్వికీ పట్టిక ఖాళీగా ఉంది, లేదా ఏదో తప్పు జరిగింది.',
