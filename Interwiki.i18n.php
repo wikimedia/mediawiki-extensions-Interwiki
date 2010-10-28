@@ -1046,20 +1046,24 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Ebraminio
  * @author Huji
  */
 $messages['fa'] = array(
 	'interwiki' => 'نمایش و ویرایش اطلاعات میان‌ویکی',
 	'interwiki-title-norights' => 'مشاهدهٔ اطلاعات میان‌ویکی',
-	'interwiki_intro' => 'برای اطلاعات بیشتر در مورد جدول میان‌ویکی [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] را ببینید.
-[[Special:Log/interwiki|سیاهه‌ای از تغییرات]] جدول میان‌ویکی نیز وجود دارد.',
+	'interwiki-desc' => 'یک [[Special:Interwiki|صفحهٔ ویژه]] برای مشاهده و ویرایش جدول میان‌ویکی می‌افزاید.',
+	'interwiki_intro' => 'قمستی از افزونهٔ میان‌ویکی. به صورت یک مرور کلی در Special:Interwiki نمایش داده شده.',
 	'interwiki_prefix' => 'پیشوند',
 	'interwiki-prefix-label' => 'پیشوند:',
 	'interwiki_local' => 'مشخص کردن به عنوان یک ویکی محلی',
 	'interwiki-local-label' => 'مشخص کردن به عنوان یک ویکی محلی:',
 	'interwiki_trans' => 'اجازهٔ گنجاندن میان‌ویکی را بده',
 	'interwiki-trans-label' => 'اجازهٔ گنجاندن میان‌ویکی را بده:',
+	'interwiki_1' => 'بله',
+	'interwiki_0' => 'خیر',
 	'interwiki_error' => 'خطا: جدول میان‌ویکی خالی است، یا چیز دیگری مشکل دارد.',
+	'interwiki_edit' => 'ویرایش',
 	'interwiki_reasonfield' => 'دلیل:',
 	'interwiki_delquestion' => 'حذف «$1»',
 	'interwiki_deleting' => 'شما در حال حذف کردن پیشوند «$1» هستید.',
