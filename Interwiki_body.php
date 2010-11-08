@@ -249,7 +249,7 @@ class SpecialInterwiki extends SpecialPage {
 		$message_1 = wfMsgHtml( 'interwiki_1' );
 
 		$out = '
-<table width="100%" cellspacing="0" cellpadding="0" border="0" style="border:0" class="mw-interwikitable wikitable intro">
+<table width="100%" class="mw-interwikitable wikitable intro">
 <tr><th class="mw-align-left">' . $prefixmessage . '</th><td>' . wfMsgExt( 'interwiki_prefix_intro', 'parseinline' ) . '</td></tr>
 <tr><th class="mw-align-left">' . $urlmessage . '</th><td>' . wfMsgExt( 'interwiki_url_intro', 'parseinline' ) . '</td></tr>
 <tr><th class="mw-align-left">' . $localmessage . '</th><td>' . wfMsgExt( 'interwiki_local_intro', 'parseinline' ) . '</td></tr>
