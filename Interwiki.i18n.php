@@ -509,8 +509,8 @@ $messages['bg'] = array(
  * @author Y-M D
  */
 $messages['br'] = array(
-	'interwiki' => 'Gwelet hag aozañ ar roadennoù interwiki',
-	'interwiki-title-norights' => 'Gwelet ar roadennoù interwiki',
+	'interwiki' => 'Gwelet hag aozañ ar roadennoù etrewiki',
+	'interwiki-title-norights' => 'Gwelet ar roadennoù etrewiki',
 	'interwiki-desc' => 'Ouzhpennañ a ra ur [[Special:Interwiki|bajenn dibar]] evit gwelet ha kemmañ an daolenn etrewiki',
 	'interwiki_intro' => 'Hemañ zo un alberz eus an daolenn etrewiki. Setu talvoudegezh ar roadennoù zo er bannoù :',
 	'interwiki_prefix' => 'Rakger',
