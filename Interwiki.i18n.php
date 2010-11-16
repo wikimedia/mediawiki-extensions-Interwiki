@@ -2801,6 +2801,13 @@ $messages['pdc'] = array(
 	'interwiki_addbutton' => 'Dezu duh',
 );
 
+/** Pfälzisch (Pfälzisch)
+ * @author Xqt
+ */
+$messages['pfl'] = array(
+	'interwiki_edit' => 'Bearwaide',
+);
+
 /** Polish (Polski)
  * @author Leinad
  * @author McMonster
