@@ -1911,6 +1911,7 @@ Il prefisso potrebbe essere inesistente.',
  * @author Fievarsty
  * @author Fryed-peach
  * @author Mzm5zbC3
+ * @author 青子守歌
  */
 $messages['ja'] = array(
 	'interwiki' => 'インターウィキデータの閲覧と編集',
@@ -1936,7 +1937,7 @@ $messages['ja'] = array(
 	'interwiki_0' => 'いいえ',
 	'interwiki_error' => 'エラー: インターウィキテーブルが空か、他の理由でうまくいきませんでした。',
 	'interwiki_edit' => '編集',
-	'interwiki_reasonfield' => '理由:',
+	'interwiki_reasonfield' => '理由：',
 	'interwiki_delquestion' => '"$1"を削除',
 	'interwiki_deleting' => 'あなたは接頭辞 "$1" を削除しようとしています。',
 	'interwiki_deleted' => '接頭辞 "$1" はインターウィキテーブルから正常に削除されました。',
