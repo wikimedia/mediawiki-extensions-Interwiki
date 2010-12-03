@@ -3274,6 +3274,7 @@ $messages['sdc'] = array(
 );
 
 /** Sinhala (සිංහල)
+ * @author තඹරු විජේසේකර
  * @author බිඟුවා
  */
 $messages['si'] = array(
@@ -3281,6 +3282,7 @@ $messages['si'] = array(
 	'interwiki_0' => 'නැත',
 	'interwiki_edit' => 'සංස්කරණය',
 	'interwiki_reasonfield' => 'හේතුව:',
+	'right-interwiki' => 'අන්තර්-විකි දත්ත සංස්කරණය',
 );
 
 /** Slovak (Slovenčina)
