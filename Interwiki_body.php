@@ -4,7 +4,6 @@
  * @ingroup SpecialPage
  */
 class SpecialInterwiki extends SpecialPage {
-
 	/**
 	 * Constructor - sets up the new special page
 	 */
@@ -26,8 +25,6 @@ class SpecialInterwiki extends SpecialPage {
 	 */
 	public function execute( $par ) {
 		global $wgRequest, $wgOut, $wgUser;
-
-		wfLoadExtensionMessages( 'Interwiki' );
 
 		$admin = $wgUser->isAllowed( 'interwiki' );
 
