@@ -1063,6 +1063,7 @@ $messages['eu'] = array(
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Huji
+ * @author Mjbmr
  */
 $messages['fa'] = array(
 	'interwiki' => 'نمایش و ویرایش اطلاعات میان‌ویکی',
@@ -1098,6 +1099,7 @@ $messages['fa'] = array(
 	'interwiki_editerror' => 'پیشوند «$1» را نمی‌توان در جدول میان‌ویکی تغییر داد.
 احتمالاً این پیشوند وجود ندارد.',
 	'interwiki-badprefix' => 'پیشوند میان‌ویکی «$1» حاوی نویسه‌های غیر مجاز است',
+	'interwiki_logpagename' => 'سیاههٔ جدول میان‌ویکی',
 	'interwiki_log_added' => 'پیشوند «$2» ($3) (میانی: $4) (محلی: $5) را به جدول میان‌ویکی افزود',
 	'interwiki_log_edited' => 'پیشوند «$2» : ($3) (میانی: $4) (محلی: $5) را در جدول میان‌ویکی تغییر داد',
 	'interwiki_log_deleted' => 'پیشوند «$2» را از جدول میان‌ویکی حذف کرد',
