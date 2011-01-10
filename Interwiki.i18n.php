@@ -893,12 +893,14 @@ $messages['ee'] = array(
  * @author Consta
  * @author Crazymadlover
  * @author Dead3y3
+ * @author Evropi
  * @author Omnipaedista
  * @author ZaDiak
  */
 $messages['el'] = array(
 	'interwiki' => 'Εμφάνιση και επεξεργασία των δεδομένων ιντερβίκι',
 	'interwiki-title-norights' => 'Εμφάνιση δεδομένων ιντερβίκι',
+	'interwiki-desc' => 'Προσθέτει μια [[Special:Interwikilist|ειδική σελίδα]] για την προβολή και επεξεργασία των διαθέσιμων συνδέσμων interwiki',
 	'interwiki_prefix' => 'Πρόθεμα',
 	'interwiki-prefix-label' => 'Πρόθεμα:',
 	'interwiki_local' => 'Προώθηση',
@@ -1618,41 +1620,42 @@ Snano njeeksistuje.',
 );
 
 /** Haitian (Kreyòl ayisyen)
+ * @author Boukman
  * @author Jvm
  * @author Masterches
  */
 $messages['ht'] = array(
-	'interwiki' => 'Wè epi edite enfòmasyon entèwiki yo',
-	'interwiki-title-norights' => 'Wè enfòmasyon interwiki',
-	'interwiki-desc' => 'Ajoute yon [[Special:Interwiki|paj espesial]] pou wè ak edite tab interwiki-a',
-	'interwiki_intro' => 'Wè [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] pou plis enfòmasyon sou tab interwiki-a.
-Geyen yon [[Special:Log/interwiki|jounal pou chanjman yo]] nan tab interwiki-a.',
-	'interwiki_prefix' => 'Prefix',
-	'interwiki-prefix-label' => 'Prefix:',
-	'interwiki_error' => 'ERÈ:  Tab interwiki-a vid, oubien yon lòt bagay mal mache.',
+	'interwiki' => 'Wè epi modifye enfòmasyon entèwiki yo',
+	'interwiki-title-norights' => 'Wè enfòmasyon entèwiki',
+	'interwiki-desc' => 'Ajoute yon [[Special:Interwiki|paj espesial]] pou wè ak modifye tablo entèwiki a',
+	'interwiki_intro' => 'Sa se yon kout je sou tablo entèwiki a.
+Men sa done nan colòn yo vle di:',
+	'interwiki_prefix' => 'Prefiks',
+	'interwiki-prefix-label' => 'Prefiks:',
+	'interwiki_error' => 'ERÈ:  Tablo entèwiki a vid, oubyen yon lòt bagay pa t mache.',
 	'interwiki_reasonfield' => 'Rezon:',
-	'interwiki_delquestion' => 'Delete "$1"',
-	'interwiki_deleting' => 'W’ap delete prefix "$1".',
-	'interwiki_deleted' => 'Prefix "$1" te retire nan tab interwiki-a avèk siksès.',
-	'interwiki_delfailed' => 'Prefix "$1" pa t\' kapab sòti nan tab interwiki-a.',
-	'interwiki_addtext' => 'Mete yon prefix interwiki',
-	'interwiki_addintro' => 'W’ap mete yon nouvo prefix interwiki.
+	'interwiki_delquestion' => 'Efase "$1"',
+	'interwiki_deleting' => 'W ap efase prefiks "$1".',
+	'interwiki_deleted' => 'Prefiks "$1" te reyisi retire nan tablo entèwiki a.',
+	'interwiki_delfailed' => 'Prefiks "$1" pa t kapab retire nan tablo entèwiki a.',
+	'interwiki_addtext' => 'Ajoute yon prefiks entèwiki',
+	'interwiki_addintro' => 'W ap ajoute yon nouvo prefiks entèwiki.
 Sonje ke li pa ka genyen ladan li espace ( ), de pwen (:), anmpèsand (&), ou sign egalite (=).',
 	'interwiki_addbutton' => 'Ajoute',
-	'interwiki_added' => 'Prefix "$1" te ajoute sou tab interwiki-a avèk siksès.',
-	'interwiki_addfailed' => 'Prefix "$1" pa t’ kapab ajoute sou tab interwiki-a.
-Posibleman paske li deja ekziste nan tab interwiki-a.',
-	'interwiki_edittext' => 'Edite yon prefix interwiki',
-	'interwiki_editintro' => 'W’ap edite yon prefix interwiki.
-Sonje ke sa ka kase chèn ki deja ekziste.',
-	'interwiki_edited' => 'Prefix "$1" te modifye nan tab interwiki-a avèk siksès.',
-	'interwiki_editerror' => 'Prefix "$1" pa ka modifye nan tab interwiki-a.
-Posibleman li pa ekziste.',
-	'interwiki_logpagename' => 'Jounal tab interwiki-a',
-	'interwiki_log_added' => 'te ajoute prefix "$2" ($3) (trans: $4) (local: $5) nan tab interwiki-a',
-	'interwiki_log_edited' => 'prefix ki te modifye "$2" : ($3) (trans: $4) (local: $5) nan tab interwiki-a',
-	'interwiki_log_deleted' => 'prefix ki te retire "$2" nan tab interwiki-a',
-	'interwiki_logpagetext' => 'Sa se yon jounal chanjman nan [[Special:Interwiki|tab interwiki-a]].',
+	'interwiki_added' => 'Prefiks "$1" te reyisi ajoute nan tablo entèwiki a.',
+	'interwiki_addfailed' => 'Prefiks "$1" pa t kapab ajoute nan tablo entèwiki a.
+Gendwa se paske li deja ekziste nan tablo entèwiki a.',
+	'interwiki_edittext' => 'Modifye yon prefiks entèwiki',
+	'interwiki_editintro' => 'W ap modifye yon prefiks entèwiki.
+Sonje ke sa gendwa kraze lyen ki deja ekziste yo.',
+	'interwiki_edited' => 'Prefiks "$1" te reyisi modifye nan tablo entèwiki a.',
+	'interwiki_editerror' => 'Prefiks "$1" pa ka modifye nan tablo entèwiki a.
+Petèt li pa ekziste.',
+	'interwiki_logpagename' => 'Jounal tablo entèwiki a',
+	'interwiki_log_added' => 'te ajoute prefiks "$2" ($3) (trans: $4) (local: $5) nan tablo entèwiki a',
+	'interwiki_log_edited' => 'te modifye prefiks "$2" : ($3) (trans: $4) (local: $5) nan tablo entèwiki a',
+	'interwiki_log_deleted' => 'te retire prefiks "$2" nan tablo entèwiki a',
+	'interwiki_logpagetext' => 'Sa se yon jounal pou chanjman yo nan [[Special:Interwiki|tablo entèwiki a]].',
 );
 
 /** Hungarian (Magyar)
