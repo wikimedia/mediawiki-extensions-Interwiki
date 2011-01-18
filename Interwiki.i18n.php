@@ -3351,7 +3351,8 @@ $messages['sl'] = array(
 	'interwiki_addbutton' => 'Dodaj',
 );
 
-/** Serbian Cyrillic ekavian (Српски (ћирилица))
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
  * @author Sasa Stefanovic
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
@@ -3370,7 +3371,7 @@ $messages['sr-ec'] = array(
 	'interwiki_1' => 'да',
 	'interwiki_0' => 'не',
 	'interwiki_error' => 'Грешка: табела међувикија је празна, или нешто друго није у реду.',
-	'interwiki_edit' => 'Измени',
+	'interwiki_edit' => 'Уреди',
 	'interwiki_reasonfield' => 'Разлог:',
 	'interwiki_delquestion' => 'Бришем „$1”',
 	'interwiki_deleting' => 'Ви бришете префикс "$1".',
