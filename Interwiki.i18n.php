@@ -2175,6 +2175,14 @@ Maach sin, dat et inn nit jitt.',
 	'action-interwiki' => 'Donn hee dä Engerwiki Enndraach ändere',
 );
 
+/** Kurdish (Latin) (Kurdî (Latin))
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'interwiki_1' => 'erê',
+	'interwiki_reasonfield' => 'Sedem:',
+);
+
 /** Latin (Latina)
  * @author Omnipaedista
  * @author SPQRobin
