@@ -410,7 +410,7 @@ $messages['be'] = array(
 	'interwiki_addbutton' => 'Дадаць',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -817,7 +817,7 @@ Möglicherweise existiert es nicht.',
 	'action-interwiki' => 'Diesen Interwiki-Eintrag ändern',
 );
 
-/** German (formal address) (Deutsch (Sie-Form))
+/** German (formal address) (‪Deutsch (Sie-Form)‬)
  * @author MichaelFrey
  */
 $messages['de-formal'] = array(
@@ -2830,7 +2830,7 @@ $messages['pdc'] = array(
 	'interwiki_addbutton' => 'Dezu duh',
 );
 
-/** Pfälzisch (Pfälzisch)
+/** Pälzisch (Pälzisch)
  * @author Xqt
  */
 $messages['pfl'] = array(
@@ -3407,7 +3407,7 @@ $messages['sr-ec'] = array(
 	'right-interwiki' => 'Измени међувики',
 );
 
-/** Serbian Latin ekavian (Srpski (latinica))
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
  * @author Michaello
  * @author Жељко Тодоровић
  */
@@ -4067,6 +4067,7 @@ $messages['zh-hans'] = array(
  * @author Horacewai2
  * @author Liangent
  * @author Mark85296341
+ * @author Waihorace
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
