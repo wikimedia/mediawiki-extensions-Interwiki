@@ -1058,7 +1058,7 @@ $messages['eu'] = array(
 	'interwiki_reasonfield' => 'Arrazoia:',
 	'interwiki_delquestion' => '"$1" ezabatzen',
 	'interwiki_deleting' => '"$1" aurrizkia ezabatzen ari zara.',
-	'interwiki_addbutton' => 'Erantsi',
+	'interwiki_addbutton' => 'Gehitu',
 	'interwiki_edittext' => 'Interwiki aurrizkia editatzen',
 );
 
