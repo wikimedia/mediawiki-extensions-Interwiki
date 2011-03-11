@@ -4,6 +4,7 @@
  * @ingroup SpecialPage
  */
 class SpecialInterwiki extends SpecialPage {
+
 	/**
 	 * Constructor - sets up the new special page
 	 */
@@ -11,6 +12,10 @@ class SpecialInterwiki extends SpecialPage {
 		parent::__construct( 'Interwiki' );
 	}
 
+	/**
+	 * Different description will be shown on Special:SpecialPage depending on
+	 * whether the user has the 'interwiki' right or not.
+	 */
 	function getDescription() {
 		global $wgUser;
 
@@ -34,12 +39,12 @@ class SpecialInterwiki extends SpecialPage {
 		$admin = $wgUser->isAllowed( 'interwiki' );
 		$action = $wgRequest->getVal( 'action', $par );
 
-		switch( $action ){
+		switch( $action ) {
 		case 'delete':
 		case 'edit':
 		case 'add':
 			// Check permissions
-			if( !$admin ){
+			if( !$admin ) {
 				$wgOut->permissionRequired( 'interwiki' );
 				return;
 			}
@@ -52,7 +57,7 @@ class SpecialInterwiki extends SpecialPage {
 			break;
 		case 'submit':
 			// Check permissions
-			if( !$admin ){
+			if( !$admin ) {
 				$wgOut->permissionRequired( 'interwiki' );
 				return;
 			}
@@ -80,7 +85,7 @@ class SpecialInterwiki extends SpecialPage {
 		$actionUrl = $this->getTitle()->getLocalURL( 'action=submit' );
 		$token = $wgUser->editToken();
 
-		switch( $action ){
+		switch( $action ) {
 		case 'delete':
 
 			$prefix = $wgRequest->getVal( 'prefix' );
@@ -115,7 +120,7 @@ class SpecialInterwiki extends SpecialPage {
 				$prefix = $wgRequest->getVal( 'prefix' );
 				$dbr = wfGetDB( DB_SLAVE );
 				$row = $dbr->selectRow( 'interwiki', '*', array( 'iw_prefix' => $prefix ), __METHOD__ );
-				if( !$row ){
+				if( !$row ) {
 					$this->error( 'interwiki_editerror', $prefix );
 					return;
 				}
@@ -203,8 +208,12 @@ class SpecialInterwiki extends SpecialPage {
 			$theurl = $wgRequest->getVal( 'wpInterwikiURL' );
 			$local = $wgRequest->getCheck( 'wpInterwikiLocal' ) ? 1 : 0;
 			$trans = $wgRequest->getCheck( 'wpInterwikiTrans' ) ? 1 : 0;
-			$data = array( 'iw_prefix' => $prefix, 'iw_url' => $theurl,
-				'iw_local'  => $local, 'iw_trans'  => $trans );
+			$data = array(
+				'iw_prefix' => $prefix,
+				'iw_url' => $theurl,
+				'iw_local' => $local,
+				'iw_trans' => $trans
+			);
 
 			if( $do == 'add' ){
 				$dbw->insert( 'interwiki', $data, __METHOD__, 'IGNORE' );
@@ -226,10 +235,12 @@ class SpecialInterwiki extends SpecialPage {
 	}
 
 	function trans_local( $tl, $msg0, $msg1 ) {
-		if( $tl === '0' )
+		if( $tl === '0' ) {
 			return $msg0;
-		if( $tl === '1' )
+		}
+		if( $tl === '1' ) {
 			return $msg1;
+		}
 		return htmlspecialchars( $tl );
 	}
 
