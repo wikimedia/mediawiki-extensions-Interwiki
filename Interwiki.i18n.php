@@ -765,16 +765,30 @@ Efallai ei fod eisoes yn y tabl rhyngwici.',
 /** Danish (Dansk)
  * @author Byrial
  * @author Jon Harald Søby
+ * @author Peter Alberti
  * @author Purodha
  */
 $messages['da'] = array(
+	'interwiki' => 'Vis og rediger interwikidata',
+	'interwiki-title-norights' => 'Vis interwikidata',
+	'interwiki_prefix' => 'Præfiks',
+	'interwiki-prefix-label' => 'Præfiks:',
 	'interwiki_local' => '(local)',
 	'interwiki-local-label' => '(local):',
 	'interwiki_trans' => '(trans)',
 	'interwiki-trans-label' => '(trans):',
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nej',
+	'interwiki_error' => 'Fejl: Interwikitabellen er tom eller noget andet gik galt.',
+	'interwiki_edit' => 'Redigér',
 	'interwiki_reasonfield' => 'Begrundelse:',
+	'interwiki_delquestion' => 'Sletter "$1"',
+	'interwiki_deleting' => 'Du er ved at slette præfikset "$1".',
+	'interwiki_addtext' => 'Tilføj et interwikipræfiks',
+	'interwiki_addintro' => 'Du er ved at tilføje et nyt interwikipræfiks.
+Husk at det ikke kan indeholde mellemrum ( ), kolon (:), &-tegn eller lighedstegn (=).',
+	'interwiki_addbutton' => 'Tilføj',
+	'right-interwiki' => 'Redigere interwikidata',
 	'action-interwiki' => 'ændre dette interwiki-element',
 );
 
