@@ -664,9 +664,12 @@ $messages['ce'] = array(
 	'interwiki_addbutton' => 'Тlетоха',
 );
 
-/** Sorani (کوردی) */
+/** Sorani (کوردی)
+ * @author Asoxor
+ */
 $messages['ckb'] = array(
 	'interwiki_reasonfield' => 'هۆکار:',
+	'interwiki_deleted' => 'پێشگری «$1» سەرکەوتووانە لە خشتەی نێوانویکی لابرا.',
 );
 
 /** Czech (Česky)
