@@ -2515,6 +2515,7 @@ $messages['mr'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
  * @author Aurora
  * @author Aviator
  * @author Diagramma Della Verita
@@ -2540,7 +2541,7 @@ $messages['ms'] = array(
 	'interwiki_delfailed' => 'Awalan "$1" tidak dapat dibuang daripada jadual interwiki.',
 	'interwiki_addtext' => 'Tambah awalan interwiki',
 	'interwiki_addintro' => 'Anda sedang menambah awalan interwiki baru. Sila ingat bahawa awalan interwiki tidak boleh mangandungi jarak ( ), noktah bertindih (:), ampersan (&), atau tanda sama (=).',
-	'interwiki_addbutton' => 'Tambah',
+	'interwiki_addbutton' => 'Tambahkan',
 	'interwiki_added' => 'Awalan "$1" telah ditambah ke dalam jadual interwiki.',
 	'interwiki_addfailed' => 'Awalan "$1" tidak dapat ditambah ke dalam jadual interwiki. Barangkali awalan ini telah pun wujud dalam jadual interwiki.',
 	'interwiki_edittext' => 'Mengubah awalan interwiki',
@@ -3408,8 +3409,8 @@ $messages['sl'] = array(
  */
 $messages['sr-ec'] = array(
 	'interwiki' => 'Прегледај и измени податке о међувикију',
-	'interwiki-title-norights' => 'Прегледај податке о међувикију',
-	'interwiki-desc' => 'Додаје [[Special:Interwiki|специјалну страну]] за преглед и измену табеле међувикија',
+	'interwiki-title-norights' => 'Међувики',
+	'interwiki-desc' => 'Додаје посебну страницу за преглед и измену [[Special:Interwiki|табеле међувикија]]',
 	'interwiki_intro' => 'Ово је преглед табеле међувикија. Значења података у колонама:',
 	'interwiki_prefix' => 'Префикс',
 	'interwiki-prefix-label' => 'Префикс:',
@@ -3445,7 +3446,7 @@ $messages['sr-ec'] = array(
 	'interwiki_log_edited' => 'измењен је префикс "$2" : ($3) (транс: $4) (локално: $5) у табели међувикија',
 	'interwiki_log_deleted' => 'префикс "$2" је избрисан из табеле међувикија',
 	'interwiki_logpagetext' => 'Ово је историја измена [[Special:Interwiki|табеле међувикија]].',
-	'right-interwiki' => 'Измени међувики',
+	'right-interwiki' => 'уређивање међувикија',
 );
 
 /** Serbian Latin ekavian (‪Srpski (latinica)‬)
