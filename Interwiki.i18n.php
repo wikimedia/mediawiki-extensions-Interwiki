@@ -654,6 +654,7 @@ $messages['ca'] = array(
 	'interwiki_edit' => 'Modifica',
 	'interwiki_reasonfield' => 'Raó:',
 	'interwiki_delquestion' => "S'està eliminant «$1»",
+	'right-interwiki' => 'Modificar dades interwiki',
 );
 
 /** Chechen (Нохчийн)
