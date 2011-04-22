@@ -181,7 +181,8 @@ class SpecialInterwiki extends SpecialPage {
 		global $wgRequest, $wgOut;
 		$prefix = $wgRequest->getVal( 'wpInterwikiPrefix' );
 		$do = $wgRequest->getVal( 'wpInterwikiAction' );
-		if( preg_match( '/[\s:&=]/', $prefix ) ) {
+		// show an error if the prefix is invalid (only when adding one)
+		if( preg_match( '/[\s:&=]/', $prefix ) && $do == 'add' ) {
 			$this->error( 'interwiki-badprefix', htmlspecialchars( $prefix ) );
 			$this->showForm( $do );
 			return;
