@@ -3400,6 +3400,8 @@ $messages['sl'] = array(
 	'interwiki_1' => 'da',
 	'interwiki_0' => 'ne',
 	'interwiki_addbutton' => 'Dodaj',
+	'right-interwiki' => 'Urejanje podatkov interwiki',
+	'action-interwiki' => 'spreminjanje tega vnosa interwikija',
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
