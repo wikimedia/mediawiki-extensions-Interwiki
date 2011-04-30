@@ -525,6 +525,22 @@ $messages['bg'] = array(
 	'right-interwiki' => 'Редактиране на междууикитата',
 );
 
+/** Bengali (বাংলা)
+ * @author Wikitanvir
+ */
+$messages['bn'] = array(
+	'interwiki_prefix' => 'উপসর্গ',
+	'interwiki-prefix-label' => 'উপসর্গ:',
+	'interwiki_1' => 'হ্যাঁ',
+	'interwiki_0' => 'না',
+	'interwiki_edit' => 'সম্পাদনা',
+	'interwiki_reasonfield' => 'কারণ:',
+	'interwiki_delquestion' => '"$1" অপসারণ',
+	'interwiki_deleting' => 'আপনি উপসর্গ "$1" অপসারণ করছেন।',
+	'interwiki_addtext' => 'একটি আন্তঃউইকি উপসর্গ যোগ',
+	'interwiki_addbutton' => 'যোগ',
+);
+
 /** Breton (Brezhoneg)
  * @author Fohanno
  * @author Fulup
@@ -3615,6 +3631,14 @@ $messages['szl'] = array(
 	'interwiki_addbutton' => 'Dodej',
 );
 
+/** Tamil (தமிழ்)
+ * @author செல்வா
+ */
+$messages['ta'] = array(
+	'interwiki_addbutton' => 'சேர்',
+	'right-interwiki' => 'விக்கியிடைப் பரிமாற்றத் தரவுகளைத் தொகு',
+);
+
 /** Telugu (తెలుగు)
  * @author Kiranmayee
  * @author Veeven
@@ -3649,6 +3673,9 @@ $messages['te'] = array(
  * @author MF-Warburg
  */
 $messages['tet'] = array(
+	'interwiki_1' => 'sin',
+	'interwiki_0' => 'lae',
+	'interwiki_edit' => 'Edita',
 	'interwiki_reasonfield' => 'Motivu:',
 	'interwiki_delquestion' => 'Halakon $1',
 	'interwiki_addbutton' => 'Tau tan',
