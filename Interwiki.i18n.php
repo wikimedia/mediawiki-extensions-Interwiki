@@ -3425,9 +3425,23 @@ $messages['sl'] = array(
 	'interwiki_trans_intro' => 'Če je uporabljena skladnja wikibesedila <code>{<nowiki />{predpona:<i>imestrani</i>}}</code>, potem:',
 	'interwiki_1' => 'da',
 	'interwiki_0' => 'ne',
+	'interwiki_error' => 'Napaka: Tabela interwiki je prazna ali pa je kaj drugega šlo narobe.',
 	'interwiki_edit' => 'Uredi',
 	'interwiki_reasonfield' => 'Razlog:',
+	'interwiki_delquestion' => 'Brisanje »$1«',
+	'interwiki_deleting' => 'Brišete predpono »$1«.',
+	'interwiki_addtext' => 'Dodaj predpono interwiki',
 	'interwiki_addbutton' => 'Dodaj',
+	'interwiki_added' => 'Predpona »$1« je bila uspešno dodana v tabelo interwiki.',
+	'interwiki_edittext' => 'Urejanje predpone interwiki',
+	'interwiki_editintro' => 'Urejate predpono interwiki.
+Ne pozabite, da lahko to prekine obstoječe povezave.',
+	'interwiki_edited' => 'Predpona »$1« je bila uspešno spremenjena v tabeli interwiki.',
+	'interwiki_editerror' => 'Predpone »$1« ni mogoče spremeniti v tabeli interwiki.
+Morda ne obstaja.',
+	'interwiki-badprefix' => 'Navedena predpona interwiki »$1« vsebuje neveljavne znake.',
+	'interwiki_logpagename' => 'Dnevnik tabele interwiki',
+	'interwiki_logpagetext' => 'To je dnevnik sprememb [[Special:Interwiki|tabele interwiki]].',
 	'right-interwiki' => 'Urejanje podatkov interwiki',
 	'action-interwiki' => 'spreminjanje tega vnosa interwikija',
 );
