@@ -1275,11 +1275,26 @@ Il existe un [[Special:Log/interwiki|journal des modifications]] de la table int
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
+	'interwiki' => 'Vêre et changiér les balyês entèrvouiqui',
+	'interwiki-title-norights' => 'Vêre les balyês entèrvouiqui',
+	'interwiki_prefix' => 'Prèfixo',
+	'interwiki-prefix-label' => 'Prèfixo :',
+	'interwiki_local' => 'Fâre siuvre',
+	'interwiki-local-label' => 'Fâre siuvre :',
+	'interwiki_trans' => 'Encllure',
+	'interwiki-trans-label' => 'Encllure :',
 	'interwiki_1' => 'ouè',
 	'interwiki_0' => 'nan',
 	'interwiki_edit' => 'Changiér',
 	'interwiki_reasonfield' => 'Rêson :',
+	'interwiki_delquestion' => 'Suprèssion de « $1 »',
+	'interwiki_deleting' => 'Vos éte aprés suprimar lo prèfixo « $1 ».',
+	'interwiki_addtext' => 'Apondre un prèfixo entèrvouiqui',
 	'interwiki_addbutton' => 'Apondre',
+	'interwiki_edittext' => 'Changiér un prèfixo entèrvouiqui',
+	'interwiki_logpagename' => 'Jornal de la trâbla entèrvouiqui',
+	'right-interwiki' => 'Changiér les balyês entèrvouiqui',
+	'action-interwiki' => 'changiér ceta entrâ entèrvouiqui',
 );
 
 /** Western Frisian (Frysk)
@@ -1333,12 +1348,12 @@ Ademais, existe un [[Special:Log/interwiki|rexistro dos cambios]] realizados á 
 	'interwiki_addfailed' => 'Non se puido engadir o prefixo "$1" á táboa interwiki. Posibelmente xa existe na táboa interwiki.',
 	'interwiki_edittext' => 'Editando un prefixo interwiki',
 	'interwiki_editintro' => 'Está editando un prefixo interwiki. Lembre que isto pode quebrar ligazóns existentes.',
-	'interwiki_edited' => 'O prefixo "$1" foi modificado con éxito na táboa do interwiki.',
-	'interwiki_editerror' => 'O prefixo "$1" non pode ser modificado na táboa do interwiki. Posiblemente non existe.',
+	'interwiki_edited' => 'O prefixo "$1" foi modificado con éxito na táboa interwiki.',
+	'interwiki_editerror' => 'O prefixo "$1" non pode ser modificado na táboa interwiki. Posiblemente non existe.',
 	'interwiki-badprefix' => 'O prefixo interwiki especificado "$1" contén caracteres inválidos',
 	'interwiki_logpagename' => 'Rexistro de táboas interwiki',
 	'interwiki_log_added' => 'engadiu o prefixo "$2" ($3) (trans: $4) (local: $5) á táboa interwiki',
-	'interwiki_log_edited' => 'modificou o prefixo "$2": ($3) (trans: $4) (local: $5) na táboa do interwiki',
+	'interwiki_log_edited' => 'modificou o prefixo "$2": ($3) (trans: $4) (local: $5) na táboa interwiki',
 	'interwiki_log_deleted' => 'eliminou o prefixo "$2" da táboa interwiki',
 	'interwiki_logpagetext' => 'Este é un rexistro dos cambios feitos á [[Special:Interwiki|táboa interwiki]].',
 	'right-interwiki' => 'Editar os datos do interwiki',
