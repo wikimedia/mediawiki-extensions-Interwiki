@@ -9,7 +9,7 @@
  * @ingroup Extensions
  * @version 1.3
  * @author Stephanie Amanda Stevens <phroziac@gmail.com>
- * @author SPQRobin <robin_1273@hotmail.com>
+ * @author SPQRobin <robinp.1273@gmail.com>
  * @copyright Copyright © 2005-2007 Stephanie Amanda Stevens
  * @copyright Copyright © 2007 SPQRobin
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
@@ -26,7 +26,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'SpecialInterwiki',
 	'author' => array( 'Stephanie Amanda Stevens', 'SPQRobin', '...' ),
-	'version' => '1.3.2',
+	'version' => '1.4.0',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:SpecialInterwiki',
 	'descriptionmsg' => 'interwiki-desc',
 );

@@ -1,6 +1,10 @@
 /**
  * CSS for Special:Interwiki
  */
+table.mw-interwikitable {
+	width: 100%;
+}
+
 table.mw-interwikitable.intro th {
 	padding-right: 1.4ex;
 	vertical-align: top;

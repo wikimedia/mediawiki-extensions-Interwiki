@@ -46,7 +46,7 @@ $messages['en'] = array(
 	'interwiki_trans_intro' => 'If wikitext syntax <code>{<nowiki />{prefix:<i>pagename</i>}}</code> is used, then:',
 	'interwiki_trans_1_intro' => 'allow transclusion from the foreign wiki, if interwiki transclusions are generally permitted in this wiki,',
 	'interwiki_trans_0_intro' => 'do not allow it, rather look for a page in the template namespace.',
-	'interwiki_intro_footer' => 'See [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] for more information about the interwiki table.
+	'interwiki_intro_footer' => 'See [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] for more information about the interwiki table.
 There is a [[Special:Log/interwiki|log of changes]] to the interwiki table.',
 	'interwiki_1' => 'yes',
 	'interwiki_0' => 'no',
@@ -70,16 +70,17 @@ Remember that it cannot contain spaces ( ), colons (:), ampersands (&), or equal
 	'interwiki_added' => 'Prefix "$1" was successfully added to the interwiki table.',
 	'interwiki_addfailed' => 'Prefix "$1" could not be added to the interwiki table.
 Possibly it already exists in the interwiki table.',
-	'interwiki_defaulturl' => 'http://www.example.com/$1', # do not translate or duplicate this message to other languages
+	'interwiki-defaulturl' => 'http://www.example.com/$1', # do not translate or duplicate this message to other languages
 
 	# editing a prefix
 	'interwiki_edittext' => 'Editing an interwiki prefix',
 	'interwiki_editintro' => 'You are editing an interwiki prefix.
 Remember that this can break existing links.',
 	'interwiki_edited' => 'Prefix "$1" was successfully modified in the interwiki table.',
-	'interwiki_editerror' => 'Prefix "$1" can not be modified in the interwiki table.
+	'interwiki_editerror' => 'Prefix "$1" could not be modified in the interwiki table.
 Possibly it does not exist.',
 	'interwiki-badprefix' => 'Specified interwiki prefix "$1" contains invalid characters',
+	'interwiki-submit-empty' => 'The prefix and URL cannot be empty.',
 
 	# interwiki log
 	'interwiki_logpagename' => 'Interwiki table log',
