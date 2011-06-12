@@ -38,7 +38,7 @@ class SpecialInterwiki extends SpecialPage {
 
 		$admin = $wgUser->isAllowed( 'interwiki' );
 		$action = $wgRequest->getVal( 'action', $par );
-		$return = SpecialPage::getTitleFor( 'Interwiki' );
+		$return = $this->getTitle();
 
 		switch( $action ) {
 		case 'delete':
@@ -278,7 +278,7 @@ class SpecialInterwiki extends SpecialPage {
 		if ( $admin ) {
 			$skin = $wgUser->getSkin();
 			$addtext = wfMsgHtml( 'interwiki_addtext' );
-			$addlink = $skin->link( SpecialPage::getTitleFor( 'Interwiki', 'add' ), $addtext );
+			$addlink = $skin->link( $this->getTitle( 'add' ), $addtext );
 			$wgOut->addHTML( '<p class="mw-interwiki-addlink">' . $addlink . '</p>' );
 		}
 
