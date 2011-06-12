@@ -101,6 +101,7 @@ Possibly it does not exist.',
  * @author Meno25
  * @author Mormegil
  * @author Purodha
+ * @author Raymond
  * @author SPQRobin
  * @author Siebrand
  */
@@ -131,7 +132,7 @@ $1 is being rendered verbatim. It rerfers to the syntax of the values listed in 
 	'interwiki_trans_0_intro' => 'Used on [[Special:Interwiki]] so as to describe the meaning of the value 0 in the {{msg-mw|interwiki_trans}} column of the table.',
 	'interwiki_intro_footer' => 'Part of the interwiki extension.
 Shown as last pice of the introductory text on [[Special:Interwiki]].
-Parameter $1 contains the following (a link): [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]',
+Parameter $1 contains the following (a link): [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org]',
 	'interwiki_1' => "'''Yes'''-value to be inserted into the columns headed by {{msg-mw|interwiki_local}} and {{msg-mw|interwiki_trans}}.
 
 {{Identical|Yes}}",
@@ -151,9 +152,9 @@ Parameter $1 contains the following (a link): [http://www.mediawiki.org/wiki/Int
 {{Identical|Add}}',
 	'interwiki_editerror' => 'Error message when modifying a prefix has failed.',
 	'interwiki_logpagename' => 'Part of the interwiki extension. This message is shown as page title on Special:Log/interwiki.',
-	'interwiki_log_added' => 'Shows up in "Special:Log/interwiki" when someone has added a prefix. Leave parameters and text between brackets exactly as it is.',
-	'interwiki_log_edited' => 'Shows up in "Special:Log/interwiki" when someone has modified a prefix. Leave parameters and text between brackets exactly as it is.',
-	'interwiki_log_deleted' => 'Shows up in "Special:Log/interwiki" when someone removed a prefix.',
+	'interwiki_log_added' => 'Shows up in "Special:Log/interwiki" when someone has added a prefix. Leave parameters and text between brackets exactly as it is. (This message is preceded by the username who added it.)',
+	'interwiki_log_edited' => 'Shows up in "Special:Log/interwiki" when someone has modified a prefix. Leave parameters and text between brackets exactly as it is. (This message is preceded by the username of the user who modified it.)',
+	'interwiki_log_deleted' => 'Shows up in "Special:Log/interwiki" when someone removed a prefix. This message is preceded by the username of the user who deleted it.',
 	'interwiki_logpagetext' => 'Part of the interwiki extension. Summary shown on Special:Log/interwiki.',
 	'right-interwiki' => '{{doc-right}}',
 	'action-interwiki' => '{{doc-action}}',
@@ -190,7 +191,7 @@ Betekenis van die inligting en kolomme:",
 	'interwiki_trans_intro' => 'Indien die wikiteks-sintaks <code>{<nowiki />{voorvoegsel:<i>bladsynaam</i>}}</code> gebruik word, dan:',
 	'interwiki_trans_1_intro' => "laat transklusie van ander wiki's toe as interwiki-transklusies wel in hierdie wiki toegelaat word.",
 	'interwiki_trans_0_intro' => "nie toegelaat nie, soek eerder na 'n bladsy in die sjabloonnaamruimte.",
-	'interwiki_intro_footer' => "Sien [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] vir meer inligting oor die interwiki-tabel.
+	'interwiki_intro_footer' => "Sien [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] vir meer inligting oor die interwiki-tabel.
 Daar is 'n [[Special:Log/interwiki|logboek van veranderings]] vir die interwiki-tabel.",
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nee',
@@ -262,7 +263,7 @@ $messages['ar'] = array(
 	'interwiki_trans_intro' => 'لو أن صياغة نص الويكي <code>{<nowiki />{prefix:<i>pagename</i>}}</code> تم استخدامها، إذا:',
 	'interwiki_trans_1_intro' => 'يسمح بالتضمين من الويكي الأجنبي، لو أن تضمينات الإنترويكي مسموح بها عموما في هذا الويكي،',
 	'interwiki_trans_0_intro' => 'لا تسمح به، ولكن ابحث عن صفحة في نطاق القوالب.',
-	'interwiki_intro_footer' => 'انظر [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] للمزيد من المعلومات حول جدول الإنترويكي.
+	'interwiki_intro_footer' => 'انظر [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] للمزيد من المعلومات حول جدول الإنترويكي.
 هناك [[Special:Log/interwiki|سجل بالتغييرات]] لجدول الإنترويكي.',
 	'interwiki_1' => 'نعم',
 	'interwiki_0' => 'لا',
@@ -332,7 +333,7 @@ $messages['arz'] = array(
 	'interwiki_trans_intro' => 'لو أن صياغة نص الويكى <code>{<nowiki />{prefix:<i>pagename</i>}}</code> تم استخدامها، إذا:',
 	'interwiki_trans_1_intro' => 'يسمح بالتضمين من الويكى الأجنبى، لو أن تضمينات الإنترويكى مسموح بها عموما فى هذا الويكى،',
 	'interwiki_trans_0_intro' => 'لا تسمح به، ولكن ابحث عن صفحة فى نطاق القوالب.',
-	'interwiki_intro_footer' => 'انظر [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] للمزيد من المعلومات حول جدول الإنترويكى.
+	'interwiki_intro_footer' => 'انظر [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] للمزيد من المعلومات حول جدول الإنترويكى.
 هناك [[Special:Log/interwiki|سجل بالتغييرات]] لجدول الإنترويكى.',
 	'interwiki_1' => 'نعم',
 	'interwiki_0' => 'لا',
@@ -457,7 +458,7 @@ $messages['be-tarask'] = array(
 	'interwiki_trans_intro' => 'Калі выкарыстоўваецца сынтаксіс вікі-тэксту <code>{<nowiki />{prefix:<i>назва старонкі</i>}}</code>, тады:',
 	'interwiki_trans_1_intro' => 'дазваляе трансклюзію зь іншай вікі, калі трансклюзія інтэрвікі дазволена ў гэтай вікі,',
 	'interwiki_trans_0_intro' => 'не дазваляе гэта, замест шукаць старонку ў прасторы назваў шаблёнаў.',
-	'interwiki_intro_footer' => 'Для дадатковай інфармацыі пра табліцу інтэрвікі глядзіце [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org].
+	'interwiki_intro_footer' => 'Для дадатковай інфармацыі пра табліцу інтэрвікі глядзіце [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org].
 Тут знаходзіцца [[Special:Log/interwiki|журнал зьменаў]] табліцы інтэрвікі.',
 	'interwiki_1' => 'так',
 	'interwiki_0' => 'не',
@@ -566,7 +567,7 @@ $messages['br'] = array(
 	'interwiki_trans_intro' => 'Ma vez implijet an ereadur wikitestenn <code>{<nowiki />{prefix:<i>anv ar bajenn</i>}}</code>, neuze :',
 	'interwiki_trans_1_intro' => 'Aotren an treuzkludañ adalek ar wiki estren, ma vez aotreet treuzkludañ er wiki-mañ dre-vras,',
 	'interwiki_trans_0_intro' => "na aotren an treuzkludañ, kentoc'h klask ur bajenn en esaouenn anv ar patrom.",
-	'interwiki_intro_footer' => "Gwelet [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] evit gouzout hiroc'h diwar-benn taolenn an etrewiki.
+	'interwiki_intro_footer' => "Gwelet [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] evit gouzout hiroc'h diwar-benn taolenn an etrewiki.
 Ur [[Special:Log/interwiki|marilh ar c'hemmoù]] zo e taolenn an etrewiki.",
 	'interwiki_1' => 'ya',
 	'interwiki_0' => 'ket',
@@ -625,7 +626,7 @@ $messages['bs'] = array(
 	'interwiki_trans_intro' => 'Ako se koristi wikitekst sintaksa <code>{<nowiki />{prefix:<i>pagename</i>}}</code>, onda:',
 	'interwiki_trans_1_intro' => 'dopuštena uključenja iz inostrane wiki, ako su međuwiki uključenja općenito dopuštena u ovoj wiki,',
 	'interwiki_trans_0_intro' => 'nisu dopuštena, radije treba tražiti stranice u imenskom prostoru šablona.',
-	'interwiki_intro_footer' => 'Pogledaje [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] za više informacija o interwiki tabeli.
+	'interwiki_intro_footer' => 'Pogledaje [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] za više informacija o interwiki tabeli.
 Postoji [[Special:Log/interwiki|zapisnik izmjena]] na interwiki tabeli.',
 	'interwiki_1' => 'da',
 	'interwiki_0' => 'ne',
@@ -713,7 +714,7 @@ $messages['cs'] = array(
 	'interwiki_trans_intro' => 'Při použití syntaxe wikitextu <code>{<nowiki />{prefix:<i>stránka</i>}}</code>:',
 	'interwiki_trans_1_intro' => 'umožnit vložení z druhé wiki, pokud je interwiki transkluze na této wiki obecně povolena,',
 	'interwiki_trans_0_intro' => 'to nedovolit, místo toho použít stránku ve jmenném prostoru šablon.',
-	'interwiki_intro_footer' => 'Více informací o tabulce interwiki najdete na [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org].
+	'interwiki_intro_footer' => 'Více informací o tabulce interwiki najdete na [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org].
 Existuje také [[Special:Log/interwiki|protokol změn]] tabulky interwiki.',
 	'interwiki_1' => 'ano',
 	'interwiki_0' => 'ne',
@@ -766,7 +767,7 @@ $messages['cy'] = array(
 	'interwiki-local-label' => 'Anfon ymlaen:',
 	'interwiki_trans' => 'Trawsgynnwys',
 	'interwiki-trans-label' => 'Trawsgynnwys:',
-	'interwiki_intro_footer' => "Cewch ragor o wybodaeth am y tabl rhyngwici ar [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org].
+	'interwiki_intro_footer' => "Cewch ragor o wybodaeth am y tabl rhyngwici ar [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org].
 Cofnodir newidiadau i'r tabl rhyngwici ar y [[Special:Log/interwiki|lòg newidiadau]].",
 	'interwiki_1' => 'gellir',
 	'interwiki_0' => 'ni ellir',
@@ -843,7 +844,7 @@ Die Daten in den einzelnen Spalten haben die folgende Bedeutung:',
 	'interwiki_trans_intro' => 'Wenn Vorlagensyntax <code>{<nowiki />{präfix:<i>Seitenname</i>}}</code> verwendet wird, dann:',
 	'interwiki_trans_1_intro' => 'erlaube Einbindungen von fremden Wikis, sofern Einbindungen in diesem Wiki allgemein zulässig sind,',
 	'interwiki_trans_0_intro' => 'erlaube es nicht, und nimm eine Seite aus dem Vorlagennamensraum.',
-	'interwiki_intro_footer' => 'Siehe [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] für weitere Informationen zur Interwikitabelle. Das [[Special:Log/interwiki|Logbuch]] zeigt ein Protokoll aller Änderungen an der Interwikitabelle.',
+	'interwiki_intro_footer' => 'Siehe [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] für weitere Informationen zur Interwikitabelle. Das [[Special:Log/interwiki|Logbuch]] zeigt ein Protokoll aller Änderungen an der Interwikitabelle.',
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nein',
 	'interwiki_error' => 'Fehler: Die Interwikitabelle ist leer.',
@@ -865,6 +866,7 @@ Beachte, dass dies bereits vorhandene Links ungültig machen kann.',
 	'interwiki_editerror' => 'Das Präfix „$1“ kann in der Interwikitabelle nicht geändert werden.
 Möglicherweise ist es nicht vorhanden.',
 	'interwiki-badprefix' => 'Das festgelegte Interwikipräfix „$1“ beinhaltet ungültige Zeichen.',
+	'interwiki-submit-empty' => 'Das Präfix und die URL dürfen nicht leer sein.',
 	'interwiki_logpagename' => 'Interwikitabelle-Logbuch',
 	'interwiki_log_added' => 'hat „$2“ ($3) (trans: $4) (lokal: $5) der Interwikitabelle hinzugefügt',
 	'interwiki_log_edited' => 'veränderte Präfix „$2“: ($3) (trans: $4) (lokal: $5) in der Interwikitabelle',
@@ -907,7 +909,7 @@ $messages['dsb'] = array(
 	'interwiki_trans_intro' => 'Jolic se wikitekstowa syntaksa <code>{<nowiki />{prefix:<i>pagename</i>}}</code> wužywa, ga:',
 	'interwiki_trans_1_intro' => 'zapśěgnjenje z cuzego wikija dowóliś, jolic zapśěgnjenja interwiki su powšyknje w toś tom wikiju dopušćone,',
 	'interwiki_trans_0_intro' => 'jo njedowóliś, lubjej wuwoglěduj se za bokom w mjenjowem rumje Pśedłoga',
-	'interwiki_intro_footer' => 'Glědaj [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] za dalšne informacije wó tabeli interwikijow.
+	'interwiki_intro_footer' => 'Glědaj [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] za dalšne informacije wó tabeli interwikijow.
 Jo [[Special:Log/interwiki|protokol změnow]] tabele interwikijow.',
 	'interwiki_1' => 'jo',
 	'interwiki_0' => 'ně',
@@ -1058,7 +1060,7 @@ $messages['es'] = array(
 	'interwiki_trans_intro' => 'Si se utiliza la sintaxis de wikitexto <code>{<nowiki />{prefix:<i>pagename</i>}}</code>, entonces:',
 	'interwiki_trans_1_intro' => 'permitir la transclusión desde la wiki foránea, si las transclusiones de interwiki son por lo general permitidas en esta wiki,',
 	'interwiki_trans_0_intro' => 'no permitirlo. En su lugar, buscar una página en el espacio de nombre de la plantilla.',
-	'interwiki_intro_footer' => 'Para más información consulte [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] acerca de la tabla de interwiki.
+	'interwiki_intro_footer' => 'Para más información consulte [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] acerca de la tabla de interwiki.
 Hay un [[Special:Log/interwiki|registro de cambios]] a esta tabla de interwiki.',
 	'interwiki_1' => 'Sí',
 	'interwiki_0' => 'no',
@@ -1241,7 +1243,7 @@ $messages['fr'] = array(
 	'interwiki_trans_intro' => 'Si la syntaxe <code>{<nowiki />{préfixe:<i>nom de la page</i>}}</code> est utilisée, alors :',
 	'interwiki_trans_1_intro' => "l'inclusion à partir du wiki sera autorisée, si les inclusion interwiki sont autorisées dans ce wiki,",
 	'interwiki_trans_0_intro' => "l'inclusion sera rejetée, et la page correspondante sera recherchée dans l'espace de noms « Modèle ».",
-	'interwiki_intro_footer' => "Voyez [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] pour obtenir plus d'informations en ce qui concerne la table interwiki.
+	'interwiki_intro_footer' => "Voyez [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] pour obtenir plus d'informations en ce qui concerne la table interwiki.
 Il existe un [[Special:Log/interwiki|journal des modifications]] de la table interwiki.",
 	'interwiki_1' => 'oui',
 	'interwiki_0' => 'non',
@@ -1331,7 +1333,7 @@ $messages['gl'] = array(
 	'interwiki_trans_intro' => 'Se a sintaxe do texto wiki <code>{<nowiki />{prefixo:<i>nome da páxina</i>}}</code> é usado, entón:',
 	'interwiki_trans_1_intro' => 'permitir as transclusións a partir do wiki estranxeiro, se estas transclusións interwiki están xeralmente permitidas neste wiki,',
 	'interwiki_trans_0_intro' => 'non permitilas, e procurar a páxina no espazo de nomes Modelo.',
-	'interwiki_intro_footer' => 'Consulte [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] para obter máis información acerca da táboa interwiki.
+	'interwiki_intro_footer' => 'Consulte [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] para obter máis información acerca da táboa interwiki.
 Ademais, existe un [[Special:Log/interwiki|rexistro dos cambios]] realizados á táboa interwiki.',
 	'interwiki_1' => 'si',
 	'interwiki_0' => 'non',
@@ -1430,7 +1432,7 @@ $messages['gsw'] = array(
 	'interwiki_trans_intro' => 'Wänn Vorlagesyntax <code>{<nowiki />{präfix:<i>Sytename</i>}}</code> bruucht wird, derno:',
 	'interwiki_trans_1_intro' => 'erlaub Yybindige vu andere Wiki, wänn Interwiki-Yybindigen in däm Wiki allgmein zuelässig sin,',
 	'interwiki_trans_0_intro' => 'erlaub s nit, un nimm e Syte us em Vorlagenamensruum.',
-	'interwiki_intro_footer' => 'Lueg [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] fir meh Informationen iber d Interwiki-Tabälle. S [[Special:Log/interwiki|Logbuech]] zeigt e Protokoll vu allene Änderigen an dr Interwiki-Tabälle.',
+	'interwiki_intro_footer' => 'Lueg [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] fir meh Informationen iber d Interwiki-Tabälle. S [[Special:Log/interwiki|Logbuech]] zeigt e Protokoll vu allene Änderigen an dr Interwiki-Tabälle.',
 	'interwiki_1' => 'jo',
 	'interwiki_0' => 'nei',
 	'interwiki_error' => 'Fähler: D Interwiki-Tabälle isch läär.',
@@ -1516,7 +1518,7 @@ $messages['he'] = array(
 	'interwiki_trans_intro' => 'אם נעשה שימוש בתחביר <code>{<nowiki />{prefix:<i>שם_הדף</i>}}</code>,אז:',
 	'interwiki_trans_1_intro' => 'תינתן האפשרות להכללת מקטעים חיצוניים מאתר ויקי זר, אם הכללות מקטעי ויקי חיצוניים מורשים באופן כללי באתר ויקי זה,',
 	'interwiki_trans_0_intro' => 'אין לאפשר זאת, במקום זאת יש לחפש דף במרחב השם תבנית.',
-	'interwiki_intro_footer' => 'עיינו ב־[http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] למידע נוסף אודות טבלת הבינוויקי.
+	'interwiki_intro_footer' => 'עיינו ב־[http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] למידע נוסף אודות טבלת הבינוויקי.
 ישנו [[Special:Log/interwiki|יומן שינויים]] לטבלת הבינוויקי.',
 	'interwiki_1' => 'כן',
 	'interwiki_0' => 'לא',
@@ -1659,7 +1661,7 @@ $messages['hsb'] = array(
 	'interwiki_trans_intro' => 'Jeli je so wikijowa syntaksa <code>{<nowiki />{prefix:<i>pagename</i>}}</code> wužiwa, to:',
 	'interwiki_trans_1_intro' => 'Zapřijeće z cuzeho wikija dowolić, jeli zapřijeća interwiki so powšitkownje w tutym wikiju dopušćeja,',
 	'interwiki_trans_0_intro' => 'je njedowolić, pohladaj skerje za stronu w mjenowym rumje Předłoha',
-	'interwiki_intro_footer' => 'Hlej [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] za dalše informacije wo tabeli interwikijow.
+	'interwiki_intro_footer' => 'Hlej [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] za dalše informacije wo tabeli interwikijow.
 Je [[Special:Log/interwiki|protokol změnow]] tabele interwikijow.',
 	'interwiki_1' => 'haj',
 	'interwiki_0' => 'ně',
@@ -1754,7 +1756,7 @@ $messages['hu'] = array(
 	'interwiki_trans_intro' => 'Ha az <code>{<nowiki />{előtag:<i>lapnév</i>}}</code> wikiszöveg szintaxist használjuk, akkor:',
 	'interwiki_trans_1_intro' => 'engedd a beillesztést az idegen wikiről, ha a wikiközi beillesztések általában megengedettek ezen a wikin,',
 	'interwiki_trans_0_intro' => 'ne engedd, inkább keress egy lapot a sablon névtérben.',
-	'interwiki_intro_footer' => 'Az interwiki táblázattal kapcsolatos további információkért lásd a [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]-on.
+	'interwiki_intro_footer' => 'Az interwiki táblázattal kapcsolatos további információkért lásd a [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org]-on.
 A táblázat változásait [[Special:Log/interwiki|a naplóban megnézheted]].',
 	'interwiki_1' => 'igen',
 	'interwiki_0' => 'nem',
@@ -1809,7 +1811,7 @@ $messages['ia'] = array(
 	'interwiki_trans_intro' => 'Si le syntaxe de wikitexto <code>{<nowiki />{prefixo:<i>nomine de pagina</i>}}</code> es usate, alora:',
 	'interwiki_trans_1_intro' => 'permitte le transclusion ab le wiki externe, si le transclusiones interwiki es generalmente permittite in iste wiki,',
 	'interwiki_trans_0_intro' => 'non permitte lo, ma cerca un pagina in le spatio de nomines "Patrono".',
-	'interwiki_intro_footer' => 'Vide [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] pro plus informationes super le tabella interwiki.
+	'interwiki_intro_footer' => 'Vide [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] pro plus informationes super le tabella interwiki.
 Existe un [[Special:Log/interwiki|registro de modificationes]] al tabella interwiki.',
 	'interwiki_1' => 'si',
 	'interwiki_0' => 'no',
@@ -1868,7 +1870,7 @@ $messages['id'] = array(
 	'interwiki_trans_intro' => 'Jika sintak tekswiki <code>{<nowiki />{prefix:<i>pagename</i>}}</code> digunakan, maka:',
 	'interwiki_trans_1_intro' => 'memperbolehkan transklusi dari wiki lain, jika transklusi interwiki diizinkan di wiki ini,',
 	'interwiki_trans_0_intro' => 'tidak mengizinkan hal itu, lebih baik mencari halaman pada ruang nama templat.',
-	'interwiki_intro_footer' => 'Lihat [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] untuk informasi lebih lanjut tentang tabel interwiki.
+	'interwiki_intro_footer' => 'Lihat [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] untuk informasi lebih lanjut tentang tabel interwiki.
 Ada [[Special:Log/interwiki|log perubahan]] ke tabel interwiki.',
 	'interwiki_1' => 'ya',
 	'interwiki_0' => 'tidak',
@@ -1950,7 +1952,7 @@ $messages['it'] = array(
 	'interwiki_trans_intro' => 'Se la sintassi <code>{<nowiki />{prefisso:<i>nomepagina</i>}}</code> è usata, allora:',
 	'interwiki_trans_1_intro' => "permette l'inclusione da siti esterni, se le inclusioni interwiki sono generalmente permesse in questo sito,",
 	'interwiki_trans_0_intro' => 'non la permette, invece cerca una pagina nel namespace template.',
-	'interwiki_intro_footer' => 'Consultare [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] per maggiori informazioni sulle tabelle degli interwiki. Esiste un [[Special:Log/interwiki|registro delle modifiche]] alla tabella degli interwiki.',
+	'interwiki_intro_footer' => 'Consultare [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] per maggiori informazioni sulle tabelle degli interwiki. Esiste un [[Special:Log/interwiki|registro delle modifiche]] alla tabella degli interwiki.',
 	'interwiki_1' => 'sì',
 	'interwiki_0' => 'no',
 	'interwiki_error' => "ERRORE: La tabella degli interwiki è vuota, o c'è qualche altro errore.",
@@ -2009,7 +2011,7 @@ $messages['ja'] = array(
 	'interwiki_trans_intro' => '<code>{<nowiki />{接頭辞:<i>ページ名</i>}}</code> というウィキテキストの構文が使われた場合、',
 	'interwiki_trans_1_intro' => 'ウィキ間トランスクルージョンがこのウィキで（一般的に）許可されているならば、この外部ウィキからのトランスクルージョンを許可します。',
 	'interwiki_trans_0_intro' => '許可せず、テンプレート名前空間でページを探します。',
-	'interwiki_intro_footer' => 'インターウィキテーブルについて、より詳しくは [http://www.mediawiki.org/wiki/Interwiki_table/ja MediaWiki.org] を参照してください。また、インターウィキテーブルの[[Special:Log/interwiki|変更記録]]があります。',
+	'interwiki_intro_footer' => 'インターウィキテーブルについて、より詳しくは [http://www.mediawiki.org/wiki/Manual:Interwiki_table/ja MediaWiki.org] を参照してください。また、インターウィキテーブルの[[Special:Log/interwiki|変更記録]]があります。',
 	'interwiki_1' => 'はい',
 	'interwiki_0' => 'いいえ',
 	'interwiki_error' => 'エラー: インターウィキテーブルが空か、他の理由でうまくいきませんでした。',
@@ -2158,7 +2160,7 @@ $messages['ko'] = array(
 	'interwiki-local-label' => '전달',
 	'interwiki_trans' => '인터위키 포함',
 	'interwiki-trans-label' => '인터위키 포함:',
-	'interwiki_intro_footer' => '인터위키 테이블에 대한 자세한 내용을 [http://www.mediawiki.org/wiki/Interwiki_table/ko MediaWiki.org]에서 보세요
+	'interwiki_intro_footer' => '인터위키 테이블에 대한 자세한 내용을 [http://www.mediawiki.org/wiki/Manual:Interwiki_table/ko MediaWiki.org]에서 보세요
 인터위키 테이블의 [[Special:Log/interwiki|바뀜 기록]]이 존재합니다.',
 	'interwiki_1' => '예',
 	'interwiki_0' => '아니오',
@@ -2213,7 +2215,7 @@ De Daate en de einzel Shpallde bedügge:',
 	'interwiki_trans_intro' => 'Wann em Wikitex en ener Sigg de Syntax <code>{<nowiki />{<i>{{lc:{{int:Interwiki_prefix}}}}</i>:<i>Siggename</i>}}</code> jebruch weed, dann:',
 	'interwiki_trans_1_intro' => 'lohß et zoh — wann dat en hee dämm Wiki övverhoup zohjelohße es — dat en Sigg uß däm andere Wiki hee enjeföösh weed,',
 	'interwiki_trans_0_intro' => 'dunn dat nit, un sök hee em Wiki noh ene {{ns:template}} met dämm komplätte Name.',
-	'interwiki_intro_footer' => 'Op dä Sigg [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] fingk mer mieh do dröver, wat et met dä Tabäll met de Engerwiki Date op sich hät.
+	'interwiki_intro_footer' => 'Op dä Sigg [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] fingk mer mieh do dröver, wat et met dä Tabäll met de Engerwiki Date op sich hät.
 Et [[Special:Log/interwiki|{{int:interwiki_logpagename}}]] zeichnet all de Änderunge aan de Engerwiki Date op.',
 	'interwiki_1' => 'Jo',
 	'interwiki_0' => 'Nä',
@@ -2317,7 +2319,7 @@ D'Bedeitung vun den Informatiounen an de Kolonnen:",
 	'interwiki_trans_intro' => "Wann d'Wiki-Syntax <code>{<nowiki />{prefix:<i>Numm vun der Säit</i>}}</code> benotzt gëtt, dann:",
 	'interwiki_trans_1_intro' => "erlaabt Abannunge vun anere Wikien, wann d'Interwiki-Abannungen an dëser Wiki allgemeng zoulässeg sinn,",
 	'interwiki_trans_0_intro' => 'erlaabt et net, an huelt éischter eng Säit aus dem Nummraum:Schabloun.',
-	'interwiki_intro_footer' => "Kuckt [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org], fir weider Informatiounen iwwer d'Interwiki-Tabell ze kréien. D'[[Special:Log/interwiki|Logbuch]] weist e Protokoll vun allen Ännerungen an der Interwiki-Tabell.",
+	'interwiki_intro_footer' => "Kuckt [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org], fir weider Informatiounen iwwer d'Interwiki-Tabell ze kréien. D'[[Special:Log/interwiki|Logbuch]] weist e Protokoll vun allen Ännerungen an der Interwiki-Tabell.",
 	'interwiki_1' => 'jo',
 	'interwiki_0' => 'neen',
 	'interwiki_error' => "Feeler: D'Interwiki-Tabell ass eidel.",
@@ -2457,7 +2459,7 @@ $messages['mk'] = array(
 	'interwiki_trans_intro' => 'Ако се користи викитекст-синтаксата <code>{<nowiki />{префикс:<i>име на страница</i>}}</code>, тогаш:',
 	'interwiki_trans_1_intro' => 'дозволи превметнување од други викија, ако тоа е начелно дозволено на ова вики,',
 	'interwiki_trans_0_intro' => 'не дозволувај, туку барај страница во шаблонскиот именски простор.',
-	'interwiki_intro_footer' => 'Погледајте ја страницата [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] за повеќе информации за интервики-табелата.
+	'interwiki_intro_footer' => 'Погледајте ја страницата [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] за повеќе информации за интервики-табелата.
 Постои [[Special:Log/interwiki|дневник на промени]] во интервики-табелата.',
 	'interwiki_1' => 'да',
 	'interwiki_0' => 'не',
@@ -2674,7 +2676,7 @@ Betekenis van de gegevens en kolommen:',
 	'interwiki_trans_intro' => 'Indien de wikitextsyntaxis <code>{<nowiki />{voorvoegsel:<i>paginanaam</i>}}</code> gebruikt wordt, dan:',
 	'interwiki_trans_1_intro' => 'transclusie toestaan van de andere wiki indien interwikitransclusies toegestaan zijn in deze wiki.',
 	'interwiki_trans_0_intro' => 'niet toestaan, zoeken naar een pagina in de sjabloonnaamruimte.',
-	'interwiki_intro_footer' => 'Zie [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] voor meer informatie over de interwikitabel.
+	'interwiki_intro_footer' => 'Zie [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] voor meer informatie over de interwikitabel.
 Er is een [[Special:Log/interwiki|veranderingslogboek]] voor de interwikitabel.',
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nee',
@@ -2696,9 +2698,9 @@ Er is een [[Special:Log/interwiki|veranderingslogboek]] voor de interwikitabel.'
 	'interwiki_editerror' => 'Voorvoegsel "$1" kan niet worden gewijzigd in de interwikitabel. Mogelijk bestaat hij niet.',
 	'interwiki-badprefix' => 'Het interwikivoorvoegsel "$1" bevat ongeldige karakters',
 	'interwiki_logpagename' => 'Logboek interwikitabel',
-	'interwiki_log_added' => 'Voegde "$2" ($3) (trans: $4) (local: $5) toe aan de interwikitabel',
+	'interwiki_log_added' => 'voegde "$2" ($3) (trans: $4) (local: $5) toe aan de interwikitabel',
 	'interwiki_log_edited' => 'wijzigde voorvoegsel "$2": ($3) (trans: $4) (local: $5) in de interwikitabel',
-	'interwiki_log_deleted' => 'Verwijderde voorvoegsel "$2" van de interwikitabel',
+	'interwiki_log_deleted' => 'verwijderde voorvoegsel "$2" van de interwikitabel',
 	'interwiki_logpagetext' => 'Dit is een logboek van wijzigingen aan de [[Special:Interwiki|interwikitabel]].',
 	'right-interwiki' => 'Interwikigegevens bewerken',
 	'action-interwiki' => 'deze interwikiverwijzing te wijzigen',
@@ -2729,7 +2731,7 @@ $messages['nn'] = array(
 	'interwiki_trans_intro' => 'Om wikitekstsyntakset <code>{<nowiki />{prefix:<i>pagename</i>}}</code> er nytta, so:',
 	'interwiki_trans_1_intro' => 'tillat inkludering frå ein framand wiki, om interwikiinkluderingar generelt sett er tillatne på denne wikien,',
 	'interwiki_trans_0_intro' => 'ikkje tillat det, sjå heller etter ei sida i malnamnerommet.',
-	'interwiki_intro_footer' => 'Sjå [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] for meir informasjon om interwikitabellen.
+	'interwiki_intro_footer' => 'Sjå [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] for meir informasjon om interwikitabellen.
 Det finst ein [[Special:Log/interwiki|logg over endringar]] i interwikitabellen.',
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nei',
@@ -2787,7 +2789,7 @@ $messages['no'] = array(
 	'interwiki_trans_intro' => 'Dersom wikisyntaksen <code>{<nowiki />{prefiks:<i>sidenavn</i>}}</code> blir brukt, så:',
 	'interwiki_trans_1_intro' => 'tillat transklusjon fra en fremmed wiki, om interwikitranskluderinger generellt er tillatt på denne wikien,',
 	'interwiki_trans_0_intro' => 'ikke tillat det, se heller etter en side i malnavnerommet.',
-	'interwiki_intro_footer' => 'Se [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] for mer informasjon om interwikitabellen.
+	'interwiki_intro_footer' => 'Se [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] for mer informasjon om interwikitabellen.
 Det finnes en [[Special:Log/interwiki|endringslogg]] for interwikitabellen.',
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nei',
@@ -2855,7 +2857,7 @@ $messages['oc'] = array(
 	'interwiki_trans_intro' => 'Se la sintaxi <code>{<nowiki />{prefix :<i>nom de la pagina</i>}}</code> es utilizada, alara :',
 	'interwiki_trans_1_intro' => "l'inclusion a partir del wiki serà autorizada, se las inclusions interwiki son autorizadas dins aqueste wiki,",
 	'interwiki_trans_0_intro' => "l'inclusion serà regetada, e la pagina correspondenta serà recercada dins l'espaci de noms « Modèl ».",
-	'interwiki_intro_footer' => "Vejatz [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] per obténer mai d'entresenhas a prepaus de la taula interwiki.
+	'interwiki_intro_footer' => "Vejatz [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] per obténer mai d'entresenhas a prepaus de la taula interwiki.
 Existís un [[Special:Log/interwiki|jornal de las modificacions]] de la taula interwiki.",
 	'interwiki_1' => 'òc',
 	'interwiki_0' => 'non',
@@ -2937,7 +2939,7 @@ $messages['pl'] = array(
 	'interwiki_trans_intro' => 'Jeśli składnia wiki <code>{<nowiki />{przedrostek:<i>nazwastrony</i>}}</code> została użyta, to:',
 	'interwiki_trans_1_intro' => 'pozwala na transkluzję z innych wiki, jeśli transkluzja interwiki jest w ogóle dozwolona na tej wiki,',
 	'interwiki_trans_0_intro' => 'nie pozwalaj na nią, raczej szukaj strony w przestrzeni szablonów.',
-	'interwiki_intro_footer' => 'Na [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] odnajdziesz więcej informacji na temat tabeli interwiki.
+	'interwiki_intro_footer' => 'Na [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] odnajdziesz więcej informacji na temat tabeli interwiki.
 Tutaj znajduje się [[Special:Log/interwiki|rejestr zmian]] tabeli interwiki.',
 	'interwiki_1' => 'tak',
 	'interwiki_0' => 'nie',
@@ -2992,7 +2994,7 @@ $messages['pms'] = array(
 	'interwiki_trans_intro' => "Se la sintassi wikitest <code>{<nowiki />{prefix:<i>nòmpàgina</i>}}</code> a l'é dovrà, antlora:",
 	'interwiki_trans_1_intro' => "a përmet anseriment da la wiki strangera, se j'anseriment antërwiki a son generalment përmëttù an sta wiki-sì,",
 	'interwiki_trans_0_intro' => 'a përmet pa lòn, nopà a sërca na pàgina ant lë spassi nominal dlë stamp.',
-	'interwiki_intro_footer' => 'Varda [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] për savèjne ëd pi an sla tàula antërwiki.
+	'interwiki_intro_footer' => 'Varda [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] për savèjne ëd pi an sla tàula antërwiki.
 A-i é un [[Special:Log/interwiki|registr dij cambi]] për la tàula antërwiki.',
 	'interwiki_1' => 'é!',
 	'interwiki_0' => 'nò',
@@ -3082,7 +3084,7 @@ $messages['pt'] = array(
 	'interwiki_trans_intro' => 'Se for usada a sintaxe de texto wiki <code>{<nowiki />{prefix:<i>nome_página</i>}}</code>, então:',
 	'interwiki_trans_1_intro' => 'permite transclusão da wiki externa, se transclusões interwikis forem permitidas de forma geral nesta wiki,',
 	'interwiki_trans_0_intro' => 'não o permite; ao invés, procura uma página no espaço nominal de predefinições.',
-	'interwiki_intro_footer' => 'Veja [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] para mais informações sobre a tabela de interwikis.
+	'interwiki_intro_footer' => 'Veja [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] para mais informações sobre a tabela de interwikis.
 Existe um [[Special:Log/interwiki|registo de modificações]] à tabela de interwikis.',
 	'interwiki_1' => 'sim',
 	'interwiki_0' => 'não',
@@ -3137,7 +3139,7 @@ $messages['pt-br'] = array(
 	'interwiki_trans_intro' => 'Se a sintaxe de wikitexto <code>{<nowiki />{prefix:<i>nome_página</i>}}</code> for usada, então:',
 	'interwiki_trans_1_intro' => 'permite transclusão do wiki externo, se transclusões interwiki forem permitidas de forma geral neste wiki,',
 	'interwiki_trans_0_intro' => 'não o permite; ao invés, procura uma página no espaço nominal de predefinições.',
-	'interwiki_intro_footer' => 'Veja [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] para mais informações sobre a tabela de interwikis.
+	'interwiki_intro_footer' => 'Veja [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] para mais informações sobre a tabela de interwikis.
 Existe um [[Special:Log/interwiki|registro de modificações]] à tabela de interwikis.',
 	'interwiki_1' => 'sim',
 	'interwiki_0' => 'não',
@@ -3228,7 +3230,7 @@ $messages['ru'] = array(
 	'interwiki_trans_intro' => 'Если используется синтаксис вики-текста вида <code>{<nowiki />{приставка:<i>название страницы</i>}}</code>:',
 	'interwiki_trans_1_intro' => 'позволяет включения из других вики, если интервики-включения разрешены в этой вики,',
 	'interwiki_trans_0_intro' => 'включения не разрешены, ищется страница в пространстве имён шаблонов.',
-	'interwiki_intro_footer' => 'Более подробную информацию о таблице интервики можно найти на [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org].
+	'interwiki_intro_footer' => 'Более подробную информацию о таблице интервики можно найти на [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org].
 Существует [[Special:Log/interwiki|журнал изменений]] таблицы интервики.',
 	'interwiki_1' => 'да',
 	'interwiki_0' => 'нет',
@@ -3395,7 +3397,7 @@ $messages['sk'] = array(
 	'interwiki_trans_intro' => 'Ak je použitá syntax wikitextu <code>{<nowiki />{predpona:<i>názov_stránky</i>}}</code>,',
 	'interwiki_trans_1_intro' => 'povoliť transklúzie z cudzej wiki ak sú na tejto wiki všeobecne povolené transklúzie interwiki,',
 	'interwiki_trans_0_intro' => 'nepovoliť ju, namiesto toho hľadať stránku v mennom priestore šablón.',
-	'interwiki_intro_footer' => 'Ďalšie informácie o tabuľke interwiki nájdete na [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org].
+	'interwiki_intro_footer' => 'Ďalšie informácie o tabuľke interwiki nájdete na [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org].
 Obsahuje [[Special:Log/interwiki|záznam zmien]] tabuľky interwiki.',
 	'interwiki_1' => 'áno',
 	'interwiki_0' => 'nie',
@@ -3614,7 +3616,7 @@ $messages['sv'] = array(
 	'interwiki_local_intro' => 'En HTTP-förfrågan till den lokala wikin med denna interwiki-prefix i webbadressen är:',
 	'interwiki_trans' => 'Transkludera',
 	'interwiki-trans-label' => 'Transkludera:',
-	'interwiki_intro_footer' => 'Se [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] för mer information om interwikitabellen.
+	'interwiki_intro_footer' => 'Se [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] för mer information om interwikitabellen.
 Det finns en [[Special:Log/interwiki|logg över ändringar]] i interwikitabellen.',
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nej',
@@ -3681,7 +3683,7 @@ $messages['te'] = array(
 	'interwiki-prefix-label' => 'ఉపసర్గ:',
 	'interwiki_local' => 'ముందుకు',
 	'interwiki-local-label' => 'ముందుకు:',
-	'interwiki_intro_footer' => 'అంతర్వికీ పట్టిక గురించిన మరింత సమాచారాన్ని [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]లో చూడండి.
+	'interwiki_intro_footer' => 'అంతర్వికీ పట్టిక గురించిన మరింత సమాచారాన్ని [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org]లో చూడండి.
 అంతర్వికీ పట్టికకి జరిగిన [[Special:Log/interwiki|మార్పుల యొక్క చిట్టా]] కూడా ఉంది.',
 	'interwiki_1' => 'అవును',
 	'interwiki_0' => 'కాదు',
@@ -3776,7 +3778,7 @@ $messages['tl'] = array(
 	'interwiki_trans_intro' => 'Kapag ginamit ang palaugnayang <code>{<nowiki />{prefix:<i>pagename</i>}}</code> ng teksto ng wiki, kung gayon:',
 	'interwiki_trans_1_intro' => 'pahintulutan ang paglilipat-sama mula sa dayuhang wiki, kung pangkalahatang pinapayagan sa wiking ito ang paglilipat-sama',
 	'interwiki_trans_0_intro' => 'huwag itong pahintulutan, sa halip maghanap ng isang pahinang nasa loob ng espasyo ng pangalan ng suleras.',
-	'interwiki_intro_footer' => 'Tingnan ang [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] para sa mas marami pang mga kabatiran hinggil sa tabla ng ugnayang-wiki.
+	'interwiki_intro_footer' => 'Tingnan ang [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] para sa mas marami pang mga kabatiran hinggil sa tabla ng ugnayang-wiki.
 Mayroong isang [[Special:Log/interwiki|talaan ng mga pagbabago]] sa tabla ng ugnayang-wiki.',
 	'interwiki_1' => 'oo',
 	'interwiki_0' => 'hindi',
@@ -3875,7 +3877,7 @@ $messages['uk'] = array(
 	'interwiki_trans_intro' => 'Якщо використовується синтаксис вікітексту <code>{<nowiki />{префікс:<i>назва сторінки</i>}}</code>, то:',
 	'interwiki_trans_1_intro' => 'дозволяє включення з інших вікі, якщо інтервікі-включення дозволені в цій вікі,',
 	'interwiki_trans_0_intro' => 'не дозволяє включення, натомість шукається сторінка у просторі імен шаблонів.',
-	'interwiki_intro_footer' => 'Докладніше про таблицю інтервікі можна подивитись на [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org].
+	'interwiki_intro_footer' => 'Докладніше про таблицю інтервікі можна подивитись на [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org].
 Існує також [[Special:Log/interwiki|журнал змін]] таблиці інтервікі.',
 	'interwiki_1' => 'так',
 	'interwiki_0' => 'ні',
@@ -3995,7 +3997,7 @@ $messages['vi'] = array(
 	'interwiki_trans_intro' => 'Khi nào sử dụng cú pháp wiki <code>{<nowiki />{tiền tố:<i>tên trang</i>}}</code>:',
 	'interwiki_trans_1_intro' => 'cho phép nhúng trang từ wiki bên ngoài, nếu wiki này cho phép nhúng trang liên wiki nói chung',
 	'interwiki_trans_0_intro' => 'thay vì cho phép nhúng liên wiki, tìm kiếm trang trong không gian tên bản mẫu địa phương.',
-	'interwiki_intro_footer' => 'Xem [http://www.mediawiki.org/wiki/Interwiki_table?uselang=vi MediaWiki.org] để biết thêm thông tin về bảng liên wiki.
+	'interwiki_intro_footer' => 'Xem [http://www.mediawiki.org/wiki/Manual:Interwiki_table?uselang=vi MediaWiki.org] để biết thêm thông tin về bảng liên wiki.
 Có [[Special:Log/interwiki|nhật trình các thay đổi]] tại bảng liên wiki.',
 	'interwiki_1' => 'có',
 	'interwiki_0' => 'không',
