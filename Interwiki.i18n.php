@@ -1760,8 +1760,7 @@ $messages['hu'] = array(
 	'interwiki_trans_intro' => 'Ha az <code>{<nowiki />{előtag:<i>lapnév</i>}}</code> wikiszöveg szintaxist használjuk, akkor:',
 	'interwiki_trans_1_intro' => 'engedd a beillesztést az idegen wikiről, ha a wikiközi beillesztések általában megengedettek ezen a wikin,',
 	'interwiki_trans_0_intro' => 'ne engedd, inkább keress egy lapot a sablon névtérben.',
-	'interwiki_intro_footer' => 'Az interwiki táblázattal kapcsolatos további információkért lásd a [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org]-on.
-A táblázat változásait [[Special:Log/interwiki|a naplóban megnézheted]].',
+	'interwiki_intro_footer' => 'Az interwiki-táblázattal kapcsolatban további információkat a [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org]-on olvashatsz. Az interwiki-táblázat módosításai [[Special:Log/interwiki|naplózva]] vannak.',
 	'interwiki_1' => 'igen',
 	'interwiki_0' => 'nem',
 	'interwiki_error' => 'Hiba: A wikiközi hivatkozások táblája üres, vagy valami más romlott el.',
