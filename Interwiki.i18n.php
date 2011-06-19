@@ -1839,6 +1839,7 @@ Memora que isto pote rumper ligamines existente.',
 	'interwiki_editerror' => 'Le prefixo "$1" non pote esser modificate in le tabella interwiki.
 Es possibile que illo non existe.',
 	'interwiki-badprefix' => 'Le prefixo interwiki specificate "$1" contine characteres invalide',
+	'interwiki-submit-empty' => 'Le prefixo e le URL non pote esser vacue.',
 	'interwiki_logpagename' => 'Registro del tabella interwiki',
 	'interwiki_log_added' => 'addeva le prefixo "$2" ($3) (trans: $4) (local: $5) al tabella interwiki',
 	'interwiki_log_edited' => 'modificava le prefixo "$2" : ($3) (trans: $4) (local: $5) in le tabella interwiki',
