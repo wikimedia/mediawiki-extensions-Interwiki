@@ -257,17 +257,19 @@ class SpecialInterwiki extends SpecialPage {
 		$transmessage = wfMsgHtml( 'interwiki_trans' );
 		$message_0 = wfMsgHtml( 'interwiki_0' );
 		$message_1 = wfMsgHtml( 'interwiki_1' );
+		$alignStart = 'class="mw-align-'.wfUILang()->AlignStart().'"';
+		$alignEnd = 'class="mw-align-'.wfUILang()->AlignEnd().'"';
 
 		$out = '
 <table class="mw-interwikitable wikitable intro">
-<tr><th class="mw-align-left">' . $prefixmessage . '</th><td>' . wfMsgExt( 'interwiki_prefix_intro', 'parseinline' ) . '</td></tr>
-<tr><th class="mw-align-left">' . $urlmessage . '</th><td>' . wfMsgExt( 'interwiki_url_intro', 'parseinline' ) . '</td></tr>
-<tr><th class="mw-align-left">' . $localmessage . '</th><td>' . wfMsgExt( 'interwiki_local_intro', 'parseinline' ) . '</td></tr>
-<tr><th class="mw-align-right">' . $message_0 . '</th><td>' . wfMsgExt( 'interwiki_local_0_intro', 'parseinline' ) . '</td></tr>
-<tr><th class="mw-align-right">' . $message_1 . '</th><td>' . wfMsgExt( 'interwiki_local_1_intro', 'parseinline' ) . '</td></tr>
-<tr><th class="mw-align-left">' . $transmessage . '</th><td>' . wfMsgExt( 'interwiki_trans_intro', 'parseinline' ) . '</td></tr>
-<tr><th class="mw-align-right">' . $message_1 . '</th><td>' . wfMsgExt( 'interwiki_trans_1_intro', 'parseinline' ) . '</td></tr>
-<tr><th class="mw-align-right">' . $message_0 . '</th><td>' . wfMsgExt( 'interwiki_trans_0_intro', 'parseinline' ) . '</td></tr>
+<tr><th '.$alignStart.'>' . $prefixmessage . '</th><td>' . wfMsgExt( 'interwiki_prefix_intro', 'parseinline' ) . '</td></tr>
+<tr><th '.$alignStart.'>' . $urlmessage . '</th><td>' . wfMsgExt( 'interwiki_url_intro', 'parseinline' ) . '</td></tr>
+<tr><th '.$alignStart.'>' . $localmessage . '</th><td>' . wfMsgExt( 'interwiki_local_intro', 'parseinline' ) . '</td></tr>
+<tr><th '.$alignEnd.'>' . $message_0 . '</th><td>' . wfMsgExt( 'interwiki_local_0_intro', 'parseinline' ) . '</td></tr>
+<tr><th '.$alignEnd.'>' . $message_1 . '</th><td>' . wfMsgExt( 'interwiki_local_1_intro', 'parseinline' ) . '</td></tr>
+<tr><th '.$alignStart.'>' . $transmessage . '</th><td>' . wfMsgExt( 'interwiki_trans_intro', 'parseinline' ) . '</td></tr>
+<tr><th '.$alignEnd.'>' . $message_1 . '</th><td>' . wfMsgExt( 'interwiki_trans_1_intro', 'parseinline' ) . '</td></tr>
+<tr><th '.$alignEnd.'>' . $message_0 . '</th><td>' . wfMsgExt( 'interwiki_trans_0_intro', 'parseinline' ) . '</td></tr>
 </table>
 ';
 		$wgOut->addWikiMsg( 'interwiki_intro' );

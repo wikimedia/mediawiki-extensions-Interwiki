@@ -23,3 +23,6 @@ table.mw-interwikitable.body td.mw-interwikitable-trans,
 table.mw-interwikitable.body td.mw-interwikitable-modify {
 	text-align: center;
 }
+.mw-interwikitable-url {
+	text-align: left;
+}
