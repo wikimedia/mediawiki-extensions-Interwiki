@@ -77,7 +77,9 @@ class SpecialInterwiki extends SpecialPage {
 	}
 
 	function showForm( $action ) {
-		global $wgRequest, $wgUser, $wgOut;
+		global $wgRequest, $wgUser, $wgOut, $wgScriptPath;
+
+		$wgOut->addExtensionStyle( "{$wgScriptPath}/extensions/Interwiki/Interwiki.css" );
 
 		$actionUrl = $this->getTitle()->getLocalURL( 'action=submit' );
 		$token = $wgUser->editToken();

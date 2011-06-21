@@ -26,3 +26,7 @@ table.mw-interwikitable.body td.mw-interwikitable-modify {
 .mw-interwikitable-url {
 	text-align: left;
 }
+input#mw-interwiki-url  {
+	text-align: left;
+	direction: ltr;
+}
