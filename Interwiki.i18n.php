@@ -2347,6 +2347,7 @@ Denkt drun, datt dat kann dozou féieren datt Linken déi et scho gëtt net méi
 	'interwiki_editerror' => 'De Prefix "$1" kann an der Interwiki-Tabell net geännert ginn.
 Méiglecherweis gëtt et en net.',
 	'interwiki-badprefix' => 'Den Interwiki-Prefix "$1" huet net valabel Buchstawen',
+	'interwiki-submit-empty' => "De Prefix an d'URL kënnen net eidel sinn.",
 	'interwiki_logpagename' => 'Lëscht mat der Interwikitabell',
 	'interwiki_log_added' => 'huet de Prefix "$2" ($3) (trans: $4) (lokal: $5) an d\'Interwiki-Tabell derbäigesat',
 	'interwiki_log_edited' => 'huet de Prefix "$2": ($3) (trans: $4) (lokal: $5) an der Interwiki-Tabell geännert',
