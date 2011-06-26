@@ -1926,7 +1926,11 @@ $messages['io'] = array(
  * @author S.Örvarr.S
  */
 $messages['is'] = array(
+	'interwiki_1' => 'já',
+	'interwiki_0' => 'nei',
+	'interwiki_edit' => 'Breyta',
 	'interwiki_reasonfield' => 'Ástæða:',
+	'interwiki_addbutton' => 'Bæta við',
 );
 
 /** Italian (Italiano)
