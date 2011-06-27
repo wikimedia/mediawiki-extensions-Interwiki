@@ -827,8 +827,8 @@ Husk at det ikke kan indeholde mellemrum ( ), kolon (:), &-tegn eller lighedsteg
  * @author Umherirrender
  */
 $messages['de'] = array(
-	'interwiki' => 'Interwikidaten betrachten und bearbeiten',
-	'interwiki-title-norights' => 'Interwikidaten betrachten',
+	'interwiki' => 'Interwikidaten ansehen und bearbeiten',
+	'interwiki-title-norights' => 'Interwikidaten ansehen',
 	'interwiki-desc' => 'Ergänzt eine [[Special:Interwiki|Spezialseite]] zur Pflege der Interwikitabelle',
 	'interwiki_intro' => 'Dies ist ein Überblick des Inhalts der Interwikitabelle.
 Die Daten in den einzelnen Spalten haben die folgende Bedeutung:',
