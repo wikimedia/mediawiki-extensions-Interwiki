@@ -663,18 +663,64 @@ Moguće je da uopće ne postoji.',
 );
 
 /** Catalan (Català)
+ * @author BroOk
  * @author Paucabot
  * @author SMP
  * @author Solde
  * @author Ssola
  */
 $messages['ca'] = array(
+	'interwiki' => 'Veure i editar dades interwiki',
+	'interwiki-title-norights' => 'Veure dades interwiki',
+	'interwiki-desc' => 'Afegeix una [[Special:Interwiki|pàgina especial]] per veure i editar la taula interwiki',
+	'interwiki_intro' => 'Aquesta és una visió general de la taula de interwiki. Significats de les dades a les columnes:',
+	'interwiki_prefix' => 'Prefix',
+	'interwiki-prefix-label' => 'Prefix:',
+	'interwiki_prefix_intro' => 'Prefix de interwiki és utilitzat en <code>[<nowiki />[prefix:<i>pagename</i>]]</code> sintaxi wikitext.',
+	'interwiki_url_intro' => "Plantilla per a URLs. El marcador $1 serà substituït per <i>pagename</i> del wikitext, quan s'utilitza la sintaxi de wikitext esmentats.",
+	'interwiki_local' => 'Endavant',
+	'interwiki-local-label' => 'Endavant:',
+	'interwiki_local_intro' => "Una petició HTTP al wiki local amb aquest prefix interwiki en l'URL és:",
+	'interwiki_local_0_intro' => 'no honrat, generalment bloquejat per "pàgina no trobada",',
+	'interwiki_local_1_intro' => "s'ha redirigit a l'URL de destinació donada a les definicions d'enllaç d'interwiki (és a dir, tractats com a referències a pàgines locals)",
+	'interwiki_trans' => 'Transclude',
+	'interwiki-trans-label' => 'Transclude:',
+	'interwiki_trans_intro' => "Si la sintaxi wikitext <code>{<nowiki />{prefix:<i>pagename</i>}}</code> s'utilitza, llavors:",
+	'interwiki_trans_1_intro' => 'permetre transclusion des del wiki estranger, si aquest wiki, generalment admet interwiki transclusions',
+	'interwiki_trans_0_intro' => "no es permet, busca una pàgina en l'espai de nom de la plantilla.",
+	'interwiki_intro_footer' => 'Veure [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] per obtenir més informació sobre la taula de interwiki.
+Hi ha un [[Special:Log/interwiki|registre de canvis]] a la taula de interwiki.',
 	'interwiki_1' => 'sí',
 	'interwiki_0' => 'no',
+	'interwiki_error' => 'Error: La taula interwiki és buida, o alguna cosa ha sortit malament.',
 	'interwiki_edit' => 'Modifica',
 	'interwiki_reasonfield' => 'Raó:',
 	'interwiki_delquestion' => "S'està eliminant «$1»",
-	'right-interwiki' => 'Modificar dades interwiki',
+	'interwiki_deleting' => 'Estàs eliminant el prefix "$1".',
+	'interwiki_deleted' => 'Prefix "$1" s\'ha suprimit amb èxit  de la taula de interwiki.',
+	'interwiki_delfailed' => 'Prefix " $1 "no pot ser eliminat de la taula interwiki.',
+	'interwiki_addtext' => 'Afegir un prefix interwiki',
+	'interwiki_addintro' => "Estàs afegint un prefix nou interwiki.
+Recorda que no pot contenir espais ( ), dos punts (:), ampersands (&) o signes d'igual (=)",
+	'interwiki_addbutton' => 'Afegeix',
+	'interwiki_added' => 'Prefix " $1 "s\'ha afegit correctament a la taula interwiki.',
+	'interwiki_addfailed' => 'Prefix "$1" no es pot afegir a la taula de interwiki.
+Possiblement ja existeix a la taula de interwiki.',
+	'interwiki_edittext' => 'Edita un prefix de interwiki',
+	'interwiki_editintro' => 'Estàs editant un prefix interwiki.
+Recorda que això pot trencar vincles existents.',
+	'interwiki_edited' => 'Prefix "$1" s\'ha modificat amb èxit en la taula de interwiki.',
+	'interwiki_editerror' => 'Prefix "$1" no pot ser modificat en la taula de interwiki.
+Possiblement no existeix.',
+	'interwiki-badprefix' => 'El prefix interwiki especificat "$1" conté caràcters no vàlids',
+	'interwiki-submit-empty' => "El prefix i l'URL no pot estar buit.",
+	'interwiki_logpagename' => 'Registre de taula interwiki',
+	'interwiki_log_added' => 'El prefix "$2" ($3) (trans: $4) (local: $5) ha estat afegit a la taula de interwiki',
+	'interwiki_log_edited' => 'El prefix "$2" ($3) (trans: $4) (local: $5) ha estat modificat a la taula de interwiki',
+	'interwiki_log_deleted' => 'El prefix "$2" s\'ha tret de la taula interwiki',
+	'interwiki_logpagetext' => 'Això és un registre de canvis a la[[Special:Interwiki|interwiki taula]].',
+	'right-interwiki' => 'Editar les dades interwiki',
+	'action-interwiki' => "canviar aquesta entrada d'interwiki",
 );
 
 /** Chechen (Нохчийн)
