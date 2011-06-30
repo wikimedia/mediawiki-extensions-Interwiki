@@ -1213,6 +1213,7 @@ $messages['fa'] = array(
 	'interwiki_log_edited' => 'پیشوند «$2» : ($3) (میانی: $4) (محلی: $5) را در جدول میان‌ویکی تغییر داد',
 	'interwiki_log_deleted' => 'پیشوند «$2» را از جدول میان‌ویکی حذف کرد',
 	'right-interwiki' => 'ویرایش اطلاعات میان‌ویکی',
+	'action-interwiki' => 'تغییر این مدخل میان‌ویکی',
 );
 
 /** Finnish (Suomi)
@@ -3018,6 +3019,7 @@ Prawdopodobnie ten prefiks już jest w tableli.',
 	'interwiki_edited' => 'Prefiks „$1” został z powodzeniem poprawiony w tableli interwiki.',
 	'interwiki_editerror' => 'Prefiks „$1” nie może zostać poprawiony w tabeli interwiki. Prawdopodobnie nie ma go w tabeli.',
 	'interwiki-badprefix' => 'Podany przedrostek interwiki „$1” zawiera nieprawidłowe znaki',
+	'interwiki-submit-empty' => 'Przedrostek i adres URL nie mogą być puste.',
 	'interwiki_logpagename' => 'Rejestr tablicy interwiki',
 	'interwiki_log_added' => 'dodał przedrostek „$2” ($3) (trans: $4) (local: $5) do tabeli interwiki',
 	'interwiki_log_edited' => 'zmienił przedrostek „$2” : ($3) (trans: $4) (local: $5) w tabeli interwiki',
