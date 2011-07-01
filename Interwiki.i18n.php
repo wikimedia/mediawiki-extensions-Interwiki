@@ -1171,6 +1171,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Ebraminio
+ * @author Hamid rostami
  * @author Huji
  * @author Mjbmr
  */
@@ -1185,6 +1186,8 @@ $messages['fa'] = array(
 	'interwiki-local-label' => 'مشخص کردن به عنوان یک ویکی محلی:',
 	'interwiki_trans' => 'اجازهٔ گنجاندن میان‌ویکی را بده',
 	'interwiki-trans-label' => 'اجازهٔ گنجاندن میان‌ویکی را بده:',
+	'interwiki_intro_footer' => 'برای اطلاعات بیشتر در مورد Interwiki به [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] مراحعه نمائید.
+همچنین می‌توانید [[Special:Log/interwiki|تاریخچهٔ تغییرات]] چدول Interwiki را مشاهده کنید.',
 	'interwiki_1' => 'بله',
 	'interwiki_0' => 'خیر',
 	'interwiki_error' => 'خطا: جدول میان‌ویکی خالی است، یا چیز دیگری مشکل دارد.',
@@ -1208,10 +1211,12 @@ $messages['fa'] = array(
 	'interwiki_editerror' => 'پیشوند «$1» را نمی‌توان در جدول میان‌ویکی تغییر داد.
 احتمالاً این پیشوند وجود ندارد.',
 	'interwiki-badprefix' => 'پیشوند میان‌ویکی «$1» حاوی نویسه‌های غیر مجاز است',
+	'interwiki-submit-empty' => 'پیشوند و آدرس URL نمی‌توانند خالی باشند.',
 	'interwiki_logpagename' => 'سیاههٔ جدول میان‌ویکی',
 	'interwiki_log_added' => 'پیشوند «$2» ($3) (میانی: $4) (محلی: $5) را به جدول میان‌ویکی افزود',
 	'interwiki_log_edited' => 'پیشوند «$2» : ($3) (میانی: $4) (محلی: $5) را در جدول میان‌ویکی تغییر داد',
 	'interwiki_log_deleted' => 'پیشوند «$2» را از جدول میان‌ویکی حذف کرد',
+	'interwiki_logpagetext' => 'این یک تاریخچه از تغییرات [[Special:Interwiki|interwiki table]] است.',
 	'right-interwiki' => 'ویرایش اطلاعات میان‌ویکی',
 	'action-interwiki' => 'تغییر این مدخل میان‌ویکی',
 );
@@ -3661,6 +3666,7 @@ $messages['su'] = array(
  * @author Per
  * @author Purodha
  * @author Sertion
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'interwiki' => 'Visa och redigera interwiki-data',
@@ -3698,6 +3704,7 @@ Det är möjligt att prefixet redan finns i tabellen.',
 	'interwiki_edited' => 'Prefixet "$1" har ändrats i interwikitabellen.',
 	'interwiki_editerror' => 'Prefixet "$1" kan inte ändras i interwikitabellen. Det är möjligt att det inte finns.',
 	'interwiki-badprefix' => 'Specificerat interwikiprefix "$1" innehåller ogiltiga tecken',
+	'interwiki-submit-empty' => 'Prefix och URL-adressen kan inte vara tomma.',
 	'interwiki_logpagename' => 'Interwikitabellogg',
 	'interwiki_log_added' => 'lade till prefixet "$2" ($3) (trans: $4) (lokal: $5) i interwikitabellen',
 	'interwiki_log_edited' => 'ändrade prefixet "$2" ($3) (trans: $4) (lokal: $5) i interwikitabellen',
