@@ -3522,6 +3522,7 @@ Ne pozabite, da lahko to prekine obstoječe povezave.',
 	'interwiki_editerror' => 'Predpone »$1« ni mogoče spremeniti v tabeli interwiki.
 Morda ne obstaja.',
 	'interwiki-badprefix' => 'Navedena predpona interwiki »$1« vsebuje neveljavne znake.',
+	'interwiki-submit-empty' => 'Predpona in URL ne smeta biti prazna.',
 	'interwiki_logpagename' => 'Dnevnik tabele interwiki',
 	'interwiki_logpagetext' => 'To je dnevnik sprememb [[Special:Interwiki|tabele interwiki]].',
 	'right-interwiki' => 'Urejanje podatkov interwiki',
