@@ -828,6 +828,8 @@ Cofiwch na all gynnwys bwlch ( ), gorwahannod (:), ampersand (&), na hafalnod (=
 	'interwiki_added' => 'Llwyddwyd i ychwanegu\'r rhagddodiad "$1" at y tabl rhyngwici.',
 	'interwiki_addfailed' => 'Methwyd ychwanegu\'r rhagddodiad "$1" at y tabl rhyngwici.
 Efallai ei fod eisoes yn y tabl rhyngwici.',
+	'interwiki_logpagename' => 'Lòg y tabl rhyngwici',
+	'interwiki_logpagetext' => "Dyma lòg y newidiadau i'r [[Special:Interwiki|tabl rhyngwici]].",
 	'right-interwiki' => 'Golygu data rhyngwici',
 	'action-interwiki' => 'newid yr eitem rhyngwici hwn',
 );
