@@ -7,11 +7,11 @@
  *
  * @file
  * @ingroup Extensions
- * @version 1.3
+ * @version 2.0
  * @author Stephanie Amanda Stevens <phroziac@gmail.com>
- * @author SPQRobin <robinp.1273@gmail.com>
+ * @author Robin Pepermans (SPQRobin) <robinp.1273@gmail.com>
  * @copyright Copyright © 2005-2007 Stephanie Amanda Stevens
- * @copyright Copyright © 2007 SPQRobin
+ * @copyright Copyright © 2007-2011 Robin Pepermans (SPQRobin)
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  * @link http://www.mediawiki.org/wiki/Extension:SpecialInterwiki Documentation
  * Formatting improvements Stephen Kennedy, 2006.
@@ -26,9 +26,15 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'SpecialInterwiki',
 	'author' => array( 'Stephanie Amanda Stevens', 'SPQRobin', '...' ),
-	'version' => '1.4.1',
+	'version' => '2.0',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:SpecialInterwiki',
 	'descriptionmsg' => 'interwiki-desc',
+);
+
+$wgResourceModules['SpecialInterwiki'] = array(
+		'styles' => 'Interwiki.css',
+		'localBasePath' => dirname( __FILE__ ),
+		'remoteExtPath' => 'Interwiki',
 );
 
 // Set up the new special page

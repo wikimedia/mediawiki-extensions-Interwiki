@@ -10,11 +10,11 @@ table.mw-interwikitable.intro th {
 	vertical-align: top;
 }
 
-table.mw-interwikitable.intro th.mw-align-left {
+table.mw-interwikitable.intro th.mw-align-start {
 	text-align: left;
 }
 
-table.mw-interwikitable.intro th.mw-align-right {
+table.mw-interwikitable.intro th.mw-align-end {
 	text-align: right;
 }
 
@@ -23,10 +23,13 @@ table.mw-interwikitable.body td.mw-interwikitable-trans,
 table.mw-interwikitable.body td.mw-interwikitable-modify {
 	text-align: center;
 }
-.mw-interwikitable-url {
+/* @noflip */ .mw-interwikitable-url {
 	text-align: left;
 }
-input#mw-interwiki-url  {
+/* @noflip */ input#mw-interwiki-url  {
 	text-align: left;
 	direction: ltr;
+}
+.mw-interwikitable-modify {
+	white-space: nowrap;
 }

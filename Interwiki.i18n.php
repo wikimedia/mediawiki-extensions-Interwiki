@@ -51,6 +51,7 @@ There is a [[Special:Log/interwiki|log of changes]] to the interwiki table.',
 	'interwiki_1' => 'yes',
 	'interwiki_0' => 'no',
 	'interwiki_error' => 'Error: The interwiki table is empty, or something else went wrong.',
+	'interwiki-cached' => 'The interwiki data is cached. Modifying the cache is not possible.',
 
 	# modifying permitted
 	'interwiki_edit' => 'Edit',
