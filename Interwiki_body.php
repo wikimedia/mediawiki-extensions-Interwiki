@@ -149,7 +149,7 @@ class SpecialInterwiki extends SpecialPage {
 		return Xml::fieldset( $topmessage, Html::rawElement( 'form',
 			array( 'id' => "mw-interwiki-{$action}form", 'method' => 'post',
 				'action' => $this->getTitle()->getLocalURL( 'action=submit' ) ),
-			Html::element( 'p', null, $intromessage ) .
+			Html::rawElement( 'p', null, $intromessage ) .
 			Html::rawElement( 'table', array( 'id' => "mw-interwiki-{$action}" ),
 				$formContent . Html::rawElement( 'tr', null,
 					Html::rawElement( 'td', $label, Xml::label( wfMessage( 'interwiki_reasonfield' ),
