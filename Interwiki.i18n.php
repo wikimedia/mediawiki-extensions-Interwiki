@@ -1585,6 +1585,7 @@ $messages['he'] = array(
 	'interwiki_1' => 'כן',
 	'interwiki_0' => 'לא',
 	'interwiki_error' => 'שגיאה: טבלת הבינוויקי ריקה, או שיש שגיאה אחרת.',
+	'interwiki-cached' => 'מידע בינוויקי מוטמן. שינוי המטמון אינו אפשרי.',
 	'interwiki_edit' => 'עריכה',
 	'interwiki_reasonfield' => 'סיבה:',
 	'interwiki_delquestion' => 'מחיקת "$1"',
