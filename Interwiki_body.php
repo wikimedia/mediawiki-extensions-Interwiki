@@ -18,7 +18,7 @@ class SpecialInterwiki extends SpecialPage {
 	 */
 	function getDescription() {
 		return wfMessage( $this->canModify() ?
-			'interwiki' : 'interwiki-title-norights' );
+			'interwiki' : 'interwiki-title-norights' )->plain();
 	}
 
 	/**
