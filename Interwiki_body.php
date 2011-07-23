@@ -116,14 +116,12 @@ class SpecialInterwiki extends SpecialPage {
 			$intromessage = wfMessage( 'interwiki_editintro' )->text();
 			$button = 'edit';
 		} elseif( $action == 'add' ) {
-			$prefix = $wgRequest->getVal( 'wpInterwikiPrefix' ) ?
-				$wgRequest->getVal( 'wpInterwikiPrefix' ) : $wgRequest->getVal( 'prefix' );
+			$prefix = $wgRequest->getVal( 'wpInterwikiPrefix', $wgRequest->getVal( 'prefix' ) );
 			$prefix = Xml::input( 'wpInterwikiPrefix', 20, $prefix,
 				array( 'tabindex' => 1, 'id' => 'mw-interwiki-prefix', 'maxlength' => 20 ) );
 			$local = $wgRequest->getCheck( 'wpInterwikiLocal' );
 			$trans = $wgRequest->getCheck( 'wpInterwikiTrans' );
-			$defaulturl = $wgRequest->getVal( 'wpInterwikiURL' ) ?
-				$wgRequest->getVal( 'wpInterwikiURL' ) : wfMessage( 'interwiki-defaulturl' )->text();
+			$defaulturl = $wgRequest->getVal( 'wpInterwikiURL', wfMessage( 'interwiki-defaulturl' )->text() );
 			$topmessage = wfMessage( 'interwiki_addtext' )->text();
 			$intromessage = wfMessage( 'interwiki_addintro' )->text();
 			$button = 'interwiki_addbutton';
