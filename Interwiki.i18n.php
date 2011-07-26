@@ -2736,7 +2736,7 @@ $messages['nds'] = array(
  * @author Servien
  */
 $messages['nds-nl'] = array(
-	'interwiki_addbutton' => 'Toevoegen',
+	'interwiki_addbutton' => 'Derbie doon',
 );
 
 /** Dutch (Nederlands)
