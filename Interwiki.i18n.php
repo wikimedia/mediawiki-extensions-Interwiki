@@ -2699,6 +2699,13 @@ $messages['myv'] = array(
 	'interwiki_addbutton' => 'Поладомс',
 );
 
+/** Mazanderani (مازِرونی)
+ * @author محک
+ */
+$messages['mzn'] = array(
+	'interwiki_edit' => 'دچی‌ین',
+);
+
 /** Nahuatl (Nāhuatl)
  * @author Fluence
  */
@@ -3528,6 +3535,7 @@ $messages['sl'] = array(
 	'interwiki-desc' => 'Doda [[Special:Interwiki|posebno stran]] za ogled in urejanje tabele interwiki',
 	'interwiki_prefix' => 'Predpona',
 	'interwiki-prefix-label' => 'Predpona:',
+	'interwiki_prefix_intro' => 'Predpona interwiki, uporabljena v skladnji wikibesedila <code>[<nowiki />[predpona:<i>imestrani</i>]]</code>.',
 	'interwiki_local' => 'Posredovano',
 	'interwiki-local-label' => 'Posredovano:',
 	'interwiki_trans' => 'Vključeno',
@@ -3536,10 +3544,13 @@ $messages['sl'] = array(
 	'interwiki_1' => 'da',
 	'interwiki_0' => 'ne',
 	'interwiki_error' => 'Napaka: Tabela interwiki je prazna ali pa je kaj drugega šlo narobe.',
+	'interwiki-cached' => 'Podatki interwiki so predpomnjeni. Spreminjanje predpomnilnika ni mogoče.',
 	'interwiki_edit' => 'Uredi',
 	'interwiki_reasonfield' => 'Razlog:',
 	'interwiki_delquestion' => 'Brisanje »$1«',
 	'interwiki_deleting' => 'Brišete predpono »$1«.',
+	'interwiki_deleted' => 'Predpona »$1« je bila uspešno odstranjena iz tabele interwiki.',
+	'interwiki_delfailed' => 'Predpone »$1« ni bilo mogoče odstraniti iz tabele interwiki.',
 	'interwiki_addtext' => 'Dodaj predpono interwiki',
 	'interwiki_addbutton' => 'Dodaj',
 	'interwiki_added' => 'Predpona »$1« je bila uspešno dodana v tabelo interwiki.',
@@ -3552,6 +3563,9 @@ Morda ne obstaja.',
 	'interwiki-badprefix' => 'Navedena predpona interwiki »$1« vsebuje neveljavne znake.',
 	'interwiki-submit-empty' => 'Predpona in URL ne smeta biti prazna.',
 	'interwiki_logpagename' => 'Dnevnik tabele interwiki',
+	'interwiki_log_added' => 'je dodal(-a) predpono »$2« ($3) (trans: $4) (local: $5) v tabelo interwiki',
+	'interwiki_log_edited' => 'je spremenil(-a) predpono »$2«: ($3) (trans: $4) (local: $5) v tabeli interwiki',
+	'interwiki_log_deleted' => 'je odstranil(-a) predpono »$2« iz tabele interwiki',
 	'interwiki_logpagetext' => 'To je dnevnik sprememb [[Special:Interwiki|tabele interwiki]].',
 	'right-interwiki' => 'Urejanje podatkov interwiki',
 	'action-interwiki' => 'spreminjanje tega vnosa interwikija',
