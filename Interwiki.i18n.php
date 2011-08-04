@@ -1972,7 +1972,7 @@ Kemungkinan karena prefiks ini tidak ada.',
  * @author Ukabia
  */
 $messages['ig'] = array(
-	'interwiki_edit' => 'Rüwa',
+	'interwiki_edit' => 'Mèzi',
 	'interwiki_reasonfield' => 'Mgbághapụtà:',
 );
 
