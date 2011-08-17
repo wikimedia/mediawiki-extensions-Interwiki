@@ -464,6 +464,7 @@ $messages['be-tarask'] = array(
 	'interwiki_1' => 'так',
 	'interwiki_0' => 'не',
 	'interwiki_error' => 'Памылка: табліца інтэрвікі пустая альбо ўзьніклі іншыя праблемы.',
+	'interwiki-cached' => 'Зьвесткі пра інтэрвікі знаходзяцца ў кэшы. Зьмяніць кэш немагчыма.',
 	'interwiki_edit' => 'Рэдагаваць',
 	'interwiki_reasonfield' => 'Прычына:',
 	'interwiki_delquestion' => 'Выдаленьне «$1»',
@@ -931,11 +932,12 @@ Möglicherweise ist es nicht vorhanden.',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
+ * @author Kghbln
  * @author MichaelFrey
  */
 $messages['de-formal'] = array(
 	'interwiki_deleting' => 'Sie sind dabei das Präfix „$1“ zu löschen.',
-	'interwiki_addintro' => 'Sie fügen ein neues Interwiki-Präfix hinzu. Beachten Sie, dass es kein Leerzeichen ( ), Kaufmännisches Und (&), Gleichheitszeichen (=) und keinen Doppelpunkt (:) enthalten darf.',
+	'interwiki_addintro' => 'Sie fügen ein neues Interwikipräfix hinzu. Beachten Sie, dass es kein Leerzeichen ( ), Kaufmännisches Und (&), Gleichheitszeichen (=) und keinen Doppelpunkt (:) enthalten darf.',
 	'interwiki_editintro' => 'Sie sind dabei ein Präfix zu ändern.
 Beachten Sie, dass dies bereits vorhandene Links ungültig machen kann.',
 );
@@ -2987,7 +2989,7 @@ Benlèu i existís ja.',
 	'action-interwiki' => 'modificar aquesta entrada interwiki',
 );
 
-/** Ossetic (Иронау)
+/** Ossetic (Ирон)
  * @author Amikeco
  */
 $messages['os'] = array(
@@ -3375,7 +3377,7 @@ $messages['rue'] = array(
 	'interwiki_addbutton' => 'Придати',
 );
 
-/** Yakut (Саха тыла)
+/** Sakha (Саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
