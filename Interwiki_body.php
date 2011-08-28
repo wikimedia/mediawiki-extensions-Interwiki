@@ -32,7 +32,7 @@ class SpecialInterwiki extends SpecialPage {
 		$this->setHeaders();
 		$this->outputHeader();
 
-		$wgOut->addModules( 'SpecialInterwiki' );
+		$wgOut->addModuleStyles( 'SpecialInterwiki' );
 
 		$action = $par ? $par : $wgRequest->getVal( 'action', $par );
 		$return = $this->getTitle();
