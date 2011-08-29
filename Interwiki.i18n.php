@@ -3959,9 +3959,16 @@ $messages['tr'] = array(
 );
 
 /** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+ * @author Ajdar
  * @author Ильнар
  */
 $messages['tt-cyrl'] = array(
+	'interwiki' => 'Интервики көйләнмәләрен карау һәм үзгәртү',
+	'interwiki-title-norights' => 'Интервики турында мәгълүматларны үзгәртү',
+	'interwiki-desc' => 'Интервики сылтамаларны карау һәм үзгәртү өчен [[Special:Interwiki|махсус]] бит өсти',
+	'interwiki_intro' => 'Бу интервики җәдвәленә манзара. Баганалардагы мәгълүматларның аңлатмалары:',
+	'interwiki_prefix' => 'Өстәлмә',
+	'interwiki-prefix-label' => 'Өстәлмә',
 	'interwiki_1' => 'әйе',
 	'interwiki_0' => 'юк',
 	'interwiki_reasonfield' => 'Сәбәп:',
@@ -4249,6 +4256,7 @@ $messages['yue'] = array(
  * @author PhiLiP
  * @author Vina
  * @author Wmr89502270
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'interwiki' => '查看并编辑跨维基连结表',
@@ -4274,7 +4282,7 @@ $messages['zh-hans'] = array(
 	'interwiki_addtext' => '新增一个跨维基前缀',
 	'interwiki_addintro' => '您现在加入一个新的跨维基连结前缀。
 要记住它不可以包含空格 （ ）、冒号 （:）、连字号 （&），或者是等号 （=）。',
-	'interwiki_addbutton' => '加入',
+	'interwiki_addbutton' => '添加',
 	'interwiki_added' => '前缀 "$1" 已经成功地加入到跨维基连结表。',
 	'interwiki_addfailed' => '前缀 "$1" 不能加入到跨维基连结表。
 可能已经在跨维基连结表中存在。',
