@@ -2293,6 +2293,7 @@ Et [[Special:Log/interwiki|{{int:interwiki_logpagename}}]] zeichnet all de Ände
 	'interwiki_1' => 'Jo',
 	'interwiki_0' => 'Nä',
 	'interwiki_error' => "'''Fähler:''' de Tabäll met de Engerwiki Date is leddisch.",
+	'interwiki-cached' => 'Heh di Daate kumme us enem Zweschespeischer. Dodren jät ze ändere es nit müjjelesch.',
 	'interwiki_edit' => 'Beärbeide',
 	'interwiki_reasonfield' => 'Aanlass:',
 	'interwiki_delquestion' => '„$1“ weed fottjeschmeße',
@@ -2313,6 +2314,7 @@ Denk draan, domet könnts De Links em Wiki kapott maache, die velleich do drop o
 	'interwiki_editerror' => 'Dä Försaz „$1“ konnt en de Engerwiki Date nit beärrbeidt wäde.
 Maach sin, dat et inn nit jitt.',
 	'interwiki-badprefix' => 'Dä aanjejovve Engerwiki-Försatz „$1“ änthäld onjöltijje Zeiche',
+	'interwiki-submit-empty' => 'Der Engerwiki-Försatz un der URL künne nit läddesch jelohße wääde.',
 	'interwiki_logpagename' => 'Logboch fun de Engerwiki Tabäll',
 	'interwiki_log_added' => 'hät dä Försaz „$2“ ($3) (Trans: $4) (Lokal: $5) en de Engerwiki Date eren jedonn',
 	'interwiki_log_edited' => 'hät dä Försaz „$2“ ($3) (Trans: $4) (Lokal: $5) en de Engerwiki Date ömjemodelt',
