@@ -2063,6 +2063,7 @@ Il prefisso potrebbe essere inesistente.',
  * @author Fievarsty
  * @author Fryed-peach
  * @author Mzm5zbC3
+ * @author Schu
  * @author 青子守歌
  */
 $messages['ja'] = array(
@@ -2088,6 +2089,7 @@ $messages['ja'] = array(
 	'interwiki_1' => 'はい',
 	'interwiki_0' => 'いいえ',
 	'interwiki_error' => 'エラー: インターウィキテーブルが空か、他の理由でうまくいきませんでした。',
+	'interwiki-cached' => 'インターウィキデータはキャッシュされています。キャッシュを変更することは不可能です。',
 	'interwiki_edit' => '編集',
 	'interwiki_reasonfield' => '理由：',
 	'interwiki_delquestion' => '"$1"を削除',
@@ -2104,6 +2106,7 @@ $messages['ja'] = array(
 	'interwiki_edited' => '接頭辞 "$1" はインターウィキテーブル内で正常に変更されました。',
 	'interwiki_editerror' => 'インターウィキテーブル内で接頭辞 "$1" を変更できませんでした。存在していない可能性があります。',
 	'interwiki-badprefix' => '指定されたインターウィキ接頭辞 "$1" は無効な文字を含んでいます',
+	'interwiki-submit-empty' => '接頭辞とURLを空にすることはできません。',
 	'interwiki_logpagename' => 'インターウィキ編集記録',
 	'interwiki_log_added' => 'インターウィキテーブルに接頭辞 "$2" ($3) (trans: $4) (local: $5) を追加しました',
 	'interwiki_log_edited' => 'インターウィキテーブル内の接頭辞 "$2" を ($3) (trans: $4) (local: $5) に変更しました',
