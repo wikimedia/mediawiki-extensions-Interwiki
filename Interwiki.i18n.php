@@ -3547,6 +3547,7 @@ $messages['sl'] = array(
 	'interwiki' => 'Ogled in urejanje podatkov interwiki',
 	'interwiki-title-norights' => 'Ogled podatkov interwiki',
 	'interwiki-desc' => 'Doda [[Special:Interwiki|posebno stran]] za ogled in urejanje tabele interwiki',
+	'interwiki_intro' => 'To je pregled tabele interwiki. Pomeni podatkov v stolpcih:',
 	'interwiki_prefix' => 'Predpona',
 	'interwiki-prefix-label' => 'Predpona:',
 	'interwiki_prefix_intro' => 'Predpona interwiki, uporabljena v skladnji wikibesedila <code>[<nowiki />[predpona:<i>imestrani</i>]]</code>.',
@@ -3568,6 +3569,8 @@ $messages['sl'] = array(
 	'interwiki_addtext' => 'Dodaj predpono interwiki',
 	'interwiki_addbutton' => 'Dodaj',
 	'interwiki_added' => 'Predpona »$1« je bila uspešno dodana v tabelo interwiki.',
+	'interwiki_addfailed' => 'Predpone »$1« ni mogoče dodati tabeli interwiki.
+Morda že obstaja v tabeli interwiki.',
 	'interwiki_edittext' => 'Urejanje predpone interwiki',
 	'interwiki_editintro' => 'Urejate predpono interwiki.
 Ne pozabite, da lahko to prekine obstoječe povezave.',
