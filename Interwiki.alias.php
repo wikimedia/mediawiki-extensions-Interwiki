@@ -163,9 +163,19 @@ $specialPageAliases['tr'] = array(
 	'Interwiki' => array( 'İnterviki' ),
 );
 
+/** Tatar (Cyrillic script) (Татарча) */
+$specialPageAliases['tt-cyrl'] = array(
+	'Interwiki' => array( 'Интервики' ),
+);
+
 /** Vietnamese (Tiếng Việt) */
 $specialPageAliases['vi'] = array(
 	'Interwiki' => array( 'Liên_wiki' ),
+);
+
+/** Cantonese (粵語) */
+$specialPageAliases['yue'] = array(
+	'Interwiki' => array( '其他維基連接' ),
 );
 
 /** Traditional Chinese (‪中文(繁體)‬) */
