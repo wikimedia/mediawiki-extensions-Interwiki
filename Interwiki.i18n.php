@@ -743,6 +743,11 @@ $messages['ckb'] = array(
 	'interwiki_deleted' => 'پێشگری «$1» سەرکەوتووانە لە خشتەی نێوانویکی لابرا.',
 );
 
+/** Corsican (Corsu) */
+$messages['co'] = array(
+	'interwiki_reasonfield' => 'Mutivu:',
+);
+
 /** Czech (Česky)
  * @author Danny B.
  * @author Mormegil
@@ -1980,6 +1985,11 @@ $messages['ig'] = array(
 	'interwiki_reasonfield' => 'Mgbághapụtà:',
 );
 
+/** Eastern Canadian (Latin script) (inuktitut) */
+$messages['ike-latn'] = array(
+	'interwiki_edit' => 'Suqusiqpaa',
+);
+
 /** Ido (Ido)
  * @author Malafaya
  */
@@ -3050,6 +3060,7 @@ Tutaj znajduje się [[Special:Log/interwiki|rejestr zmian]] tabeli interwiki.',
 	'interwiki_1' => 'tak',
 	'interwiki_0' => 'nie',
 	'interwiki_error' => 'BŁĄD: Tabela interwiki jest pusta lub wystąpił jakiś inny problem.',
+	'interwiki-cached' => 'Dane interwiki są buforowane. Zmiany zawartości pamięci podręcznej nie są możliwe.',
 	'interwiki_edit' => 'Edytuj',
 	'interwiki_reasonfield' => 'Powód',
 	'interwiki_delquestion' => 'Czy usunąć „$1”',
@@ -4202,6 +4213,11 @@ Ba no dabinon.',
 	'interwiki_logpagetext' => 'Is palisedons votükams [[Special:Interwiki|taiba vüvükik]].',
 	'right-interwiki' => 'Bevobön nünis vüvükik',
 	'action-interwiki' => 'votükön pati vüvükik at',
+);
+
+/** Walloon (Walon) */
+$messages['wa'] = array(
+	'interwiki_reasonfield' => 'Råjhon:',
 );
 
 /** Wu (吴语) */
