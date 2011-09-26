@@ -153,9 +153,22 @@ Parameter $1 contains the following (a link): [http://www.mediawiki.org/wiki/Man
 {{Identical|Add}}',
 	'interwiki_editerror' => 'Error message when modifying a prefix has failed.',
 	'interwiki_logpagename' => 'Part of the interwiki extension. This message is shown as page title on Special:Log/interwiki.',
-	'logentry-interwiki-iw_add' => 'Shows up in "Special:Log/interwiki" when someone has added a prefix. Leave parameters and text between brackets exactly as it is. $1 is the username of the user who added it.',
-	'logentry-interwiki-iw_edit' => 'Shows up in "Special:Log/interwiki" when someone has modified a prefix. Leave parameters and text between brackets exactly as it is. $1 the username of the user who modified it.',
-	'logentry-interwiki-iw_delete' => 'Shows up in "Special:Log/interwiki" when someone removed a prefix. $1 is the username of the user who deleted it.',
+	'logentry-interwiki-iw_add' => 'Shows up in "[[Special:Log/interwiki]]" when someone has added a prefix. Leave parameters and text between brackets exactly as it is.
+* $1 is the username of the user who added it
+* $2 is the username usable for GENDER
+* $4 is the prefix
+* $5 is the URL
+* $6 and $7 is 0 or 1',
+	'logentry-interwiki-iw_edit' => 'Shows up in "[[Special:Log/interwiki]]" when someone has modified a prefix. Leave parameters and text between brackets exactly as it is.
+* $1 is the username of the user who added it
+* $2 is the username usable for GENDER
+* $4 is the prefix
+* $5 is the URL
+* $6 and $7 is 0 or 1',
+	'logentry-interwiki-iw_delete' => 'Shows up in "[[Special:Log/interwiki]]" when someone removed a prefix.
+* $1 is the username of the user who deleted it.
+* $2 is the username usable for GENDER
+* $4 is the prefix',
 	'interwiki_logpagetext' => 'Part of the interwiki extension. Summary shown on Special:Log/interwiki.',
 	'right-interwiki' => '{{doc-right}}',
 	'action-interwiki' => '{{doc-action}}',
@@ -1911,9 +1924,9 @@ Es possibile que illo non existe.',
 	'interwiki-badprefix' => 'Le prefixo interwiki specificate "$1" contine characteres invalide',
 	'interwiki-submit-empty' => 'Le prefixo e le URL non pote esser vacue.',
 	'interwiki_logpagename' => 'Registro del tabella interwiki',
-	'interwiki_log_added' => 'addeva le prefixo "$2" ($3) (trans: $4) (local: $5) al tabella interwiki',
-	'interwiki_log_edited' => 'modificava le prefixo "$2" : ($3) (trans: $4) (local: $5) in le tabella interwiki',
-	'interwiki_log_deleted' => 'removeva le prefixo "$2" del tabella interwiki',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|addeva}} le prefixo "$4" ($5) (trans: $6; local: $7) al tabella interwiki',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|modificava}} le prefixo "$4" ($5) (trans: $6; local: $7) in le tabella interwiki',
+	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|removeva}} le prefixo "$4" del tabella interwiki',
 	'interwiki_logpagetext' => 'Isto es un registro de modificationes in le [[Special:Interwiki|tabella interwiki]].',
 	'right-interwiki' => 'Modificar datos interwiki',
 	'action-interwiki' => 'alterar iste entrata interwiki',
@@ -2814,9 +2827,9 @@ Er is een [[Special:Log/interwiki|veranderingslogboek]] voor de interwikitabel.'
 	'interwiki-badprefix' => 'Het interwikivoorvoegsel "$1" bevat ongeldige karakters',
 	'interwiki-submit-empty' => 'Het voorvoegsel en de URL mogen niet leeg zijn.',
 	'interwiki_logpagename' => 'Logboek interwikitabel',
-	'interwiki_log_added' => 'voegde "$2" ($3) (trans: $4) (local: $5) toe aan de interwikitabel',
-	'interwiki_log_edited' => 'wijzigde voorvoegsel "$2": ($3) (trans: $4) (local: $5) in de interwikitabel',
-	'interwiki_log_deleted' => 'verwijderde voorvoegsel "$2" van de interwikitabel',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|voegde}} voorvoegsel "$4" toe ($5) (trans: $6; local: $7) aan de interwikitabel',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|wijzigde}} voorvoegsel "$4" ($5) (trans: $6; local: $7) in de interwikitabel',
+	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|verwijderde}} voorvoegsel "$4" van de interwikitabel',
 	'interwiki_logpagetext' => 'Dit is een logboek van wijzigingen aan de [[Special:Interwiki|interwikitabel]].',
 	'right-interwiki' => 'Interwikigegevens bewerken',
 	'action-interwiki' => 'deze interwikiverwijzing te wijzigen',
