@@ -52,7 +52,6 @@ $wgAvailableRights[] = 'interwiki';
 $wgLogTypes[] = 'interwiki';
 $wgLogNames['interwiki'] = 'interwiki_logpagename';
 $wgLogHeaders['interwiki'] = 'interwiki_logpagetext';
-$wgLogActions['interwiki/interwiki'] = 'interwiki_logentry';
-$wgLogActions['interwiki/iw_add'] = 'interwiki_log_added';
-$wgLogActions['interwiki/iw_delete'] = 'interwiki_log_deleted';
-$wgLogActions['interwiki/iw_edit'] = 'interwiki_log_edited';
+$wgAutoloadClasses['InterwikiLogFormatter'] = $dir . 'Interwiki_body.php';
+# interwiki, iw_add, iw_delete, iw_edit
+$wgLogActionsHandlers['interwiki/*']  = 'InterwikiLogFormatter';

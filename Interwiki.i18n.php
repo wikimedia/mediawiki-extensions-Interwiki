@@ -85,11 +85,11 @@ Possibly it does not exist.',
 
 	# interwiki log
 	'interwiki_logpagename' => 'Interwiki table log',
-	'interwiki_log_added' => 'added prefix "$2" ($3) (trans: $4) (local: $5) to the interwiki table',
-	'interwiki_log_edited' => 'modified prefix "$2" : ($3) (trans: $4) (local: $5) in the interwiki table',
-	'interwiki_log_deleted' => 'removed prefix "$2" from the interwiki table',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|added}} prefix "$4" ($5) (trans: $6; local: $7) to the interwiki table',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|modified}} prefix "$4" ($5) (trans: $6; local: $7) in the interwiki table',
+	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|removed}} prefix "$4" from the interwiki table',
 	'interwiki_logpagetext' => 'This is a log of changes to the [[Special:Interwiki|interwiki table]].',
-	'interwiki_logentry' => '', # do not translate this message
+	'logentry-interwiki-interwiki' => '', # do not translate this message
 
 	# rights
 	'right-interwiki' => 'Edit interwiki data',
@@ -153,9 +153,9 @@ Parameter $1 contains the following (a link): [http://www.mediawiki.org/wiki/Man
 {{Identical|Add}}',
 	'interwiki_editerror' => 'Error message when modifying a prefix has failed.',
 	'interwiki_logpagename' => 'Part of the interwiki extension. This message is shown as page title on Special:Log/interwiki.',
-	'interwiki_log_added' => 'Shows up in "Special:Log/interwiki" when someone has added a prefix. Leave parameters and text between brackets exactly as it is. (This message is preceded by the username who added it.)',
-	'interwiki_log_edited' => 'Shows up in "Special:Log/interwiki" when someone has modified a prefix. Leave parameters and text between brackets exactly as it is. (This message is preceded by the username of the user who modified it.)',
-	'interwiki_log_deleted' => 'Shows up in "Special:Log/interwiki" when someone removed a prefix. This message is preceded by the username of the user who deleted it.',
+	'logentry-interwiki-iw_add' => 'Shows up in "Special:Log/interwiki" when someone has added a prefix. Leave parameters and text between brackets exactly as it is. $1 is the username of the user who added it.',
+	'logentry-interwiki-iw_edit' => 'Shows up in "Special:Log/interwiki" when someone has modified a prefix. Leave parameters and text between brackets exactly as it is. $1 the username of the user who modified it.',
+	'logentry-interwiki-iw_delete' => 'Shows up in "Special:Log/interwiki" when someone removed a prefix. $1 is the username of the user who deleted it.',
 	'interwiki_logpagetext' => 'Part of the interwiki extension. Summary shown on Special:Log/interwiki.',
 	'right-interwiki' => '{{doc-right}}',
 	'action-interwiki' => '{{doc-action}}',
