@@ -105,6 +105,7 @@ Possibly it does not exist.',
  * @author Raymond
  * @author SPQRobin
  * @author Siebrand
+ * @author Umherirrender
  */
 $messages['qqq'] = array(
 	'interwiki' => 'This message is the title of the special page [[Special:Interwiki]].',
@@ -170,8 +171,8 @@ Parameter $1 contains the following (a link): [http://www.mediawiki.org/wiki/Man
 * $2 is the username usable for GENDER
 * $4 is the prefix',
 	'interwiki_logpagetext' => 'Part of the interwiki extension. Summary shown on Special:Log/interwiki.',
-	'right-interwiki' => '{{doc-right}}',
-	'action-interwiki' => '{{doc-action}}',
+	'right-interwiki' => '{{doc-right|interwiki}}',
+	'action-interwiki' => '{{doc-action|interwiki}}',
 );
 
 /** Niuean (ko e vagahau Niuē)
@@ -2448,7 +2449,7 @@ Méiglecherweis gëtt et en net.',
 	'interwiki-badprefix' => 'Den Interwiki-Prefix "$1" huet net valabel Buchstawen',
 	'interwiki-submit-empty' => "De Prefix an d'URL kënnen net eidel sinn.",
 	'interwiki_logpagename' => 'Lëscht mat der Interwikitabell',
-	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|huet}} de Prefix "4" ($5) (trans: $6; local: $7) an d\'Interwikitabell derbäigesat',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|huet}} de Prefix "$4" ($5) (trans: $6; local: $7) an d\'Interwikitabell derbäigesat',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|huet}} de Prefix „$4“ ($5) (trans: $6; local: $7) an der Interwikitabell geännert',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|huet}} de Präfix "$4" aus der Interwikitabell erausgeholl',
 	'interwiki_logpagetext' => 'Dëst ass eng Lëscht mat den Ännerunge vun der [[Special:Interwiki|Interwikitabell]].',
@@ -3613,7 +3614,7 @@ Morda ne obstaja.',
 	'action-interwiki' => 'spreminjanje tega vnosa interwikija',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Жељко Тодоровић
@@ -3627,6 +3628,8 @@ $messages['sr-ec'] = array(
 	'interwiki_prefix' => 'Префикс',
 	'interwiki-prefix-label' => 'Префикс:',
 	'interwiki_prefix_intro' => 'Међувики префикс који ће бити коришћен у <code>[<nowiki />[prefix:<i>pagename</i>]]</code> викитекст синтакси.',
+	'interwiki_url' => 'Адреса',
+	'interwiki-url-label' => 'Адреса:',
 	'interwiki_local' => 'Напред',
 	'interwiki-local-label' => 'Напред:',
 	'interwiki_trans_intro' => 'Ако је коришћена викитекст синтакса <code>{<nowiki />{prefix:<i>pagename</i>}}</code>, онда:',
@@ -3654,9 +3657,6 @@ $messages['sr-ec'] = array(
 Вероватно затшо што не постоји.',
 	'interwiki-badprefix' => 'Задати међувики префикс "$1" садржи недозвољене знакове',
 	'interwiki_logpagename' => 'Историја табеле међувикија',
-	'interwiki_log_added' => 'додат префикс "$2" ($3) (транс: $4) (локално: $5) табели међувикија',
-	'interwiki_log_edited' => 'измењен је префикс "$2" : ($3) (транс: $4) (локално: $5) у табели међувикија',
-	'interwiki_log_deleted' => 'префикс "$2" је избрисан из табеле међувикија',
 	'interwiki_logpagetext' => 'Ово је историја измена [[Special:Interwiki|табеле међувикија]].',
 	'right-interwiki' => 'уређивање међувикија',
 );
