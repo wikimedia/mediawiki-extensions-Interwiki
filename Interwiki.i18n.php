@@ -868,10 +868,10 @@ $messages['da'] = array(
 	'interwiki-title-norights' => 'Vis interwikidata',
 	'interwiki_prefix' => 'Præfiks',
 	'interwiki-prefix-label' => 'Præfiks:',
-	'interwiki_local' => '(local)',
-	'interwiki-local-label' => '(local):',
-	'interwiki_trans' => '(trans)',
-	'interwiki-trans-label' => '(trans):',
+	'interwiki_local' => 'Videresend',
+	'interwiki-local-label' => 'Videresend:',
+	'interwiki_trans' => 'Transkluder',
+	'interwiki-trans-label' => 'Transkluder:',
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nej',
 	'interwiki_error' => 'Fejl: Interwikitabellen er tom eller noget andet gik galt.',
@@ -1497,6 +1497,7 @@ $messages['grc'] = array(
 );
 
 /** Swiss German (Alemannisch)
+ * @author Als-Chlämens
  * @author Als-Holder
  */
 $messages['gsw'] = array(
@@ -1522,6 +1523,7 @@ $messages['gsw'] = array(
 	'interwiki_1' => 'jo',
 	'interwiki_0' => 'nei',
 	'interwiki_error' => 'Fähler: D Interwiki-Tabälle isch läär.',
+	'interwiki-cached' => 'D Interwikidatenwurden im Cache uffgno worde. D Date im Cache z ändre isch nit mögli.',
 	'interwiki_edit' => 'Bearbeite',
 	'interwiki_reasonfield' => 'Grund:',
 	'interwiki_delquestion' => 'Lescht „$1“',
@@ -1540,10 +1542,11 @@ Gib Acht, ass des Gleicher cha uugiltig mache, wu s scho git.',
 	'interwiki_editerror' => 'S Präfix „$1“ cha in dr Interwiki-Tabälle nit gänderet wäre.
 Villicht git s es nit.',
 	'interwiki-badprefix' => 'Im feschtgleite Interwikipräfix „$1“ het s nit giltigi Zeiche din',
+	'interwiki-submit-empty' => 'S Präfix un d URL dürfe nit läär sy.',
 	'interwiki_logpagename' => 'Interwikitabälle-Logbuech',
-	'interwiki_log_added' => 'het „$2“ ($3) (trans: $4) (lokal: $5) dr Interwiki-Tabälle zuegfiegt',
-	'interwiki_log_edited' => 'gändereti Präfix „$2“: ($3) (trans: $4) (lokal: $5) in dr Interwiki-Tabälle',
-	'interwiki_log_deleted' => 'het „$2“ us dr Interwiki-Tabälle usegnuh',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|het}} s Präfix „$4“ ($5) (trans: $6; local: $7) uff de Interwikitabelle dezuegfiegt',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|het}} s Präfix „$4“ ($5) (trans: $6; local: $7) uff de Interwikitabelle gänderet',
+	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|het}} s Präfix „$4“ uss dr Interwikitabelle ussegno',
 	'interwiki_logpagetext' => 'In däm Logbuech wäre Änderige an dr [[Special:Interwiki|Interwiki-Tabälle]] protokolliert.',
 	'right-interwiki' => 'Interwiki-Tabälle bearbeite',
 	'action-interwiki' => 'Där Interwiki-Yytrag ändere',
