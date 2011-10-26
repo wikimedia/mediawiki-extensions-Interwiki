@@ -1824,6 +1824,7 @@ Petèt li pa ekziste.',
 );
 
 /** Hungarian (Magyar)
+ * @author BáthoryPéter
  * @author Dani
  * @author Glanthor Reviol
  * @author Gondnok
@@ -1851,6 +1852,7 @@ $messages['hu'] = array(
 	'interwiki_1' => 'igen',
 	'interwiki_0' => 'nem',
 	'interwiki_error' => 'Hiba: A wikiközi hivatkozások táblája üres, vagy valami más romlott el.',
+	'interwiki-cached' => 'Az interwiki adatok gyorsítótárazva vannak. A gyorsítótár módosítása nem lehetséges.',
 	'interwiki_edit' => 'Szerkesztés',
 	'interwiki_reasonfield' => 'Indoklás:',
 	'interwiki_delquestion' => '„$1” törlése',
@@ -1869,10 +1871,11 @@ Ne feledd, hogy ez működésképtelenné teheti a már létező hivatkozásokat
 	'interwiki_editerror' => 'A(z) „$1” előtagot nem lehet módosítani a wikiközi hivatkozások táblájában.
 Valószínűleg nem létezik ilyen előtag.',
 	'interwiki-badprefix' => 'A wikiközi hivatkozásnak megadott „$1” előtag érvénytelen karaktereket tartalmaz',
+	'interwiki-submit-empty' => 'Az előtag és az URL nem lehet üres.',
 	'interwiki_logpagename' => 'Interwiki tábla-napló',
-	'interwiki_log_added' => 'hozzáadta a(z) „$2” előtagot ($3) (trans: $4) (local: $5) a wikiközi hivatkozások táblájához',
-	'interwiki_log_edited' => 'módosította a(z) „$2” előtagot : ($3) (trans: $4) (local: $5) a wikiközi hivatkozások táblájában',
-	'interwiki_log_deleted' => 'eltávolította a(z) „$2” előtagot a wikiközi hivatkozások táblájából',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|hozzáadta}} a(z) "$4" előtagot ($5) (trans: $6; helyi: $7) az interwiki táblához',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|módosította}} a(z) "$4" előtagot ($5) (trans: $6; helyi: $7) az interwiki táblában',
+	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|törölte}} a(z) "$4" előtagot az interwiki táblából',
 	'interwiki_logpagetext' => 'Ez az [[Special:Interwiki|interwiki táblában]] történt változások naplója.',
 	'right-interwiki' => 'wikiközi hivatkozások módosítása',
 	'action-interwiki' => 'eme wikiközi bejegyzés megváltoztatása',
