@@ -116,8 +116,14 @@ $messages['qqq'] = array(
 	'interwiki-prefix-label' => 'Used on [[Special:Interwiki]] as a field label in a form.',
 	'interwiki_prefix_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|interwiki_prefix}} column of the table.
 Do translate both words inside the square brackets as placeholders, where "prefix" should be identical to, or clearly linked to, the column header.',
-	'interwiki_url' => 'Used on [[Special:Interwiki]] as a column header of the table.',
-	'interwiki-url-label' => 'Used on [[Special:Interwiki]] as a field label in a form.',
+	'interwiki_url' => '{{optional}}
+Used on [[Special:Interwiki]] as a column header of the table.
+
+See also: {{msg-mw|Interwiki-url-label}}',
+	'interwiki-url-label' => '{{optional}}
+Used on [[Special:Interwiki]] as a field label in a form.
+
+See also: {{msg-mw|interwiki url}}',
 	'interwiki_url_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|interwiki_url}} column of the table.
 
 $1 is being rendered verbatim. It rerfers to the syntax of the values listed in de "prefix" column, and does not mark a substitutible variable of this message.',
