@@ -46,7 +46,7 @@ $messages['en'] = array(
 	'interwiki_trans_intro' => 'If wikitext syntax <code>{<nowiki />{prefix:<i>pagename</i>}}</code> is used, then:',
 	'interwiki_trans_1_intro' => 'allow transclusion from the foreign wiki, if interwiki transclusions are generally permitted in this wiki,',
 	'interwiki_trans_0_intro' => 'do not allow it, rather look for a page in the template namespace.',
-	'interwiki_intro_footer' => 'See [http://www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] for more information about the interwiki table.
+	'interwiki_intro_footer' => 'See [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] for more information about the interwiki table.
 There is a [[Special:Log/interwiki|log of changes]] to the interwiki table.',
 	'interwiki_1' => 'yes',
 	'interwiki_0' => 'no',
