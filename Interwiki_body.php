@@ -167,6 +167,8 @@ class SpecialInterwiki extends SpecialPage {
 	}
 
 	function doSubmit() {
+		global $wgContLang;
+
 		$request = $this->getRequest();
 		$prefix = $request->getVal( 'wpInterwikiPrefix' );
 		$do = $request->getVal( 'wpInterwikiAction' );
@@ -192,8 +194,9 @@ class SpecialInterwiki extends SpecialPage {
 				$log->addEntry( 'iw_delete', $selfTitle, $reason, array( $prefix ) );
 			}
 			break;
-		case 'edit':
 		case 'add':
+			$prefix = $wgContLang->lc( $prefix );
+		case 'edit':
 			$theurl = $request->getVal( 'wpInterwikiURL' );
 			$local = $request->getCheck( 'wpInterwikiLocal' ) ? 1 : 0;
 			$trans = $request->getCheck( 'wpInterwikiTrans' ) ? 1 : 0;
