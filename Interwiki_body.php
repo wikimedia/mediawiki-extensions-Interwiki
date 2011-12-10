@@ -243,8 +243,8 @@ class SpecialInterwiki extends SpecialPage {
 				self::addInfoRow( 'end', 'interwiki_0', 'interwiki_local_0_intro' ) .
 				self::addInfoRow( 'end', 'interwiki_1', 'interwiki_local_1_intro' ) .
 				self::addInfoRow( 'start', 'interwiki_trans', 'interwiki_trans_intro' ) .
-				self::addInfoRow( 'end', 'interwiki_0', 'interwiki_local_0_intro' ) .
-				self::addInfoRow( 'end', 'interwiki_1', 'interwiki_local_1_intro' )
+				self::addInfoRow( 'end', 'interwiki_0', 'interwiki_trans_0_intro' ) .
+				self::addInfoRow( 'end', 'interwiki_1', 'interwiki_trans_1_intro' )
 			) . "\n"
 		);
 		$this->getOutput()->addWikiMsg( 'interwiki_intro_footer' );
