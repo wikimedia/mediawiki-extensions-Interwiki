@@ -27,7 +27,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'SpecialInterwiki',
 	'author' => array( 'Stephanie Amanda Stevens', 'SPQRobin', '...' ),
 	'version' => '2.0',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:SpecialInterwiki',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:SpecialInterwiki',
 	'descriptionmsg' => 'interwiki-desc',
 );
 
