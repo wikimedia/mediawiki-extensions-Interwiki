@@ -40,7 +40,7 @@ $wgResourceModules['SpecialInterwiki'] = array(
 // Set up the new special page
 $dir = dirname( __FILE__ ) . '/';
 $wgExtensionMessagesFiles['Interwiki'] = $dir . 'Interwiki.i18n.php';
-$wgExtensionAliasesFiles['Interwiki'] = $dir . 'Interwiki.alias.php';
+$wgExtensionMessagesFiles['InterwikiAlias'] = $dir . 'Interwiki.alias.php';
 $wgAutoloadClasses['SpecialInterwiki'] = $dir . 'Interwiki_body.php';
 $wgSpecialPages['Interwiki'] = 'SpecialInterwiki';
 $wgSpecialPageGroups['Interwiki'] = 'wiki';
