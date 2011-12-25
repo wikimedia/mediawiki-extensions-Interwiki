@@ -63,6 +63,11 @@ $specialPageAliases['gag'] = array(
 	'Interwiki' => array( 'İnterviki' ),
 );
 
+/** Galician (Galego) */
+$specialPageAliases['gl'] = array(
+	'Interwiki' => array( 'Interwikis' ),
+);
+
 /** Hebrew (עברית) */
 $specialPageAliases['he'] = array(
 	'Interwiki' => array( 'בינוויקי' ),
@@ -138,7 +143,7 @@ $specialPageAliases['pt'] = array(
 	'Interwiki' => array( 'Interwikis' ),
 );
 
-/** Sanskrit (संस्कृत) */
+/** Sanskrit (संस्कृतम्) */
 $specialPageAliases['sa'] = array(
 	'Interwiki' => array( 'आंन्तरविकि' ),
 );
@@ -182,8 +187,3 @@ $specialPageAliases['yue'] = array(
 $specialPageAliases['zh-hant'] = array(
 	'Interwiki' => array( '跨維基連結' ),
 );
-
-/**
- * For backwards compatibility with MediaWiki 1.15 and earlier.
- */
-$aliases =& $specialPageAliases;
