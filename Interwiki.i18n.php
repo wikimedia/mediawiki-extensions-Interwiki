@@ -2887,7 +2887,7 @@ Kanskje finst det ikkje.',
  * @author Nghtwlkr
  * @author Purodha
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'interwiki' => 'Vis og manipuler interwikidata',
 	'interwiki-title-norights' => 'Vis interwikidata',
 	'interwiki-desc' => 'Legger til en [[Special:Interwiki|spesialside]] som gjør at man kan se og redigere interwiki-tabellen.',
