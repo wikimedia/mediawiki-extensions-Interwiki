@@ -2738,6 +2738,57 @@ $messages['nah'] = array(
 	'interwiki_addbutton' => 'Ticcētilīz',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ * @author Nghtwlkr
+ * @author Purodha
+ */
+$messages['nb'] = array(
+	'interwiki' => 'Vis og manipuler interwikidata',
+	'interwiki-title-norights' => 'Vis interwikidata',
+	'interwiki-desc' => 'Legger til en [[Special:Interwiki|spesialside]] som gjør at man kan se og redigere interwiki-tabellen.',
+	'interwiki_intro' => 'Dette er en oversikt over interwikitabellen. Betydningene til dataene i kolonnene:',
+	'interwiki_prefix' => 'Prefiks',
+	'interwiki-prefix-label' => 'Prefiks:',
+	'interwiki_prefix_intro' => 'Interwikiprefiks som skal brukes i <code>[<nowiki />[prefiks:<i>sidenavn</i>]]</code>-wikisyntaks.',
+	'interwiki_url_intro' => 'Mal for internettadresser. Variabelen $1 vil bli erstattet av <i>sidenavnet</i> i wikiteksten når wikisyntaksen ovenfor blir brukt.',
+	'interwiki_local' => 'Videresend',
+	'interwiki-local-label' => 'Videresend:',
+	'interwiki_local_intro' => 'En HTTP-forespørsel til den lokale wikien med dette interwikiprefikset i internettadressen er:',
+	'interwiki_local_0_intro' => 'ikke fulgt, vanligvis blokkert av «siden ble ikke funnet»,',
+	'interwiki_local_1_intro' => 'omdirigert til målnettadressen gitt i interwikilenkedefinisjonene (med andre ord behandlet som referanser på lokale sider)',
+	'interwiki_trans' => 'Transkluder',
+	'interwiki-trans-label' => 'Transkluder:',
+	'interwiki_trans_intro' => 'Dersom wikisyntaksen <code>{<nowiki />{prefiks:<i>sidenavn</i>}}</code> blir brukt, så:',
+	'interwiki_trans_1_intro' => 'tillat transklusjon fra en fremmed wiki, om interwikitranskluderinger generellt er tillatt på denne wikien,',
+	'interwiki_trans_0_intro' => 'ikke tillat det, se heller etter en side i malnavnerommet.',
+	'interwiki_intro_footer' => 'Se [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] for mer informasjon om interwikitabellen.
+Det finnes en [[Special:Log/interwiki|endringslogg]] for interwikitabellen.',
+	'interwiki_1' => 'ja',
+	'interwiki_0' => 'nei',
+	'interwiki_error' => 'FEIL: Interwikitabellen er tom, eller noe gikk gærent.',
+	'interwiki_edit' => 'Rediger',
+	'interwiki_reasonfield' => 'Årsak:',
+	'interwiki_delquestion' => 'Sletter «$1»',
+	'interwiki_deleting' => 'Du sletter prefikset «$1».',
+	'interwiki_deleted' => 'Prefikset «$1» ble fjernet fra interwikitabellen.',
+	'interwiki_delfailed' => 'Prefikset «$1» kunne ikke fjernes fra interwikitabellen.',
+	'interwiki_addtext' => 'Legg til et interwikiprefiks.',
+	'interwiki_addintro' => 'Du legger til et nytt interwikiprefiks. Husk at det ikke kan inneholde mellomrom ( ), kolon (:), &-tegn eller likhetstegn (=).',
+	'interwiki_addbutton' => 'Legg til',
+	'interwiki_added' => 'Prefikset «$1» ble lagt til i interwikitabellen.',
+	'interwiki_addfailed' => 'Prefikset «$1» kunne ikke legges til i interwikitabellen. Det er kanskje brukt der fra før.',
+	'interwiki_edittext' => 'Redigerer et interwikiprefiks',
+	'interwiki_editintro' => 'Du redigerer et interwikiprefiks. Merk at dette kan ødelegge eksisterende lenker.',
+	'interwiki_edited' => 'Prefikset «$1» ble endret i interwikitabellen.',
+	'interwiki_editerror' => 'Prefikset «$1» kan ikke endres i interwikitabellen. Det finnes muligens ikke.',
+	'interwiki-badprefix' => 'Det oppgitte interwikiprefikset «$1» innholder ugyldige tegn',
+	'interwiki_logpagename' => 'Interwikitabellogg',
+	'interwiki_logpagetext' => 'Dette er en logg over endringer i [[Special:Interwiki|interwikitabellen]].',
+	'right-interwiki' => 'Redigere interwikidata',
+	'action-interwiki' => 'endre dette interwikielementet',
+);
+
 /** Low German (Plattdüütsch)
  * @author Purodha
  * @author Slomox
@@ -2880,57 +2931,6 @@ Kanskje finst det ikkje.',
 	'interwiki_logpagetext' => 'Dette er ein logg over endringar i [[Special:Interwiki|interwikitabellen]].',
 	'right-interwiki' => 'Endra interwikidata',
 	'action-interwiki' => 'endra dette interwikielementet',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- * @author Nghtwlkr
- * @author Purodha
- */
-$messages['nb'] = array(
-	'interwiki' => 'Vis og manipuler interwikidata',
-	'interwiki-title-norights' => 'Vis interwikidata',
-	'interwiki-desc' => 'Legger til en [[Special:Interwiki|spesialside]] som gjør at man kan se og redigere interwiki-tabellen.',
-	'interwiki_intro' => 'Dette er en oversikt over interwikitabellen. Betydningene til dataene i kolonnene:',
-	'interwiki_prefix' => 'Prefiks',
-	'interwiki-prefix-label' => 'Prefiks:',
-	'interwiki_prefix_intro' => 'Interwikiprefiks som skal brukes i <code>[<nowiki />[prefiks:<i>sidenavn</i>]]</code>-wikisyntaks.',
-	'interwiki_url_intro' => 'Mal for internettadresser. Variabelen $1 vil bli erstattet av <i>sidenavnet</i> i wikiteksten når wikisyntaksen ovenfor blir brukt.',
-	'interwiki_local' => 'Videresend',
-	'interwiki-local-label' => 'Videresend:',
-	'interwiki_local_intro' => 'En HTTP-forespørsel til den lokale wikien med dette interwikiprefikset i internettadressen er:',
-	'interwiki_local_0_intro' => 'ikke fulgt, vanligvis blokkert av «siden ble ikke funnet»,',
-	'interwiki_local_1_intro' => 'omdirigert til målnettadressen gitt i interwikilenkedefinisjonene (med andre ord behandlet som referanser på lokale sider)',
-	'interwiki_trans' => 'Transkluder',
-	'interwiki-trans-label' => 'Transkluder:',
-	'interwiki_trans_intro' => 'Dersom wikisyntaksen <code>{<nowiki />{prefiks:<i>sidenavn</i>}}</code> blir brukt, så:',
-	'interwiki_trans_1_intro' => 'tillat transklusjon fra en fremmed wiki, om interwikitranskluderinger generellt er tillatt på denne wikien,',
-	'interwiki_trans_0_intro' => 'ikke tillat det, se heller etter en side i malnavnerommet.',
-	'interwiki_intro_footer' => 'Se [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] for mer informasjon om interwikitabellen.
-Det finnes en [[Special:Log/interwiki|endringslogg]] for interwikitabellen.',
-	'interwiki_1' => 'ja',
-	'interwiki_0' => 'nei',
-	'interwiki_error' => 'FEIL: Interwikitabellen er tom, eller noe gikk gærent.',
-	'interwiki_edit' => 'Rediger',
-	'interwiki_reasonfield' => 'Årsak:',
-	'interwiki_delquestion' => 'Sletter «$1»',
-	'interwiki_deleting' => 'Du sletter prefikset «$1».',
-	'interwiki_deleted' => 'Prefikset «$1» ble fjernet fra interwikitabellen.',
-	'interwiki_delfailed' => 'Prefikset «$1» kunne ikke fjernes fra interwikitabellen.',
-	'interwiki_addtext' => 'Legg til et interwikiprefiks.',
-	'interwiki_addintro' => 'Du legger til et nytt interwikiprefiks. Husk at det ikke kan inneholde mellomrom ( ), kolon (:), &-tegn eller likhetstegn (=).',
-	'interwiki_addbutton' => 'Legg til',
-	'interwiki_added' => 'Prefikset «$1» ble lagt til i interwikitabellen.',
-	'interwiki_addfailed' => 'Prefikset «$1» kunne ikke legges til i interwikitabellen. Det er kanskje brukt der fra før.',
-	'interwiki_edittext' => 'Redigerer et interwikiprefiks',
-	'interwiki_editintro' => 'Du redigerer et interwikiprefiks. Merk at dette kan ødelegge eksisterende lenker.',
-	'interwiki_edited' => 'Prefikset «$1» ble endret i interwikitabellen.',
-	'interwiki_editerror' => 'Prefikset «$1» kan ikke endres i interwikitabellen. Det finnes muligens ikke.',
-	'interwiki-badprefix' => 'Det oppgitte interwikiprefikset «$1» innholder ugyldige tegn',
-	'interwiki_logpagename' => 'Interwikitabellogg',
-	'interwiki_logpagetext' => 'Dette er en logg over endringer i [[Special:Interwiki|interwikitabellen]].',
-	'right-interwiki' => 'Redigere interwikidata',
-	'action-interwiki' => 'endre dette interwikielementet',
 );
 
 /** Novial (Novial)
