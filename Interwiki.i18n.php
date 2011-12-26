@@ -2999,6 +2999,18 @@ Benlèu i existís ja.',
 	'action-interwiki' => 'modificar aquesta entrada interwiki',
 );
 
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'interwiki_1' => 'ହଁ',
+	'interwiki_0' => 'ନା',
+	'interwiki_edit' => 'ବଦଳ',
+	'interwiki_reasonfield' => 'କାରଣ:',
+	'interwiki_delquestion' => '"$1"କୁ ଲିଭାଉଛି',
+	'interwiki_deleting' => 'ଆପଣ "$1"ର ପୂର୍ବକୁ ବଦଳାଉଛନ୍ତି',
+);
+
 /** Ossetic (Ирон)
  * @author Amikeco
  */
