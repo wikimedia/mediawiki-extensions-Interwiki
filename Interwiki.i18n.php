@@ -996,6 +996,16 @@ $messages['de-formal'] = array(
 Beachten Sie, dass dies bereits vorhandene Links ungültig machen kann.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'interwiki_prefix' => 'Werqare',
+	'interwiki_local' => 'Hetana fi',
+	'interwiki_trans' => 'Temase fi',
+	'interwiki-trans-label' => 'Temase fi',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
