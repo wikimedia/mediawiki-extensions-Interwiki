@@ -638,6 +638,7 @@ Ur [[Special:Log/interwiki|marilh ar c'hemmoù]] zo e taolenn an etrewiki.",
 	'interwiki_1' => 'ya',
 	'interwiki_0' => 'ket',
 	'interwiki_error' => 'Fazi : goullo eo taolenn an etrewiki, pe un dra bennak all zo aet a-dreuz.',
+	'interwiki-cached' => "Krubuilhet eo an etrewiki-mañ. N'haller ket kemmañ ar grubuilh.",
 	'interwiki_edit' => 'Aozañ',
 	'interwiki_reasonfield' => 'Abeg :',
 	'interwiki_delquestion' => 'O tilemel « $1 »',
@@ -658,7 +659,11 @@ Ho pezet soñj e c'hall an dra-se terriñ liammoù zo anezho dija.",
 	'interwiki_editerror' => 'N\'hall ket ar rakger "$1" bezañ kemmet e taolenn an etrewiki.
 Marteze n\'eus ket anezhañ.',
 	'interwiki-badprefix' => 'Arouezennoù direizh zo er rakger etrewiki spisaet "$1',
+	'interwiki-submit-empty' => "N'hall ket ar rakger hag an URL bezañ goullo.",
 	'interwiki_logpagename' => 'Deizlevr taolenn an etrewiki',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|en deus|he deus}} ouzhpennet ar rakger "$4" ($5) (treuz: $6; lec\'hel: $7) d\'an daolenn etrewiki',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|en deus|he deus}} kemmet ar rakger "$4" ($5) (treuz: $6; lec\'hel: $7) en daolenn etrewiki',
+	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|en deus|he deus}} tennet ar rakger "$4" diwar an daolenn etrewiki',
 	'interwiki_logpagetext' => "Ur marilh eus ar c'hemmoù e [[Special:Interwiki|taolenn an etrewiki]] eo.",
 	'right-interwiki' => 'Kemmañ ar roadennoù etrewiki',
 	'action-interwiki' => 'kemmañ ar moned etrewiki-mañ',
@@ -3794,6 +3799,15 @@ $messages['szl'] = array(
 $messages['ta'] = array(
 	'interwiki_addbutton' => 'சேர்',
 	'right-interwiki' => 'விக்கியிடைப் பரிமாற்றத் தரவுகளைத் தொகு',
+);
+
+/** Tulu (ತುಳು)
+ * @author VASANTH S.N.
+ */
+$messages['tcy'] = array(
+	'interwiki_edit' => 'ತಿದ್ದ್‘ಲೆ',
+	'interwiki_reasonfield' => 'ಕಾರಣ',
+	'interwiki_addbutton' => 'ಸೇರಾಲೆ',
 );
 
 /** Telugu (తెలుగు)
