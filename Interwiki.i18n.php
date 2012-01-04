@@ -505,6 +505,7 @@ $messages['be'] = array(
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
+ * @author Wizardist
  */
 $messages['be-tarask'] = array(
 	'interwiki' => 'Прагляд і рэдагаваньне зьвестак пра інтэрвікі',
@@ -553,6 +554,9 @@ $messages['be-tarask'] = array(
 	'interwiki-badprefix' => 'Пазначаны прэфікс інтэрвікі «$1» утрымлівае няслушныя сымбалі',
 	'interwiki-submit-empty' => 'Прэфікс і URL-адрас ня могуць быць пустымі.',
 	'interwiki_logpagename' => 'Журнал зьменаў табліцы інтэрвікі',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|дадаў|дадала}} прэфікс «$4» ($5) (trans: $6; local: $7) у інтэрвікі-табліцу',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|зьмяніў|зьмяніла}} прэфікс «$4» ($5) (trans: $6; local: $7) у інтэрвікі-табліцы',
+	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|выдаліў|выдаліла}} прэфікс «$4» з інтэрвікі-табліцы',
 	'interwiki_logpagetext' => 'Гэта журнал зьменаў [[Special:Interwiki|табліцы інтэрвікі]].',
 	'right-interwiki' => 'Рэдагаваньне зьвестак інтэрвікі',
 	'action-interwiki' => 'зьмяніць гэты элемэнт інтэрвікі',
