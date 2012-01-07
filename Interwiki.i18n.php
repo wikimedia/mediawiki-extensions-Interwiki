@@ -3163,6 +3163,9 @@ A peul esse che a esista pa.',
 	'interwiki-badprefix' => 'Ël prefiss antërwiki specificà "$1" a conten caràter pa bon.',
 	'interwiki-submit-empty' => "Ël prefiss e l'anliura a peulo pa esse veuid.",
 	'interwiki_logpagename' => 'Registr tàula antërwiki',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|giontà}} prefiss "$4" ($5) (trans: $6; local: $7) a la tàula antërwiki',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|modificà}} prefiss "$4" ($5) (trans: $6; local: $7) ant la tàula antërwiki',
+	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|gavà}} prefiss "$4" da la tàula antërwiki',
 	'interwiki_logpagetext' => "Cost-sì a l'é un registr dij cambi a la [[Special:Interwiki|tàula antërwiki]].",
 	'right-interwiki' => 'Modìfica dat antërwiki',
 	'action-interwiki' => 'cambia sto dat antërwiki-sì',
@@ -4267,6 +4270,7 @@ $messages['yue'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Gaoxuewei
+ * @author Hzy980512
  * @author Liangent
  * @author Mark85296341
  * @author PhiLiP
@@ -4289,6 +4293,7 @@ $messages['zh-hans'] = array(
 	'interwiki_1' => '是',
 	'interwiki_0' => '否',
 	'interwiki_error' => '错误: 跨维基连结表为空，或是发生其它错误。',
+	'interwiki-cached' => '跨维基数据已缓存。缓存不能编辑。',
 	'interwiki_edit' => '编辑',
 	'interwiki_reasonfield' => '原因：',
 	'interwiki_delquestion' => '正在删除"$1"',
@@ -4309,6 +4314,7 @@ $messages['zh-hans'] = array(
 	'interwiki_editerror' => '前缀 "$1" 不能在跨维基连结表中修改。
 可能它并不存在。',
 	'interwiki-badprefix' => '所指定的跨维基前缀 "$1" 含有无效的字母',
+	'interwiki-submit-empty' => '前缀和URL不能留空。',
 	'interwiki_logpagename' => '跨维基连结修改日志',
 	'interwiki_logpagetext' => '这是一个[[Special:Interwiki|跨维基连结]]修改的日志。',
 	'right-interwiki' => '修改跨维基资料',
