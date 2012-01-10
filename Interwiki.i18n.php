@@ -4227,6 +4227,7 @@ $messages['wuu'] = array(
 $messages['yi'] = array(
 	'interwiki_prefix' => 'פרעפֿיקס',
 	'interwiki-prefix-label' => 'פרעפֿיקס:',
+	'interwiki_local' => 'איבערפֿירן',
 	'interwiki_1' => 'יא',
 	'interwiki_0' => 'ניין',
 	'interwiki_edit' => 'רעדאַקטירן',
