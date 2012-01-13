@@ -24,10 +24,10 @@ if( !defined( 'MEDIAWIKI' ) ){
 // Extension credits for Special:Version
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
-	'name' => 'SpecialInterwiki',
+	'name' => 'Interwiki',
 	'author' => array( 'Stephanie Amanda Stevens', 'SPQRobin', '...' ),
 	'version' => '2.0',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:SpecialInterwiki',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:Interwiki',
 	'descriptionmsg' => 'interwiki-desc',
 );
 
