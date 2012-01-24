@@ -3347,6 +3347,7 @@ $messages['roa-tara'] = array(
  * @author Grigol
  * @author Illusion
  * @author Innv
+ * @author KPu3uC B Poccuu
  * @author Lockal
  * @author Александр Сигачёв
  */
@@ -3397,7 +3398,7 @@ $messages['ru'] = array(
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|изменил|изменила}} префикс «$4» ($5) (trans: $6; local: $7) в интервики-таблице',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|удалил|удалила}} префикс «$4» из интервики-таблицы',
 	'interwiki_logpagetext' => 'Это журнал изменений [[Special:Interwiki|таблицы интервики]].',
-	'right-interwiki' => 'правка интервики',
+	'right-interwiki' => 'правка таблицы интервики',
 	'action-interwiki' => 'изменение записи интервики',
 );
 
