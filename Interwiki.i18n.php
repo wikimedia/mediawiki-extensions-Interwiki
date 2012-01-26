@@ -1472,7 +1472,8 @@ Ademais, existe un [[Special:Log/interwiki|rexistro dos cambios]] realizados á 
 	'interwiki_addintro' => 'Está engadindo un novo prefixo interwiki. Recorde que non pode conter espazos ( ), dous puntos (:), símbolos de unión (&) ou signos de igual (=).',
 	'interwiki_addbutton' => 'Engadir',
 	'interwiki_added' => 'Engadiuse sen problemas o prefixo "$1" á táboa de interwikis.',
-	'interwiki_addfailed' => 'Non se puido engadir o prefixo "$1" á táboa de interwikis. Posibelmente xa existe na táboa de interwikis.',
+	'interwiki_addfailed' => 'Non se puido engadir o prefixo "$1" á táboa de interwikis.
+Posiblemente xa existe na táboa de interwikis.',
 	'interwiki_edittext' => 'Editando un prefixo interwiki',
 	'interwiki_editintro' => 'Está editando un prefixo interwiki. Lembre que isto pode quebrar ligazóns existentes.',
 	'interwiki_edited' => 'O prefixo "$1" foi modificado con éxito na táboa de interwikis.',
