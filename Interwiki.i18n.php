@@ -4293,6 +4293,7 @@ $messages['zh-hans'] = array(
 	'interwiki-local-label' => '转发：',
 	'interwiki_trans' => '包含',
 	'interwiki-trans-label' => '包含：',
+	'interwiki_intro_footer' => '关于跨维基表的详细信息，请参阅[//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org]。这里有一个跨维基列表的更改[[Special:Log/interwiki|日志]]。',
 	'interwiki_1' => '是',
 	'interwiki_0' => '否',
 	'interwiki_error' => '错误: 跨维基连结表为空，或是发生其它错误。',
