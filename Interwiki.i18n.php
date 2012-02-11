@@ -4330,6 +4330,7 @@ $messages['zh-hans'] = array(
  * @author Horacewai2
  * @author Liangent
  * @author Mark85296341
+ * @author Oapbtommy
  * @author Waihorace
  * @author Wrightbus
  */
@@ -4357,7 +4358,7 @@ $messages['zh-hant'] = array(
 	'interwiki_addtext' => '新增一個跨維基前綴',
 	'interwiki_addintro' => '您現在加入一個新的跨維基連結前綴。
 要記住它不可以包含空格 （ ）、冒號 （:）、連字號 （&），或者是等號 （=）。',
-	'interwiki_addbutton' => '加入',
+	'interwiki_addbutton' => '新增',
 	'interwiki_added' => '前綴「$1」已經成功地加入到跨維基連結表。',
 	'interwiki_addfailed' => '前綴「$1」不能加入到跨維基連結表。
 可能已經在跨維基連結表中存在。',
