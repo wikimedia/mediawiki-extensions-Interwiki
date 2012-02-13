@@ -1007,12 +1007,14 @@ Beachten Sie, dass dies bereits vorhandene Links ungültig machen kann.',
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'interwiki_prefix' => 'Werqare',
 	'interwiki_local' => 'Hetana fi',
 	'interwiki_trans' => 'Temase fi',
 	'interwiki-trans-label' => 'Temase fi',
+	'interwiki_edit' => 'Bıvurne',
 );
 
 /** Lower Sorbian (Dolnoserbski)
