@@ -1163,6 +1163,7 @@ Verŝajne ĝi ne ekzistas.',
 );
 
 /** Spanish (Español)
+ * @author Armando-Martin
  * @author Crazymadlover
  * @author Imre
  * @author Locos epraix
@@ -1195,6 +1196,7 @@ Hay un [[Special:Log/interwiki|registro de cambios]] a esta tabla de interwiki.'
 	'interwiki_1' => 'Sí',
 	'interwiki_0' => 'no',
 	'interwiki_error' => 'Error: La tabla de interwikis está vacía, u otra cosa salió mal.',
+	'interwiki-cached' => 'Los datos de los interwikis se almacenan en la memoria caché. No es posible modificar la caché.',
 	'interwiki_edit' => 'Editar',
 	'interwiki_reasonfield' => 'Motivo:',
 	'interwiki_delquestion' => 'Borrando «$1»',
@@ -1215,7 +1217,11 @@ Recuerda que esto puede romper enlaces existentes.',
 	'interwiki_editerror' => 'El prefijo «$1» no puede ser modificado en la tabla de interwikis.
 Posiblemente no exista.',
 	'interwiki-badprefix' => 'El prefijo interwiki especificado «$1» contiene caracteres no válidos',
+	'interwiki-submit-empty' => 'El prefijo y la dirección URL no pueden estar vacías.',
 	'interwiki_logpagename' => 'Tabla de registro de interwiki',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|añadió}} el prefijo "$4" ($5) (trans: $6; local: $7) a la tabla interwiki',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|modificó}} el prefijo " $4 " ( $5 ) (trans:  $6 ; local:  $7 ) en la tabla interwiki',
+	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|eliminó}} el prefijo "$4" de la tabla interwiki',
 	'interwiki_logpagetext' => 'Este es un registro de los cambios hechos a la [[Special:Interwiki|tabla interwiki]].',
 	'right-interwiki' => 'Editar datos de interwiki',
 	'action-interwiki' => 'cambiar esta entrada interwiki',
