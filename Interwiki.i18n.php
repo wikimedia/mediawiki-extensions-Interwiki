@@ -4038,6 +4038,7 @@ $messages['tt-cyrl'] = array(
  * @author Hypers
  * @author Microcell
  * @author Prima klasy4na
+ * @author Vox
  */
 $messages['uk'] = array(
 	'interwiki' => 'Перегляд і редагування даних інтервікі',
@@ -4063,6 +4064,7 @@ $messages['uk'] = array(
 	'interwiki_1' => 'так',
 	'interwiki_0' => 'ні',
 	'interwiki_error' => 'Помилка: таблиця інтервікі порожня або щось іще пішло не так.',
+	'interwiki-cached' => 'Дані інтервікі взято з кешу. Зміни кешу неможливі.',
 	'interwiki_edit' => 'Редагувати',
 	'interwiki_reasonfield' => 'Причина:',
 	'interwiki_delquestion' => 'Вилучення "$1"',
@@ -4083,8 +4085,11 @@ $messages['uk'] = array(
 	'interwiki_editerror' => 'Префікс "$1" не може бути змінений в таблиці інтервікі.
 Можливо, його не існує.',
 	'interwiki-badprefix' => 'Зазначений інтервікі-префікс "$1" містить неприпустимі символи',
+	'interwiki-submit-empty' => 'Префікс і URL-адреса не можуть бути порожніми.',
 	'interwiki_logpagename' => 'Журнал таблиці інтервікі',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|змінив|змінила}} префікс «$4» ($5) (trans: $6; local: $7) в таблиці інтервікі',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|змінив|змінила}} префікс «$4» ($5) (trans: $6; local: $7) в таблиці інтервікі',
+	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|вилучив|вилучила}} префікс «$4» з таблиці інтервікі',
 	'interwiki_logpagetext' => 'Це журнал змін [[Special:Interwiki|таблиці інтервікі]].',
 	'right-interwiki' => 'Редагувати дані інтервікі',
 	'action-interwiki' => 'зміну цього запису інтервікі',
