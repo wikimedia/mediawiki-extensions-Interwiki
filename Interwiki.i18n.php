@@ -3086,6 +3086,7 @@ $messages['pfl'] = array(
 );
 
 /** Polish (Polski)
+ * @author BeginaFelicysym
  * @author Leinad
  * @author McMonster
  * @author Sp5uhe
@@ -3136,6 +3137,9 @@ Prawdopodobnie ten prefiks już jest w tableli.',
 	'interwiki-badprefix' => 'Podany przedrostek interwiki „$1” zawiera nieprawidłowe znaki',
 	'interwiki-submit-empty' => 'Przedrostek i adres URL nie mogą być puste.',
 	'interwiki_logpagename' => 'Rejestr tablicy interwiki',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|dodał|dodała}} przedrostek "$4" ($5) (trans: $6; local: $7) do tabeli interwiki',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|zmienił|zmieniła}} przedrostek "$4" ($5) (trans: $6; local: $7) w tabeli interwiki',
+	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|usunął|usunęła}} przedrostek "$4" z tabeli interwiki',
 	'interwiki_logpagetext' => 'Poniżej znajduje się rejestr zmian wykonanych w [[Special:Interwiki|tablicy interwiki]].',
 	'right-interwiki' => 'Edycja danych interwiki',
 	'action-interwiki' => 'zmień ten wpis interwiki',
