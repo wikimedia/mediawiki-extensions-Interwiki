@@ -1590,7 +1590,7 @@ $messages['gsw'] = array(
 	'interwiki_addfailed' => '„$1“ het nit chenne dr Interwiki-Tabälle zuegfiegt wäre.',
 	'interwiki_edittext' => 'Interwiki-Präfix bearbeite',
 	'interwiki_editintro' => 'Du bisch am Ändere vun eme Präfix.
-Gib Acht, ass des Gleicher cha uugiltig mache, wu s scho git.',
+Gib Acht, ass des Links cha uugiltig mache, wu s scho git.',
 	'interwiki_edited' => 'S Präfix „$1“ isch mit Erfolg in dr Interwiki-Tabälle gänderet wore.',
 	'interwiki_editerror' => 'S Präfix „$1“ cha in dr Interwiki-Tabälle nit gänderet wäre.
 Villicht git s es nit.',
