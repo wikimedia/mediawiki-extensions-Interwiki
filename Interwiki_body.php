@@ -167,7 +167,7 @@ class SpecialInterwiki extends SpecialPage {
 	}
 
 	function doSubmit() {
-		global $wgContLang;
+		global $wgContLang, $wgMemc;
 
 		$request = $this->getRequest();
 		$prefix = $request->getVal( 'wpInterwikiPrefix' );
@@ -192,6 +192,7 @@ class SpecialInterwiki extends SpecialPage {
 				$this->getOutput()->addWikiMsg( 'interwiki_deleted', $prefix );
 				$log = new LogPage( 'interwiki' );
 				$log->addEntry( 'iw_delete', $selfTitle, $reason, array( $prefix ) );
+				$wgMemc->delete( wfMemcKey( 'interwiki', $prefix ) );
 			}
 			break;
 		case 'add':
@@ -226,6 +227,7 @@ class SpecialInterwiki extends SpecialPage {
 				$this->getOutput()->addWikiMsg( "interwiki_{$do}ed", $prefix );
 				$log = new LogPage( 'interwiki' );
 				$log->addEntry( 'iw_' . $do, $selfTitle, $reason, array( $prefix, $theurl, $trans, $local ) );
+				$wgMemc->delete( wfMemcKey( 'interwiki', $prefix ) );
 			}
 			break;
 		}	
