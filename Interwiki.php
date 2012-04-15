@@ -7,7 +7,7 @@
  *
  * @file
  * @ingroup Extensions
- * @version 2.0
+ * @version 2.1
  * @author Stephanie Amanda Stevens <phroziac@gmail.com>
  * @author Robin Pepermans (SPQRobin) <robinp.1273@gmail.com>
  * @copyright Copyright © 2005-2007 Stephanie Amanda Stevens
@@ -26,7 +26,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Interwiki',
 	'author' => array( 'Stephanie Amanda Stevens', 'SPQRobin', '...' ),
-	'version' => '2.0',
+	'version' => '2.1 20120415',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Interwiki',
 	'descriptionmsg' => 'interwiki-desc',
 );
