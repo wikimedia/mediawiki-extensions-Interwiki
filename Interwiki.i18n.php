@@ -2073,6 +2073,7 @@ $messages['is'] = array(
 );
 
 /** Italian (Italiano)
+ * @author Beta16
  * @author BrokenArrow
  * @author Cruccone
  * @author Darth Kule
@@ -2103,6 +2104,7 @@ $messages['it'] = array(
 	'interwiki_1' => 'sì',
 	'interwiki_0' => 'no',
 	'interwiki_error' => "ERRORE: La tabella degli interwiki è vuota, o c'è qualche altro errore.",
+	'interwiki-cached' => 'I dati degli interwiki sono memorizzati nella cache. Non è possibile modificare la cache.',
 	'interwiki_edit' => 'Modifica',
 	'interwiki_reasonfield' => 'Motivo:',
 	'interwiki_delquestion' => 'Cancello "$1"',
@@ -2123,7 +2125,11 @@ Ciò può rendere non funzionanti dei collegamenti esistenti.',
 	'interwiki_editerror' => 'Impossibile modificare il prefisso "$1" nella tabella degli interwiki.
 Il prefisso potrebbe essere inesistente.',
 	'interwiki-badprefix' => 'Il prefisso interwiki "$1" specificato contiene caratteri non validi',
+	'interwiki-submit-empty' => "Il prefisso e l'URL non possono essere vuoti.",
 	'interwiki_logpagename' => 'Registro tabella interwiki',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|ha aggiunto}} il prefisso "$4" ($5) (incl: $6; locale: $7) alla tabella degli interwiki',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|ha modificato}} il prefisso "$4" ($5) (incl: $6; locale: $7) nella tabella degli interwiki',
+	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|ha rimosso}} il prefisso "$4" dalla tabella degli interwiki',
 	'interwiki_logpagetext' => 'Registro dei cambiamenti apportati alla [[Special:Interwiki|tabella degli interwiki]].',
 	'right-interwiki' => 'Modifica i dati interwiki',
 	'action-interwiki' => 'modificare questo interwiki',
@@ -2644,8 +2650,8 @@ $messages['mk'] = array(
  * @author Shijualex
  */
 $messages['ml'] = array(
-	'interwiki' => 'ഇന്റർ വിക്കി ഡാറ്റ കാണുകയും തിരുത്തുകയും ചെയ്യുക',
-	'interwiki-title-norights' => 'ഇന്റർ‌വിക്കി ഡാറ്റ കാണുക',
+	'interwiki' => 'അന്തർവിക്കി വിവരങ്ങൾ കാണുകയും തിരുത്തുകയും ചെയ്യുക',
+	'interwiki-title-norights' => 'അന്തർവിക്കി വിവരങ്ങൾ കാണുക',
 	'interwiki_reasonfield' => 'കാരണം:',
 	'interwiki_delquestion' => '"$1" മായ്ച്ചുകൊണ്ടിരിക്കുന്നു',
 	'interwiki_addbutton' => 'ചേർക്കുക',
