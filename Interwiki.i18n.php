@@ -2141,6 +2141,7 @@ Il prefisso potrebbe essere inesistente.',
  * @author Fryed-peach
  * @author Mzm5zbC3
  * @author Schu
+ * @author Shirayuki
  * @author 青子守歌
  */
 $messages['ja'] = array(
@@ -2187,7 +2188,7 @@ $messages['ja'] = array(
 	'interwiki_logpagename' => 'インターウィキ編集記録',
 	'interwiki_logpagetext' => 'これは[[Special:Interwiki|インターウィキテーブル]]の変更記録です。',
 	'right-interwiki' => 'インターウィキデータの編集',
-	'action-interwiki' => 'このインターウィキ項目の変更',
+	'action-interwiki' => 'このインターウィキ項目を変更',
 );
 
 /** Javanese (Basa Jawa)
