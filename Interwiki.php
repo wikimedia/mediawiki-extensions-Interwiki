@@ -37,7 +37,6 @@ $wgExtensionCredits['specialpage'][] = array(
 );
 
 $wgExtensionFunctions[] = 'setupInterwikiExtension';
-$wgAutoloadClasses['InterwikiLogFormatter'] = $dir . 'Interwiki_body.php';
 
 $wgResourceModules['SpecialInterwiki'] = array(
 	'styles' => 'Interwiki.css',
@@ -50,6 +49,7 @@ $dir = dirname( __FILE__ ) . '/';
 $wgExtensionMessagesFiles['Interwiki'] = $dir . 'Interwiki.i18n.php';
 $wgExtensionMessagesFiles['InterwikiAlias'] = $dir . 'Interwiki.alias.php';
 $wgAutoloadClasses['SpecialInterwiki'] = $dir . 'Interwiki_body.php';
+$wgAutoloadClasses['InterwikiLogFormatter'] = $dir . 'Interwiki_body.php';
 $wgSpecialPages['Interwiki'] = 'SpecialInterwiki';
 $wgSpecialPageGroups['Interwiki'] = 'wiki';
 
