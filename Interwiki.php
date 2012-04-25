@@ -26,7 +26,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Interwiki',
 	'author' => array( 'Stephanie Amanda Stevens', 'SPQRobin', 'Siebrand Mazeland', 'Platonides', 'Raimond Spekking', 'Sam Reed', '...' ),
-	'version' => '3.0 20120425',
+	'version' => '2.1 20120425',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Interwiki',
 	'descriptionmsg' => 'interwiki-desc',
 );
