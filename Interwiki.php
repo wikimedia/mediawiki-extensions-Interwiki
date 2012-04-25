@@ -17,7 +17,7 @@
  * Formatting improvements Stephen Kennedy, 2006.
  */
 
-if( !defined( 'MEDIAWIKI' ) ){
+if ( !defined( 'MEDIAWIKI' ) ) {
 	die( "This is not a valid entry point.\n" );
 }
 
@@ -32,9 +32,9 @@ $wgExtensionCredits['specialpage'][] = array(
 );
 
 $wgResourceModules['SpecialInterwiki'] = array(
-		'styles' => 'Interwiki.css',
-		'localBasePath' => dirname( __FILE__ ),
-		'remoteExtPath' => 'Interwiki',
+	'styles' => 'Interwiki.css',
+	'localBasePath' => dirname( __FILE__ ),
+	'remoteExtPath' => 'Interwiki',
 );
 
 // Set up the new special page

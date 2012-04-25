@@ -4,7 +4,6 @@
  * @ingroup SpecialPage
  */
 class SpecialInterwiki extends SpecialPage {
-
 	/**
 	 * Constructor - sets up the new special page
 	 */
@@ -42,15 +41,15 @@ class SpecialInterwiki extends SpecialPage {
 		case 'delete':
 		case 'edit':
 		case 'add':
-			if( $this->canModify( $out ) ) {
+			if ( $this->canModify( $out ) ) {
 				$out->addHTML( $this->showForm( $action ) );
 			}
 			$out->returnToMain( false, $return );
 			break;
 		case 'submit':
-			if( !$this->canModify( $out ) ) {
+			if ( !$this->canModify( $out ) ) {
 				# Error msg added by canModify()
-			} elseif( !$request->wasPosted() || !$this->getUser()->matchEditToken( $request->getVal( 'wpEditToken' ) ) ) {
+			} elseif ( !$request->wasPosted() || !$this->getUser()->matchEditToken( $request->getVal( 'wpEditToken' ) ) ) {
 				// Prevent cross-site request forgeries
 				$out->addWikiMsg( 'sessionfailure' );
 			} else {
@@ -71,17 +70,17 @@ class SpecialInterwiki extends SpecialPage {
 	 */
 	public function canModify( $out = false ) {
 		global $wgInterwikiCache;
-		if( !$this->getUser()->isAllowed( 'interwiki' ) ) {
+		if ( !$this->getUser()->isAllowed( 'interwiki' ) ) {
 			# Check permissions
-			if( $out ) { throw new PermissionsError( 'interwiki' ); }
+			if ( $out ) { throw new PermissionsError( 'interwiki' ); }
 			return false;
-		} elseif( $wgInterwikiCache ) {
+		} elseif ( $wgInterwikiCache ) {
 			# Editing the interwiki cache is not supported
-			if( $out ) { $out->addWikiMsg( 'interwiki-cached' ); }
+			if ( $out ) { $out->addWikiMsg( 'interwiki-cached' ); }
 			return false;
-		} elseif( wfReadOnly() ) {
+		} elseif ( wfReadOnly() ) {
 			# Is the database in read-only mode?
-			if( $out ) { $out->readOnlyPage(); }
+			if ( $out ) { $out->readOnlyPage(); }
 			return false;
 		}
 		return true;
@@ -95,16 +94,16 @@ class SpecialInterwiki extends SpecialPage {
 		$label = array( 'class' => 'mw-label' );
 		$input = array( 'class' => 'mw-input' );
 
-		if( $action == 'delete' ) {
+		if ( $action == 'delete' ) {
 			$topmessage = wfMessage( 'interwiki_delquestion', $prefix )->text();
 			$intromessage = wfMessage( 'interwiki_deleting', $prefix )->text();
 			$wpPrefix = Html::hidden( 'wpInterwikiPrefix', $prefix );
 			$button = 'delete';
 			$formContent = '';
-		} elseif( $action == 'edit' ) {
+		} elseif ( $action == 'edit' ) {
 			$dbr = wfGetDB( DB_SLAVE );
 			$row = $dbr->selectRow( 'interwiki', '*', array( 'iw_prefix' => $prefix ), __METHOD__ );
-			if( !$row ) {
+			if ( !$row ) {
 				$this->error( 'interwiki_editerror', $prefix );
 				return;
 			}
@@ -116,7 +115,7 @@ class SpecialInterwiki extends SpecialPage {
 			$topmessage = wfMessage( 'interwiki_edittext' )->text();
 			$intromessage = wfMessage( 'interwiki_editintro' )->text();
 			$button = 'edit';
-		} elseif( $action == 'add' ) {
+		} elseif ( $action == 'add' ) {
 			$prefix = $request->getVal( 'wpInterwikiPrefix', $request->getVal( 'prefix' ) );
 			$prefix = Xml::input( 'wpInterwikiPrefix', 20, $prefix,
 				array( 'tabindex' => 1, 'id' => 'mw-interwiki-prefix', 'maxlength' => 20 ) );
@@ -128,7 +127,7 @@ class SpecialInterwiki extends SpecialPage {
 			$button = 'interwiki_addbutton';
 		}
 
-		if( $action == 'add' || $action == 'edit' ) {
+		if ( $action == 'add' || $action == 'edit' ) {
 			$formContent = Html::rawElement( 'tr', null,
 				Html::element( 'td', $label, wfMessage( 'interwiki-prefix-label' )->text() ) .
 				Html::rawElement( 'td', null, '<tt>' . $prefix . '</tt>' )
@@ -173,7 +172,7 @@ class SpecialInterwiki extends SpecialPage {
 		$prefix = $request->getVal( 'wpInterwikiPrefix' );
 		$do = $request->getVal( 'wpInterwikiAction' );
 		// show an error if the prefix is invalid (only when adding one)
-		if( preg_match( '/[\s:&=]/', $prefix ) && $do == 'add' ) {
+		if ( preg_match( '/[\s:&=]/', $prefix ) && $do == 'add' ) {
 			$this->error( 'interwiki-badprefix', htmlspecialchars( $prefix ) );
 			$this->showForm( $do );
 			return;
@@ -181,7 +180,7 @@ class SpecialInterwiki extends SpecialPage {
 		$reason = $request->getText( 'wpInterwikiReason' );
 		$selfTitle = $this->getTitle();
 		$dbw = wfGetDB( DB_MASTER );
-		switch( $do ){
+		switch( $do ) {
 		case 'delete':
 			$dbw->delete( 'interwiki', array( 'iw_prefix' => $prefix ), __METHOD__ );
 
@@ -207,20 +206,20 @@ class SpecialInterwiki extends SpecialPage {
 				'iw_local' => $local,
 				'iw_trans' => $trans
 			);
-			
-			if( $prefix == '' || $theurl == '' ) {
+
+			if ( $prefix == '' || $theurl == '' ) {
 				$this->error( 'interwiki-submit-empty' );
 				$this->showForm( $do );
 				return;
 			}
 
-			if( $do == 'add' ){
+			if ( $do == 'add' ) {
 				$dbw->insert( 'interwiki', $data, __METHOD__, 'IGNORE' );
 			} else {
 				$dbw->update( 'interwiki', $data, array( 'iw_prefix' => $prefix ), __METHOD__, 'IGNORE' );
 			}
 
-			if( $dbw->affectedRows() == 0 ) {
+			if ( $dbw->affectedRows() == 0 ) {
 				$this->error( "interwiki_{$do}failed", $prefix );
 				$this->showForm( $do );
 			} else {
@@ -230,7 +229,7 @@ class SpecialInterwiki extends SpecialPage {
 				$wgMemc->delete( wfMemcKey( 'interwiki', $prefix ) );
 			}
 			break;
-		}	
+		}
 	}
 
 	function showList() {
@@ -257,7 +256,7 @@ class SpecialInterwiki extends SpecialPage {
 			$this->getOutput()->addHTML( '<p class="mw-interwiki-addlink">' . $addlink . '</p>' );
 		}
 
-		if( !method_exists( 'Interwiki', 'getAllPrefixes' ) ) {
+		if ( !method_exists( 'Interwiki', 'getAllPrefixes' ) ) {
 			# version 2.0 is not backwards compatible (but still display nice error)
 			$this->error( 'interwiki_error' );
 			return;
@@ -284,7 +283,7 @@ class SpecialInterwiki extends SpecialPage {
 
 		$selfTitle = $this->getTitle();
 
-		foreach( $iwPrefixes as $i => $iwPrefix ) {
+		foreach ( $iwPrefixes as $i => $iwPrefix ) {
 			$out .= Html::openElement( 'tr', array( 'class' => 'mw-interwikitable-row' ) );
 			$out .=	Html::element( 'td', array( 'class' => 'mw-interwikitable-prefix' ),
 				htmlspecialchars( $iwPrefix['iw_prefix'] ) );
@@ -293,7 +292,7 @@ class SpecialInterwiki extends SpecialPage {
 				( isset( $iwPrefix['iw_local'] ) ? wfMessage( 'interwiki_' . $iwPrefix['iw_local'] ) : '-' ) );
 			$out .= Html::element( 'td', array( 'class' => 'mw-interwikitable-trans' ),
 				( isset( $iwPrefix['iw_trans'] ) ? wfMessage( 'interwiki_' . $iwPrefix['iw_trans'] ) : '-' ) );
-			if( $canModify ) {
+			if ( $canModify ) {
 				$out .= Html::rawElement( 'td', array( 'class' => 'mw-interwikitable-modify' ),
 					Linker::linkKnown( $selfTitle, wfMessage( 'edit' )->escaped(), array(),
 						array( 'action' => 'edit', 'prefix' => $iwPrefix['iw_prefix'] ) ) .
@@ -320,7 +319,6 @@ class SpecialInterwiki extends SpecialPage {
 		$args = func_get_args();
 		$this->getOutput()->wrapWikiMsg( "<p class='error'>$1</p>", $args );
 	}
-
 }
 
 /**
@@ -329,7 +327,7 @@ class SpecialInterwiki extends SpecialPage {
 class InterwikiLogFormatter extends LogFormatter {
 	protected function getMessageParameters() {
 		$params = parent::getMessageParameters();
-		if( isset( $params[4] ) ) {
+		if ( isset( $params[4] ) ) {
 			$params[4] = Message::rawParam( $params[4] );
 		}
 		return $params;
