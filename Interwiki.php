@@ -37,6 +37,7 @@ $wgExtensionCredits['specialpage'][] = array(
 );
 
 $wgExtensionFunctions[] = 'setupInterwikiExtension';
+$wgAutoloadClasses['InterwikiLogFormatter'] = $dir . 'Interwiki_body.php';
 
 $wgResourceModules['SpecialInterwiki'] = array(
 	'styles' => 'Interwiki.css',
@@ -53,20 +54,17 @@ $wgSpecialPages['Interwiki'] = 'SpecialInterwiki';
 $wgSpecialPageGroups['Interwiki'] = 'wiki';
 
 function setupInterwikiExtension() {
-	wfProfileIn( 'setupInterwikiExtension' );
-	global $wgInterwikiViewOnly;
+	global $wgInterwikiViewOnly, $wgAvailableRights, $wgLogTypes, $wgLogActionsHandlers
 
-	if ( $wgInterwikiViewOnly ) {
+	if ( $wgInterwikiViewOnly === false ) {
 		// New user right, required to modify the interwiki table through Special:Interwiki
 		$wgAvailableRights[] = 'interwiki';
 
 		// Set up the new log type - interwiki actions are logged to this new log
 		$wgLogTypes[] = 'interwiki';
-		$wgAutoloadClasses['InterwikiLogFormatter'] = $dir . 'Interwiki_body.php';
 		# interwiki, iw_add, iw_delete, iw_edit
 		$wgLogActionsHandlers['interwiki/*']  = 'InterwikiLogFormatter';
 	}
 
-	wfProfileOut( 'setupInterwikiExtension' );
 	return true;
 }
