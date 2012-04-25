@@ -21,15 +21,19 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( "This is not a valid entry point.\n" );
 }
 
+$wgInterwikiViewOnly = false;
+
 // Extension credits for Special:Version
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Interwiki',
 	'author' => array( 'Stephanie Amanda Stevens', 'SPQRobin', 'Siebrand Mazeland', 'Platonides', 'Raimond Spekking', 'Sam Reed', '...' ),
-	'version' => '2.1 20120425',
+	'version' => '2.2 20120425',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Interwiki',
 	'descriptionmsg' => 'interwiki-desc',
 );
+
+$wgExtensionFunctions[] = 'setupInterwikiExtension';
 
 $wgResourceModules['SpecialInterwiki'] = array(
 	'styles' => 'Interwiki.css',
@@ -45,11 +49,21 @@ $wgAutoloadClasses['SpecialInterwiki'] = $dir . 'Interwiki_body.php';
 $wgSpecialPages['Interwiki'] = 'SpecialInterwiki';
 $wgSpecialPageGroups['Interwiki'] = 'wiki';
 
-// New user right, required to modify the interwiki table through Special:Interwiki
-$wgAvailableRights[] = 'interwiki';
+function setupInterwikiExtension() {
+	wfProfileIn( 'setupInterwikiExtension' );
+	global $wgInterwikiViewOnly;
 
-// Set up the new log type - interwiki actions are logged to this new log
-$wgLogTypes[] = 'interwiki';
-$wgAutoloadClasses['InterwikiLogFormatter'] = $dir . 'Interwiki_body.php';
-# interwiki, iw_add, iw_delete, iw_edit
-$wgLogActionsHandlers['interwiki/*']  = 'InterwikiLogFormatter';
+	if ( $wgInterwikiViewOnly ) {
+		// New user right, required to modify the interwiki table through Special:Interwiki
+		$wgAvailableRights[] = 'interwiki';
+
+		// Set up the new log type - interwiki actions are logged to this new log
+		$wgLogTypes[] = 'interwiki';
+		$wgAutoloadClasses['InterwikiLogFormatter'] = $dir . 'Interwiki_body.php';
+		# interwiki, iw_add, iw_delete, iw_edit
+		$wgLogActionsHandlers['interwiki/*']  = 'InterwikiLogFormatter';
+	}
+
+	wfProfileOut( 'setupInterwikiExtension' );
+	return true;
+}
