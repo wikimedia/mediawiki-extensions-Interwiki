@@ -88,7 +88,7 @@ Possibly it does not exist.',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|added}} prefix "$4" ($5) (trans: $6; local: $7) to the interwiki table',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|modified}} prefix "$4" ($5) (trans: $6; local: $7) in the interwiki table',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|removed}} prefix "$4" from the interwiki table',
-	'interwiki_logpagetext' => 'This is a log of changes to the [[Special:Interwiki|interwiki table]].',
+	'log-header-interwiki' => 'This is a log of changes to the [[Special:Interwiki|interwiki table]].',
 	'logentry-interwiki-interwiki' => '', # do not translate this message
 
 	# rights
@@ -176,7 +176,7 @@ Parameter $1 contains the following (a link): [//www.mediawiki.org/wiki/Manual:I
 * $1 is the username of the user who deleted it.
 * $2 is the username usable for GENDER
 * $4 is the prefix',
-	'interwiki_logpagetext' => 'Part of the interwiki extension. Summary shown on Special:Log/interwiki.',
+	'log-header-interwiki' => 'Part of the interwiki extension. Summary shown on Special:Log/interwiki.',
 	'right-interwiki' => '{{doc-right|interwiki}}',
 	'action-interwiki' => '{{doc-action|interwiki}}',
 );
@@ -236,7 +236,7 @@ Let op dat dit moontlik bestaande skakels kan breek.",
 Moontlik bestaan dit nie.',
 	'interwiki-badprefix' => 'Die interwiki-voorvoegsel "$1" bevat ongeldige karakters',
 	'interwiki_logpagename' => 'Interwiki tabel staaf',
-	'interwiki_logpagetext' => "Die is 'n logboek van veranderinge aan die [[Special:Interwiki|interwiki-tabel]].",
+	'log-header-interwiki' => "Die is 'n logboek van veranderinge aan die [[Special:Interwiki|interwiki-tabel]].",
 	'right-interwiki' => 'Wysig interwiki-inligting',
 	'action-interwiki' => 'verander hierdie interwiki-item',
 );
@@ -307,7 +307,7 @@ $messages['ar'] = array(
 من المحتمل أنها غير موجودة.',
 	'interwiki-badprefix' => 'بادئة إنترويكي محددة "$1" تحتوي أحرفا غير صحيحة',
 	'interwiki_logpagename' => 'سجل جدول الإنترويكي',
-	'interwiki_logpagetext' => 'هذا سجل بالتغييرات في [[Special:Interwiki|جدول الإنترويكي]].',
+	'log-header-interwiki' => 'هذا سجل بالتغييرات في [[Special:Interwiki|جدول الإنترويكي]].',
 	'right-interwiki' => 'تعديل بيانات الإنترويكي',
 	'action-interwiki' => 'تغيير مدخلة الإنترويكي هذه',
 );
@@ -374,7 +374,7 @@ $messages['arz'] = array(
 من المحتمل أنها غير موجودة.',
 	'interwiki-badprefix' => 'بادئة إنترويكى محددة "$1" فيها حروف مش صحيحة',
 	'interwiki_logpagename' => 'سجل جدول الإنترويكي',
-	'interwiki_logpagetext' => 'هذا سجل بالتغييرات فى [[Special:Interwiki|جدول الإنترويكي]].',
+	'log-header-interwiki' => 'هذا سجل بالتغييرات فى [[Special:Interwiki|جدول الإنترويكي]].',
 	'right-interwiki' => 'تعديل بيانات الإنترويكي',
 	'action-interwiki' => 'تغيير مدخلة الإنترويكى هذه',
 );
@@ -432,7 +432,7 @@ Seique nun esista.",
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|amestó}}\'l prefixu "$4" ($5) (trans: $6; local: $7) a la tabla d\'interwiki',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|camudó}}\'l prefixu "$4" ($5) (trans: $6; local: $7) na tabla d\'interwiki',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|desanició}}\'l prefixu "$4" de la tabla d\'interwiki',
-	'interwiki_logpagetext' => "Esti ye un rexistru de los cambios fechos na [[Special:Interwiki|tabla d'interwiki]].",
+	'log-header-interwiki' => "Esti ye un rexistru de los cambios fechos na [[Special:Interwiki|tabla d'interwiki]].",
 	'right-interwiki' => "Editar los datos d'interwiki",
 	'action-interwiki' => "camudar esta entrada d'interwiki",
 );
@@ -468,7 +468,7 @@ Me vulkul da batcoba va kruldesi gluyasiki rotempar !",
 	'interwiki_editerror' => '"$1" abdueosta koe \'interwiki\' origak me zo robetar.
 Rotir koeon me krulder.',
 	'interwiki_logpagename' => "'Interwiki' origak 'log'",
-	'interwiki_logpagetext' => "Batcoba tir 'log' dem betaks va [[Special:Interwiki|'interwiki' origak]].",
+	'log-header-interwiki' => "Batcoba tir 'log' dem betaks va [[Special:Interwiki|'interwiki' origak]].",
 );
 
 /** Azerbaijani (Azərbaycanca)
@@ -557,7 +557,7 @@ $messages['be-tarask'] = array(
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|дадаў|дадала}} прэфікс «$4» ($5) (trans: $6; local: $7) у інтэрвікі-табліцу',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|зьмяніў|зьмяніла}} прэфікс «$4» ($5) (trans: $6; local: $7) у інтэрвікі-табліцы',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|выдаліў|выдаліла}} прэфікс «$4» з інтэрвікі-табліцы',
-	'interwiki_logpagetext' => 'Гэта журнал зьменаў [[Special:Interwiki|табліцы інтэрвікі]].',
+	'log-header-interwiki' => 'Гэта журнал зьменаў [[Special:Interwiki|табліцы інтэрвікі]].',
 	'right-interwiki' => 'Рэдагаваньне зьвестак інтэрвікі',
 	'action-interwiki' => 'зьмяніць гэты элемэнт інтэрвікі',
 );
@@ -593,7 +593,7 @@ $messages['bg'] = array(
 	'interwiki_edittext' => 'Редактиране на междууики представка',
 	'interwiki_edited' => 'Представката „$1“ беше успешно променена в таблицата с междууикита.',
 	'interwiki_logpagename' => 'Дневник на междууикитата',
-	'interwiki_logpagetext' => 'Тази страница съдържа дневник на промените в [[Special:Interwiki|таблицата с междууикита]].',
+	'log-header-interwiki' => 'Тази страница съдържа дневник на промените в [[Special:Interwiki|таблицата с междууикита]].',
 	'right-interwiki' => 'Редактиране на междууикитата',
 );
 
@@ -668,7 +668,7 @@ Marteze n\'eus ket anezhañ.',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|en deus|he deus}} ouzhpennet ar rakger "$4" ($5) (treuz: $6; lec\'hel: $7) d\'an daolenn etrewiki',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|en deus|he deus}} kemmet ar rakger "$4" ($5) (treuz: $6; lec\'hel: $7) en daolenn etrewiki',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|en deus|he deus}} tennet ar rakger "$4" diwar an daolenn etrewiki',
-	'interwiki_logpagetext' => "Ur marilh eus ar c'hemmoù e [[Special:Interwiki|taolenn an etrewiki]] eo.",
+	'log-header-interwiki' => "Ur marilh eus ar c'hemmoù e [[Special:Interwiki|taolenn an etrewiki]] eo.",
 	'right-interwiki' => 'Kemmañ ar roadennoù etrewiki',
 	'action-interwiki' => 'kemmañ ar moned etrewiki-mañ',
 );
@@ -725,7 +725,7 @@ Moguće je da uopće ne postoji.',
 	'interwiki-badprefix' => 'Navedeni interwiki prefiks "$1" sadrži nevaljane znakove',
 	'interwiki-submit-empty' => 'Prefiks i URL ne mogu biti prazni.',
 	'interwiki_logpagename' => 'Zapisnik tabele interwikija',
-	'interwiki_logpagetext' => 'Ovo je zapisnik izmjena na [[Special:Interwiki|interwiki tabeli]].',
+	'log-header-interwiki' => 'Ovo je zapisnik izmjena na [[Special:Interwiki|interwiki tabeli]].',
 	'right-interwiki' => 'Uređivanje interwiki podataka',
 	'action-interwiki' => 'mijenjate ovu stavku interwikija',
 );
@@ -783,7 +783,7 @@ Possiblement no existeix.',
 	'interwiki-badprefix' => 'El prefix interwiki especificat "$1" conté caràcters no vàlids',
 	'interwiki-submit-empty' => "El prefix i l'URL no pot estar buit.",
 	'interwiki_logpagename' => 'Registre de taula interwiki',
-	'interwiki_logpagetext' => 'Això és un registre de canvis a la[[Special:Interwiki|interwiki taula]].',
+	'log-header-interwiki' => 'Això és un registre de canvis a la[[Special:Interwiki|interwiki taula]].',
 	'right-interwiki' => 'Editar les dades interwiki',
 	'action-interwiki' => "canviar aquesta entrada d'interwiki",
 );
@@ -858,7 +858,7 @@ Mějte na vědomí, že to může znefunkčnit existující odkazy.',
 Pravděpodobně neexistuje.',
 	'interwiki-badprefix' => 'Uvedený interwiki prefix „$1“ obsahuje nepovolený znak',
 	'interwiki_logpagename' => 'Kniha změn tabulky interwiki',
-	'interwiki_logpagetext' => 'Toto je seznam změn [[Special:Interwiki|tabulky interwiki]].',
+	'log-header-interwiki' => 'Toto je seznam změn [[Special:Interwiki|tabulky interwiki]].',
 	'right-interwiki' => 'Editování interwiki záznamů',
 	'action-interwiki' => 'změnit tento záznam interwiki',
 );
@@ -896,7 +896,7 @@ Cofiwch na all gynnwys bwlch ( ), gorwahannod (:), ampersand (&), na hafalnod (=
 	'interwiki_addfailed' => 'Methwyd ychwanegu\'r rhagddodiad "$1" at y tabl rhyngwici.
 Efallai ei fod eisoes yn y tabl rhyngwici.',
 	'interwiki_logpagename' => 'Lòg y tabl rhyngwici',
-	'interwiki_logpagetext' => "Dyma lòg y newidiadau i'r [[Special:Interwiki|tabl rhyngwici]].",
+	'log-header-interwiki' => "Dyma lòg y newidiadau i'r [[Special:Interwiki|tabl rhyngwici]].",
 	'right-interwiki' => 'Golygu data rhyngwici',
 	'action-interwiki' => 'newid yr eitem rhyngwici hwn',
 );
@@ -989,7 +989,7 @@ Möglicherweise ist es nicht vorhanden.',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|fügte}} das Präfix „$4“ ($5) (trans: $6; local: $7) der Interwikitabelle hinzu',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|änderte}} das Präfix „$4“ ($5) (trans: $6; local: $7) in der Interwikitabelle',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|entfernte}} das Präfix „$4“ aus der Interwikitabelle',
-	'interwiki_logpagetext' => 'In diesem Logbuch werden Änderungen an der [[Special:Interwiki|Interwikitabelle]] protokolliert.',
+	'log-header-interwiki' => 'In diesem Logbuch werden Änderungen an der [[Special:Interwiki|Interwikitabelle]] protokolliert.',
 	'right-interwiki' => 'Interwikitabelle bearbeiten',
 	'action-interwiki' => 'Diesen Interwikieintrag ändern',
 );
@@ -1071,7 +1071,7 @@ Snaź njeeksistěrujo.',
 	'logentry-interwiki-iw_add' => '$1 jo prefiks "$4" ($5) (trans: $6; local: $7) interwikijowej tabeli {{GENDER:$2|pśidał|pśidała}}',
 	'logentry-interwiki-iw_edit' => '$1 jo prefiks "$4" ($5) (trans: $6; local: $7) w interwikijowej tabeli {{GENDER:$2|změnił|změniła}}',
 	'logentry-interwiki-iw_delete' => '$1 jo prefiks "$4" z interwikijoweje tabele {{GENDER:$2|wótpórał|wótpórała}}',
-	'interwiki_logpagetext' => 'To jo protokol změnow k [[Special:Interwiki|tabeli interwiki]].',
+	'log-header-interwiki' => 'To jo protokol změnow k [[Special:Interwiki|tabeli interwiki]].',
 	'right-interwiki' => 'Daty interwiki wobźěłaś',
 	'action-interwiki' => 'toś ten zapisk interwiki změniś',
 );
@@ -1114,7 +1114,7 @@ $messages['el'] = array(
 Πιθανώς να μην υπάρχει.',
 	'interwiki-badprefix' => 'Το καθορισμένο πρόθεμα interwiki "$1" περιέχει μη έγκυρους χαρακτήρες',
 	'interwiki_logpagename' => 'Αρχείο του πίνακα ιντερβίκι',
-	'interwiki_logpagetext' => 'Αυτό είναι ένα ημερολόγιο αλλαγών στον [[Special:Interwiki|πίνακα ιντερβίκι]].',
+	'log-header-interwiki' => 'Αυτό είναι ένα ημερολόγιο αλλαγών στον [[Special:Interwiki|πίνακα ιντερβίκι]].',
 	'right-interwiki' => 'Επεξεργασία των δεδομένων ιντερβίκι',
 	'action-interwiki' => 'αλλαγή αυτής της καταχώρισης ιντερβίκι',
 );
@@ -1158,7 +1158,7 @@ Notu ke ĉi tiu ago povas rompi ekzistantajn ligilojn.',
 Verŝajne ĝi ne ekzistas.',
 	'interwiki-badprefix' => 'Specifita intervika prefikso "$1" enhavas nevalidajn signojn',
 	'interwiki_logpagename' => 'Loglibro pri la intervikia tabelo',
-	'interwiki_logpagetext' => 'Jen loglibro de ŝanĝoj al la [[Special:Interwiki|intervikia tabelo]].',
+	'log-header-interwiki' => 'Jen loglibro de ŝanĝoj al la [[Special:Interwiki|intervikia tabelo]].',
 	'right-interwiki' => 'Redakti intervikiajn datenojn',
 );
 
@@ -1222,7 +1222,7 @@ Posiblemente no exista.',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|añadió}} el prefijo "$4" ($5) (trans: $6; local: $7) a la tabla interwiki',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|modificó}} el prefijo " $4 " ( $5 ) (trans:  $6 ; local:  $7 ) en la tabla interwiki',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|eliminó}} el prefijo "$4" de la tabla interwiki',
-	'interwiki_logpagetext' => 'Este es un registro de los cambios hechos a la [[Special:Interwiki|tabla interwiki]].',
+	'log-header-interwiki' => 'Este es un registro de los cambios hechos a la [[Special:Interwiki|tabla interwiki]].',
 	'right-interwiki' => 'Editar datos de interwiki',
 	'action-interwiki' => 'cambiar esta entrada interwiki',
 );
@@ -1298,7 +1298,7 @@ $messages['fa'] = array(
 	'interwiki-badprefix' => 'پیشوند میان‌ویکی «$1» حاوی نویسه‌های غیر مجاز است',
 	'interwiki-submit-empty' => 'پیشوند و آدرس URL نمی‌توانند خالی باشند.',
 	'interwiki_logpagename' => 'سیاههٔ جدول میان‌ویکی',
-	'interwiki_logpagetext' => 'این یک تاریخچه از تغییرات [[Special:Interwiki|interwiki table]] است.',
+	'log-header-interwiki' => 'این یک تاریخچه از تغییرات [[Special:Interwiki|interwiki table]] است.',
 	'right-interwiki' => 'ویرایش اطلاعات میان‌ویکی',
 	'action-interwiki' => 'تغییر این مدخل میان‌ویکی',
 );
@@ -1340,7 +1340,7 @@ $messages['fi'] = array(
 	'interwiki_editerror' => 'Etuliitettä ”$1” ei voi muokata interwiki-taulukossa. Sitä ei mahdollisesti ole olemassa.',
 	'interwiki-badprefix' => 'Annettu interwiki-etuliite <code>$1</code> sisältää virheellisiä merkkejä',
 	'interwiki_logpagename' => 'Interwikitaululoki',
-	'interwiki_logpagetext' => 'Tämä on loki muutoksista [[Special:Interwiki|interwiki-tauluun]].',
+	'log-header-interwiki' => 'Tämä on loki muutoksista [[Special:Interwiki|interwiki-tauluun]].',
 	'right-interwiki' => 'Muokata interwiki-dataa',
 	'action-interwiki' => 'muokata tätä interwiki-merkintää',
 );
@@ -1404,7 +1404,7 @@ Il existe un [[Special:Log/interwiki|journal des modifications]] de la table int
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|a ajouté}} le préfixe "$4" ($5) (trans: $6; local: $7) à la table interwiki',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|a modifié}} le préfixe "$4" ($5) (trans: $6; local: $7) dans la table interwiki',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|a supprimé}} le préfixe "$4" de la table interwiki',
-	'interwiki_logpagetext' => 'Ceci est le journal des changements dans la [[Special:Interwiki|table interwiki]].',
+	'log-header-interwiki' => 'Ceci est le journal des changements dans la [[Special:Interwiki|table interwiki]].',
 	'right-interwiki' => 'Modifier les données interwiki',
 	'action-interwiki' => 'modifier cette entrée interwiki',
 );
@@ -1497,7 +1497,7 @@ Posiblemente xa existe na táboa de interwikis.',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|engadiu}} o prefixo "$4" ($5) (trans: $6; local: $7) á táboa de interwikis',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|modificou}} o prefixo "$4" ($5) (trans: $6; local: $7) na táboa de interwikis',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|eliminou}} o prefixo "$4" da táboa de interwikis',
-	'interwiki_logpagetext' => 'Este é un rexistro dos cambios feitos na [[Special:Interwiki|táboa de interwikis]].',
+	'log-header-interwiki' => 'Este é un rexistro dos cambios feitos na [[Special:Interwiki|táboa de interwikis]].',
 	'right-interwiki' => 'Editar os datos do interwiki',
 	'action-interwiki' => 'cambiar esta entrada de interwiki',
 );
@@ -1600,7 +1600,7 @@ Villicht git s es nit.',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|het}} s Präfix „$4“ ($5) (trans: $6; local: $7) uff de Interwikitabelle dezuegfiegt',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|het}} s Präfix „$4“ ($5) (trans: $6; local: $7) uff de Interwikitabelle gänderet',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|het}} s Präfix „$4“ uss dr Interwikitabelle ussegno',
-	'interwiki_logpagetext' => 'In däm Logbuech wäre Änderige an dr [[Special:Interwiki|Interwiki-Tabälle]] protokolliert.',
+	'log-header-interwiki' => 'In däm Logbuech wäre Änderige an dr [[Special:Interwiki|Interwiki-Tabälle]] protokolliert.',
 	'right-interwiki' => 'Interwiki-Tabälle bearbeite',
 	'action-interwiki' => 'Där Interwiki-Yytrag ändere',
 );
@@ -1691,7 +1691,7 @@ $messages['he'] = array(
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|הוסיף|הוסיפה}} את הקידומת "$4" ($5) (הכללה: $6; מקומי: $7) לטבלת interwiki',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|שינה|שינתה}} את הקידומת "$4" ($5) (הכללה: $6; מקומי: $7) לטבלת interwiki',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|הסיר|הסירה}} את הקידומת "$4" מטבלת interwiki',
-	'interwiki_logpagetext' => 'זהו יומן השינויים שנערכו ב[[Special:Interwiki|טבלת הבינוויקי]].',
+	'log-header-interwiki' => 'זהו יומן השינויים שנערכו ב[[Special:Interwiki|טבלת הבינוויקי]].',
 	'right-interwiki' => 'עריכת נתוני הבינוויקי',
 	'action-interwiki' => 'לשנות את רשומת הבינוויקי הזו',
 );
@@ -1723,7 +1723,7 @@ $messages['hi'] = array(
 	'interwiki_edited' => '"$1" उपपद आंतरविकि तालिका में बदला गया।',
 	'interwiki_editerror' => '"$1" उपपद आंतरविकि तालिका में बदल नहीं पायें। शायद वह अस्तित्वमें नहीं हैं।',
 	'interwiki_logpagename' => 'आंतरविकि तालिका सूची',
-	'interwiki_logpagetext' => '[[Special:Interwiki|आंतरविकि तालिकामें]] हुए बदलावोंकी यह सूची है।',
+	'log-header-interwiki' => '[[Special:Interwiki|आंतरविकि तालिकामें]] हुए बदलावोंकी यह सूची है।',
 );
 
 /** Hiligaynon (Ilonggo)
@@ -1771,7 +1771,7 @@ $messages['hr'] = array(
 	'interwiki_editerror' => 'Prefiks "$1" ne može biti promijenjen u interwiki tablici. Vjerojatno ne postoji.',
 	'interwiki-badprefix' => 'Određeni međuwiki prefiks "$1" sadrži nedozvoljene znakove',
 	'interwiki_logpagename' => 'Evidencije interwiki tablice',
-	'interwiki_logpagetext' => 'Ovo su evidencije promjena na [[Special:Interwiki|interwiki tablici]].',
+	'log-header-interwiki' => 'Ovo su evidencije promjena na [[Special:Interwiki|interwiki tablici]].',
 	'right-interwiki' => 'Uređivanje interwiki podataka',
 	'action-interwiki' => 'uredi ovaj međuwiki zapis',
 );
@@ -1828,7 +1828,7 @@ Snano njeeksistuje.',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|přida}} prefiks "$4" ($5) (trans: $6; local: $7) interwikijowej tabeli',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|změni}} prefiks "$4" ($5) (trans: $6; local: $7) w interwikijowej tabeli',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|wotstroni}} prefiks "$4" z interwikijoweje tabele',
-	'interwiki_logpagetext' => 'To je protokol změnow na [[Special:Interwiki|interwiki-tabeli]].',
+	'log-header-interwiki' => 'To je protokol změnow na [[Special:Interwiki|interwiki-tabeli]].',
 	'right-interwiki' => 'Daty interwiki wobdźěłać',
 	'action-interwiki' => 'tutón zapisk interwiki změnić',
 );
@@ -1866,7 +1866,7 @@ Sonje ke sa gendwa kraze lyen ki deja ekziste yo.',
 	'interwiki_editerror' => 'Prefiks "$1" pa ka modifye nan tablo entèwiki a.
 Petèt li pa ekziste.',
 	'interwiki_logpagename' => 'Jounal tablo entèwiki a',
-	'interwiki_logpagetext' => 'Sa se yon jounal pou chanjman yo nan [[Special:Interwiki|tablo entèwiki a]].',
+	'log-header-interwiki' => 'Sa se yon jounal pou chanjman yo nan [[Special:Interwiki|tablo entèwiki a]].',
 );
 
 /** Hungarian (Magyar)
@@ -1922,7 +1922,7 @@ Valószínűleg nem létezik ilyen előtag.',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|hozzáadta}} a(z) "$4" előtagot ($5) (trans: $6; helyi: $7) az interwiki táblához',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|módosította}} a(z) "$4" előtagot ($5) (trans: $6; helyi: $7) az interwiki táblában',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|törölte}} a(z) "$4" előtagot az interwiki táblából',
-	'interwiki_logpagetext' => 'Ez az [[Special:Interwiki|interwiki táblában]] történt változások naplója.',
+	'log-header-interwiki' => 'Ez az [[Special:Interwiki|interwiki táblában]] történt változások naplója.',
 	'right-interwiki' => 'wikiközi hivatkozások módosítása',
 	'action-interwiki' => 'eme wikiközi bejegyzés megváltoztatása',
 );
@@ -1981,7 +1981,7 @@ Es possibile que illo non existe.',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|addeva}} le prefixo "$4" ($5) (trans: $6; local: $7) al tabella interwiki',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|modificava}} le prefixo "$4" ($5) (trans: $6; local: $7) in le tabella interwiki',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|removeva}} le prefixo "$4" del tabella interwiki',
-	'interwiki_logpagetext' => 'Isto es un registro de modificationes in le [[Special:Interwiki|tabella interwiki]].',
+	'log-header-interwiki' => 'Isto es un registro de modificationes in le [[Special:Interwiki|tabella interwiki]].',
 	'right-interwiki' => 'Modificar datos interwiki',
 	'action-interwiki' => 'alterar iste entrata interwiki',
 );
@@ -2036,7 +2036,7 @@ Ingat bahwa tindakan ini dapat mempengaruhi pranala yang telah eksis.',
 Kemungkinan karena prefiks ini tidak ada.',
 	'interwiki-badprefix' => 'Ditentukan interwiki awalan "$1" mengandung karakter yang tidak sah',
 	'interwiki_logpagename' => 'Log tabel interwiki',
-	'interwiki_logpagetext' => 'Ini adalah log perubahan [[Special:Interwiki|tabel interwiki]].',
+	'log-header-interwiki' => 'Ini adalah log perubahan [[Special:Interwiki|tabel interwiki]].',
 	'right-interwiki' => 'Menyunting data interwiki',
 	'action-interwiki' => 'Ubah masukan untuk interwiki ini',
 );
@@ -2130,7 +2130,7 @@ Il prefisso potrebbe essere inesistente.',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|ha aggiunto}} il prefisso "$4" ($5) (incl: $6; locale: $7) alla tabella degli interwiki',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|ha modificato}} il prefisso "$4" ($5) (incl: $6; locale: $7) nella tabella degli interwiki',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|ha rimosso}} il prefisso "$4" dalla tabella degli interwiki',
-	'interwiki_logpagetext' => 'Registro dei cambiamenti apportati alla [[Special:Interwiki|tabella degli interwiki]].',
+	'log-header-interwiki' => 'Registro dei cambiamenti apportati alla [[Special:Interwiki|tabella degli interwiki]].',
 	'right-interwiki' => 'Modifica i dati interwiki',
 	'action-interwiki' => 'modificare questo interwiki',
 );
@@ -2186,7 +2186,7 @@ $messages['ja'] = array(
 	'interwiki-badprefix' => '指定されたインターウィキ接頭辞 "$1" は無効な文字を含んでいます',
 	'interwiki-submit-empty' => '接頭辞とURLを空にすることはできません。',
 	'interwiki_logpagename' => 'インターウィキ編集記録',
-	'interwiki_logpagetext' => 'これは[[Special:Interwiki|インターウィキテーブル]]の変更記録です。',
+	'log-header-interwiki' => 'これは[[Special:Interwiki|インターウィキテーブル]]の変更記録です。',
 	'right-interwiki' => 'インターウィキデータの編集',
 	'action-interwiki' => 'このインターウィキ項目を変更',
 );
@@ -2222,7 +2222,7 @@ Mbok-menawa iki pancèn wis ana ing tabèl interwiki.',
 	'interwiki_editerror' => 'Préfiks utawa sisipan awal "$1" ora bisa dimodifikasi ing tabèl interwiki.
 Mbok-menawa iki ora ana.',
 	'interwiki_logpagename' => 'Log tabèl interwiki',
-	'interwiki_logpagetext' => 'Kaca iki log owah-owahan kanggo [[Special:Interwiki|tabèl interwiki]].',
+	'log-header-interwiki' => 'Kaca iki log owah-owahan kanggo [[Special:Interwiki|tabèl interwiki]].',
 );
 
 /** Georgian (ქართული)
@@ -2273,7 +2273,7 @@ $messages['km'] = array(
 
 ប្រហែលជាវាមិនមានអត្ថិភាពទេ។',
 	'interwiki_logpagename' => 'កំណត់ហេតុតារាងអន្តរវិគី',
-	'interwiki_logpagetext' => 'នេះជាកំណត់ហេតុនៃបំលាស់ប្តូរក្នុង[[Special:Interwiki|តារាងអន្តរវិគី]]។',
+	'log-header-interwiki' => 'នេះជាកំណត់ហេតុនៃបំលាស់ប្តូរក្នុង[[Special:Interwiki|តារាងអន្តរវិគី]]។',
 	'right-interwiki' => 'កែប្រែទិន្នន័យអន្តរវិគី',
 );
 
@@ -2339,7 +2339,7 @@ $messages['ko'] = array(
 	'logentry-interwiki-iw_add' => '$1 사용자가 접두어 "$4" ($5) (틀 포함: $6; 로컬: $7)을 인터위키 표에 {{GENDER:$2|추가}}했습니다.',
 	'logentry-interwiki-iw_edit' => '$1 사용자가 인터위키 표의 접두어 "$4" ($5) (틀 포함: $6; 로컬: $7)를  {{GENDER:$2|수정}}했습니다.',
 	'logentry-interwiki-iw_delete' => '$1 사용자가 인터위키 표의 접두어 "$4"를  {{GENDER:$2|삭제}}했습니다.',
-	'interwiki_logpagetext' => '[[Special:Interwiki|인터위키]] 목록의 바뀐 내역입니다.',
+	'log-header-interwiki' => '[[Special:Interwiki|인터위키]] 목록의 바뀐 내역입니다.',
 	'right-interwiki' => '인터위키 목록을 편집',
 	'action-interwiki' => '이 인터위키 접두어를 수정',
 );
@@ -2400,7 +2400,7 @@ Maach sin, dat et inn nit jitt.',
 	'logentry-interwiki-iw_add' => '{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät dä Vörsaz „$4“ met däm {{int:interwiki-url-label}} „$5“ un {{int:interwiki-local-label}}$6 un {{int:interwiki-trans-label}}$7 bei de Engerwiki-Date dobei jedonn.',
 	'logentry-interwiki-iw_edit' => '{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät dä Vörsaz „$4“ met däm {{int:interwiki-url-label}} „$5“ un {{int:interwiki-local-label}}$6 un {{int:interwiki-trans-label}}$7 vun de Engerwiki-Date verändert.',
 	'logentry-interwiki-iw_delete' => '{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät dä Vörsaz „$4“ uß dä Engerwiki-Date fott jenumme.',
-	'interwiki_logpagetext' => 'Hee is dat Logboch met de Änderonge aan de [[Special:Interwiki|Engerwiki Date]].',
+	'log-header-interwiki' => 'Hee is dat Logboch met de Änderonge aan de [[Special:Interwiki|Engerwiki Date]].',
 	'right-interwiki' => 'Engerwiki Date ändere',
 	'action-interwiki' => 'Donn hee dä Engerwiki Enndraach ändere',
 );
@@ -2441,7 +2441,7 @@ Memento hoc nexus frangere posse.',
 	'interwiki_editerror' => 'Praefixum "$1" in tabula intervica modificari non potuit.
 Fortasse nondum est in tabula intervica.',
 	'interwiki_logpagename' => 'Index tabulae intervicae',
-	'interwiki_logpagetext' => 'Hic est index mutationum [[Special:Interwiki|tabulae intervicae]].',
+	'log-header-interwiki' => 'Hic est index mutationum [[Special:Interwiki|tabulae intervicae]].',
 	'right-interwiki' => 'Data intervica recensere',
 	'action-interwiki' => 'data intervica recensere',
 );
@@ -2502,7 +2502,7 @@ Méiglecherweis gëtt et en net.',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|huet}} de Prefix "$4" ($5) (trans: $6; local: $7) an d\'Interwikitabell derbäigesat',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|huet}} de Prefix „$4“ ($5) (trans: $6; local: $7) an der Interwikitabell geännert',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|huet}} de Präfix "$4" aus der Interwikitabell erausgeholl',
-	'interwiki_logpagetext' => 'Dëst ass eng Lëscht mat den Ännerunge vun der [[Special:Interwiki|Interwikitabell]].',
+	'log-header-interwiki' => 'Dëst ass eng Lëscht mat den Ännerunge vun der [[Special:Interwiki|Interwikitabell]].',
 	'right-interwiki' => 'Interwiki-Daten änneren',
 	'action-interwiki' => "dës Interwiki-Informatioun z'änneren",
 );
@@ -2524,7 +2524,7 @@ $messages['lt'] = array(
 	'interwiki_local' => 'Persiųsti',
 	'interwiki-local-label' => 'Persiųsti:',
 	'interwiki_addbutton' => 'Pridėti',
-	'interwiki_logpagetext' => 'Tai pakeitimų [[Special:Interwiki|interwiki lentelėje]] sąrašas',
+	'log-header-interwiki' => 'Tai pakeitimų [[Special:Interwiki|interwiki lentelėje]] sąrašas',
 	'right-interwiki' => 'Redaguoti interwiki duomenis',
 );
 
@@ -2641,7 +2641,7 @@ $messages['mk'] = array(
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|го додаде}} префиксот „$4“ ($5) (trans: $6; local: $7) во табелата со меѓувики',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|го измени}} префиксот „$4“ ($5) (trans: $6; local: $7) во табелата со меѓувики',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|го отстрани}} префиксот „$4“ од табелата со меѓувики',
-	'interwiki_logpagetext' => 'Ова е дневник на промени во [[Special:Interwiki|интервики-табелата]].',
+	'log-header-interwiki' => 'Ова е дневник на промени во [[Special:Interwiki|интервики-табелата]].',
 	'right-interwiki' => 'Уреди интервики',
 	'action-interwiki' => 'менување на овој интервики-запис',
 );
@@ -2696,7 +2696,7 @@ $messages['mr'] = array(
 	'interwiki_editerror' => 'अंतरविकि सारणीमध्ये "$1" उपपद बदलू शकत नाही.
 कदाचित ते अस्तित्वात नसेल.',
 	'interwiki_logpagename' => 'आंतरविकि सारणी नोंद',
-	'interwiki_logpagetext' => '[[Special:Interwiki|आंतरविकि सारणीत]] झालेल्या बदलांची ही सूची आहे.',
+	'log-header-interwiki' => '[[Special:Interwiki|आंतरविकि सारणीत]] झालेल्या बदलांची ही सूची आहे.',
 	'right-interwiki' => 'आंतरविकि डाटा बदला',
 );
 
@@ -2752,7 +2752,7 @@ Terdapat [[Special:Log/interwiki|log perubahan]] pada jadual interwiki.',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|membubuh}} awalan "$4" ($5) (trans: $6; setempat: $7) pada jadual interwiki',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|mengubah suai}} awalan "$4" ($5) (trans: $6; setempat: $7) pada jadual interwiki',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|membuang}} awalan "$4" daripada jadual interwiki',
-	'interwiki_logpagetext' => 'Ini ialah log perubahan kepada [[Special:Interwiki|jadual interwiki]].',
+	'log-header-interwiki' => 'Ini ialah log perubahan kepada [[Special:Interwiki|jadual interwiki]].',
 	'right-interwiki' => 'Menyunting data interwiki',
 	'action-interwiki' => 'tukar data interwiki berikut',
 );
@@ -2839,7 +2839,7 @@ Det finnes en [[Special:Log/interwiki|endringslogg]] for interwikitabellen.',
 	'interwiki_editerror' => 'Prefikset «$1» kan ikke endres i interwikitabellen. Det finnes muligens ikke.',
 	'interwiki-badprefix' => 'Det oppgitte interwikiprefikset «$1» innholder ugyldige tegn',
 	'interwiki_logpagename' => 'Interwikitabellogg',
-	'interwiki_logpagetext' => 'Dette er en logg over endringer i [[Special:Interwiki|interwikitabellen]].',
+	'log-header-interwiki' => 'Dette er en logg over endringer i [[Special:Interwiki|interwikitabellen]].',
 	'right-interwiki' => 'Redigere interwikidata',
 	'action-interwiki' => 'endre dette interwikielementet',
 );
@@ -2927,7 +2927,7 @@ Er is een [[Special:Log/interwiki|veranderingslogboek]] voor de interwikitabel.'
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|voegde}} voorvoegsel "$4" toe ($5) (trans: $6; local: $7) aan de interwikitabel',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|wijzigde}} voorvoegsel "$4" ($5) (trans: $6; local: $7) in de interwikitabel',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|verwijderde}} voorvoegsel "$4" van de interwikitabel',
-	'interwiki_logpagetext' => 'Dit is een logboek van wijzigingen aan de [[Special:Interwiki|interwikitabel]].',
+	'log-header-interwiki' => 'Dit is een logboek van wijzigingen aan de [[Special:Interwiki|interwikitabel]].',
 	'right-interwiki' => 'Interwikigegevens bewerken',
 	'action-interwiki' => 'deze interwikiverwijzing te wijzigen',
 );
@@ -2983,7 +2983,7 @@ Hugs at dette kan øydeleggja lenkjer som finst frå før.',
 Kanskje finst det ikkje.',
 	'interwiki-badprefix' => 'Det oppgjevne interwikiprefikset «$1» inneheld ugyldige teikn.',
 	'interwiki_logpagename' => 'Logg for interwikitabell',
-	'interwiki_logpagetext' => 'Dette er ein logg over endringar i [[Special:Interwiki|interwikitabellen]].',
+	'log-header-interwiki' => 'Dette er ein logg over endringar i [[Special:Interwiki|interwikitabellen]].',
 	'right-interwiki' => 'Endra interwikidata',
 	'action-interwiki' => 'endra dette interwikielementet',
 );
@@ -3049,7 +3049,7 @@ Benlèu i existís ja.',
 	'interwiki_editerror' => "Lo prefix « $1 » pòt pas èsser modificat. Es possible qu'exista pas.",
 	'interwiki-badprefix' => 'Lo prefix interwiki especificat « $1 » conten de caractèrs invalids',
 	'interwiki_logpagename' => 'Jornal de la taula interwiki',
-	'interwiki_logpagetext' => 'Aquò es lo jornal dels cambiaments dins la [[Special:Interwiki|taula interwiki]].',
+	'log-header-interwiki' => 'Aquò es lo jornal dels cambiaments dins la [[Special:Interwiki|taula interwiki]].',
 	'right-interwiki' => 'Modificar las donadas interwiki',
 	'action-interwiki' => 'modificar aquesta entrada interwiki',
 );
@@ -3147,7 +3147,7 @@ Prawdopodobnie ten prefiks już jest w tableli.',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|dodał|dodała}} przedrostek "$4" ($5) (trans: $6; local: $7) do tabeli interwiki',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|zmienił|zmieniła}} przedrostek "$4" ($5) (trans: $6; local: $7) w tabeli interwiki',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|usunął|usunęła}} przedrostek "$4" z tabeli interwiki',
-	'interwiki_logpagetext' => 'Poniżej znajduje się rejestr zmian wykonanych w [[Special:Interwiki|tablicy interwiki]].',
+	'log-header-interwiki' => 'Poniżej znajduje się rejestr zmian wykonanych w [[Special:Interwiki|tablicy interwiki]].',
 	'right-interwiki' => 'Edycja danych interwiki',
 	'action-interwiki' => 'zmień ten wpis interwiki',
 );
@@ -3206,7 +3206,7 @@ A peul esse che a esista pa.',
 	'logentry-interwiki-iw_add' => "$1 {{GENDER:$2|a l'ha giontà}} ël prefiss «$4» ($5) (trans: $6; local: $7) a la tàula antërwiki",
 	'logentry-interwiki-iw_edit' => "$1 {{GENDER:$2|a l'ha modificà}} ël prefiss «$4» ($5) (trans: $6; local: $7) ant la tàula antërwiki",
 	'logentry-interwiki-iw_delete' => "$1 {{GENDER:$2|a l'ha gavà}} ël prefiss «$4» da la tàula antërwiki",
-	'interwiki_logpagetext' => "Cost-sì a l'é un registr dij cambi a la [[Special:Interwiki|tàula antërwiki]].",
+	'log-header-interwiki' => "Cost-sì a l'é un registr dij cambi a la [[Special:Interwiki|tàula antërwiki]].",
 	'right-interwiki' => 'Modìfica dat antërwiki',
 	'action-interwiki' => 'cambia sto dat antërwiki-sì',
 );
@@ -3292,7 +3292,7 @@ Lembre-se que este não pode conter espaços ( ), dois-pontos (:), conjunções 
 	'interwiki-badprefix' => 'O prefixo de interwikis "$1" contém caracteres inválidos',
 	'interwiki-submit-empty' => 'O prefixo e a URL não podem estar vazios.',
 	'interwiki_logpagename' => 'Registo da tabela de interwikis',
-	'interwiki_logpagetext' => 'Este é um registo das alterações à [[Special:Interwiki|tabela de interwikis]].',
+	'log-header-interwiki' => 'Este é um registo das alterações à [[Special:Interwiki|tabela de interwikis]].',
 	'right-interwiki' => 'Editar dados de interwikis',
 	'action-interwiki' => 'alterar esta entrada interwikis',
 );
@@ -3343,7 +3343,7 @@ Existe um [[Special:Log/interwiki|registro de modificações]] à tabela de inte
 	'interwiki_editerror' => 'O prefixo "$1" não pode ser modificado na tabela de interwikis. Possivelmente, não existe.',
 	'interwiki-badprefix' => 'O prefixo interwiki "$1" contém caracteres inválidos',
 	'interwiki_logpagename' => 'Registro da tabela de interwikis',
-	'interwiki_logpagetext' => 'Este é um registro das alterações à [[Special:Interwiki|tabela de interwikis]].',
+	'log-header-interwiki' => 'Este é um registro das alterações à [[Special:Interwiki|tabela de interwikis]].',
 	'right-interwiki' => 'Editar dados de interwiki',
 	'action-interwiki' => 'alterar esta entrada interwiki',
 );
@@ -3437,7 +3437,7 @@ $messages['ru'] = array(
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|добавил|добавила}} префикс «$4» ($5) (trans: $6; local: $7) в интервики-таблицу',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|изменил|изменила}} префикс «$4» ($5) (trans: $6; local: $7) в интервики-таблице',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|удалил|удалила}} префикс «$4» из интервики-таблицы',
-	'interwiki_logpagetext' => 'Это журнал изменений [[Special:Interwiki|таблицы интервики]].',
+	'log-header-interwiki' => 'Это журнал изменений [[Special:Interwiki|таблицы интервики]].',
 	'right-interwiki' => 'правка таблицы интервики',
 	'action-interwiki' => 'изменение записи интервики',
 );
@@ -3595,7 +3595,7 @@ Obsahuje [[Special:Log/interwiki|záznam zmien]] tabuľky interwiki.',
 	'interwiki_editerror' => 'Predponu „$1“ nebolo možné zmeniť v tabuľke interwiki. Je možné, že neexistuje.',
 	'interwiki-badprefix' => 'Uvedená predpona interwiki „$1“ obsahuje neplatné znaky',
 	'interwiki_logpagename' => 'Záznam zmien tabuľky interwiki',
-	'interwiki_logpagetext' => 'Toto je záznam zmien [[Special:Interwiki|tabuľky interwiki]].',
+	'log-header-interwiki' => 'Toto je záznam zmien [[Special:Interwiki|tabuľky interwiki]].',
 	'right-interwiki' => 'Upraviť interwiki údaje',
 	'action-interwiki' => 'zmeniť tento záznam interwiki',
 );
@@ -3642,7 +3642,7 @@ Morda ne obstaja.',
 	'interwiki-badprefix' => 'Navedena predpona interwiki »$1« vsebuje neveljavne znake.',
 	'interwiki-submit-empty' => 'Predpona in URL ne smeta biti prazna.',
 	'interwiki_logpagename' => 'Dnevnik tabele interwiki',
-	'interwiki_logpagetext' => 'To je dnevnik sprememb [[Special:Interwiki|tabele interwiki]].',
+	'log-header-interwiki' => 'To je dnevnik sprememb [[Special:Interwiki|tabele interwiki]].',
 	'right-interwiki' => 'Urejanje podatkov interwiki',
 	'action-interwiki' => 'spreminjanje tega vnosa interwikija',
 );
@@ -3690,7 +3690,7 @@ $messages['sr-ec'] = array(
 Вероватно затшо што не постоји.',
 	'interwiki-badprefix' => 'Задати међувики префикс "$1" садржи недозвољене знакове',
 	'interwiki_logpagename' => 'Историја табеле међувикија',
-	'interwiki_logpagetext' => 'Ово је историја измена [[Special:Interwiki|табеле међувикија]].',
+	'log-header-interwiki' => 'Ово је историја измена [[Special:Interwiki|табеле међувикија]].',
 	'right-interwiki' => 'уређивање међувикија',
 );
 
@@ -3735,7 +3735,7 @@ Imajte na umu da može da ošteti postojeće međuviki veze.',
 Verovatno zatšo što ne postoji.',
 	'interwiki-badprefix' => 'Zadati međuviki prefiks "$1" sadrži nedozvoljene znakove',
 	'interwiki_logpagename' => 'Istorija tabele međuvikija',
-	'interwiki_logpagetext' => 'Ovo je istorija izmena [[Special:Interwiki|tabele međuvikija]].',
+	'log-header-interwiki' => 'Ovo je istorija izmena [[Special:Interwiki|tabele međuvikija]].',
 	'right-interwiki' => 'Izmeni međuviki',
 );
 
@@ -3761,7 +3761,7 @@ Do Doaten in do eenpelde Spalten hääbe ju foulgjende Betjuudenge:',
 	'interwiki_added' => '„$1“ wuude mäd Ärfoulch ju Interwiki-Tabelle bietouföiged.',
 	'interwiki_addfailed' => '„$1“ kuude nit ju Interwiki-Tabelle bietouföiged wäide.',
 	'interwiki_logpagename' => 'Interwiki-Tabellenlogbouk',
-	'interwiki_logpagetext' => 'In dit Logbouk wäide Annerengen an ju [[Special:Interwiki|Interwiki-Tabelle]] protokollierd.',
+	'log-header-interwiki' => 'In dit Logbouk wäide Annerengen an ju [[Special:Interwiki|Interwiki-Tabelle]] protokollierd.',
 );
 
 /** Sundanese (Basa Sunda)
@@ -3821,7 +3821,7 @@ Det är möjligt att prefixet redan finns i tabellen.',
 	'interwiki-badprefix' => 'Specificerat interwikiprefix "$1" innehåller ogiltiga tecken',
 	'interwiki-submit-empty' => 'Prefix och URL-adressen kan inte vara tomma.',
 	'interwiki_logpagename' => 'Interwikitabellogg',
-	'interwiki_logpagetext' => 'Detta är en logg över ändringar i [[Special:Interwiki|interwikitabellen]].',
+	'log-header-interwiki' => 'Detta är en logg över ändringar i [[Special:Interwiki|interwikitabellen]].',
 	'right-interwiki' => 'Redigera interwikidata',
 	'action-interwiki' => 'ändra det här interwikielementet',
 );
@@ -3900,7 +3900,7 @@ $messages['te'] = array(
 	'interwiki_addtext' => 'ఓ అంతర్వికీ ఉపసర్గని చేర్చండి',
 	'interwiki_addbutton' => 'చేర్చు',
 	'interwiki_logpagename' => 'అంతర్వికీ పట్టిక చిట్టా',
-	'interwiki_logpagetext' => 'ఇది [[Special:Interwiki|అంతర్వికీ పట్టిక]]కి జరిగిన మార్పుల చిట్టా.',
+	'log-header-interwiki' => 'ఇది [[Special:Interwiki|అంతర్వికీ పట్టిక]]కి జరిగిన మార్పుల చిట్టా.',
 	'right-interwiki' => 'అంతర్వికీ సమాచారము మార్చు',
 );
 
@@ -4007,7 +4007,7 @@ Tandaan na maaaring maputol nito ang umiiral na mga kawing.",
 Maaaring hindi pa ito umiiral.",
 	'interwiki-badprefix' => "Naglalaman ang tinukoy na pangpaguugnayan ng wiking (''interwiki'') unlaping \"\$1\" ng hindi tanggap na mga panitik",
 	'interwiki_logpagename' => 'Talaan ng tablang pang-ugnayang wiki',
-	'interwiki_logpagetext' => 'Isa itong talaan ng mga pagbabago sa [[Special:Interwiki|tablang pang-ugnayang wiki]].',
+	'log-header-interwiki' => 'Isa itong talaan ng mga pagbabago sa [[Special:Interwiki|tablang pang-ugnayang wiki]].',
 	'right-interwiki' => "Baguhin ang datong pangugnayang-wiki (''interwiki'')",
 	'action-interwiki' => "baguhin ang ipinasok/entradang ito na pang-ugnayang wiki (''interwiki'')",
 );
@@ -4117,7 +4117,7 @@ $messages['uk'] = array(
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|змінив|змінила}} префікс «$4» ($5) (trans: $6; local: $7) в таблиці інтервікі',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|змінив|змінила}} префікс «$4» ($5) (trans: $6; local: $7) в таблиці інтервікі',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|вилучив|вилучила}} префікс «$4» з таблиці інтервікі',
-	'interwiki_logpagetext' => 'Це журнал змін [[Special:Interwiki|таблиці інтервікі]].',
+	'log-header-interwiki' => 'Це журнал змін [[Special:Interwiki|таблиці інтервікі]].',
 	'right-interwiki' => 'Редагувати дані інтервікі',
 	'action-interwiki' => 'зміну цього запису інтервікі',
 );
@@ -4164,7 +4164,7 @@ Ocio a no desfar i colegamenti esistenti.',
 Sto prefisso el podarìa èssar inesistente.',
 	'interwiki-badprefix' => 'El prefisso interwiki speçificà ("$1") el contien caràteri mia validi',
 	'interwiki_logpagename' => 'Registro de la tabèla interwiki',
-	'interwiki_logpagetext' => 'Registro dei canbiamenti fati a la [[Special:Interwiki|tabèla dei interwiki]].',
+	'log-header-interwiki' => 'Registro dei canbiamenti fati a la [[Special:Interwiki|tabèla dei interwiki]].',
 	'right-interwiki' => 'Cànbia i dati interwiki',
 );
 
@@ -4229,7 +4229,7 @@ Có thể nó đã tồn tại trong bảng liên wiki rồi.',
 	'interwiki_editerror' => 'Tiền tố “$1” không thể thay đổi trong bảng liên wiki. Có thể nó không tồn tại.',
 	'interwiki-badprefix' => 'Tiền tố liên wiki “$1” có chứa ký tự không hợp lệ',
 	'interwiki_logpagename' => 'Nhật trình bảng liên wiki',
-	'interwiki_logpagetext' => 'Đây là nhật trình các thay đổi trong [[Special:Interwiki|bảng liên wiki]].',
+	'log-header-interwiki' => 'Đây là nhật trình các thay đổi trong [[Special:Interwiki|bảng liên wiki]].',
 	'right-interwiki' => 'Sửa dữ liệu liên wiki',
 	'action-interwiki' => 'thay đổi khoản mục liên wiki này',
 );
@@ -4268,7 +4268,7 @@ Demolös, das atos kanon breikön yümis dabinöl.',
 Ba no dabinon.',
 	'interwiki-badprefix' => 'Foyümot vüvükik pavilöl: „$1“ ninädon malatis no lonöfölis',
 	'interwiki_logpagename' => 'Jenotalised taiba vüvükik',
-	'interwiki_logpagetext' => 'Is palisedons votükams [[Special:Interwiki|taiba vüvükik]].',
+	'log-header-interwiki' => 'Is palisedons votükams [[Special:Interwiki|taiba vüvükik]].',
 	'right-interwiki' => 'Bevobön nünis vüvükik',
 	'action-interwiki' => 'votükön pati vüvükik at',
 );
@@ -4380,7 +4380,7 @@ $messages['zh-hans'] = array(
 	'interwiki-badprefix' => '所指定的跨维基前缀 "$1" 含有无效的字母',
 	'interwiki-submit-empty' => '前缀和URL不能留空。',
 	'interwiki_logpagename' => '跨维基连结修改日志',
-	'interwiki_logpagetext' => '这是一个[[Special:Interwiki|跨维基连结]]修改的日志。',
+	'log-header-interwiki' => '这是一个[[Special:Interwiki|跨维基连结]]修改的日志。',
 	'right-interwiki' => '修改跨维基资料',
 	'action-interwiki' => '修正这个跨语言链接',
 );
@@ -4430,7 +4430,7 @@ $messages['zh-hant'] = array(
 可能它並不存在。',
 	'interwiki-badprefix' => '所指定的跨維基前綴「$1」含有無效的字母',
 	'interwiki_logpagename' => '跨維基連結修改日誌',
-	'interwiki_logpagetext' => '這是一個[[Special:Interwiki|跨維基連結]]修改的日誌。',
+	'log-header-interwiki' => '這是一個[[Special:Interwiki|跨維基連結]]修改的日誌。',
 	'right-interwiki' => '修改跨維基資料',
 	'action-interwiki' => '修正這個跨語言連結',
 );

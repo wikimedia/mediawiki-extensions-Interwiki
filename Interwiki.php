@@ -7,7 +7,7 @@
  *
  * @file
  * @ingroup Extensions
- * @version 2.1
+ * @version 3.0
  * @author Stephanie Amanda Stevens <phroziac@gmail.com>
  * @author Robin Pepermans (SPQRobin) <robinp.1273@gmail.com>
  * @copyright Copyright © 2005-2007 Stephanie Amanda Stevens
@@ -25,8 +25,8 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Interwiki',
-	'author' => array( 'Stephanie Amanda Stevens', 'SPQRobin', '...' ),
-	'version' => '2.1 20120415',
+	'author' => array( 'Stephanie Amanda Stevens', 'SPQRobin', 'Siebrand Mazeland' ),
+	'version' => '3.0 20120425',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Interwiki',
 	'descriptionmsg' => 'interwiki-desc',
 );
@@ -50,8 +50,6 @@ $wgAvailableRights[] = 'interwiki';
 
 // Set up the new log type - interwiki actions are logged to this new log
 $wgLogTypes[] = 'interwiki';
-$wgLogNames['interwiki'] = 'interwiki_logpagename';
-$wgLogHeaders['interwiki'] = 'interwiki_logpagetext';
 $wgAutoloadClasses['InterwikiLogFormatter'] = $dir . 'Interwiki_body.php';
 # interwiki, iw_add, iw_delete, iw_edit
 $wgLogActionsHandlers['interwiki/*']  = 'InterwikiLogFormatter';
