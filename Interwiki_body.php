@@ -258,9 +258,9 @@ class SpecialInterwiki extends SpecialPage {
 				self::addInfoRow( 'end', 'interwiki_1', 'interwiki_trans_1_intro' )
 			) . "\n"
 		);
-		$this->getOutput()->addWikiMsg( 'interwiki_intro_footer' );
 
 		if ( $canModify ) {
+			$this->getOutput()->addWikiMsg( 'interwiki_intro_footer' );
 			$addtext = $this->msg( 'interwiki_addtext' )->escaped();
 			$addlink = Linker::linkKnown( $this->getTitle( 'add' ), $addtext );
 			$this->getOutput()->addHTML( '<p class="mw-interwiki-addlink">' . $addlink . '</p>' );
