@@ -54,7 +54,7 @@ $wgSpecialPages['Interwiki'] = 'SpecialInterwiki';
 $wgSpecialPageGroups['Interwiki'] = 'wiki';
 
 function setupInterwikiExtension() {
-	global $wgInterwikiViewOnly, $wgAvailableRights, $wgLogTypes, $wgLogActionsHandlers
+	global $wgInterwikiViewOnly, $wgAvailableRights, $wgLogTypes, $wgLogActionsHandlers;
 
 	if ( $wgInterwikiViewOnly === false ) {
 		// New user right, required to modify the interwiki table through Special:Interwiki
