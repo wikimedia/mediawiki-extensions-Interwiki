@@ -72,15 +72,23 @@ class SpecialInterwiki extends SpecialPage {
 		global $wgInterwikiCache;
 		if ( !$this->getUser()->isAllowed( 'interwiki' ) ) {
 			# Check permissions
-			if ( $out ) { throw new PermissionsError( 'interwiki' ); }
+			if ( $out ) {
+				throw new PermissionsError( 'interwiki' );
+			}
+
 			return false;
 		} elseif ( $wgInterwikiCache ) {
 			# Editing the interwiki cache is not supported
-			if ( $out ) { $out->addWikiMsg( 'interwiki-cached' ); }
+			if ( $out ) {
+				$out->addWikiMsg( 'interwiki-cached' );
+			}
+
 			return false;
 		} elseif ( wfReadOnly() ) {
 			# Is the database in read-only mode?
-			if ( $out ) { $out->readOnlyPage(); }
+			if ( $out ) {
+				$out->readOnlyPage();
+			}
 			return false;
 		}
 		return true;
@@ -103,10 +111,12 @@ class SpecialInterwiki extends SpecialPage {
 		} elseif ( $action == 'edit' ) {
 			$dbr = wfGetDB( DB_SLAVE );
 			$row = $dbr->selectRow( 'interwiki', '*', array( 'iw_prefix' => $prefix ), __METHOD__ );
+
 			if ( !$row ) {
 				$this->error( 'interwiki_editerror', $prefix );
 				return;
 			}
+
 			$prefix = $row->iw_prefix;
 			$defaulturl = $row->iw_url;
 			$trans = $row->iw_trans;
