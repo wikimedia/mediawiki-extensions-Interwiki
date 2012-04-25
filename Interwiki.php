@@ -21,6 +21,9 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( "This is not a valid entry point.\n" );
 }
 
+// Set this value to true in LocalSettings.php if you will not use this
+// extension to actually change any interwiki table entries. It will suppress
+// the addition of a log for interwiki link changes.
 $wgInterwikiViewOnly = false;
 
 // Extension credits for Special:Version
