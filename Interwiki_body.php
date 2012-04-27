@@ -338,7 +338,7 @@ class InterwikiLogFormatter extends LogFormatter {
 	protected function getMessageParameters() {
 		$params = parent::getMessageParameters();
 		if ( isset( $params[4] ) ) {
-			$params[4] = Message::rawParam( $params[4] );
+			$params[4] = Message::rawParam( htmlspecialchars( $params[4] ) );
 		}
 		return $params;
 	}
