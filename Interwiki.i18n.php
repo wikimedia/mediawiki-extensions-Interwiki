@@ -2049,7 +2049,7 @@ $messages['ig'] = array(
 	'interwiki_reasonfield' => 'Mgbághapụtà:',
 );
 
-/** Eastern Canadian (Latin script) (inuktitut) */
+/** Eastern Canadian (Latin script) (Inuktitut) */
 $messages['ike-latn'] = array(
 	'interwiki_edit' => 'Suqusiqpaa',
 );
@@ -2591,59 +2591,59 @@ $messages['mhr'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'interwiki' => 'Преглед и уредување на интервики податоци',
+	'interwiki' => 'Преглед и уредување на меѓувики-податоци',
 	'interwiki-title-norights' => 'Податоци за меѓувики',
-	'interwiki-desc' => 'Додава [[Special:Interwiki|специјална страница]] за преглед и уредување на интервики-табелата',
-	'interwiki_intro' => 'Ова е преглед на интервики-табелата. Значења на податоците во колоните:',
+	'interwiki-desc' => 'Додава [[Special:Interwiki|специјална страница]] за преглед и уредување на меѓувики-табелата',
+	'interwiki_intro' => 'Ова е преглед на меѓувики-табелата. Значења на податоците во колоните:',
 	'interwiki_prefix' => 'Префикс',
 	'interwiki-prefix-label' => 'Префикс:',
-	'interwiki_prefix_intro' => 'Интервики префикс за користење во викитекст-синтаксата <code>[<nowiki />[префикс:<i>име на страница</i>]]</code>.',
+	'interwiki_prefix_intro' => 'Меѓувики-префикс за користење во синтаксата на викитекстот <code>[<nowiki />[префикс:<i>име на страница</i>]]</code>.',
 	'interwiki_url' => 'URL',
 	'interwiki-url-label' => 'URL:',
 	'interwiki_url_intro' => 'Шаблон за URL-адреси. Наместо $1 ќе биде поставено <i>име на страницата</i> на викитекстот, кога се користи гореспоменатата виктекст-синтакса.',
 	'interwiki_local' => 'Препратка',
 	'interwiki-local-label' => 'Препратка:',
-	'interwiki_local_intro' => 'HTTP-барање до локалното вики со овој интервики префикс во URL-адресата:',
+	'interwiki_local_intro' => 'HTTP-барање до локалното вики со овој меѓувики-префикс во URL-адресата:',
 	'interwiki_local_0_intro' => 'не се почитува, туку обично се блокира со пораката „страницата не е пронајдена“,',
-	'interwiki_local_1_intro' => 'се пренасочува кон целната URL-адреса посочена во дефинициите на интервики-врските (т.е. се третира како референтните врски на локалните страници)',
+	'interwiki_local_1_intro' => 'се пренасочува кон целната URL-адреса посочена во дефинициите на меѓувики-врските (т.е. се третираат како наводите на локалните страници)',
 	'interwiki_trans' => 'Превметнување',
 	'interwiki-trans-label' => 'Превметнување:',
 	'interwiki_trans_intro' => 'Ако се користи викитекст-синтаксата <code>{<nowiki />{префикс:<i>име на страница</i>}}</code>, тогаш:',
 	'interwiki_trans_1_intro' => 'дозволи превметнување од други викија, ако тоа е начелно дозволено на ова вики,',
 	'interwiki_trans_0_intro' => 'не дозволувај, туку барај страница во шаблонскиот именски простор.',
-	'interwiki_intro_footer' => 'Погледајте ја страницата [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] за повеќе информации за интервики-табелата.
-Постои [[Special:Log/interwiki|дневник на промени]] во интервики-табелата.',
+	'interwiki_intro_footer' => 'Погледајте ја страницата [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] за повеќе информации за меѓувики-табелата.
+Постои [[Special:Log/interwiki|дневник на промени]] во меѓувики-табелата.',
 	'interwiki_1' => 'да',
 	'interwiki_0' => 'не',
-	'interwiki_error' => 'Грешка: Интервики-табелата е празна, или нешто друго не е во ред.',
+	'interwiki_error' => 'Грешка: Mеѓувики-табелата е празна, или нешто друго не е во ред.',
 	'interwiki-cached' => 'Податоците за меѓувики се кеширани. Кешот не може да се измени.',
 	'interwiki_edit' => 'Уреди',
 	'interwiki_reasonfield' => 'Причина:',
 	'interwiki_delquestion' => 'Бришење на „$1“',
 	'interwiki_deleting' => 'Го бришете префиксот „$1“.',
-	'interwiki_deleted' => 'Префиксот „$1“ е успешно отстранет од интервики-табелата.',
-	'interwiki_delfailed' => 'Префиксот „$1“ не можеше да се отстрани од интервики-табелата.',
-	'interwiki_addtext' => 'Додај интервики префикс',
+	'interwiki_deleted' => 'Префиксот „$1“ е успешно отстранет од меѓувики-табелата.',
+	'interwiki_delfailed' => 'Префиксот „$1“ не можеше да се отстрани од меѓувики-табелата.',
+	'interwiki_addtext' => 'Додај меѓувики-префикс',
 	'interwiki_addintro' => 'Запомнете дека не смее да содржи празни простори ( ), две точки (:), амперсанди (&) и знаци на равенство (=).',
 	'interwiki_addbutton' => 'Додај',
-	'interwiki_added' => 'Префиксот „$1“ е успешно додаден кон интервики-табелата',
-	'interwiki_addfailed' => 'Префиксот „$1“ не можеше да се додаде во интервики-табелата.
+	'interwiki_added' => 'Префиксот „$1“ е успешно додаден кон меѓувики-табелата',
+	'interwiki_addfailed' => 'Префиксот „$1“ не можеше да се додаде во меѓувики-табелата.
 Веројатно таму веќе постои.',
-	'interwiki_edittext' => 'Уредување на интервики префикс',
-	'interwiki_editintro' => 'Уредувате интервики префикс.
+	'interwiki_edittext' => 'Уредување на меѓувики-префикс',
+	'interwiki_editintro' => 'Уредувате меѓувики-префикс.
 Запомнете дека ова може да ги раскине постоечките врски.',
-	'interwiki_edited' => 'Префиксот „$1“ е успешно изменет во интервики-табелата.',
-	'interwiki_editerror' => 'Префиксот „$1“ не може да се менува во интервики-табелата.
+	'interwiki_edited' => 'Префиксот „$1“ е успешно изменет во меѓувики-табелата.',
+	'interwiki_editerror' => 'Префиксот „$1“ не може да се менува во меѓувики-табелата.
 Можеби тој не постои.',
-	'interwiki-badprefix' => 'Назначениот интервики префикс „$1“ содржи неважечки знаци',
+	'interwiki-badprefix' => 'Назначениот меѓувики-префикс „$1“ содржи неважечки знаци',
 	'interwiki-submit-empty' => 'Префиксот и URL-адресата не можат да бидат празни.',
-	'log-name-interwiki' => 'Дневник на измени во интервики-табелата',
+	'log-name-interwiki' => 'Дневник на измени во меѓувики-табелата',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|го додаде}} префиксот „$4“ ($5) (trans: $6; local: $7) во табелата со меѓувики',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|го измени}} префиксот „$4“ ($5) (trans: $6; local: $7) во табелата со меѓувики',
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|го отстрани}} префиксот „$4“ од табелата со меѓувики',
-	'log-description-interwiki' => 'Ова е дневник на промени во [[Special:Interwiki|интервики-табелата]].',
-	'right-interwiki' => 'Уреди интервики',
-	'action-interwiki' => 'менување на овој интервики-запис',
+	'log-description-interwiki' => 'Ова е дневник на промени во [[Special:Interwiki|меѓувики-табелата]].',
+	'right-interwiki' => 'Уреди меѓувики',
+	'action-interwiki' => 'менување на овој меѓувики-запис',
 );
 
 /** Malayalam (മലയാളം)
@@ -2937,6 +2937,7 @@ Er is een [[Special:Log/interwiki|veranderingslogboek]] voor de interwikitabel.'
  * @author Gunnernett
  * @author Harald Khan
  * @author Jon Harald Søby
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'interwiki' => 'Vis og endre interwikidata',
@@ -3056,11 +3057,12 @@ Benlèu i existís ja.',
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
+ * @author Psubhashish
  */
 $messages['or'] = array(
 	'interwiki_1' => 'ହଁ',
 	'interwiki_0' => 'ନା',
-	'interwiki_edit' => 'ବଦଳ',
+	'interwiki_edit' => '<big>ଏହାକୁ ବଦଳାନ୍ତୁ</big>',
 	'interwiki_reasonfield' => 'କାରଣ:',
 	'interwiki_delquestion' => '"$1"କୁ ଲିଭାଉଛି',
 	'interwiki_deleting' => 'ଆପଣ "$1"ର ପୂର୍ବକୁ ବଦଳାଉଛନ୍ତି',
@@ -3086,10 +3088,41 @@ $messages['pdc'] = array(
 );
 
 /** Pälzisch (Pälzisch)
+ * @author Manuae
  * @author Xqt
  */
 $messages['pfl'] = array(
+	'interwiki' => 'Innawikidaade ogugge un ännare.',
+	'interwiki-title-norights' => 'Innawikidaade ogugge.',
+	'interwiki_intro' => 'Des ischn Iwabligg vunde Innawikitabell.
+Inde Schbalde määnen die Daade:',
+	'interwiki_prefix' => 'Präfix',
+	'interwiki-prefix-label' => 'Präfix:',
+	'interwiki_trans' => 'Oibinde',
+	'interwiki-trans-label' => 'Oibinde:',
+	'interwiki_1' => 'ja',
+	'interwiki_0' => 'nä',
+	'interwiki-cached' => "Die Innawikidaade sin abgleschd worre un kennen jedz nemme g'ännad were.",
 	'interwiki_edit' => 'Bearwaide',
+	'interwiki_reasonfield' => 'Grund:',
+	'interwiki_delquestion' => 'Leschd "$1"',
+	'interwiki_deleting' => "Du duschd grad s'Präfix „$1“ lesche.",
+	'interwiki_deleted' => "S'Präfix „$1“ isch ausde Innawikitabell gleschd worre.",
+	'interwiki_delfailed' => "S'Präfix $1 hod ned ausde Innawikitabell gleschd were kenne.",
+	'interwiki_addtext' => 'Ä Innawikipräfix oifiesche.',
+	'interwiki_addintro' => "Du fiegschd ä naies Innawikipräfix oi.
+Deng'g dro, s'derf kä Leazaische ( ), kä Und (&), kä Glaischhaidszaische (=) un kän Dobblpungd (:) hawe.",
+	'interwiki_addbutton' => 'Dzufiesche',
+	'interwiki_added' => "S'Präfix „$1“ isch in die Innawikitabell oigfieschd worre.",
+	'interwiki_edittext' => 'Innawikipräfix ännare.',
+	'interwiki_editintro' => "Du änaschd grad ä Präfix.
+Deng'g dro, des konn Lings zaschdere, wus gibd.",
+	'interwiki_edited' => "S'Präfix „$1“ isch inde Innawikitabell gännad worre.",
+	'interwiki_editerror' => "S'Präfix „$1“ hod ma ned inde Interwikitabell ännare kenne.
+Vielaischd hods des a ned.",
+	'interwiki-submit-empty' => "S'Präfix un's URL derfen ned lea soi.",
+	'right-interwiki' => 'Innawikidaade ännare.',
+	'action-interwiki' => 'Den Innawikioidraach ännare.',
 );
 
 /** Polish (Polski)
@@ -3202,7 +3235,7 @@ Ch'as visa che sòn a peul rompe un colegament esistent.",
 A peul esse che a esista pa.',
 	'interwiki-badprefix' => 'Ël prefiss antërwiki specificà "$1" a conten caràter pa bon.',
 	'interwiki-submit-empty' => "Ël prefiss e l'anliura a peulo pa esse veuid.",
-	'log-name-interwiki' => 'Registr tàula antërwiki',
+	'log-name-interwiki' => 'Registr ëd la tàula antërwiki',
 	'logentry-interwiki-iw_add' => "$1 {{GENDER:$2|a l'ha giontà}} ël prefiss «$4» ($5) (trans: $6; local: $7) a la tàula antërwiki",
 	'logentry-interwiki-iw_edit' => "$1 {{GENDER:$2|a l'ha modificà}} ël prefiss «$4» ($5) (trans: $6; local: $7) ant la tàula antërwiki",
 	'logentry-interwiki-iw_delete' => "$1 {{GENDER:$2|a l'ha gavà}} ël prefiss «$4» da la tàula antërwiki",
@@ -3925,7 +3958,7 @@ $messages['tg-cyrl'] = array(
 	'interwiki_addbutton' => 'Илова',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -4035,7 +4068,7 @@ $messages['tr'] = array(
 	'interwiki_error' => 'Hata: İnterviki tablosu boş ya da başka bir şeyde sorun çıktı.',
 	'interwiki_edit' => 'Değiştir',
 	'interwiki_reasonfield' => 'Neden:',
-	'interwiki_delquestion' => '"$ 1" siliniyor',
+	'interwiki_delquestion' => '\'\'$1" siliniyor',
 	'interwiki_addtext' => 'Bir interviki öneki ekler',
 	'interwiki_addbutton' => 'Ekle',
 	'right-interwiki' => 'İnterviki verilerini düzenler',
@@ -4168,7 +4201,7 @@ Sto prefisso el podarìa èssar inesistente.',
 	'right-interwiki' => 'Cànbia i dati interwiki',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
