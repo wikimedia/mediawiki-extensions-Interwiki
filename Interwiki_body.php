@@ -295,7 +295,7 @@ class SpecialInterwiki extends SpecialPage {
 
 		foreach ( $iwPrefixes as $i => $iwPrefix ) {
 			$out .= Html::openElement( 'tr', array( 'class' => 'mw-interwikitable-row' ) );
-			$out .=	Html::element( 'td', array( 'class' => 'mw-interwikitable-prefix' ),
+			$out .= Html::element( 'td', array( 'class' => 'mw-interwikitable-prefix' ),
 				htmlspecialchars( $iwPrefix['iw_prefix'] ) );
 			$out .= Html::element( 'td', array( 'class' => 'mw-interwikitable-url' ), $iwPrefix['iw_url'] );
 			$out .= Html::element( 'td', array( 'class' => 'mw-interwikitable-local' ),
