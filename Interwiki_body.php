@@ -102,13 +102,13 @@ class SpecialInterwiki extends SpecialPage {
 		$label = array( 'class' => 'mw-label' );
 		$input = array( 'class' => 'mw-input' );
 
-		if ( $action == 'delete' ) {
+		if ( $action === 'delete' ) {
 			$topmessage = $this->msg( 'interwiki_delquestion', $prefix )->text();
 			$intromessage = $this->msg( 'interwiki_deleting', $prefix )->text();
 			$wpPrefix = Html::hidden( 'wpInterwikiPrefix', $prefix );
 			$button = 'delete';
 			$formContent = '';
-		} elseif ( $action == 'edit' ) {
+		} elseif ( $action === 'edit' ) {
 			$dbr = wfGetDB( DB_SLAVE );
 			$row = $dbr->selectRow( 'interwiki', '*', array( 'iw_prefix' => $prefix ), __METHOD__ );
 
@@ -125,7 +125,7 @@ class SpecialInterwiki extends SpecialPage {
 			$topmessage = $this->msg( 'interwiki_edittext' )->text();
 			$intromessage = $this->msg( 'interwiki_editintro' )->text();
 			$button = 'edit';
-		} elseif ( $action == 'add' ) {
+		} elseif ( $action === 'add' ) {
 			$prefix = $request->getVal( 'wpInterwikiPrefix', $request->getVal( 'prefix' ) );
 			$prefix = Xml::input( 'wpInterwikiPrefix', 20, $prefix,
 				array( 'tabindex' => 1, 'id' => 'mw-interwiki-prefix', 'maxlength' => 20 ) );
@@ -137,7 +137,7 @@ class SpecialInterwiki extends SpecialPage {
 			$button = 'interwiki_addbutton';
 		}
 
-		if ( $action == 'add' || $action == 'edit' ) {
+		if ( $action === 'add' || $action === 'edit' ) {
 			$formContent = Html::rawElement( 'tr', null,
 				Html::element( 'td', $label, $this->msg( 'interwiki-prefix-label' )->text() ) .
 				Html::rawElement( 'td', null, '<tt>' . $prefix . '</tt>' )
@@ -182,7 +182,7 @@ class SpecialInterwiki extends SpecialPage {
 		$prefix = $request->getVal( 'wpInterwikiPrefix' );
 		$do = $request->getVal( 'wpInterwikiAction' );
 		// show an error if the prefix is invalid (only when adding one)
-		if ( preg_match( '/[\s:&=]/', $prefix ) && $do == 'add' ) {
+		if ( preg_match( '/[\s:&=]/', $prefix ) && $do === 'add' ) {
 			$this->error( 'interwiki-badprefix', htmlspecialchars( $prefix ) );
 			$this->showForm( $do );
 			return;
@@ -194,7 +194,7 @@ class SpecialInterwiki extends SpecialPage {
 		case 'delete':
 			$dbw->delete( 'interwiki', array( 'iw_prefix' => $prefix ), __METHOD__ );
 
-			if ( $dbw->affectedRows() == 0 ) {
+			if ( $dbw->affectedRows() === 0 ) {
 				$this->error( 'interwiki_delfailed', $prefix );
 				$this->showForm( $do );
 			} else {
@@ -217,19 +217,19 @@ class SpecialInterwiki extends SpecialPage {
 				'iw_trans' => $trans
 			);
 
-			if ( $prefix == '' || $theurl == '' ) {
+			if ( $prefix === '' || $theurl === '' ) {
 				$this->error( 'interwiki-submit-empty' );
 				$this->showForm( $do );
 				return;
 			}
 
-			if ( $do == 'add' ) {
+			if ( $do === 'add' ) {
 				$dbw->insert( 'interwiki', $data, __METHOD__, 'IGNORE' );
 			} else {
 				$dbw->update( 'interwiki', $data, array( 'iw_prefix' => $prefix ), __METHOD__, 'IGNORE' );
 			}
 
-			if ( $dbw->affectedRows() == 0 ) {
+			if ( $dbw->affectedRows() === 0 ) {
 				$this->error( "interwiki_{$do}failed", $prefix );
 				$this->showForm( $do );
 			} else {
@@ -273,7 +273,7 @@ class SpecialInterwiki extends SpecialPage {
 		}
 		$iwPrefixes = Interwiki::getAllPrefixes( null );
 
-		if ( !is_array( $iwPrefixes ) || count( $iwPrefixes ) == 0 ) {
+		if ( !is_array( $iwPrefixes ) || count( $iwPrefixes ) === 0 ) {
 			# If the interwiki table is empty, display an error message
 			$this->error( 'interwiki_error' );
 			return;

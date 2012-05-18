@@ -23,13 +23,13 @@ table.mw-interwikitable.body td.mw-interwikitable-trans,
 table.mw-interwikitable.body td.mw-interwikitable-modify {
 	text-align: center;
 }
-/* @noflip */ .mw-interwikitable-url {
-	text-align: left;
-}
-/* @noflip */ input#mw-interwiki-url  {
+
+/* It's safe enough to assume that URLs are usually LTR. */
+/* @noflip */ .mw-interwikitable-url, input#mw-interwiki-url {
 	text-align: left;
 	direction: ltr;
 }
+
 .mw-interwikitable-modify {
 	white-space: nowrap;
 }
