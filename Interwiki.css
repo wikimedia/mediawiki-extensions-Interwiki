@@ -25,7 +25,9 @@ table.mw-interwikitable.body td.mw-interwikitable-modify {
 }
 
 /* It's safe enough to assume that URLs are usually LTR. */
-/* @noflip */ .mw-interwikitable-url, input#mw-interwiki-url {
+/* @noflip */
+.mw-interwikitable-url,
+input#mw-interwiki-url {
 	text-align: left;
 	direction: ltr;
 }
