@@ -302,11 +302,24 @@ class SpecialInterwiki extends SpecialPage {
 			$out .= Html::element( 'td', array( 'class' => 'mw-interwikitable-prefix' ),
 				$iwPrefix['iw_prefix'] );
 			$out .= Html::element( 'td', array( 'class' => 'mw-interwikitable-url' ), $iwPrefix['iw_url'] );
+			$attribs = array( 'class' => 'mw-interwikitable-local' );
+			// Green background for cells with "yes".
+			if( $iwPrefix['iw_local'] ) {
+				$attribs['style'] = 'background: lime;';
+			}
 			// The messages interwiki_0 and interwiki_1 are used here.
-			$out .= Html::element( 'td', array( 'class' => 'mw-interwikitable-local' ),
+			$out .= Html::element( 'td', $attribs,
 				( isset( $iwPrefix['iw_local'] ) ? $this->msg( 'interwiki_' . $iwPrefix['iw_local'] )->text() : '-' ) );
-			$out .= Html::element( 'td', array( 'class' => 'mw-interwikitable-trans' ),
+			$attribs = array( 'class' => 'mw-interwikitable-trans' );
+			// Green background for cells with "yes".
+			if( $iwPrefix['iw_trans'] ) {
+				$attribs['style'] = 'background: lime;';
+			}
+			// The messages interwiki_0 and interwiki_1 are used here.
+			$out .= Html::element( 'td', array( $attribs ),
 				( isset( $iwPrefix['iw_trans'] ) ? $this->msg( 'interwiki_' . $iwPrefix['iw_trans'] )->text() : '-' ) );
+
+			// Additional column when the interwiki table can be modified.
 			if ( $canModify ) {
 				$out .= Html::rawElement( 'td', array( 'class' => 'mw-interwikitable-modify' ),
 					Linker::linkKnown( $selfTitle, $this->msg( 'edit' )->escaped(), array(),
