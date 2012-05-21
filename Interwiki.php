@@ -38,10 +38,13 @@ $wgExtensionCredits['specialpage'][] = array(
 
 $wgExtensionFunctions[] = 'setupInterwikiExtension';
 
-$wgResourceModules['SpecialInterwiki'] = array(
+$wgResourceModules['ext.interwiki.specialpage'] = array(
 	'styles' => 'Interwiki.css',
 	'localBasePath' => dirname( __FILE__ ),
 	'remoteExtPath' => 'Interwiki',
+	'dependencies' => array(
+		'jquery.makeCollapsible',
+	),
 );
 
 // Set up the new special page

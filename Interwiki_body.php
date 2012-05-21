@@ -32,7 +32,7 @@ class SpecialInterwiki extends SpecialPage {
 		$out = $this->getOutput();
 		$request = $this->getRequest();
 
-		$out->addModuleStyles( 'SpecialInterwiki' );
+		$out->addModules( 'ext.interwiki.specialpage' );
 
 		$action = $par ? $par : $request->getVal( 'action', $par );
 		$return = $this->getTitle();
@@ -249,21 +249,33 @@ class SpecialInterwiki extends SpecialPage {
 		$canModify = $this->canModify();
 
 		$this->getOutput()->addWikiMsg( 'interwiki_intro' );
+		// Make collapsible.
 		$this->getOutput()->addHTML(
-			Html::rawElement( 'table', array( 'class' => 'mw-interwikitable wikitable intro' ),
-				self::addInfoRow( 'start', 'interwiki_prefix', 'interwiki_prefix_intro' ) .
-				self::addInfoRow( 'start', 'interwiki_url', 'interwiki_url_intro' ) .
-				self::addInfoRow( 'start', 'interwiki_local', 'interwiki_local_intro' ) .
-				self::addInfoRow( 'end', 'interwiki_0', 'interwiki_local_0_intro' ) .
-				self::addInfoRow( 'end', 'interwiki_1', 'interwiki_local_1_intro' ) .
-				self::addInfoRow( 'start', 'interwiki_trans', 'interwiki_trans_intro' ) .
-				self::addInfoRow( 'end', 'interwiki_0', 'interwiki_trans_0_intro' ) .
-				self::addInfoRow( 'end', 'interwiki_1', 'interwiki_trans_1_intro' )
-			) . "\n"
+			Html::openElement(
+				'div', array(
+					'class' => 'mw-collapsible mw-collapsed',
+					'data-collapsetext' => $this->msg( 'interwiki-legend-hide' )->escaped(),
+					'data-expandtext' => $this->msg('interwiki-legend-show' )->escaped()
+		) ) );
+		$this->getOutput()->addHTML(
+			Html::rawElement(
+				'table', array( 'class' => 'mw-interwikitable wikitable intro' ),
+				self::addInfoRow( 'start', 'interwiki_prefix', 'interwiki_prefix_intro' ) . "\n" .
+				self::addInfoRow( 'start', 'interwiki_url', 'interwiki_url_intro' ) . "\n" .
+				self::addInfoRow( 'start', 'interwiki_local', 'interwiki_local_intro' ) . "\n" .
+				self::addInfoRow( 'end', 'interwiki_0', 'interwiki_local_0_intro' ) . "\n" .
+				self::addInfoRow( 'end', 'interwiki_1', 'interwiki_local_1_intro' ) . "\n" .
+				self::addInfoRow( 'start', 'interwiki_trans', 'interwiki_trans_intro' ) . "\n" .
+				self::addInfoRow( 'end', 'interwiki_0', 'interwiki_trans_0_intro' ) . "\n" .
+				self::addInfoRow( 'end', 'interwiki_1', 'interwiki_trans_1_intro' ) . "\n"
+			)
 		);
 
+		$this->getOutput()->addHTML( Html::closeElement( 'table' ) );
+		$this->getOutput()->addHTML( Html::closeElement( 'div' ) ); // end collapsible.
+
 		if ( $canModify ) {
-			$this->getOutput()->addWikiMsg( 'interwiki_intro_footer' );
+			$this->getOutput()->addHTML( "<br />" . $this->msg( 'interwiki_intro_footer' )->parse() );
 			$addtext = $this->msg( 'interwiki_addtext' )->escaped();
 			$addlink = Linker::linkKnown( $this->getTitle( 'add' ), $addtext );
 			$this->getOutput()->addHTML( '<p class="mw-interwiki-addlink">' . $addlink . '</p>' );

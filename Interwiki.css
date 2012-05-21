@@ -35,3 +35,7 @@ input#mw-interwiki-url {
 .mw-interwikitable-modify {
 	white-space: nowrap;
 }
+
+.mw-special-Interwiki .mw-collapsible-toggle {
+	float: left;
+}
