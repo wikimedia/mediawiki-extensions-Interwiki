@@ -316,7 +316,7 @@ class SpecialInterwiki extends SpecialPage {
 				$attribs['style'] = 'background: lime;';
 			}
 			// The messages interwiki_0 and interwiki_1 are used here.
-			$out .= Html::element( 'td', array( $attribs ),
+			$out .= Html::element( 'td', $attribs,
 				( isset( $iwPrefix['iw_trans'] ) ? $this->msg( 'interwiki_' . $iwPrefix['iw_trans'] )->text() : '-' ) );
 
 			// Additional column when the interwiki table can be modified.
