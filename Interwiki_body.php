@@ -104,7 +104,7 @@ class SpecialInterwiki extends SpecialPage {
 
 		if ( $action === 'delete' ) {
 			$topmessage = $this->msg( 'interwiki_delquestion', $prefix )->text();
-			$intromessage = $this->msg( 'interwiki_deleting', $prefix )->text();
+			$intromessage = $this->msg( 'interwiki_deleting', $prefix )->escaped();
 			$wpPrefix = Html::hidden( 'wpInterwikiPrefix', $prefix );
 			$button = 'delete';
 			$formContent = '';
@@ -123,7 +123,7 @@ class SpecialInterwiki extends SpecialPage {
 			$local = $row->iw_local;
 			$wpPrefix = Html::hidden( 'wpInterwikiPrefix', $row->iw_prefix );
 			$topmessage = $this->msg( 'interwiki_edittext' )->text();
-			$intromessage = $this->msg( 'interwiki_editintro' )->text();
+			$intromessage = $this->msg( 'interwiki_editintro' )->escaped();
 			$button = 'edit';
 		} elseif ( $action === 'add' ) {
 			$prefix = $request->getVal( 'wpInterwikiPrefix', $request->getVal( 'prefix' ) );
@@ -133,7 +133,7 @@ class SpecialInterwiki extends SpecialPage {
 			$trans = $request->getCheck( 'wpInterwikiTrans' );
 			$defaulturl = $request->getVal( 'wpInterwikiURL', $this->msg( 'interwiki-defaulturl' )->text() );
 			$topmessage = $this->msg( 'interwiki_addtext' )->text();
-			$intromessage = $this->msg( 'interwiki_addintro' )->text();
+			$intromessage = $this->msg( 'interwiki_addintro' )->escaped();
 			$button = 'interwiki_addbutton';
 		}
 
@@ -181,7 +181,8 @@ class SpecialInterwiki extends SpecialPage {
 		$request = $this->getRequest();
 		$prefix = $request->getVal( 'wpInterwikiPrefix' );
 		$do = $request->getVal( 'wpInterwikiAction' );
-		// show an error if the prefix is invalid (only when adding one)
+		// Show an error if the prefix is invalid (only when adding one).
+		// Invalid characters are ':', '&', '=' and whitespace.
 		if ( preg_match( '/[\s:&=]/', $prefix ) && $do === 'add' ) {
 			$this->error( 'interwiki-badprefix', htmlspecialchars( $prefix ) );
 			$this->showForm( $do );
@@ -206,6 +207,7 @@ class SpecialInterwiki extends SpecialPage {
 			break;
 		case 'add':
 			$prefix = $wgContLang->lc( $prefix );
+			// N.B.: no break!
 		case 'edit':
 			$theurl = $request->getVal( 'wpInterwikiURL' );
 			$local = $request->getCheck( 'wpInterwikiLocal' ) ? 1 : 0;
@@ -225,10 +227,11 @@ class SpecialInterwiki extends SpecialPage {
 
 			if ( $do === 'add' ) {
 				$dbw->insert( 'interwiki', $data, __METHOD__, 'IGNORE' );
-			} else {
+			} else { // $do === 'edit'
 				$dbw->update( 'interwiki', $data, array( 'iw_prefix' => $prefix ), __METHOD__, 'IGNORE' );
 			}
 
+			// used here: interwiki_addfailed, interwiki_added, interwiki_edited
 			if ( $dbw->affectedRows() === 0 ) {
 				$this->error( "interwiki_{$do}failed", $prefix );
 				$this->showForm( $do );
@@ -281,27 +284,29 @@ class SpecialInterwiki extends SpecialPage {
 
 		$out = '';
 
-		# Output the table header
+		# Output the existing Interwiki prefixes table header
 		$out .=	Html::openElement( 'table', array( 'class' => 'mw-interwikitable wikitable sortable body' ) ) . "\n";
 		$out .= Html::openElement( 'tr', array( 'id' => 'interwikitable-header' ) ) .
-			Html::element( 'th', null, $this->msg( 'interwiki_prefix' ) ) .
-			Html::element( 'th', null, $this->msg( 'interwiki_url' ) ) .
-			Html::element( 'th', null, $this->msg( 'interwiki_local' ) ) .
-			Html::element( 'th', null, $this->msg( 'interwiki_trans' ) ) .
-			( $canModify ? Html::element( 'th', array( 'class' => 'unsortable' ), $this->msg( 'interwiki_edit' ) ) : '' );
+			Html::element( 'th', null, $this->msg( 'interwiki_prefix' )->text() ) .
+			Html::element( 'th', null, $this->msg( 'interwiki_url' )->text() ) .
+			Html::element( 'th', null, $this->msg( 'interwiki_local' )->text() ) .
+			Html::element( 'th', null, $this->msg( 'interwiki_trans' )->text() ) .
+			( $canModify ? Html::element( 'th', array( 'class' => 'unsortable' ), $this->msg( 'interwiki_edit' )->text() ) : '' );
 		$out .= Html::closeElement( 'tr' ) . "\n";
 
 		$selfTitle = $this->getTitle();
 
+		# Output the existing Interwiki prefixes table rows
 		foreach ( $iwPrefixes as $i => $iwPrefix ) {
 			$out .= Html::openElement( 'tr', array( 'class' => 'mw-interwikitable-row' ) );
 			$out .= Html::element( 'td', array( 'class' => 'mw-interwikitable-prefix' ),
-				htmlspecialchars( $iwPrefix['iw_prefix'] ) );
+				$iwPrefix['iw_prefix'] );
 			$out .= Html::element( 'td', array( 'class' => 'mw-interwikitable-url' ), $iwPrefix['iw_url'] );
+			// The messages interwiki_0 and interwiki_1 are used here.
 			$out .= Html::element( 'td', array( 'class' => 'mw-interwikitable-local' ),
-				( isset( $iwPrefix['iw_local'] ) ? $this->msg( 'interwiki_' . $iwPrefix['iw_local'] ) : '-' ) );
+				( isset( $iwPrefix['iw_local'] ) ? $this->msg( 'interwiki_' . $iwPrefix['iw_local'] )->text() : '-' ) );
 			$out .= Html::element( 'td', array( 'class' => 'mw-interwikitable-trans' ),
-				( isset( $iwPrefix['iw_trans'] ) ? $this->msg( 'interwiki_' . $iwPrefix['iw_trans'] ) : '-' ) );
+				( isset( $iwPrefix['iw_trans'] ) ? $this->msg( 'interwiki_' . $iwPrefix['iw_trans'] )->text() : '-' ) );
 			if ( $canModify ) {
 				$out .= Html::rawElement( 'td', array( 'class' => 'mw-interwikitable-modify' ),
 					Linker::linkKnown( $selfTitle, $this->msg( 'edit' )->escaped(), array(),
@@ -318,9 +323,14 @@ class SpecialInterwiki extends SpecialPage {
 		$this->getOutput()->addHTML( $out );
 	}
 
+	/**
+	 * Adds a row to the documentation table on the top of Special:Interwiki.
+	 */
 	static function addInfoRow( $align = 'start', $title, $text ) {
 		return Html::rawElement( 'tr', null,
+			// The classes mw-align-start and mw-align-end are used here.
 			Html::rawElement( 'th', array( 'class' => 'mw-align-' . $align ), wfMessage( $title )->escaped() ) .
+			// This message is expected to have wiki syntax
 			Html::rawElement( 'td', null, wfMessage( $text )->parse() )
 		);
 	}
@@ -333,7 +343,7 @@ class SpecialInterwiki extends SpecialPage {
 
 /**
  * Needed to pass the URL as a raw parameter, because it contains $1
-*/
+ */
 class InterwikiLogFormatter extends LogFormatter {
 	protected function getMessageParameters() {
 		$params = parent::getMessageParameters();
