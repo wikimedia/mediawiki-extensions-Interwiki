@@ -14,6 +14,7 @@ class SpecialInterwiki extends SpecialPage {
 	/**
 	 * Different description will be shown on Special:SpecialPage depending on
 	 * whether the user can modify the data.
+	 * @return String
 	 */
 	function getDescription() {
 		return $this->msg( $this->canModify() ?
@@ -65,8 +66,9 @@ class SpecialInterwiki extends SpecialPage {
 
 	/**
 	 * Returns boolean whether the user can modify the data.
-	 * @param $out If $wgOut object given, it adds the respective error message.
-	 * @return Boolean
+	 * @param $out OutputPage|bool If $wgOut object given, it adds the respective error message.
+	 * @throws PermissionsError
+	 * @return bool
 	 */
 	public function canModify( $out = false ) {
 		global $wgInterwikiCache;
@@ -94,6 +96,10 @@ class SpecialInterwiki extends SpecialPage {
 		return true;
 	}
 
+	/**
+	 * @param $action string
+	 * @return string
+	 */
 	function showForm( $action ) {
 		$request = $this->getRequest();
 
@@ -114,7 +120,7 @@ class SpecialInterwiki extends SpecialPage {
 
 			if ( !$row ) {
 				$this->error( 'interwiki_editerror', $prefix );
-				return;
+				return '';
 			}
 
 			$prefix = $row->iw_prefix;
@@ -309,7 +315,7 @@ class SpecialInterwiki extends SpecialPage {
 		$selfTitle = $this->getTitle();
 
 		# Output the existing Interwiki prefixes table rows
-		foreach ( $iwPrefixes as $i => $iwPrefix ) {
+		foreach ( $iwPrefixes as $iwPrefix ) {
 			$out .= Html::openElement( 'tr', array( 'class' => 'mw-interwikitable-row' ) );
 			$out .= Html::element( 'td', array( 'class' => 'mw-interwikitable-prefix' ),
 				$iwPrefix['iw_prefix'] );
@@ -350,6 +356,10 @@ class SpecialInterwiki extends SpecialPage {
 
 	/**
 	 * Adds a row to the documentation table on the top of Special:Interwiki.
+	 * @param $align string
+	 * @param $title string
+	 * @param $text string
+	 * @return string
 	 */
 	static function addInfoRow( $align = 'start', $title, $text ) {
 		return Html::rawElement( 'tr', null,
@@ -370,6 +380,9 @@ class SpecialInterwiki extends SpecialPage {
  * Needed to pass the URL as a raw parameter, because it contains $1
  */
 class InterwikiLogFormatter extends LogFormatter {
+	/**
+	 * @return array
+	 */
 	protected function getMessageParameters() {
 		$params = parent::getMessageParameters();
 		if ( isset( $params[4] ) ) {
