@@ -38,6 +38,11 @@ $specialPageAliases['bs'] = array(
 	'Interwiki' => array( 'Medjuwiki' ),
 );
 
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'Interwiki' => array( 'İnterwiki' ),
+);
+
 /** Esperanto (Esperanto) */
 $specialPageAliases['eo'] = array(
 	'Interwiki' => array( 'Intervikia_ligilo' ),
@@ -125,7 +130,7 @@ $specialPageAliases['lad'] = array(
 
 /** Macedonian (Македонски) */
 $specialPageAliases['mk'] = array(
-	'Interwiki' => array( 'Интервики' ),
+	'Interwiki' => array( 'Меѓувики' ),
 );
 
 /** Malayalam (മലയാളം) */
@@ -181,6 +186,11 @@ $specialPageAliases['vi'] = array(
 /** Cantonese (粵語) */
 $specialPageAliases['yue'] = array(
 	'Interwiki' => array( '其他維基連接' ),
+);
+
+/** Simplified Chinese (‪中文(简体)‬) */
+$specialPageAliases['zh-hans'] = array(
+	'Interwiki' => array( '跨维基' ),
 );
 
 /** Traditional Chinese (‪中文(繁體)‬) */
