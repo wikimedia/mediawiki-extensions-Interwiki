@@ -43,7 +43,7 @@ class SpecialInterwiki extends SpecialPage {
 		case 'edit':
 		case 'add':
 			if ( $this->canModify( $out ) ) {
-				$out->addHTML( $this->showForm( $action ) );
+				$this->showForm( $action );
 			}
 			$out->returnToMain( false, $return );
 			break;
@@ -98,7 +98,6 @@ class SpecialInterwiki extends SpecialPage {
 
 	/**
 	 * @param $action string
-	 * @return string
 	 */
 	function showForm( $action ) {
 		$request = $this->getRequest();
@@ -120,7 +119,7 @@ class SpecialInterwiki extends SpecialPage {
 
 			if ( !$row ) {
 				$this->error( 'interwiki_editerror', $prefix );
-				return '';
+				return;
 			}
 
 			$prefix = $row->iw_prefix;
@@ -160,7 +159,7 @@ class SpecialInterwiki extends SpecialPage {
 			);
 		}
 
-		return Xml::fieldset( $topmessage, Html::rawElement( 'form',
+		$form = Xml::fieldset( $topmessage, Html::rawElement( 'form',
 			array( 'id' => "mw-interwiki-{$action}form", 'method' => 'post',
 				'action' => $this->getTitle()->getLocalURL( 'action=submit' ) ),
 			Html::rawElement( 'p', null, $intromessage ) .
@@ -179,6 +178,8 @@ class SpecialInterwiki extends SpecialPage {
 				Html::hidden( 'wpInterwikiAction', $action )
 			)
 		) );
+		$this->getOutput()->addHTML( $form );
+		return;
 	}
 
 	function doSubmit() {
