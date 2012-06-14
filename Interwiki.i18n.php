@@ -400,7 +400,7 @@ $messages['arz'] = array(
 	'action-interwiki' => 'تغيير مدخلة الإنترويكى هذه',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -408,6 +408,8 @@ $messages['ast'] = array(
 	'interwiki-title-norights' => "Ver los datos d'interwiki",
 	'interwiki-desc' => "Amiesta una [[Special:Interwiki|páxina especial]] pa ver y editar la tabla d'interwiki",
 	'interwiki_intro' => "Esta ye una vista xeneral de la tabla d'interwikis.",
+	'interwiki-legend-show' => 'Amosar lleenda',
+	'interwiki-legend-hide' => 'Anubrir lleenda',
 	'interwiki_prefix' => 'Prefixu',
 	'interwiki-prefix-label' => 'Prefixu:',
 	'interwiki_prefix_intro' => "Prefixu d'interwiki a usar cola sintaxis de testu wiki <code>[<nowiki />[prefixu:<i>nome de la páxina</i>]]</code>.",
@@ -491,7 +493,7 @@ Rotir koeon me krulder.',
 	'log-description-interwiki' => "Batcoba tir 'log' dem betaks va [[Special:Interwiki|'interwiki' origak]].",
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Wertuose
  */
 $messages['az'] = array(
@@ -513,7 +515,7 @@ $messages['az'] = array(
 	'right-interwiki' => 'İntervikilərin redaktə edilməsi',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author Тест
  */
 $messages['be'] = array(
@@ -584,7 +586,7 @@ $messages['be-tarask'] = array(
 	'action-interwiki' => 'зьмяніць гэты элемэнт інтэрвікі',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -635,7 +637,7 @@ $messages['bn'] = array(
 	'interwiki_addbutton' => 'যোগ',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
  * @author Y-M D
@@ -697,7 +699,7 @@ Marteze n\'eus ket anezhañ.',
 	'action-interwiki' => 'kemmañ ar moned etrewiki-mañ',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  * @author Kal-El
  */
@@ -754,7 +756,7 @@ Moguće je da uopće ne postoji.',
 	'action-interwiki' => 'mijenjate ovu stavku interwikija',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author BroOk
  * @author Paucabot
  * @author SMP
@@ -820,7 +822,7 @@ $messages['ce'] = array(
 	'interwiki_addbutton' => 'Тlетоха',
 );
 
-/** Sorani (کوردی)
+/** Sorani Kurdish (کوردی)
  * @author Asoxor
  */
 $messages['ckb'] = array(
@@ -828,12 +830,12 @@ $messages['ckb'] = array(
 	'interwiki_deleted' => 'پێشگری «$1» سەرکەوتووانە لە خشتەی نێوانویکی لابرا.',
 );
 
-/** Corsican (Corsu) */
+/** Corsican (corsu) */
 $messages['co'] = array(
 	'interwiki_reasonfield' => 'Mutivu:',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Danny B.
  * @author Mormegil
  */
@@ -932,7 +934,7 @@ Efallai ei fod eisoes yn y tabl rhyngwici.',
 	'action-interwiki' => 'newid yr eitem rhyngwici hwn',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Byrial
  * @author Jon Harald Søby
  * @author Peter Alberti
@@ -1042,6 +1044,7 @@ Beachten Sie, dass dies bereits vorhandene Links ungültig machen kann.',
  * @author Mirzali
  */
 $messages['diq'] = array(
+	'interwiki-title-norights' => 'Melumatê interwikiya bıvin',
 	'interwiki_prefix' => 'Verole',
 	'interwiki-prefix-label' => 'Verole:',
 	'interwiki_local' => 'Hetana fi',
@@ -1058,6 +1061,8 @@ $messages['dsb'] = array(
 	'interwiki-title-norights' => 'Daty interwiki se wobglědaś',
 	'interwiki-desc' => 'Pśidawa [[Special:Interwiki|specialny bok]] za woglědowanje a wobźěłowanje tabele interwiki',
 	'interwiki_intro' => 'Toś to jo pśeglěd tabele interwiki.',
+	'interwiki-legend-show' => 'Legendu pokazaś',
+	'interwiki-legend-hide' => 'Legendu schowaś',
 	'interwiki_prefix' => 'Prefiks',
 	'interwiki-prefix-label' => 'Prefiks:',
 	'interwiki_prefix_intro' => 'Prefiks interwiki, kótaryž ma se we wikitekstowej syntaksy <code>[<nowiki />[prefix:<i>pagename</i>]]</code> wužywaś.',
@@ -1109,7 +1114,7 @@ Snaź njeeksistěrujo.',
 	'action-interwiki' => 'toś ten zapisk interwiki změniś',
 );
 
-/** Ewe (Eʋegbe) */
+/** Ewe (eʋegbe) */
 $messages['ee'] = array(
 	'interwiki_edit' => 'Trɔ asi le eŋu',
 );
@@ -1195,7 +1200,7 @@ Verŝajne ĝi ne ekzistas.',
 	'right-interwiki' => 'Redakti intervikiajn datenojn',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Crazymadlover
  * @author Imre
@@ -1263,7 +1268,7 @@ Posiblemente no exista.',
 	'action-interwiki' => 'cambiar esta entrada interwiki',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  */
 $messages['et'] = array(
@@ -1273,7 +1278,7 @@ $messages['et'] = array(
 	'interwiki_reasonfield' => 'Põhjus:',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Kobazulo
  */
@@ -1339,7 +1344,7 @@ $messages['fa'] = array(
 	'action-interwiki' => 'تغییر این مدخل میان‌ویکی',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Jack Phoenix
  * @author Mobe
@@ -1381,7 +1386,7 @@ $messages['fi'] = array(
 	'action-interwiki' => 'muokata tätä interwiki-merkintää',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author DavidL
  * @author Gomoko
@@ -1448,7 +1453,7 @@ Il existe un [[Special:Log/interwiki|journal des modifications]] de la table int
 	'action-interwiki' => 'modifier cette entrée interwiki',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author Cedric31
  * @author ChrisPtDe
  */
@@ -1599,6 +1604,8 @@ $messages['gsw'] = array(
 	'interwiki-title-norights' => 'Interwiki-Date aaluege',
 	'interwiki-desc' => '[[Special:Interwiki|Spezialsyte]] zum Interwiki-Tabälle pfläge',
 	'interwiki_intro' => 'Des isch e Iberblick iber d Interwiki-Tabälle.',
+	'interwiki-legend-show' => 'Legende aazeige',
+	'interwiki-legend-hide' => 'Legende ussblände',
 	'interwiki_prefix' => 'Präfix',
 	'interwiki-prefix-label' => 'Präfix:',
 	'interwiki_prefix_intro' => 'Interwiki-Präfix, wu in dr Form <code>[<nowiki />[präfix:<i>Sytename</i>]]</code> im Wikitext cha bruucht wäre.',
@@ -1687,6 +1694,8 @@ $messages['he'] = array(
 	'interwiki-title-norights' => 'הצגת מידע על קידומות בינוויקי',
 	'interwiki-desc' => 'הוספת [[Special:Interwiki|דף מיוחד]] להצגה ולעריכה של מידע על קידומות בינוויקי',
 	'interwiki_intro' => 'זוהי סקירה של טבלת קידומות בינוויקי.',
+	'interwiki-legend-show' => 'הצגת מקרא',
+	'interwiki-legend-hide' => 'הסתרת מקרא',
 	'interwiki_prefix' => 'קידומת',
 	'interwiki-prefix-label' => 'קידומת:',
 	'interwiki_prefix_intro' => 'קידומת הבינוויקי שתשמש בתחביר <code>[<nowiki />[prefix:<i>pagename</i>]]</code>',
@@ -1774,7 +1783,7 @@ $messages['hil'] = array(
 	'interwiki_reasonfield' => 'Rason:',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dalibor Bosits
  * @author Ex13
  * @author SpeedyGonsales
@@ -1825,6 +1834,8 @@ $messages['hsb'] = array(
 	'interwiki-title-norights' => 'Daty interwiki wobhladać',
 	'interwiki-desc' => 'Přidawa [[Special:Interwiki|specialnu stronu]] za wobhladowanje a wobdźěłowanje interwiki-tabele',
 	'interwiki_intro' => 'Tutón je přehlad tabele interwiki.',
+	'interwiki-legend-show' => 'Legendu pokazać',
+	'interwiki-legend-hide' => 'Legendu schować',
 	'interwiki_prefix' => 'Prefiks',
 	'interwiki-prefix-label' => 'Prefiks:',
 	'interwiki_prefix_intro' => 'Prefiks interwiki, kotryž ma so we wikitekstowej syntaksy <code>[<nowiki />[prefix:<i>pagename</i>]]</code> wužiwać.',
@@ -1909,7 +1920,7 @@ Petèt li pa ekziste.',
 	'log-description-interwiki' => 'Sa se yon jounal pou chanjman yo nan [[Special:Interwiki|tablo entèwiki a]].',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author BáthoryPéter
  * @author Dani
  * @author Glanthor Reviol
@@ -1967,7 +1978,7 @@ Valószínűleg nem létezik ilyen előtag.',
 	'action-interwiki' => 'eme wikiközi bejegyzés megváltoztatása',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -2099,7 +2110,7 @@ $messages['ig'] = array(
 	'interwiki_reasonfield' => 'Mgbághapụtà:',
 );
 
-/** Eastern Canadian (Latin script) (Inuktitut) */
+/** Eastern Canadian (Latin script) (inuktitut) */
 $messages['ike-latn'] = array(
 	'interwiki_edit' => 'Suqusiqpaa',
 );
@@ -2111,7 +2122,7 @@ $messages['io'] = array(
 	'interwiki_1' => 'yes',
 );
 
-/** Icelandic (Íslenska)
+/** Icelandic (íslenska)
  * @author S.Örvarr.S
  */
 $messages['is'] = array(
@@ -2122,7 +2133,7 @@ $messages['is'] = array(
 	'interwiki_addbutton' => 'Bæta við',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author BrokenArrow
  * @author Cruccone
@@ -2201,13 +2212,15 @@ $messages['ja'] = array(
 	'interwiki-title-norights' => 'インターウィキデータの一覧',
 	'interwiki-desc' => 'インターウィキテーブルの表示と編集を行う[[Special:Interwiki|特別ページ]]を追加する',
 	'interwiki_intro' => '以下はインターウィキの一覧表です。',
+	'interwiki-legend-show' => '凡例を表示',
+	'interwiki-legend-hide' => '凡例を隠す',
 	'interwiki_prefix' => '接頭辞',
 	'interwiki-prefix-label' => '接頭辞:',
 	'interwiki_prefix_intro' => '<code>[<nowiki />[接頭辞:<i>ページ名</i>]]</code> というウィキテキストの構文で使われる、インターウィキ接頭辞。',
 	'interwiki_url_intro' => 'URLの雛型。$1 というプレースホルダーは、上で述べた構文における「<i>ページ名</i>」で置換されます。',
 	'interwiki_local' => '転送',
 	'interwiki-local-label' => '転送:',
-	'interwiki_local_intro' => 'URLにこの接頭辞をもつ、ローカルウィキへのHTTP要求は、',
+	'interwiki_local_intro' => 'URLにこの接頭辞が付いた、ローカルウィキへのHTTP要求は、',
 	'interwiki_local_0_intro' => '無効です。「ページは存在しません」などと表示されます。',
 	'interwiki_local_1_intro' => 'インターウィキウィキリンクの定義で指定された対象URLに転送されます。言い換えると、同一ウィキ内のページへのリンクのように扱います。',
 	'interwiki_trans' => 'トランスクルージョン',
@@ -2222,22 +2235,28 @@ $messages['ja'] = array(
 	'interwiki-cached' => 'インターウィキデータはキャッシュされています。キャッシュを変更することは不可能です。',
 	'interwiki_edit' => '編集',
 	'interwiki_reasonfield' => '理由：',
-	'interwiki_delquestion' => '"$1"を削除',
+	'interwiki_delquestion' => '"$1" を削除',
 	'interwiki_deleting' => 'あなたは接頭辞 "$1" を削除しようとしています。',
 	'interwiki_deleted' => '接頭辞 "$1" はインターウィキテーブルから正常に削除されました。',
 	'interwiki_delfailed' => '接頭辞 "$1" をインターウィキテーブルから削除できませんでした。',
 	'interwiki_addtext' => 'インターウィキの接頭辞を追加する',
-	'interwiki_addintro' => 'あなたはインターウィキの新しい接頭辞を追加しようとしています。その中にスペース ( )、コロン (:)、アンパーサンド (&)、等号 (=) といった記号を含むことができないことに注意してください。',
+	'interwiki_addintro' => 'あなたはインターウィキの新しい接頭辞を追加しようとしています。
+空白( )、コロン(:)、アンパーサンド(&)、等号(=)といった記号を含むことはできないことに注意してください。',
 	'interwiki_addbutton' => '追加',
 	'interwiki_added' => '接頭辞 "$1" はインターウィキテーブルに正常に追加されました。',
-	'interwiki_addfailed' => '接頭辞 "$1" をインターウィキテーブルに追加することができませんでした。すでに同じものが、インターウィキテーブルの中に存在している可能性があります。',
+	'interwiki_addfailed' => '接頭辞 "$1" をインターウィキテーブルに追加できませんでした。
+既に同じものが、インターウィキテーブル内に存在している可能性があります。',
 	'interwiki_edittext' => 'インターウィキ用接頭辞の編集',
-	'interwiki_editintro' => 'あなたはインターウィキ用接頭辞を編集しようとしています。この作業によりすでに存在しているリンクを破壊する可能性があります。',
+	'interwiki_editintro' => 'あなたはインターウィキ用接頭辞を編集しようとしています。
+この作業により既存のリンクを破壊するおそれがあります。',
 	'interwiki_edited' => '接頭辞 "$1" はインターウィキテーブル内で正常に変更されました。',
 	'interwiki_editerror' => 'インターウィキテーブル内で接頭辞 "$1" を変更できませんでした。存在していない可能性があります。',
 	'interwiki-badprefix' => '指定されたインターウィキ接頭辞 "$1" は無効な文字を含んでいます',
 	'interwiki-submit-empty' => '接頭辞とURLを空にすることはできません。',
 	'log-name-interwiki' => 'インターウィキ編集記録',
+	'logentry-interwiki-iw_add' => '$1 がインターウィキテーブルに接頭辞 "$4" ($5)（トランスクルージョン：$6、ローカル：$7）を{{GENDER:$2|追加しました}}',
+	'logentry-interwiki-iw_edit' => '$1 がインターウィキテーブル内の接頭辞 "$4" ($5)（トランスクルージョン：$6、ローカル：$7）を{{GENDER:$2|変更しました}}',
+	'logentry-interwiki-iw_delete' => '$1 がインターウィキテーブルから接頭辞 "$4" を{{GENDER:$2|除去しました}}',
 	'log-description-interwiki' => 'これは[[Special:Interwiki|インターウィキテーブル]]の変更記録です。',
 	'right-interwiki' => 'インターウィキデータの編集',
 	'action-interwiki' => 'このインターウィキ項目を変更',
@@ -2343,13 +2362,17 @@ $messages['kn'] = array(
 /** Korean (한국어)
  * @author Devunt
  * @author Kwj2772
+ * @author Mintz0223
  * @author ToePeu
+ * @author 아라
  */
 $messages['ko'] = array(
 	'interwiki' => '인터위키 목록 보기/고치기',
 	'interwiki-title-norights' => '인터위키 보기',
 	'interwiki-desc' => '인터위키 표를 보거나 고칠 수 있는 [[Special:Interwiki|특수문서]]를 추가',
-	'interwiki_intro' => '이 페이지는 인터위키 표에 대한 둘러보기 표입니다.',
+	'interwiki_intro' => '이 문서는 인터위키에 대한 둘러보기 표입니다.',
+	'interwiki-legend-show' => '범례 보기',
+	'interwiki-legend-hide' => '범례 숨기기',
 	'interwiki_prefix' => '접두어',
 	'interwiki-prefix-label' => '접두어:',
 	'interwiki_prefix_intro' => '<code>[<nowiki />[접두어:문서 이름]]</code> 위키 링크에 쓰일 인터위키 접두어',
@@ -2564,7 +2587,7 @@ $messages['lg'] = array(
 	'interwiki_edit' => 'Kyusa',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Homo
  */
 $messages['lt'] = array(
@@ -2640,7 +2663,7 @@ $messages['mhr'] = array(
 	'interwiki_reasonfield' => 'Амал:',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -2714,7 +2737,7 @@ $messages['ml'] = array(
 	'interwiki-legend-hide' => 'സൂചനകൾ മറയ്ക്കുക',
 	'interwiki_prefix' => 'പൂർവ്വാക്ഷരങ്ങൾ',
 	'interwiki-prefix-label' => 'പൂർവ്വാക്ഷരങ്ങൾ:',
-	'interwiki_prefix_intro' => 'വിക്കിഎഴുത്ത് രീതിയിൽ ഉപയോഗിക്കുന്ന <code>[<nowiki />[പൂർവ്വക്ഷരങ്ങൾ:<i>താളിന്റെ_പേര്</i>]]</code> എന്നതിലെ അന്തർവിക്കി പൂർവ്വാക്ഷരങ്ങൾ.',
+	'interwiki_prefix_intro' => 'വിക്കിഎഴുത്ത് രീതിയിൽ ഉപയോഗിക്കുന്ന <code>[<nowiki />[പൂർവ്വാക്ഷരങ്ങൾ:<i>താളിന്റെ_പേര്</i>]]</code> എന്നതിലെ അന്തർവിക്കി പൂർവ്വാക്ഷരങ്ങൾ.',
 	'interwiki_url_intro' => 'യൂ.ആർ.എലുകൾക്കുള്ള ഫലകം. മുകളിൽ കൊടുത്തിരിക്കുന്നതു പോലുള്ള വിക്കി എഴുത്ത് രീതി ഉപയോഗിക്കുമ്പോൾ, $1 എന്ന ചരം വിക്കി എഴുത്തിലെ <i>താളിന്റെ_പേര്</i> ഉപയോഗിച്ച് മാറ്റപ്പെടുന്നതായിരിക്കും.',
 	'interwiki_local' => 'ഗമനം',
 	'interwiki-local-label' => 'ഗമനം:',
@@ -2723,7 +2746,7 @@ $messages['ml'] = array(
 	'interwiki_local_1_intro' => 'അന്തർവിക്കി കണ്ണി നിർവ്വചനങ്ങൾക്കനുസരിച്ച് ലക്ഷ്യ യൂ.ആർ.എലിലേയ്ക്ക് തിരിച്ചുവിടും (അതായത് വിക്കിയിലെ താളുകളിലെ അവലംബങ്ങൾ കൈകാര്യം ചെയ്യുന്നതു പോലെ).',
 	'interwiki_trans' => 'ഉൾപ്പെടുത്തൽ',
 	'interwiki-trans-label' => 'ഉൾപ്പെടുത്തൽ:',
-	'interwiki_trans_intro' => 'വിക്കി എഴുത്ത് രീതി <code>{<nowiki />{പൂർവ്വക്ഷരങ്ങൾ:<i>താളിന്റെ_പേര്</i>}}</code> ഉപയോഗിച്ചിട്ടുണ്ടെങ്കിൽ:',
+	'interwiki_trans_intro' => 'വിക്കി എഴുത്ത് രീതി <code>{<nowiki />{പൂർവ്വാക്ഷരങ്ങൾ:<i>താളിന്റെ_പേര്</i>}}</code> ഉപയോഗിച്ചിട്ടുണ്ടെങ്കിൽ:',
 	'interwiki_trans_1_intro' => 'അന്തർവിക്കി ഉൾപ്പെടുത്തലുകൾ ഈ വിക്കിയിൽ പൊതുവേ അനുവദിച്ചിട്ടുണ്ടെങ്കിൽ, ബാഹ്യ വിക്കിയിൽ നിന്നുള്ള ഉൾപ്പെടുത്തൽ അനുവദിക്കുക.',
 	'interwiki_trans_0_intro' => 'അനുവദിക്കരുത്, പകരം ഫലകം നാമമേഖലയിൽ താളിനായി നോക്കുക.',
 	'interwiki_intro_footer' => 'അന്തർവിക്കി പട്ടികയെക്കുറിച്ചുള്ള കൂടുതൽ വിവരങ്ങൾക്ക് [//www.mediawiki.org/wiki/Manual:Interwiki_table മീഡിയവിക്കി.ഓർഗ്] കാണുക. അന്തർവിക്കി പട്ടികയുടെ  [[Special:Log/interwiki|മാറ്റങ്ങളുടെ രേഖയും]] കാണുക.',
@@ -2737,31 +2760,31 @@ $messages['ml'] = array(
 	'interwiki_deleting' => 'താങ്കൾ "$1" എന്ന പൂർവ്വാക്ഷരങ്ങൾ നീക്കം ചെയ്യുകയാണ്.',
 	'interwiki_deleted' => 'അന്തർവിക്കി പട്ടികയിൽ നിന്ന് "$1" എന്ന പൂർവ്വാക്ഷരങ്ങൾ വിജയകരമായി നീക്കം ചെയ്തിരിക്കുന്നു.',
 	'interwiki_delfailed' => 'അന്തർവിക്കി പട്ടികയിൽ നിന്ന് "$1" എന്ന പൂർവ്വാക്ഷരങ്ങൾ നീക്കം ചെയ്യാൻ കഴിയില്ല.',
-	'interwiki_addtext' => 'അന്തർവിക്കി പൂർവ്വക്ഷരം ചേർക്കുക',
-	'interwiki_addintro' => 'താങ്കൾ പുതിയ അന്തർവിക്കി പൂർവ്വക്ഷരം ചേർക്കുകയാണ്.
+	'interwiki_addtext' => 'അന്തർവിക്കി പൂർവ്വാക്ഷരം ചേർക്കുക',
+	'interwiki_addintro' => 'താങ്കൾ പുതിയ അന്തർവിക്കി പൂർവ്വാക്ഷരം ചേർക്കുകയാണ്.
 അതിൽ ഇട ( ), അപൂർണ്ണവിരാമം (:), ആമ്പർസാൻഡ്സ് (&), അല്ലെങ്കിൽ സമചിഹ്നം (=) എന്നിവ പാടില്ലെന്ന് ഓർമ്മിക്കുക.',
 	'interwiki_addbutton' => 'ചേർക്കുക',
-	'interwiki_added' => 'അന്തർവിക്കി പട്ടികയിൽ "$1" എന്ന പൂർവ്വക്ഷരങ്ങൾ വിജയകരമായി ചേർത്തിരിക്കുന്നു.',
-	'interwiki_addfailed' => 'അന്തർവിക്കി പട്ടികയിൽ "$1" എന്ന പൂർവ്വക്ഷരങ്ങൾ ചേർക്കാനായില്ല.
+	'interwiki_added' => 'അന്തർവിക്കി പട്ടികയിൽ "$1" എന്ന പൂർവ്വാക്ഷരങ്ങൾ വിജയകരമായി ചേർത്തിരിക്കുന്നു.',
+	'interwiki_addfailed' => 'അന്തർവിക്കി പട്ടികയിൽ "$1" എന്ന പൂർവ്വാക്ഷരങ്ങൾ ചേർക്കാനായില്ല.
 മിക്കവാറും അത് അന്തർവിക്കി പട്ടികയിൽ മുമ്പേ നിലവിലുണ്ടാകും.',
-	'interwiki_edittext' => 'അന്തർവിക്കി പൂർവ്വക്ഷരങ്ങൾ തിരുത്തുന്നു',
+	'interwiki_edittext' => 'അന്തർവിക്കി പൂർവ്വാക്ഷരങ്ങൾ തിരുത്തുന്നു',
 	'interwiki_editintro' => 'താങ്കൾ അന്തർവിക്കി പൂർവ്വാക്ഷരങ്ങൾ തിരുത്തുകയാണ്.
 ഇത് നിലവിലുള്ള കണ്ണികളെ ബാധിച്ചേക്കാം എന്നോർമ്മിക്കുക.',
 	'interwiki_edited' => 'അന്തർവിക്കി പട്ടികയിൽ "$1" എന്ന പൂർവ്വക്ഷരങ്ങൾ വിജയകരമായി പുതുക്കിയിരിക്കുന്നു.',
-	'interwiki_editerror' => 'അന്തർവിക്കി പട്ടികയിൽ "$1" എന്ന പൂർവ്വക്ഷരങ്ങൾ തിരുത്താനായില്ല.
+	'interwiki_editerror' => 'അന്തർവിക്കി പട്ടികയിൽ "$1" എന്ന പൂർവ്വാക്ഷരങ്ങൾ തിരുത്താനായില്ല.
 മിക്കവാറും അത് നിലവിലുണ്ടാകില്ല.',
 	'interwiki-badprefix' => 'നൽകിയ അന്തർവിക്കി പൂർവ്വാക്ഷരങ്ങൾ "$1" അസാധുവായ അക്ഷരങ്ങൾ ഉൾക്കൊള്ളുന്നു',
 	'interwiki-submit-empty' => 'പൂർവ്വാക്ഷരങ്ങളും യൂ.ആർ.എലും. ശൂന്യമായിരിക്കാൻ പാടില്ല.',
 	'log-name-interwiki' => 'അന്തർവിക്കി പട്ടികയുടെ രേഖ',
-	'logentry-interwiki-iw_add' => 'അന്തർവിക്കി പട്ടികയിൽ നിന്നും "$4"  ($5) (ഉൾപ്പെടുത്തൽ: $6; പ്രാദേശികം: $7) എന്ന പൂർവ്വക്ഷരങ്ങൾ $1 {{GENDER:$2|കൂട്ടിച്ചേർത്തു}}',
-	'logentry-interwiki-iw_edit' => 'അന്തർവിക്കി പട്ടികയിൽ നിന്നും "$4"  ($5) (ഉൾപ്പെടുത്തൽ: $6; പ്രാദേശികം: $7) എന്ന പൂർവ്വക്ഷരങ്ങൾ $1 {{GENDER:$2|പുതുക്കി}}',
-	'logentry-interwiki-iw_delete' => 'അന്തർവിക്കി പട്ടികയിൽ നിന്നും "$4" എന്ന പൂർവ്വക്ഷരങ്ങൾ $1 {{GENDER:$2|നീക്കം ചെയ്തു}}',
+	'logentry-interwiki-iw_add' => 'അന്തർവിക്കി പട്ടികയിൽ നിന്നും "$4"  ($5) (ഉൾപ്പെടുത്തൽ: $6; പ്രാദേശികം: $7) എന്ന പൂർവ്വാക്ഷരങ്ങൾ $1 {{GENDER:$2|കൂട്ടിച്ചേർത്തു}}',
+	'logentry-interwiki-iw_edit' => 'അന്തർവിക്കി പട്ടികയിൽ നിന്നും "$4"  ($5) (ഉൾപ്പെടുത്തൽ: $6; പ്രാദേശികം: $7) എന്ന പൂർവ്വാക്ഷരങ്ങൾ $1 {{GENDER:$2|പുതുക്കി}}',
+	'logentry-interwiki-iw_delete' => 'അന്തർവിക്കി പട്ടികയിൽ നിന്നും "$4" എന്ന പൂർവ്വാക്ഷരങ്ങൾ $1 {{GENDER:$2|നീക്കം ചെയ്തു}}',
 	'log-description-interwiki' => 'ഇത് [[Special:Interwiki|അന്തർവിക്കി പട്ടികയിലെ]] മാറ്റങ്ങളുടെ രേഖയാണ്.',
 	'right-interwiki' => 'അന്തർവിക്കി വിവരങ്ങൾ തിരുത്തുക',
 	'action-interwiki' => 'ഈ അന്തർവിക്കി ഉൾപ്പെടുത്തലിൽ മാറ്റം വരുത്തുക',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -3038,7 +3061,7 @@ Er is een [[Special:Log/interwiki|veranderingslogboek]] voor de interwikitabel.'
 	'action-interwiki' => 'deze interwikiverwijzing te wijzigen',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Eirik
  * @author Gunnernett
  * @author Harald Khan
@@ -3111,7 +3134,7 @@ $messages['nso'] = array(
 	'interwiki_addbutton' => 'Lokela',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -3230,7 +3253,7 @@ Vielaischd hods des a ned.",
 	'action-interwiki' => 'Den Innawikioidraach ännare.',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  * @author Leinad
  * @author McMonster
@@ -3301,6 +3324,8 @@ $messages['pms'] = array(
 	'interwiki-title-norights' => 'Varda dat antërwiki',
 	'interwiki-desc' => 'A gionta na [[Special:Interwiki|pàgina special]] për vëdde e modifiché la tàula antërwiki',
 	'interwiki_intro' => "Costa-sì a l'é na previsualisassion dla tàula antërwiki.",
+	'interwiki-legend-show' => 'Mostré la legenda',
+	'interwiki-legend-hide' => 'Stërmé la legenda',
 	'interwiki_prefix' => 'Prefiss',
 	'interwiki-prefix-label' => 'Prefiss:',
 	'interwiki_prefix_intro' => 'Prefiss antërwiki da dovré ant la sintassi dël test wiki <code>[<nowiki />[prefix:<i>nòm pàgina</i>]]</code>',
@@ -3382,7 +3407,7 @@ $messages['ps'] = array(
 	'interwiki_addbutton' => 'ورګډول',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author 555
  * @author Hamilton Abreu
  * @author Malafaya
@@ -3437,11 +3462,11 @@ Lembre-se que este não pode conter espaços ( ), dois-pontos (:), conjunções 
 	'action-interwiki' => 'alterar esta entrada interwikis',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
+ * @author 555
  * @author Eduardo.mps
  * @author Giro720
  * @author Luckas Blade
- * @author 555
  */
 $messages['pt-br'] = array(
 	'interwiki' => 'Ver e editar dados de interwikis',
@@ -3489,7 +3514,7 @@ Existe um [[Special:Log/interwiki|registro de modificações]] à tabela de inte
 	'action-interwiki' => 'alterar esta entrada interwiki',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  * @author KlaudiuMihaila
  * @author Minisarm
@@ -3506,7 +3531,7 @@ $messages['ro'] = array(
 	'action-interwiki' => 'modificați această legătură interwiki',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -3523,7 +3548,7 @@ $messages['roa-tara'] = array(
 	'interwiki_addbutton' => 'Aggiunge',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ferrer
  * @author Grigol
  * @author Illusion
@@ -3597,7 +3622,7 @@ $messages['rue'] = array(
 	'interwiki_addbutton' => 'Придати',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -3628,7 +3653,7 @@ $messages['sah'] = array(
 	'right-interwiki' => 'Интервикины уларытыы',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Santu
  */
 $messages['scn'] = array(
@@ -3694,7 +3719,7 @@ $messages['si'] = array(
 	'right-interwiki' => 'අන්තර්-විකි දත්ත සංස්කරණය',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -3743,7 +3768,7 @@ Obsahuje [[Special:Log/interwiki|záznam zmien]] tabuľky interwiki.',
 	'action-interwiki' => 'zmeniť tento záznam interwiki',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -3790,7 +3815,7 @@ Morda ne obstaja.',
 	'action-interwiki' => 'spreminjanje tega vnosa interwikija',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Жељко Тодоровић
@@ -3837,7 +3862,7 @@ $messages['sr-ec'] = array(
 	'right-interwiki' => 'уређивање међувикија',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  * @author Жељко Тодоровић
  */
@@ -3914,7 +3939,7 @@ $messages['su'] = array(
 	'interwiki_delquestion' => 'Ngahapus "$1"',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Boivie
  * @author Fluff
  * @author Lejonel
@@ -4046,7 +4071,7 @@ $messages['te'] = array(
 	'right-interwiki' => 'అంతర్వికీ సమాచారము మార్చు',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -4058,7 +4083,7 @@ $messages['tet'] = array(
 	'interwiki_addbutton' => 'Tau tan',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -4067,7 +4092,7 @@ $messages['tg-cyrl'] = array(
 	'interwiki_addbutton' => 'Илова',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -4184,7 +4209,7 @@ $messages['tr'] = array(
 	'action-interwiki' => 'bu interviki girdisini değiştir',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Ajdar
  * @author Ильнар
  */
@@ -4201,12 +4226,13 @@ $messages['tt-cyrl'] = array(
 	'interwiki_addbutton' => 'Өстәргә',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author AS
  * @author Ahonc
  * @author Hypers
  * @author Microcell
  * @author Prima klasy4na
+ * @author VolodymyrF
  * @author Vox
  */
 $messages['uk'] = array(
@@ -4214,6 +4240,8 @@ $messages['uk'] = array(
 	'interwiki-title-norights' => 'Переглянути дані інтервікі',
 	'interwiki-desc' => 'Додає [[Special:Interwiki|спеціальну сторінку]] для перегляду і редагування таблиці інтервікі',
 	'interwiki_intro' => 'Це огляд таблиці інтервікі.',
+	'interwiki-legend-show' => 'Показати легенду',
+	'interwiki-legend-hide' => 'Приховати легенду',
 	'interwiki_prefix' => 'Префікс',
 	'interwiki-prefix-label' => 'Префікс:',
 	'interwiki_prefix_intro' => 'Префікс інтервікі для використання у синтаксисі вікі-тексту: <code>[<nowiki />[префікс:<i>назва сторінки</i>]]</code>.',
@@ -4269,7 +4297,7 @@ $messages['ur'] = array(
 	'interwiki_reasonfield' => 'وجہ:',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -4332,7 +4360,9 @@ $messages['vi'] = array(
 	'interwiki' => 'Xem và sửa đổi dữ liệu về liên kết liên wiki',
 	'interwiki-title-norights' => 'Xem dữ liệu liên wiki',
 	'interwiki-desc' => 'Thêm một [[Special:Interwiki|trang đặc biệt]] để xem sửa đổi bảng liên wiki',
-	'interwiki_intro' => 'Chú giải các cột trong bảng liên wiki:',
+	'interwiki_intro' => 'Đây là nội dung của bảng liên wiki.',
+	'interwiki-legend-show' => 'Xem chú giải',
+	'interwiki-legend-hide' => 'Ẩn chú giải',
 	'interwiki_prefix' => 'Tiền tố',
 	'interwiki-prefix-label' => 'Tiền tố:',
 	'interwiki_prefix_intro' => 'Tiền tố liên wiki dùng trong cú pháp wiki <code>[<nowiki />[tiền tố:<i>tên trang</i>]]</code>.',
@@ -4352,6 +4382,7 @@ Có [[Special:Log/interwiki|nhật trình các thay đổi]] tại bảng liên 
 	'interwiki_1' => 'có',
 	'interwiki_0' => 'không',
 	'interwiki_error' => 'LỖi: Bảng liên wiki hiện đang trống, hoặc có vấn đề gì đó đã xảy ra.',
+	'interwiki-cached' => 'Dữ liệu liên wiki được lưu vào vùng nhớ đệm. Không thể sửa đổi vùng nhớ đệm.',
 	'interwiki_edit' => 'Sửa đổi',
 	'interwiki_reasonfield' => 'Lý do:',
 	'interwiki_delquestion' => 'Xóa “$1”',
@@ -4370,7 +4401,11 @@ Có thể nó đã tồn tại trong bảng liên wiki rồi.',
 	'interwiki_edited' => 'Tiền tố “$1” đã thay đổi xong trong bảng liên wiki.',
 	'interwiki_editerror' => 'Tiền tố “$1” không thể thay đổi trong bảng liên wiki. Có thể nó không tồn tại.',
 	'interwiki-badprefix' => 'Tiền tố liên wiki “$1” có chứa ký tự không hợp lệ',
+	'interwiki-submit-empty' => 'Không thể để trống tiền tố hoặc URL.',
 	'log-name-interwiki' => 'Nhật trình bảng liên wiki',
+	'logentry-interwiki-iw_add' => '{{GENDER:$2}}$1 đã thêm tiền tố “$4” ($5) (trans: $6; local: $7) vào bảng liên wiki',
+	'logentry-interwiki-iw_edit' => '{{GENDER:$2}}$1 đã sửa đổi tiền tố “$4” ($5) (trans: $6; local: $7) trong bảng liên wiki',
+	'logentry-interwiki-iw_delete' => '{{GENDER:$2|}}$1 đã xóa tiền tố “$4” khỏi bảng liên wiki',
 	'log-description-interwiki' => 'Đây là nhật trình các thay đổi trong [[Special:Interwiki|bảng liên wiki]].',
 	'right-interwiki' => 'Sửa dữ liệu liên wiki',
 	'action-interwiki' => 'thay đổi khoản mục liên wiki này',
@@ -4414,7 +4449,7 @@ Ba no dabinon.',
 	'action-interwiki' => 'votükön pati vüvükik at',
 );
 
-/** Walloon (Walon) */
+/** Walloon (walon) */
 $messages['wa'] = array(
 	'interwiki_reasonfield' => 'Råjhon:',
 );
