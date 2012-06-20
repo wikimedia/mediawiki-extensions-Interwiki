@@ -2235,24 +2235,25 @@ $messages['ja'] = array(
 	'interwiki-cached' => 'インターウィキデータはキャッシュされています。キャッシュを変更することは不可能です。',
 	'interwiki_edit' => '編集',
 	'interwiki_reasonfield' => '理由：',
-	'interwiki_delquestion' => '"$1" を削除',
-	'interwiki_deleting' => 'あなたは接頭辞 "$1" を削除しようとしています。',
-	'interwiki_deleted' => '接頭辞 "$1" はインターウィキテーブルから正常に削除されました。',
-	'interwiki_delfailed' => '接頭辞 "$1" をインターウィキテーブルから削除できませんでした。',
-	'interwiki_addtext' => 'インターウィキの接頭辞を追加する',
-	'interwiki_addintro' => 'あなたはインターウィキの新しい接頭辞を追加しようとしています。
-空白( )、コロン(:)、アンパーサンド(&)、等号(=)といった記号を含むことはできないことに注意してください。',
+	'interwiki_delquestion' => '「$1」を削除中',
+	'interwiki_deleting' => '接頭辞「$1」を削除しようとしています。',
+	'interwiki_deleted' => 'インターウィキテーブルから接頭辞「$1」を除去しました。',
+	'interwiki_delfailed' => 'インターウィキテーブルから接頭辞「$1」を除去しました。',
+	'interwiki_addtext' => 'インターウィキの接頭辞を追加',
+	'interwiki_addintro' => 'インターウィキの新しい接頭辞を追加しようとしています。
+空白( )、コロン(:)、アンパーサンド(&)、等号(=)を含めてはいけないことにご注意ください。',
 	'interwiki_addbutton' => '追加',
-	'interwiki_added' => '接頭辞 "$1" はインターウィキテーブルに正常に追加されました。',
-	'interwiki_addfailed' => '接頭辞 "$1" をインターウィキテーブルに追加できませんでした。
-既に同じものが、インターウィキテーブル内に存在している可能性があります。',
-	'interwiki_edittext' => 'インターウィキ用接頭辞の編集',
+	'interwiki_added' => 'インターウィキテーブルに接頭辞「$1」を追加しました。',
+	'interwiki_addfailed' => 'インターウィキテーブルに接頭辞「$1」を追加できませんでした。
+インターウィキテーブル内に既に存在する可能性があります。',
+	'interwiki_edittext' => 'インターウィキの接頭辞を編集',
 	'interwiki_editintro' => 'あなたはインターウィキ用接頭辞を編集しようとしています。
 この作業により既存のリンクを破壊するおそれがあります。',
-	'interwiki_edited' => '接頭辞 "$1" はインターウィキテーブル内で正常に変更されました。',
-	'interwiki_editerror' => 'インターウィキテーブル内で接頭辞 "$1" を変更できませんでした。存在していない可能性があります。',
-	'interwiki-badprefix' => '指定されたインターウィキ接頭辞 "$1" は無効な文字を含んでいます',
-	'interwiki-submit-empty' => '接頭辞とURLを空にすることはできません。',
+	'interwiki_edited' => 'インターウィキテーブル内で接頭辞「$1」を変更しました。',
+	'interwiki_editerror' => 'インターウィキテーブル内で接頭辞「$1」を変更できませんでした。
+存在しない可能性があります。',
+	'interwiki-badprefix' => '指定されたインターウィキ接頭辞「$1」は無効な文字を含んでいます',
+	'interwiki-submit-empty' => '接頭辞やURLを空にすることはできません。',
 	'log-name-interwiki' => 'インターウィキ編集記録',
 	'logentry-interwiki-iw_add' => '$1 がインターウィキテーブルに接頭辞 "$4" ($5)（トランスクルージョン：$6、ローカル：$7）を{{GENDER:$2|追加しました}}',
 	'logentry-interwiki-iw_edit' => '$1 がインターウィキテーブル内の接頭辞 "$4" ($5)（トランスクルージョン：$6、ローカル：$7）を{{GENDER:$2|変更しました}}',
@@ -2427,6 +2428,8 @@ $messages['ksh'] = array(
 	'interwiki-title-norights' => 'Engerwiki Date beloore',
 	'interwiki-desc' => 'Brengk de Sondersigg [[Special:Interwiki]], öm Engerwiki Date ze beloore un ze ändere.',
 	'interwiki_intro' => 'Heh is ene Övverbleck övver de Engerwiki-Tabäll.',
+	'interwiki-legend-show' => 'Lejänd aanzeije',
+	'interwiki-legend-hide' => 'Lejänd verschteeische',
 	'interwiki_prefix' => 'Försaz',
 	'interwiki-prefix-label' => 'Försaz:',
 	'interwiki_prefix_intro' => 'Dä Fösatz för Engewiki Lengks wie hä em Wikitex en Sigge jebruch weed, wam_mer <code>[<nowiki />[<i>{{lc:{{int:Interwiki_prefix}}}}</i>:<i>Siggename</i>]]</code> schrieve deijt.',
@@ -4520,7 +4523,7 @@ $messages['yue'] = array(
  */
 $messages['zh-hans'] = array(
 	'interwiki' => '查看和编辑跨wiki数据',
-	'interwiki-title-norights' => '查看跨wiki数据',
+	'interwiki-title-norights' => '查看跨维基数据',
 	'interwiki-desc' => '新增[[Special:Interwiki|特殊页面]]以查看和编辑跨wiki表',
 	'interwiki_intro' => '这是跨wiki表的概览。',
 	'interwiki-legend-show' => '显示说明',
@@ -4570,8 +4573,8 @@ $messages['zh-hans'] = array(
 	'logentry-interwiki-iw_edit' => '$1{{GENDER:$2|已修改}}跨wiki表中的前缀“$4”($5) (包含：$6；本地：$7)',
 	'logentry-interwiki-iw_delete' => '$1已从跨wiki表中{{GENDER:$2|删除}}前缀“$4”',
 	'log-description-interwiki' => '这是一个[[Special:Interwiki|跨wiki表]]的更改日志。',
-	'right-interwiki' => '编辑跨wiki数据',
-	'action-interwiki' => '修改该跨wiki项',
+	'right-interwiki' => '编辑跨维基数据',
+	'action-interwiki' => '更改该跨维基条目',
 );
 
 /** Traditional Chinese (‪中文（繁體）‬)
