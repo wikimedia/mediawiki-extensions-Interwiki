@@ -39,3 +39,7 @@ input#mw-interwiki-url {
 .mw-special-Interwiki .mw-collapsible-toggle {
 	float: left;
 }
+
+.mw-collapsible-content {
+	clear: both;
+}
