@@ -23,6 +23,11 @@ $specialPageAliases['arz'] = array(
 	'Interwiki' => array( 'إنترويكى' ),
 );
 
+/** Assamese (অসমীয়া) */
+$specialPageAliases['as'] = array(
+	'Interwiki' => array( 'আন্তঃৱিকি' ),
+);
+
 /** Bulgarian (български) */
 $specialPageAliases['bg'] = array(
 	'Interwiki' => array( 'Междууикита' ),
@@ -73,7 +78,7 @@ $specialPageAliases['gag'] = array(
 	'Interwiki' => array( 'İnterviki' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'Interwiki' => array( 'Interwikis' ),
 );
