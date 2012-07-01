@@ -269,7 +269,7 @@ $messages['am'] = array(
 	'interwiki_reasonfield' => 'ምክንያት:',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -523,7 +523,7 @@ $messages['be'] = array(
 	'interwiki_addbutton' => 'Дадаць',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -896,7 +896,7 @@ Pravděpodobně neexistuje.',
 	'action-interwiki' => 'změnit tento záznam interwiki',
 );
 
-/** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
@@ -1053,7 +1053,7 @@ $messages['diq'] = array(
 	'interwiki_edit' => 'Bıvurne',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -1487,7 +1487,7 @@ $messages['fy'] = array(
 	'interwiki_addbutton' => 'Tafoegje',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Alma
  * @author Toliño
  * @author Xosé
@@ -1826,7 +1826,7 @@ $messages['hr'] = array(
 	'action-interwiki' => 'uredi ovaj međuwiki zapis',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -2370,7 +2370,7 @@ $messages['kn'] = array(
 $messages['ko'] = array(
 	'interwiki' => '인터위키 목록 보기/고치기',
 	'interwiki-title-norights' => '인터위키 보기',
-	'interwiki-desc' => '인터위키 표를 보거나 고칠 수 있는 [[Special:Interwiki|특수문서]]를 추가',
+	'interwiki-desc' => '인터위키 표를 보거나 고칠 수 있는 [[Special:Interwiki|특수 문서]]를 추가',
 	'interwiki_intro' => '이 문서는 인터위키에 대한 둘러보기 표입니다.',
 	'interwiki-legend-show' => '범례 보기',
 	'interwiki-legend-hide' => '범례 숨기기',
@@ -2402,7 +2402,7 @@ $messages['ko'] = array(
 	'interwiki_delfailed' => '접두어 "$1"을(를) 지울 수 없습니다.',
 	'interwiki_addtext' => '접두어 더하기',
 	'interwiki_addintro' => '새 인터위키 접두어를 만듭니다. 공백( ), 쌍점(:), &기호(&), 등호(=)는 포함할 수 없습니다.',
-	'interwiki_addbutton' => '더하기',
+	'interwiki_addbutton' => '추가',
 	'interwiki_added' => '접두어 "$1"을(를) 더했습니다.',
 	'interwiki_addfailed' => '접두어 "$1"을(를) 더할 수 없습니다. 이미 표에 있을 수 있습니다.',
 	'interwiki_edittext' => '접두어 고치기',
@@ -3616,7 +3616,7 @@ $messages['ru'] = array(
 	'action-interwiki' => 'изменение записи интервики',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
@@ -4005,7 +4005,7 @@ $messages['sw'] = array(
 	'interwiki_1' => 'ndiyo',
 );
 
-/** Silesian (Ślůnski)
+/** Silesian (ślůnski)
  * @author Herr Kriss
  */
 $messages['szl'] = array(
