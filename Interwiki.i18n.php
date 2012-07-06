@@ -1270,12 +1270,48 @@ Posiblemente no exista.',
 
 /** Estonian (eesti)
  * @author Avjoska
+ * @author Pikne
  */
 $messages['et'] = array(
+	'interwiki' => 'Intervikiandmete vaatamine ja muutmine',
+	'interwiki-title-norights' => 'Intervikiandmete vaatamine',
+	'interwiki-desc' => 'Lisab [[Special:Interwiki|erilehekülje]] intervikitabeli vaatamiseks ja muutmiseks.',
+	'interwiki_intro' => 'See on intervikitabeli ülevaade.',
+	'interwiki-legend-show' => 'Näita legendi',
+	'interwiki-legend-hide' => 'Peida legend',
+	'interwiki_prefix' => 'Eesliide',
+	'interwiki-prefix-label' => 'Eesliide:',
+	'interwiki_prefix_intro' => 'Eesliide, mida kasutatakse intervikilingi süntaksis <code>[<nowiki />[eesliide:<i>lehenimi</i>]]</code>.',
+	'interwiki_url_intro' => 'Internetiaadressi mall. Kui kasutatakse ülaltoodud süntaksit, asendab kohatäidet $1 <i>lehenimi</i>.',
+	'interwiki_local' => 'Suunatud',
+	'interwiki-local-label' => 'Suunatud:',
+	'interwiki_local_intro' => 'URL-veerus toodud HTTP-nõue selle interviki eesliitega kohalikku vikisse:',
+	'interwiki_local_0_intro' => 'pole jõus, harilikult päädib teatega "lehekülge ei leitud".',
+	'interwiki_local_1_intro' => 'on suunatud interviki määratlustes toodud sihtaadressile (st töötab nagu lingid kohalikel lehekülgedel).',
+	'interwiki_trans' => 'Kasutamine mallina',
+	'interwiki-trans-label' => 'Kasutamine mallina:',
+	'interwiki_trans_intro' => 'Kui kasutatakse vikiteksti süntaksit <code>{<nowiki />{eesliide:<i>lehenimi</i>}}</code>, siis:',
+	'interwiki_trans_1_intro' => 'võimaldatakse välisviki lehekülje kasutamist mallina, kui nii toimimine on selles vikis üldiselt lubatud.',
+	'interwiki_trans_0_intro' => 'seda ei lubata, vaid pöördutakse malli nimeruumis asuva lehekülje poole.',
+	'interwiki_intro_footer' => 'Lisateavet intervikitabeli kohta leiad aadressilt [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org].
+Intervikitabelis tehtud muudatused on [[Special:Log/interwiki|logis]].',
 	'interwiki_1' => 'jah',
 	'interwiki_0' => 'ei',
-	'interwiki_edit' => 'Redigeeri',
+	'interwiki_error' => 'Tõrge: Intervikitabel on tühi või läks midagi muud viltu.',
+	'interwiki-cached' => 'Intervikiandmed on puhvris. Puhvris olevate andmete muutmine pole võimalik.',
+	'interwiki_edit' => 'Muutmine',
 	'interwiki_reasonfield' => 'Põhjus:',
+	'interwiki_delquestion' => 'Eesliite "$1" kustutamine',
+	'interwiki_deleting' => 'Kustutad eesliidet "$1".',
+	'interwiki_deleted' => 'Eesliide "$1" eemaldati edukalt intervikitabelist.',
+	'interwiki_delfailed' => 'Eesliidet "$1" ei saa intervikitabelist eemaldada.',
+	'interwiki_addtext' => 'Lisa interviki eesliide',
+	'interwiki_addintro' => 'Lisad uut interviki eesliidet.
+Pea meeles, et see ei saa sisaldada tühikuid ( ), kooloneid (:), ja-märke (&) ega võrdusmärke (=).',
+	'interwiki_addbutton' => 'Lisa',
+	'interwiki_added' => 'Eesliide "$1" lisati edukalt intervikitabelisse.',
+	'interwiki_addfailed' => 'Eesliidet "$1" ei saa intervikitabelisse lisada.
+Võimalik, et see on seal juba olemas.',
 );
 
 /** Basque (euskara)
