@@ -1312,6 +1312,21 @@ Pea meeles, et see ei saa sisaldada tühikuid ( ), kooloneid (:), ja-märke (&) 
 	'interwiki_added' => 'Eesliide "$1" lisati edukalt intervikitabelisse.',
 	'interwiki_addfailed' => 'Eesliidet "$1" ei saa intervikitabelisse lisada.
 Võimalik, et see on seal juba olemas.',
+	'interwiki_edittext' => 'Interviki eesliite muutmine',
+	'interwiki_editintro' => 'Muudad interviki eesliidet.
+Pea meeles, et olemasolevad lingid võivad seejuures töötamast lakata.',
+	'interwiki_edited' => 'Eesliide "$1" muudeti edukalt intervikitabelis.',
+	'interwiki_editerror' => 'Eesliidet "$1" ei saa intervikitabelis muuta.
+Võimalik, et seda pole olemas.',
+	'interwiki-badprefix' => 'Määratud eesliide "$1" sisaldab sobimatuid märke.',
+	'interwiki-submit-empty' => 'Eesliite ja URLi väljad ei saa olla tühjad.',
+	'log-name-interwiki' => 'Intervikitabeli logi',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|lisas}} eesliite "$4" ($5) (trans: $6; local: $7) intervikitabelisse',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|muutis}} intervikitabelis eesliidet "$4" ($5) (trans: $6; local: $7)',
+	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|eemaldas}} intervikitabelist eesliite "$4"',
+	'log-description-interwiki' => 'See on  [[Special:Interwiki|intervikitabelis]] tehtud muudatuste logi.',
+	'right-interwiki' => 'Muuta intervikiandmeid',
+	'action-interwiki' => 'muuta seda intervikitabeli sissekannet',
 );
 
 /** Basque (euskara)
@@ -4175,6 +4190,8 @@ $messages['tl'] = array(
 	'interwiki-title-norights' => "Tingnan ang datong pangugnayang-wiki (''interwiki'')",
 	'interwiki-desc' => 'Nagdaragdag ng isang [[Special:Interwiki|natatanging pahina]] upang matingnan at mabago ang tablang pang-ugnayang wiki',
 	'interwiki_intro' => "Isa itong paglalarawan ng tabla ng ugnayang-wiki (''interwiki'').",
+	'interwiki-legend-show' => 'Ipakita ang alamat',
+	'interwiki-legend-hide' => 'Ikubli ang alamat',
 	'interwiki_prefix' => 'Unlapi',
 	'interwiki-prefix-label' => 'Unlapi:',
 	'interwiki_prefix_intro' => 'Unlapi ng ugnayang-wiki na gagamitin sa loob ng palaugnayang <code>[<nowiki />[prefix:<i>pagename</i>]]</code> ng teksto ng wiki.',
@@ -4196,6 +4213,7 @@ Mayroong isang [[Special:Log/interwiki|talaan ng mga pagbabago]] sa tabla ng ugn
 	'interwiki_1' => 'oo',
 	'interwiki_0' => 'hindi',
 	'interwiki_error' => "Kamalian: Walang laman ang tablang pangugnayang-wiki (''interwiki''), o may iba pang bagay na nagkaroon ng kamalian/suliranin.",
+	'interwiki-cached' => 'Nakatago ang dato ng interwiki. Hindi maaari ang pagbago sa taguan.',
 	'interwiki_edit' => 'Baguhin',
 	'interwiki_reasonfield' => 'Dahilan:',
 	'interwiki_delquestion' => 'Binubura ang "$1"',
@@ -4216,7 +4234,11 @@ Tandaan na maaaring maputol nito ang umiiral na mga kawing.",
 	'interwiki_editerror' => "Hindi mabago ang unlaping \"\$1\" sa loob ng tablang pangugnayang-wiki (''interwiki'').
 Maaaring hindi pa ito umiiral.",
 	'interwiki-badprefix' => "Naglalaman ang tinukoy na pangpaguugnayan ng wiking (''interwiki'') unlaping \"\$1\" ng hindi tanggap na mga panitik",
+	'interwiki-submit-empty' => 'Ang unlapi at ang URL ay hindi maaaring walang laman.',
 	'log-name-interwiki' => 'Talaan ng tablang pang-ugnayang wiki',
+	'logentry-interwiki-iw_add' => 'Si $1 ay {{GENDER:$2|nagdagdag}} ng unlaping "$4" ($5) (trans: $6; lokal: $7) sa talangguhit ng ugnayang wiki',
+	'logentry-interwiki-iw_edit' => 'Si $1 ay {{GENDER:$2|nagbago}} ng unlaping "$4" ($5) (trans: $6; lokal: $7) sa loob ng talangguhit ng ugnayang wiki',
+	'logentry-interwiki-iw_delete' => 'Si $1 ay {{GENDER:$2|nagtanggal}} ng unlaping "$4" mula sa talangguhit ng ugnayang wiki',
 	'log-description-interwiki' => 'Isa itong talaan ng mga pagbabago sa [[Special:Interwiki|tablang pang-ugnayang wiki]].',
 	'right-interwiki' => "Baguhin ang datong pangugnayang-wiki (''interwiki'')",
 	'action-interwiki' => "baguhin ang ipinasok/entradang ito na pang-ugnayang wiki (''interwiki'')",
