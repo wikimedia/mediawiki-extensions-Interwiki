@@ -3241,13 +3241,14 @@ Benlèu i existís ja.',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
  * @author Jnanaranjan Sahu
  * @author Psubhashish
  */
 $messages['or'] = array(
 	'interwiki_1' => 'ହଁ',
 	'interwiki_0' => 'ନା',
-	'interwiki_edit' => '<big>ଏହାକୁ ବଦଳାନ୍ତୁ</big>',
+	'interwiki_edit' => 'ସମ୍ପାଦନ',
 	'interwiki_reasonfield' => 'କାରଣ:',
 	'interwiki_delquestion' => '"$1"କୁ ଲିଭାଉଛି',
 	'interwiki_deleting' => 'ଆପଣ "$1"ର ପୂର୍ବକୁ ବଦଳାଉଛନ୍ତି',
