@@ -814,7 +814,7 @@ Possiblement no existeix.',
 	'action-interwiki' => "canviar aquesta entrada d'interwiki",
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Sasan700
  */
 $messages['ce'] = array(
@@ -2712,7 +2712,7 @@ $messages['mg'] = array(
 	'right-interwiki' => 'Manova ny data interwiki',
 );
 
-/** Eastern Mari (Олык Марий)
+/** Eastern Mari (олык марий)
  * @author Сай
  */
 $messages['mhr'] = array(
@@ -2948,7 +2948,7 @@ $messages['mt'] = array(
 	'interwiki_edit' => 'Editja',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -2977,8 +2977,8 @@ $messages['nah'] = array(
 	'interwiki_addbutton' => 'Ticcētilīz',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
+ * @author Event
  * @author Nghtwlkr
  * @author Purodha
  */
@@ -2986,7 +2986,7 @@ $messages['nb'] = array(
 	'interwiki' => 'Vis og manipuler interwikidata',
 	'interwiki-title-norights' => 'Vis interwikidata',
 	'interwiki-desc' => 'Legger til en [[Special:Interwiki|spesialside]] som gjør at man kan se og redigere interwiki-tabellen.',
-	'interwiki_intro' => 'Dette er en oversikt over interwikitabellen. Betydningene til dataene i kolonnene:',
+	'interwiki_intro' => 'Dette er en oversikt over interwikitabellen.',
 	'interwiki_prefix' => 'Prefiks',
 	'interwiki-prefix-label' => 'Prefiks:',
 	'interwiki_prefix_intro' => 'Interwikiprefiks som skal brukes i <code>[<nowiki />[prefiks:<i>sidenavn</i>]]</code>-wikisyntaks.',
@@ -3006,6 +3006,7 @@ Det finnes en [[Special:Log/interwiki|endringslogg]] for interwikitabellen.',
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nei',
 	'interwiki_error' => 'FEIL: Interwikitabellen er tom, eller noe gikk gærent.',
+	'interwiki-cached' => 'Interwiki-datene er cachet. Å endre cachen er ikke mulig.',
 	'interwiki_edit' => 'Rediger',
 	'interwiki_reasonfield' => 'Årsak:',
 	'interwiki_delquestion' => 'Sletter «$1»',
@@ -3022,7 +3023,11 @@ Det finnes en [[Special:Log/interwiki|endringslogg]] for interwikitabellen.',
 	'interwiki_edited' => 'Prefikset «$1» ble endret i interwikitabellen.',
 	'interwiki_editerror' => 'Prefikset «$1» kan ikke endres i interwikitabellen. Det finnes muligens ikke.',
 	'interwiki-badprefix' => 'Det oppgitte interwikiprefikset «$1» innholder ugyldige tegn',
+	'interwiki-submit-empty' => 'Prefiksen og URL kan ikke være tomme.',
 	'log-name-interwiki' => 'Interwikitabellogg',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|la inn}} prefiks "$4" ($5) (oversatt: $6; lokal: $7) til interwiki-tabellen',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|endret}} prefiks "$4" ($5) (oversatt: $6; lokal: $7) i interwiki-tabellen',
+	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|fjernet}} prefiks "$4" fra interwiki-tabellen',
 	'log-description-interwiki' => 'Dette er en logg over endringer i [[Special:Interwiki|interwikitabellen]].',
 	'right-interwiki' => 'Redigere interwikidata',
 	'action-interwiki' => 'endre dette interwikielementet',
@@ -4404,7 +4409,7 @@ Sto prefisso el podarìa èssar inesistente.',
 	'right-interwiki' => 'Cànbia i dati interwiki',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
