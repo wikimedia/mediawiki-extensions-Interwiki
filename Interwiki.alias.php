@@ -63,6 +63,11 @@ $specialPageAliases['es'] = array(
 	'Interwiki' => array( 'Enlaces_interligüísticos' ),
 );
 
+/** Estonian (eesti) */
+$specialPageAliases['et'] = array(
+	'Interwiki' => array( 'Interviki' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'Interwiki' => array( 'میان‌ویکی' ),
