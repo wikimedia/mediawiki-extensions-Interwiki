@@ -84,6 +84,7 @@ Remember that this can break existing links.',
 Possibly it does not exist.',
 	'interwiki-badprefix' => 'Specified interwiki prefix "$1" contains invalid characters',
 	'interwiki-submit-empty' => 'The prefix and URL cannot be empty.',
+	'interwiki-submit-invalidurl' => 'The protocol of the URL is invalid.',
 
 	# interwiki log
 	'log-name-interwiki' => 'Interwiki table log',
@@ -182,6 +183,7 @@ Parameter $1 contains the following (a link): [//www.mediawiki.org/wiki/Manual:I
 	'interwiki-badprefix' => 'Error message displayed when trying to save an interwiki prefix that contains invalid characters. Parameters:
 * $1 is the interwiki prefix containing invalid characters.',
 	'interwiki-submit-empty' => 'Error message displayed when trying to save an interwiki prefix with an empty prefix or an empty URL.',
+	'interwiki-submit-invalidurl' => 'Error message displayed when trying to save an interwiki prefix with an invalid URL.',
 	'log-name-interwiki' => 'Part of the interwiki extension. This message is shown as page title on Special:Log/interwiki.',
 	'logentry-interwiki-iw_add' => 'Shows up in "[[Special:Log/interwiki]]" when someone has added a prefix. Leave parameters and text between brackets exactly as it is.
 * $1 is the username of the user who added it
