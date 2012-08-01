@@ -189,8 +189,12 @@ class SpecialInterwiki extends SpecialPage {
 		$prefix = $request->getVal( 'wpInterwikiPrefix' );
 		$do = $request->getVal( 'wpInterwikiAction' );
 		// Show an error if the prefix is invalid (only when adding one).
-		// Invalid characters are ':', '&', '=' and whitespace.
-		if ( preg_match( '/[\s:&=]/', $prefix ) && $do === 'add' ) {
+		// Invalid characters for a title should also be invalid for a prefix.
+		// Whitespace, ':', '&' and '=' are invalid, too.
+		// (Bug 30599).
+		global $wgLegalTitleChars;
+		$validPrefixChars = preg_replace( '/[ :&=]/', '', $wgLegalTitleChars );
+		if ( preg_match( "/\s|[^$validPrefixChars]/", $prefix ) && $do === 'add' ) {
 			$this->error( 'interwiki-badprefix', htmlspecialchars( $prefix ) );
 			$this->showForm( $do );
 			return;
