@@ -1050,7 +1050,11 @@ $messages['diq'] = array(
 	'interwiki_local' => 'Hetana fi',
 	'interwiki_trans' => 'Temase fi',
 	'interwiki-trans-label' => 'Temase fi',
+	'interwiki_1' => 'e',
+	'interwiki_0' => 'nê',
 	'interwiki_edit' => 'Bıvurne',
+	'interwiki_delquestion' => '"$1" besterneyêna',
+	'interwiki_addbutton' => 'Deke',
 );
 
 /** Lower Sorbian (dolnoserbski)
