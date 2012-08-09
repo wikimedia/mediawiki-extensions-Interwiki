@@ -3586,8 +3586,11 @@ Existe um [[Special:Log/interwiki|registro de modificações]] à tabela de inte
  * @author Firilacroco
  * @author KlaudiuMihaila
  * @author Minisarm
+ * @author Stelistcristi
  */
 $messages['ro'] = array(
+	'interwiki-legend-show' => 'Arată legenda',
+	'interwiki-legend-hide' => 'Ascunde legenda',
 	'interwiki_prefix' => 'Prefix',
 	'interwiki-prefix-label' => 'Prefix:',
 	'interwiki_1' => 'da',
@@ -3777,6 +3780,7 @@ $messages['sdc'] = array(
 
 /** Sinhala (සිංහල)
  * @author තඹරු විජේසේකර
+ * @author පසිඳු කාවින්ද
  * @author බිඟුවා
  */
 $messages['si'] = array(
@@ -3784,6 +3788,7 @@ $messages['si'] = array(
 	'interwiki_0' => 'නැත',
 	'interwiki_edit' => 'සංස්කරණය',
 	'interwiki_reasonfield' => 'හේතුව:',
+	'interwiki_addbutton' => 'එක් කරන්න',
 	'right-interwiki' => 'අන්තර්-විකි දත්ත සංස්කරණය',
 );
 
