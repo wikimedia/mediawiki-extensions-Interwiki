@@ -2353,10 +2353,22 @@ Mbok-menawa iki ora ana.',
 );
 
 /** Georgian (ქართული)
+ * @author David1010
  * @author Malafaya
  */
 $messages['ka'] = array(
+	'interwiki-legend-show' => 'ლეგენდის ჩვენება',
+	'interwiki-legend-hide' => 'ლეგენდის დამალვა',
+	'interwiki_prefix' => 'წინსართი',
+	'interwiki-prefix-label' => 'წინსართი:',
+	'interwiki_local' => 'გადაგზავნა',
+	'interwiki-local-label' => 'გადაგზავნა:',
+	'interwiki_1' => 'დიახ',
+	'interwiki_0' => 'არა',
+	'interwiki_edit' => 'რედაქტირება',
 	'interwiki_reasonfield' => 'მიზეზი:',
+	'interwiki_delquestion' => 'იშლება „$1“',
+	'interwiki_addbutton' => 'დამატება',
 );
 
 /** Khmer (ភាសាខ្មែរ)
