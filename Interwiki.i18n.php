@@ -104,6 +104,7 @@ Possibly it does not exist.',
  * @author Jon Harald Søby
  * @author Meno25
  * @author Mormegil
+ * @author Nemo bis
  * @author Purodha
  * @author Raymond
  * @author SPQRobin
@@ -187,7 +188,8 @@ Parameter $1 contains the following (a link): [//www.mediawiki.org/wiki/Manual:I
 * $2 is the username usable for GENDER
 * $4 is the prefix
 * $5 is the URL
-* $6 and $7 is 0 or 1',
+* $6 and $7 is 0 or 1
+See also the legend on [[Special:Interwiki]].',
 	'logentry-interwiki-iw_edit' => 'Shows up in "[[Special:Log/interwiki]]" when someone has modified a prefix. Leave parameters and text between brackets exactly as it is.
 * $1 is the username of the user who added it
 * $2 is the username usable for GENDER
@@ -3269,7 +3271,7 @@ Benlèu i existís ja.',
 $messages['or'] = array(
 	'interwiki_1' => 'ହଁ',
 	'interwiki_0' => 'ନା',
-	'interwiki_edit' => 'ସମ୍ପାଦନ',
+	'interwiki_edit' => 'ସମ୍ପାଦନା',
 	'interwiki_reasonfield' => 'କାରଣ:',
 	'interwiki_delquestion' => '"$1"କୁ ଲିଭାଉଛି',
 	'interwiki_deleting' => 'ଆପଣ "$1"ର ପୂର୍ବକୁ ବଦଳାଉଛନ୍ତି',
