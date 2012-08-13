@@ -1804,6 +1804,7 @@ $messages['he'] = array(
 );
 
 /** Hindi (हिन्दी)
+ * @author Karthi.dr
  * @author Kaustubh
  */
 $messages['hi'] = array(
@@ -1813,7 +1814,10 @@ $messages['hi'] = array(
 	'interwiki_intro' => 'आंतरविकि तालिका के बारें में अधिक ज़ानकारी के लिये [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] देखें। यहां आंतरविकि तालिका में हुए [[Special:Log/interwiki|बदलावों की सूची]] हैं।',
 	'interwiki_prefix' => 'उपपद',
 	'interwiki-prefix-label' => 'उपपद:',
+	'interwiki_1' => 'हाँ',
+	'interwiki_0' => 'नहीं',
 	'interwiki_error' => 'गलती: आंतरविकि तालिका खाली हैं, या और कुछ गलत हैं।',
+	'interwiki_edit' => 'सम्पादन',
 	'interwiki_reasonfield' => 'कारण:',
 	'interwiki_delquestion' => '$1 को हटा रहें हैं',
 	'interwiki_deleting' => 'आप "$1" उपपद हटा रहें हैं।',
@@ -2961,8 +2965,11 @@ Terdapat [[Special:Log/interwiki|log perubahan]] pada jadual interwiki.',
 
 /** Maltese (Malti)
  * @author Chrisportelli
+ * @author පසිඳු කාවින්ද
  */
 $messages['mt'] = array(
+	'interwiki_1' => 'iva',
+	'interwiki_0' => 'le',
 	'interwiki_edit' => 'Editja',
 );
 
