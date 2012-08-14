@@ -339,6 +339,8 @@ $messages['ar'] = array(
  * @author Basharh
  */
 $messages['arc'] = array(
+	'interwiki' => 'ܚܘܝ ܘܫܚܠܦ ܝܕ̈ܥܬܐ ܕܐܢܛܪܘܝܩܝ',
+	'interwiki-title-norights' => 'ܚܘܝ ܝܕ̈ܥܬܐ ܕܐܢܛܪܘܝܩܝ',
 	'interwiki_prefix' => 'ܫܪܘܝܐ',
 	'interwiki-prefix-label' => 'ܫܪܘܝܐ:',
 	'interwiki_1' => 'ܐܝܢ',
