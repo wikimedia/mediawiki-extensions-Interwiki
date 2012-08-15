@@ -271,14 +271,14 @@ class SpecialInterwiki extends SpecialPage {
 		$this->getOutput()->addHTML(
 			Html::rawElement(
 				'table', array( 'class' => 'mw-interwikitable wikitable intro' ),
-				self::addInfoRow( 'start', 'interwiki_prefix', 'interwiki_prefix_intro' ) . "\n" .
-				self::addInfoRow( 'start', 'interwiki_url', 'interwiki_url_intro' ) . "\n" .
-				self::addInfoRow( 'start', 'interwiki_local', 'interwiki_local_intro' ) . "\n" .
-				self::addInfoRow( 'end', 'interwiki_0', 'interwiki_local_0_intro' ) . "\n" .
-				self::addInfoRow( 'end', 'interwiki_1', 'interwiki_local_1_intro' ) . "\n" .
-				self::addInfoRow( 'start', 'interwiki_trans', 'interwiki_trans_intro' ) . "\n" .
-				self::addInfoRow( 'end', 'interwiki_0', 'interwiki_trans_0_intro' ) . "\n" .
-				self::addInfoRow( 'end', 'interwiki_1', 'interwiki_trans_1_intro' ) . "\n"
+				$this->addInfoRow( 'start', 'interwiki_prefix', 'interwiki_prefix_intro' ) . "\n" .
+				$this->addInfoRow( 'start', 'interwiki_url', 'interwiki_url_intro' ) . "\n" .
+				$this->addInfoRow( 'start', 'interwiki_local', 'interwiki_local_intro' ) . "\n" .
+				$this->addInfoRow( 'end', 'interwiki_0', 'interwiki_local_0_intro' ) . "\n" .
+				$this->addInfoRow( 'end', 'interwiki_1', 'interwiki_local_1_intro' ) . "\n" .
+				$this->addInfoRow( 'start', 'interwiki_trans', 'interwiki_trans_intro' ) . "\n" .
+				$this->addInfoRow( 'end', 'interwiki_0', 'interwiki_trans_0_intro' ) . "\n" .
+				$this->addInfoRow( 'end', 'interwiki_1', 'interwiki_trans_1_intro' ) . "\n"
 			)
 		);
 
@@ -366,12 +366,12 @@ class SpecialInterwiki extends SpecialPage {
 	 * @param $text string
 	 * @return string
 	 */
-	static function addInfoRow( $align = 'start', $title, $text ) {
+	private function addInfoRow( $align = 'start', $title, $text ) {
 		return Html::rawElement( 'tr', null,
 			// The classes mw-align-start and mw-align-end are used here.
-			Html::rawElement( 'th', array( 'class' => 'mw-align-' . $align ), wfMessage( $title )->escaped() ) .
+			Html::rawElement( 'th', array( 'class' => 'mw-align-' . $align ), $this->msg( $title )->escaped() ) .
 			// This message is expected to have wiki syntax
-			Html::rawElement( 'td', null, wfMessage( $text )->parse() )
+			Html::rawElement( 'td', null, $this->msg( $text )->parse() )
 		);
 	}
 
