@@ -1546,6 +1546,14 @@ $messages['fy'] = array(
 	'interwiki_addbutton' => 'Tafoegje',
 );
 
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'interwiki_edit' => 'Cuir in eagar',
+	'interwiki_reasonfield' => 'Fáth:',
+);
+
 /** Galician (galego)
  * @author Alma
  * @author Toliño
