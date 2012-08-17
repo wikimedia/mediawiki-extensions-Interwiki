@@ -2456,56 +2456,59 @@ $messages['kn'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'interwiki' => '인터위키 목록 보기/고치기',
-	'interwiki-title-norights' => '인터위키 보기',
-	'interwiki-desc' => '인터위키 표를 보거나 고칠 수 있는 [[Special:Interwiki|특수 문서]]를 추가',
-	'interwiki_intro' => '이 문서는 인터위키에 대한 둘러보기 표입니다.',
+	'interwiki' => '인터위키 목록 보기 및 고치기',
+	'interwiki-title-norights' => '인터위키 목록 보기',
+	'interwiki-desc' => '인터위키 테이블을 보거나 고칠 수 있는 [[Special:Interwiki|특수 문서]]를 추가',
+	'interwiki_intro' => '이 문서는 인터위키 테이블에 대한 둘러보기입니다.',
 	'interwiki-legend-show' => '범례 보기',
 	'interwiki-legend-hide' => '범례 숨기기',
 	'interwiki_prefix' => '접두어',
 	'interwiki-prefix-label' => '접두어:',
 	'interwiki_prefix_intro' => '<code>[<nowiki />[접두어:문서 이름]]</code> 위키 링크에 쓰일 인터위키 접두어',
-	'interwiki_url_intro' => 'URL 서식. $1 자리에는 위에 위키문법이 쓰인 것에서의 <em>문서 이름</em>으로 치환될 것입니다.',
+	'interwiki_url_intro' => 'URL 서식. $1 자리에는 위에 위키문법이 쓰인 것에서의 <em>문서 이름</em>으로 바뀔 것입니다.',
 	'interwiki_local' => '이것을 로컬 위키로 정의',
-	'interwiki-local-label' => '전달',
-	'interwiki_local_intro' => 'URL에 인터위키 접두어가 포함되어 있을 때 로컬 위키로의 HTTP 요청을:',
+	'interwiki-local-label' => '전달:',
+	'interwiki_local_intro' => 'URL에 인터위키 접두어가 포함되어 있을 때 로컬 위키로의 HTTP 요청:',
 	'interwiki_local_0_intro' => '무시함, 보통 "잘못된 제목"을 출력합니다.',
-	'interwiki_local_1_intro' => '인터위키 링크 정의에 입력된 URL로 이동합니다 (즉, 로컬 문서의 참고 자료로 취급됩니다)',
+	'interwiki_local_1_intro' => '인터위키 링크 정의에 입력된 URL로 이동합니다. (즉, 로컬 문서의 참고 자료로 취급됩니다)',
 	'interwiki_trans' => '인터위키 포함',
 	'interwiki-trans-label' => '인터위키 포함:',
-	'interwiki_trans_intro' => '<code>{<nowiki />{prefix:<em>pagename</em>}}</code>이 쓰일 경우에는:',
+	'interwiki_trans_intro' => '<code>{<nowiki />{prefix:<em>pagename</em>}}</code>이 쓰일 경우:',
 	'interwiki_trans_1_intro' => '이 위키에서 일반적으로 인터위키 틀 포함이 허용된다면, 타 위키에서의 틀 포함을 허용합니다,',
 	'interwiki_trans_0_intro' => '허용하지 않고 틀 이름공간의 문서를 찾아봅니다.',
-	'interwiki_intro_footer' => '인터위키 테이블에 대한 자세한 내용을 [//www.mediawiki.org/wiki/Manual:Interwiki_table/ko MediaWiki.org]에서 보세요
+	'interwiki_intro_footer' => '인터위키 테이블에 대한 자세한 내용을 [//www.mediawiki.org/wiki/Manual:Interwiki_table/ko MediaWiki.org]에서 보세요.
 인터위키 테이블의 [[Special:Log/interwiki|바뀜 기록]]이 존재합니다.',
 	'interwiki_1' => '예',
 	'interwiki_0' => '아니오',
-	'interwiki_error' => '오류: 인터위키 표가 비어 있거나 다른 무엇인가가 잘못되었습니다.',
+	'interwiki_error' => '오류: 인터위키 테이블이 비어 있거나 다른 무엇인가가 잘못되었습니다.',
 	'interwiki-cached' => '인터위키 데이터는 캐시됩니다. 캐시를 수정하는 건 불가능합니다.',
 	'interwiki_edit' => '편집',
 	'interwiki_reasonfield' => '이유:',
 	'interwiki_delquestion' => '"$1" 지우기',
-	'interwiki_deleting' => '접두어 "$1"을(를) 지웁니다.',
-	'interwiki_deleted' => '접두어 "$1"을(를) 지웠습니다.',
-	'interwiki_delfailed' => '접두어 "$1"을(를) 지울 수 없습니다.',
-	'interwiki_addtext' => '접두어 더하기',
+	'interwiki_deleting' => '"$1" 접두어를 지웁니다.',
+	'interwiki_deleted' => '"$1" 접두어를 인터위키 테이블에서 지웠습니다.',
+	'interwiki_delfailed' => '"$1" 접두어를 인터위키 테이블에서 지울 수 없습니다.',
+	'interwiki_addtext' => '인터위키 접두어 더하기',
 	'interwiki_addintro' => '새 인터위키 접두어를 만듭니다. 공백( ), 쌍점(:), &기호(&), 등호(=)는 포함할 수 없습니다.',
 	'interwiki_addbutton' => '추가',
-	'interwiki_added' => '접두어 "$1"을(를) 더했습니다.',
-	'interwiki_addfailed' => '접두어 "$1"을(를) 더할 수 없습니다. 이미 표에 있을 수 있습니다.',
-	'interwiki_edittext' => '접두어 고치기',
-	'interwiki_editintro' => '인터위키 접두어를 고칩니다. 이미 만들어진 인터위키를 망가뜨릴 수 있으니 주의해 주세요.',
-	'interwiki_edited' => '접두어 "$1"을(를) 고쳤습니다.',
-	'interwiki_editerror' => '접두어 "$1"을(를) 고칠 수 없습니다. 목록에 없는 접두어일 수 있습니다.',
-	'interwiki-badprefix' => '당신이 입력한 인터위키 접두어 "$1"은(는) 잘못된 문자를 포함하고 있습니다.',
+	'interwiki_added' => '"$1" 접두어를 인터위키 테이블에 더했습니다.',
+	'interwiki_addfailed' => '"$1" 접두어를 인터위키 테이블에 더할 수 없습니다.
+이미 표에 있을 수 있습니다.',
+	'interwiki_edittext' => '인터위키 접두어 고치기',
+	'interwiki_editintro' => '인터위키 접두어를 고칩니다.
+이미 만들어진 인터위키를 망가뜨릴 수 있으니 주의해 주세요.',
+	'interwiki_edited' => '"$1" 접두어를 고쳤습니다.',
+	'interwiki_editerror' => '"$1" 접두어를 인터위키 테이블에 고칠 수 없습니다.
+목록에 없는 접두어일 수 있습니다.',
+	'interwiki-badprefix' => '당신이 입력한 인터위키 "$1" 접두어는 잘못된 문자를 포함하고 있습니다.',
 	'interwiki-submit-empty' => '접두어와 URL 칸은 비워둘 수 없습니다.',
 	'log-name-interwiki' => '인터위키 수정 기록',
-	'logentry-interwiki-iw_add' => '$1 사용자가 접두어 "$4" ($5) (틀 포함: $6; 로컬: $7)을 인터위키 표에 {{GENDER:$2|추가}}했습니다.',
-	'logentry-interwiki-iw_edit' => '$1 사용자가 인터위키 표의 접두어 "$4" ($5) (틀 포함: $6; 로컬: $7)를  {{GENDER:$2|수정}}했습니다.',
-	'logentry-interwiki-iw_delete' => '$1 사용자가 인터위키 표의 접두어 "$4"를  {{GENDER:$2|삭제}}했습니다.',
+	'logentry-interwiki-iw_add' => '$1 사용자가 "$4" ($5) (틀 포함: $6, 로컬: $7) 접두어를 인터위키 테이블에 {{GENDER:$2|추가}}했습니다.',
+	'logentry-interwiki-iw_edit' => '$1 사용자가 인터위키 테이블의 "$4" ($5) (틀 포함: $6, 로컬: $7) 접두어를 {{GENDER:$2|수정}}했습니다.',
+	'logentry-interwiki-iw_delete' => '$1 사용자가 인터위키 테이블의 "$4" 접두어를 {{GENDER:$2|삭제}}했습니다.',
 	'log-description-interwiki' => '[[Special:Interwiki|인터위키]] 목록의 바뀐 내역입니다.',
-	'right-interwiki' => '인터위키 목록을 편집',
-	'action-interwiki' => '이 인터위키 접두어를 수정',
+	'right-interwiki' => '인터위키 목록 고치기',
+	'action-interwiki' => '이 인터위키 접두어 바꾸기',
 );
 
 /** Colognian (Ripoarisch)
@@ -4408,9 +4411,17 @@ $messages['uk'] = array(
 	'action-interwiki' => 'зміну цього запису інтервікі',
 );
 
-/** Urdu (اردو) */
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
 $messages['ur'] = array(
+	'interwiki-legend-show' => 'شو کے لیجنڈ',
+	'interwiki-legend-hide' => 'لیجنڈ چھپائیں',
+	'interwiki_1' => 'جی ہاں',
+	'interwiki_0' => 'نہیں',
+	'interwiki_edit' => 'ترمیم کریں',
 	'interwiki_reasonfield' => 'وجہ:',
+	'interwiki_addbutton' => 'شامل کریں',
 );
 
 /** vèneto (vèneto)
