@@ -3629,6 +3629,10 @@ Existe um [[Special:Log/interwiki|registro de modificações]] à tabela de inte
  * @author Stelistcristi
  */
 $messages['ro'] = array(
+	'interwiki' => 'Vizualizare și editare date interwiki',
+	'interwiki-title-norights' => 'Vizualizare date interwiki',
+	'interwiki-desc' => 'Adaugă o [[Special:Interwiki|pagină specială]] pentru vizualizarea și modificarea tabelului interwiki',
+	'interwiki_intro' => 'Aceasta este o imagine de ansamblu a tabelului interwiki.',
 	'interwiki-legend-show' => 'Arată legenda',
 	'interwiki-legend-hide' => 'Ascunde legenda',
 	'interwiki_prefix' => 'Prefix',
@@ -3638,7 +3642,9 @@ $messages['ro'] = array(
 	'interwiki_edit' => 'Modificare',
 	'interwiki_reasonfield' => 'Motiv:',
 	'interwiki_delquestion' => 'Ștergere „$1”',
+	'interwiki_deleting' => 'În prezent, ștergeți prefixul „$1”.',
 	'interwiki_addbutton' => 'Adaugă',
+	'right-interwiki' => 'Modifică date interwiki',
 	'action-interwiki' => 'modificați această legătură interwiki',
 );
 
