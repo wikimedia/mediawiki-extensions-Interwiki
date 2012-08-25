@@ -2337,7 +2337,7 @@ $messages['ja'] = array(
 	'logentry-interwiki-iw_delete' => '$1 がインターウィキテーブルから接頭辞 "$4" を{{GENDER:$2|除去しました}}',
 	'log-description-interwiki' => 'これは[[Special:Interwiki|インターウィキテーブル]]の変更記録です。',
 	'right-interwiki' => 'インターウィキデータの編集',
-	'action-interwiki' => 'このインターウィキ項目を変更',
+	'action-interwiki' => 'このインターウィキ項目の変更',
 );
 
 /** Javanese (Basa Jawa)
