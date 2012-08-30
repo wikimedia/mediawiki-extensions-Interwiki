@@ -174,7 +174,7 @@ class SpecialInterwiki extends SpecialPage {
 					Html::rawElement( 'td', array( 'class' => 'mw-submit' ),
 						Xml::submitButton( $this->msg( $button )->text(), array( 'id' => 'mw-interwiki-submit' ) ) )
 				) . $wpPrefix .
-				Html::hidden( 'wpEditToken', $this->getUser()->editToken() ) .
+				Html::hidden( 'wpEditToken', $this->getUser()->getEditToken() ) .
 				Html::hidden( 'wpInterwikiAction', $action )
 			)
 		) );
