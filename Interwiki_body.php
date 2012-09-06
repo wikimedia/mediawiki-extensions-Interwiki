@@ -132,7 +132,7 @@ class SpecialInterwiki extends SpecialPage {
 			$button = 'edit';
 		} elseif ( $action === 'add' ) {
 			$prefix = $request->getVal( 'wpInterwikiPrefix', $request->getVal( 'prefix' ) );
-			$prefix = Xml::input( 'wpInterwikiPrefix', 20, $prefix,
+			$prefixElement = Xml::input( 'wpInterwikiPrefix', 20, $prefix,
 				array( 'tabindex' => 1, 'id' => 'mw-interwiki-prefix', 'maxlength' => 20 ) );
 			$local = $request->getCheck( 'wpInterwikiLocal' );
 			$trans = $request->getCheck( 'wpInterwikiTrans' );
@@ -145,7 +145,7 @@ class SpecialInterwiki extends SpecialPage {
 		if ( $action === 'add' || $action === 'edit' ) {
 			$formContent = Html::rawElement( 'tr', null,
 				Html::element( 'td', $label, $this->msg( 'interwiki-prefix-label' )->text() ) .
-				Html::rawElement( 'td', null, '<tt>' . $prefix . '</tt>' )
+				Html::rawElement( 'td', null, '<tt>' . $prefixElement . '</tt>' )
 			) . Html::rawElement( 'tr', null,
 				Html::rawElement( 'td', $label, Xml::label( $this->msg( 'interwiki-local-label' )->text(), 'mw-interwiki-local' ) ) .
 				Html::rawElement( 'td', $input, Xml::check( 'wpInterwikiLocal', $local, array( 'id' => 'mw-interwiki-local' ) ) )
@@ -161,7 +161,7 @@ class SpecialInterwiki extends SpecialPage {
 
 		$form = Xml::fieldset( $topmessage, Html::rawElement( 'form',
 			array( 'id' => "mw-interwiki-{$action}form", 'method' => 'post',
-				'action' => $this->getTitle()->getLocalURL( 'action=submit' ) ),
+				'action' => $this->getTitle()->getLocalUrl( array( 'action' => 'submit', 'prefix' => $prefix ) ) ),
 			Html::rawElement( 'p', null, $intromessage ) .
 			Html::rawElement( 'table', array( 'id' => "mw-interwiki-{$action}" ),
 				$formContent . Html::rawElement( 'tr', null,
@@ -232,6 +232,15 @@ class SpecialInterwiki extends SpecialPage {
 
 			if ( $prefix === '' || $theurl === '' ) {
 				$this->error( 'interwiki-submit-empty' );
+				$this->showForm( $do );
+				return;
+			}
+
+			// Simple URL validation: check that the protocol is one of
+			// the supported protocols for this wiki.
+			// (bug 30600)
+			if ( !wfParseUrl( $theurl ) ) {
+				$this->error( 'interwiki-submit-invalidurl' );
 				$this->showForm( $do );
 				return;
 			}
