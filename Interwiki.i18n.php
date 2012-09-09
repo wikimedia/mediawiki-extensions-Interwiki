@@ -3373,6 +3373,7 @@ Vielaischd hods des a ned.",
 /** Polish (polski)
  * @author BeginaFelicysym
  * @author Leinad
+ * @author Matma Rex
  * @author McMonster
  * @author Sp5uhe
  * @author Yarl
@@ -3423,6 +3424,7 @@ Prawdopodobnie ten prefiks już jest w tableli.',
 	'interwiki_editerror' => 'Prefiks „$1” nie może zostać poprawiony w tabeli interwiki. Prawdopodobnie nie ma go w tabeli.',
 	'interwiki-badprefix' => 'Podany przedrostek interwiki „$1” zawiera nieprawidłowe znaki',
 	'interwiki-submit-empty' => 'Przedrostek i adres URL nie mogą być puste.',
+	'interwiki-submit-invalidurl' => 'Nieprawidłowy protokół adresu URL.',
 	'log-name-interwiki' => 'Rejestr tablicy interwiki',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|dodał|dodała}} przedrostek "$4" ($5) (trans: $6; local: $7) do tabeli interwiki',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|zmienił|zmieniła}} przedrostek "$4" ($5) (trans: $6; local: $7) w tabeli interwiki',
