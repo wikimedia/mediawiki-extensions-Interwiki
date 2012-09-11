@@ -583,6 +583,7 @@ $messages['be-tarask'] = array(
 Верагодна ён не існуе.',
 	'interwiki-badprefix' => 'Пазначаны прэфікс інтэрвікі «$1» утрымлівае няслушныя сымбалі',
 	'interwiki-submit-empty' => 'Прэфікс і URL-адрас ня могуць быць пустымі.',
+	'interwiki-submit-invalidurl' => 'Няслушны пратакол URL.',
 	'log-name-interwiki' => 'Журнал зьменаў табліцы інтэрвікі',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|дадаў|дадала}} прэфікс «$4» ($5) (trans: $6; local: $7) у інтэрвікі-табліцу',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|зьмяніў|зьмяніла}} прэфікс «$4» ($5) (trans: $6; local: $7) у інтэрвікі-табліцы',
@@ -1464,6 +1465,7 @@ $messages['fi'] = array(
  * @author Louperivois
  * @author Purodha
  * @author Sherbrooke
+ * @author Tititou36
  * @author Urhixidur
  * @author Verdy p
  */
@@ -1512,6 +1514,7 @@ Il existe un [[Special:Log/interwiki|journal des modifications]] de la table int
 	'interwiki_editerror' => "Le préfixe « $1 » ne peut pas être modifié. Il se peut qu'il n'existe pas.",
 	'interwiki-badprefix' => 'Le préfixe interwiki spécifié « $1 » contient des caractères invalides',
 	'interwiki-submit-empty' => "Le préfixe et l'URL ne peuvent être vides.",
+	'interwiki-submit-invalidurl' => "Le protocole de l'URL n'est pas valide.",
 	'log-name-interwiki' => 'Journal de la table interwiki',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|a ajouté}} le préfixe "$4" ($5) (trans: $6; local: $7) à la table interwiki',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|a modifié}} le préfixe "$4" ($5) (trans: $6; local: $7) dans la table interwiki',
