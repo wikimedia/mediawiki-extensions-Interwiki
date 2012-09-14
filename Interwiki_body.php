@@ -122,7 +122,7 @@ class SpecialInterwiki extends SpecialPage {
 				return;
 			}
 
-			$prefix = $row->iw_prefix;
+			$prefix = $prefixElement = $row->iw_prefix;
 			$defaulturl = $row->iw_url;
 			$trans = $row->iw_trans;
 			$local = $row->iw_local;
