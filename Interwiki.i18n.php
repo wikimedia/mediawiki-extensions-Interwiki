@@ -1872,6 +1872,7 @@ $messages['hil'] = array(
 /** Croatian (hrvatski)
  * @author Dalibor Bosits
  * @author Ex13
+ * @author Roberta F.
  * @author SpeedyGonsales
  */
 $messages['hr'] = array(
@@ -1889,7 +1890,7 @@ $messages['hr'] = array(
 	'interwiki-trans-label' => 'Uključi:',
 	'interwiki_1' => 'da',
 	'interwiki_0' => 'ne',
-	'interwiki_error' => 'GREŠKA: Interwiki tablica je prazna, ili je nešto drugo neispravno.',
+	'interwiki_error' => 'POGRJEŠKA: Interwiki tablica je prazna, ili je nešto drugo neispravno.',
 	'interwiki_edit' => 'Uredi',
 	'interwiki_reasonfield' => 'Razlog:',
 	'interwiki_delquestion' => 'Brišem "$1"',
@@ -2681,6 +2682,7 @@ Denkt drun, datt dat kann dozou féieren datt Linken déi et scho gëtt net méi
 Méiglecherweis gëtt et en net.',
 	'interwiki-badprefix' => 'Den Interwiki-Prefix "$1" huet net valabel Buchstawen',
 	'interwiki-submit-empty' => "De Prefix an d'URL kënnen net eidel sinn.",
+	'interwiki-submit-invalidurl' => 'De Protokoll vun der URL ass valabel.',
 	'log-name-interwiki' => 'Lëscht mat der Interwikitabell',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|huet}} de Prefix "$4" ($5) (trans: $6; local: $7) an d\'Interwikitabell derbäigesat',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|huet}} de Prefix „$4“ ($5) (trans: $6; local: $7) an der Interwikitabell geännert',
