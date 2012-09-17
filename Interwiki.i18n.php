@@ -2579,6 +2579,7 @@ Denk draan, domet könnts De Links em Wiki kapott maache, die velleich do drop o
 Maach sin, dat et inn nit jitt.',
 	'interwiki-badprefix' => 'Dä aanjejovve Engerwiki-Försatz „$1“ änthäld onjöltijje Zeiche',
 	'interwiki-submit-empty' => 'Der Engerwiki-Försatz un der URL künne nit läddesch jelohße wääde.',
+	'interwiki-submit-invalidurl' => 'Dä Protokoll-Vörsaz för dä <i lang="en">URL</i> es nit jöltesch.',
 	'log-name-interwiki' => 'Logboch fun de Engerwiki Tabäll',
 	'logentry-interwiki-iw_add' => '{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät dä Vörsaz „$4“ met däm {{int:interwiki-url-label}} „$5“ un {{int:interwiki-local-label}}$6 un {{int:interwiki-trans-label}}$7 bei de Engerwiki-Date dobei jedonn.',
 	'logentry-interwiki-iw_edit' => '{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät dä Vörsaz „$4“ met däm {{int:interwiki-url-label}} „$5“ un {{int:interwiki-local-label}}$6 un {{int:interwiki-trans-label}}$7 vun de Engerwiki-Date verändert.',
