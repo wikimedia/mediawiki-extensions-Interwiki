@@ -1819,6 +1819,7 @@ $messages['he'] = array(
 ייתכן שהיא אינה קיימת.',
 	'interwiki-badprefix' => 'קידומת הבינוויקי שצוינה, "$1", מכילה תווים בלתי תקינים',
 	'interwiki-submit-empty' => 'הקידומת והכתובת אינן יכולות להיות ריקות.',
+	'interwiki-submit-invalidurl' => 'הפרוטוקול של הכתובת הזאת אינו תקין.',
 	'log-name-interwiki' => 'יומן טבלת הבינוויקי',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|הוסיף|הוסיפה}} את הקידומת "$4" (כתובת: $5) (הכללה: $6; מקומי: $7) לטבלת interwiki',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|שינה|שינתה}} את הקידומת "$4" (כתובת: $5) (הכללה: $6; מקומי: $7) לטבלת interwiki',
