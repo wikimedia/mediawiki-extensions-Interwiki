@@ -4328,6 +4328,13 @@ Maaaring hindi pa ito umiiral.",
 	'action-interwiki' => "baguhin ang ipinasok/entradang ito na pang-ugnayang wiki (''interwiki'')",
 );
 
+/** Tok Pisin (Tok Pisin)
+ * @author Iketsi
+ */
+$messages['tpi'] = array(
+	'interwiki_edit' => 'Senisim',
+);
+
 /** Turkish (Türkçe)
  * @author Homonihilis
  * @author Joseph
