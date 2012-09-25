@@ -213,12 +213,12 @@ $specialPageAliases['yue'] = array(
 	'Interwiki' => array( '其他維基連接' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'Interwiki' => array( '跨维基' ),
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'Interwiki' => array( '跨維基連結' ),
 );

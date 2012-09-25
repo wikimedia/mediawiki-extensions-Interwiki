@@ -4461,6 +4461,13 @@ $messages['ur'] = array(
 	'interwiki_addbutton' => 'شامل کریں',
 );
 
+/** Uzbek (oʻzbekcha)
+ * @author CoderSI
+ */
+$messages['uz'] = array(
+	'log-name-interwiki' => "Interviki jadvalidagi o'zgarishlar qaydlari",
+);
+
 /** vèneto (vèneto)
  * @author Candalua
  */
