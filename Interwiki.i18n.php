@@ -4745,7 +4745,7 @@ $messages['zh-hans'] = array(
 	'action-interwiki' => '更改该跨维基条目',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Alexsh
  * @author Horacewai2
  * @author Justincheng12345
@@ -4768,8 +4768,15 @@ $messages['zh-hant'] = array(
 	'interwiki_url_intro' => 'URL的模板，當使用上述語法時，佔位符$1將會替換成<em>pagename</em>。',
 	'interwiki_local' => '轉發',
 	'interwiki-local-label' => '定義這個為一個本地 wiki：',
+	'interwiki_local_intro' => '該跨wiki前綴到本地wiki的HTTP請求：',
+	'interwiki_local_0_intro' => '無法實現，通常是遇到“頁面未找到”。',
+	'interwiki_local_1_intro' => '重定向到跨wiki鏈接定義的目標URL（即視為本地頁面中的引用）。',
 	'interwiki_trans' => '包含',
 	'interwiki-trans-label' => '容許跨維基包含：',
+	'interwiki_trans_intro' => '如果使用wiki語法<code>{<nowiki />{prefix:<em>pagename</em>}}</code>，那麼：',
+	'interwiki_trans_1_intro' => '如果跨wiki包含在該wiki得到授權，則允許從外部wiki包含。',
+	'interwiki_trans_0_intro' => '不允許，看作是尋找模板命名空間中的一個頁面。',
+	'interwiki_intro_footer' => '關於跨wiki表的詳細信息，請參閱[//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org]。這裡有一個跨wiki表的[[Special:Log/interwiki|更改日誌]]。',
 	'interwiki_1' => '是',
 	'interwiki_0' => '否',
 	'interwiki_error' => '錯誤：跨維基連結表為空，或是發生其它錯誤。',
@@ -4796,6 +4803,9 @@ $messages['zh-hant'] = array(
 	'interwiki-badprefix' => '所指定的跨維基前綴「$1」含有無效的字母',
 	'interwiki-submit-empty' => '前綴及URL不能為空。',
 	'log-name-interwiki' => '跨維基連結修改日誌',
+	'logentry-interwiki-iw_add' => '$1{{GENDER:$2|增加了}}前綴“$4”($5) (包含:$6；本地：$7)到跨wiki表',
+	'logentry-interwiki-iw_edit' => '$1{{GENDER:$2|已修改}}跨wiki表中的前綴“$4”($5) (包含：$6；本地：$7)',
+	'logentry-interwiki-iw_delete' => '$1已從跨wiki表中{{GENDER:$2|刪除}}前綴“$4”',
 	'log-description-interwiki' => '這是一個[[Special:Interwiki|跨維基連結]]修改的日誌。',
 	'right-interwiki' => '修改跨維基資料',
 	'action-interwiki' => '修正這個跨語言連結',
