@@ -529,7 +529,7 @@ $messages['be'] = array(
 	'interwiki_addbutton' => 'Дадаць',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -1037,7 +1037,7 @@ Möglicherweise ist es nicht vorhanden.',
 	'action-interwiki' => 'Diesen Interwikieintrag ändern',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  * @author MichaelFrey
  */
@@ -1749,7 +1749,7 @@ $messages['gv'] = array(
 	'interwiki_reasonfield' => 'Fa:',
 );
 
-/** Hausa (هَوُسَ) */
+/** Hausa (Hausa) */
 $messages['ha'] = array(
 	'interwiki_reasonfield' => 'Dalili:',
 );
@@ -2590,7 +2590,7 @@ Maach sin, dat et inn nit jitt.',
 	'action-interwiki' => 'Donn hee dä Engerwiki Enndraach ändere',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -3040,7 +3040,7 @@ $messages['nah'] = array(
 	'interwiki_addbutton' => 'Ticcētilīz',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Event
  * @author Nghtwlkr
  * @author Purodha
@@ -3186,7 +3186,7 @@ Er is een [[Special:Log/interwiki|veranderingslogboek]] voor de interwikitabel.'
 	'action-interwiki' => 'deze interwikiverwijzing te wijzigen',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Eirik
  * @author Gunnernett
  * @author Harald Khan
@@ -3956,7 +3956,7 @@ Morda ne obstaja.',
 	'action-interwiki' => 'spreminjanje tega vnosa interwikija',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Жељко Тодоровић
@@ -4003,7 +4003,7 @@ $messages['sr-ec'] = array(
 	'right-interwiki' => 'уређивање међувикија',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  * @author Жељко Тодоровић
  */
@@ -4677,7 +4677,7 @@ $messages['yue'] = array(
 	'right-interwiki' => '編輯跨維基資料',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Gaoxuewei
  * @author Hzy980512
  * @author Liangent
