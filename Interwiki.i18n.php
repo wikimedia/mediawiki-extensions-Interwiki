@@ -406,6 +406,17 @@ $messages['arz'] = array(
 	'action-interwiki' => 'تغيير مدخلة الإنترويكى هذه',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ */
+$messages['as'] = array(
+	'interwiki_1' => 'হয়',
+	'interwiki_0' => 'নহয়',
+	'interwiki_edit' => 'সম্পাদনা কৰক',
+	'interwiki_reasonfield' => 'কাৰণ:',
+	'interwiki_addbutton' => 'যোগ',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
