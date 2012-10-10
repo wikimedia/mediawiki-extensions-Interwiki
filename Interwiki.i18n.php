@@ -1065,6 +1065,7 @@ Beachten Sie bitte, dass dies bereits vorhandene Links ungültig machen kann.',
  */
 $messages['diq'] = array(
 	'interwiki-title-norights' => 'Melumatê interwikiya bıvin',
+	'interwiki-legend-show' => 'Lecanti bıvin',
 	'interwiki_prefix' => 'Verole',
 	'interwiki-prefix-label' => 'Verole:',
 	'interwiki_local' => 'Aser ke',
