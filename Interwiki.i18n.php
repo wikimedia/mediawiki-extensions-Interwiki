@@ -534,8 +534,10 @@ $messages['az'] = array(
 
 /** Belarusian (беларуская)
  * @author Тест
+ * @author Чаховіч Уладзіслаў
  */
 $messages['be'] = array(
+	'interwiki-legend-show' => 'Паказаць легенду',
 	'interwiki_reasonfield' => 'Прычына:',
 	'interwiki_addbutton' => 'Дадаць',
 );
