@@ -175,6 +175,7 @@ Parameter $1 contains the following (a link): [//www.mediawiki.org/wiki/Manual:I
 * $1 is the added interwiki prefix.',
 	'interwiki_addfailed' => 'Error message displayed when adding an interwiki prefix fails. Parameters:
 * $1 is the interwiki prefix that could not be added.',
+	'interwiki-defaulturl' => '{{notranslate}}',
 	'interwiki_edittext' => 'Fieldset legend for interwiki prefix edit form.',
 	'interwiki_editintro' => 'Form information when editing an interwiki prefix.',
 	'interwiki_edited' => 'Success message after editing an interwiki prefix. Parameters:
@@ -203,15 +204,9 @@ See also the legend on [[Special:Interwiki]].',
 * $2 is the username usable for GENDER
 * $4 is the prefix',
 	'log-description-interwiki' => 'Part of the interwiki extension. Summary shown on Special:Log/interwiki.',
+	'logentry-interwiki-interwiki' => '{{notranslate}}',
 	'right-interwiki' => '{{doc-right|interwiki}}',
 	'action-interwiki' => '{{doc-action|interwiki}}',
-);
-
-/** Niuean (ko e vagahau Niuē)
- * @author Jose77
- */
-$messages['niu'] = array(
-	'interwiki_reasonfield' => 'Kakano:',
 );
 
 /** Afrikaans (Afrikaans)
@@ -289,7 +284,7 @@ $messages['ar'] = array(
 	'interwiki' => 'عرض وتعديل بيانات الإنترويكي',
 	'interwiki-title-norights' => 'عرض بيانات الإنترويكي',
 	'interwiki-desc' => 'يضيف [[Special:Interwiki|صفحة خاصة]] لرؤية وتعديل جدول الإنترويكي',
-	'interwiki_intro' => 'هذا عرض عام لجدول الإنترويكي. معاني البيانات في العواميد:',
+	'interwiki_intro' => 'هذا عرض عام لجدول الإنترويكي. معاني البيانات في العواميد:', # Fuzzy
 	'interwiki_prefix' => 'بادئة',
 	'interwiki-prefix-label' => 'البادئة:',
 	'interwiki_prefix_intro' => 'بادئة الإنترويكي ليتم استخدامها في صياغة نص الويكي <code>[<nowiki />[prefix:<em>pagename</em>]]</code>.',
@@ -360,7 +355,7 @@ $messages['arz'] = array(
 	'interwiki' => 'عرض وتعديل بيانات الإنترويكي',
 	'interwiki-title-norights' => 'عرض بيانات الإنترويكي',
 	'interwiki-desc' => 'يضيف [[Special:Interwiki|صفحة خاصة]] لرؤية وتعديل جدول الإنترويكي',
-	'interwiki_intro' => 'هذا عرض عام لجدول الإنترويكى. معانى البيانات فى العواميد:',
+	'interwiki_intro' => 'هذا عرض عام لجدول الإنترويكى. معانى البيانات فى العواميد:', # Fuzzy
 	'interwiki_prefix' => 'بادئة',
 	'interwiki-prefix-label' => 'بادئة:',
 	'interwiki_prefix_intro' => 'بادئة الإنترويكى ليتم استخدامها فى صياغة نص الويكى <code>[<nowiki />[prefix:<em>pagename</em>]]</code>.',
@@ -484,9 +479,9 @@ $messages['avk'] = array(
 	'interwiki' => "Wira va 'interwiki' orig isu betara",
 	'interwiki-title-norights' => "Wira va 'interwiki' orig",
 	'interwiki-desc' => "Batcoba, ta wira va 'interwiki' origak isu betara, va [[Special:Interwiki|aptafu bu]] loplekur",
-	'interwiki_intro' => "Ta lo giva icde 'interwiki' origak va [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] wil !",
+	'interwiki_intro' => "Ta lo giva icde 'interwiki' origak va [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] wil !", # Fuzzy
 	'interwiki_prefix' => 'Abdueosta',
-	'interwiki-prefix-label' => 'Abdueosta:',
+	'interwiki-prefix-label' => 'Abdueosta:', # Fuzzy
 	'interwiki_error' => "ROKLA : 'Interwiki' origak tir vlardaf oke rotaca al sokir.",
 	'interwiki_reasonfield' => 'Lazava :',
 	'interwiki_delquestion' => 'Sulara va "$1"',
@@ -616,8 +611,8 @@ $messages['bg'] = array(
 	'interwiki_intro' => 'Това е общ преглед на таблицата с междууикита.',
 	'interwiki_prefix' => 'Представка:',
 	'interwiki-prefix-label' => 'Представка:',
-	'interwiki_local' => 'Локално',
-	'interwiki-local-label' => 'Локално:',
+	'interwiki_local' => 'Локално', # Fuzzy
+	'interwiki-local-label' => 'Локално:', # Fuzzy
 	'interwiki_intro_footer' => 'Вижте [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] за повече информация относно таблицата с междууикита.
 Съществува и [[Special:Log/interwiki|дневник на промените]] в таблицата с междууикита.',
 	'interwiki_1' => 'да',
@@ -850,7 +845,8 @@ $messages['ckb'] = array(
 	'interwiki_deleted' => 'پێشگری «$1» سەرکەوتووانە لە خشتەی نێوانویکی لابرا.',
 );
 
-/** Corsican (corsu) */
+/** Corsican (corsu)
+ */
 $messages['co'] = array(
 	'interwiki_reasonfield' => 'Mutivu:',
 );
@@ -1142,7 +1138,8 @@ Snaź njeeksistěrujo.',
 	'action-interwiki' => 'toś ten zapisk interwiki změniś',
 );
 
-/** Ewe (eʋegbe) */
+/** Ewe (eʋegbe)
+ */
 $messages['ee'] = array(
 	'interwiki_edit' => 'Trɔ asi le eŋu',
 );
@@ -1158,7 +1155,7 @@ $messages['ee'] = array(
 $messages['el'] = array(
 	'interwiki' => 'Εμφάνιση και επεξεργασία των δεδομένων ιντερβίκι',
 	'interwiki-title-norights' => 'Εμφάνιση δεδομένων ιντερβίκι',
-	'interwiki-desc' => 'Προσθέτει μια [[Special:Interwikilist|ειδική σελίδα]] για την προβολή και επεξεργασία των διαθέσιμων συνδέσμων interwiki',
+	'interwiki-desc' => 'Προσθέτει μια [[Special:Interwikilist|ειδική σελίδα]] για την προβολή και επεξεργασία των διαθέσιμων συνδέσμων interwiki', # Fuzzy
 	'interwiki_prefix' => 'Πρόθεμα',
 	'interwiki-prefix-label' => 'Πρόθεμα:',
 	'interwiki_local' => 'Προώθηση',
@@ -1385,13 +1382,13 @@ $messages['fa'] = array(
 	'interwiki' => 'نمایش و ویرایش اطلاعات میان‌ویکی',
 	'interwiki-title-norights' => 'مشاهدهٔ اطلاعات میان‌ویکی',
 	'interwiki-desc' => 'یک [[Special:Interwiki|صفحهٔ ویژه]] برای مشاهده و ویرایش جدول میان‌ویکی می‌افزاید.',
-	'interwiki_intro' => 'قمستی از افزونهٔ میان‌ویکی. به صورت یک مرور کلی در Special:Interwiki نمایش داده شده.',
+	'interwiki_intro' => 'قمستی از افزونهٔ میان‌ویکی. به صورت یک مرور کلی در Special:Interwiki نمایش داده شده.', # Fuzzy
 	'interwiki_prefix' => 'پیشوند',
 	'interwiki-prefix-label' => 'پیشوند:',
-	'interwiki_local' => 'مشخص کردن به عنوان یک ویکی محلی',
-	'interwiki-local-label' => 'مشخص کردن به عنوان یک ویکی محلی:',
-	'interwiki_trans' => 'اجازهٔ گنجاندن میان‌ویکی را بده',
-	'interwiki-trans-label' => 'اجازهٔ گنجاندن میان‌ویکی را بده:',
+	'interwiki_local' => 'مشخص کردن به عنوان یک ویکی محلی', # Fuzzy
+	'interwiki-local-label' => 'مشخص کردن به عنوان یک ویکی محلی:', # Fuzzy
+	'interwiki_trans' => 'اجازهٔ گنجاندن میان‌ویکی را بده', # Fuzzy
+	'interwiki-trans-label' => 'اجازهٔ گنجاندن میان‌ویکی را بده:', # Fuzzy
 	'interwiki_intro_footer' => 'برای اطلاعات بیشتر در مورد Interwiki به [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] مراحعه نمائید.
 همچنین می‌توانید [[Special:Log/interwiki|تاریخچهٔ تغییرات]] چدول Interwiki را مشاهده کنید.',
 	'interwiki_1' => 'بله',
@@ -1443,7 +1440,7 @@ $messages['fi'] = array(
 	'interwiki_local' => 'Välitä',
 	'interwiki-local-label' => 'Välitä:',
 	'interwiki_trans' => 'Sisällytä',
-	'interwiki-trans-label' => 'Sisällytä:',
+	'interwiki-trans-label' => 'Sisällytä:', # Fuzzy
 	'interwiki_1' => 'kyllä',
 	'interwiki_0' => 'ei',
 	'interwiki_error' => 'Virhe: Interwiki-taulu on tyhjä tai jokin muu meni pieleen.',
@@ -1763,7 +1760,8 @@ $messages['gv'] = array(
 	'interwiki_reasonfield' => 'Fa:',
 );
 
-/** Hausa (Hausa) */
+/** Hausa (Hausa)
+ */
 $messages['ha'] = array(
 	'interwiki_reasonfield' => 'Dalili:',
 );
@@ -1851,9 +1849,9 @@ $messages['hi'] = array(
 	'interwiki' => 'आंतरविकि डाटा देखें एवं बदलें',
 	'interwiki-title-norights' => 'आंतरविकि डाटा देखें',
 	'interwiki-desc' => 'आंतरविकि तालिका देखनेके लिये और बदलने के लिये एक [[Special:Interwiki|विशेष पॄष्ठ]]',
-	'interwiki_intro' => 'आंतरविकि तालिका के बारें में अधिक ज़ानकारी के लिये [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] देखें। यहां आंतरविकि तालिका में हुए [[Special:Log/interwiki|बदलावों की सूची]] हैं।',
+	'interwiki_intro' => 'आंतरविकि तालिका के बारें में अधिक ज़ानकारी के लिये [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] देखें। यहां आंतरविकि तालिका में हुए [[Special:Log/interwiki|बदलावों की सूची]] हैं।', # Fuzzy
 	'interwiki_prefix' => 'उपपद',
-	'interwiki-prefix-label' => 'उपपद:',
+	'interwiki-prefix-label' => 'उपपद:', # Fuzzy
 	'interwiki_1' => 'हाँ',
 	'interwiki_0' => 'नहीं',
 	'interwiki_error' => 'गलती: आंतरविकि तालिका खाली हैं, या और कुछ गलत हैं।',
@@ -2213,7 +2211,8 @@ $messages['ig'] = array(
 	'interwiki_reasonfield' => 'Mgbághapụtà:',
 );
 
-/** Eastern Canadian (Latin script) (inuktitut) */
+/** Eastern Canadian (Latin script) (inuktitut)
+ */
 $messages['ike-latn'] = array(
 	'interwiki_edit' => 'Suqusiqpaa',
 );
@@ -2378,7 +2377,7 @@ $messages['jv'] = array(
 	'interwiki-desc' => 'Nambahaké sawijining [[Special:Interwiki|kaca astaméwa]] kanggo ndeleng lan nyunting tabèl interwiki',
 	'interwiki_intro' => 'Iki sawijining gambaran saka tabel interwiki.',
 	'interwiki_prefix' => 'Préfiks (sisipan awal)',
-	'interwiki-prefix-label' => 'Préfiks (sisipan awal):',
+	'interwiki-prefix-label' => 'Préfiks (sisipan awal):', # Fuzzy
 	'interwiki_error' => 'KALUPUTAN: Tabèl interwikiné kosong, utawa ana masalah liya.',
 	'interwiki_reasonfield' => 'Alesan:',
 	'interwiki_delquestion' => 'Mbusak "$1"',
@@ -2432,7 +2431,7 @@ $messages['km'] = array(
 	'interwiki' => 'មើលនិងកែប្រែទិន្នន័យអន្តរវិគី',
 	'interwiki-title-norights' => 'មើលទិន្នន័យអន្តរវិគី',
 	'interwiki-desc' => 'បន្ថែម[[Special:Interwiki|ទំព័រពិសេស]]ដើម្បីមើលនិងកែប្រែតារាងអន្តរវិគី',
-	'interwiki_intro' => 'នេះ​គឺជា​ទិដ្ឋភាពទូទៅ​នៃ​តារាង​អន្តរវិគី​។',
+	'interwiki_intro' => 'នេះ​គឺជា​ទិដ្ឋភាពទូទៅ​នៃ​តារាង​អន្តរវិគី​។', # Fuzzy
 	'interwiki_prefix' => 'បុព្វបទ',
 	'interwiki-prefix-label' => 'បុព្វបទ៖',
 	'interwiki_1' => 'បាទ/ចាស៎',
@@ -2723,7 +2722,7 @@ $messages['lt'] = array(
 	'interwiki-title-norights' => 'Žiūrėti interwiki duomenis',
 	'interwiki-desc' => 'Prideda [[Special:Interwiki|specialųjį puslapį]] interwiki lentelei peržiūrėti ir redaguoti',
 	'interwiki_local' => 'Persiųsti',
-	'interwiki-local-label' => 'Persiųsti:',
+	'interwiki-local-label' => 'Persiųsti:', # Fuzzy
 	'interwiki_addbutton' => 'Pridėti',
 	'log-description-interwiki' => 'Tai pakeitimų [[Special:Interwiki|interwiki lentelėje]] sąrašas',
 	'right-interwiki' => 'Redaguoti interwiki duomenis',
@@ -2735,13 +2734,13 @@ $messages['lt'] = array(
 $messages['lzh'] = array(
 	'interwiki' => '察與修跨維表',
 	'interwiki-title-norights' => '察跨維',
-	'interwiki_intro' => '閱[http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]之。',
+	'interwiki_intro' => '閱[http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]之。', # Fuzzy
 	'interwiki_prefix' => '前',
-	'interwiki-prefix-label' => '前:',
-	'interwiki_local' => '定為本維',
-	'interwiki-local-label' => '定為本維:',
-	'interwiki_trans' => '許跨維之含',
-	'interwiki-trans-label' => '許跨維之含:',
+	'interwiki-prefix-label' => '前:', # Fuzzy
+	'interwiki_local' => '定為本維', # Fuzzy
+	'interwiki-local-label' => '定為本維:', # Fuzzy
+	'interwiki_trans' => '許跨維之含', # Fuzzy
+	'interwiki-trans-label' => '許跨維之含:', # Fuzzy
 	'interwiki_1' => '是',
 	'interwiki_0' => '否',
 	'interwiki_error' => '錯：跨維為空，或它錯發生。',
@@ -2930,9 +2929,9 @@ $messages['mr'] = array(
 	'interwiki' => 'आंतरविकि डाटा पहा व संपादा',
 	'interwiki-title-norights' => 'अंतरविकि डाटा पहा',
 	'interwiki-desc' => 'आंतरविकि सारणी पाहण्यासाठी व संपादन्यासाठी एक [[Special:Interwiki|विशेष पान]] वाढविते',
-	'interwiki_intro' => 'आंतरविकि सारणी बद्दल अधिक माहीतीसाठी [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] पहा.',
+	'interwiki_intro' => 'आंतरविकि सारणी बद्दल अधिक माहीतीसाठी [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] पहा.', # Fuzzy
 	'interwiki_prefix' => 'उपपद (पूर्वप्रत्यय)',
-	'interwiki-prefix-label' => 'उपपद (पूर्वप्रत्यय):',
+	'interwiki-prefix-label' => 'उपपद (पूर्वप्रत्यय):', # Fuzzy
 	'interwiki_error' => 'त्रुटी: आंतरविकि सारणी रिकामी आहे, किंवा इतर काहीतरी चुकलेले आहे.',
 	'interwiki_reasonfield' => 'कारण:',
 	'interwiki_delquestion' => '"$1" वगळत आहे',
@@ -3117,11 +3116,11 @@ Det finnes en [[Special:Log/interwiki|endringslogg]] for interwikitabellen.',
 $messages['nds'] = array(
 	'interwiki_intro' => 'Disse Sied gifft en Överblick över de Interwiki-Tabell.',
 	'interwiki_prefix' => 'Präfix',
-	'interwiki-prefix-label' => 'Präfix:',
+	'interwiki-prefix-label' => 'Präfix:', # Fuzzy
 	'interwiki_local' => 'Wiederleiden to en anner Wiki',
-	'interwiki-local-label' => 'Wiederleiden to en anner Wiki:',
+	'interwiki-local-label' => 'Wiederleiden to en anner Wiki:', # Fuzzy
 	'interwiki_trans' => 'Inbinnen över Interwiki verlöven',
-	'interwiki-trans-label' => 'Inbinnen över Interwiki verlöven:',
+	'interwiki-trans-label' => 'Inbinnen över Interwiki verlöven:', # Fuzzy
 	'interwiki_1' => 'jo',
 	'interwiki_0' => 'nee',
 	'interwiki_error' => 'De Interwiki-Tabell is leddig, oder wat anners is verkehrt lopen.',
@@ -3139,6 +3138,13 @@ $messages['nds'] = array(
  */
 $messages['nds-nl'] = array(
 	'interwiki_addbutton' => 'Derbie doon',
+);
+
+/** Niuean (ko e vagahau Niuē)
+ * @author Jose77
+ */
+$messages['niu'] = array(
+	'interwiki_reasonfield' => 'Kakano:',
 );
 
 /** Dutch (Nederlands)
@@ -3213,16 +3219,16 @@ $messages['nn'] = array(
 	'interwiki-desc' => 'Legg til ei [[Special:Interwiki|spesialsida]] som gjer at ein kan syna og endra interwikitabellen.',
 	'interwiki_intro' => 'Dette er eit oversyn over interwikitabellen.',
 	'interwiki_prefix' => 'Forstaving',
-	'interwiki-prefix-label' => 'Forstaving:',
+	'interwiki-prefix-label' => 'Forstaving:', # Fuzzy
 	'interwiki_prefix_intro' => 'Interwikiforstaving som skal verta nytta i <code>[<nowiki />[forstaving:<em>sidenamn</em>]]</code>-wikisyntaks.',
 	'interwiki_url_intro' => 'Mal for adresser. Variabelen $1 vil verta bytt ut med <em>sidenamn</em> i wikiteksten når wikisyntakset ovanfor vert nytta.',
 	'interwiki_local' => 'Send vidare',
-	'interwiki-local-label' => 'Send vidare:',
+	'interwiki-local-label' => 'Send vidare:', # Fuzzy
 	'interwiki_local_intro' => 'Ein http-førespurnad til den lokale wikien med denne interwikiforstavinga i adressa, er:',
 	'interwiki_local_0_intro' => 'ikkje æra, vanlegvis blokkert med «finn ikkje websida»,',
 	'interwiki_local_1_intro' => 'omdirigert til måladressa oppgjeven i interwikilenkjedefinisjonane (med andre ord handsama som refereransar på lokale sider)',
 	'interwiki_trans' => 'Inkluder',
-	'interwiki-trans-label' => 'Inkluder:',
+	'interwiki-trans-label' => 'Inkluder:', # Fuzzy
 	'interwiki_trans_intro' => 'Om wikitekstsyntakset <code>{<nowiki />{prefix:<em>pagename</em>}}</code> er nytta, so:',
 	'interwiki_trans_1_intro' => 'tillat inkludering frå ein framand wiki, om interwikiinkluderingar generelt sett er tillatne på denne wikien,',
 	'interwiki_trans_0_intro' => 'ikkje tillat det, sjå heller etter ei sida i malnamnerommet.',
@@ -3525,9 +3531,9 @@ A peul esse che a esista pa.',
  */
 $messages['pnt'] = array(
 	'interwiki_prefix' => 'Πρόθεμαν',
-	'interwiki-prefix-label' => 'Πρόθεμαν:',
+	'interwiki-prefix-label' => 'Πρόθεμαν:', # Fuzzy
 	'interwiki_trans' => 'Υπερκλεισμοί',
-	'interwiki-trans-label' => 'Υπερκλεισμοί:',
+	'interwiki-trans-label' => 'Υπερκλεισμοί:', # Fuzzy
 	'interwiki_1' => 'ναι',
 	'interwiki_0' => 'όχι',
 	'interwiki_edit' => 'Ἀλλαγμαν',
@@ -3551,10 +3557,10 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
- * @author 555
  * @author Hamilton Abreu
  * @author Malafaya
  * @author Waldir
+ * @author 555
  */
 $messages['pt'] = array(
 	'interwiki' => 'Ver e manipular dados de interwikis',
@@ -3608,10 +3614,10 @@ Lembre-se que este não pode conter espaços ( ), dois-pontos (:), conjunções 
 );
 
 /** Brazilian Portuguese (português do Brasil)
- * @author 555
  * @author Eduardo.mps
  * @author Giro720
  * @author Luckas Blade
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'interwiki' => 'Ver e editar dados de interwikis',
@@ -3782,9 +3788,9 @@ $messages['rue'] = array(
 $messages['sah'] = array(
 	'interwiki' => 'Интервики туруорууларын көрүү уонна уларытыы',
 	'interwiki-title-norights' => 'Интервики туһунан',
-	'interwiki_intro' => 'Бу интервики табылыыссата. Колонкаларга:',
+	'interwiki_intro' => 'Бу интервики табылыыссата. Колонкаларга:', # Fuzzy
 	'interwiki_prefix' => 'Префикс (эбиискэ)',
-	'interwiki-prefix-label' => 'Префикс (эбиискэ):',
+	'interwiki-prefix-label' => 'Префикс (эбиискэ):', # Fuzzy
 	'interwiki_error' => 'Алҕас: Интервики табылыыссата кураанах эбэтэр туга эрэ сатамматах.',
 	'interwiki_reasonfield' => 'Төрүөтэ:',
 	'interwiki_delquestion' => '"$1" сотуу',
@@ -3814,15 +3820,15 @@ $messages['scn'] = array(
 	'interwiki' => 'Talìa e mudìfica li dati interwiki',
 	'interwiki-title-norights' => 'Talìa li dati interwiki',
 	'interwiki-desc' => 'Junci na [[Special:Interwiki|pàggina spiciali]] pi taliari e mudificari la tabedda di li interwiki',
-	'interwiki_intro' => "Talìa [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] pi chiossai nfurmazzioni supr'a tabedda di li interwiki.",
+	'interwiki_intro' => "Talìa [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] pi chiossai nfurmazzioni supr'a tabedda di li interwiki.", # Fuzzy
 	'interwiki_prefix' => 'Prifissu',
-	'interwiki-prefix-label' => 'Prifissu:',
+	'interwiki-prefix-label' => 'Prifissu:', # Fuzzy
 	'interwiki_url' => 'URL',
-	'interwiki-url-label' => 'URL:',
-	'interwiki_local' => 'Qualificari chistu comu a nu wiki lucali',
-	'interwiki-local-label' => 'Qualificari chistu comu a nu wiki lucali:',
-	'interwiki_trans' => 'Cunzenti interwiki transclusions',
-	'interwiki-trans-label' => 'Cunzenti interwiki transclusions:',
+	'interwiki-url-label' => 'URL:', # Fuzzy
+	'interwiki_local' => 'Qualificari chistu comu a nu wiki lucali', # Fuzzy
+	'interwiki-local-label' => 'Qualificari chistu comu a nu wiki lucali:', # Fuzzy
+	'interwiki_trans' => 'Cunzenti interwiki transclusions', # Fuzzy
+	'interwiki-trans-label' => 'Cunzenti interwiki transclusions:', # Fuzzy
 	'interwiki_error' => "SBÀGGHIU: La tabedda di li interwiki è vacanti, o c'è qualchi àutru sbàgghiu.",
 	'interwiki_reasonfield' => 'Mutivu:',
 	'interwiki_delquestion' => 'Scancellu "$1"',
@@ -3852,8 +3858,8 @@ Lu prifissu putissi èssiri ca non c\'è.',
 $messages['sdc'] = array(
 	'interwiki' => 'Vidè e mudìfiggà li dati interwiki',
 	'interwiki_prefix' => 'Prefissu',
-	'interwiki-prefix-label' => 'Prefissu:',
-	'interwiki_reasonfield' => 'Rasgioni',
+	'interwiki-prefix-label' => 'Prefissu:', # Fuzzy
+	'interwiki_reasonfield' => 'Rasgioni', # Fuzzy
 	'interwiki_delquestion' => 'Canzillendi "$1"',
 	'interwiki_deleting' => 'Sei canzillendi lu prefissu "$1".',
 	'interwiki_addtext' => 'Aggiungi un prefissu interwiki',
@@ -4071,7 +4077,7 @@ $messages['stq'] = array(
 	'interwiki' => 'Interwiki-Doaten bekiekje un beoarbaidje',
 	'interwiki_intro' => 'Dit is n Uursicht fon dän Inhoold fon ju Interwiki-Tabelle.',
 	'interwiki_prefix' => 'Präfix',
-	'interwiki-prefix-label' => 'Präfix:',
+	'interwiki-prefix-label' => 'Präfix:', # Fuzzy
 	'interwiki_error' => 'Failer: Ju Interwiki-Tabelle is loos.',
 	'interwiki_reasonfield' => 'Gruund:',
 	'interwiki_delquestion' => 'Läsket „$1“',
@@ -4265,7 +4271,7 @@ $messages['th'] = array(
 	'interwiki' => 'ดูและแก้ไขข้อมูลอินเตอร์วิกิ',
 	'interwiki-title-norights' => 'ดูข้อมูลอินเตอร์วิกิ',
 	'interwiki_prefix' => 'คำนำหน้า',
-	'interwiki-prefix-label' => 'คำนำหน้า:',
+	'interwiki-prefix-label' => 'คำนำหน้า:', # Fuzzy
 	'interwiki_reasonfield' => 'เหตุผล:',
 	'interwiki_delquestion' => 'ลบ "$1"',
 	'interwiki_addbutton' => 'เพิ่ม',
@@ -4529,7 +4535,7 @@ Sto prefisso el podarìa èssar inesistente.',
  */
 $messages['vep'] = array(
 	'interwiki_prefix' => 'Prefiks',
-	'interwiki-prefix-label' => 'Prefiks:',
+	'interwiki-prefix-label' => 'Prefiks:', # Fuzzy
 	'interwiki_1' => 'ka',
 	'interwiki_0' => 'ei',
 	'interwiki_edit' => 'Redaktiruida',
@@ -4605,9 +4611,9 @@ $messages['vo'] = array(
 	'interwiki' => 'Logön e bevobön nünodis vüvükik',
 	'interwiki-title-norights' => 'Logön nünodis vüvükik',
 	'interwiki-desc' => 'Läükön [[Special:Interwiki|padi patik]] ad logön e bevobön taibi vüvükik',
-	'interwiki_intro' => 'Logön eli [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] ad tuvön nünis pluik tefü taib vüvükik.',
+	'interwiki_intro' => 'Logön eli [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] ad tuvön nünis pluik tefü taib vüvükik.', # Fuzzy
 	'interwiki_prefix' => 'Foyümot',
-	'interwiki-prefix-label' => 'Foyümot:',
+	'interwiki-prefix-label' => 'Foyümot:', # Fuzzy
 	'interwiki_0' => 'nö',
 	'interwiki_error' => 'Pöl: Taib vüvükik vagon, u ba pöl votik ejenon.',
 	'interwiki_reasonfield' => 'Kod:',
@@ -4635,12 +4641,14 @@ Ba no dabinon.',
 	'action-interwiki' => 'votükön pati vüvükik at',
 );
 
-/** Walloon (walon) */
+/** Walloon (walon)
+ */
 $messages['wa'] = array(
 	'interwiki_reasonfield' => 'Råjhon:',
 );
 
-/** Wu (吴语) */
+/** Wu (吴语)
+ */
 $messages['wuu'] = array(
 	'interwiki_reasonfield' => '理由：',
 );
@@ -4658,19 +4666,20 @@ $messages['yi'] = array(
 	'interwiki_addbutton' => 'צולייגן',
 );
 
-/** Cantonese (粵語) */
+/** Cantonese (粵語)
+ */
 $messages['yue'] = array(
 	'interwiki' => '去睇同編輯跨維基資料',
 	'interwiki-title-norights' => '去睇跨維基資料',
-	'interwiki_intro' => '睇吓[http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]有關跨維基表嘅更多資料。',
+	'interwiki_intro' => '睇吓[http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org]有關跨維基表嘅更多資料。', # Fuzzy
 	'interwiki_prefix' => '前綴',
-	'interwiki-prefix-label' => '前綴:',
-	'interwiki_local' => '定義呢個做一個本地wiki',
-	'interwiki-local-label' => '定義呢個做一個本地wiki:',
-	'interwiki_trans' => '容許跨維基包含',
-	'interwiki-trans-label' => '容許跨維基包含:',
+	'interwiki-prefix-label' => '前綴:', # Fuzzy
+	'interwiki_local' => '定義呢個做一個本地wiki', # Fuzzy
+	'interwiki-local-label' => '定義呢個做一個本地wiki:', # Fuzzy
+	'interwiki_trans' => '容許跨維基包含', # Fuzzy
+	'interwiki-trans-label' => '容許跨維基包含:', # Fuzzy
 	'interwiki_error' => '錯誤: 跨維基表係空、又或者有其它嘢出錯。',
-	'interwiki_reasonfield' => '原因',
+	'interwiki_reasonfield' => '原因', # Fuzzy
 	'interwiki_delquestion' => '刪緊 "$1"',
 	'interwiki_deleting' => '你而家拎走緊前綴 "$1"。',
 	'interwiki_deleted' => '前綴 "$1" 已經成功噉響個跨維基表度拎走咗。',
@@ -4825,4 +4834,3 @@ $messages['zh-hant'] = array(
 	'right-interwiki' => '修改跨維基資料',
 	'action-interwiki' => '修正這個跨語言連結',
 );
-
