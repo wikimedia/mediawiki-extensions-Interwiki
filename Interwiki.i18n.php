@@ -1073,6 +1073,7 @@ $messages['diq'] = array(
 	'interwiki_1' => 'e',
 	'interwiki_0' => 'nê',
 	'interwiki_edit' => 'Bıvurne',
+	'interwiki_reasonfield' => 'Sebeb:',
 	'interwiki_delquestion' => '"$1" besterneyêna',
 	'interwiki_addbutton' => 'Deke',
 );
