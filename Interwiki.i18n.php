@@ -4408,6 +4408,7 @@ $messages['tt-cyrl'] = array(
 /** Ukrainian (українська)
  * @author AS
  * @author Ahonc
+ * @author Base
  * @author Hypers
  * @author Microcell
  * @author Prima klasy4na
@@ -4462,6 +4463,7 @@ $messages['uk'] = array(
 Можливо, його не існує.',
 	'interwiki-badprefix' => 'Зазначений інтервікі-префікс "$1" містить неприпустимі символи',
 	'interwiki-submit-empty' => 'Префікс і URL-адреса не можуть бути порожніми.',
+	'interwiki-submit-invalidurl' => 'Неприпустимий протокол в URL.',
 	'log-name-interwiki' => 'Журнал таблиці інтервікі',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|змінив|змінила}} префікс «$4» ($5) (trans: $6; local: $7) в таблиці інтервікі',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|змінив|змінила}} префікс «$4» ($5) (trans: $6; local: $7) в таблиці інтервікі',
@@ -4762,6 +4764,7 @@ $messages['zh-hans'] = array(
 可能它并不存在。',
 	'interwiki-badprefix' => '所指定的跨wiki前缀 "$1" 含有无效的字母',
 	'interwiki-submit-empty' => '前缀和URL不能为空。',
+	'interwiki-submit-invalidurl' => '该URL的协议是无效的。',
 	'log-name-interwiki' => '跨wiki表日志',
 	'logentry-interwiki-iw_add' => '$1{{GENDER:$2|增加了}}前缀“$4”($5) (包含:$6；本地：$7)到跨wiki表',
 	'logentry-interwiki-iw_edit' => '$1{{GENDER:$2|已修改}}跨wiki表中的前缀“$4”($5) (包含：$6；本地：$7)',
