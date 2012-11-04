@@ -4474,16 +4474,21 @@ $messages['uk'] = array(
 );
 
 /** Urdu (اردو)
+ * @author Tahir mq
  * @author පසිඳු කාවින්ද
  */
 $messages['ur'] = array(
-	'interwiki-legend-show' => 'شو کے لیجنڈ',
+	'interwiki-legend-show' => 'لیجنڈ دکھائیں',
 	'interwiki-legend-hide' => 'لیجنڈ چھپائیں',
+	'interwiki_prefix' => 'سابقے',
+	'interwiki-prefix-label' => 'سابقے',
 	'interwiki_1' => 'جی ہاں',
 	'interwiki_0' => 'نہیں',
 	'interwiki_edit' => 'ترمیم کریں',
 	'interwiki_reasonfield' => 'وجہ:',
 	'interwiki_addbutton' => 'شامل کریں',
+	'right-interwiki' => 'بین الویکی معطیات (ڈیٹا) میں ترمیم کریں',
+	'action-interwiki' => 'یہ بین الویکی اندراج تبدیل کریں',
 );
 
 /** Uzbek (oʻzbekcha)
@@ -4831,6 +4836,7 @@ $messages['zh-hant'] = array(
 可能它並不存在。',
 	'interwiki-badprefix' => '所指定的跨維基前綴「$1」含有無效的字母',
 	'interwiki-submit-empty' => '前綴及URL不能為空。',
+	'interwiki-submit-invalidurl' => '此網頁位址的協議無效。',
 	'log-name-interwiki' => '跨維基連結修改日誌',
 	'logentry-interwiki-iw_add' => '$1{{GENDER:$2|增加了}}前綴“$4”($5) (包含:$6；本地：$7)到跨wiki表',
 	'logentry-interwiki-iw_edit' => '$1{{GENDER:$2|已修改}}跨wiki表中的前綴“$4”($5) (包含：$6；本地：$7)',
