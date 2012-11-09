@@ -215,7 +215,7 @@ $specialPageAliases['yue'] = array(
 
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
-	'Interwiki' => array( '跨维基' ),
+	'Interwiki' => array( '跨wiki', '跨维基' ),
 );
 
 /** Traditional Chinese (中文（繁體）‎) */
