@@ -109,13 +109,14 @@ Possibly it does not exist.',
  * @author Purodha
  * @author Raymond
  * @author SPQRobin
+ * @author Shirayuki
  * @author Siebrand
  * @author Umherirrender
  */
 $messages['qqq'] = array(
 	'interwiki' => 'This message is the title of the special page [[Special:Interwiki]].',
 	'interwiki-title-norights' => 'This message is the title of the special page [[Special:Interwiki]] when the user has no right to edit the interwiki data and can only view them.',
-	'interwiki-desc' => '{{desc}}',
+	'interwiki-desc' => '{{desc|name=Interwiki|url=http://www.mediawiki.org/wiki/Extension:Interwiki}}',
 	'interwiki_intro' => 'Part of the interwiki extension. Shown as introductory text on [[Special:Interwiki]].',
 	'interwiki-legend-show' => 'Link text for toggle to display the legend on [[Special:Interwiki]].',
 	'interwiki-legend-hide' => 'Link text for toggle to hide the legend on [[Special:Interwiki]].',
