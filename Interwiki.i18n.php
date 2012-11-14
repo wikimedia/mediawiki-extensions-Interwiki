@@ -4415,6 +4415,13 @@ $messages['tt-cyrl'] = array(
 	'interwiki_addbutton' => 'Өстәргә',
 );
 
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'interwiki_addbutton' => 'ⵔⵏⵓ',
+);
+
 /** Ukrainian (українська)
  * @author AS
  * @author Ahonc
