@@ -4422,7 +4422,12 @@ $messages['tt-cyrl'] = array(
  * @author Tifinaghes
  */
 $messages['tzm'] = array(
+	'interwiki_1' => 'ⵢⴰⵀ',
+	'interwiki_0' => 'ⵓⵀ ⵓ',
+	'interwiki_edit' => 'ⴱⴷⴷⴻⵍ',
+	'interwiki_reasonfield' => 'ⴰⵙⵔⴰⴳ:',
 	'interwiki_addbutton' => 'ⵔⵏⵓ',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|added}} prefix "$4" ($5) (trans: $6; local: $7) to the interwiki table',
 );
 
 /** Ukrainian (українська)
