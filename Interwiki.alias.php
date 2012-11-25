@@ -158,6 +158,11 @@ $specialPageAliases['mr'] = array(
 	'Interwiki' => array( 'आंतरविकि' ),
 );
 
+/** Punjabi (ਪੰਜਾਬੀ) */
+$specialPageAliases['pa'] = array(
+	'Interwiki' => array( 'ਇੰਟਰਵਿਕੀ' ),
+);
+
 /** Portuguese (português) */
 $specialPageAliases['pt'] = array(
 	'Interwiki' => array( 'Interwikis' ),
