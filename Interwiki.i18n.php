@@ -1154,32 +1154,51 @@ $messages['ee'] = array(
  * @author Dead3y3
  * @author Evropi
  * @author Omnipaedista
+ * @author Protnet
  * @author ZaDiak
  */
 $messages['el'] = array(
 	'interwiki' => 'Εμφάνιση και επεξεργασία των δεδομένων ιντερβίκι',
 	'interwiki-title-norights' => 'Εμφάνιση δεδομένων ιντερβίκι',
 	'interwiki-desc' => 'Προσθέτει μια [[Special:Interwikilist|ειδική σελίδα]] για την προβολή και επεξεργασία των διαθέσιμων συνδέσμων interwiki', # Fuzzy
+	'interwiki_intro' => 'Αυτή είναι μια επισκόπηση του πίνακα interwiki.',
+	'interwiki-legend-show' => 'Εμφάνιση υπομνήματος',
+	'interwiki-legend-hide' => 'Απόκρυψη υπομνήματος',
 	'interwiki_prefix' => 'Πρόθεμα',
 	'interwiki-prefix-label' => 'Πρόθεμα:',
 	'interwiki_local' => 'Προώθηση',
 	'interwiki-local-label' => 'Προώθηση:',
 	'interwiki_trans' => 'Ενσωμάτωση',
 	'interwiki-trans-label' => 'Ενσωμάτωση:',
+	'interwiki_trans_intro' => 'Εάν χρησιμοποιείται η σύνταξη βικικώδικα <code>{<nowiki />{prefix:<em>pagename</em>}}</code>, τότε:',
+	'interwiki_intro_footer' => 'Ανατρέξτε στο [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] για περισσότερες πληροφορίες σχετικά με τον πίνακα interwiki.
+Υπάρχει μια [[Special:Log/interwiki|καταγραφή των αλλαγών]] στον πίνακα interwiki.',
 	'interwiki_1' => 'ναι',
 	'interwiki_0' => 'όχι',
 	'interwiki_error' => 'Σφάλμα: Ο πίνακας ιντερβίκι είναι άδειος, ή κάτι άλλο έχει πάει στραβά.',
+	'interwiki-cached' => 'Τα δεδομένα interwiki έχουν αποθηκευτεί στην προσωρινή μνήμη. Δεν είναι δυνατή η τροποποίησή της.',
 	'interwiki_edit' => 'Επεξεργασία',
 	'interwiki_reasonfield' => 'Λόγος:',
 	'interwiki_delquestion' => 'Διαγραφή του "$1"',
 	'interwiki_deleting' => 'Διαγράφεις το πρόθεμα "$1".',
 	'interwiki_deleted' => 'Το πρόθεμα "$1" αφαιρέθηκε με επιτυχία από τον πίνακα των interwiki.',
+	'interwiki_delfailed' => 'Το πρόθεμα "$1" δεν μπορεί να καταργηθεί από τον πίνακα interwiki.',
 	'interwiki_addtext' => 'Προσθήκη ενός προθέματος interwiki',
+	'interwiki_addintro' => 'Πάτε να προσθέσετε ένα νέο πρόθεμα interwiki.
+Να θυμάστε ότι δεν μπορεί να περιέχει κενό διάστημα ( ), άνω και κάτω τελεία (:), σύμβολο "και" (&) ή "ίσον" (=).',
 	'interwiki_addbutton' => 'Προσθήκη',
+	'interwiki_added' => 'Το πρόθεμα "$1" προστέθηκε με επιτυχία στον πίνακα interwiki.',
+	'interwiki_addfailed' => 'Το πρόθεμα "$1" δεν μπόρεσε να προστεθεί στον πίνακα interwiki.
+Πιθανώς υπάρχει ήδη στον πίνακα interwiki.',
 	'interwiki_edittext' => 'Επεξεργασία ενός ιντερβίκι προθέματος',
+	'interwiki_editintro' => 'Πάτε να επεξεργαστείτε ένα πρόθεμα interwiki.
+Να θυμάστε ότι αυτό μπορεί να σπάσει τις υπάρχουσες συνδέσεις.',
+	'interwiki_edited' => 'Το πρόθεμα "$1" τροποποιήθηκε με επιτυχία στον πίνακα interwiki.',
 	'interwiki_editerror' => 'Το πρόθεμα "$1" δεν μπορεί να τροποποιηθεί στον πίνακα interwiki.
 Πιθανώς να μην υπάρχει.',
 	'interwiki-badprefix' => 'Το καθορισμένο πρόθεμα interwiki "$1" περιέχει μη έγκυρους χαρακτήρες',
+	'interwiki-submit-empty' => 'Το πρόθεμα και η διεύθυνση URL δεν μπορεί να είναι κενά.',
+	'interwiki-submit-invalidurl' => 'Το πρωτόκολλο της διεύθυνσης URL δεν είναι έγκυρο.',
 	'log-name-interwiki' => 'Αρχείο του πίνακα ιντερβίκι',
 	'log-description-interwiki' => 'Αυτό είναι ένα ημερολόγιο αλλαγών στον [[Special:Interwiki|πίνακα ιντερβίκι]].',
 	'right-interwiki' => 'Επεξεργασία των δεδομένων ιντερβίκι',
