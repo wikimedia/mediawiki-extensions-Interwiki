@@ -133,6 +133,11 @@ $specialPageAliases['ksh'] = array(
 	'Interwiki' => array( 'EngerWiki', 'Engerwiki' ),
 );
 
+/** Cornish (kernowek) */
+$specialPageAliases['kw'] = array(
+	'Interwiki' => array( 'Yntrawiki' ),
+);
+
 /** Latin (Latina) */
 $specialPageAliases['la'] = array(
 	'Interwiki' => array( 'Intervici' ),
