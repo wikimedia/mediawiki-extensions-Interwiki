@@ -2233,6 +2233,7 @@ Es possibile que illo non existe.',
 
 /** Indonesian (Bahasa Indonesia)
  * @author Bennylin
+ * @author Farras
  * @author Irwangatot
  * @author IvanLanin
  * @author Kenrick95
@@ -2285,6 +2286,7 @@ Ingat bahwa tindakan ini dapat mempengaruhi pranala yang telah eksis.',
 Kemungkinan karena prefiks ini tidak ada.',
 	'interwiki-badprefix' => 'Ditentukan interwiki awalan "$1" mengandung karakter yang tidak sah',
 	'interwiki-submit-empty' => 'Prefiks dan URL tidak boleh kosong.',
+	'interwiki-submit-invalidurl' => 'Protokol URL tidak sah.',
 	'log-name-interwiki' => 'Log tabel interwiki',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|menambahkan}} prefiks "$4" ($5) (trans: $6; lokal: $7) ke tabel interwiki',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|memodifikasi}} prefiks "$4" ($5) (trans: $6; lokal: $7) ke tabel interwiki',
@@ -3278,15 +3280,16 @@ Er is een [[Special:Log/interwiki|veranderingslogboek]] voor de interwikitabel.'
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nee',
 	'interwiki_error' => 'Fout: De interwikitabel is leeg, of iets anders ging verkeerd.',
-	'interwiki-cached' => 'De interwiki-gegevens staan in de cache. De cache wijzigen is niet mogelijk.',
+	'interwiki-cached' => 'De interwikigegevens staan in de cache. De cache wijzigen is niet mogelijk.',
 	'interwiki_edit' => 'Bewerken',
 	'interwiki_reasonfield' => 'Reden:',
 	'interwiki_delquestion' => '"$1" aan het verwijderen',
 	'interwiki_deleting' => 'U bent voorvoegsel "$1" aan het verwijderen.',
 	'interwiki_deleted' => 'Voorvoegsel "$1" is verwijderd uit de interwikitabel.',
 	'interwiki_delfailed' => 'Voorvoegsel "$1" kon niet worden verwijderd uit de interwikitabel.',
-	'interwiki_addtext' => 'Een interwikivoorvoegsel toevoegen',
-	'interwiki_addintro' => 'U bent een nieuw interwikivoorvoegsel aan het toevoegen. Let op dat dit geen spaties ( ), dubbelepunt (:), ampersands (&), of gelijkheidstekens (=) mag bevatten.',
+	'interwiki_addtext' => 'Interwikivoorvoegsel toevoegen',
+	'interwiki_addintro' => 'U bent een nieuw interwikivoorvoegsel aan het toevoegen.
+Let op dat dit geen spaties ( ), dubbele punt (:), ampersands (&), of gelijktekens (=) mag bevatten.',
 	'interwiki_addbutton' => 'Toevoegen',
 	'interwiki_added' => 'Voorvoegsel "$1" is toegevoegd aan de interwikitabel.',
 	'interwiki_addfailed' => 'Voorvoegsel "$1" kon niet worden toegevoegd aan de interwikitabel. Mogelijk bestaat het al in de interwikitabel.',
@@ -3788,13 +3791,20 @@ $messages['ro'] = array(
 	'interwiki-legend-hide' => 'Ascunde legenda',
 	'interwiki_prefix' => 'Prefix',
 	'interwiki-prefix-label' => 'Prefix:',
+	'interwiki_local' => 'Înainte',
+	'interwiki-local-label' => 'Înainte:',
+	'interwiki_trans' => 'Transcludere',
+	'interwiki-trans-label' => 'Transcludere:',
 	'interwiki_1' => 'da',
 	'interwiki_0' => 'nu',
 	'interwiki_edit' => 'Modificare',
 	'interwiki_reasonfield' => 'Motiv:',
 	'interwiki_delquestion' => 'Ștergere „$1”',
 	'interwiki_deleting' => 'În prezent, ștergeți prefixul „$1”.',
+	'interwiki_addtext' => 'Adaugă un prefix interwiki',
 	'interwiki_addbutton' => 'Adaugă',
+	'interwiki_edittext' => 'Modificarea prefixului unui interwiki',
+	'log-name-interwiki' => 'Jurnal tabel interwiki',
 	'right-interwiki' => 'Modifică date interwiki',
 	'action-interwiki' => 'modificați această legătură interwiki',
 );
