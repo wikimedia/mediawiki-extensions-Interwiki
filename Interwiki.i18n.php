@@ -2808,14 +2808,22 @@ $messages['lg'] = array(
 );
 
 /** Lithuanian (lietuvių)
+ * @author Eitvys200
  * @author Homo
  */
 $messages['lt'] = array(
 	'interwiki' => 'Žiūrėti ir redaguoti interwiki duomenis',
 	'interwiki-title-norights' => 'Žiūrėti interwiki duomenis',
 	'interwiki-desc' => 'Prideda [[Special:Interwiki|specialųjį puslapį]] interwiki lentelei peržiūrėti ir redaguoti',
+	'interwiki-legend-show' => 'Rodyti legendą',
+	'interwiki-legend-hide' => 'Slėpti legendą',
 	'interwiki_local' => 'Persiųsti',
 	'interwiki-local-label' => 'Persiųsti:', # Fuzzy
+	'interwiki_1' => 'taip',
+	'interwiki_0' => 'ne',
+	'interwiki_edit' => 'Redaguoti',
+	'interwiki_reasonfield' => 'Priežastis:',
+	'interwiki_delquestion' => 'Trinama "$1"',
 	'interwiki_addbutton' => 'Pridėti',
 	'log-description-interwiki' => 'Tai pakeitimų [[Special:Interwiki|interwiki lentelėje]] sąrašas',
 	'right-interwiki' => 'Redaguoti interwiki duomenis',
@@ -3118,9 +3126,14 @@ Terdapat [[Special:Log/interwiki|log perubahan]] pada jadual interwiki.',
  * @author පසිඳු කාවින්ද
  */
 $messages['mt'] = array(
+	'interwiki-legend-show' => 'Uri l-leġġenda',
+	'interwiki-legend-hide' => 'Aħbi l-leġġenda',
+	'interwiki_prefix' => 'Prefiss',
+	'interwiki-prefix-label' => 'Prefiss:',
 	'interwiki_1' => 'iva',
 	'interwiki_0' => 'le',
 	'interwiki_edit' => 'Editja',
+	'interwiki_reasonfield' => 'Raġuni:',
 );
 
 /** Erzya (эрзянь)
@@ -3991,6 +4004,8 @@ $messages['sdc'] = array(
  * @author බිඟුවා
  */
 $messages['si'] = array(
+	'interwiki_local' => 'ඉදිරියට',
+	'interwiki-local-label' => 'ඉදිරියට:',
 	'interwiki_1' => 'ඔව්',
 	'interwiki_0' => 'නැත',
 	'interwiki_edit' => 'සංස්කරණය',
