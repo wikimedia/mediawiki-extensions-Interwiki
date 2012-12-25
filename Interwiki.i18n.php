@@ -1216,61 +1216,61 @@ $messages['ee'] = array(
  * @author ZaDiak
  */
 $messages['el'] = array(
-	'interwiki' => 'Εμφάνιση και επεξεργασία των δεδομένων ιντερβίκι',
-	'interwiki-title-norights' => 'Εμφάνιση δεδομένων ιντερβίκι',
-	'interwiki-desc' => 'Προσθέτει μια [[Special:Interwikilist|ειδική σελίδα]] για την προβολή και επεξεργασία των διαθέσιμων συνδέσμων interwiki', # Fuzzy
+	'interwiki' => 'Εμφάνιση και επεξεργασία δεδομένων interwiki',
+	'interwiki-title-norights' => 'Εμφάνιση δεδομένων interwiki',
+	'interwiki-desc' => 'Προσθέτει μια [[Special:Interwiki|ειδική σελίδα]] για την προβολή και επεξεργασία του πίνακα interwiki',
 	'interwiki_intro' => 'Αυτή είναι μια επισκόπηση του πίνακα interwiki.',
 	'interwiki-legend-show' => 'Εμφάνιση υπομνήματος',
 	'interwiki-legend-hide' => 'Απόκρυψη υπομνήματος',
 	'interwiki_prefix' => 'Πρόθεμα',
 	'interwiki-prefix-label' => 'Πρόθεμα:',
-	'interwiki_prefix_intro' => 'Πρόθεμα interwiki για χρήση στη σύνταξη του βικικώδικα <code>[<nowiki />[prefix:<em>pagename</em>]]</code>.',
+	'interwiki_prefix_intro' => 'Πρόθεμα interwiki για χρήση στη σύνταξη του κώδικα wiki <code>[<nowiki />[prefix:<em>pagename</em>]]</code>.',
 	'interwiki_url_intro' => 'Πρότυπο για διευθύνσεις URL. Το σύμβολο κράτησης θέσης  $1  θα αντικατασταθεί από το <em>pagename</em> του βικικώδικα, όταν χρησιμοποιείται η ανωτέρω σύνταξη βικικώδικα.',
 	'interwiki_local' => 'Προώθηση',
 	'interwiki-local-label' => 'Προώθηση:',
-	'interwiki_local_intro' => 'Ένα αίτημα HTTP στο τοπικό βίκι με αυτό το πρόθεμα interwiki στη διεύθυνση URL:',
+	'interwiki_local_intro' => 'Ένα αίτημα HTTP στο τοπικό wiki με αυτό το πρόθεμα interwiki στη διεύθυνση URL είναι:',
 	'interwiki_local_0_intro' => 'δεν ολοκληρώνεται, συνήθως μπλοκάρεται από σφάλμα τύπου "η σελίδα δεν βρέθηκε".',
 	'interwiki_local_1_intro' => 'ανακατευθύνεται στη διεύθυνση URL προορισμού που δίνεται στους ορισμούς συνδέσμου intewiki (δηλαδή αντιμετωπίζεται σαν αναφορά σε τοπικές σελίδες).',
 	'interwiki_trans' => 'Ενσωμάτωση',
 	'interwiki-trans-label' => 'Ενσωμάτωση:',
-	'interwiki_trans_intro' => 'Εάν χρησιμοποιείται η σύνταξη βικικώδικα <code>{<nowiki />{prefix:<em>pagename</em>}}</code>, τότε:',
-	'interwiki_trans_1_intro' => 'να επιτραπεί η ενσωμάτωση από το ξένο βίκι, αν επιτρέπονται γενικά σε αυτό το βίκι οι ενσωματώσεις intewiki.',
+	'interwiki_trans_intro' => 'Εάν χρησιμοποιείται η σύνταξη κώδικα wiki <code>{<nowiki />{prefix:<em>pagename</em>}}</code>, τότε:',
+	'interwiki_trans_1_intro' => 'να επιτραπεί η ενσωμάτωση από το ξένο wiki, αν επιτρέπονται γενικά σε αυτό το wiki οι ενσωματώσεις intewiki.',
 	'interwiki_trans_0_intro' => 'να μην επιτραπεί, αλλά να αναζητηθεί μια σελίδα στο χώρο ονομάτων των προτύπων.',
 	'interwiki_intro_footer' => 'Ανατρέξτε στο [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] για περισσότερες πληροφορίες σχετικά με τον πίνακα interwiki.
 Υπάρχει μια [[Special:Log/interwiki|καταγραφή των αλλαγών]] στον πίνακα interwiki.',
 	'interwiki_1' => 'ναι',
 	'interwiki_0' => 'όχι',
-	'interwiki_error' => 'Σφάλμα: Ο πίνακας ιντερβίκι είναι άδειος, ή κάτι άλλο έχει πάει στραβά.',
+	'interwiki_error' => 'Σφάλμα: Ο πίνακας interwiki είναι κενός, ή κάτι άλλο έχει πάει στραβά.',
 	'interwiki-cached' => 'Τα δεδομένα interwiki έχουν αποθηκευτεί στην προσωρινή μνήμη. Δεν είναι δυνατή η τροποποίησή της.',
 	'interwiki_edit' => 'Επεξεργασία',
 	'interwiki_reasonfield' => 'Αιτία:',
-	'interwiki_delquestion' => 'Διαγραφή του "$1"',
-	'interwiki_deleting' => 'Διαγράφεις το πρόθεμα "$1".',
-	'interwiki_deleted' => 'Το πρόθεμα "$1" αφαιρέθηκε με επιτυχία από τον πίνακα των interwiki.',
-	'interwiki_delfailed' => 'Το πρόθεμα "$1" δεν μπορεί να καταργηθεί από τον πίνακα interwiki.',
+	'interwiki_delquestion' => 'Διαγραφή του «$1»',
+	'interwiki_deleting' => 'Διαγράφετε το πρόθεμα «$1».',
+	'interwiki_deleted' => 'Το πρόθεμα «$1» αφαιρέθηκε με επιτυχία από τον πίνακα interwiki.',
+	'interwiki_delfailed' => 'Το πρόθεμα «$1» δεν μπορεί να καταργηθεί από τον πίνακα interwiki.',
 	'interwiki_addtext' => 'Προσθήκη ενός προθέματος interwiki',
 	'interwiki_addintro' => 'Πάτε να προσθέσετε ένα νέο πρόθεμα interwiki.
-Να θυμάστε ότι δεν μπορεί να περιέχει κενό διάστημα ( ), άνω και κάτω τελεία (:), σύμβολο "και" (&) ή "ίσον" (=).',
+Να θυμάστε ότι δεν μπορεί να περιέχει κενό διάστημα ( ), άνω και κάτω τελεία (:), σύμβολο «και» (&) ή «ίσον» (=).',
 	'interwiki_addbutton' => 'Προσθήκη',
-	'interwiki_added' => 'Το πρόθεμα "$1" προστέθηκε με επιτυχία στον πίνακα interwiki.',
-	'interwiki_addfailed' => 'Το πρόθεμα "$1" δεν μπόρεσε να προστεθεί στον πίνακα interwiki.
+	'interwiki_added' => 'Το πρόθεμα «$1» προστέθηκε με επιτυχία στον πίνακα interwiki.',
+	'interwiki_addfailed' => 'Το πρόθεμα «$1» δεν ήταν δυνατόν να προστεθεί στον πίνακα interwiki.
 Πιθανώς υπάρχει ήδη στον πίνακα interwiki.',
-	'interwiki_edittext' => 'Επεξεργασία ενός ιντερβίκι προθέματος',
+	'interwiki_edittext' => 'Επεξεργασία προθέματος interwiki',
 	'interwiki_editintro' => 'Πάτε να επεξεργαστείτε ένα πρόθεμα interwiki.
-Να θυμάστε ότι αυτό μπορεί να σπάσει τις υπάρχουσες συνδέσεις.',
-	'interwiki_edited' => 'Το πρόθεμα "$1" τροποποιήθηκε με επιτυχία στον πίνακα interwiki.',
-	'interwiki_editerror' => 'Το πρόθεμα "$1" δεν μπορεί να τροποποιηθεί στον πίνακα interwiki.
+Να θυμάστε ότι αυτό μπορεί να καταστρέψει τους υπάρχοντες συνδέσμους.',
+	'interwiki_edited' => 'Το πρόθεμα «$1» τροποποιήθηκε με επιτυχία στον πίνακα interwiki.',
+	'interwiki_editerror' => 'Το πρόθεμα «$1» δεν μπορεί να τροποποιηθεί στον πίνακα interwiki.
 Πιθανώς να μην υπάρχει.',
-	'interwiki-badprefix' => 'Το καθορισμένο πρόθεμα interwiki "$1" περιέχει μη έγκυρους χαρακτήρες',
+	'interwiki-badprefix' => 'Το καθορισμένο πρόθεμα interwiki «$1» περιέχει μη έγκυρους χαρακτήρες',
 	'interwiki-submit-empty' => 'Το πρόθεμα και η διεύθυνση URL δεν μπορεί να είναι κενά.',
 	'interwiki-submit-invalidurl' => 'Το πρωτόκολλο της διεύθυνσης URL δεν είναι έγκυρο.',
 	'log-name-interwiki' => 'Αρχείο καταγραφής του πίνακα interwiki',
-	'logentry-interwiki-iw_add' => '{{GENDER:$2|Ο|Η}} $1 προσέθεσε το πρόθεμα "$4" ($5) (ενσωμάτωση:  $6 , τοπικό:  $7) στον πίνακα interwiki',
-	'logentry-interwiki-iw_edit' => '{{GENDER:$2|Ο|Η}} $1 τροποποίησε το πρόθεμα "$4" ($5) (ενσωμάτωση:  $6 , τοπικό:  $7) στον πίνακα interwiki',
-	'logentry-interwiki-iw_delete' => '{{GENDER:$2|Ο|Η}} $1 προσέθεσε το πρόθεμα "$4" από τον πίνακα interwiki',
-	'log-description-interwiki' => 'Αυτό είναι ένα ημερολόγιο αλλαγών στον [[Special:Interwiki|πίνακα ιντερβίκι]].',
-	'right-interwiki' => 'Επεξεργασία των δεδομένων ιντερβίκι',
-	'action-interwiki' => 'αλλαγή αυτής της καταχώρισης ιντερβίκι',
+	'logentry-interwiki-iw_add' => '{{GENDER:$2|Ο|Η}} $1 προσέθεσε το πρόθεμα «$4» ($5) (ενσωμάτωση:  $6 , τοπικό:  $7) στον πίνακα interwiki',
+	'logentry-interwiki-iw_edit' => '{{GENDER:$2|Ο|Η}} $1 τροποποίησε το πρόθεμα «$4» ($5) (ενσωμάτωση:  $6 , τοπικό:  $7) στον πίνακα interwiki',
+	'logentry-interwiki-iw_delete' => '{{GENDER:$2|Ο|Η}} $1 προσέθεσε το πρόθεμα «$4» από τον πίνακα interwiki',
+	'log-description-interwiki' => 'Αυτή είναι μια καταγραφή αλλαγών στον [[Special:Interwiki|πίνακα interwiki]].',
+	'right-interwiki' => 'Επεξεργασία δεδομένων interwiki',
+	'action-interwiki' => 'αλλαγή αυτής της καταχώρισης interwiki',
 );
 
 /** Esperanto (Esperanto)
@@ -1437,6 +1437,7 @@ Pea meeles, et olemasolevad lingid võivad seejuures töötamast lakata.',
 Võimalik, et seda pole olemas.',
 	'interwiki-badprefix' => 'Määratud eesliide "$1" sisaldab sobimatuid märke.',
 	'interwiki-submit-empty' => 'Eesliite ja URLi väljad ei saa olla tühjad.',
+	'interwiki-submit-invalidurl' => 'Internetiaadressi protokoll on vigane.',
 	'log-name-interwiki' => 'Intervikitabeli logi',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|lisas}} eesliite "$4" ($5) (trans: $6; local: $7) intervikitabelisse',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|muutis}} intervikitabelis eesliidet "$4" ($5) (trans: $6; local: $7)',
@@ -2435,15 +2436,15 @@ $messages['ja'] = array(
 	'interwiki_deleting' => '接頭辞「$1」を削除しようとしています。',
 	'interwiki_deleted' => 'インターウィキテーブルから接頭辞「$1」を除去しました。',
 	'interwiki_delfailed' => 'インターウィキテーブルから接頭辞「$1」を除去しました。',
-	'interwiki_addtext' => 'インターウィキの接頭辞を追加',
+	'interwiki_addtext' => 'インターウィキ接頭辞を追加',
 	'interwiki_addintro' => 'インターウィキの新しい接頭辞を追加しようとしています。
 空白( )、コロン(:)、アンパーサンド(&)、等号(=)を含めてはいけないことにご注意ください。',
 	'interwiki_addbutton' => '追加',
 	'interwiki_added' => 'インターウィキテーブルに接頭辞「$1」を追加しました。',
 	'interwiki_addfailed' => 'インターウィキテーブルに接頭辞「$1」を追加できませんでした。
 インターウィキテーブル内に既に存在する可能性があります。',
-	'interwiki_edittext' => 'インターウィキの接頭辞を編集',
-	'interwiki_editintro' => 'あなたはインターウィキ用接頭辞を編集しようとしています。
+	'interwiki_edittext' => 'インターウィキ接頭辞を編集',
+	'interwiki_editintro' => 'あなたはインターウィキ接頭辞を編集しようとしています。
 この作業により既存のリンクを破壊するおそれがあります。',
 	'interwiki_edited' => 'インターウィキテーブル内で接頭辞「$1」を変更しました。',
 	'interwiki_editerror' => 'インターウィキテーブル内で接頭辞「$1」を変更できませんでした。
@@ -3134,6 +3135,10 @@ $messages['mt'] = array(
 	'interwiki_0' => 'le',
 	'interwiki_edit' => 'Editja',
 	'interwiki_reasonfield' => 'Raġuni:',
+	'interwiki_addbutton' => 'Żid',
+	'interwiki_added' => 'Il-prefiss "$1" ġie miżjud b\'suċċess fit-tabella tal-interwiki.',
+	'interwiki_addfailed' => 'Il-prefiss "$1" ma setax jiġi miżjud mat-tabella tal-interwiki.
+Probabbilment dan diġà jeżisti fit-tabella.',
 );
 
 /** Erzya (эрзянь)
@@ -4004,12 +4009,15 @@ $messages['sdc'] = array(
  * @author බිඟුවා
  */
 $messages['si'] = array(
+	'interwiki_prefix' => 'උපසර්ගය',
+	'interwiki-prefix-label' => 'උපසර්ගය:',
 	'interwiki_local' => 'ඉදිරියට',
 	'interwiki-local-label' => 'ඉදිරියට:',
 	'interwiki_1' => 'ඔව්',
 	'interwiki_0' => 'නැත',
 	'interwiki_edit' => 'සංස්කරණය',
 	'interwiki_reasonfield' => 'හේතුව:',
+	'interwiki_delquestion' => '"$1" මකමින්',
 	'interwiki_addbutton' => 'එක් කරන්න',
 	'right-interwiki' => 'අන්තර්-විකි දත්ත සංස්කරණය',
 );
@@ -4546,6 +4554,17 @@ $messages['tzm'] = array(
 	'interwiki_reasonfield' => 'ⴰⵙⵔⴰⴳ:',
 	'interwiki_addbutton' => 'ⵔⵏⵓ',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|added}} prefix "$4" ($5) (trans: $6; local: $7) to the interwiki table',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'interwiki_1' => 'ھەئە',
+	'interwiki_0' => 'ياق',
+	'interwiki_edit' => 'تەھرىر',
+	'interwiki_reasonfield' => 'سەۋەب:',
+	'interwiki_addbutton' => 'قوش',
 );
 
 /** Ukrainian (українська)
