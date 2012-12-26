@@ -2647,7 +2647,7 @@ $messages['ksh'] = array(
 	'interwiki_prefix' => 'Försaz',
 	'interwiki-prefix-label' => 'Försaz:',
 	'interwiki_prefix_intro' => 'Dä Fösatz för Engewiki Lengks wie hä em Wikitex en Sigge jebruch weed, wam_mer <code>[<nowiki />[<em>{{lc:{{int:Interwiki_prefix}}}}</em>:<em>Siggename</em>]]</code> schrieve deijt.',
-	'interwiki_url' => 'URL',
+	'interwiki_url' => '<i lang="en">URL</i>',
 	'interwiki-url-label' => '<i lang="en">URL</i>',
 	'interwiki_url_intro' => 'E Muster för en URL. Dä Plazhallder „$1“ do dren weet ußjetuusch, wann dat Denge jebruch weet — wann di Syntax vun bovve em Wikitext op en Sigg aanjezeish weed, dann kütt dä <code><i">Siggenam</em></code> aan dä Plaz vun däm $1.',
 	'interwiki_local' => 'Wiggerjevve?',
@@ -4009,16 +4009,23 @@ $messages['sdc'] = array(
  * @author බිඟුවා
  */
 $messages['si'] = array(
+	'interwiki' => 'අන්තර්විකි දත්ත නැරඹීම සහ සංස්කරණය',
+	'interwiki-title-norights' => 'අන්තර්විකි දත්ත නරඹන්න',
+	'interwiki-legend-show' => 'ප්‍රබන්ධය පෙන්වන්න',
+	'interwiki-legend-hide' => 'ප්‍රබන්ධය සඟවන්න',
 	'interwiki_prefix' => 'උපසර්ගය',
 	'interwiki-prefix-label' => 'උපසර්ගය:',
 	'interwiki_local' => 'ඉදිරියට',
 	'interwiki-local-label' => 'ඉදිරියට:',
+	'interwiki_trans' => 'අතිරෝහණය',
+	'interwiki-trans-label' => 'අතිරෝහණය:',
 	'interwiki_1' => 'ඔව්',
 	'interwiki_0' => 'නැත',
 	'interwiki_edit' => 'සංස්කරණය',
 	'interwiki_reasonfield' => 'හේතුව:',
 	'interwiki_delquestion' => '"$1" මකමින්',
 	'interwiki_addbutton' => 'එක් කරන්න',
+	'log-name-interwiki' => 'අන්තර්විකි වගු ලොගය',
 	'right-interwiki' => 'අන්තර්-විකි දත්ත සංස්කරණය',
 );
 
