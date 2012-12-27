@@ -1519,6 +1519,7 @@ $messages['fa'] = array(
  * @author Jack Phoenix
  * @author Mobe
  * @author Nike
+ * @author VezonThunder
  */
 $messages['fi'] = array(
 	'interwiki' => 'Wikienväliset linkit',
@@ -1536,6 +1537,7 @@ $messages['fi'] = array(
 	'interwiki_1' => 'kyllä',
 	'interwiki_0' => 'ei',
 	'interwiki_error' => 'Virhe: Interwiki-taulu on tyhjä tai jokin muu meni pieleen.',
+	'interwiki-cached' => 'Wikienvälinen data on välimuistissa. Välimuistin muuttaminen ei ole mahdollista.',
 	'interwiki_edit' => 'Muokkaa',
 	'interwiki_reasonfield' => 'Syy',
 	'interwiki_delquestion' => 'Poistetaan ”$1”',
@@ -1552,6 +1554,7 @@ $messages['fi'] = array(
 	'interwiki_edited' => 'Etuliitettä ”$1” muokattiin onnistuneesti interwiki-taulukossa.',
 	'interwiki_editerror' => 'Etuliitettä ”$1” ei voi muokata interwiki-taulukossa. Sitä ei mahdollisesti ole olemassa.',
 	'interwiki-badprefix' => 'Annettu interwiki-etuliite <code>$1</code> sisältää virheellisiä merkkejä',
+	'interwiki-submit-empty' => 'Etuliite ja verkko-osoite eivät voi olla tyhjiä.',
 	'log-name-interwiki' => 'Interwikitaululoki',
 	'log-description-interwiki' => 'Tämä on loki muutoksista [[Special:Interwiki|interwiki-tauluun]].',
 	'right-interwiki' => 'Muokata interwiki-dataa',
@@ -2116,6 +2119,7 @@ Petèt li pa ekziste.',
 /** Hungarian (magyar)
  * @author BáthoryPéter
  * @author Dani
+ * @author Dj
  * @author Glanthor Reviol
  * @author Gondnok
  */
@@ -2124,6 +2128,8 @@ $messages['hu'] = array(
 	'interwiki-title-norights' => 'Wikiközi hivatkozások adatainak megtekintése',
 	'interwiki-desc' => '[[Special:Interwiki|Speciális lap]], ahol megtekinthető és szerkeszthető a wikiközi hivatkozások táblája',
 	'interwiki_intro' => 'Ez egy áttekintés a wikiközi hivatkozások táblájáról.',
+	'interwiki-legend-show' => 'Jelmagyarázat',
+	'interwiki-legend-hide' => 'Jelmagyarázat elrejtése',
 	'interwiki_prefix' => 'Előtag',
 	'interwiki-prefix-label' => 'Előtag:',
 	'interwiki_prefix_intro' => 'Wikiközi előtag az <code>[<nowiki />[előtag:<em>lapnév</em>]]</code> wikiszöveg szintaxisban való használatra.',
@@ -2162,6 +2168,7 @@ Ne feledd, hogy ez működésképtelenné teheti a már létező hivatkozásokat
 Valószínűleg nem létezik ilyen előtag.',
 	'interwiki-badprefix' => 'A wikiközi hivatkozásnak megadott „$1” előtag érvénytelen karaktereket tartalmaz',
 	'interwiki-submit-empty' => 'Az előtag és az URL nem lehet üres.',
+	'interwiki-submit-invalidurl' => 'Az URL protokoll része érvénytelen.',
 	'log-name-interwiki' => 'Interwiki tábla-napló',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|hozzáadta}} a(z) "$4" előtagot ($5) (trans: $6; helyi: $7) az interwiki táblához',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|módosította}} a(z) "$4" előtagot ($5) (trans: $6; helyi: $7) az interwiki táblában',
