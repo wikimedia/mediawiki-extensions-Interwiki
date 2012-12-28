@@ -3848,6 +3848,7 @@ $messages['roa-tara'] = array(
 	'interwiki_reasonfield' => 'Mutive:',
 	'interwiki_delquestion' => 'Scangellamende de "$1"',
 	'interwiki_deleting' => 'Tu ste scangille \'u prefisse "$1".',
+	'interwiki_addtext' => "Aggiunge 'nu prefisse inderuicchi",
 	'interwiki_addbutton' => 'Aggiunge',
 );
 
