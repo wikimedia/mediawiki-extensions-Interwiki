@@ -1013,6 +1013,7 @@ Efallai ei fod eisoes yn y tabl rhyngwici.',
 
 /** Danish (dansk)
  * @author Byrial
+ * @author Christian List
  * @author Jon Harald Søby
  * @author Peter Alberti
  * @author Purodha
@@ -1020,23 +1021,46 @@ Efallai ei fod eisoes yn y tabl rhyngwici.',
 $messages['da'] = array(
 	'interwiki' => 'Vis og rediger interwikidata',
 	'interwiki-title-norights' => 'Vis interwikidata',
+	'interwiki-desc' => 'Tilføjer en [[Special:Interwiki|specialside]] til at få vist og redigere interwikitabellen',
+	'interwiki_intro' => 'Dette er en oversigt over interwikitabellen.',
+	'interwiki-legend-show' => 'Vis forklaring',
+	'interwiki-legend-hide' => 'Skjul forklaring',
 	'interwiki_prefix' => 'Præfiks',
 	'interwiki-prefix-label' => 'Præfiks:',
+	'interwiki_prefix_intro' => 'Interwiki præfiks som skal anvendes i <code>[<nowiki />[præfiks:<em>sidenavn</em>]]</code> wikitext syntaks.',
+	'interwiki_url_intro' => 'Skabelon til URL-adresser. Pladsholderen $1 vil blive erstattet af <em>sidenavn</em> af wikitext, når den ovennævnte wikitext syntaks bruges.',
 	'interwiki_local' => 'Videresend',
 	'interwiki-local-label' => 'Videresend:',
+	'interwiki_local_intro' => 'En HTTP-forespørgsel til den lokale wiki med denne interwiki præfiks i URL-adressen er:',
+	'interwiki_local_0_intro' => 'ikke accepteret, normalt blokeret af "siden blev ikke fundet".',
+	'interwiki_local_1_intro' => 'Omdirigeret til target URL i interwiki link definitioner (dvs. behandles som referencer i lokale sider).',
 	'interwiki_trans' => 'Transkluder',
 	'interwiki-trans-label' => 'Transkluder:',
+	'interwiki_trans_intro' => 'Hvis wikitext syntaksen <code>[<nowiki />[præfiks:<em>sidenavn</em>]]</code> bruges, så:',
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nej',
 	'interwiki_error' => 'Fejl: Interwikitabellen er tom eller noget andet gik galt.',
+	'interwiki-cached' => 'Interwiki-data er lagret i cachen. Det er ikke muligt at ændre cachen.',
 	'interwiki_edit' => 'Redigér',
 	'interwiki_reasonfield' => 'Begrundelse:',
 	'interwiki_delquestion' => 'Sletter "$1"',
 	'interwiki_deleting' => 'Du er ved at slette præfikset "$1".',
+	'interwiki_deleted' => 'Præfikset "$1" blev fjernet fra interwikitabellen.',
+	'interwiki_delfailed' => 'Præfikset "$1" kunne ikke fjernes fra interwikitabellen.',
 	'interwiki_addtext' => 'Tilføj et interwikipræfiks',
 	'interwiki_addintro' => 'Du er ved at tilføje et nyt interwikipræfiks.
 Husk at det ikke kan indeholde mellemrum ( ), kolon (:), &-tegn eller lighedstegn (=).',
 	'interwiki_addbutton' => 'Tilføj',
+	'interwiki_added' => 'Præfikset "$1" blev føjet til interwikitabellen.',
+	'interwiki_addfailed' => 'Præfikset "$1" kunne ikke føjes til interwikitabellen.
+Måske findes det allerede i interwikitabellen.',
+	'interwiki_edittext' => 'Redigere et interwikipræfiks',
+	'interwiki_editintro' => 'Du redigerer et interwikipræfiks.
+Husk, at dette kan bryde eksisterende hyperlinks.',
+	'interwiki_edited' => 'Præfikset "$1" blev ændret i interwikitabellen.',
+	'interwiki_editerror' => 'Præfikset "$1" kunne ikke ændres i interwikitabellen.
+Det findes muligvis ikke.',
+	'interwiki-badprefix' => 'Det angivne interwikipræfiks "$1" indeholder ugyldige tegn.',
 	'right-interwiki' => 'Redigere interwikidata',
 	'action-interwiki' => 'ændre dette interwiki-element',
 );
@@ -4032,9 +4056,14 @@ $messages['si'] = array(
 	'interwiki_edit' => 'සංස්කරණය',
 	'interwiki_reasonfield' => 'හේතුව:',
 	'interwiki_delquestion' => '"$1" මකමින්',
+	'interwiki_addtext' => 'අන්තර්විකි උපසර්ගයක් එක් කරන්න',
 	'interwiki_addbutton' => 'එක් කරන්න',
+	'interwiki_edittext' => 'අන්තර්විකි උපසර්ගය සංස්කරණය කරමින්',
+	'interwiki-submit-empty' => 'උපසර්ගය සහ URL හිස් විය නොහැක.',
+	'interwiki-submit-invalidurl' => 'URL හී ප්‍රොටෝකෝලය වලංගු නොවේ.',
 	'log-name-interwiki' => 'අන්තර්විකි වගු ලොගය',
 	'right-interwiki' => 'අන්තර්-විකි දත්ත සංස්කරණය',
+	'action-interwiki' => 'මෙම අන්තර්විකි ඇතුලත් කෙරුම වෙනස් කරන්න',
 );
 
 /** Slovak (slovenčina)
