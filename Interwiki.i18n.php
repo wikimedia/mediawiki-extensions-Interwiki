@@ -3318,7 +3318,7 @@ $messages['nl'] = array(
 	'interwiki-local-label' => 'Doorverwijzen:',
 	'interwiki_local_intro' => 'Een HTTP-aanvraag naar de lokale wiki met dit interwikivoorvoegsel in de URL is:',
 	'interwiki_local_0_intro' => 'wordt niet verwerkt. Meestal geblokkeerd door een "pagina niet gevonden"-foutmelding.',
-	'interwiki_local_1_intro' => "doorverwezen naar de doel-URL die opgegeven is in de definities van de interwikiverwijzingen (deze worden behandeld als bronnen in lokale pagina's)",
+	'interwiki_local_1_intro' => "doorverwezen naar de doel-URL die opgegeven is in de definities van de interwikikoppelingen (deze worden behandeld als bronnen in lokale pagina's)",
 	'interwiki_trans' => 'Transcluderen',
 	'interwiki-trans-label' => 'Transcluderen:',
 	'interwiki_trans_intro' => 'Indien de wikitextsyntaxis <code>{<nowiki />{voorvoegsel:<em>paginanaam</em>}}</code> gebruikt wordt, dan:',
@@ -3343,7 +3343,7 @@ Let op dat dit geen spaties ( ), dubbele punt (:), ampersands (&), of gelijkteke
 	'interwiki_added' => 'Voorvoegsel "$1" is toegevoegd aan de interwikitabel.',
 	'interwiki_addfailed' => 'Voorvoegsel "$1" kon niet worden toegevoegd aan de interwikitabel. Mogelijk bestaat het al in de interwikitabel.',
 	'interwiki_edittext' => 'Een interwikivoorvoegsel bewerken',
-	'interwiki_editintro' => 'U bent een interwikivoorvoegsel aan het bewerken. Let op dat dit bestaande verwijzingen kan breken.',
+	'interwiki_editintro' => 'U bent een interwikivoorvoegsel aan het bewerken. Let op dat dit bestaande koppelingen kan breken.',
 	'interwiki_edited' => 'Voorvoegsel "$1" is gewijzigd in de interwikitabel.',
 	'interwiki_editerror' => 'Voorvoegsel "$1" kan niet worden gewijzigd in de interwikitabel. Mogelijk bestaat het niet.',
 	'interwiki-badprefix' => 'Het interwikivoorvoegsel "$1" bevat ongeldige karakters',
@@ -3355,7 +3355,17 @@ Let op dat dit geen spaties ( ), dubbele punt (:), ampersands (&), of gelijkteke
 	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|heeft}} het voorvoegsel "$4" verwijderd uit de interwikitabel',
 	'log-description-interwiki' => 'Dit is een logboek van wijzigingen aan de [[Special:Interwiki|interwikitabel]].',
 	'right-interwiki' => 'Interwikigegevens bewerken',
-	'action-interwiki' => 'deze interwikiverwijzing te wijzigen',
+	'action-interwiki' => 'deze interwikikoppeling te wijzigen',
+);
+
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'interwiki_deleting' => 'Je bent voorvoegsel "$1" aan het verwijderen.',
+	'interwiki_addintro' => 'Je bent een nieuw interwikivoorvoegsel aan het toevoegen.
+Let op dat dit geen spaties ( ), dubbele punt (:), ampersands (&), of gelijktekens (=) mag bevatten.',
+	'interwiki_editintro' => 'Je bent een interwikivoorvoegsel aan het bewerken. Let op dat dit bestaande koppelingen kan breken.',
 );
 
 /** Norwegian Nynorsk (norsk (nynorsk)‎)
