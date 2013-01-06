@@ -3343,7 +3343,8 @@ Let op dat dit geen spaties ( ), dubbele punt (:), ampersands (&), of gelijkteke
 	'interwiki_added' => 'Voorvoegsel "$1" is toegevoegd aan de interwikitabel.',
 	'interwiki_addfailed' => 'Voorvoegsel "$1" kon niet worden toegevoegd aan de interwikitabel. Mogelijk bestaat het al in de interwikitabel.',
 	'interwiki_edittext' => 'Een interwikivoorvoegsel bewerken',
-	'interwiki_editintro' => 'U bent een interwikivoorvoegsel aan het bewerken. Let op dat dit bestaande koppelingen kan breken.',
+	'interwiki_editintro' => 'U bent een interwikivoorvoegsel aan het bewerken.
+Let op dat dit bestaande koppelingen kan breken.',
 	'interwiki_edited' => 'Voorvoegsel "$1" is gewijzigd in de interwikitabel.',
 	'interwiki_editerror' => 'Voorvoegsel "$1" kan niet worden gewijzigd in de interwikitabel. Mogelijk bestaat het niet.',
 	'interwiki-badprefix' => 'Het interwikivoorvoegsel "$1" bevat ongeldige karakters',
