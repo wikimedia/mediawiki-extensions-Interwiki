@@ -2653,7 +2653,7 @@ $messages['ko'] = array(
 	'interwiki_edited' => '"$1" 접두어를 고쳤습니다.',
 	'interwiki_editerror' => '"$1" 접두어를 인터위키 테이블에 고칠 수 없습니다.
 목록에 없는 접두어일 수 있습니다.',
-	'interwiki-badprefix' => '당신이 입력한 인터위키 "$1" 접두어는 잘못된 문자를 포함하고 있습니다.',
+	'interwiki-badprefix' => '지정한 인터위키 "$1" 접두어는 잘못된 문자를 포함하고 있습니다.',
 	'interwiki-submit-empty' => '접두어와 URL 칸은 비워둘 수 없습니다.',
 	'interwiki-submit-invalidurl' => 'URL의 프로토콜이 잘못되었습니다.',
 	'log-name-interwiki' => '인터위키 수정 기록',
