@@ -291,7 +291,6 @@ class SpecialInterwiki extends SpecialPage {
 			)
 		);
 
-		$this->getOutput()->addHTML( Html::closeElement( 'table' ) );
 		$this->getOutput()->addHTML( Html::closeElement( 'div' ) ); // end collapsible.
 
 		if ( $canModify ) {
