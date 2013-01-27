@@ -3284,7 +3284,7 @@ $messages['nds'] = array(
 	'action-interwiki' => 'dissen Indrag in de Interwiki-Tabell ännern',
 );
 
-/** Nedersaksisch (Nedersaksisch)
+/** Nedersaksies (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
