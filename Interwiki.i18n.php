@@ -2531,6 +2531,7 @@ Mbok-menawa iki ora ana.',
  * @author Malafaya
  */
 $messages['ka'] = array(
+	'interwiki-title-norights' => 'ინტერვიკის მონაცემების ხილვა',
 	'interwiki-legend-show' => 'ლეგენდის ჩვენება',
 	'interwiki-legend-hide' => 'ლეგენდის დამალვა',
 	'interwiki_prefix' => 'წინსართი',
@@ -2539,12 +2540,25 @@ $messages['ka'] = array(
 	'interwiki-url-label' => 'URL:',
 	'interwiki_local' => 'გადაგზავნა',
 	'interwiki-local-label' => 'გადაგზავნა:',
+	'interwiki_trans' => 'ჩართვა',
+	'interwiki-trans-label' => 'ჩართვა:',
+	'interwiki_trans_intro' => 'თუკი გამოიყენება ვიკი-ტექსტის სინტაქსი შემდეგი სახით <code>{<nowiki />{prefix:<em>გვერდის სახელი</em>}}</code>:',
 	'interwiki_1' => 'დიახ',
 	'interwiki_0' => 'არა',
 	'interwiki_edit' => 'რედაქტირება',
 	'interwiki_reasonfield' => 'მიზეზი:',
 	'interwiki_delquestion' => 'იშლება „$1“',
+	'interwiki_deleting' => 'თქვენ შლით სინტაქსს „$1“.',
+	'interwiki_deleted' => 'პრეფიქსი „$1“ წარმატებით წაიშალა ინტერვიკების ცხრილიდან.',
+	'interwiki_delfailed' => 'პრეფიქსის „$1“ წაშლა ინტერვიკების ცხრილიდან შეუძლებელია.',
+	'interwiki_addtext' => 'ინტერვიკის პრეფიქსის დამატება',
 	'interwiki_addbutton' => 'დამატება',
+	'interwiki_edittext' => 'ინტერვიკის პრეფიქსის რედაქტირება',
+	'interwiki-submit-empty' => 'პრეფიქსი და URL არ შეიძლება ცარიელი იყოს.',
+	'log-name-interwiki' => 'ინტერვიკის ცხრილის ჟურნალი',
+	'log-description-interwiki' => 'ეს არის [[Special:Interwiki|ინტერვიკის ცხრილის]] ცვლილებების ჟურნალი.',
+	'right-interwiki' => 'ინტერვიკის მონაცემების რედაქტირება',
+	'action-interwiki' => 'ინტერვიკის ჩანაწერების შეცვლა',
 );
 
 /** Khmer (ភាសាខ្មែរ)
