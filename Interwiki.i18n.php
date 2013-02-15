@@ -2531,6 +2531,7 @@ Mbok-menawa iki ora ana.',
  * @author Malafaya
  */
 $messages['ka'] = array(
+	'interwiki' => 'ინტერვიკის მონაცემების ხილვა და რედაქტირება',
 	'interwiki-title-norights' => 'ინტერვიკის მონაცემების ხილვა',
 	'interwiki-legend-show' => 'ლეგენდის ჩვენება',
 	'interwiki-legend-hide' => 'ლეგენდის დამალვა',
