@@ -213,6 +213,11 @@ $specialPageAliases['uk'] = array(
 	'Interwiki' => array( 'Інтервікі' ),
 );
 
+/** Urdu (اردو) */
+$specialPageAliases['ur'] = array(
+	'Interwiki' => array( 'بین_الویکی' ),
+);
+
 /** Vietnamese (Tiếng Việt) */
 $specialPageAliases['vi'] = array(
 	'Interwiki' => array( 'Liên_wiki' ),
