@@ -149,14 +149,14 @@ $1 is being rendered verbatim. It refers to the syntax of the values listed in t
 	'interwiki_trans_0_intro' => 'Used on [[Special:Interwiki]] so as to describe the meaning of the value 0 in the {{msg-mw|interwiki_trans}} column of the table.',
 	'interwiki_intro_footer' => 'Part of the interwiki extension.
 Shown as last pice of the introductory text on [[Special:Interwiki]].
-Parameter $1 contains the following (a link): [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org]',
+Parameter $1 contains the following (a link): [[mw:Manual:Interwiki_table|MediaWiki.org]]',
 	'interwiki_1' => "'''Yes'''-value to be inserted into the columns headed by {{msg-mw|interwiki_local}} and {{msg-mw|interwiki_trans}}.
 
 {{Identical|Yes}}",
 	'interwiki_0' => "'''No'''-value to be inserted into the columns headed by {{msg-mw|interwiki_local}} and {{msg-mw|interwiki_trans}}.
 
 {{Identical|No}}",
-	'interwiki_error' => 'This error message is shown when the Special:Interwiki page is empty.',
+	'interwiki_error' => 'This error message is shown when the [[Special:Interwiki]] page is empty.',
 	'interwiki-cached' => 'Informational message on why interwiki data cannot be manipulated.',
 	'interwiki_edit' => 'For users allowed to edit the interwiki table via [[Special:Interwiki]], this text is shown as the column header above the edit buttons.
 
@@ -186,7 +186,7 @@ Parameter $1 contains the following (a link): [//www.mediawiki.org/wiki/Manual:I
 * $1 is the interwiki prefix containing invalid characters.',
 	'interwiki-submit-empty' => 'Error message displayed when trying to save an interwiki prefix with an empty prefix or an empty URL.',
 	'interwiki-submit-invalidurl' => 'Error message displayed when trying to save an interwiki prefix with an invalid URL.',
-	'log-name-interwiki' => 'Part of the interwiki extension. This message is shown as page title on Special:Log/interwiki.',
+	'log-name-interwiki' => 'Part of the interwiki extension. This message is shown as page title on [[Special:Log/interwiki]].',
 	'logentry-interwiki-iw_add' => 'Shows up in "[[Special:Log/interwiki]]" when someone has added a prefix. Leave parameters and text between brackets exactly as it is.
 * $1 is the username of the user who added it
 * $2 is the username usable for GENDER
@@ -204,7 +204,7 @@ See also the legend on [[Special:Interwiki]].',
 * $1 is the username of the user who deleted it.
 * $2 is the username usable for GENDER
 * $4 is the prefix',
-	'log-description-interwiki' => 'Part of the interwiki extension. Summary shown on Special:Log/interwiki.',
+	'log-description-interwiki' => 'Part of the interwiki extension. Summary shown on [[Special:Log/interwiki]].',
 	'logentry-interwiki-interwiki' => '{{notranslate}}',
 	'right-interwiki' => '{{doc-right|interwiki}}',
 	'action-interwiki' => '{{doc-action|interwiki}}',
