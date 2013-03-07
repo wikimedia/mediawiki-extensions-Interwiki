@@ -2202,6 +2202,13 @@ Valószínűleg nem létezik ilyen előtag.',
 	'action-interwiki' => 'eme wikiközi bejegyzés megváltoztatása',
 );
 
+/** Armenian (Հայերեն)
+ * @author Vadgt
+ */
+$messages['hy'] = array(
+	'interwiki' => 'Դիտել և փոխել ինթերվիքիյի տեղեկատվությունը',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
