@@ -2759,6 +2759,7 @@ Maach sin, dat et inn nit jitt.',
  */
 $messages['ku-latn'] = array(
 	'interwiki_1' => 'erê',
+	'interwiki_edit' => 'Biguherîne',
 	'interwiki_reasonfield' => 'Sedem:',
 );
 
