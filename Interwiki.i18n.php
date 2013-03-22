@@ -186,24 +186,29 @@ Parameter $1 contains the following (a link): [[mw:Manual:Interwiki_table|MediaW
 * $1 is the interwiki prefix containing invalid characters.',
 	'interwiki-submit-empty' => 'Error message displayed when trying to save an interwiki prefix with an empty prefix or an empty URL.',
 	'interwiki-submit-invalidurl' => 'Error message displayed when trying to save an interwiki prefix with an invalid URL.',
-	'log-name-interwiki' => 'Part of the interwiki extension. This message is shown as page title on [[Special:Log/interwiki]].',
-	'logentry-interwiki-iw_add' => 'Shows up in "[[Special:Log/interwiki]]" when someone has added a prefix. Leave parameters and text between brackets exactly as it is.
-* $1 is the username of the user who added it
-* $2 is the username usable for GENDER
-* $4 is the prefix
-* $5 is the URL
+	'log-name-interwiki' => '{{doc-logpage}}
+
+Part of the interwiki extension. This message is shown as page title on [[Special:Log/interwiki]].',
+	'logentry-interwiki-iw_add' => '{{Logentry|[[Special:Log/interwiki]]}}
+Shows up in "[[Special:Log/interwiki]]" when someone has added a prefix. Leave parameters and text between brackets exactly as it is.
+* $1 - the username of the user who added it
+* $2 - the username usable for GENDER
+* $4 - the prefix
+* $5 - the URL
 * $6 and $7 is 0 or 1
 See also the legend on [[Special:Interwiki]].',
-	'logentry-interwiki-iw_edit' => 'Shows up in "[[Special:Log/interwiki]]" when someone has modified a prefix. Leave parameters and text between brackets exactly as it is.
-* $1 is the username of the user who added it
-* $2 is the username usable for GENDER
-* $4 is the prefix
-* $5 is the URL
+	'logentry-interwiki-iw_edit' => '{{Logentry|[[Special:Log/interwiki]]}}
+Shows up in "[[Special:Log/interwiki]]" when someone has modified a prefix. Leave parameters and text between brackets exactly as it is.
+* $1 - the username of the user who added it
+* $2 - the username usable for GENDER
+* $4 - the prefix
+* $5 - the URL
 * $6 and $7 is 0 or 1',
-	'logentry-interwiki-iw_delete' => 'Shows up in "[[Special:Log/interwiki]]" when someone removed a prefix.
-* $1 is the username of the user who deleted it.
-* $2 is the username usable for GENDER
-* $4 is the prefix',
+	'logentry-interwiki-iw_delete' => '{{Logentry|[[Special:Log/interwiki]]}}
+Shows up in "[[Special:Log/interwiki]]" when someone removed a prefix.
+* $1 - the username of the user who deleted it.
+* $2 - the username usable for GENDER
+* $4 - the prefix',
 	'log-description-interwiki' => 'Part of the interwiki extension. Summary shown on [[Special:Log/interwiki]].',
 	'logentry-interwiki-interwiki' => '{{notranslate}}',
 	'right-interwiki' => '{{doc-right|interwiki}}',
