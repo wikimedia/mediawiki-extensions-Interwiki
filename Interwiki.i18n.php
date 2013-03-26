@@ -114,8 +114,9 @@ Possibly it does not exist.',
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'interwiki' => 'This message is the title of the special page [[Special:Interwiki]].',
-	'interwiki-title-norights' => 'This message is the title of the special page [[Special:Interwiki]] when the user has no right to edit the interwiki data and can only view them.',
+	'interwiki' => '{{doc-special|Interwiki}}',
+	'interwiki-title-norights' => '{{doc-special|Interwiki}}
+Used when the user has no right to edit the interwiki data and can only view them.',
 	'interwiki-desc' => '{{desc|name=Interwiki|url=http://www.mediawiki.org/wiki/Extension:Interwiki}}',
 	'interwiki_intro' => 'Part of the interwiki extension. Shown as introductory text on [[Special:Interwiki]].',
 	'interwiki-legend-show' => 'Link text for toggle to display the legend on [[Special:Interwiki]].',
@@ -2449,7 +2450,7 @@ Il prefisso potrebbe essere inesistente.',
  */
 $messages['ja'] = array(
 	'interwiki' => 'インターウィキデータの閲覧と編集',
-	'interwiki-title-norights' => 'インターウィキデータの一覧',
+	'interwiki-title-norights' => 'インターウィキデータの閲覧',
 	'interwiki-desc' => 'インターウィキテーブルの表示と編集を行う[[Special:Interwiki|特別ページ]]を追加する',
 	'interwiki_intro' => '以下はインターウィキの一覧表です。',
 	'interwiki-legend-show' => '凡例を表示',
