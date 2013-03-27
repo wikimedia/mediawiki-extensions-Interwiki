@@ -3761,6 +3761,7 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
+ * @author Alchimista
  * @author Hamilton Abreu
  * @author Malafaya
  * @author Waldir
@@ -3811,7 +3812,10 @@ Lembre-se que este não pode conter espaços ( ), dois-pontos (:), conjunções 
 	'interwiki_editerror' => 'Não foi possível modificar o prefixo "$1" na tabela de interwikis. Possivelmente, não existe.',
 	'interwiki-badprefix' => 'O prefixo de interwikis "$1" contém caracteres inválidos',
 	'interwiki-submit-empty' => 'O prefixo e a URL não podem estar vazios.',
+	'interwiki-submit-invalidurl' => 'O protocolo da URL é inválido.',
 	'log-name-interwiki' => 'Registo da tabela de interwikis',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|prefixo adicionado}} " $4 " ( $5 ) (trans:  $6 ; local:  $7 ) para a tabela de InterWikis',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|prefixo modificado}} " $4 " ( $5 ) (trans:  $6 ; local:  $7 ) na tabela de InterWikis',
 	'log-description-interwiki' => 'Este é um registo das alterações à [[Special:Interwiki|tabela de interwikis]].',
 	'right-interwiki' => 'Editar dados de interwikis',
 	'action-interwiki' => 'alterar esta entrada interwikis',
