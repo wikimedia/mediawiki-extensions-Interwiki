@@ -2738,7 +2738,7 @@ Et [[Special:Log/interwiki|{{int:interwiki_logpagename}}]] zeichnet all de Ände
 	'interwiki_error' => "'''Fähler:''' de Tabäll met de Engerwiki Date is leddisch.",
 	'interwiki-cached' => 'Heh di Daate kumme us enem Zweschespeischer. Dodren jät ze ändere es nit müjjelesch.',
 	'interwiki_edit' => 'Beärbeide',
-	'interwiki_reasonfield' => 'Aanlass:',
+	'interwiki_reasonfield' => 'Aanlaß:',
 	'interwiki_delquestion' => '„$1“ weed fottjeschmeße',
 	'interwiki_deleting' => 'Do wells dä Engerwiki Försaz „$1“ fott schmiiße.',
 	'interwiki_deleted' => 'Dä Försaz „$1“ es jäz uß dä Engerwiki Date erusjeschmesse.',
