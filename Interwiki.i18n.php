@@ -851,6 +851,7 @@ Moguće je da uopće ne postoji.',
  * @author SMP
  * @author Solde
  * @author Ssola
+ * @author Vriullop
  */
 $messages['ca'] = array(
 	'interwiki' => 'Veure i editar dades interwiki',
@@ -861,7 +862,7 @@ $messages['ca'] = array(
 	'interwiki-prefix-label' => 'Prefix:',
 	'interwiki_prefix_intro' => 'Prefix de interwiki és utilitzat en <code>[<nowiki />[prefix:<em>pagename</em>]]</code> sintaxi wikitext.',
 	'interwiki_url_intro' => "Plantilla per a URLs. El marcador $1 serà substituït per <em>pagename</em> del wikitext, quan s'utilitza la sintaxi de wikitext esmentats.",
-	'interwiki_local' => 'Endavant',
+	'interwiki_local' => 'Hi encamina',
 	'interwiki-local-label' => 'Endavant:',
 	'interwiki_local_intro' => "Una petició HTTP al wiki local amb aquest prefix interwiki en l'URL és:",
 	'interwiki_local_0_intro' => 'no honrat, generalment bloquejat per "pàgina no trobada",',
