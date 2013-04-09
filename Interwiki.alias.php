@@ -23,7 +23,7 @@ $specialPageAliases['arz'] = array(
 	'Interwiki' => array( 'إنترويكى' ),
 );
 
-/** Assamese (অসমীয়া) */
+/** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
 	'Interwiki' => array( 'আন্তঃৱিকি' ),
 );
