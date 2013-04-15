@@ -1169,7 +1169,7 @@ $messages['diq'] = array(
 	'interwiki_local' => 'Aser ke',
 	'interwiki_trans' => 'Temase fi',
 	'interwiki-trans-label' => 'Temase fi',
-	'interwiki_1' => 'e',
+	'interwiki_1' => 'eya',
 	'interwiki_0' => 'nê',
 	'interwiki_edit' => 'Bıvurne',
 	'interwiki_reasonfield' => 'Sebeb:',
@@ -1641,7 +1641,7 @@ Il existe un [[Special:Log/interwiki|journal des modifications]] de la table int
 	'interwiki_1' => 'oui',
 	'interwiki_0' => 'non',
 	'interwiki_error' => "Erreur : la table des interwikis est vide ou un processus s'est mal déroulé.",
-	'interwiki-cached' => 'Les données interwiki sont mis en cache. Il n’est pas possible de modifier le cache.',
+	'interwiki-cached' => 'Les données interwiki sont mises en cache. Il n’est pas possible de modifier le cache.',
 	'interwiki_edit' => 'Modifier',
 	'interwiki_reasonfield' => 'Motif :',
 	'interwiki_delquestion' => 'Suppression de « $1 »',
@@ -2969,6 +2969,33 @@ $messages['mg'] = array(
  */
 $messages['mhr'] = array(
 	'interwiki_reasonfield' => 'Амал:',
+);
+
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'interwiki' => 'Caliak dan suntiang data interwiki',
+	'interwiki-title-norights' => 'Caliak data interwiki',
+	'interwiki-desc' => 'Menambahan [[Special:Interwiki|laman istimewa]] untuak manampilan jo manyuntiang tabel interwiki',
+	'interwiki_intro' => 'Iko gambaran tabel interwiki.',
+	'interwiki-legend-show' => 'Tunjuakan legenda',
+	'interwiki-legend-hide' => 'Suruakan legenda',
+	'interwiki_prefix' => 'Kode',
+	'interwiki-prefix-label' => 'Kode:',
+	'interwiki_prefix_intro' => 'Kode interwiki akan digunoan dalam  <code>[<nowiki />[kode:<em>namo laman</em>]]</code> sintak teks wiki.',
+	'interwiki_local' => 'Manaruihkan',
+	'interwiki-local-label' => 'Manaruihkan:',
+	'interwiki_trans' => 'Transklusi',
+	'interwiki-trans-label' => 'Transklusi:',
+	'interwiki_1' => 'yo',
+	'interwiki_0' => 'indak',
+	'interwiki_edit' => 'Suntiang',
+	'interwiki_reasonfield' => 'Alasan:',
+	'interwiki_delquestion' => 'Hapuih "$1"',
+	'interwiki_addbutton' => 'Tambahkan',
+	'right-interwiki' => 'Suntiang data interwiki',
+	'action-interwiki' => 'ubah masuakan interwiki ko',
 );
 
 /** Macedonian (македонски)
