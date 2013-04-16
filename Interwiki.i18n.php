@@ -5055,8 +5055,8 @@ $messages['zh-hans'] = array(
 	'interwiki_addfailed' => '前缀 "$1" 不能加入到跨wiki表。
 可能已经在跨wiki表中存在。',
 	'interwiki_edittext' => '修改一个跨wiki前缀',
-	'interwiki_editintro' => '您现正修改跨wiki前缀。
-记住这动作会中断现有的连结。',
+	'interwiki_editintro' => '您正在修改跨wiki前缀。
+请记住这可能会使现有的链接中断。',
 	'interwiki_edited' => '前缀 "$1" 已经在跨wiki表中修改。',
 	'interwiki_editerror' => '前缀 "$1" 不能在跨wiki表中修改。
 可能它并不存在。',
