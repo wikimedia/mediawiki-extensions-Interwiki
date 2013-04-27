@@ -1698,6 +1698,15 @@ $messages['frp'] = array(
 	'action-interwiki' => 'changiér ceta entrâ entèrvouiqui',
 );
 
+/** Friulian (furlan)
+ * @author Klenje
+ */
+$messages['fur'] = array(
+	'interwiki_1' => 'sì',
+	'interwiki_0' => 'no',
+	'interwiki_addbutton' => 'Zonte',
+);
+
 /** Western Frisian (Frysk)
  * @author Snakesteuben
  */
