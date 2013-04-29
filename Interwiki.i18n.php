@@ -1359,6 +1359,7 @@ Verŝajne ĝi ne ekzistas.',
  * @author Armando-Martin
  * @author Crazymadlover
  * @author Imre
+ * @author Invadinado
  * @author Locos epraix
  * @author Pertile
  * @author Piolinfax
@@ -1389,7 +1390,7 @@ $messages['es'] = array(
 	'interwiki_trans_0_intro' => 'no permitirlo. En su lugar, buscar una página en el espacio de nombre de la plantilla.',
 	'interwiki_intro_footer' => 'Para más información consulte [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] acerca de la tabla de interwiki.
 Hay un [[Special:Log/interwiki|registro de cambios]] a esta tabla de interwiki.',
-	'interwiki_1' => 'Sí',
+	'interwiki_1' => 'sí',
 	'interwiki_0' => 'no',
 	'interwiki_error' => 'Error: La tabla de interwikis está vacía, u otra cosa salió mal.',
 	'interwiki-cached' => 'Los datos de los interwikis se almacenan en la memoria caché. No es posible modificar la caché.',
