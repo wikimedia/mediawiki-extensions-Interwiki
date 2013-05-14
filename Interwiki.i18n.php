@@ -906,9 +906,11 @@ Possiblement no existeix.',
 
 /** Chechen (нохчийн)
  * @author Sasan700
+ * @author Умар
  */
 $messages['ce'] = array(
 	'interwiki_edit' => 'Нисйé',
+	'interwiki_reasonfield' => 'Бахьан:',
 	'interwiki_addbutton' => 'Тlетоха',
 );
 
