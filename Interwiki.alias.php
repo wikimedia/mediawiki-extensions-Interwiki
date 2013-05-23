@@ -223,6 +223,11 @@ $specialPageAliases['vi'] = array(
 	'Interwiki' => array( 'Liên_wiki' ),
 );
 
+/** Yiddish (ייִדיש) */
+$specialPageAliases['yi'] = array(
+	'Interwiki' => array( 'אינטערוויקי' ),
+);
+
 /** Cantonese (粵語) */
 $specialPageAliases['yue'] = array(
 	'Interwiki' => array( '其他維基連接' ),

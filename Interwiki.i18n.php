@@ -3960,8 +3960,11 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'interwiki-legend-show' => "Fà vedè 'a leggende",
+	'interwiki-legend-hide' => "Scunne 'a leggende",
 	'interwiki_prefix' => 'Prefisse',
 	'interwiki-prefix-label' => 'Prefisse:',
+	'interwiki_prefix_intro' => "'U prefisse inderuicchi avène ausate jndr'à <code>[<nowiki />[prefix:<em>pagename</em>]]</code> sindasse uicchiteste.",
 	'interwiki_local' => 'Inoltre',
 	'interwiki-local-label' => 'Inoltre:',
 	'interwiki_1' => 'sine',
