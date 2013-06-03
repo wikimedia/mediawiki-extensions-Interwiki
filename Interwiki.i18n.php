@@ -416,7 +416,7 @@ $messages['arz'] = array(
 	'action-interwiki' => 'تغيير مدخلة الإنترويكى هذه',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  */
 $messages['as'] = array(
@@ -3284,7 +3284,7 @@ $messages['nah'] = array(
 	'interwiki_addbutton' => 'Ticcētilīz',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Event
  * @author Nghtwlkr
  * @author Purodha
@@ -3367,7 +3367,7 @@ $messages['nds'] = array(
 	'action-interwiki' => 'dissen Indrag in de Interwiki-Tabell ännern',
 );
 
-/** Nedersaksies (Nedersaksies)
+/** Low Saxon (Netherlands) (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
@@ -3452,7 +3452,7 @@ Let op dat dit geen spaties ( ), dubbele punt (:), ampersands (&), of gelijkteke
 	'interwiki_editintro' => 'Je bent een interwikivoorvoegsel aan het bewerken. Let op dat dit bestaande koppelingen kan breken.',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Eirik
  * @author Gunnernett
  * @author Harald Khan
@@ -3583,7 +3583,7 @@ Benlèu i existís ja.',
 	'action-interwiki' => 'modificar aquesta entrada interwiki',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Jnanaranjan Sahu
  * @author Psubhashish
@@ -3874,6 +3874,7 @@ Lembre-se que este não pode conter espaços ( ), dois-pontos (:), conjunções 
 /** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  * @author Giro720
+ * @author Luckas
  * @author Luckas Blade
  * @author 555
  */
