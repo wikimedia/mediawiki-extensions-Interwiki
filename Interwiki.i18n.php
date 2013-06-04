@@ -3986,6 +3986,7 @@ $messages['roa-tara'] = array(
  * @author KPu3uC B Poccuu
  * @author Kaganer
  * @author Lockal
+ * @author Putnik
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -4032,6 +4033,7 @@ $messages['ru'] = array(
 	'interwiki_editerror' => 'Префикс «$1» не может быть изменён в таблице интервики. Возможно, его там не существует.',
 	'interwiki-badprefix' => 'Указанный префикс интервики «$1» содержит недопустимые символы',
 	'interwiki-submit-empty' => 'Префикс и URL не могут быть пустыми.',
+	'interwiki-submit-invalidurl' => 'Протокол URL-адреса является недопустимым.',
 	'log-name-interwiki' => 'Журнал изменений таблицы интервики',
 	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|добавил|добавила}} префикс «$4» ($5) (trans: $6; local: $7) в интервики-таблицу',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|изменил|изменила}} префикс «$4» ($5) (trans: $6; local: $7) в интервики-таблице',
@@ -4977,13 +4979,22 @@ $messages['wuu'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'interwiki-title-norights' => 'באקוקן אינטערוויקי דאטן',
+	'interwiki_intro' => 'דאס איז אן איבערבליק פון דער אינטערוויקי טאבעלע.',
+	'interwiki-legend-show' => 'ווייזן לעגענדע',
+	'interwiki-legend-hide' => 'באהאלטן לעגענדע',
 	'interwiki_prefix' => 'פרעפֿיקס',
 	'interwiki-prefix-label' => 'פרעפֿיקס:',
 	'interwiki_local' => 'איבערפֿירן',
+	'interwiki-local-label' => 'איבערפֿירן:',
+	'interwiki_trans' => 'אריבערשליסן',
+	'interwiki-trans-label' => 'אריבערשליסן:',
+	'interwiki_trans_intro' => 'אז דער וויקיטעקסט סינטאקס <code>{<nowiki />{prefix:<em>בלאטנאמען</em>}}</code> ווערט געניצט, דעמאלסט:',
 	'interwiki_1' => 'יא',
 	'interwiki_0' => 'ניין',
 	'interwiki_edit' => 'רעדאַקטירן',
 	'interwiki_addbutton' => 'צולייגן',
+	'interwiki_edittext' => 'רעדאקטירן אן אינטערוויקי פרעפיקס',
 );
 
 /** Cantonese (粵語)
