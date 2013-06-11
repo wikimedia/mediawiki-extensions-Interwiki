@@ -3976,6 +3976,8 @@ $messages['roa-tara'] = array(
 	'interwiki_deleting' => 'Tu ste scangille \'u prefisse "$1".',
 	'interwiki_addtext' => "Aggiunge 'nu prefisse inderuicchi",
 	'interwiki_addbutton' => 'Aggiunge',
+	'right-interwiki' => 'Cange le date de inderuicchi',
+	'action-interwiki' => 'cange sta vôsce de inderuicchi',
 );
 
 /** Russian (русский)
