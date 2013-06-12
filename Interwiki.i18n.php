@@ -4807,9 +4807,10 @@ $messages['ur'] = array(
 
 /** Uzbek (oʻzbekcha)
  * @author CoderSI
+ * @author Sociologist
  */
 $messages['uz'] = array(
-	'log-name-interwiki' => "Interviki jadvalidagi o'zgarishlar qaydlari",
+	'log-name-interwiki' => 'Interviki jadvalidagi oʻzgarishlar qaydlari',
 );
 
 /** vèneto (vèneto)
