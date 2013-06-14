@@ -4810,6 +4810,7 @@ $messages['ur'] = array(
  * @author Sociologist
  */
 $messages['uz'] = array(
+	'interwiki_addbutton' => 'Qoʻshish',
 	'log-name-interwiki' => 'Interviki jadvalidagi oʻzgarishlar qaydlari',
 );
 
