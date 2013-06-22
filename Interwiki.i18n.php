@@ -1087,6 +1087,7 @@ Det findes muligvis ikke.',
 /** German (Deutsch)
  * @author Als-Holder
  * @author Church of emacs
+ * @author Geitost
  * @author Kghbln
  * @author MF-Warburg
  * @author Metalhead64
@@ -1115,7 +1116,7 @@ $messages['de'] = array(
 	'interwiki_trans_intro' => 'Wenn die Vorlagensyntax <code>{<nowiki />{präfix:<em>Seitenname</em>}}</code> verwendet wird, dann:',
 	'interwiki_trans_1_intro' => 'erlaube die Einbindung aus dem fremden Wiki, sofern Einbindungen in diesem Wiki allgemein zulässig sind',
 	'interwiki_trans_0_intro' => 'erlaube die Einbindung nicht, und nimm eine Seite aus dem Vorlagennamensraum des lokalen Wikis',
-	'interwiki_intro_footer' => 'Siehe auch die [//www.mediawiki.org/wiki/Manual:Interwiki_table Dokumentationsseite auf MediaWiki.org] für weitere Informationen zur Interwikitabelle. Das [[Special:Log/interwiki|Logbuch]] protokolliert alle Änderungen an der Interwikitabelle dieses Wikis.',
+	'interwiki_intro_footer' => 'Weitere Informationen zur Interwikitabelle sind auf der [//www.mediawiki.org/wiki/Manual:Interwiki_table Dokumentationsseite unter MediaWiki.org] zu finden. Das [[Special:Log/interwiki|Logbuch]] protokolliert alle Änderungen an der Interwikitabelle dieses Wikis.',
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nein',
 	'interwiki_error' => 'Fehler: Die Interwikitabelle ist leer oder etwas anderes ist schiefgelaufen.',
@@ -2596,6 +2597,46 @@ $messages['ka'] = array(
 	'log-description-interwiki' => 'ეს არის [[Special:Interwiki|ინტერვიკის ცხრილის]] ცვლილებების ჟურნალი.',
 	'right-interwiki' => 'ინტერვიკის მონაცემების რედაქტირება',
 	'action-interwiki' => 'ინტერვიკის ჩანაწერების შეცვლა',
+);
+
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
+ * @author Arystanbek
+ */
+$messages['kk-cyrl'] = array(
+	'interwiki' => 'интеруики деректерін қарау және өңдеу',
+	'interwiki-title-norights' => 'Интеруики дерегін қарау',
+	'interwiki_intro' => 'Бұл интеруики кестесін шолып шығу',
+	'interwiki-legend-show' => 'Мәндік белгілерді көрсету',
+	'interwiki-legend-hide' => 'Мәндік белгілерді жасыру',
+	'interwiki_prefix' => 'Префикс',
+	'interwiki-prefix-label' => 'Префикс',
+	'interwiki_local' => 'Алға',
+	'interwiki-local-label' => 'Алға',
+	'interwiki_1' => 'иә',
+	'interwiki_0' => 'жоқ',
+	'interwiki_edit' => 'Өңдеу',
+	'interwiki_reasonfield' => 'Себебі:',
+	'interwiki_delquestion' => '"$1" жойылуда',
+	'interwiki_deleting' => '"$1" префиксін жоюдасыз.',
+	'interwiki_deleted' => '"$1" префиксі интеруики кестесінен сәтті алынып тасталды.',
+	'interwiki_delfailed' => '"$1" префиксі интеруики кестесінен алынып тасталмады',
+	'interwiki_addtext' => 'Интеруики префиксін қосу',
+	'interwiki_addbutton' => 'Қосу',
+	'interwiki_added' => '"$1" префиксі интеруики кестесіне сәтті қосылды.',
+	'interwiki_addfailed' => '"$1" префиксі интеруики кестесіне қосылмады.
+Мүмкін әлдеқашан интеруики кестесінде қолданылған болар.',
+	'interwiki_edittext' => 'Интеруики префиксі өңделуде',
+	'interwiki_editintro' => 'Интеруики префиксін өңдеудесіз.
+Есіңізде болсын бұл бұрыннан бар сілтемелерді бұза алады.',
+	'interwiki_edited' => '"$1" префиксі интеруики кестесінде сәтті өзгертілді.',
+	'interwiki_editerror' => '"$1" префиксі интеруики кестесінде өзгеру мүмкін болмады.
+Мүмкін бұл бар болмаған шығар.',
+	'log-name-interwiki' => 'Интеруики кесте журналы',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|added}} "$4" префиксі интеруики кестесіне ($5) (trans: $6; local: $7)',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|modified}} "$4" ($5) интеруики кестесіне (trans: $6; local: $7)',
+	'logentry-interwiki-iw_delete' => 'Интеруики кестесінен "$4" префиксі $1 {{GENDER:$2|removed}}',
+	'right-interwiki' => 'Интеруики деректерін өңдеу',
+	'action-interwiki' => 'бұл интеруики ендірілуін өзгерту',
 );
 
 /** Khmer (ភាសាខ្មែរ)
