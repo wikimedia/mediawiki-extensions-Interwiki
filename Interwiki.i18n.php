@@ -997,7 +997,7 @@ Pravděpodobně neexistuje.',
  * @author ОйЛ
  */
 $messages['cu'] = array(
-	'interwiki_0' => 'нѣ́тъ',
+	'interwiki_0' => 'нѣтъ',
 );
 
 /** Welsh (Cymraeg)
@@ -4016,6 +4016,10 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'interwiki' => "'Ndruche e cange le date de le inderuicchi",
+	'interwiki-title-norights' => "'Ndruche le date de inderuicchi",
+	'interwiki-desc' => "Aggiunge 'na [[Special:Interwiki|pàgena speciale]] pe 'ndrucà e cangià 'a tabbelle de inderuicchi",
+	'interwiki_intro' => "Queste jè 'na panorameche d'a tabbelle de inderuicchi.",
 	'interwiki-legend-show' => "Fà vedè 'a leggende",
 	'interwiki-legend-hide' => "Scunne 'a leggende",
 	'interwiki_prefix' => 'Prefisse',
