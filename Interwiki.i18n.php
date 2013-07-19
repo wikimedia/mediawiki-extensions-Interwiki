@@ -128,11 +128,15 @@ Do translate both words inside the square brackets as placeholders, where "prefi
 	'interwiki_url' => '{{optional}}
 Used on [[Special:Interwiki]] as a column header of the table.
 
-See also: {{msg-mw|Interwiki-url-label}}',
+See also:
+*{{msg-mw|Interwiki-url-label}}
+{{Identical|URL}}',
 	'interwiki-url-label' => '{{optional}}
 Used on [[Special:Interwiki]] as a field label in a form.
 
-See also: {{msg-mw|interwiki url}}',
+See also:
+* {{msg-mw|interwiki url}}
+{{Identical|URL}}',
 	'interwiki_url_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|interwiki_url}} column of the table.
 
 $1 is being rendered verbatim. It refers to the syntax of the values listed in the "prefix" column, and does not mark a substitutable variable of this message.',
