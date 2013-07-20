@@ -1001,6 +1001,7 @@ Pravděpodobně neexistuje.',
  * @author ОйЛ
  */
 $messages['cu'] = array(
+	'interwiki_1' => 'да',
 	'interwiki_0' => 'нѣтъ',
 );
 
