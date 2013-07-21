@@ -916,6 +916,7 @@ Possiblement no existeix.',
  */
 $messages['ce'] = array(
 	'interwiki_intro' => 'ХӀара ду юкъарвикишан таблице хьажар.',
+	'interwiki_0' => 'яц',
 	'interwiki_edit' => 'Нисйé',
 	'interwiki_reasonfield' => 'Бахьан:',
 	'interwiki_addbutton' => 'Тlетоха',
