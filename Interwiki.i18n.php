@@ -915,7 +915,16 @@ Possiblement no existeix.',
  * @author Умар
  */
 $messages['ce'] = array(
+	'interwiki-title-norights' => 'Юкъарвикишан хаамаш хьажар',
 	'interwiki_intro' => 'ХӀара ду юкъарвикишан таблице хьажар.',
+	'interwiki-legend-show' => 'Гайта хьехар',
+	'interwiki-legend-hide' => 'Къайладаккха хьехар',
+	'interwiki_prefix' => 'ТӀетоьхна элпаш',
+	'interwiki_local' => 'ДӀасхьажор',
+	'interwiki-local-label' => 'ДӀасхьажор:',
+	'interwiki_trans' => 'Юкъатохар',
+	'interwiki-trans-label' => 'Юкъатохар:',
+	'interwiki_1' => 'ю',
 	'interwiki_0' => 'яц',
 	'interwiki_edit' => 'Нисйé',
 	'interwiki_reasonfield' => 'Бахьан:',
