@@ -43,6 +43,11 @@ $specialPageAliases['bs'] = array(
 	'Interwiki' => array( 'Medjuwiki' ),
 );
 
+/** Chechen (нохчийн) */
+$specialPageAliases['ce'] = array(
+	'Interwiki' => array( 'Юкъарвики' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'Interwiki' => array( 'Interwikitabelle', 'Interwiki-Tabelle' ),
