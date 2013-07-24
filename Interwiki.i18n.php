@@ -715,9 +715,11 @@ $messages['bg'] = array(
 );
 
 /** Bengali (বাংলা)
+ * @author Aftab1995
  * @author Wikitanvir
  */
 $messages['bn'] = array(
+	'interwiki-title-norights' => 'আন্তঃউইকি তথ্য দেখুন',
 	'interwiki_prefix' => 'উপসর্গ',
 	'interwiki-prefix-label' => 'উপসর্গ:',
 	'interwiki_1' => 'হ্যাঁ',
@@ -4471,6 +4473,7 @@ $messages['su'] = array(
 /** Swedish (svenska)
  * @author Boivie
  * @author Fluff
+ * @author Jopparn
  * @author Lejonel
  * @author M.M.S.
  * @author Najami
@@ -4484,19 +4487,25 @@ $messages['sv'] = array(
 	'interwiki-title-norights' => 'Visa interwiki-data',
 	'interwiki-desc' => 'Lägger till en [[Special:Interwiki|specialsida]] för att visa och ändra interwikitabellen',
 	'interwiki_intro' => 'Det här är en överblick över interwiki-tabellen.',
+	'interwiki-legend-show' => 'Visa teckenförklaring',
+	'interwiki-legend-hide' => 'Dölj teckenförklaring',
 	'interwiki_prefix' => 'Prefix',
 	'interwiki-prefix-label' => 'Prefix:',
 	'interwiki_prefix_intro' => 'Interwiki-prefix avsedda att användas i <code>[<nowiki />[prefix:<em>pagename</em>]]</code>-wikisyntax.',
 	'interwiki_local' => 'Vidarebefordra',
 	'interwiki-local-label' => 'Vidarebefordra:',
 	'interwiki_local_intro' => 'En HTTP-förfrågan till den lokala wikin med denna interwiki-prefix i webbadressen är:',
+	'interwiki_local_0_intro' => 'inte accepterad, vanligtvis blockerad av "sidan kunde inte hittas".',
 	'interwiki_trans' => 'Transkludera',
 	'interwiki-trans-label' => 'Transkludera:',
+	'interwiki_trans_intro' => 'Om wikitextsyntax <code>{<nowiki />{prefix:<em>pagename</em>}}</code> används så:',
+	'interwiki_trans_0_intro' => 'tillåt inte det, leta istället efter en sida i mall-namnrymden.',
 	'interwiki_intro_footer' => 'Se [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] för mer information om interwikitabellen.
 Det finns en [[Special:Log/interwiki|logg över ändringar]] i interwikitabellen.',
 	'interwiki_1' => 'ja',
 	'interwiki_0' => 'nej',
 	'interwiki_error' => 'FEL: Interwikitabellen är tom, eller så gick något fel.',
+	'interwiki-cached' => 'Interwikidatat cachas. Att ändra cache-minnet är inte möjligt.',
 	'interwiki_edit' => 'Redigera',
 	'interwiki_reasonfield' => 'Anledning:',
 	'interwiki_delquestion' => 'Ta bort "$1"',
@@ -4516,6 +4525,7 @@ Det är möjligt att prefixet redan finns i tabellen.',
 	'interwiki_editerror' => 'Prefixet "$1" kan inte ändras i interwikitabellen. Det är möjligt att det inte finns.',
 	'interwiki-badprefix' => 'Specificerat interwikiprefix "$1" innehåller ogiltiga tecken',
 	'interwiki-submit-empty' => 'Prefix och URL-adressen kan inte vara tomma.',
+	'interwiki-submit-invalidurl' => 'URL:ens protokoll är ogiltigt.',
 	'log-name-interwiki' => 'Interwikitabellogg',
 	'log-description-interwiki' => 'Detta är en logg över ändringar i [[Special:Interwiki|interwikitabellen]].',
 	'right-interwiki' => 'Redigera interwikidata',
