@@ -1015,6 +1015,7 @@ Pravděpodobně neexistuje.',
 $messages['cu'] = array(
 	'interwiki_1' => 'да',
 	'interwiki_0' => 'нѣтъ',
+	'interwiki_edit' => 'исправи',
 );
 
 /** Welsh (Cymraeg)
