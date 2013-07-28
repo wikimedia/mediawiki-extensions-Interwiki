@@ -2755,7 +2755,7 @@ $messages['ko'] = array(
 	'interwiki_delquestion' => '"$1" 지우기',
 	'interwiki_deleting' => '"$1" 접두어를 지웁니다.',
 	'interwiki_deleted' => '"$1" 접두어를 인터위키 테이블에서 지웠습니다.',
-	'interwiki_delfailed' => '"$1" 접두어를 인터위키 테이블에서 지울 수 없습니다.',
+	'interwiki_delfailed' => '"$1" 접두어를 인터위키 테이블에서 제거할 수 없습니다.',
 	'interwiki_addtext' => '인터위키 접두어 추가',
 	'interwiki_addintro' => '새 인터위키 접두어를 만듭니다. 공백( ), 쌍점(:), &기호(&), 등호(=)는 포함할 수 없습니다.',
 	'interwiki_addbutton' => '추가',
