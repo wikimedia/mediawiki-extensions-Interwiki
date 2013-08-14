@@ -123,7 +123,8 @@ Used when the user has no right to edit the interwiki data and can only view the
 	'interwiki-legend-hide' => 'Link text for toggle to hide the legend on [[Special:Interwiki]].',
 	'interwiki_prefix' => 'Used on [[Special:Interwiki]] as a column header of the table.',
 	'interwiki-prefix-label' => 'Used on [[Special:Interwiki]] as a field label in a form.',
-	'interwiki_prefix_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|interwiki_prefix}} column of the table.
+	'interwiki_prefix_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|Interwiki prefix}} column of the table.
+
 Do translate both words inside the square brackets as placeholders, where "prefix" should be identical to, or clearly linked to, the column header.',
 	'interwiki_url' => '{{optional}}
 Used on [[Special:Interwiki]] as a column header of the table.
@@ -137,29 +138,28 @@ Used on [[Special:Interwiki]] as a field label in a form.
 See also:
 * {{msg-mw|interwiki url}}
 {{Identical|URL}}',
-	'interwiki_url_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|interwiki_url}} column of the table.
+	'interwiki_url_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|Interwiki url}} column of the table.
 
-$1 is being rendered verbatim. It refers to the syntax of the values listed in the "prefix" column, and does not mark a substitutable variable of this message.',
+Parameters:
+* $1 is being rendered verbatim. It refers to the syntax of the values listed in the "prefix" column, and does not mark a substitutable variable of this message.',
 	'interwiki_local' => 'Used on [[Special:Interwiki]] as a column header.
 
 {{Identical|Forward}}',
 	'interwiki-local-label' => 'Field label for the interwiki property "local", to set if an HTTP request to the local wiki with this interwiki prefix in the URL is redirected to the target URL given in the interwiki link definitions.',
-	'interwiki_local_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|interwiki_local}} column of the table.',
-	'interwiki_local_0_intro' => 'Used on [[Special:Interwiki]] so as to descripe the meaning of the value 0 in the {{msg-mw|interwiki_local}} column of the table.',
-	'interwiki_local_1_intro' => 'Used on [[Special:Interwiki]] so as to descripe the meaning of the value 1 in the {{msg-mw|interwiki_local}} column of the table.',
+	'interwiki_local_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|Interwiki local}} column of the table.',
+	'interwiki_local_0_intro' => 'Used on [[Special:Interwiki]] so as to descripe the meaning of the value 0 in the {{msg-mw|Interwiki local}} column of the table.',
+	'interwiki_local_1_intro' => 'Used on [[Special:Interwiki]] so as to descripe the meaning of the value 1 in the {{msg-mw|Interwiki local}} column of the table.',
 	'interwiki_trans' => 'Used on [[Special:Interwiki]] as table column header.',
 	'interwiki-trans-label' => 'Used on [[Special:Interwiki]] as a field label in a form.',
-	'interwiki_trans_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|interwiki_trans}} column of the table.',
-	'interwiki_trans_1_intro' => 'Used on [[Special:Interwiki]] so as to descripe the meaning of the value 1 in the {{msg-mw|interwiki_trans}} column of the table.',
-	'interwiki_trans_0_intro' => 'Used on [[Special:Interwiki]] so as to describe the meaning of the value 0 in the {{msg-mw|interwiki_trans}} column of the table.',
+	'interwiki_trans_intro' => 'Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|Interwiki trans}} column of the table.',
+	'interwiki_trans_1_intro' => 'Used on [[Special:Interwiki]] so as to descripe the meaning of the value 1 in the {{msg-mw|Interwiki trans}} column of the table.',
+	'interwiki_trans_0_intro' => 'Used on [[Special:Interwiki]] so as to describe the meaning of the value 0 in the {{msg-mw|Interwiki trans}} column of the table.',
 	'interwiki_intro_footer' => 'Part of the interwiki extension.
 Shown as last pice of the introductory text on [[Special:Interwiki]].
 Parameter $1 contains the following (a link): [[mw:Manual:Interwiki_table|MediaWiki.org]]',
-	'interwiki_1' => "'''Yes'''-value to be inserted into the columns headed by {{msg-mw|interwiki_local}} and {{msg-mw|interwiki_trans}}.
-
+	'interwiki_1' => "'''Yes'''-value to be inserted into the columns headed by {{msg-mw|Interwiki local}} and {{msg-mw|Interwiki trans}}.
 {{Identical|Yes}}",
-	'interwiki_0' => "'''No'''-value to be inserted into the columns headed by {{msg-mw|interwiki_local}} and {{msg-mw|interwiki_trans}}.
-
+	'interwiki_0' => "'''No'''-value to be inserted into the columns headed by {{msg-mw|Interwiki local}} and {{msg-mw|Interwiki trans}}.
 {{Identical|No}}",
 	'interwiki_error' => 'This error message is shown when the [[Special:Interwiki]] page is empty.',
 	'interwiki-cached' => 'Informational message on why interwiki data cannot be manipulated.',
