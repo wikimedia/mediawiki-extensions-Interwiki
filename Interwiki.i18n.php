@@ -167,9 +167,16 @@ Parameter $1 contains the following (a link): [[mw:Manual:Interwiki_table|MediaW
 
 {{Identical|Edit}}',
 	'interwiki_reasonfield' => '{{Identical|Reason}}',
-	'interwiki_delquestion' => 'Parameter $1 is the interwiki prefix you are deleting.',
-	'interwiki_deleting' => '-',
-	'interwiki_deleted' => '',
+	'interwiki_delquestion' => 'Used as top message.
+
+Followed by the form.
+
+Parameters:
+* $1 - the interwiki prefix you are deleting',
+	'interwiki_deleting' => 'Used as intro message for the table. Parameters:
+* $1 - the specified prefix',
+	'interwiki_deleted' => 'Used as success message. Parameters:
+* $1 - interwiki prefix',
 	'interwiki_delfailed' => 'Error message when removing an interwiki table entry fails. Parameters:
 * $1 is an interwiki prefix.',
 	'interwiki_addtext' => 'Link description to open form to add an interwiki prefix.',
@@ -181,12 +188,17 @@ Parameter $1 contains the following (a link): [[mw:Manual:Interwiki_table|MediaW
 * $1 is the added interwiki prefix.',
 	'interwiki_addfailed' => 'Error message displayed when adding an interwiki prefix fails. Parameters:
 * $1 is the interwiki prefix that could not be added.',
-	'interwiki-defaulturl' => '{{notranslate}}',
+	'interwiki-defaulturl' => '{{notranslate}}
+Used as default value of interwiki URL
+
+Parameters:
+* $1 - seems to be empty',
 	'interwiki_edittext' => 'Fieldset legend for interwiki prefix edit form.',
 	'interwiki_editintro' => 'Form information when editing an interwiki prefix.',
 	'interwiki_edited' => 'Success message after editing an interwiki prefix. Parameters:
 * $1 is the added interwiki prefix.',
-	'interwiki_editerror' => 'Error message when modifying a prefix has failed.',
+	'interwiki_editerror' => 'Error message when modifying a prefix has failed. Parameters:
+* $1 - prefix',
 	'interwiki-badprefix' => 'Error message displayed when trying to save an interwiki prefix that contains invalid characters. Parameters:
 * $1 is the interwiki prefix containing invalid characters.',
 	'interwiki-submit-empty' => 'Error message displayed when trying to save an interwiki prefix with an empty prefix or an empty URL.',
