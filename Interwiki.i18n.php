@@ -155,8 +155,8 @@ Parameters:
 	'interwiki_trans_1_intro' => 'Used on [[Special:Interwiki]] so as to descripe the meaning of the value 1 in the {{msg-mw|Interwiki trans}} column of the table.',
 	'interwiki_trans_0_intro' => 'Used on [[Special:Interwiki]] so as to describe the meaning of the value 0 in the {{msg-mw|Interwiki trans}} column of the table.',
 	'interwiki_intro_footer' => 'Part of the interwiki extension.
-Shown as last pice of the introductory text on [[Special:Interwiki]].
-Parameter $1 contains the following (a link): [[mw:Manual:Interwiki_table|MediaWiki.org]]',
+
+Shown as last piece of the introductory text on [[Special:Interwiki]].',
 	'interwiki_1' => "'''Yes'''-value to be inserted into the columns headed by {{msg-mw|Interwiki local}} and {{msg-mw|Interwiki trans}}.
 {{Identical|Yes}}",
 	'interwiki_0' => "'''No'''-value to be inserted into the columns headed by {{msg-mw|Interwiki local}} and {{msg-mw|Interwiki trans}}.
