@@ -3898,6 +3898,7 @@ $messages['ps'] = array(
 
 /** Portuguese (português)
  * @author Alchimista
+ * @author Cainamarques
  * @author Hamilton Abreu
  * @author Malafaya
  * @author Waldir
@@ -3929,7 +3930,7 @@ Existe um [[Special:Log/interwiki|registo de modificações]] à tabela de inter
 	'interwiki_1' => 'sim',
 	'interwiki_0' => 'não',
 	'interwiki_error' => 'ERRO: A tabela de interwikis está vazia, ou alguma outra coisa não correu bem.',
-	'interwiki-cached' => 'Os dados de interwikis são armazenados na cache. Não é possível modificar a cache.',
+	'interwiki-cached' => 'Os dados de interwikis são armazenados no cache. Não é possível modificar o cache.',
 	'interwiki_edit' => 'Editar',
 	'interwiki_reasonfield' => 'Motivo:',
 	'interwiki_delquestion' => 'A apagar "$1"',
@@ -3958,6 +3959,7 @@ Lembre-se que este não pode conter espaços ( ), dois-pontos (:), conjunções 
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Eduardo.mps
  * @author Giro720
  * @author Luckas
@@ -3988,6 +3990,7 @@ Existe um [[Special:Log/interwiki|registro de modificações]] à tabela de inte
 	'interwiki_1' => 'sim',
 	'interwiki_0' => 'não',
 	'interwiki_error' => 'ERRO: A tabela de interwikis está vazia, ou alguma outra coisa não correu bem.',
+	'interwiki-cached' => 'Os dados dos interwikis são armazenados no cache. Não é possível modificar o cache.',
 	'interwiki_edit' => 'Editar',
 	'interwiki_reasonfield' => 'Motivo:',
 	'interwiki_delquestion' => 'Apagando "$1"',
