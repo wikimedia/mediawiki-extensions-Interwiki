@@ -4007,6 +4007,8 @@ Existe um [[Special:Log/interwiki|registro de modificações]] à tabela de inte
 	'interwiki_edited' => 'O prefixo "$1" foi modificado na tabela de interwikis com sucesso.',
 	'interwiki_editerror' => 'O prefixo "$1" não pode ser modificado na tabela de interwikis. Possivelmente, não existe.',
 	'interwiki-badprefix' => 'O prefixo interwiki "$1" contém caracteres inválidos',
+	'interwiki-submit-empty' => 'O prefixo e o URL não podem estar vazios.',
+	'interwiki-submit-invalidurl' => 'O protocolo do URL é inválido.',
 	'log-name-interwiki' => 'Registro da tabela de interwikis',
 	'log-description-interwiki' => 'Este é um registro das alterações à [[Special:Interwiki|tabela de interwikis]].',
 	'right-interwiki' => 'Editar dados de interwiki',
