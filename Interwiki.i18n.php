@@ -2901,12 +2901,13 @@ Fortasse nondum est in tabula intervica.',
  * @author Les Meloures
  * @author Purodha
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'interwiki' => 'Interwiki-Date kucken a veränneren',
 	'interwiki-title-norights' => 'Interwiki-Date kucken',
 	'interwiki-desc' => "Setzt eng [[Special:Interwiki|Spezialsäit]] derbäi fir d'Interwiki-Tabell ze gesinn an z'änneren",
-	'interwiki_intro' => "Dëst ass en Iwwerbléck iwwert d'Interwiki-Tabell.",
+	'interwiki_intro' => "Dëst ass en Iwwerbléck iwwer d'Interwikitabell.",
 	'interwiki-legend-show' => 'Legend weisen',
 	'interwiki-legend-hide' => 'Legend verstoppen',
 	'interwiki_prefix' => 'Prefix',
