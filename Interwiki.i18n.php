@@ -310,6 +310,7 @@ $messages['an'] = array(
 /** Arabic (العربية)
  * @author Meno25
  * @author OsamaK
+ * @author زكريا
  */
 $messages['ar'] = array(
 	'interwiki' => 'عرض وتعديل بيانات الإنترويكي',
@@ -337,7 +338,7 @@ $messages['ar'] = array(
 	'interwiki_1' => 'نعم',
 	'interwiki_0' => 'لا',
 	'interwiki_error' => 'خطأ: جدول الإنترويكي فارغ، أو حدث خطأ آخر.',
-	'interwiki_edit' => 'تعديل',
+	'interwiki_edit' => 'عدل',
 	'interwiki_reasonfield' => 'السبب:',
 	'interwiki_delquestion' => 'حذف "$1"',
 	'interwiki_deleting' => 'أنت تحذف البادئة "$1".',
@@ -1595,6 +1596,7 @@ $messages['fa'] = array(
  * @author Jack Phoenix
  * @author Mobe
  * @author Nike
+ * @author Stryn
  * @author VezonThunder
  */
 $messages['fi'] = array(
@@ -1609,7 +1611,7 @@ $messages['fi'] = array(
 	'interwiki_local' => 'Välitä',
 	'interwiki-local-label' => 'Välitä:',
 	'interwiki_trans' => 'Sisällytä',
-	'interwiki-trans-label' => 'Sisällytä:', # Fuzzy
+	'interwiki-trans-label' => 'Sisällytä:',
 	'interwiki_1' => 'kyllä',
 	'interwiki_0' => 'ei',
 	'interwiki_error' => 'Virhe: Interwiki-taulu on tyhjä tai jokin muu meni pieleen.',
