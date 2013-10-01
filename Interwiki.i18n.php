@@ -2947,7 +2947,7 @@ Denkt drunn datt keng Espacen ( ), Et-commerciale (&), Gläichzeechen (=) a keng
 Méiglecherweis gëtt et e schn an der Interwiki-Tabell.',
 	'interwiki_edittext' => 'En interwiki Prefix änneren',
 	'interwiki_editintro' => 'Dir ännert en Interwiki Prefix.
-Denkt drun, datt dat kann dozou féieren datt Linken déi et scho gëtt net méi fonctionnéieren.',
+Denkt drun, datt dat kann dozou féieren datt Linken déi et scho gëtt net méi funktionéieren.',
 	'interwiki_edited' => 'De Prefix "$1" gouf an der Interwiki-Tabell geännert.',
 	'interwiki_editerror' => 'De Prefix "$1" kann an der Interwiki-Tabell net geännert ginn.
 Méiglecherweis gëtt et en net.',
@@ -3894,9 +3894,9 @@ $messages['ps'] = array(
 	'interwiki_0' => 'نه',
 	'interwiki_edit' => 'سمول',
 	'interwiki_reasonfield' => 'سبب:',
-	'interwiki_delquestion' => '"$1" د ړنګولو په حال کې دی...',
+	'interwiki_delquestion' => '"$1" د ړنگولو په حال کې دی...',
 	'interwiki_deleting' => 'تاسې د "$1" مختاړی ړنګوی.',
-	'interwiki_addbutton' => 'ورګډول',
+	'interwiki_addbutton' => 'ورگډول',
 );
 
 /** Portuguese (português)
