@@ -4323,6 +4323,7 @@ Obsahuje [[Special:Log/interwiki|záznam zmien]] tabuľky interwiki.',
 
 /** Slovenian (slovenščina)
  * @author Dbc334
+ * @author Eleassar
  */
 $messages['sl'] = array(
 	'interwiki' => 'Ogled in urejanje podatkov interwiki',
@@ -4348,8 +4349,8 @@ $messages['sl'] = array(
 	'interwiki_deleted' => 'Predpona »$1« je bila uspešno odstranjena iz tabele interwiki.',
 	'interwiki_delfailed' => 'Predpone »$1« ni bilo mogoče odstraniti iz tabele interwiki.',
 	'interwiki_addtext' => 'Dodaj predpono interwiki',
-	'interwiki_addintro' => "Dodajate novo predpono interwiki.
-Pomnite, da ne sme vsebovati presledkov ( ), dvopičij (:), znakov ''in'' (&) ali enačajev (=).",
+	'interwiki_addintro' => "Dodajate novo medwikipredpono.
+Upoštevajte, da ne sme vsebovati presledkov ( ), dvopičij (:), znakov ''in'' (&) ali enačajev (=).",
 	'interwiki_addbutton' => 'Dodaj',
 	'interwiki_added' => 'Predpona »$1« je bila uspešno dodana v tabelo interwiki.',
 	'interwiki_addfailed' => 'Predpone »$1« ni mogoče dodati tabeli interwiki.
