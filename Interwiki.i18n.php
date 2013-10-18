@@ -2026,35 +2026,66 @@ $messages['he'] = array(
 /** Hindi (हिन्दी)
  * @author Karthi.dr
  * @author Kaustubh
+ * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
-	'interwiki' => 'आंतरविकि डाटा देखें एवं बदलें',
-	'interwiki-title-norights' => 'आंतरविकि डाटा देखें',
-	'interwiki-desc' => 'आंतरविकि तालिका देखनेके लिये और बदलने के लिये एक [[Special:Interwiki|विशेष पॄष्ठ]]',
-	'interwiki_intro' => 'आंतरविकि तालिका के बारें में अधिक ज़ानकारी के लिये [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] देखें। यहां आंतरविकि तालिका में हुए [[Special:Log/interwiki|बदलावों की सूची]] हैं।', # Fuzzy
-	'interwiki_prefix' => 'उपपद',
-	'interwiki-prefix-label' => 'उपपद:', # Fuzzy
+	'interwiki' => 'अंतरविकि डाटा देखें एवं बदलें',
+	'interwiki-title-norights' => 'अंतरविकि डाटा देखें',
+	'interwiki-desc' => 'अंतरविकि तालिका देखने और बदलने के लिये एक [[Special:Interwiki|विशेष पृष्ठ]] जोड़ता है',
+	'interwiki_intro' => 'यह अंतरविकि तालिका का मूल विवरण है।',
+	'interwiki-legend-show' => 'शीर्षक विवरण दिखाएँ',
+	'interwiki-legend-hide' => 'शीर्षक विवरण छुपाएँ',
+	'interwiki_prefix' => 'उपसर्ग',
+	'interwiki-prefix-label' => 'उपसर्ग:',
+	'interwiki_prefix_intro' => 'विकिपाठ सिंटेक्स <code>[<nowiki />[उपसर्ग:<em>पृष्ठनाम</em>]]में प्रयोग हेतु अंतरविकि उपसर्ग।',
+	'interwiki_url' => 'यू॰आर॰एल',
+	'interwiki-url-label' => 'यू॰आर॰एल:',
+	'interwiki_url_intro' => 'यू॰आर॰एल साँचा। जब उपरोक्त विकिपाठ सिंटेक्स का प्रयोग किया जाए तो $1 की जगह विकिपाठ में प्रयुक्त <em>पृष्ठनाम</em> लगा दिया जाएगा।',
+	'interwiki_local' => 'आगे भेजा जाता है',
+	'interwiki-local-label' => 'आगे भेजा जाता है:',
+	'interwiki_local_intro' => 'स्थानीय विकि में इस अंतरविकि उपसर्ग का प्रयोग कर रहे यू॰आर॰एल को:',
+	'interwiki_local_0_intro' => 'आगे नहीं भेजा जाता, सामान्यतः "पृष्ठ नहीं मिला" त्रुटि आती है',
+	'interwiki_local_1_intro' => 'अंतरविकि तालिका अनुसार यू॰आर॰एल पर आगे भेज दिया जाता है (अर्थात सामान्य विकि कड़ियों की तरह माना जाता है)।',
+	'interwiki_trans' => 'ट्रांसक्लूड',
+	'interwiki-trans-label' => 'ट्रांसक्लूड:',
+	'interwiki_trans_intro' => 'अगर <code>{<nowiki />{उपसर्ग:<em>पृष्ठनाम</em>}}</code> प्रकार के सिंटेक्स का प्रयोग किया जाए तो:',
+	'interwiki_trans_1_intro' => 'बाहरी विकि से ट्रांसक्लूज़न करने दिया जाएगा, यदि इस विकि में सामान्यतः अंतरविकि ट्रांसक्लूज़न समर्थित हैं।',
+	'interwiki_trans_0_intro' => 'ट्रांसक्लूज़न नहीं करने दिया जाएगा, बल्कि उस नाम के साँचे को ढूँढा जाएगा।',
+	'interwiki_intro_footer' => 'अंतरविकि तालिका के बारे में अधिक जानकारी हेतु [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] देखें।
+अंतरविकि तालिका में हुए [[Special:Log/interwiki|बदलावों का लॉग]] उपलब्ध है।',
 	'interwiki_1' => 'हाँ',
 	'interwiki_0' => 'नहीं',
-	'interwiki_error' => 'गलती: आंतरविकि तालिका खाली हैं, या और कुछ गलत हैं।',
+	'interwiki_error' => 'त्रुटि: आंतरविकि तालिका खाली है, या और कोई गड़बड़ी हुई है।',
+	'interwiki-cached' => 'अंतरविकि डाटा कैश मेमोरी में सहेजा हुआ है। कैश मेमोरी में बदलाव करना संभव नहीं है।',
 	'interwiki_edit' => 'सम्पादन',
 	'interwiki_reasonfield' => 'कारण:',
-	'interwiki_delquestion' => '$1 को हटा रहें हैं',
-	'interwiki_deleting' => 'आप "$1" उपपद हटा रहें हैं।',
-	'interwiki_deleted' => '"$1" उपपद आंतरविकि तालिकासे हटा दिया गया हैं।',
-	'interwiki_delfailed' => '"$1" उपपद आंतरविकि तालिकासे हटा नहीं पा रहें हैं।',
-	'interwiki_addtext' => 'एक आंतरविकि उपपद दें',
-	'interwiki_addintro' => 'आप एक नया आंतरविकि उपपद बढा रहें हैं। कृपया ध्यान रहें की इसमें स्पेस ( ), विसर्ग (:), और (&), या बराबर का चिन्ह (=) नहीम दे सकतें हैं।',
-	'interwiki_addbutton' => 'बढायें',
-	'interwiki_added' => '$1" उपपद आंतरविकि तालिका में बढाया गया हैं।',
-	'interwiki_addfailed' => '"$1" उपपद आंतरविकि तालिका में बढा नहीं पायें।
-शायद वह पहले से अस्तित्वमें हैं।',
-	'interwiki_edittext' => 'एक आंतरविकि उपपद बदल रहें हैं',
-	'interwiki_editintro' => 'आप एक आंतरविकि उपपद बदल रहें हैं। ध्यान रखें ये पहले दी हुई कड़ीयों को तोड सकता हैं।',
-	'interwiki_edited' => '"$1" उपपद आंतरविकि तालिका में बदला गया।',
-	'interwiki_editerror' => '"$1" उपपद आंतरविकि तालिका में बदल नहीं पायें। शायद वह अस्तित्वमें नहीं हैं।',
-	'log-name-interwiki' => 'आंतरविकि तालिका सूची',
-	'log-description-interwiki' => '[[Special:Interwiki|आंतरविकि तालिकामें]] हुए बदलावोंकी यह सूची है।',
+	'interwiki_delquestion' => '$1 को हटा रहे हैं',
+	'interwiki_deleting' => 'आप "$1" उपसर्ग हटा रहे हैं।',
+	'interwiki_deleted' => '"$1" उपसर्ग अंतरविकि तालिका से हटा दिया गया है।',
+	'interwiki_delfailed' => '"$1" उपसर्ग अंतरविकि तालिका से हटाया नहीं जा सका।',
+	'interwiki_addtext' => 'अंतरविकि उपसर्ग जोड़ें',
+	'interwiki_addintro' => 'आप एक नया आंतरविकि उपसर्ग जोड़ रहे हैं।
+कृपया ध्यान रखें कि इसमें स्पेस ( ), कोलन (:), ऐम्परसेंड (&), या बराबर का चिन्ह (=) नहीं हो सकते हैं।',
+	'interwiki_addbutton' => 'जोड़ें',
+	'interwiki_added' => '"$1" उपसर्ग अंतरविकि तालिका में जोड़ दिया गया है।',
+	'interwiki_addfailed' => '"$1" उपसर्ग अंतरविकि तालिका में जोड़ा नहीं जा सका।
+संभवतः वह पहले से अंतरविकि तालिका में मौजूद है।',
+	'interwiki_edittext' => 'अंतरविकि उपसर्ग बदल रहे हैं',
+	'interwiki_editintro' => 'आप एक अंतरविकि उपसर्ग बदल रहे हैं।
+ध्यान रखें ये पहले से प्रयुक्त कड़ियों को तोड़ सकता है।',
+	'interwiki_edited' => 'अंतरविकि तालिका में "$1" उपसर्ग बदला गया।',
+	'interwiki_editerror' => 'आंतरविकि तालिका में "$1" उपसर्ग बदला नहीं जा सका।
+शायद वह मौजूद नहीं है।',
+	'interwiki-badprefix' => 'निर्दिष्ट अंतरविकि उपसर्ग "$1" में अमान्य कैरेक्टर हैं',
+	'interwiki-submit-empty' => 'उपसर्ग और यू॰आर॰एल रिक्त नहीं छोड़े जा सकते।',
+	'interwiki-submit-invalidurl' => 'यू॰आर॰एल का प्रोटोकॉल अमान्य है।',
+	'log-name-interwiki' => 'अंतरविकि तालिका लॉग',
+	'logentry-interwiki-iw_add' => '$1 ने अंतरविकि तालिका में उपसर्ग "$4" ($5) (trans: $6; local: $7) {{GENDER:$2|जोड़ा}}',
+	'logentry-interwiki-iw_edit' => '$1 ने अंतरविकि तालिका में उपसर्ग "$4" ($5) (trans: $6; local: $7) {{GENDER:$2|बदला}}',
+	'logentry-interwiki-iw_delete' => '$1 ने अंतरविकि तालिका से उपसर्ग "$4" {{GENDER:$2|हटाया}}',
+	'log-description-interwiki' => 'यह [[Special:Interwiki|अंतरविकि तालिका]] में हुए बदलावों का लॉग है।',
+	'right-interwiki' => 'अंतरविकि डाटा सम्पादित करें',
+	'action-interwiki' => 'इस अंतरविकि प्रविष्टि को बदलने',
 );
 
 /** Hiligaynon (Ilonggo)
