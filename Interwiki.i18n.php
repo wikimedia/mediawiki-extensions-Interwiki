@@ -1590,7 +1590,7 @@ $messages['fa'] = array(
 	'interwiki_edited' => 'پیشوند «$1» با موفقیت در جدول میان‌ویکی تغییر داده شد.',
 	'interwiki_editerror' => 'پیشوند «$1» را نمی‌توان در جدول میان‌ویکی تغییر داد.
 احتمالاً این پیشوند وجود ندارد.',
-	'interwiki-badprefix' => 'پیشوند میان‌ویکی «$1» حاوی نویسه‌های غیر مجاز است',
+	'interwiki-badprefix' => 'پیشوند میان‌ویکی «$1» حاوی نویسه‌های نامجاز است',
 	'interwiki-submit-empty' => 'پیشوند و آدرس URL نمی‌توانند خالی باشند.',
 	'log-name-interwiki' => 'سیاههٔ جدول میان‌ویکی',
 	'log-description-interwiki' => 'این یک تاریخچه از تغییرات [[Special:Interwiki|interwiki table]] است.',
