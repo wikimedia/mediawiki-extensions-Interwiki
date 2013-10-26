@@ -3261,11 +3261,12 @@ $messages['mn'] = array(
 
 /** Marathi (मराठी)
  * @author Kaustubh
+ * @author V.narsikar
  */
 $messages['mr'] = array(
 	'interwiki' => 'आंतरविकि डाटा पहा व संपादा',
 	'interwiki-title-norights' => 'अंतरविकि डाटा पहा',
-	'interwiki-desc' => 'आंतरविकि सारणी पाहण्यासाठी व संपादन्यासाठी एक [[Special:Interwiki|विशेष पान]] वाढविते',
+	'interwiki-desc' => 'आंतरविकि सारणी पाहण्यासाठी व संपादण्यासाठी एक [[Special:Interwiki|विशेष पान]] वाढविते',
 	'interwiki_intro' => 'आंतरविकि सारणी बद्दल अधिक माहीतीसाठी [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] पहा.', # Fuzzy
 	'interwiki_prefix' => 'उपपद (पूर्वप्रत्यय)',
 	'interwiki-prefix-label' => 'उपपद (पूर्वप्रत्यय):', # Fuzzy
@@ -3280,11 +3281,11 @@ $messages['mr'] = array(
 	'interwiki_addbutton' => 'वाढवा',
 	'interwiki_added' => '"$1" उपपद आंतरविकि सारणी मध्ये वाढविण्यात आलेले आहे.',
 	'interwiki_addfailed' => '"$1" उपपद आंतरविकि सारणी मध्ये वाढवू शकलेलो नाही. कदाचित ते अगोदरच अस्तित्वात असण्याची शक्यता आहे.',
-	'interwiki_edittext' => 'एक अंतरविकि उपपद संपादित आहे',
-	'interwiki_editintro' => 'तुम्ही एक अंतरविकि उपपद संपादित आहात.
+	'interwiki_edittext' => 'एक आंतरविकि उपपद संपादित आहे',
+	'interwiki_editintro' => 'तुम्ही एक आंतरविकि उपपद संपादित आहात.
 लक्षात ठेवा की यामुळे अगोदर दिलेले दुवे तुटू शकतात.',
-	'interwiki_edited' => 'अंतरविकि सारणीमध्ये "$1" उपपद यशस्वीरित्या बदलण्यात आलेले आहे.',
-	'interwiki_editerror' => 'अंतरविकि सारणीमध्ये "$1" उपपद बदलू शकत नाही.
+	'interwiki_edited' => 'आंतरविकि सारणीमध्ये "$1" उपपद यशस्वीरित्या बदलण्यात आलेले आहे.',
+	'interwiki_editerror' => 'आंतरविकि सारणीमध्ये "$1" उपपद बदलू शकत नाही.
 कदाचित ते अस्तित्वात नसेल.',
 	'log-name-interwiki' => 'आंतरविकि सारणी नोंद',
 	'log-description-interwiki' => '[[Special:Interwiki|आंतरविकि सारणीत]] झालेल्या बदलांची ही सूची आहे.',
