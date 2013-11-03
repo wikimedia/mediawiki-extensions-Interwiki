@@ -2828,7 +2828,7 @@ $messages['ko'] = array(
 	'logentry-interwiki-iw_add' => '$1 사용자가 "$4" ($5) (틀 포함: $6, 로컬: $7) 접두어를 인터위키 테이블에 {{GENDER:$2|추가}}했습니다.',
 	'logentry-interwiki-iw_edit' => '$1 사용자가 인터위키 테이블의 "$4" ($5) (틀 포함: $6, 로컬: $7) 접두어를 {{GENDER:$2|수정}}했습니다.',
 	'logentry-interwiki-iw_delete' => '$1 사용자가 인터위키 테이블의 "$4" 접두어를 {{GENDER:$2|삭제}}했습니다.',
-	'log-description-interwiki' => '[[Special:Interwiki|인터위키]] 목록의 바뀐 내역입니다.',
+	'log-description-interwiki' => '[[Special:Interwiki|인터위키 테이블]]이 바뀐 기록입니다.',
 	'right-interwiki' => '인터위키 목록 고치기',
 	'action-interwiki' => '이 인터위키 접두어 바꾸기',
 );
