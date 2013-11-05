@@ -1535,10 +1535,22 @@ Võimalik, et seda pole olemas.',
 /** Basque (euskara)
  * @author An13sa
  * @author Kobazulo
+ * @author Theklan
  */
 $messages['eu'] = array(
+	'interwiki' => 'Ikusi eta aldatu interwikiak',
+	'interwiki-title-norights' => 'Ikusi interwikiak',
+	'interwiki-desc' => 'Interwiki taula ikusi eta aldatzeko [[Special:Interwiki|orrialde berezi]] bat gehitzen du',
+	'interwiki_intro' => 'Hau interwiki taularen ikuspegi orokor bat da.',
+	'interwiki-legend-show' => 'Erakutsi legenda',
+	'interwiki-legend-hide' => 'Izkutatu legenda',
 	'interwiki_prefix' => 'Aurrizkia',
 	'interwiki-prefix-label' => 'Aurrizkia:',
+	'interwiki_local' => 'Aurrera',
+	'interwiki-local-label' => 'Aurrera:',
+	'interwiki_trans' => 'Txertatu',
+	'interwiki-trans-label' => 'Txertatu:',
+	'interwiki_trans_intro' => '<code>{<nowiki />{prefix:<em>pagename</em>}}</code> wikitestu erako sintaxia erabiltzen bada, orduan:',
 	'interwiki_1' => 'bai',
 	'interwiki_0' => 'ez',
 	'interwiki_edit' => 'Aldatu',
@@ -1547,6 +1559,8 @@ $messages['eu'] = array(
 	'interwiki_deleting' => '"$1" aurrizkia ezabatzen ari zara.',
 	'interwiki_addbutton' => 'Gehitu',
 	'interwiki_edittext' => 'Interwiki aurrizkia editatzen',
+	'right-interwiki' => 'Interwiki datuak aldatu',
+	'action-interwiki' => 'aldatu interwiki sarrera hau',
 );
 
 /** Persian (فارسی)
@@ -5228,7 +5242,7 @@ $messages['zh-hans'] = array(
 	'interwiki_1' => '是',
 	'interwiki_0' => '否',
 	'interwiki_error' => '错误: 跨wiki表为空，或是发生其它错误。',
-	'interwiki-cached' => '跨wiki数据已缓存。缓存不能编辑。',
+	'interwiki-cached' => '跨维基数据是缓存的。缓存不能被修改。',
 	'interwiki_edit' => '编辑',
 	'interwiki_reasonfield' => '理由：',
 	'interwiki_delquestion' => '正在删除“$1”',
