@@ -5219,7 +5219,7 @@ $messages['yue'] = array(
  */
 $messages['zh-hans'] = array(
 	'interwiki' => '查看和编辑跨wiki数据',
-	'interwiki-title-norights' => '查看跨维基数据',
+	'interwiki-title-norights' => '查看跨wiki数据',
 	'interwiki-desc' => '新增[[Special:Interwiki|特殊页面]]以查看和编辑跨wiki表',
 	'interwiki_intro' => '这是跨wiki表的概览。',
 	'interwiki-legend-show' => '显示说明',
@@ -5270,7 +5270,7 @@ $messages['zh-hans'] = array(
 	'logentry-interwiki-iw_edit' => '$1{{GENDER:$2|已修改}}跨wiki表中的前缀“$4”($5) (包含：$6；本地：$7)',
 	'logentry-interwiki-iw_delete' => '$1已从跨wiki表中{{GENDER:$2|删除}}前缀“$4”',
 	'log-description-interwiki' => '这是一个[[Special:Interwiki|跨wiki表]]的更改日志。',
-	'right-interwiki' => '编辑跨维基数据',
+	'right-interwiki' => '编辑跨wiki数据',
 	'action-interwiki' => '更改该跨维基条目',
 );
 
