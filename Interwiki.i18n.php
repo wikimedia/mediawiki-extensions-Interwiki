@@ -1759,6 +1759,13 @@ $messages['frp'] = array(
 	'action-interwiki' => 'changiér ceta entrâ entèrvouiqui',
 );
 
+/** Northern Frisian (Nordfriisk)
+ * @author Murma174
+ */
+$messages['frr'] = array(
+	'interwiki-title-norights' => 'Interwiki-dooten uunluke',
+);
+
 /** Friulian (furlan)
  * @author Klenje
  */
