@@ -951,6 +951,7 @@ $messages['ce'] = array(
 	'interwiki_0' => 'яц',
 	'interwiki_edit' => 'Нисйé',
 	'interwiki_reasonfield' => 'Бахьан:',
+	'interwiki_delquestion' => '«$1» дӀаяккхар',
 	'interwiki_addbutton' => 'Тlетоха',
 );
 
