@@ -1122,7 +1122,7 @@ Husk, at dette kan bryde eksisterende hyperlinks.',
 Det findes muligvis ikke.',
 	'interwiki-badprefix' => 'Det angivne interwikipræfiks "$1" indeholder ugyldige tegn.',
 	'right-interwiki' => 'Redigere interwikidata',
-	'action-interwiki' => 'ændre dette interwiki-element',
+	'action-interwiki' => 'redigere interwikidata',
 );
 
 /** German (Deutsch)
