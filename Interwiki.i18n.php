@@ -4438,6 +4438,7 @@ Morda ne obstaja.',
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Жељко Тодоровић
@@ -4479,13 +4480,14 @@ $messages['sr-ec'] = array(
 	'interwiki_editerror' => 'Префикс "$1" не може бити измењен у табели међувикија.
 Вероватно затшо што не постоји.',
 	'interwiki-badprefix' => 'Задати међувики префикс "$1" садржи недозвољене знакове',
-	'log-name-interwiki' => 'Историја табеле међувикија',
+	'log-name-interwiki' => 'Дневник табеле међувикија',
 	'log-description-interwiki' => 'Ово је историја измена [[Special:Interwiki|табеле међувикија]].',
 	'right-interwiki' => 'уређивање међувикија',
 );
 
 /** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
+ * @author Milicevic01
  * @author Жељко Тодоровић
  */
 $messages['sr-el'] = array(
@@ -4524,7 +4526,7 @@ Imajte na umu da može da ošteti postojeće međuviki veze.',
 	'interwiki_editerror' => 'Prefiks "$1" ne može biti izmenjen u tabeli međuvikija.
 Verovatno zatšo što ne postoji.',
 	'interwiki-badprefix' => 'Zadati međuviki prefiks "$1" sadrži nedozvoljene znakove',
-	'log-name-interwiki' => 'Istorija tabele međuvikija',
+	'log-name-interwiki' => 'Dnevnik tabele međuvikija',
 	'log-description-interwiki' => 'Ovo je istorija izmena [[Special:Interwiki|tabele međuvikija]].',
 	'right-interwiki' => 'Izmeni međuviki',
 );
