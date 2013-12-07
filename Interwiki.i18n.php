@@ -969,7 +969,7 @@ $messages['co'] = array(
 	'interwiki_reasonfield' => 'Mutivu:',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Danny B.
  * @author Mormegil
  */
@@ -1031,7 +1031,7 @@ Pravděpodobně neexistuje.',
 	'action-interwiki' => 'změnit tento záznam interwiki',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
