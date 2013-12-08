@@ -1991,6 +1991,7 @@ $messages['haw'] = array(
 /** Hebrew (עברית)
  * @author Agbad
  * @author Amire80
+ * @author Guycn2
  * @author Rotemliss
  * @author YaronSh
  * @author דניאל ב.
@@ -2009,12 +2010,12 @@ $messages['he'] = array(
 	'interwiki_local' => 'העברה',
 	'interwiki-local-label' => 'העברה:',
 	'interwiki_local_intro' => 'בקשת HTTP לאתר הוויקי המקומי עם קידומת בינוויקי זו בכתובת:',
-	'interwiki_local_0_intro' => 'לא מכובדת, לרוב נחסמת עם הודעת "הדף לא נמצא",',
+	'interwiki_local_0_intro' => 'לא מכובדת, לרוב נחסמת עם הודעת "הדף לא נמצא".',
 	'interwiki_local_1_intro' => 'מופנית אל כתובת היעד שניתנה בהגדרות קישור הבינוויקי (כלומר מטופלת כמו הפניה בדפים מקומיים)',
 	'interwiki_trans' => 'הכללה',
 	'interwiki-trans-label' => 'הכללה:',
 	'interwiki_trans_intro' => 'אם נעשה שימוש בתחביר <code>{<nowiki />{prefix:<em>pagename</em>}}</code>, אז:',
-	'interwiki_trans_1_intro' => 'תינתן האפשרות להכללת מקטעים חיצוניים מאתר ויקי חיצוני, אם הכללות מקטעי ויקי חיצוניים מורשים באופן כללי באתר ויקי זה,',
+	'interwiki_trans_1_intro' => 'תינתן האפשרות להכללת מקטעים חיצוניים מאתר ויקי חיצוני, אם הכללות מקטעי ויקי חיצוניים מורשים באופן כללי באתר ויקי זה.',
 	'interwiki_trans_0_intro' => 'אין לאפשר זאת, במקום זאת יש לחפש דף במרחב השם תבנית.',
 	'interwiki_intro_footer' => 'עיינו ב־[//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] למידע נוסף על טבלת הבינוויקי.
 ישנו [[Special:Log/interwiki|יומן שינויים]] לטבלת הבינוויקי.',
