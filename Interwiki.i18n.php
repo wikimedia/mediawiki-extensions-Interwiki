@@ -1569,16 +1569,17 @@ $messages['eu'] = array(
  * @author Hamid rostami
  * @author Huji
  * @author Mjbmr
+ * @author Omidh
  */
 $messages['fa'] = array(
 	'interwiki' => 'نمایش و ویرایش اطلاعات میان‌ویکی',
 	'interwiki-title-norights' => 'مشاهدهٔ اطلاعات میان‌ویکی',
 	'interwiki-desc' => 'یک [[Special:Interwiki|صفحهٔ ویژه]] برای مشاهده و ویرایش جدول میان‌ویکی می‌افزاید.',
-	'interwiki_intro' => 'قمستی از افزونهٔ میان‌ویکی. به صورت یک مرور کلی در Special:Interwiki نمایش داده شده.', # Fuzzy
+	'interwiki_intro' => 'این یک نمای کلی از جدول interwiki است.',
 	'interwiki_prefix' => 'پیشوند',
 	'interwiki-prefix-label' => 'پیشوند:',
-	'interwiki_local' => 'مشخص کردن به عنوان یک ویکی محلی', # Fuzzy
-	'interwiki-local-label' => 'مشخص کردن به عنوان یک ویکی محلی:', # Fuzzy
+	'interwiki_local' => 'جلو',
+	'interwiki-local-label' => 'جلو:',
 	'interwiki_trans' => 'اجازهٔ گنجاندن میان‌ویکی را بده', # Fuzzy
 	'interwiki-trans-label' => 'اجازهٔ گنجاندن میان‌ویکی را بده:', # Fuzzy
 	'interwiki_intro_footer' => 'برای اطلاعات بیشتر در مورد Interwiki به [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] مراحعه نمائید.
