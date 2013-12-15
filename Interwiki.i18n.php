@@ -2972,7 +2972,7 @@ Fortasse nondum est in tabula intervica.',
 $messages['lb'] = array(
 	'interwiki' => 'Interwiki-Date kucken a veränneren',
 	'interwiki-title-norights' => 'Interwiki-Date kucken',
-	'interwiki-desc' => "Setzt eng [[Special:Interwiki|Spezialsäit]] dobäi fir d'Interwiki-Tabell ze gesinn an z'änneren",
+	'interwiki-desc' => "Setzt eng [[Special:Interwiki|Spezialsäit]] derbäi fir d'Interwiki-Tabell ze gesinn an z'änneren",
 	'interwiki_intro' => "Dëst ass en Iwwerbléck iwwer d'Interwikitabell.",
 	'interwiki-legend-show' => 'Legend weisen',
 	'interwiki-legend-hide' => 'Legend verstoppen',
@@ -3002,12 +3002,12 @@ $messages['lb'] = array(
 	'interwiki_deleting' => 'Dir läscht de Prefix "$1".',
 	'interwiki_deleted' => 'De Prefix "$1" gouf aus der Interwiki-Tabell erausgeholl.',
 	'interwiki_delfailed' => 'Prefix "$1" konnt net aus der Interwiki-Tabell erausgeholl ginn.',
-	'interwiki_addtext' => 'En Interwiki-prefix dobäisetzen',
-	'interwiki_addintro' => 'Dir setzt en neien Interwiki-Prefix dobäi.
+	'interwiki_addtext' => 'En Interwiki-prefix derbäisetzen',
+	'interwiki_addintro' => 'Dir setzt en neien Interwiki-Prefix derbäi.
 Denkt drun datt keng Espacen ( ), Et-commerciale (&), Gläichzeechen (=) a keng Doppelpunkten (:) däerfen dra sinn.',
-	'interwiki_addbutton' => 'Dobäisetzen',
-	'interwiki_added' => 'De Prefix "$1" gou an d\'Interwiki-Tabell dobäigesat.',
-	'interwiki_addfailed' => 'De Prefix "$1" konnt net an d\'Interwiki-Tabell dobäigesat ginn.
+	'interwiki_addbutton' => 'Derbäisetzen',
+	'interwiki_added' => 'De Prefix "$1" gou an d\'Interwiki-Tabell derbäigesat.',
+	'interwiki_addfailed' => 'De Prefix "$1" konnt net an d\'Interwiki-Tabell derbäigesat ginn.
 Méiglecherweis gëtt et e schonn an der Interwiki-Tabell.',
 	'interwiki_edittext' => 'En interwiki Prefix änneren',
 	'interwiki_editintro' => 'Dir ännert en Interwiki Prefix.
