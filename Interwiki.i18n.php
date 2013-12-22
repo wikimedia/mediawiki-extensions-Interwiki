@@ -4296,16 +4296,21 @@ Lu prifissu putissi èssiri ca non c\'è.',
 
 /** Sassaresu (Sassaresu)
  * @author Felis
+ * @author Jun Misugi
  */
 $messages['sdc'] = array(
-	'interwiki' => 'Vidè e mudìfiggà li dati interwiki',
+	'interwiki' => 'Vidè e mudifiggà li dati interwiki',
+	'interwiki-title-norights' => 'Vidé li dati interwiki',
 	'interwiki_prefix' => 'Prefissu',
-	'interwiki-prefix-label' => 'Prefissu:', # Fuzzy
-	'interwiki_reasonfield' => 'Rasgioni', # Fuzzy
-	'interwiki_delquestion' => 'Canzillendi "$1"',
-	'interwiki_deleting' => 'Sei canzillendi lu prefissu "$1".',
+	'interwiki-prefix-label' => 'Prefissu:',
+	'interwiki_1' => 'si',
+	'interwiki_0' => 'no',
+	'interwiki_edit' => 'Mudifiggà',
+	'interwiki_reasonfield' => 'Rasgioni',
+	'interwiki_delquestion' => 'Canzillendhi "$1"',
+	'interwiki_deleting' => 'Sei canzillendhi lu prefissu "$1".',
 	'interwiki_addtext' => 'Aggiungi un prefissu interwiki',
-	'interwiki_addbutton' => 'Aggiungi',
+	'interwiki_addbutton' => 'Aggiungì',
 	'log-name-interwiki' => 'Rigisthru di la table interwiki',
 );
 
@@ -4530,7 +4535,7 @@ Verovatno zatšo što ne postoji.',
 	'interwiki-badprefix' => 'Zadati međuviki prefiks "$1" sadrži nedozvoljene znakove',
 	'log-name-interwiki' => 'Dnevnik tabele međuvikija',
 	'log-description-interwiki' => 'Ovo je istorija izmena [[Special:Interwiki|tabele međuvikija]].',
-	'right-interwiki' => 'Izmeni međuviki',
+	'right-interwiki' => 'uređivanje međuvikija',
 );
 
 /** Seeltersk (Seeltersk)
