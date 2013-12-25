@@ -953,6 +953,7 @@ $messages['ce'] = array(
 	'interwiki_reasonfield' => 'Бахьан:',
 	'interwiki_delquestion' => '«$1» дӀаяккхар',
 	'interwiki_addbutton' => 'ТӀетоха',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|хийцина}} префикс «$4» ($5) (trans: $6; local: $7) юкъарвики-таблицехь',
 );
 
 /** Sorani Kurdish (کوردی)
