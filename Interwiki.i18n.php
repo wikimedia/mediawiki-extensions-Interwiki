@@ -435,8 +435,11 @@ $messages['arz'] = array(
 
 /** Assamese (অসমীয়া)
  * @author Bishnu Saikia
+ * @author Gitartha.bordoloi
  */
 $messages['as'] = array(
+	'interwiki' => 'আন্তঃৱিকি তথ্য চাওক আৰু সম্পাদনা কৰক',
+	'interwiki-title-norights' => 'আন্তঃৱিকি তথ্য চাওক',
 	'interwiki_1' => 'হয়',
 	'interwiki_0' => 'নহয়',
 	'interwiki_edit' => 'সম্পাদনা কৰক',
