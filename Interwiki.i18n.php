@@ -1574,6 +1574,7 @@ $messages['eu'] = array(
  * @author Huji
  * @author Mjbmr
  * @author Omidh
+ * @author Reza1615
  */
 $messages['fa'] = array(
 	'interwiki' => 'نمایش و ویرایش اطلاعات میان‌ویکی',
@@ -1582,10 +1583,12 @@ $messages['fa'] = array(
 	'interwiki_intro' => 'این یک نمای کلی از جدول interwiki است.',
 	'interwiki_prefix' => 'پیشوند',
 	'interwiki-prefix-label' => 'پیشوند:',
+	'interwiki_url' => 'نشانی اینترنتی',
+	'interwiki-url-label' => 'نشانی اینترنتی:',
 	'interwiki_local' => 'جلو',
 	'interwiki-local-label' => 'جلو:',
-	'interwiki_trans' => 'اجازهٔ گنجاندن میان‌ویکی را بده', # Fuzzy
-	'interwiki-trans-label' => 'اجازهٔ گنجاندن میان‌ویکی را بده:', # Fuzzy
+	'interwiki_trans' => 'تراگنجایش',
+	'interwiki-trans-label' => 'تراگنجایش:',
 	'interwiki_intro_footer' => 'برای اطلاعات بیشتر در مورد Interwiki به [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] مراحعه نمائید.
 همچنین می‌توانید [[Special:Log/interwiki|تاریخچهٔ تغییرات]] چدول Interwiki را مشاهده کنید.',
 	'interwiki_1' => 'بله',
