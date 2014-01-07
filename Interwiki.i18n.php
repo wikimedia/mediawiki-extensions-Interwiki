@@ -1569,6 +1569,7 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Ebraminio
  * @author Hamid rostami
  * @author Huji
@@ -1581,6 +1582,8 @@ $messages['fa'] = array(
 	'interwiki-title-norights' => 'مشاهدهٔ اطلاعات میان‌ویکی',
 	'interwiki-desc' => 'یک [[Special:Interwiki|صفحهٔ ویژه]] برای مشاهده و ویرایش جدول میان‌ویکی می‌افزاید.',
 	'interwiki_intro' => 'این یک نمای کلی از جدول interwiki است.',
+	'interwiki-legend-show' => 'نمایش افسانه',
+	'interwiki-legend-hide' => 'پنهان کردن افسانه',
 	'interwiki_prefix' => 'پیشوند',
 	'interwiki-prefix-label' => 'پیشوند:',
 	'interwiki_url' => 'نشانی اینترنتی',
@@ -1615,6 +1618,7 @@ $messages['fa'] = array(
 احتمالاً این پیشوند وجود ندارد.',
 	'interwiki-badprefix' => 'پیشوند میان‌ویکی «$1» حاوی نویسه‌های نامجاز است',
 	'interwiki-submit-empty' => 'پیشوند و آدرس URL نمی‌توانند خالی باشند.',
+	'interwiki-submit-invalidurl' => 'تفاهم‌نامهٔ یوآر‌ال نامعتبر است.',
 	'log-name-interwiki' => 'سیاههٔ جدول میان‌ویکی',
 	'log-description-interwiki' => 'این یک تاریخچه از تغییرات [[Special:Interwiki|interwiki table]] است.',
 	'right-interwiki' => 'ویرایش اطلاعات میان‌ویکی',
