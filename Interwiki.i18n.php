@@ -1592,6 +1592,7 @@ $messages['fa'] = array(
 	'interwiki-local-label' => 'جلو:',
 	'interwiki_trans' => 'تراگنجایش',
 	'interwiki-trans-label' => 'تراگنجایش:',
+	'interwiki_trans_0_intro' => 'اجازه به این ندهید، بلکه به دنبال یک صفحه در فضای نام الگو باشید.',
 	'interwiki_intro_footer' => 'برای اطلاعات بیشتر در مورد Interwiki به [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] مراحعه نمائید.
 همچنین می‌توانید [[Special:Log/interwiki|تاریخچهٔ تغییرات]] چدول Interwiki را مشاهده کنید.',
 	'interwiki_1' => 'بله',
@@ -1620,6 +1621,9 @@ $messages['fa'] = array(
 	'interwiki-submit-empty' => 'پیشوند و آدرس URL نمی‌توانند خالی باشند.',
 	'interwiki-submit-invalidurl' => 'تفاهم‌نامهٔ یوآر‌ال نامعتبر است.',
 	'log-name-interwiki' => 'سیاههٔ جدول میان‌ویکی',
+	'logentry-interwiki-iw_add' => '$1 {{GENDER:$2|اضافه شده}} پیشوند "$4" ($5) (ترانس: $6; local: $7) به جدول ویکی داخلی',
+	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|اصلاح شده}} پیشوند "$4" ($5) (tترنس: $6; داخلی: $7) در جدول ویکی داخلی',
+	'logentry-interwiki-iw_delete' => '$1 {{GENDER:$2|حذف شده}} پیشوند "$4" از جدول ویکی داخلی',
 	'log-description-interwiki' => 'این یک تاریخچه از تغییرات [[Special:Interwiki|interwiki table]] است.',
 	'right-interwiki' => 'ویرایش اطلاعات میان‌ویکی',
 	'action-interwiki' => 'تغییر این مدخل میان‌ویکی',
