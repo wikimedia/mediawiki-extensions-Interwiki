@@ -1541,14 +1541,15 @@ Võimalik, et seda pole olemas.',
  * @author An13sa
  * @author Kobazulo
  * @author Theklan
+ * @author Xabier Armendaritz
  */
 $messages['eu'] = array(
 	'interwiki' => 'Ikusi eta aldatu interwikiak',
 	'interwiki-title-norights' => 'Ikusi interwikiak',
 	'interwiki-desc' => 'Interwiki taula ikusi eta aldatzeko [[Special:Interwiki|orrialde berezi]] bat gehitzen du',
 	'interwiki_intro' => 'Hau interwiki taularen ikuspegi orokor bat da.',
-	'interwiki-legend-show' => 'Erakutsi legenda',
-	'interwiki-legend-hide' => 'Izkutatu legenda',
+	'interwiki-legend-show' => 'Erakutsi azalpenak',
+	'interwiki-legend-hide' => 'Ezkutatu azalpenak',
 	'interwiki_prefix' => 'Aurrizkia',
 	'interwiki-prefix-label' => 'Aurrizkia:',
 	'interwiki_local' => 'Aurrera',
