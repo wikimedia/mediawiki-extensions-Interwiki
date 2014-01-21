@@ -934,6 +934,7 @@ Possiblement no existeix.',
  */
 $messages['ce'] = array(
 	'interwiki-title-norights' => 'Юкъарвикишан хаамаш хьажар',
+	'interwiki-desc' => 'ТӀетуху [[Special:Interwiki|белхан агӀо]] юкъаравикин дешхьалхенашка хьажа а уьш тая а.',
 	'interwiki_intro' => 'ХӀара ду юкъарвикишан таблице хьажар.',
 	'interwiki-legend-show' => 'Гайта хьехар',
 	'interwiki-legend-hide' => 'Къайладаккха хьехар',
