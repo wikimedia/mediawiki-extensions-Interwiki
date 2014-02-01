@@ -3835,6 +3835,7 @@ Vielaischd hods des a ned.",
 
 /** Polish (polski)
  * @author BeginaFelicysym
+ * @author Chrumps
  * @author Leinad
  * @author Matma Rex
  * @author McMonster
@@ -3860,7 +3861,7 @@ $messages['pl'] = array(
 	'interwiki_trans' => 'Transkluzja',
 	'interwiki-trans-label' => 'Transkluzja:',
 	'interwiki_trans_intro' => 'Jeśli składnia wiki <code>{<nowiki />{przedrostek:<em>nazwastrony</em>}}</code> została użyta, to:',
-	'interwiki_trans_1_intro' => 'pozwala na transkluzję z innych wiki, jeśli transkluzja interwiki jest w ogóle dozwolona na tej wiki,',
+	'interwiki_trans_1_intro' => 'pozwala na transkluzję z innych wiki, jeśli transkluzja interwiki jest w ogóle dozwolona na tej wiki.',
 	'interwiki_trans_0_intro' => 'nie pozwalaj na nią, raczej szukaj strony w przestrzeni szablonów.',
 	'interwiki_intro_footer' => 'Na [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] odnajdziesz więcej informacji na temat tabeli interwiki.
 Tutaj znajduje się [[Special:Log/interwiki|rejestr zmian]] tabeli interwiki.',
