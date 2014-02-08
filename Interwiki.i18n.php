@@ -1409,6 +1409,7 @@ Verŝajne ĝi ne ekzistas.',
 
 /** Spanish (español)
  * @author Armando-Martin
+ * @author Ciencia Al Poder
  * @author Crazymadlover
  * @author Imre
  * @author Invadinado
@@ -1428,18 +1429,18 @@ $messages['es'] = array(
 	'interwiki-legend-hide' => 'Ocultar la leyenda',
 	'interwiki_prefix' => 'Prefijo',
 	'interwiki-prefix-label' => 'Prefijo:',
-	'interwiki_prefix_intro' => 'Prefijo interwiki que se utilizará en sintaxis wikitexto <code>[<nowiki />[prefix:<em>pagename</em>]]</code> wikitext syntax.',
-	'interwiki_url_intro' => 'Plantilla para URLs. El marcador $1 será reemplazado por el <em>nombre de página</em> del wikitexto cuando se use la sintaxis de wikitexto arriba mostrada.',
-	'interwiki_local' => 'Adelante',
-	'interwiki-local-label' => 'Adelante:',
-	'interwiki_local_intro' => 'Una solicitud HTTP a la wiki local con este prefijo interwiki en la URL es:',
-	'interwiki_local_0_intro' => 'no se satisfizo, normalmente bloqueado por "página no encontrada",',
-	'interwiki_local_1_intro' => 'redirigido a la URL objetivo en las definiciones de enlaces interwiki (es decir, se la trata como a las referencias en páginas locales)',
+	'interwiki_prefix_intro' => 'Prefijo interwiki que se utilizará en sintaxis wikitexto <code>[<nowiki />[prefijo:<em>nombre de página</em>]]</code>.',
+	'interwiki_url_intro' => 'Plantilla para URLs. El marcador $1 será reemplazado por el <em>nombre de página</em> del wikitexto cuando se use la sintaxis de wikitexto mostrada arriba.',
+	'interwiki_local' => 'Remitir',
+	'interwiki-local-label' => 'Remitir:',
+	'interwiki_local_intro' => 'Una solicitud HTTP a la wiki local con este prefijo interwiki en la URL:',
+	'interwiki_local_0_intro' => 'no será satisfecha, normalmente mostrando una página de error "título incorrecto" en su lugar.',
+	'interwiki_local_1_intro' => 'será remitida a la URL objetivo definida en los enlaces de interwiki.',
 	'interwiki_trans' => 'transcluir',
 	'interwiki-trans-label' => 'Transcluir:',
-	'interwiki_trans_intro' => 'Si se utiliza la sintaxis de wikitexto <code>{<nowiki />{prefix:<em>pagename</em>}}</code>, entonces:',
-	'interwiki_trans_1_intro' => 'permitir la transclusión desde la wiki foránea, si las transclusiones de interwiki son por lo general permitidas en esta wiki,',
-	'interwiki_trans_0_intro' => 'no permitirlo. En su lugar, buscar una página en el espacio de nombre de la plantilla.',
+	'interwiki_trans_intro' => 'Si se utiliza la sintaxis de wikitexto <code>{<nowiki />{prefijo:<em>nombre de la página</em>}}</code>, entonces:',
+	'interwiki_trans_1_intro' => 'se permitirá la transclusión desde la wiki foránea, si las transclusiones de interwiki son por lo general permitidas en este wiki.',
+	'interwiki_trans_0_intro' => 'no se permitirá, y en su lugar, buscará una página en el espacio de nombres de plantilla.',
 	'interwiki_intro_footer' => 'Para más información consulte [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] acerca de la tabla de interwiki.
 Hay un [[Special:Log/interwiki|registro de cambios]] a esta tabla de interwiki.',
 	'interwiki_1' => 'sí',
