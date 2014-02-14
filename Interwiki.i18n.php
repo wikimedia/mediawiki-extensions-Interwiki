@@ -5224,6 +5224,7 @@ $messages['yi'] = array(
 );
 
 /** Cantonese (粵語)
+ * @author Antonytse
  */
 $messages['yue'] = array(
 	'interwiki' => '去睇同編輯跨維基資料',
@@ -5236,7 +5237,7 @@ $messages['yue'] = array(
 	'interwiki_trans' => '容許跨維基包含', # Fuzzy
 	'interwiki-trans-label' => '容許跨維基包含:', # Fuzzy
 	'interwiki_error' => '錯誤: 跨維基表係空、又或者有其它嘢出錯。',
-	'interwiki_reasonfield' => '原因', # Fuzzy
+	'interwiki_reasonfield' => '原因：',
 	'interwiki_delquestion' => '刪緊 "$1"',
 	'interwiki_deleting' => '你而家拎走緊前綴 "$1"。',
 	'interwiki_deleted' => '前綴 "$1" 已經成功噉響個跨維基表度拎走咗。',
