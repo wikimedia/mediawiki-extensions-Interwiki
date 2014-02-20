@@ -1145,7 +1145,7 @@ Det findes muligvis ikke.',
 $messages['de'] = array(
 	'interwiki' => 'Interwikidaten ansehen und bearbeiten',
 	'interwiki-title-norights' => 'Interwikidaten ansehen',
-	'interwiki-desc' => '[[Special:Interwiki|Spezialseite]] zur Pflege der Interwikitabelle',
+	'interwiki-desc' => 'Ergänzt eine [[Special:Interwiki|Spezialseite]] zur Pflege der Interwikitabelle',
 	'interwiki_intro' => 'Diese Seite bietet einen Überblick des Inhalts der Interwikitabelle dieses Wikis.',
 	'interwiki-legend-show' => 'Legende anzeigen',
 	'interwiki-legend-hide' => 'Legende verbergen',
