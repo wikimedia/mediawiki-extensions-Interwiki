@@ -4719,6 +4719,7 @@ $messages['tcy'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Chaduvari
  * @author Kiranmayee
  * @author Veeven
  */
@@ -4734,7 +4735,7 @@ $messages['te'] = array(
 అంతర్వికీ పట్టికకి జరిగిన [[Special:Log/interwiki|మార్పుల యొక్క చిట్టా]] కూడా ఉంది.',
 	'interwiki_1' => 'అవును',
 	'interwiki_0' => 'కాదు',
-	'interwiki_error' => 'పొరపాటు: అంతర్వికీ పట్టిక ఖాళీగా ఉంది, లేదా ఏదో తప్పు జరిగింది.',
+	'interwiki_error' => 'లోపం: అంతర్వికీ పట్టిక ఖాళీగా ఉంది, లేదా మరేదో తప్పు జరిగింది.',
 	'interwiki_edit' => 'మార్చు',
 	'interwiki_reasonfield' => 'కారణం:',
 	'interwiki_delquestion' => '"$1"ని తొలగిస్తున్నారు',
