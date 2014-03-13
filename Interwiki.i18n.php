@@ -945,8 +945,8 @@ $messages['ce'] = array(
 	'interwiki_local' => 'ДӀасхьажор',
 	'interwiki-local-label' => 'ДӀасхьажор:',
 	'interwiki_local_intro' => 'HTTP-дехар кхузара википедига юкъарвики-дешхьалхеца URL чохь:',
-	'interwiki_local_0_intro' => 'магийна яц, хаамо блоктуху «агӀо цакарий»',
-	'interwiki_local_1_intro' => 'дӀасхьахьажа йо Ӏалашонан URL, юкъарвики-хьажораш билгал еш язйина йолу (кеч йо локальни агӀона хьажораг сана)',
+	'interwiki_local_0_intro' => 'магийна яц, хаамо блоктуху «агӀо цакарий»', # Fuzzy
+	'interwiki_local_1_intro' => 'дӀасхьахьажа йо Ӏалашонан URL, юкъарвики-хьажораш билгал еш язйина йолу (кеч йо локальни агӀона хьажораг сана)', # Fuzzy
 	'interwiki_trans' => 'Юкъатохар',
 	'interwiki-trans-label' => 'Юкъатохар:',
 	'interwiki_trans_intro' => 'Вики-йозана синтаксис лелош елахь <code>{<nowiki />{дешхьалхе:<em>агӀона цӀе</em>}}</code> тайпана:',
@@ -1156,7 +1156,7 @@ $messages['de'] = array(
 	'interwiki_local' => 'Als lokales Wiki definiert',
 	'interwiki-local-label' => 'Als lokales Wiki definiert:',
 	'interwiki_local_intro' => 'Eine HTTP-Anfrage an das lokale Wiki mit diesem Interwikipräfix in der URL wird:',
-	'interwiki_local_0_intro' => 'nicht erfüllt, sondern normalerweise mit „Seite nicht gefunden“ blockiert',
+	'interwiki_local_0_intro' => 'nicht erfüllt, stattdessen wird eine „{{int:badtitle}}“-Fehlerseite angezeigt',
 	'interwiki_local_1_intro' => 'automatisch auf die Ziel-URL der in den Definitionen angegebenen Interwikilinks weitergeleitet, d. h. sie werden wie ein Wikilink innerhalb lokaler Wikiseiten behandelt',
 	'interwiki_trans' => 'Einbinden zulässig',
 	'interwiki-trans-label' => 'Einbinden zulassen:',
@@ -1597,8 +1597,8 @@ $messages['fa'] = array(
 	'interwiki_local' => 'جلو',
 	'interwiki-local-label' => 'جلو:',
 	'interwiki_local_intro' => 'درخواست اچ‌تی‌تی‌پی برای ویکی داخلی با این پیشوند ویکی داخلی در یوآر‌ال هست:',
-	'interwiki_local_0_intro' => 'بدون افتخار، اغلب توسط "صفحه پیدا نشد" مسدود شده.',
-	'interwiki_local_1_intro' => 'هدایت به یوآر‌ال مورد نظر داده‌ شده در تعاریف لینک ویکی داخلی (یعنی مانند منابع در صفحات داخلی مطرح می‌شود).',
+	'interwiki_local_0_intro' => 'متاسفانه، صفحهٔ خطای "{{int:badtitle}}"  به جایش نمایش داده می‌شود.',
+	'interwiki_local_1_intro' => 'هدایت به یوآر‌ال مورد نظر داده‌ شده در تعاریف لینک ویکی داخلی (یعنی مانند پیوندها در صفحات داخلی مطرح می‌شود).',
 	'interwiki_trans' => 'تراگنجایش',
 	'interwiki-trans-label' => 'تراگنجایش:',
 	'interwiki_trans_intro' => 'اگر نحو متن ویکی <code>{<nowiki />{prefix:<em>pagename</em>}}</code> استفاده شده‌است، سپس:',
@@ -1719,8 +1719,8 @@ $messages['fr'] = array(
 	'interwiki_local' => 'Faire suivre',
 	'interwiki-local-label' => 'Faire suivre :',
 	'interwiki_local_intro' => "Une requête HTTP sur ce wiki avec ce préfixe interwiki dans l'URL sera :",
-	'interwiki_local_0_intro' => 'rejeté, bloqué généralement par « Mauvais titre »,',
-	'interwiki_local_1_intro' => "redirigé vers l'URL cible en fonction de la définition du préfixe interwiki (c'est-à-dire traité comme un lien dans une page du wiki)",
+	'interwiki_local_0_intro' => 'non honoré, une page d’erreur « {{int:badtitle}} » sera affichée à la place.',
+	'interwiki_local_1_intro' => 'redirigé vers l’URL cible en fonction des définitions de lien interwiki (c’est-à-dire traité comme des liens vers des pages du wiki).',
 	'interwiki_trans' => 'Inclure',
 	'interwiki-trans-label' => 'Inclure :',
 	'interwiki_trans_intro' => 'Si la syntaxe <code>{<nowiki />{préfixe:<em>nom de la page</em>}}</code> est utilisée, alors :',
@@ -2008,10 +2008,11 @@ $messages['ha'] = array(
 
 /** Hawaiian (Hawai`i)
  * @author Kalani
+ * @author Kolonahe
  * @author Singularity
  */
 $messages['haw'] = array(
-	'interwiki_edit' => 'E hoʻololi',
+	'interwiki_edit' => 'Hoʻololi',
 	'interwiki_reasonfield' => 'Kumu:',
 	'interwiki_addbutton' => 'Ho‘ohui',
 );
@@ -2520,8 +2521,8 @@ $messages['ilo'] = array(
 	'interwiki_local' => 'Agpakauna',
 	'interwiki-local-label' => 'Agpakauna:',
 	'interwiki_local_intro' => 'Ti maysa nga HTTP a kiddaw iti lokal a wiki iti daytoy a pagpasaruno ti interwiki iti URL ket:',
-	'interwiki_local_0_intro' => 'saan a naawat, kadawyan a sinerraan babaen ti "saan a nabirukan ti panid".',
-	'interwiki_local_1_intro' => 'naibaw-ing manen iti puntaan nga URL a naited kadagiti silpo a panangipalawag ti interwiki (a kas ti natrato kasla dagiti reperensia kadagiti lokal a panid).',
+	'interwiki_local_0_intro' => 'saan a naawat, kadawyan a sinerraan babaen ti "saan a nabirukan ti panid".', # Fuzzy
+	'interwiki_local_1_intro' => 'naibaw-ing manen iti puntaan nga URL a naited kadagiti silpo a panangipalawag ti interwiki (a kas ti natrato kasla dagiti reperensia kadagiti lokal a panid).', # Fuzzy
 	'interwiki_trans' => 'Ilak-am',
 	'interwiki-trans-label' => 'Ilak-am:',
 	'interwiki_trans_intro' => 'No ti gramatika ti testo ti wiki ti <code>{<nowiki />{pagpasaruno:<em>nagan ti panid</em>}}</code> ket mausar, no kasta:',
@@ -2671,8 +2672,8 @@ $messages['ja'] = array(
 	'interwiki_local' => '転送',
 	'interwiki-local-label' => '転送:',
 	'interwiki_local_intro' => 'URLにこの接頭辞が付いた、ローカルウィキへのHTTP要求は、',
-	'interwiki_local_0_intro' => '無効です。「ページは存在しません」などと表示されます。',
-	'interwiki_local_1_intro' => 'インターウィキウィキリンクの定義で指定された対象URLに転送されます。言い換えると、同一ウィキ内のページへのリンクのように扱います。',
+	'interwiki_local_0_intro' => '無効です。代わりに「{{int:badtitle}}」のエラーページが表示されます。',
+	'interwiki_local_1_intro' => 'インターウィキリンクの定義で指定された対象URLに転送されます。言い換えると、同一ウィキ内のページへのリンクのように扱います。',
 	'interwiki_trans' => 'トランスクルージョン',
 	'interwiki-trans-label' => 'トランスクルージョン:',
 	'interwiki_trans_intro' => '<code>{<nowiki />{接頭辞:<em>ページ名</em>}}</code> というウィキテキストの構文が使用された場合:',
@@ -3258,8 +3259,8 @@ $messages['mk'] = array(
 	'interwiki_local' => 'Препратка',
 	'interwiki-local-label' => 'Препратка:',
 	'interwiki_local_intro' => 'HTTP-барање до локалното вики со овој меѓувики-префикс во URL-адресата:',
-	'interwiki_local_0_intro' => 'не се почитува, туку обично се блокира со пораката „страницата не е пронајдена“,',
-	'interwiki_local_1_intro' => 'се пренасочува кон целната URL-адреса посочена во дефинициите на меѓувики-врските (т.е. се третираат како наводите на локалните страници)',
+	'interwiki_local_0_intro' => 'не се почитува, туку се појавува известување за грешка „{{int:badtitle}}“.',
+	'interwiki_local_1_intro' => 'се пренасочува кон целната URL-адреса посочена во дефинициите на меѓувики-врските (т.е. се третираат како врските до локалните страници).',
 	'interwiki_trans' => 'Превметнување',
 	'interwiki-trans-label' => 'Превметнување:',
 	'interwiki_trans_intro' => 'Ако се користи викитекст-синтаксата <code>{<nowiki />{префикс:<em>име на страница</em>}}</code>, тогаш:',
@@ -4401,8 +4402,8 @@ $messages['sco'] = array(
 	'interwiki_local' => 'Forewaird',
 	'interwiki-local-label' => 'Forewaird:',
 	'interwiki_local_intro' => 'Aen HTTP request til the local wiki wi this interwiki prefix in the URL is:',
-	'interwiki_local_0_intro' => 'naw honored, uisuallie blockit bi "page naw foond".',
-	'interwiki_local_1_intro' => 'reguided til the tairget URL gien in the interwiki link defineetions (i.e. treated like references in local pages).',
+	'interwiki_local_0_intro' => 'na honored, ae "{{int:badtitle}}" mistak page will be displeyed instead.',
+	'interwiki_local_1_intro' => 'reguided til the tairget URL gien in the interwiki link defineetions (i.e. treated like links til local pages).',
 	'interwiki_trans' => 'Transclæde',
 	'interwiki-trans-label' => 'Transclæde:',
 	'interwiki_trans_intro' => 'Gif wikitex syntax <code>{<nowiki />{prefix:<em>pagename</em>}}</code> is uised, than:',
@@ -5151,6 +5152,7 @@ $messages['ur'] = array(
  * @author Sociologist
  */
 $messages['uz'] = array(
+	'interwiki_reasonfield' => 'Sabab:',
 	'interwiki_addbutton' => 'Qoʻshish',
 	'log-name-interwiki' => 'Interviki jadvalidagi oʻzgarishlar qaydlari',
 );
