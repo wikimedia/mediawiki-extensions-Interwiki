@@ -955,7 +955,7 @@ $messages['ce'] = array(
 	'interwiki_1' => 'ю',
 	'interwiki_0' => 'яц',
 	'interwiki_edit' => 'Нисъе',
-	'interwiki_reasonfield' => 'Бахьан:',
+	'interwiki_reasonfield' => 'Бахьна:',
 	'interwiki_delquestion' => '«$1» дӀаяккхар',
 	'interwiki_addbutton' => 'ТӀетоха',
 	'logentry-interwiki-iw_edit' => '$1 {{GENDER:$2|хийцина}} префикс «$4» ($5) (trans: $6; local: $7) юкъарвики-таблицехь',
@@ -3073,8 +3073,8 @@ $messages['lb'] = array(
 	'interwiki_local' => 'Viruleeden',
 	'interwiki-local-label' => 'Viruleeden:',
 	'interwiki_local_intro' => 'Eng HTTP-Ufro un déi lokal Wiki mat dësem Interwiki-Prefix an der URL gëtt:',
-	'interwiki_local_0_intro' => 'net erfëllt, gëtt normalerweis mat „Säit net fonnt“ blockéiert',
-	'interwiki_local_1_intro' => "automatesch op d'Zil-URL virugeleed déi an den Interwikilink-Definitiounen uginn ass (d. h. gëtt wéi en Interwikilink op enger lokaler Säit behandelt)",
+	'interwiki_local_0_intro' => 'net erfëllt, normalerweis gëtt d\'Feelersäit "{{int:badtitle}}" an deem Fall gewisen.',
+	'interwiki_local_1_intro' => "automatesch op d'Zil-URL virugeleed déi an den Interwikilink-Definitiounen uginn ass (d. h. gëtt wéi en Interwikilink op enger lokaler Säit behandelt)", # Fuzzy
 	'interwiki_trans' => 'Interwiki-Abannungen',
 	'interwiki-trans-label' => 'Abannen:',
 	'interwiki_trans_intro' => "Wann d'Wiki-Syntax <code>{<nowiki />{prefix:<em>Numm vun der Säit</em>}}</code> benotzt gëtt, dann:",
@@ -4267,8 +4267,8 @@ $messages['ru'] = array(
 	'interwiki_local' => 'Пересылка',
 	'interwiki-local-label' => 'Пересылка:',
 	'interwiki_local_intro' => 'HTTP-запрос в местную вики с интервики-приставкой в URL:',
-	'interwiki_local_0_intro' => 'не допускается, обычно блокируется сообщением «страница не найдена»,',
-	'interwiki_local_1_intro' => 'перенаправляет на целевой URL, указанный в определении интервики-ссылки (т. е. обрабатывается подобно ссылке с локальной страницы)',
+	'interwiki_local_0_intro' => 'не допускается, обычно блокируется с сообщением «{{int:badtitle}}».',
+	'interwiki_local_1_intro' => 'перенаправляет на целевой URL, указанный в определении интервики-ссылки (т. е. обрабатывается подобно ссылке на локальную страницу).',
 	'interwiki_trans' => 'Включение',
 	'interwiki-trans-label' => 'Включение:',
 	'interwiki_trans_intro' => 'Если используется синтаксис вики-текста вида <code>{<nowiki />{приставка:<em>название страницы</em>}}</code>:',
@@ -4393,6 +4393,7 @@ Lu prifissu putissi èssiri ca non c\'è.',
  */
 $messages['sco'] = array(
 	'interwiki' => 'View n eidit interwiki data',
+	'interwiki-title-norights' => 'See interwiki data',
 	'interwiki-desc' => 'Adds ae [[Special:Interwiki|speecial page]] tae view n eidit the interwiki biurd',
 	'interwiki_intro' => 'This is aen owerview o the interwiki buird.',
 	'interwiki-legend-show' => 'Shaw legend',
@@ -4747,8 +4748,8 @@ $messages['sv'] = array(
 	'interwiki_local' => 'Vidarebefordra',
 	'interwiki-local-label' => 'Vidarebefordra:',
 	'interwiki_local_intro' => 'En HTTP-förfrågan till den lokala wikin med denna interwiki-prefix i webbadressen är:',
-	'interwiki_local_0_intro' => 'inte accepterad, vanligtvis blockerad av "sidan kunde inte hittas".',
-	'interwiki_local_1_intro' => 'omdirigeras till måladressen som anges i definitionerna av interwiki-länken (d.v.s. behandlas som referenser i lokala sidor).',
+	'interwiki_local_0_intro' => 'inte accepterad, felsidan "{{int:badtitle}}" kommer att visas istället.',
+	'interwiki_local_1_intro' => 'omdirigeras till måladressen som anges i definitionerna av interwiki-länken (d.v.s. behandlas som länkar till lokala sidor).',
 	'interwiki_trans' => 'Transkludera',
 	'interwiki-trans-label' => 'Transkludera:',
 	'interwiki_trans_intro' => 'Om wikitextsyntax <code>{<nowiki />{prefix:<em>pagename</em>}}</code> används så:',
@@ -5064,6 +5065,7 @@ $messages['ug-arab'] = array(
 /** Ukrainian (українська)
  * @author AS
  * @author Ahonc
+ * @author Andriykopanytsia
  * @author Base
  * @author Hypers
  * @author Microcell
@@ -5085,7 +5087,7 @@ $messages['uk'] = array(
 	'interwiki_local' => 'Відсилання',
 	'interwiki-local-label' => 'Відсилання:',
 	'interwiki_local_intro' => 'HTTP-запит у місцеву вікі з інтервікі-префіксом в URL:',
-	'interwiki_local_0_intro' => 'не допускається, як правило, блокується повідомленням "сторінка не знайдена",',
+	'interwiki_local_0_intro' => 'не допускається, як правило, блокується повідомленням "{{int:badtitle}}"',
 	'interwiki_local_1_intro' => 'перенаправляє на цільовий URL, вказаний у визначенні інтервікі-посилання (тобто, розглядається як посилання на місцевих сторінках)',
 	'interwiki_trans' => 'Включення',
 	'interwiki-trans-label' => 'Включення:',
