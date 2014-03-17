@@ -2039,7 +2039,7 @@ $messages['he'] = array(
 	'interwiki_local' => 'העברה',
 	'interwiki-local-label' => 'העברה:',
 	'interwiki_local_intro' => 'בקשת HTTP לאתר הוויקי המקומי עם קידומת בינוויקי זו בכתובת:',
-	'interwiki_local_0_intro' => 'לא מכובדת, לרוב נחסמת עם הודעת "הדף לא נמצא".',
+	'interwiki_local_0_intro' => 'לא מכובדת, במקום זה תוצג שגיאת "{{int:badtitle}}".',
 	'interwiki_local_1_intro' => 'מופנית אל כתובת היעד שניתנה בהגדרות קישור הבינוויקי (כלומר מטופלת כמו הפניה בדפים מקומיים)',
 	'interwiki_trans' => 'הכללה',
 	'interwiki-trans-label' => 'הכללה:',
@@ -3074,7 +3074,7 @@ $messages['lb'] = array(
 	'interwiki-local-label' => 'Viruleeden:',
 	'interwiki_local_intro' => 'Eng HTTP-Ufro un déi lokal Wiki mat dësem Interwiki-Prefix an der URL gëtt:',
 	'interwiki_local_0_intro' => 'net erfëllt, normalerweis gëtt d\'Feelersäit "{{int:badtitle}}" an deem Fall gewisen.',
-	'interwiki_local_1_intro' => "automatesch op d'Zil-URL virugeleed déi an den Interwikilink-Definitiounen uginn ass (d. h. gëtt wéi en Interwikilink op enger lokaler Säit behandelt)", # Fuzzy
+	'interwiki_local_1_intro' => "automatesch op d'Zil-URL virugeleet déi an den Interwikilink-Definitiounen uginn ass (d. h. gëtt wéi e Link op eng lokal Säit behandelt)",
 	'interwiki_trans' => 'Interwiki-Abannungen',
 	'interwiki-trans-label' => 'Abannen:',
 	'interwiki_trans_intro' => "Wann d'Wiki-Syntax <code>{<nowiki />{prefix:<em>Numm vun der Säit</em>}}</code> benotzt gëtt, dann:",
@@ -3791,8 +3791,8 @@ $messages['oc'] = array(
 	'interwiki_local' => 'Far seguir',
 	'interwiki-local-label' => 'Far seguir :',
 	'interwiki_local_intro' => "Una requèsta HTTP sus aqueste wiki amb aqueste prefix interwiki dins l'URL serà :",
-	'interwiki_local_0_intro' => 'regetat, blocat generalament per « Marrit títol »,',
-	'interwiki_local_1_intro' => "redirigit cap a l'URL cibla en foncion de la definicion del prefix interwiki (es a dire tractat coma un ligam dins una pagina del wiki)",
+	'interwiki_local_0_intro' => 'pas onorat, una pagina d’error « {{int:badtitle}} » serà afichada a la plaça.',
+	'interwiki_local_1_intro' => "redirigit cap a l'URL cibla en foncion de la definicion del prefix interwiki (es a dire tractat coma un ligam dins una pagina del wiki)", # Fuzzy
 	'interwiki_trans' => 'Enclure',
 	'interwiki-trans-label' => 'Enclure :',
 	'interwiki_trans_intro' => 'Se la sintaxi <code>{<nowiki />{prefix :<em>nom de la pagina</em>}}</code> es utilizada, alara :',
@@ -4058,6 +4058,7 @@ $messages['ps'] = array(
  * @author Alchimista
  * @author Cainamarques
  * @author Hamilton Abreu
+ * @author Imperadeiro98
  * @author Malafaya
  * @author Waldir
  * @author 555
@@ -4076,8 +4077,8 @@ $messages['pt'] = array(
 	'interwiki_local' => 'Encaminhar',
 	'interwiki-local-label' => 'Encaminhar:',
 	'interwiki_local_intro' => 'Um pedido http para a wiki local, com este prefixo de interwikis na URL, é:',
-	'interwiki_local_0_intro' => 'ignorado, geralmente bloqueado por "página não encontrada",',
-	'interwiki_local_1_intro' => 'redireccionado para a URL de destino especificada nas definições dos links interwikis (isto é, tratado como referências em páginas locais)',
+	'interwiki_local_0_intro' => 'ignorado, geralmente bloqueado por "página não encontrada",', # Fuzzy
+	'interwiki_local_1_intro' => 'redirecionado para a URL de destino especificada nas definições das ligações interwikis (isto é, tratada como referências para páginas locais).',
 	'interwiki_trans' => 'Transcluir',
 	'interwiki-trans-label' => 'Transcluir:',
 	'interwiki_trans_intro' => 'Se for usada a sintaxe de texto wiki <code>{<nowiki />{prefix:<em>nome_página</em>}}</code>, então:',
