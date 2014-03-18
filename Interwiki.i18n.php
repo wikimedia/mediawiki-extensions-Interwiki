@@ -1586,8 +1586,8 @@ $messages['fa'] = array(
 	'interwiki-title-norights' => 'مشاهدهٔ اطلاعات میان‌ویکی',
 	'interwiki-desc' => 'یک [[Special:Interwiki|صفحهٔ ویژه]] برای مشاهده و ویرایش جدول میان‌ویکی می‌افزاید.',
 	'interwiki_intro' => 'این یک نمای کلی از جدول interwiki است.',
-	'interwiki-legend-show' => 'نمایش افسانه',
-	'interwiki-legend-hide' => 'پنهان کردن افسانه',
+	'interwiki-legend-show' => 'نمایش علائم',
+	'interwiki-legend-hide' => 'پنهان‌کردن علائم',
 	'interwiki_prefix' => 'پیشوند',
 	'interwiki-prefix-label' => 'پیشوند:',
 	'interwiki_prefix_intro' => 'پیشوند ویکی داخلی در <code>[<nowiki />[prefix:<em>pagename</em>]]</code> نحو متن ویکی استفاده شده‌است.',
@@ -5387,6 +5387,7 @@ $messages['yue'] = array(
  * @author Gaoxuewei
  * @author Hzy980512
  * @author Liangent
+ * @author Liuxinyu970226
  * @author Mark85296341
  * @author PhiLiP
  * @author Shizhao
@@ -5409,7 +5410,7 @@ $messages['zh-hans'] = array(
 	'interwiki_local' => '转发',
 	'interwiki-local-label' => '转发：',
 	'interwiki_local_intro' => '该跨wiki前缀到本地wiki的HTTP请求：',
-	'interwiki_local_0_intro' => '无法实现，通常是遇到“页面未找到”。',
+	'interwiki_local_0_intro' => '无法实现，“{{int:badtitle}}”错误页面将显示。',
 	'interwiki_local_1_intro' => '重定向到跨wiki链接定义的目标URL（即视为本地页面中的引用）。',
 	'interwiki_trans' => '包含',
 	'interwiki-trans-label' => '包含：',
@@ -5457,6 +5458,7 @@ $messages['zh-hans'] = array(
  * @author Horacewai2
  * @author Justincheng12345
  * @author Liangent
+ * @author Liuxinyu970226
  * @author Mark85296341
  * @author Oapbtommy
  * @author Waihorace
@@ -5476,7 +5478,7 @@ $messages['zh-hant'] = array(
 	'interwiki_local' => '轉發',
 	'interwiki-local-label' => '定義這個為一個本地 wiki：',
 	'interwiki_local_intro' => '該跨wiki前綴到本地wiki的HTTP請求：',
-	'interwiki_local_0_intro' => '無法實現，通常是遇到“頁面未找到”。',
+	'interwiki_local_0_intro' => '無法實現，通常是遇到「{{int:badtitle}}」。',
 	'interwiki_local_1_intro' => '重定向到跨wiki鏈接定義的目標URL（即視為本地頁面中的引用）。',
 	'interwiki_trans' => '包含',
 	'interwiki-trans-label' => '容許跨維基包含：',
