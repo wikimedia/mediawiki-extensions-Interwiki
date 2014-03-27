@@ -40,7 +40,7 @@ $wgExtensionCredits['specialpage'][] = array(
 		'Sam Reed',
 		'...'
 	),
-	'version' => '2.2 20120425',
+	'version' => '2.3 20140327',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Interwiki',
 	'descriptionmsg' => 'interwiki-desc',
 );
@@ -58,6 +58,7 @@ $wgResourceModules['ext.interwiki.specialpage'] = array(
 
 // Set up the new special page
 $dir = dirname( __FILE__ ) . '/';
+$wgMessagesDirs['Interwiki'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Interwiki'] = $dir . 'Interwiki.i18n.php';
 $wgExtensionMessagesFiles['InterwikiAlias'] = $dir . 'Interwiki.alias.php';
 $wgAutoloadClasses['SpecialInterwiki'] = $dir . 'Interwiki_body.php';
