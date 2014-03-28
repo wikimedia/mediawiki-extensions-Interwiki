@@ -20,7 +20,7 @@
     "interwiki_deleted": "前綴 \"$1\" 已經成功噉響個跨維基表度拎走咗。",
     "interwiki_delfailed": "前綴 \"$1\" 唔能夠響個跨維基表度拎走。",
     "interwiki_addtext": "加入一個跨維基前綴",
-    "interwiki_addintro": "你而家加緊一個新嘅跨維基前綴。\n要記住佢係唔可以包含住空格 ( )、冒號 (:)、連字號 (&)，或者係等號 (=)。",
+    "interwiki_addintro": "你而家加緊一個新嘅跨維基前綴。\n要記住佢係唔可以包含住空格 ( )、冒號 (:)、連字號 (\u0026)，或者係等號 (=)。",
     "interwiki_addbutton": "加",
     "interwiki_added": "前綴 \"$1\" 已經成功噉加入到跨維基表。",
     "interwiki_addfailed": "前綴 \"$1\" 唔能夠加入到跨維基表。\n可能已經響個跨維基表度存在。",
