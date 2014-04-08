@@ -54,6 +54,11 @@ $specialPageAliases['ce'] = array(
 	'Interwiki' => array( 'Юкъарвики' ),
 );
 
+/** Sorani Kurdish (کوردی) */
+$specialPageAliases['ckb'] = array(
+	'Interwiki' => array( 'نێوانویکی' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'Interwiki' => array( 'Interwikitabelle', 'Interwiki-Tabelle' ),
