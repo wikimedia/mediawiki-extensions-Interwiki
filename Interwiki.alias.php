@@ -104,6 +104,11 @@ $specialPageAliases['gl'] = array(
 	'Interwiki' => array( 'Interwikis' ),
 );
 
+/** Hawaiian (Hawai`i) */
+$specialPageAliases['haw'] = array(
+	'Interwiki' => array( 'Waenawiki' ),
+);
+
 /** Hebrew (עברית) */
 $specialPageAliases['he'] = array(
 	'Interwiki' => array( 'בינוויקי' ),
