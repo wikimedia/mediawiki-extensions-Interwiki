@@ -30,7 +30,7 @@
 	"interwiki_local": "Used on [[Special:Interwiki]] as a column header.\n\n{{Identical|Forward}}",
 	"interwiki-local-label": "Field label for the interwiki property \"local\", to set if an HTTP request to the local wiki with this interwiki prefix in the URL is redirected to the target URL given in the interwiki link definitions.",
 	"interwiki_local_intro": "Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|Interwiki local}} column of the table.",
-	"interwiki_local_0_intro": "Used on [[Special:Interwiki]] so as to descripe the meaning of the value 0 in the {{msg-mw|Interwiki local}} column of the table.",
+	"interwiki_local_0_intro": "Used on [[Special:Interwiki]] so as to descripe the meaning of the value 0 in the {{msg-mw|Interwiki local}} column of the table.\n\nRefers to {{msg-mw|Badtitle}}.",
 	"interwiki_local_1_intro": "Used on [[Special:Interwiki]] so as to descripe the meaning of the value 1 in the {{msg-mw|Interwiki local}} column of the table.",
 	"interwiki_trans": "Used on [[Special:Interwiki]] as table column header.",
 	"interwiki-trans-label": "Used on [[Special:Interwiki]] as a field label in a form.",
