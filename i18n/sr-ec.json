@@ -12,6 +12,8 @@
 	"interwiki-title-norights": "Међувики",
 	"interwiki-desc": "Додаје посебну страницу за преглед и измену [[Special:Interwiki|табеле међувикија]]",
 	"interwiki_intro": "Ово је преглед табеле међувикија.",
+	"interwiki-legend-show": "Прикажи легенду",
+	"interwiki-legend-hide": "Сакриј легенду",
 	"interwiki_prefix": "Префикс",
 	"interwiki-prefix-label": "Префикс:",
 	"interwiki_prefix_intro": "Међувики префикс који ће бити коришћен у <code>[<nowiki />[prefix:<em>pagename</em>]]</code> викитекст синтакси.",
