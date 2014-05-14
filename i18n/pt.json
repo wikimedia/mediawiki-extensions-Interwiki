@@ -7,7 +7,8 @@
 			"Imperadeiro98",
 			"Malafaya",
 			"Waldir",
-			"555"
+			"555",
+			"Vitorvicentevalente"
 		]
 	},
 	"interwiki": "Ver e manipular dados de interwikis",
@@ -23,7 +24,7 @@
 	"interwiki_local": "Encaminhar",
 	"interwiki-local-label": "Encaminhar:",
 	"interwiki_local_intro": "Um pedido http para a wiki local, com este prefixo de interwikis na URL, é:",
-	"interwiki_local_0_intro": "ignorado, geralmente bloqueado por \"página não encontrada\",",
+	"interwiki_local_0_intro": "ignorado; será mostrado um erro de página \"{{int:badtitle}}\" em vez disso.",
 	"interwiki_local_1_intro": "redirecionado para a URL de destino especificada nas definições das ligações interwikis (isto é, tratada como referências para páginas locais).",
 	"interwiki_trans": "Transcluir",
 	"interwiki-trans-label": "Transcluir:",
