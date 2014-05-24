@@ -5,7 +5,8 @@
 			"Kwj2772",
 			"Mintz0223",
 			"ToePeu",
-			"아라"
+			"아라",
+			"Hym411"
 		]
 	},
 	"interwiki": "인터위키 목록 보기 및 고치기",
@@ -21,8 +22,8 @@
 	"interwiki_local": "전달",
 	"interwiki-local-label": "전달:",
 	"interwiki_local_intro": "URL에 인터위키 접두어가 포함되어 있을 때 로컬 위키로의 HTTP 요청:",
-	"interwiki_local_0_intro": "무시함, 보통 \"잘못된 제목\"을 출력합니다.",
-	"interwiki_local_1_intro": "인터위키 링크 정의에 입력된 URL로 이동합니다. (즉, 로컬 문서의 참고 자료로 취급됩니다)",
+	"interwiki_local_0_intro": "무시함, 보통 \"{{int:badtitle}}\"을 대신 출력합니다.",
+	"interwiki_local_1_intro": "인터위키 링크 정의에 입력된 URL로 이동합니다. (즉, 로컬 문서의 링크로 취급됩니다)",
 	"interwiki_trans": "인터위키 포함",
 	"interwiki-trans-label": "인터위키 포함:",
 	"interwiki_trans_intro": "<code>{<nowiki />{접두어:<em>pagename</em>}}</code>이 쓰일 경우:",
