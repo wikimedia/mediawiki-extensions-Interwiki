@@ -10,6 +10,8 @@
 	"interwiki-title-norights": "Pregledaj podatke o međuvikiju",
 	"interwiki-desc": "Dodaje [[Special:Interwiki|specijalnu stranu]] za pregled i izmenu tabele međuvikija",
 	"interwiki_intro": "Ovo je pregled tabele međuvikija.",
+	"interwiki-legend-show": "Prikaži legendu",
+	"interwiki-legend-hide": "Sakrij legendu",
 	"interwiki_prefix": "Prefiks",
 	"interwiki-prefix-label": "Prefiks:",
 	"interwiki_prefix_intro": "Međuviki prefiks koji će biti korišćen u <code>[<nowiki />[prefix:<em>pagename</em>]]</code> vikitekst sintaksi.",
