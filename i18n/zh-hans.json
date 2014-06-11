@@ -11,7 +11,8 @@
 			"Vina",
 			"Wmr89502270",
 			"Xiaomingyan",
-			"Yfdyh000"
+			"Yfdyh000",
+			"Mywood"
 		]
 	},
 	"interwiki": "查看和编辑跨wiki数据",
@@ -29,8 +30,8 @@
 	"interwiki_local_intro": "该跨wiki前缀到本地wiki的HTTP请求：",
 	"interwiki_local_0_intro": "无法实现，“{{int:badtitle}}”错误页面将显示。",
 	"interwiki_local_1_intro": "重定向到跨wiki链接定义的目标URL（即视为本地页面中的引用）。",
-	"interwiki_trans": "包含",
-	"interwiki-trans-label": "包含：",
+	"interwiki_trans": "嵌入",
+	"interwiki-trans-label": "嵌入：",
 	"interwiki_trans_intro": "如果使用wiki语法<code>{<nowiki />{prefix:<em>pagename</em>}}</code>，那么：",
 	"interwiki_trans_1_intro": "如果跨wiki包含在该wiki得到授权，则允许从外部wiki包含。",
 	"interwiki_trans_0_intro": "不允许，看作是寻找模板命名空间中的一个页面。",
