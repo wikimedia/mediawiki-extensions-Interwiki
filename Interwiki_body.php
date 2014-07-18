@@ -49,7 +49,7 @@ class SpecialInterwiki extends SpecialPage {
 			break;
 		case 'submit':
 			if ( !$this->canModify( $out ) ) {
-				# Error msg added by canModify()
+				// Error msg added by canModify()
 			} elseif ( !$request->wasPosted() ||
 				!$this->getUser()->matchEditToken( $request->getVal( 'wpEditToken' ) )
 			) {
@@ -75,21 +75,21 @@ class SpecialInterwiki extends SpecialPage {
 	public function canModify( $out = false ) {
 		global $wgInterwikiCache;
 		if ( !$this->getUser()->isAllowed( 'interwiki' ) ) {
-			# Check permissions
+			// Check permissions
 			if ( $out ) {
 				throw new PermissionsError( 'interwiki' );
 			}
 
 			return false;
 		} elseif ( $wgInterwikiCache ) {
-			# Editing the interwiki cache is not supported
+			// Editing the interwiki cache is not supported
 			if ( $out ) {
 				$out->addWikiMsg( 'interwiki-cached' );
 			}
 
 			return false;
 		} elseif ( wfReadOnly() ) {
-			# Is the database in read-only mode?
+			// Is the database in read-only mode?
 			if ( $out ) {
 				$out->readOnlyPage();
 			}
@@ -330,19 +330,19 @@ class SpecialInterwiki extends SpecialPage {
 		}
 
 		if ( !method_exists( 'Interwiki', 'getAllPrefixes' ) ) {
-			# version 2.0 is not backwards compatible (but still display nice error)
+			// version 2.0 is not backwards compatible (but still display nice error)
 			$this->error( 'interwiki_error' );
 			return;
 		}
 		$iwPrefixes = Interwiki::getAllPrefixes( null );
 
 		if ( !is_array( $iwPrefixes ) || count( $iwPrefixes ) === 0 ) {
-			# If the interwiki table is empty, display an error message
+			// If the interwiki table is empty, display an error message
 			$this->error( 'interwiki_error' );
 			return;
 		}
 
-		# Output the existing Interwiki prefixes table header
+		// Output the existing Interwiki prefixes table header
 		$out = '';
 		$out .=	Html::openElement(
 			'table',
@@ -365,7 +365,7 @@ class SpecialInterwiki extends SpecialPage {
 
 		$selfTitle = $this->getPageTitle();
 
-		# Output the existing Interwiki prefixes table rows
+		// Output the existing Interwiki prefixes table rows
 		foreach ( $iwPrefixes as $iwPrefix ) {
 			$out .= Html::openElement( 'tr', array( 'class' => 'mw-interwikitable-row' ) );
 			$out .= Html::element( 'td', array( 'class' => 'mw-interwikitable-prefix' ),
@@ -378,7 +378,7 @@ class SpecialInterwiki extends SpecialPage {
 			$attribs = array( 'class' => 'mw-interwikitable-local' );
 			// Green background for cells with "yes".
 			if( $iwPrefix['iw_local'] ) {
-				$attribs['style'] = 'background: lime;';
+				$attribs['class'] .= ' mw-interwikitable-local-yes';
 			}
 			// The messages interwiki_0 and interwiki_1 are used here.
 			$contents = isset( $iwPrefix['iw_local'] ) ?
@@ -388,7 +388,7 @@ class SpecialInterwiki extends SpecialPage {
 			$attribs = array( 'class' => 'mw-interwikitable-trans' );
 			// Green background for cells with "yes".
 			if( $iwPrefix['iw_trans'] ) {
-				$attribs['style'] = 'background: lime;';
+				$attribs['class'] .= ' mw-interwikitable-trans-yes';
 			}
 			// The messages interwiki_0 and interwiki_1 are used here.
 			$contents = isset( $iwPrefix['iw_trans'] ) ?
