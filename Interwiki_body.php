@@ -212,7 +212,7 @@ class SpecialInterwiki extends SpecialPage {
 	}
 
 	function doSubmit() {
-		global $wgContLang, $wgMemc;
+		global $wgMemc, $wgContLang;
 
 		$request = $this->getRequest();
 		$prefix = $request->getVal( 'wpInterwikiPrefix' );
@@ -295,47 +295,130 @@ class SpecialInterwiki extends SpecialPage {
 	}
 
 	function showList() {
+		global $wgInterwikiCentralDB;
 		$canModify = $this->canModify();
 
+		// Page intro content
 		$this->getOutput()->addWikiMsg( 'interwiki_intro' );
 		// Make collapsible.
 		$this->getOutput()->addHTML(
 			Html::openElement(
 				'div', array(
-					'class' => 'mw-collapsible mw-collapsed',
+					'class' => 'mw-collapsible mw-collapsed mw-interwiki-legend',
 					'data-collapsetext' => $this->msg( 'interwiki-legend-hide' )->escaped(),
 					'data-expandtext' => $this->msg('interwiki-legend-show' )->escaped()
 		) ) );
 		$this->getOutput()->addWikiMsg( 'interwiki_legend' );
 		$this->getOutput()->addHTML( Html::closeElement( 'div' ) ); // end collapsible.
+		$this->getOutput()->addHTML( '<div style="clear:both"></div>' );
 
-		if ( $canModify ) {
-			$this->getOutput()->addWikiMsg( 'interwiki_intro_footer' );
-			$addtext = $this->msg( 'interwiki_addtext' )->escaped();
-			$addlink = Linker::linkKnown( $this->getPageTitle( 'add' ), $addtext );
-			$this->getOutput()->addHTML( '<p class="mw-interwiki-addlink">' . $addlink . '</p>' );
-		}
-
+		// Build lists
 		if ( !method_exists( 'Interwiki', 'getAllPrefixes' ) ) {
-			// version 2.0 is not backwards compatible (but still display nice error)
+			// version 2.0 is not backwards compatible (but will still display a nice error)
 			$this->error( 'interwiki_error' );
 			return;
 		}
 		$iwPrefixes = Interwiki::getAllPrefixes( null );
-
-		if ( !is_array( $iwPrefixes ) || count( $iwPrefixes ) === 0 ) {
-			// If the interwiki table is empty, display an error message
-			$this->error( 'interwiki_error' );
-			return;
+		$iwGlobalPrefixes = array();
+		if ( $wgInterwikiCentralDB !== null && $wgInterwikiCentralDB !== wfWikiId() ) {
+			// Fetch list from global table
+			$dbrCentralDB = wfGetDB( DB_SLAVE, array(), $wgInterwikiCentralDB );
+			$res = $dbrCentralDB->select( 'interwiki', '*', false, __METHOD__ );
+			$retval = array();
+			foreach ( $res as $row ) {
+				$row = (array)$row;
+				if ( !Language::fetchLanguageName( $row['iw_prefix'] ) ) {
+					$retval[] = $row;
+				}
+			}
+			$iwGlobalPrefixes = $retval;
 		}
 
+		// Split out language links
+		$iwLocalPrefixes = array();
+		$iwLanguagePrefixes = array();
+		foreach ( $iwPrefixes as $iwPrefix ) {
+			if ( Language::fetchLanguageName( $iwPrefix['iw_prefix'] ) ) {
+				$iwLanguagePrefixes[] = $iwPrefix;
+			} else {
+				$iwLocalPrefixes[] = $iwPrefix;
+			}
+		}
+
+		// Add general description and 'add' link
+		if ( $canModify ) {
+			$this->getOutput()->addWikiMsg( 'interwiki_intro_footer' );
+			if ( count( $iwGlobalPrefixes ) !== 0 ) {
+				$addtext = $this->msg( 'interwiki-addtext-local' )->escaped();
+			} else {
+				$addtext = $this->msg( 'interwiki_addtext' )->escaped();
+			}
+			$addlink = Linker::linkKnown( $this->getPageTitle( 'add' ), $addtext );
+			$this->getOutput()->addHTML( '<p class="mw-interwiki-addlink">' . $addlink . '</p>' );
+		}
+
+		if ( !is_array( $iwPrefixes ) || count( $iwPrefixes ) === 0 ) {
+			if (  !is_array( $iwGlobalPrefixes ) || count( $iwGlobalPrefixes ) === 0 ) {
+				// If the interwiki table(s) are empty, display an error message
+				$this->error( 'interwiki_error' );
+				return;
+			}
+		}
+
+		// Add the global table
+		if ( count( $iwGlobalPrefixes ) !== 0 ) {
+			$this->getOutput()->addHTML(
+				'<h2 id="interwikitable-global">' .
+				$this->msg( 'interwiki-global-links' )->parse() .
+				'</h2>'
+			);
+			$this->getOutput()->addWikiMsg( 'interwiki-global-description' );
+
+			// $canModify is false here because this is just a display of remote data
+			$this->makeTable( false, $iwGlobalPrefixes );
+		}
+
+		// Add the local table
+		if ( count( $iwLocalPrefixes ) !== 0 ) {
+			if ( count( $iwGlobalPrefixes ) !== 0 ) {
+				$this->getOutput()->addHTML(
+					'<h2 id="interwikitable-local">' .
+					$this->msg( 'interwiki-local-links' )->parse() .
+					'</h2>'
+				);
+				$this->getOutput()->addWikiMsg( 'interwiki-local-description' );
+			} else {
+				$this->getOutput()->addHTML(
+					'<h2 id="interwikitable-local">' .
+					$this->msg( 'interwiki-links' )->parse() .
+					'</h2>'
+				);
+				$this->getOutput()->addWikiMsg( 'interwiki-description' );
+			}
+			$this->makeTable( $canModify, $iwLocalPrefixes );
+		}
+
+		// Add the language table
+		if ( count( $iwLanguagePrefixes ) !== 0 ) {
+			$this->getOutput()->addHTML(
+				'<h2 id="interwikitable-language">' .
+				$this->msg( 'interwiki-language-links' )->parse() .
+				'</h2>'
+			);
+			$this->getOutput()->addWikiMsg( 'interwiki-language-description' );
+
+			$this->makeTable( $canModify, $iwLanguagePrefixes );
+		}
+	}
+
+	function makeTable( $canModify, $iwPrefixes ) {
 		// Output the existing Interwiki prefixes table header
 		$out = '';
 		$out .=	Html::openElement(
 			'table',
 			array( 'class' => 'mw-interwikitable wikitable sortable body' )
 		) . "\n";
-		$out .= Html::openElement( 'tr', array( 'id' => 'interwikitable-header' ) ) .
+		$out .= Html::openElement( 'tr', array( 'class' => 'interwikitable-header' ) ) .
 			Html::element( 'th', null, $this->msg( 'interwiki_prefix' )->text() ) .
 			Html::element( 'th', null, $this->msg( 'interwiki_url' )->text() ) .
 			Html::element( 'th', null, $this->msg( 'interwiki_local' )->text() ) .

@@ -12,7 +12,8 @@
 			"SPQRobin",
 			"Shirayuki",
 			"Siebrand",
-			"Umherirrender"
+			"Umherirrender",
+			"Isarra"
 		]
 	},
 	"interwiki": "{{doc-special|Interwiki}}",
@@ -48,6 +49,7 @@
 	"interwiki_deleted": "Used as success message. Parameters:\n* $1 - interwiki prefix",
 	"interwiki_delfailed": "Error message when removing an interwiki table entry fails. Parameters:\n* $1 is an interwiki prefix.",
 	"interwiki_addtext": "Link description to open form to add an interwiki prefix.",
+	"interwiki-addtext-local": "Link description for wikis with global interwikis to open form to add a local interwiki prefix.",
 	"interwiki_addintro": "Form information when adding an interwiki prefix.",
 	"interwiki_addbutton": "This message is the text of the button to submit the interwiki prefix you are adding.\n\n{{Identical|Add}}",
 	"interwiki_added": "Success message after adding an interwiki prefix. Parameters:\n* $1 is the added interwiki prefix.",
@@ -67,5 +69,13 @@
 	"log-description-interwiki": "Part of the interwiki extension. Summary shown on [[Special:Log/interwiki]].",
 	"logentry-interwiki-interwiki": "{{notranslate}}",
 	"right-interwiki": "{{doc-right|interwiki}}",
-	"action-interwiki": "{{doc-action|interwiki}}"
+	"action-interwiki": "{{doc-action|interwiki}}",
+	"interwiki-global-links": "Used on [[Special:Interwiki]] as header text for global interwiki prefix table",
+	"interwiki-global-description": "Appears under the interwiki-global-links header on [[Special:Interwiki]]; explains the distinction between global and local tables",
+	"interwiki-local-links": "Used on [[Special:Interwiki]] as header text for local interwiki prefix table if a global table is also present",
+	"interwiki-local-description": "Appears under the interwiki-local-links header on [[Special:Interwiki]]Used on [[Special:Interwiki]]; explains what the local table does",
+	"interwiki-links": "Used on [[Special:Interwiki]] as header text for interwiki prefix table if no global table is present",
+	"interwiki-description": "{{notranslate}}\nAppears under the interwiki-links header on [[Special:Interwiki]]",
+	"interwiki-language-links": "Used on [[Special:Interwiki]] as header text for interwiki language prefix table",
+	"interwiki-language-description": "Appears under the interwiki-language-links header on [[Special:Interwiki]]; explains what interlanguage links do"
 }

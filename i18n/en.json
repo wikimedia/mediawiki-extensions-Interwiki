@@ -3,7 +3,8 @@
         "authors": [
             "Stephanie Amanda Stevens",
             "SPQRobin",
-            "Purodha"
+            "Purodha",
+            "Isarra"
         ]
     },
     "interwiki": "View and edit interwiki data",
@@ -38,7 +39,8 @@
     "interwiki_deleting": "You are deleting prefix \"$1\".",
     "interwiki_deleted": "Prefix \"$1\" was successfully removed from the interwiki table.",
     "interwiki_delfailed": "Prefix \"$1\" could not be removed from the interwiki table.",
-    "interwiki_addtext": "Add an interwiki prefix",
+    "interwiki_addtext": "Add an interwiki or language prefix",
+    "interwiki-addtext-local": "Add a local interwiki or language prefix",
     "interwiki_addintro": "You are adding a new interwiki prefix.\nRemember that it cannot contain spaces ( ), colons (:), ampersands (&), or equal signs (=).",
     "interwiki_addbutton": "Add",
     "interwiki_added": "Prefix \"$1\" was successfully added to the interwiki table.",
@@ -58,5 +60,13 @@
     "log-description-interwiki": "This is a log of changes to the [[Special:Interwiki|interwiki table]].",
     "logentry-interwiki-interwiki": "",
     "right-interwiki": "Edit interwiki data",
-    "action-interwiki": "change this interwiki entry"
+    "action-interwiki": "change this interwiki entry",
+    "interwiki-global-links": "Global interwiki prefixes",
+    "interwiki-global-description": "These prefixes are inherited from a global configuration, and can only be edited on the source wiki.",
+    "interwiki-local-links": "Local interwiki prefixes",
+    "interwiki-local-description": "These prefixes exist locally. Any duplicates with the global configuration will override the global definiton.",
+    "interwiki-links": "Interwiki prefixes",
+    "interwiki-description": "",
+    "interwiki-language-links": "Interlanguage prefixes",
+    "interwiki-language-description": "These prefixes match defined language codes, and will be used to create the 'in other languages' listing when added to a page."
 }
