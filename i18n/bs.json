@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"CERminator",
-			"Kal-El"
+			"Kal-El",
+			"KWiki"
 		]
 	},
 	"interwiki": "Vidi i uredi međuwiki podatke",
@@ -17,7 +18,7 @@
 	"interwiki_url_intro": "Šablon za URLove. Šablon $1 će biti zamijenjen sa <em>pagename</em> wikiteksta, ako je gore spomenuta sintaksa wikiteksta korištena.",
 	"interwiki_local": "naprijed",
 	"interwiki-local-label": "Naprijed:",
-	"interwiki_local_intro": "Http zahtjev na lokalnu wiki sa ovim interwiki prefiksom u URl je:",
+	"interwiki_local_intro": "HTTP zahtjev na lokalnu wiki s ovim interwiki prefiksom u URL jeste:",
 	"interwiki_local_0_intro": "nije privilegovano, obično blokirano putem \"stranica nije nađena\",",
 	"interwiki_local_1_intro": "preusmjeravanje na ciljnu URL koja je navedena putem interwiki definicije (tj. tretira se poput referenci na lokalnim stranicama)",
 	"interwiki_trans": "Uključenja",
