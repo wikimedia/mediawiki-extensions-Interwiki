@@ -30,7 +30,7 @@
 	"interwiki_intro_footer": "Zie [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] voor meer informatie over de interwikitabel.\nEr is een [[Special:Log/interwiki|veranderingslogboek]] voor de interwikitabel.",
 	"interwiki_1": "ja",
 	"interwiki_0": "nee",
-	"interwiki_error": "Fout: De interwikitabel is leeg, of iets anders ging verkeerd.",
+	"interwiki_error": "Fout: De interwikitabel is leeg, of iets anders is misgegaan.",
 	"interwiki-cached": "De interwikigegevens staan in de cache. De cache wijzigen is niet mogelijk.",
 	"interwiki_edit": "Bewerken",
 	"interwiki_reasonfield": "Reden:",
