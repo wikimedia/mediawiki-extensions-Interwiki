@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dimension"
+			"Dimension",
+			"Jason924tw"
 		]
 	},
 	"interwiki": "察與修跨維表",
@@ -16,6 +17,7 @@
 	"interwiki_1": "是",
 	"interwiki_0": "否",
 	"interwiki_error": "錯：跨維為空，或它錯發生。",
+	"interwiki_edit": "纂",
 	"interwiki_reasonfield": "因：",
 	"interwiki_delquestion": "現刪「$1」",
 	"interwiki_deleting": "爾正刪「$1」。",
