@@ -306,24 +306,11 @@ class SpecialInterwiki extends SpecialPage {
 					'data-collapsetext' => $this->msg( 'interwiki-legend-hide' )->escaped(),
 					'data-expandtext' => $this->msg('interwiki-legend-show' )->escaped()
 		) ) );
-		$this->getOutput()->addHTML(
-			Html::rawElement(
-				'table', array( 'class' => 'mw-interwikitable wikitable intro' ),
-				$this->addInfoRow( 'start', 'interwiki_prefix', 'interwiki_prefix_intro' ) . "\n" .
-				$this->addInfoRow( 'start', 'interwiki_url', 'interwiki_url_intro' ) . "\n" .
-				$this->addInfoRow( 'start', 'interwiki_local', 'interwiki_local_intro' ) . "\n" .
-				$this->addInfoRow( 'end', 'interwiki_0', 'interwiki_local_0_intro' ) . "\n" .
-				$this->addInfoRow( 'end', 'interwiki_1', 'interwiki_local_1_intro' ) . "\n" .
-				$this->addInfoRow( 'start', 'interwiki_trans', 'interwiki_trans_intro' ) . "\n" .
-				$this->addInfoRow( 'end', 'interwiki_0', 'interwiki_trans_0_intro' ) . "\n" .
-				$this->addInfoRow( 'end', 'interwiki_1', 'interwiki_trans_1_intro' ) . "\n"
-			)
-		);
-
+		$this->getOutput()->addWikiMsg( 'interwiki_legend' );
 		$this->getOutput()->addHTML( Html::closeElement( 'div' ) ); // end collapsible.
 
 		if ( $canModify ) {
-			$this->getOutput()->addHTML( "<br />" . $this->msg( 'interwiki_intro_footer' )->parse() );
+			$this->getOutput()->addWikiMsg( 'interwiki_intro_footer' );
 			$addtext = $this->msg( 'interwiki_addtext' )->escaped();
 			$addlink = Linker::linkKnown( $this->getPageTitle( 'add' ), $addtext );
 			$this->getOutput()->addHTML( '<p class="mw-interwiki-addlink">' . $addlink . '</p>' );
@@ -411,26 +398,6 @@ class SpecialInterwiki extends SpecialPage {
 		$out .= Html::closeElement( 'table' );
 
 		$this->getOutput()->addHTML( $out );
-	}
-
-	/**
-	 * Adds a row to the documentation table on the top of Special:Interwiki.
-	 * @param $align string
-	 * @param $title string
-	 * @param $text string
-	 * @return string
-	 */
-	private function addInfoRow( $align = 'start', $title, $text ) {
-		return Html::rawElement( 'tr', null,
-			// The classes mw-align-start and mw-align-end are used here.
-			Html::rawElement(
-				'th',
-				array( 'class' => 'mw-align-' . $align ),
-				$this->msg( $title )->escaped()
-			) .
-			// This message is expected to have wiki syntax
-			Html::rawElement( 'td', null, $this->msg( $text )->parse() )
-		);
 	}
 
 	function error() {
