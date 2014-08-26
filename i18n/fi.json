@@ -28,7 +28,7 @@
 	"interwiki_error": "Virhe: Interwiki-taulu on tyhjä tai jokin muu meni pieleen.",
 	"interwiki-cached": "Wikienvälinen data on välimuistissa. Välimuistin muuttaminen ei ole mahdollista.",
 	"interwiki_edit": "Muokkaa",
-	"interwiki_reasonfield": "Syy",
+	"interwiki_reasonfield": "Syy:",
 	"interwiki_delquestion": "Poistetaan ”$1”",
 	"interwiki_deleting": "Olet poistamassa etuliitettä ”$1”.",
 	"interwiki_deleted": "Etuliite ”$1” poistettiin onnistuneesti interwiki-taulusta.",
