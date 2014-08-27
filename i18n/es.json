@@ -11,7 +11,8 @@
 			"Piolinfax",
 			"Sanbec",
 			"Translationista",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"Macofe"
 		]
 	},
 	"interwiki": "Ver y editar la tabla de interwikis",
@@ -23,15 +24,13 @@
 	"interwiki_prefix": "Prefijo",
 	"interwiki-prefix-label": "Prefijo:",
 	"interwiki_prefix_intro": "Prefijo interwiki que se utilizará en sintaxis wikitexto <code>[<nowiki />[prefijo:<em>nombre de página</em>]]</code>.",
-	"interwiki_url_intro": "Plantilla para URLs. El marcador $1 será reemplazado por el <em>nombre de página</em> del wikitexto cuando se use la sintaxis de wikitexto mostrada arriba.",
+	"interwiki_url_intro": "Plantilla para URLs. El marcador $1 se reemplazará por el <em>nombre de página</em> en <code>[<nowiki />[prefix:<em>nombre de página</em>]]</code>.",
 	"interwiki_local": "Remitir",
 	"interwiki-local-label": "Remitir:",
-	"interwiki_local_intro": "Una solicitud HTTP a la wiki local con este prefijo interwiki en la URL:",
 	"interwiki_local_0_intro": "no será satisfecha, en su lugar se mostrará una página de error \"{{int:badtitle}}\".",
 	"interwiki_local_1_intro": "será remitida a la URL objetivo definida en los enlaces de interwiki (es decir, se tratarán como enlaces a páginas locales).",
 	"interwiki_trans": "transcluir",
 	"interwiki-trans-label": "Transcluir:",
-	"interwiki_trans_intro": "Si se utiliza la sintaxis de wikitexto <code>{<nowiki />{prefijo:<em>nombre de la página</em>}}</code>, entonces:",
 	"interwiki_trans_1_intro": "se permitirá la transclusión desde la wiki foránea, si las transclusiones de interwiki son por lo general permitidas en este wiki.",
 	"interwiki_trans_0_intro": "no se permitirá, y en su lugar, buscará una página en el espacio de nombres de plantilla.",
 	"interwiki_intro_footer": "Para más información consulte [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] acerca de la tabla de interwiki.\nHay un [[Special:Log/interwiki|registro de cambios]] a esta tabla de interwiki.",
