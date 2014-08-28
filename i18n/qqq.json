@@ -21,7 +21,7 @@
 	"interwiki_intro": "Part of the interwiki extension. Shown as introductory text on [[Special:Interwiki]].",
 	"interwiki-legend-show": "Link text for toggle to display the legend on [[Special:Interwiki]].",
 	"interwiki-legend-hide": "Link text for toggle to hide the legend on [[Special:Interwiki]].",
-	"interwiki-legend": "{{notranslate}}\nLegend on [[Special:Interwiki]].",
+	"interwiki_legend": "{{notranslate}}\nLegend on [[Special:Interwiki]].",
 	"interwiki_prefix": "Used on [[Special:Interwiki]] as a column header of the table.",
 	"interwiki-prefix-label": "Used on [[Special:Interwiki]] as a field label in a form.",
 	"interwiki_prefix_intro": "Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|Interwiki prefix}} column of the table.\n\nDo translate both words inside the square brackets as placeholders, where \"prefix\" should be identical to, or clearly linked to, the column header.",
