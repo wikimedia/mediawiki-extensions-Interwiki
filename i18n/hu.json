@@ -5,7 +5,8 @@
 			"Dani",
 			"Dj",
 			"Glanthor Reviol",
-			"Gondnok"
+			"Gondnok",
+			"Tacsipacsi"
 		]
 	},
 	"interwiki": "Wikiközi hivatkozások adatainak megtekintése és szerkesztése",
@@ -17,15 +18,13 @@
 	"interwiki_prefix": "Előtag",
 	"interwiki-prefix-label": "Előtag:",
 	"interwiki_prefix_intro": "Wikiközi előtag az <code>[<nowiki />[előtag:<em>lapnév</em>]]</code> wikiszöveg szintaxisban való használatra.",
-	"interwiki_url_intro": "Sablon az URL-eknek. A(z) $1 helyfoglalót le fogja cserélni a wikiszöveg <em>lapneve</em>, a fent említett wikiszöveg használata esetén.",
+	"interwiki_url_intro": "Sablon az URL-eknek. A(z) $1 helyfoglalót le fogja cserélni a wikiszöveg <em>lapneve</em> az <code>[<nowiki />[előtag:<em>lapnév</em>]]</code> kifejezésben.",
 	"interwiki_local": "Továbbítás",
 	"interwiki-local-label": "Továbbítás:",
-	"interwiki_local_intro": "Egy HTTP kérés a helyi wikihez ezzel a wikiközi előtaggal az URL-ben:",
 	"interwiki_local_0_intro": "nem teljesül, általában blokkolja a „lap nem található”,",
 	"interwiki_local_1_intro": "átirányítva a wikiközi hivatkozások definícióiban megadott cél URL-re  (azaz olyan, mint a hivatkozások a helyi lapokon)",
 	"interwiki_trans": "Wikiközi beillesztés",
 	"interwiki-trans-label": "Wikiközi beillesztés:",
-	"interwiki_trans_intro": "Ha az <code>{<nowiki />{előtag:<em>lapnév</em>}}</code> wikiszöveg szintaxist használjuk, akkor:",
 	"interwiki_trans_1_intro": "engedd a beillesztést az idegen wikiről, ha a wikiközi beillesztések általában megengedettek ezen a wikin,",
 	"interwiki_trans_0_intro": "ne engedd, inkább keress egy lapot a sablon névtérben.",
 	"interwiki_intro_footer": "Az interwiki-táblázattal kapcsolatban további információkat a [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org]-on olvashatsz. Az interwiki-táblázat módosításai [[Special:Log/interwiki|naplózva]] vannak.",

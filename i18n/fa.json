@@ -31,7 +31,7 @@
 	"interwiki_trans": "تراگنجانش",
 	"interwiki-trans-label": "تراگنجانش:",
 	"interwiki_trans_1_intro": "اجازه دادن ترنس‌کلوژن از ویکی خارجی، اگر ترنس‌کلوژن‌های ویکی داخلی در این ویکی به طور کلی اجازه داده خواهد شد.",
-	"interwiki_trans_0_intro": "اجازه به این ندهید، بلکه به دنبال یک صفحه در فضای نام الگو باشید.",
+	"interwiki_trans_0_intro": "به <code>{<nowiki />{prefix:<em>pagename</em>}}</code> اجازه ندهید تا الگوها/صفحات خارجی را تراگنجانش کند، جای آن دنبال یک صفحه محلی در فضای نام آن الگو بگردید.",
 	"interwiki_intro_footer": "برای اطلاعات بیشتر در مورد Interwiki به [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] مراحعه نمائید.\nهمچنین می‌توانید [[Special:Log/interwiki|تاریخچهٔ تغییرات]] چدول Interwiki را مشاهده کنید.",
 	"interwiki_1": "بله",
 	"interwiki_0": "خیر",
