@@ -20,7 +20,7 @@
 	"interwiki_url_intro": "Schabloun fir URLen. $1 gëtt duerch <em>Säitennumm</em> aus der uewe genannter Syntax am Wikitext ersat.",
 	"interwiki_local": "Viruleeden",
 	"interwiki-local-label": "Viruleeden:",
-	"interwiki_local_0_intro": "net erfëllt, normalerweis gëtt d'Feelersäit \"{{int:badtitle}}\" an deem Fall gewisen.",
+	"interwiki_local_0_intro": "Extern HTTP verlaangt datt déi lokal Wiki wann dësen interwiki-Prefix an der URL benotzt gëtt, d'Feelersäit \"{{int:badtitle}}\" gewise gëtt.",
 	"interwiki_local_1_intro": "automatesch op d'Zil-URL virugeleet déi an den Interwikilink-Definitiounen uginn ass (d. h. gëtt wéi e Link op eng lokal Säit behandelt)",
 	"interwiki_trans": "Interwiki-Abannungen",
 	"interwiki-trans-label": "Abannen:",
