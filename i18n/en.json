@@ -12,7 +12,7 @@
     "interwiki_intro": "This is an overview of the interwiki table.",
     "interwiki-legend-show": "Show legend",
     "interwiki-legend-hide": "Hide legend",
-    "interwiki_legend": "{| class=\"wikitable\"\n|-\n!{{int:interwiki_prefix}}\n|colspan=2|{{int:interwiki_prefix_intro}}\n|-\n!{{int:interwiki_url}}\n|colspan=2|{{int:interwiki_url_intro}}\n|-\n!rowspan=2|{{int:interwiki_local}}\n!{{int:interwiki_1}}\n|{{int:interwiki_local_1_intro}}\n|-\n!{{int:interwiki_0}}\n|{{int:interwiki_local_0_intro}}\n|-\n!rowspan=2|Transclude\n!{{int:interwiki_1}}\n|{{int:interwiki_trans_1_intro}}\n|-\n!{{int:interwiki_0}}\n|{{int:interwiki_trans_0_intro}}\n|-\n|}",
+    "interwiki_legend": "{| class=\"wikitable\"\n|-\n!{{int:interwiki_prefix}}\n|colspan=2|{{int:interwiki_prefix_intro}}\n|-\n!{{int:interwiki_url}}\n|colspan=2|{{int:interwiki_url_intro}}\n|-\n!rowspan=2|{{int:interwiki_local}}\n!{{int:interwiki_1}}\n|{{int:interwiki_local_1_intro}}\n|-\n!{{int:interwiki_0}}\n|{{int:interwiki_local_0_intro}}\n|-\n!rowspan=2|{{int:interwiki_trans}}\n!{{int:interwiki_1}}\n|{{int:interwiki_trans_1_intro}}\n|-\n!{{int:interwiki_0}}\n|{{int:interwiki_trans_0_intro}}\n|-\n|}",
     "interwiki_prefix": "Prefix",
     "interwiki-prefix-label": "Prefix:",
     "interwiki_prefix_intro": "Interwiki prefix to be used in <code>[<nowiki />[prefix:<em>pagename</em>]]</code> wikitext syntax.",
