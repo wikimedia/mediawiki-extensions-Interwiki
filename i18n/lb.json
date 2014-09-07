@@ -17,7 +17,7 @@
 	"interwiki-prefix-label": "Prefix:",
 	"interwiki_prefix_intro": "Interwiki-Prefix fir an der Form <code>[<nowiki />[prefix:<em>Säitennumm</em>]]</code> am Wikitext gebraucht ze ginn.",
 	"interwiki-url-label": "URL:",
-	"interwiki_url_intro": "Schabloun fir URLen. $1 gëtt duerch <em>Säitennumm</em> aus der uewe genannter Syntax am Wikitext ersat.",
+	"interwiki_url_intro": "Schabloun fir URLen. $1 gëtt duerch <em>Säitennumm</em> op <code>[<nowiki />[prefix:<em>pagename</em>]]</code> ersat.",
 	"interwiki_local": "Viruleeden",
 	"interwiki-local-label": "Viruleeden:",
 	"interwiki_local_0_intro": "Extern HTTP verlaangt datt déi lokal Wiki wann dësen interwiki-Prefix an der URL benotzt gëtt, d'Feelersäit \"{{int:badtitle}}\" gewise gëtt.",
