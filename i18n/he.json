@@ -38,7 +38,8 @@
 	"interwiki_deleting": "הנכם מוחקים את הקידומת \"$1\".",
 	"interwiki_deleted": "הקידומת \"$1\" הוסרה בהצלחה מטבלת הבינוויקי.",
 	"interwiki_delfailed": "לא ניתן להסיר את הקידומת \"$1\" מטבלת הבינוויקי.",
-	"interwiki_addtext": "הוספת קידומת בינוויקי",
+	"interwiki_addtext": "הוספת בינוויקי או קידומת שפה",
+	"interwiki-addtext-local": "הוספת בינוויקי מקומי או קידומת שפה",
 	"interwiki_addintro": "הנכם מוסיפים קידומת בינוויקי חדשה.\nזכרו שלא ניתן לכלול רווחים ( ), נקודותיים (:), אמפרסנד (&) או הסימן שווה (=).",
 	"interwiki_addbutton": "הוספה",
 	"interwiki_added": "הקידומת \"$1\" נוספה בהצלחה לטבלת הבינוויקי.",
@@ -56,5 +57,12 @@
 	"logentry-interwiki-iw_delete": "$1 {{GENDER:$2|הסיר|הסירה}} את הקידומת \"$4\" מטבלת interwiki",
 	"log-description-interwiki": "זהו יומן השינויים שנערכו ב[[Special:Interwiki|טבלת הבינוויקי]].",
 	"right-interwiki": "עריכת נתוני הבינוויקי",
-	"action-interwiki": "לשנות את רשומת הבינוויקי הזו"
+	"action-interwiki": "לשנות את רשומת הבינוויקי הזו",
+	"interwiki-global-links": "קידומות בינוויקי גלובליות",
+	"interwiki-global-description": "קידומות אלה עוברות בירושה מתצורה גלובלית, וניתן לערוך אותן רק באתר הוויקי המקורי.",
+	"interwiki-local-links": "קידומות בינוויקי מקומיות",
+	"interwiki-local-description": "קידומות אלה קיימות באופן מקומי. כל כפילויות עם התצורה הגלובלית יעקפו את ההגדרה הגלובלית.",
+	"interwiki-links": "קידומות בינוויקי",
+	"interwiki-language-links": "קידומות בינוויקי",
+	"interwiki-language-description": "קידומות אלה מותאמות לקודים של שפה מוגדרת, וישמשו ליצירת רשימת ה'דף זה בשפות אחרות' בעת הוספתן לדף."
 }
