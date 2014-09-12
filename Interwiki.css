@@ -40,8 +40,11 @@ input#mw-interwiki-url {
 	white-space: nowrap;
 }
 
-.mw-special-Interwiki .mw-collapsible-toggle {
-	float: none;
+.mw-interwiki-legend .mw-collapsible-toggle {
+	font-weight: normal;
+}
+table.mw-interwiki-legend {
+	margin-top: 2em;
 }
 
 .mw-collapsible-content {

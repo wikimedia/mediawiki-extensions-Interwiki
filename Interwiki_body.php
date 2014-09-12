@@ -298,20 +298,6 @@ class SpecialInterwiki extends SpecialPage {
 		global $wgInterwikiCentralDB;
 		$canModify = $this->canModify();
 
-		// Page intro content
-		$this->getOutput()->addWikiMsg( 'interwiki_intro' );
-		// Make collapsible.
-		$this->getOutput()->addHTML(
-			Html::openElement(
-				'div', array(
-					'class' => 'mw-collapsible mw-collapsed mw-interwiki-legend',
-					'data-collapsetext' => $this->msg( 'interwiki-legend-hide' )->escaped(),
-					'data-expandtext' => $this->msg('interwiki-legend-show' )->escaped()
-		) ) );
-		$this->getOutput()->addWikiMsg( 'interwiki_legend' );
-		$this->getOutput()->addHTML( Html::closeElement( 'div' ) ); // end collapsible.
-		$this->getOutput()->addHTML( '<div style="clear:both"></div>' );
-
 		// Build lists
 		if ( !method_exists( 'Interwiki', 'getAllPrefixes' ) ) {
 			// version 2.0 is not backwards compatible (but will still display a nice error)
@@ -345,9 +331,16 @@ class SpecialInterwiki extends SpecialPage {
 			}
 		}
 
-		// Add general description and 'add' link
+		// Page intro content
+		$this->getOutput()->addWikiMsg( 'interwiki_intro' );
+		$logLink = Linker::link(
+			SpecialPage::getTitleFor( 'log', 'interwiki' ),
+			$this->msg( 'interwiki-logtext' )->escaped()
+		);
+		$this->getOutput()->addHTML( '<p class="mw-interwiki-log">' . $logLink . '</p>' );
+
+		// Add 'add' link
 		if ( $canModify ) {
-			$this->getOutput()->addWikiMsg( 'interwiki_intro_footer' );
 			if ( count( $iwGlobalPrefixes ) !== 0 ) {
 				$addtext = $this->msg( 'interwiki-addtext-local' )->escaped();
 			} else {
@@ -356,6 +349,8 @@ class SpecialInterwiki extends SpecialPage {
 			$addlink = Linker::linkKnown( $this->getPageTitle( 'add' ), $addtext );
 			$this->getOutput()->addHTML( '<p class="mw-interwiki-addlink">' . $addlink . '</p>' );
 		}
+
+		$this->getOutput()->addWikiMsg( 'interwiki-legend' );
 
 		if ( !is_array( $iwPrefixes ) || count( $iwPrefixes ) === 0 ) {
 			if (  !is_array( $iwGlobalPrefixes ) || count( $iwGlobalPrefixes ) === 0 ) {
