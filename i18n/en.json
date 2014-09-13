@@ -64,7 +64,7 @@
     "interwiki-global-links": "Global interwiki prefixes",
     "interwiki-global-description": "These prefixes are inherited from a global configuration, and can only be edited on the source wiki.",
     "interwiki-local-links": "Local interwiki prefixes",
-    "interwiki-local-description": "These prefixes exist locally. Any duplicates with the global configuration will override the global definiton.",
+    "interwiki-local-description": "These prefixes exist locally. Any duplicates with the global configuration will override the global definition.",
     "interwiki-links": "Interwiki prefixes",
     "interwiki-description": "",
     "interwiki-language-links": "Interlanguage prefixes",
