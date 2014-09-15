@@ -37,7 +37,7 @@
 	"interwiki_deleting": "Dir läscht de Prefix \"$1\".",
 	"interwiki_deleted": "De Prefix \"$1\" gouf aus der Interwiki-Tabell erausgeholl.",
 	"interwiki_delfailed": "Prefix \"$1\" konnt net aus der Interwiki-Tabell erausgeholl ginn.",
-	"interwiki_addtext": "En Interwiki-prefix derbäisetzen",
+	"interwiki_addtext": "En Interwiki oder e Sproochprefix dobäisetzen",
 	"interwiki_addintro": "Dir setzt en neien Interwiki-Prefix derbäi.\nDenkt drun datt keng Espacen ( ), Et-commerciale (&), Gläichzeechen (=) a keng Doppelpunkten (:) däerfen dra sinn.",
 	"interwiki_addbutton": "Derbäisetzen",
 	"interwiki_added": "De Prefix \"$1\" gou an d'Interwiki-Tabell derbäigesat.",
@@ -55,5 +55,8 @@
 	"logentry-interwiki-iw_delete": "$1 {{GENDER:$2|huet}} de Präfix \"$4\" aus der Interwikitabell erausgeholl",
 	"log-description-interwiki": "Dëst ass eng Lëscht mat den Ännerunge vun der [[Special:Interwiki|Interwikitabell]].",
 	"right-interwiki": "Interwiki-Daten änneren",
-	"action-interwiki": "dës Interwiki-Informatioun z'änneren"
+	"action-interwiki": "dës Interwiki-Informatioun z'änneren",
+	"interwiki-global-links": "Global Interwikiprefixen",
+	"interwiki-local-links": "Lokal Interwikiprefixen",
+	"interwiki-links": "Interwiki-Prefixen"
 }

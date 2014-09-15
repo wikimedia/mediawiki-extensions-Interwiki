@@ -41,7 +41,8 @@
 	"interwiki_deleting": "Du bist gerade dabei das Präfix „$1“ zu löschen.",
 	"interwiki_deleted": "Das „$1“ wurde erfolgreich aus der Interwikitabelle entfernt.",
 	"interwiki_delfailed": "Das „$1“ konnte nicht aus der Interwikitabelle gelöscht werden.",
-	"interwiki_addtext": "Interwikipräfix hinzufügen",
+	"interwiki_addtext": "Interwiki- oder Sprachpräfix hinzufügen",
+	"interwiki-addtext-local": "Ein lokales Interwiki- oder Sprachpräfix hinzufügen",
 	"interwiki_addintro": "Du fügst ein neues Interwikipräfix hinzu. Beachte, dass es kein Leerzeichen ( ), Kaufmännisches Und (&), Gleichheitszeichen (=) und keinen Doppelpunkt (:) enthalten darf.",
 	"interwiki_addbutton": "Hinzufügen",
 	"interwiki_added": "Das Präfix „$1“ wurde erfolgreich der Interwikitabelle hinzugefügt.",
@@ -59,5 +60,12 @@
 	"logentry-interwiki-iw_delete": "$1 {{GENDER:$2|entfernte}} das Präfix „$4“ aus der Interwikitabelle",
 	"log-description-interwiki": "In diesem Logbuch werden Änderungen an der [[Special:Interwiki|Interwikitabelle]] protokolliert.",
 	"right-interwiki": "Interwikitabelle bearbeiten",
-	"action-interwiki": "Diesen Interwikieintrag ändern"
+	"action-interwiki": "Diesen Interwikieintrag ändern",
+	"interwiki-global-links": "Globale Interwiki-Präfixe",
+	"interwiki-global-description": "Diese Präfixe wurden von einer globalen Konfiguration übernommen und können nur im Quellwiki bearbeitet werden.",
+	"interwiki-local-links": "Lokale Interwiki-Präfixe",
+	"interwiki-local-description": "Diese Präfixe sind lokal vorhanden. Alle Duplikate mit der globalen Konfiguration überschreiben die globale Definition.",
+	"interwiki-links": "Interwiki-Präfixe",
+	"interwiki-language-links": "Interlanguage-Präfixe",
+	"interwiki-language-description": "Diese Präfixe stimmen mit definierten Sprachcodes überein und werden zur Erstellung der Liste „In anderen Sprachen“ beim Hinzufügen zu einer Seite verwendet."
 }

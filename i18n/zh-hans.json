@@ -45,7 +45,8 @@
 	"interwiki_deleting": "您正在删除前缀“$1”。",
 	"interwiki_deleted": "已成功地从跨wiki表中删除前缀“$1”。",
 	"interwiki_delfailed": "无法从跨wiki表删除前缀“$1”。",
-	"interwiki_addtext": "新增一个跨wiki前缀",
+	"interwiki_addtext": "添加一个跨wiki或语言前缀",
+	"interwiki-addtext-local": "添加一个本地跨wiki或语言前缀",
 	"interwiki_addintro": "您现在加入一个新的跨wiki前缀。\n要记住它不可以包含空格 （ ）、冒号 （:）、连字号 （&），或等号 （=）。",
 	"interwiki_addbutton": "增加",
 	"interwiki_added": "前缀 \"$1\" 已经成功地加入到跨wiki表。",
@@ -63,5 +64,10 @@
 	"logentry-interwiki-iw_delete": "$1已从跨wiki表中{{GENDER:$2|删除}}前缀“$4”",
 	"log-description-interwiki": "这是一个[[Special:Interwiki|跨wiki表]]的更改日志。",
 	"right-interwiki": "编辑跨wiki数据",
-	"action-interwiki": "更改该跨维基条目"
+	"action-interwiki": "更改该跨维基条目",
+	"interwiki-global-links": "全域跨wiki前缀",
+	"interwiki-local-links": "本地跨wiki前缀",
+	"interwiki-local-description": "这些前缀于本地存在。任何与全域配置重复的内容会覆盖全域定义。",
+	"interwiki-links": "跨wiki前缀",
+	"interwiki-language-links": "跨语言前缀"
 }

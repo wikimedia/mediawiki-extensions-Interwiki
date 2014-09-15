@@ -5,7 +5,11 @@
 			"Wikitanvir"
 		]
 	},
+	"interwiki": "আন্তঃউইকি তথ্য দেখুন ও সম্পাদনা করুন",
 	"interwiki-title-norights": "আন্তঃউইকি তথ্য দেখুন",
+	"interwiki_intro": "এটি আন্তঃউইকি টেবিলের একটি সামগ্রিক চিত্র।",
+	"interwiki-legend-show": "ব্যাখ্যা দেখাও",
+	"interwiki-legend-hide": "ব্যাখ্যা আড়াল করো",
 	"interwiki_prefix": "উপসর্গ",
 	"interwiki-prefix-label": "উপসর্গ:",
 	"interwiki_1": "হ্যাঁ",
@@ -14,6 +18,10 @@
 	"interwiki_reasonfield": "কারণ:",
 	"interwiki_delquestion": "\"$1\" অপসারণ",
 	"interwiki_deleting": "আপনি উপসর্গ \"$1\" অপসারণ করছেন।",
-	"interwiki_addtext": "একটি আন্তঃউইকি উপসর্গ যোগ",
-	"interwiki_addbutton": "যোগ"
+	"interwiki_addtext": "একটি আন্তউইকি বা ভাষা উপসর্গ যোগ করুন",
+	"interwiki-addtext-local": "একটি স্থানীয় আন্তউইকি বা ভাষা উপসর্গ যোগ করুন",
+	"interwiki_addbutton": "যোগ",
+	"right-interwiki": "আন্তঃউইকি উপাত্ত সম্পাদনা",
+	"interwiki-links": "আন্তঃউইকি উপসর্গ",
+	"interwiki-language-links": "আন্তঃভাষা উপসর্গ"
 }
