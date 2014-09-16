@@ -14,8 +14,6 @@
 	"interwiki-title-norights": "Visualizza i dati interwiki",
 	"interwiki-desc": "Aggiunge una [[Special:Interwiki|pagina speciale]] per visualizzare e modificare la tabella degli interwiki",
 	"interwiki_intro": "Questa è una panoramica della tabella degli interwiki.",
-	"interwiki-legend-show": "Mostra legenda",
-	"interwiki-legend-hide": "Nascondi legenda",
 	"interwiki_prefix": "Prefisso",
 	"interwiki-prefix-label": "Prefisso:",
 	"interwiki_prefix_intro": "Prefisso interwiki da utilizzare nella sintassi <code>[<nowiki />[prefisso:<em>nomepagina</em>]]</code>.",
@@ -28,7 +26,6 @@
 	"interwiki-trans-label": "Inclusione:",
 	"interwiki_trans_1_intro": "Se è usata la sintassi <code>{<nowiki />{prefix:<em>nomepagina</em>}}</code>, consente la trasclusione di  template/pagine da wiki esterni se le inclusioni interwiki sono generalmente permesse ([//www.mediawiki.org/wiki/Manual:$wgEnableScaryTranscluding trasclusione scary]).",
 	"interwiki_trans_0_intro": "Non consente <code>{<nowiki />{prefix:<em>nomepagina</em>}}</code> l'inclusione di  template/pagine da wiki esterni, invece cerca una pagina nel namespace template.",
-	"interwiki_intro_footer": "Consultare [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] per maggiori informazioni sulle tabelle degli interwiki. Esiste un [[Special:Log/interwiki|registro delle modifiche]] alla tabella degli interwiki.",
 	"interwiki_1": "sì",
 	"interwiki_0": "no",
 	"interwiki_error": "ERRORE: La tabella degli interwiki è vuota, o c'è qualche altro errore.",
@@ -39,7 +36,8 @@
 	"interwiki_deleting": "Stai cancellando il prefisso \"$1\"",
 	"interwiki_deleted": "Il prefisso \"$1\" è stato cancellato con successo dalla tabella degli interwiki.",
 	"interwiki_delfailed": "Rimozione del prefisso \"$1\" dalla tabella degli interwiki fallita.",
-	"interwiki_addtext": "Aggiungi un prefisso interwiki",
+	"interwiki_addtext": "Aggiungi un prefisso interwiki o lingua",
+	"interwiki-addtext-local": "Aggiungi un prefisso locale interwiki o lingua",
 	"interwiki_addintro": "Sta per essere aggiunto un nuovo prefisso interwiki.\nNon sono ammessi i caratteri: spazio ( ), due punti (:), e commerciale (&), simbolo di uguale (=).",
 	"interwiki_addbutton": "Aggiungi",
 	"interwiki_added": "Il prefisso \"$1\" è stato aggiunto alla tabella degli interwiki.",
@@ -57,5 +55,9 @@
 	"logentry-interwiki-iw_delete": "$1 {{GENDER:$2|ha rimosso}} il prefisso \"$4\" dalla tabella degli interwiki",
 	"log-description-interwiki": "Registro dei cambiamenti apportati alla [[Special:Interwiki|tabella degli interwiki]].",
 	"right-interwiki": "Modifica i dati interwiki",
-	"action-interwiki": "modificare questo interwiki"
+	"action-interwiki": "modificare questo interwiki",
+	"interwiki-global-links": "Prefissi interwiki globali",
+	"interwiki-local-links": "Prefissi interwiki locali",
+	"interwiki-links": "Prefissi interwiki",
+	"interwiki-language-links": "Prefissi interlingua"
 }

@@ -21,7 +21,7 @@
 	"interwiki-desc": "{{desc|name=Interwiki|url=http://www.mediawiki.org/wiki/Extension:Interwiki}}",
 	"interwiki_intro": "Part of the interwiki extension. Shown as introductory text on [[Special:Interwiki]].",
 	"interwiki-legend-label": "Used on [[Special:Interwiki]] as header text for interwiki legend",
-	"interwiki_legend": "{{notranslate}}\nLegend on [[Special:Interwiki]].",
+	"interwiki-legend": "{{notranslate}}\nLegend on [[Special:Interwiki]].",
 	"interwiki_prefix": "Used on [[Special:Interwiki]] as a column header of the table.",
 	"interwiki-prefix-label": "Used on [[Special:Interwiki]] as a field label in a form.",
 	"interwiki_prefix_intro": "Used on [[Special:Interwiki]] so as to explain the data in the {{msg-mw|Interwiki prefix}} column of the table.\n\nDo translate both words inside the square brackets as placeholders, where \"prefix\" should be identical to, or clearly linked to, the column header.",
