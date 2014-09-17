@@ -40,6 +40,7 @@
 	"interwiki_deleting": "Du håller på att ta bort prefixet \"$1\".",
 	"interwiki_deleted": "Prefixet \"$1 har raderats från interwikitabellen.",
 	"interwiki_delfailed": "Prefixet \"$1\" kunde inte raderas från interwikitabellen.",
+	"interwiki-logtext": "Visa logg",
 	"interwiki_addtext": "Lägg till ett interwiki- eller språkprefix",
 	"interwiki-addtext-local": "Lägg till ett lokalt interwiki- eller språkprefix",
 	"interwiki_addintro": "Du håller på att lägga till ett nytt interwikiprefix.\nKom ihåg att det inte kan innehålla mellanslag ( ), kolon (:), &-tecken eller likhetstecken (=).",

@@ -13,14 +13,15 @@
 			"Shirayuki",
 			"Siebrand",
 			"Umherirrender",
-			"Isarra"
+			"Isarra",
+			"Liuxinyu970226"
 		]
 	},
 	"interwiki": "{{doc-special|Interwiki}}",
 	"interwiki-title-norights": "{{doc-special|Interwiki}}\nUsed when the user has no right to edit the interwiki data and can only view them.",
 	"interwiki-desc": "{{desc|name=Interwiki|url=http://www.mediawiki.org/wiki/Extension:Interwiki}}",
 	"interwiki_intro": "Part of the interwiki extension. Shown as introductory text on [[Special:Interwiki]].",
-	"interwiki-legend-label": "Used on [[Special:Interwiki]] as header text for interwiki legend",
+	"interwiki-legend-label": "Used on [[Special:Interwiki]] as header text for interwiki legend\n{{Identical|Legend}}",
 	"interwiki-legend": "{{notranslate}}\nLegend on [[Special:Interwiki]].",
 	"interwiki_prefix": "Used on [[Special:Interwiki]] as a column header of the table.",
 	"interwiki-prefix-label": "Used on [[Special:Interwiki]] as a field label in a form.",

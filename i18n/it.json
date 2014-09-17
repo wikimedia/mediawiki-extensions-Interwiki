@@ -13,7 +13,8 @@
 	"interwiki": "Visualizza e modifica i dati interwiki",
 	"interwiki-title-norights": "Visualizza i dati interwiki",
 	"interwiki-desc": "Aggiunge una [[Special:Interwiki|pagina speciale]] per visualizzare e modificare la tabella degli interwiki",
-	"interwiki_intro": "Questa è una panoramica della tabella degli interwiki.",
+	"interwiki_intro": "Questa è una panoramica della tabella degli interwiki, che definisce i prefissi brevi usati per collegare velocemente diversi wiki e altri siti esterni. Per l'utilizzo consigliato vedi [//www.mediawiki.org/wiki/Extension:Interwiki il manuale su MediaWiki.org].",
+	"interwiki-legend-label": "Legenda",
 	"interwiki_prefix": "Prefisso",
 	"interwiki-prefix-label": "Prefisso:",
 	"interwiki_prefix_intro": "Prefisso interwiki da utilizzare nella sintassi <code>[<nowiki />[prefisso:<em>nomepagina</em>]]</code>.",
@@ -36,6 +37,7 @@
 	"interwiki_deleting": "Stai cancellando il prefisso \"$1\"",
 	"interwiki_deleted": "Il prefisso \"$1\" è stato cancellato con successo dalla tabella degli interwiki.",
 	"interwiki_delfailed": "Rimozione del prefisso \"$1\" dalla tabella degli interwiki fallita.",
+	"interwiki-logtext": "Vedi registro",
 	"interwiki_addtext": "Aggiungi un prefisso interwiki o lingua",
 	"interwiki-addtext-local": "Aggiungi un prefisso locale interwiki o lingua",
 	"interwiki_addintro": "Sta per essere aggiunto un nuovo prefisso interwiki.\nNon sono ammessi i caratteri: spazio ( ), due punti (:), e commerciale (&), simbolo di uguale (=).",
@@ -57,7 +59,10 @@
 	"right-interwiki": "Modifica i dati interwiki",
 	"action-interwiki": "modificare questo interwiki",
 	"interwiki-global-links": "Prefissi interwiki globali",
+	"interwiki-global-description": "Questi prefissi vengono ereditati da una configurazione globale e possono essere modificati solo sul wiki di origine.",
 	"interwiki-local-links": "Prefissi interwiki locali",
+	"interwiki-local-description": "Questi prefissi esistono localmente. Eventuali duplicati con la configurazione globale sovrascriveranno la definizione globale.",
 	"interwiki-links": "Prefissi interwiki",
-	"interwiki-language-links": "Prefissi interlingua"
+	"interwiki-language-links": "Prefissi interlingua",
+	"interwiki-language-description": "Questi prefissi corrispondono codici di lingua definiti e verranno utilizzati per creare l'elenco 'in altre lingue' quando aggiunti a una pagina."
 }
