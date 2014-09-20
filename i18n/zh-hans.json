@@ -65,6 +65,7 @@
 	"right-interwiki": "编辑跨wiki数据",
 	"action-interwiki": "更改该跨维基条目",
 	"interwiki-global-links": "全域跨wiki前缀",
+	"interwiki-global-description": "这些前缀继承于全域配置，并只能在原始wiki编辑。",
 	"interwiki-local-links": "本地跨wiki前缀",
 	"interwiki-local-description": "这些前缀于本地存在。任何与全域配置重复的内容会覆盖全域定义。",
 	"interwiki-links": "跨wiki前缀",

@@ -13,6 +13,7 @@
 	"interwiki-title-norights": "הצגת מידע על קידומות בינוויקי",
 	"interwiki-desc": "הוספת [[Special:Interwiki|דף מיוחד]] להצגה ולעריכה של מידע על קידומות בינוויקי",
 	"interwiki_intro": "זוהי סקירה של טבלת קידומות בינוויקי.",
+	"interwiki-legend-label": "מקרא",
 	"interwiki_prefix": "קידומת",
 	"interwiki-prefix-label": "קידומת:",
 	"interwiki_prefix_intro": "קידומת הבינוויקי שתשמש בתחביר <code>[<nowiki />[prefix:<em>pagename</em>]]</code>",
