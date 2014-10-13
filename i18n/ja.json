@@ -56,10 +56,13 @@
 	"logentry-interwiki-iw_edit": "$1 がインターウィキテーブル内の接頭辞「$4」($5) (トランスクルージョン: $6、ローカル: $7) を{{GENDER:$2|変更しました}}",
 	"logentry-interwiki-iw_delete": "$1 がインターウィキテーブルから接頭辞「$4」を{{GENDER:$2|除去しました}}",
 	"log-description-interwiki": "これは[[Special:Interwiki|インターウィキテーブル]]の変更記録です。",
-	"right-interwiki": "インターウィキデータの編集",
+	"right-interwiki": "インターウィキデータを編集",
 	"action-interwiki": "このインターウィキ項目の変更",
 	"interwiki-global-links": "グローバルのインターウィキ接頭辞",
+	"interwiki-global-description": "これらの接頭辞は、グローバル設定から継承されるため、継承元のウィキのみで編集できます。",
 	"interwiki-local-links": "ローカルのインターウィキ接頭辞",
+	"interwiki-local-description": "これらの接頭辞はローカルに存在します。グローバル設定と重複した場合は、すべてグローバルの定義が優先されます。",
 	"interwiki-links": "インターウィキ接頭辞",
-	"interwiki-language-links": "言語間リンク接頭辞"
+	"interwiki-language-links": "言語間リンク接頭辞",
+	"interwiki-language-description": "これらの接頭辞は、定義済みの言語コードと一致しており、ページに追加する「他言語版」の一覧を作成する際に使用されます。"
 }

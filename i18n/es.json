@@ -43,7 +43,7 @@
 	"interwiki_deleted": "El prefijo «$1» ha sido borrado correctamente de la tabla de interwikis.",
 	"interwiki_delfailed": "El prefijo «$1» no puede ser borrado de la tabla de interwikis.",
 	"interwiki-logtext": "Ver registro",
-	"interwiki_addtext": "Añadir un prefijo interwiki",
+	"interwiki_addtext": "Añadir un prefijo interwiki o de idioma",
 	"interwiki_addintro": "Estás añadiendo un nuevo prefijo interwiki.\nRecuerda que no puede contener espacios ( ), dos puntos (:), ni los signos ''et'' (&), o ''igual'' (=).",
 	"interwiki_addbutton": "Agregar",
 	"interwiki_added": "El prefijo «$1» ha sido añadido correctamente a la tabla de interwikis.",
