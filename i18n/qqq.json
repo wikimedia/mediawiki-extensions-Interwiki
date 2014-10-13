@@ -77,5 +77,5 @@
 	"interwiki-links": "Used on [[Special:Interwiki]] as header text for interwiki prefix table if no global table is present",
 	"interwiki-description": "{{notranslate}}\nAppears under the interwiki-links header on [[Special:Interwiki]]",
 	"interwiki-language-links": "Used on [[Special:Interwiki]] as header text for interwiki language prefix table",
-	"interwiki-language-description": "Appears under the interwiki-language-links header on [[Special:Interwiki]]; explains what interlanguage links do"
+	"interwiki-language-description": "Appears under the interwiki-language-links header on [[Special:Interwiki]]; explains what interlanguage links do.\n\nRefers to {{msg-mw|Otherlanguages}}."
 }
