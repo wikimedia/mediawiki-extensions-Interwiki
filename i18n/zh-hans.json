@@ -70,5 +70,5 @@
 	"interwiki-local-description": "这些前缀于本地存在。任何与全域配置重复的内容会覆盖全域定义。",
 	"interwiki-links": "跨wiki前缀",
 	"interwiki-language-links": "跨语言前缀",
-	"interwiki-language-description": "这些前缀匹配定义的语言代码，并在加入页面时用于创建“其他语言”列表。"
+	"interwiki-language-description": "这些前缀匹配定义的语言代码，并在加入页面时用于创建“{{int:otherlanguages}}”列表。"
 }
