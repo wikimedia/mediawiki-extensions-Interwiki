@@ -19,7 +19,7 @@
 	"interwiki_local": "Viruleeden",
 	"interwiki-local-label": "Viruleeden:",
 	"interwiki_local_0_intro": "Extern HTTP verlaangt datt déi lokal Wiki wann dësen interwiki-Prefix an der URL benotzt gëtt, d'Feelersäit \"{{int:badtitle}}\" gewise gëtt.",
-	"interwiki_local_1_intro": "automatesch op d'Zil-URL virugeleet déi an den Interwikilink-Definitiounen uginn ass (d. h. gëtt wéi e Link op eng lokal Säit behandelt)",
+	"interwiki_local_1_intro": "Extern HTTP Ufroen op déi lokal Wiki déi dësen Interwiki-Prefix benotze ginn automatesch op d'Zil-URL vum Interwiki (z. Bsp. behandelt wéi Linken op eng lokal Säiten)",
 	"interwiki_trans": "Interwiki-Abannungen",
 	"interwiki-trans-label": "Abannen:",
 	"interwiki_trans_1_intro": "erlaabt Abannunge vun anere Wikien, wann d'Interwiki-Abannungen an dëser Wiki allgemeng zoulässeg sinn,",
