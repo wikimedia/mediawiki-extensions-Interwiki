@@ -20,7 +20,6 @@
 	"interwiki-trans-label": "Enclure :",
 	"interwiki_trans_1_intro": "Se la sintaxi wikitèxte <code>{<nowiki />{prefix:<em>nom_pagina</em>}}</code> es utilizada, aquò permet d’inclure un modèl/pagina dempuèi un autre wiki se las inclusions interwiki son activadas d'un biais general ([//www.mediawiki.org/wiki/Manual:$wgEnableScaryTranscluding inclusion dangierosa]).",
 	"interwiki_trans_0_intro": "l'inclusion serà regetada, e la pagina correspondenta serà recercada dins l'espaci de noms « Modèl ».",
-	"interwiki_intro_footer": "Vejatz [//www.mediawiki.org/wiki/Manual:Interwiki_table MediaWiki.org] per obténer mai d'entresenhas a prepaus de la taula interwiki.\nExistís un [[Special:Log/interwiki|jornal de las modificacions]] de la taula interwiki.",
 	"interwiki_1": "òc",
 	"interwiki_0": "non",
 	"interwiki_error": "Error : la taula dels interwikis es voida o un processús s'es mal desenrotlat.",
