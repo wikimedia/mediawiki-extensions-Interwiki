@@ -67,5 +67,5 @@
 	"interwiki-local-description": "這些字首均存在於本地，任何與全域設定重複的部份會使用全域的設定值覆蓋。",
 	"interwiki-links": "網際 Wiki 字首",
 	"interwiki-language-links": "網際語言字首",
-	"interwiki-language-description": "這些字首符合已定義的語言代碼，當加入至頁面時會被用來建立 '其他語言' 清單。"
+	"interwiki-language-description": "這些字首符合已定義的語言代碼，當加入至頁面時會被用來建立 \"{{int:otherlanguages}}\" 清單。"
 }
