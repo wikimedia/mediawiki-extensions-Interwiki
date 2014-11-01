@@ -68,5 +68,5 @@
 	"interwiki-local-description": "Dessa prefix existerar lokalt. Eventuella dubbletter med den globala konfigurationen åsidosätter den globala definitionen.",
 	"interwiki-links": "Interwiki-prefix",
 	"interwiki-language-links": "Interspråk-prefix",
-	"interwiki-language-description": "Dessa prefix matchar definierade språkkoder, och används för att skapa \"på andra språk\"-listan när den läggs till på en sida."
+	"interwiki-language-description": "Dessa prefix matchar definierade språkkoder, och används för att skapa \"{{int:otherlanguages}}\"-listan när den läggs till på en sida."
 }

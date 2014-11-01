@@ -47,7 +47,7 @@
 	"interwiki_addtext": "添加一个跨wiki或语言前缀",
 	"interwiki-addtext-local": "添加一个本地跨wiki或语言前缀",
 	"interwiki_addintro": "您现在加入一个新的跨wiki前缀。\n要记住它不可以包含空格 （ ）、冒号 （:）、连字号 （&），或等号 （=）。",
-	"interwiki_addbutton": "增加",
+	"interwiki_addbutton": "添加",
 	"interwiki_added": "前缀 \"$1\" 已经成功地加入到跨wiki表。",
 	"interwiki_addfailed": "前缀 \"$1\" 不能加入到跨wiki表。\n可能已经在跨wiki表中存在。",
 	"interwiki_edittext": "修改一个跨wiki前缀",
