@@ -10,7 +10,8 @@
 			"Oapbtommy",
 			"Waihorace",
 			"Wrightbus",
-			"Cwlin0416"
+			"Cwlin0416",
+			"LNDDYL"
 		]
 	},
 	"interwiki": "檢視並編輯網際 Wiki 資料",
@@ -29,7 +30,7 @@
 	"interwiki_trans": "引用",
 	"interwiki-trans-label": "引用：",
 	"interwiki_trans_1_intro": "若使用了 <code>{<nowiki />{prefix:<em>pagename</em>}}</code> WikiText 語法且引用功能已開啟，則可允許引用來自外部 Wiki 的樣版/頁面 ([//www.mediawiki.org/wiki/Manual:$wgEnableScaryTranscluding scary transclusion])。",
-	"interwiki_trans_0_intro": "不允許 <code>{<nowiki />{prefix:<em>pagename</em>}}</code> 引用外部的樣版/頁面，改由樣版命名空間中查詢本地頁面。",
+	"interwiki_trans_0_intro": "不允許 <code>{<nowiki />{prefix:<em>pagename</em>}}</code> 引用外部的樣板/頁面，改由樣板命名空間中查詢本地頁面。",
 	"interwiki_1": "是",
 	"interwiki_0": "否",
 	"interwiki_error": "錯誤：網際 Wiki 資料表無資料，或者發生其它錯誤。",
