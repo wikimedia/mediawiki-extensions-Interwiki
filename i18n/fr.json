@@ -13,7 +13,8 @@
 			"Tititou36",
 			"Urhixidur",
 			"Verdy p",
-			"Ltrlg"
+			"Ltrlg",
+			"Macofe"
 		]
 	},
 	"interwiki": "Voir et manipuler les données interwiki",
@@ -71,5 +72,5 @@
 	"interwiki-local-description": "Ces préfixes sont définis localement. Les préfixes locaux remplacent les préfixes globaux en cas de doublon.",
 	"interwiki-links": "Préfixes interwiki",
 	"interwiki-language-links": "Préfixes interlangues",
-	"interwiki-language-description": "Ces préfixes correspondent à des codes de langue défini et sont utilisés pour créer la liste « dans d’autres langues » lorsqu’ils sont ajoutés à une page."
+	"interwiki-language-description": "Ces préfixes correspondent à des codes de langue défini et sont utilisés pour créer la liste \"{{int:otherlanguages}}\" lorsqu’ils sont ajoutés à une page."
 }
