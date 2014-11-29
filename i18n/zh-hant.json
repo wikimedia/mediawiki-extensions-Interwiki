@@ -15,7 +15,7 @@
 		]
 	},
 	"interwiki": "檢視並編輯網際 Wiki 資料",
-	"interwiki-title-norights": "檢視網際 Wiki 資料",
+	"interwiki-title-norights": "檢視跨 wiki 資料",
 	"interwiki-desc": "加入用來檢視和編輯網際 Wiki 連結表的 [[Special:Interwiki|特殊頁面]]",
 	"interwiki_intro": "此頁為網際 Wiki 資料表一覽，資料表中定義了可用來快速連結至其他 Wiki 與其他外部網站的字首。 使用建議請參考 [//www.mediawiki.org/wiki/Extension:Interwiki MediaWiki.org 上的操作手冊]。",
 	"interwiki-legend-label": "說明",
