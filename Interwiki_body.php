@@ -334,7 +334,7 @@ class SpecialInterwiki extends SpecialPage {
 		// Page intro content
 		$this->getOutput()->addWikiMsg( 'interwiki_intro' );
 		$logLink = Linker::link(
-			SpecialPage::getTitleFor( 'log', 'interwiki' ),
+			SpecialPage::getTitleFor( 'Log', 'interwiki' ),
 			$this->msg( 'interwiki-logtext' )->escaped()
 		);
 		$this->getOutput()->addHTML( '<p class="mw-interwiki-log">' . $logLink . '</p>' );
