@@ -20,7 +20,7 @@
 	"interwiki": "Ver y editar la tabla de interwikis",
 	"interwiki-title-norights": "Ver datos de interwikis",
 	"interwiki-desc": "Añade una [[Special:Interwiki|página especial]] para ver y editar la tabla de interwikis",
-	"interwiki_intro": "Este es un resumen de la tabla de intewikis, que define los atajos mediante prefijo usados para enlazar rápidamente diferentes wikis y otros sitios externos. Para recomendaciones de uso véase [//www.mediawiki.org/wiki/Extension:Interwiki el manual en MediaWiki.org].",
+	"interwiki_intro": "Este es un resumen de la tabla de interwikis, que define los atajos mediante prefijos usados para enlazar rápidamente diferentes wikis y otros sitios externos. Para recomendaciones de uso véase [//www.mediawiki.org/wiki/Extension:Interwiki el manual en MediaWiki.org].",
 	"interwiki_prefix": "Prefijo",
 	"interwiki-prefix-label": "Prefijo:",
 	"interwiki_prefix_intro": "Prefijo interwiki que se utilizará en sintaxis wikitexto <code>[<nowiki />[prefijo:<em>nombre de página</em>]]</code>.",
