@@ -29,6 +29,9 @@
 	"interwiki_delquestion": "«$1» дӀаяккхар",
 	"interwiki-logtext": "Тептаршка хьажар",
 	"interwiki_addbutton": "ТӀетоха",
+	"logentry-interwiki-iw_add": "$1 {{GENDER:$2|тӀетоьхна}} префикс «$4» ($5) (trans: $6; local: $7) юкъарвики-таблицехь",
 	"logentry-interwiki-iw_edit": "$1 {{GENDER:$2|хийцина}} префикс «$4» ($5) (trans: $6; local: $7) юкъарвики-таблицехь",
+	"logentry-interwiki-iw_delete": "$1 {{GENDER:$2|дӀаяьккхина}} префикс «$4» юкъарвики-таблицан чура",
+	"log-description-interwiki": "ХӀара [[Special:Interwiki|юкъарвики таблицан]] хицаман тептар ду.",
 	"interwiki-links": "Юкъарвикийн префиксаш"
 }
