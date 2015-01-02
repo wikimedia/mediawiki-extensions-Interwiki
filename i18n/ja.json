@@ -7,7 +7,8 @@
 			"Mzm5zbC3",
 			"Schu",
 			"Shirayuki",
-			"青子守歌"
+			"青子守歌",
+			"2nd-player"
 		]
 	},
 	"interwiki": "インターウィキデータの閲覧と編集",
@@ -64,5 +65,5 @@
 	"interwiki-local-description": "これらの接頭辞はローカルに存在します。グローバル設定と重複した場合は、すべてグローバルの定義が優先されます。",
 	"interwiki-links": "インターウィキ接頭辞",
 	"interwiki-language-links": "言語間リンク接頭辞",
-	"interwiki-language-description": "これらの接頭辞は、定義済みの言語コードと一致しており、ページに追加する「他言語版」の一覧を作成する際に使用されます。"
+	"interwiki-language-description": "これらの接頭辞は、定義済みの言語コードと一致しており、ページに追加する「{{int:otherlanguages}}」の一覧を作成する際に使用されます。"
 }
