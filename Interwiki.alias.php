@@ -29,6 +29,11 @@ $specialPageAliases['as'] = array(
 	'Interwiki' => array( 'আন্তঃৱিকি' ),
 );
 
+/** Avaric (авар) */
+$specialPageAliases['av'] = array(
+	'Interwiki' => array( 'Интервики' ),
+);
+
 /** Bulgarian (български) */
 $specialPageAliases['bg'] = array(
 	'Interwiki' => array( 'Междууикита' ),
