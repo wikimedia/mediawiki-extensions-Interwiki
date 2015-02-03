@@ -23,7 +23,7 @@
 	"interwiki_local_1_intro": "Extern HTTP Ufroen op déi lokal Wiki déi dësen Interwiki-Prefix benotze ginn automatesch op d'Zil-URL vum Interwiki (z. Bsp. behandelt wéi Linken op eng lokal Säiten)",
 	"interwiki_trans": "Interwiki-Abannungen",
 	"interwiki-trans-label": "Abannen:",
-	"interwiki_trans_1_intro": "erlaabt Abannunge vun anere Wikien, wann d'Interwiki-Abannungen an dëser Wiki allgemeng zoulässeg sinn,",
+	"interwiki_trans_1_intro": "Wa Wikitext-Syntax <code>{<nowiki />{Prefix:<em>Säitennumm</em>}}</code> benotzt gëtt, Schablounen-/Säitenabannunge vu frieme Wikien erlaben, wann Interwiki-Abannungen allgemeng aktivéiert sinn ([//www.mediawiki.org/wiki/Manual:$wgEnableScaryTranscluding Scary-Abannung]).",
 	"interwiki_trans_0_intro": "<code>{<nowiki />{prefix:<em>Säitennumm</em>}}</code> net erlabe friem Schablounen/Säiten anzebannen, éischter no enger lokaler Säit aus dem Nummraum:Schabloun sichen.",
 	"interwiki_1": "jo",
 	"interwiki_0": "neen",
