@@ -8,11 +8,12 @@
 			"OrbiliusMagister",
 			"Pietrodn",
 			"VittGam",
-			"Macofe"
+			"Macofe",
+			"Nemo bis"
 		]
 	},
-	"interwiki": "Visualizza e modifica i dati interwiki",
-	"interwiki-title-norights": "Visualizza i dati interwiki",
+	"interwiki": "Visualizza e modifica i prefissi interwiki",
+	"interwiki-title-norights": "Elenco dei prefissi interwiki",
 	"interwiki-desc": "Aggiunge una [[Special:Interwiki|pagina speciale]] per visualizzare e modificare la tabella degli interwiki",
 	"interwiki_intro": "Questa è una panoramica della tabella degli interwiki, che definisce i prefissi brevi usati per collegare velocemente diversi wiki e altri siti esterni. Per l'utilizzo consigliato vedi [//www.mediawiki.org/wiki/Extension:Interwiki il manuale su MediaWiki.org].",
 	"interwiki-legend-label": "Legenda",
