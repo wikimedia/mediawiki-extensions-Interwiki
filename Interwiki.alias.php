@@ -174,6 +174,11 @@ $specialPageAliases['lad'] = array(
 	'Interwiki' => array( 'Interviki' ),
 );
 
+/** لوری (لوری) */
+$specialPageAliases['lrc'] = array(
+	'Interwiki' => array( 'مینجا_ویکی' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'Interwiki' => array( 'Меѓувики' ),
