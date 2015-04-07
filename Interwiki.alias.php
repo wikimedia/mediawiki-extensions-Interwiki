@@ -39,6 +39,11 @@ $specialPageAliases['bg'] = array(
 	'Interwiki' => array( 'Междууикита' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'Interwiki' => array( 'مانجین_ویکی' ),
+);
+
 /** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Interwiki' => array( 'Etrewiki' ),
