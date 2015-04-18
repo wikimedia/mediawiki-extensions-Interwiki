@@ -61,7 +61,7 @@ $specialPageAliases['cdo'] = array(
 
 /** Chechen (нохчийн) */
 $specialPageAliases['ce'] = array(
-	'Interwiki' => array( 'Юкъарвики' ),
+	'Interwiki' => array( 'Юкъарвикаш' ),
 );
 
 /** Sorani Kurdish (کوردی) */
