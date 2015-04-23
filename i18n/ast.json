@@ -42,7 +42,7 @@
 	"interwiki_editintro": "Tas editando un prefixu d'interwiki.\nRecuerda qu'esto pue francer enllaces esistentes.",
 	"interwiki_edited": "El prefixu «$1» se camudó correutamente na tabla d'interwiki.",
 	"interwiki_editerror": "El prefixu «$1» nun se pudo camudar na tabla d'interwiki.\nSeique nun esista.",
-	"interwiki-badprefix": "El prefixu d'interwiki conseñáu «$1» contién caráuteres non válidos",
+	"interwiki-badprefix": "El prefixu d'interwiki conseñáu «$1» contien caráuteres inválidos",
 	"interwiki-submit-empty": "El prefixu y la URL nun puen tar baleros.",
 	"interwiki-submit-invalidurl": "El protocolu de la URL nun ye válidu.",
 	"log-name-interwiki": "Rexistru de la tabla d'interwiki",
