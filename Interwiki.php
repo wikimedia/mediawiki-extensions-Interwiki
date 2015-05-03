@@ -65,7 +65,6 @@ $wgResourceModules['ext.interwiki.specialpage'] = array(
 
 // Set up the new special page
 $wgMessagesDirs['Interwiki'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['Interwiki'] = __DIR__ . '/Interwiki.i18n.php';
 $wgExtensionMessagesFiles['InterwikiAlias'] = __DIR__ . '/Interwiki.alias.php';
 $wgAutoloadClasses['InterwikiHooks'] = __DIR__ . '/Interwiki_hooks.php';
 $wgAutoloadClasses['SpecialInterwiki'] = __DIR__ . '/Interwiki_body.php';
