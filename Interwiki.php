@@ -52,7 +52,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'descriptionmsg' => 'interwiki-desc',
 );
 
-$wgExtensionFunctions[] = 'setupInterwikiExtension';
+$wgExtensionFunctions[] = 'InterwikiHooks::onExtensionFunctions';
 
 $wgResourceModules['ext.interwiki.specialpage'] = array(
 	'styles' => 'Interwiki.css',
@@ -67,60 +67,10 @@ $wgResourceModules['ext.interwiki.specialpage'] = array(
 $wgMessagesDirs['Interwiki'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Interwiki'] = __DIR__ . '/Interwiki.i18n.php';
 $wgExtensionMessagesFiles['InterwikiAlias'] = __DIR__ . '/Interwiki.alias.php';
+$wgAutoloadClasses['InterwikiHooks'] = __DIR__ . '/Interwiki_hooks.php';
 $wgAutoloadClasses['SpecialInterwiki'] = __DIR__ . '/Interwiki_body.php';
 $wgAutoloadClasses['InterwikiLogFormatter'] = __DIR__ . '/Interwiki_body.php';
 $wgSpecialPages['Interwiki'] = 'SpecialInterwiki';
 $wgSpecialPageGroups['Interwiki'] = 'wiki';
 
-$wgHooks['InterwikiLoadPrefix'][] = 'wfGlobalInterwikis';
-
-
-function setupInterwikiExtension() {
-	global $wgInterwikiViewOnly;
-
-	if ( $wgInterwikiViewOnly === false ) {
-		global $wgAvailableRights, $wgLogTypes, $wgLogActionsHandlers;
-
-		// New user right, required to modify the interwiki table through Special:Interwiki
-		$wgAvailableRights[] = 'interwiki';
-
-		// Set up the new log type - interwiki actions are logged to this new log
-		$wgLogTypes[] = 'interwiki';
-		// interwiki, iw_add, iw_delete, iw_edit
-		$wgLogActionsHandlers['interwiki/*'] = 'InterwikiLogFormatter';
-	}
-
-	return true;
-}
-
-function wfGlobalInterwikis( $prefix, &$iwData ) {
-	global $wgInterwikiCentralDB;
-	// docs/hooks.txt says: Return true without providing an interwiki to continue interwiki search.
-	if ( $wgInterwikiCentralDB === null || $wgInterwikiCentralDB === wfWikiId() ) {
-		// No global set or this is global, nothing to add
-		return true;
-	}
-	if ( !Language::fetchLanguageName( $prefix ) ) {
-		// Check if prefix exists locally and skip
-		foreach ( Interwiki::getAllPrefixes( null ) as $id => $localPrefixInfo ) {
-			if ( $prefix === $localPrefixInfo['iw_prefix'] ) {
-				return true;
-			}
-		}
-		$dbr = wfGetDB( DB_SLAVE, array(), $wgInterwikiCentralDB );
-		$res = $dbr->selectRow(
-			'interwiki',
-			'*',
-			array( 'iw_prefix' => $prefix ),
-			__METHOD__
-		);
-		if ( !$res ) {
-			return true;
-		}
-		// Excplicitly make this an array since it's expected to be one
-		$iwData = (array)$res;
-		// At this point, we can safely return false because we know that we have something
-		return false;
-	}
-	return true;
-}
+$wgHooks['InterwikiLoadPrefix'][] = 'InterwikiHooks::onInterwikiLoadPrefix';
