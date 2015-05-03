@@ -56,7 +56,7 @@ $wgExtensionFunctions[] = 'setupInterwikiExtension';
 
 $wgResourceModules['ext.interwiki.specialpage'] = array(
 	'styles' => 'Interwiki.css',
-	'localBasePath' => dirname( __FILE__ ),
+	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'Interwiki',
 	'dependencies' => array(
 		'jquery.makeCollapsible',
@@ -64,12 +64,11 @@ $wgResourceModules['ext.interwiki.specialpage'] = array(
 );
 
 // Set up the new special page
-$dir = dirname( __FILE__ ) . '/';
 $wgMessagesDirs['Interwiki'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['Interwiki'] = $dir . 'Interwiki.i18n.php';
-$wgExtensionMessagesFiles['InterwikiAlias'] = $dir . 'Interwiki.alias.php';
-$wgAutoloadClasses['SpecialInterwiki'] = $dir . 'Interwiki_body.php';
-$wgAutoloadClasses['InterwikiLogFormatter'] = $dir . 'Interwiki_body.php';
+$wgExtensionMessagesFiles['Interwiki'] = __DIR__ . '/Interwiki.i18n.php';
+$wgExtensionMessagesFiles['InterwikiAlias'] = __DIR__ . '/Interwiki.alias.php';
+$wgAutoloadClasses['SpecialInterwiki'] = __DIR__ . '/Interwiki_body.php';
+$wgAutoloadClasses['InterwikiLogFormatter'] = __DIR__ . '/Interwiki_body.php';
 $wgSpecialPages['Interwiki'] = 'SpecialInterwiki';
 $wgSpecialPageGroups['Interwiki'] = 'wiki';
 
