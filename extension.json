@@ -45,9 +45,6 @@
 		"localBasePath": "",
 		"remoteExtPath": "Interwiki"
 	},
-	"SpecialPageGroups": {
-		"Interwiki": "wiki"
-	},
 	"SpecialPages": {
 		"Interwiki": "SpecialInterwiki"
 	},
