@@ -64,7 +64,7 @@ $specialPageAliases['ce'] = array(
 	'Interwiki' => array( 'Юкъарвикаш' ),
 );
 
-/** Central Kurdish (کوردی) */
+/** Central Kurdish (کوردیی ناوەندی) */
 $specialPageAliases['ckb'] = array(
 	'Interwiki' => array( 'نێوانویکی' ),
 );
@@ -179,7 +179,7 @@ $specialPageAliases['lad'] = array(
 	'Interwiki' => array( 'Interviki' ),
 );
 
-/** لوری مینجایی (لوری مینجایی) */
+/** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'Interwiki' => array( 'مینجا_ویکی' ),
 );
