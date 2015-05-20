@@ -26,7 +26,7 @@
 	"interwiki_local_1_intro": "インターウィキリンクの定義で指定された対象URLに転送されます。言い換えると、同一ウィキ内のページへのリンクのように扱います。",
 	"interwiki_trans": "トランスクルージョン",
 	"interwiki-trans-label": "トランスクルージョン:",
-	"interwiki_trans_1_intro": "ウィキ間トランスクルージョンがこのウィキで (一般的に) 許可されている場合は、この外部ウィキからのトランスクルージョンを許可します。",
+	"interwiki_trans_1_intro": "<code>{<nowiki />{接頭辞:<em>ページ名</em>}}</code> というWiki構文が使われた場合、ウィキ間トランスクルージョンがこのウィキで一般的に ([//www.mediawiki.org/wiki/Manual:$wgEnableScaryTranscluding scary transclusion]) 許可されている場合は、この外部ウィキからのテンプレートまたはページのトランスクルージョンを許可します。",
 	"interwiki_trans_0_intro": "許可せず、テンプレート名前空間でページを探します。",
 	"interwiki_1": "はい",
 	"interwiki_0": "いいえ",
