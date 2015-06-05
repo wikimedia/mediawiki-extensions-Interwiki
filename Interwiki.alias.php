@@ -181,7 +181,7 @@ $specialPageAliases['lad'] = array(
 
 /** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
-	'Interwiki' => array( 'مینجا_ویکی' ),
+	'Interwiki' => array( 'مینجا_ڤیکی' ),
 );
 
 /** Macedonian (македонски) */
