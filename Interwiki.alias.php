@@ -179,7 +179,7 @@ $specialPageAliases['lad'] = array(
 	'Interwiki' => array( 'Interviki' ),
 );
 
-/** Northern Luri (لوری مینجایی) */
+/** Northern Luri (لۊری شومالی) */
 $specialPageAliases['lrc'] = array(
 	'Interwiki' => array( 'مینجا_ڤیکی' ),
 );
