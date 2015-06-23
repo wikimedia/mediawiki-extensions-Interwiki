@@ -333,11 +333,15 @@ class SpecialInterwiki extends SpecialPage {
 
 		// Page intro content
 		$this->getOutput()->addWikiMsg( 'interwiki_intro' );
-		$logLink = Linker::link(
-			SpecialPage::getTitleFor( 'Log', 'interwiki' ),
-			$this->msg( 'interwiki-logtext' )->escaped()
-		);
-		$this->getOutput()->addHTML( '<p class="mw-interwiki-log">' . $logLink . '</p>' );
+
+		// Add 'view log' link when possible
+		if ( $wgInterwikiViewOnly === false ) {
+			$logLink = Linker::link(
+				SpecialPage::getTitleFor( 'Log', 'interwiki' ),
+				$this->msg( 'interwiki-logtext' )->escaped()
+			);
+			$this->getOutput()->addHTML( '<p class="mw-interwiki-log">' . $logLink . '</p>' );
+		}
 
 		// Add 'add' link
 		if ( $canModify ) {
