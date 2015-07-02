@@ -295,7 +295,7 @@ class SpecialInterwiki extends SpecialPage {
 	}
 
 	function showList() {
-		global $wgInterwikiCentralDB;
+		global $wgInterwikiCentralDB, $wgInterwikiViewOnly;
 		$canModify = $this->canModify();
 
 		// Build lists
