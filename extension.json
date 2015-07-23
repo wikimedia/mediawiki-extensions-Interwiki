@@ -15,6 +15,7 @@
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:Interwiki",
 	"descriptionmsg": "interwiki-desc",
+	"license-name": "GPL-2.0+",
 	"type": "specialpage",
 	"ExtensionMessagesFiles": {
 		"InterwikiAlias": "Interwiki.alias.php"
