@@ -2,21 +2,22 @@
 	"@metadata": {
 		"authors": [
 			"Santu",
-			"Pippinu"
+			"Pippinu",
+			"Sarvaturi"
 		]
 	},
 	"interwiki": "Talìa e mudìfica li dati interwiki",
 	"interwiki-title-norights": "Talìa li dati interwiki",
 	"interwiki-desc": "Junci na [[Special:Interwiki|pàggina spiciali]] pi taliari e mudificari la tabedda di li interwiki",
-	"interwiki_intro": "Chista è na panuràmica dâ tabbella interwiki, chi' difinisci li prifissi scurzaturi chi' si ponnu adupirari pi' fari culligamenti veloci versu autri wiki o autri siti esterni. P'istruzzioni supra a' comu s'adòpira, talìa [//www.mediawiki.org/wiki/Extension:Interwiki lu manuali supra a' MediaWiki.org].",
+	"interwiki_intro": "Chista è na panuràmica dâ tabbella interwiki, chi difinisci li prifissi scurzaturi chi si ponnu adupirari pi fari culligamenti viloci versu àutri wiki o àutri siti esterni. Pi struzzioni supra a comu s'adòpira, talìa [//www.mediawiki.org/wiki/Extension:Interwiki lu manuali supra a MediaWiki.org].",
 	"interwiki_prefix": "Prifissu",
 	"interwiki-prefix-label": "Prifissu:",
 	"interwiki_url": "URL",
 	"interwiki-url-label": "URL:",
 	"interwiki_local": "Rimanna",
 	"interwiki-local-label": "Rimanna:",
-	"interwiki_trans": "Trascludi",
-	"interwiki-trans-label": "Trascludi:",
+	"interwiki_trans": "Ncludi",
+	"interwiki-trans-label": "Ncludi:",
 	"interwiki_error": "SBÀGGHIU: La tabedda di li interwiki è vacanti, o c'è qualchi àutru sbàgghiu.",
 	"interwiki_reasonfield": "Mutivu:",
 	"interwiki_delquestion": "Scancellu \"$1\"",
