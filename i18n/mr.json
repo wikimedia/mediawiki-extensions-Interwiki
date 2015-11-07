@@ -8,9 +8,13 @@
 	"interwiki": "आंतरविकि डाटा पहा व संपादा",
 	"interwiki-title-norights": "अंतरविकि डाटा पहा",
 	"interwiki-desc": "आंतरविकि सारणी पाहण्यासाठी व संपादण्यासाठी एक [[Special:Interwiki|विशेष पान]] वाढविते",
-	"interwiki_intro": "आंतरविकि सारणी बद्दल अधिक माहीतीसाठी [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] पहा.",
+	"interwiki_intro": "हा  आंतरविकि सारणीबद्दलचा सामान्य सारांश आहे.तो विविध विकिंना व बाह्य संकेतस्थळांना तत्परतेने दुवा देण्यास आवश्यक त्या उपपदाच्या लघुपथाची व्याख्या देतो.  अधिक माहितीसाठी [http://www.mediawiki.org/wiki/Interwiki_table MediaWiki.org] पहा.याच्या वापरासाठी ते शिफारस केल्या गेले आहे",
+	"interwiki-legend-label": "विवरण",
 	"interwiki_prefix": "उपपद (पूर्वप्रत्यय)",
 	"interwiki-prefix-label": "उपपद (पूर्वप्रत्यय):",
+	"interwiki_local": "अग्रेषित करा",
+	"interwiki_trans": "आंतरविन्यासित करा",
+	"interwiki-trans-label": "आंतरविन्यासित करा:",
 	"interwiki_error": "त्रुटी: आंतरविकि सारणी रिकामी आहे, किंवा इतर काहीतरी चुकलेले आहे.",
 	"interwiki_reasonfield": "कारण:",
 	"interwiki_delquestion": "\"$1\" वगळत आहे",
@@ -28,5 +32,7 @@
 	"interwiki_editerror": "आंतरविकि सारणीमध्ये \"$1\" उपपद बदलू शकत नाही.\nकदाचित ते अस्तित्वात नसेल.",
 	"log-name-interwiki": "आंतरविकि सारणी नोंद",
 	"log-description-interwiki": "[[Special:Interwiki|आंतरविकि सारणीत]] झालेल्या बदलांची ही सूची आहे.",
-	"right-interwiki": "आंतरविकि डाटा बदला"
+	"right-interwiki": "आंतरविकि डाटा बदला",
+	"interwiki-links": "आंतरविकि उपसर्ग",
+	"interwiki-language-description": "ही उपपदे व्याख्यिकृत भाषा संकेतास अनुरुपतात व पानास जोडली तर त्यांचा वापर, \"{{int:otherlanguages}}\"ची यादी करण्यात होतो."
 }
