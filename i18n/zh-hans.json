@@ -36,7 +36,7 @@
 	"interwiki_trans_0_intro": "禁止<code>{<nowiki />{prefix:<em>pagename</em>}}</code>嵌入外部页面，将在本地模板名字空间查找对应页面。",
 	"interwiki_1": "是",
 	"interwiki_0": "否",
-	"interwiki_error": "错误: 跨wiki表为空，或是发生其它错误。",
+	"interwiki_error": "错误：跨wiki表为空，或发生了其它错误。",
 	"interwiki-cached": "跨维基数据是缓存的。缓存不能被修改。",
 	"interwiki_edit": "编辑",
 	"interwiki_reasonfield": "原因：",
