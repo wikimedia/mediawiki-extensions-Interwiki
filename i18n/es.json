@@ -59,7 +59,7 @@
 	"interwiki-badprefix": "El prefijo interwiki especificado «$1» contiene caracteres no válidos",
 	"interwiki-submit-empty": "El prefijo y la dirección URL no pueden estar vacías.",
 	"interwiki-submit-invalidurl": "El protocolo de la dirección URL no es válido.",
-	"log-name-interwiki": "Tabla de registro de interwiki",
+	"log-name-interwiki": "Registro de la tabla interwiki",
 	"logentry-interwiki-iw_add": "$1 {{GENDER:$2|añadió}} el prefijo \"$4\" ($5) (trans: $6; local: $7) a la tabla interwiki",
 	"logentry-interwiki-iw_edit": "$1 {{GENDER:$2|modificó}} el prefijo \" $4 \" ( $5 ) (trans:  $6 ; local:  $7 ) en la tabla interwiki",
 	"logentry-interwiki-iw_delete": "$1 {{GENDER:$2|eliminó}} el prefijo \"$4\" de la tabla interwiki",
