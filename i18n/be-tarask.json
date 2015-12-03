@@ -52,5 +52,6 @@
 	"logentry-interwiki-iw_delete": "$1 {{GENDER:$2|выдаліў|выдаліла}} прэфікс «$4» з інтэрвікі-табліцы",
 	"log-description-interwiki": "Гэта журнал зьменаў [[Special:Interwiki|табліцы інтэрвікі]].",
 	"right-interwiki": "Рэдагаваньне зьвестак інтэрвікі",
-	"action-interwiki": "зьмяніць гэты элемэнт інтэрвікі"
+	"action-interwiki": "зьмяніць гэты элемэнт інтэрвікі",
+	"interwiki-links": "Прэфіксы інтэрвікі"
 }
