@@ -21,6 +21,11 @@ class SpecialInterwiki extends SpecialPage {
 			'interwiki' : 'interwiki-title-norights' )->plain();
 	}
 
+	public function getSubpagesForPrefixSearch() {
+		// delete, edit both require the prefix parameter.
+		return array( 'add' );
+	}
+
 	/**
 	 * Show the special page
 	 *
