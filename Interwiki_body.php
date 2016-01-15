@@ -11,6 +11,10 @@ class SpecialInterwiki extends SpecialPage {
 		parent::__construct( 'Interwiki' );
 	}
 
+	public function doesWrites() {
+		return true;
+	}
+
 	/**
 	 * Different description will be shown on Special:SpecialPage depending on
 	 * whether the user can modify the data.
