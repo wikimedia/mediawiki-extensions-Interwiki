@@ -47,7 +47,7 @@
 	"interwiki_editintro": "U bent een interwikivoorvoegsel aan het bewerken.\nLet op dat dit bestaande koppelingen kan breken.",
 	"interwiki_edited": "Voorvoegsel \"$1\" is gewijzigd in de interwikitabel.",
 	"interwiki_editerror": "Voorvoegsel \"$1\" kan niet worden gewijzigd in de interwikitabel. Mogelijk bestaat het niet.",
-	"interwiki-badprefix": "Het interwikivoorvoegsel \"$1\" bevat ongeldige karakters",
+	"interwiki-badprefix": "Het interwikivoorvoegsel \"$1\" bevat ongeldige tekens",
 	"interwiki-submit-empty": "Het voorvoegsel en de URL mogen niet leeg zijn.",
 	"interwiki-submit-invalidurl": "Het protocol van de URL is ongeldig.",
 	"log-name-interwiki": "Logboek interwikitabel",
