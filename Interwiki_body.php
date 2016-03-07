@@ -254,9 +254,9 @@ class SpecialInterwiki extends SpecialPage {
 				Interwiki::invalidateCache( $prefix );
 			}
 			break;
+		/** @noinspection PhpMissingBreakStatementInspection */
 		case 'add':
 			$prefix = $wgContLang->lc( $prefix );
-			// N.B.: no break!
 		case 'edit':
 			$theurl = $request->getVal( 'wpInterwikiURL' );
 			$local = $request->getCheck( 'wpInterwikiLocal' ) ? 1 : 0;
