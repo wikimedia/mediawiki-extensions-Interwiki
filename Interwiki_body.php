@@ -217,7 +217,6 @@ class SpecialInterwiki extends SpecialPage {
 			)
 		) );
 		$this->getOutput()->addHTML( $form );
-		return;
 	}
 
 	function doSubmit() {
