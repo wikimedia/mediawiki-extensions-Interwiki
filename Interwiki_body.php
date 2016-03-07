@@ -78,7 +78,7 @@ class SpecialInterwiki extends SpecialPage {
 	/**
 	 * Returns boolean whether the user can modify the data.
 	 * @param $out OutputPage|bool If $wgOut object given, it adds the respective error message.
-	 * @throws PermissionsError
+	 * @throws PermissionsError|ReadOnlyError
 	 * @return bool
 	 */
 	public function canModify( $out = false ) {
@@ -98,12 +98,9 @@ class SpecialInterwiki extends SpecialPage {
 
 			return false;
 		} elseif ( wfReadOnly() ) {
-			// Is the database in read-only mode?
-			if ( $out ) {
-				$out->readOnlyPage();
-			}
-			return false;
+			throw new ReadOnlyError;
 		}
+
 		return true;
 	}
 
