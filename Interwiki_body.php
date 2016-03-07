@@ -195,7 +195,7 @@ class SpecialInterwiki extends SpecialPage {
 			array(
 				'id' => "mw-interwiki-{$action}form",
 				'method' => 'post',
-				'action' => $this->getPageTitle()->getLocalUrl( array(
+				'action' => $this->getPageTitle()->getLocalURL( array(
 					'action' => 'submit',
 					'prefix' => $prefix
 				) )
@@ -314,7 +314,7 @@ class SpecialInterwiki extends SpecialPage {
 		}
 		$iwPrefixes = Interwiki::getAllPrefixes( null );
 		$iwGlobalPrefixes = array();
-		if ( $wgInterwikiCentralDB !== null && $wgInterwikiCentralDB !== wfWikiId() ) {
+		if ( $wgInterwikiCentralDB !== null && $wgInterwikiCentralDB !== wfWikiID() ) {
 			// Fetch list from global table
 			$dbrCentralDB = wfGetDB( DB_SLAVE, array(), $wgInterwikiCentralDB );
 			$res = $dbrCentralDB->select( 'interwiki', '*', false, __METHOD__ );
