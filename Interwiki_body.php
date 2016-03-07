@@ -110,7 +110,7 @@ class SpecialInterwiki extends SpecialPage {
 	/**
 	 * @param $action string
 	 */
-	function showForm( $action ) {
+	protected function showForm( $action ) {
 		$request = $this->getRequest();
 
 		$prefix = $request->getVal( 'prefix' );
@@ -219,7 +219,7 @@ class SpecialInterwiki extends SpecialPage {
 		$this->getOutput()->addHTML( $form );
 	}
 
-	function doSubmit() {
+	protected function doSubmit() {
 		global $wgContLang;
 
 		$request = $this->getRequest();
@@ -302,7 +302,7 @@ class SpecialInterwiki extends SpecialPage {
 		}
 	}
 
-	function showList() {
+	protected function showList() {
 		global $wgInterwikiCentralDB, $wgInterwikiViewOnly;
 		$canModify = $this->canModify();
 
@@ -418,7 +418,7 @@ class SpecialInterwiki extends SpecialPage {
 		}
 	}
 
-	function makeTable( $canModify, $iwPrefixes ) {
+	protected function makeTable( $canModify, $iwPrefixes ) {
 		// Output the existing Interwiki prefixes table header
 		$out = '';
 		$out .=	Html::openElement(
@@ -490,7 +490,7 @@ class SpecialInterwiki extends SpecialPage {
 		$this->getOutput()->addHTML( $out );
 	}
 
-	function error() {
+	protected function error() {
 		$args = func_get_args();
 		$this->getOutput()->wrapWikiMsg( "<p class='error'>$1</p>", $args );
 	}
