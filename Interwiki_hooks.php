@@ -33,11 +33,11 @@ class InterwikiHooks {
 					return true;
 				}
 			}
-			$dbr = wfGetDB( DB_SLAVE, array(), $wgInterwikiCentralDB );
+			$dbr = wfGetDB( DB_SLAVE, [], $wgInterwikiCentralDB );
 			$res = $dbr->selectRow(
 				'interwiki',
 				'*',
-				array( 'iw_prefix' => $prefix ),
+				[ 'iw_prefix' => $prefix ],
 				__METHOD__
 			);
 			if ( !$res ) {
