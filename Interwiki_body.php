@@ -232,7 +232,7 @@ class SpecialInterwiki extends SpecialPage {
 		// (Bug 30599).
 		global $wgLegalTitleChars;
 		$validPrefixChars = preg_replace( '/[ :&=]/', '', $wgLegalTitleChars );
-		if ( preg_match( "/\s|[^$validPrefixChars]/", $prefix ) && $do === 'add' ) {
+		if ( $do === 'add' && preg_match( "/\s|[^$validPrefixChars]/", $prefix ) ) {
 			$this->error( 'interwiki-badprefix', htmlspecialchars( $prefix ) );
 			$this->showForm( $do );
 			return;
