@@ -44,7 +44,7 @@ class SpecialInterwiki extends SpecialPage {
 
 		$out->addModules( 'ext.interwiki.specialpage' );
 
-		$action = $par ? $par : $request->getVal( 'action', $par );
+		$action = $par ?: $request->getVal( 'action', $par );
 		$return = $this->getPageTitle();
 
 		switch ( $action ) {
