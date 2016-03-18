@@ -156,7 +156,7 @@ class SpecialInterwiki extends SpecialPage {
 		if ( $action === 'add' || $action === 'edit' ) {
 			$formContent = Html::rawElement( 'tr', null,
 				Html::element( 'td', $label, $this->msg( 'interwiki-prefix-label' )->text() ) .
-				Html::rawElement( 'td', null, '<tt>' . $prefixElement . '</tt>' )
+				Html::rawElement( 'td', null, '<code>' . $prefixElement . '</code>' )
 			) . Html::rawElement(
 				'tr',
 				null,
