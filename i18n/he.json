@@ -55,7 +55,7 @@
 	"logentry-interwiki-iw_edit": "$1 {{GENDER:$2|שינה|שינתה}} את הקידומת \"$4\" (כתובת: $5) (הכללה: $6; מקומי: $7) לטבלת interwiki",
 	"logentry-interwiki-iw_delete": "$1 {{GENDER:$2|הסיר|הסירה}} את התחילית \"$4\" מטבלת interwiki",
 	"log-description-interwiki": "זהו יומן השינויים שנערכו ב[[Special:Interwiki|טבלת הבינוויקי]].",
-	"right-interwiki": "עריכת נתוני הבינוויקי",
+	"right-interwiki": "עריכת נתוני בינוויקי",
 	"action-interwiki": "לשנות את רשומת הבינוויקי הזאת",
 	"interwiki-global-links": "תחיליות בינוויקי גלובליות",
 	"interwiki-global-description": "התחיליות האלה עוברות בירושה מתצורה גלובלית, וניתן לערוך אותן רק באתר הוויקי המקורי.",
