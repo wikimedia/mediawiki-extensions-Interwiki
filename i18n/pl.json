@@ -26,7 +26,7 @@
 	"interwiki_local_1_intro": "Żądania HTTP z zewnątrz do tej lokalnej wiki do strony z tym prefiksem będą przekierowywane na adres docelowy tego interwiki.",
 	"interwiki_trans": "Transkluzja",
 	"interwiki-trans-label": "Transkluzja:",
-	"interwiki_trans_1_intro": "Jeżeli zostanie użyta składnia <code>{<nowiki />{prefiks:<em>nazwa strony</em>}}</code>, to zezwól na transkluzję (umieszczenie) szablonów/stron z zewnętrznej wiki, jeżlei włączone jest transkludowanie interwiki ([//www.mediawiki.org/wiki/Manual:$wgEnableScaryTranscluding/pl scary transclusion]).",
+	"interwiki_trans_1_intro": "Jeżeli zostanie użyta składnia <code>{<nowiki />{prefiks:<em>nazwa strony</em>}}</code>, to zezwól na transkluzję (umieszczenie) szablonów/stron z zewnętrznej wiki, jeżeli włączone jest transkludowanie interwiki ([//www.mediawiki.org/wiki/Manual:$wgEnableScaryTranscluding scary transclusion]).",
 	"interwiki_trans_0_intro": "Nie zezwalaj <code>{<nowiki />{prefiks:<em>nazwa strony</em>}}</code> na transkludowanie zewnętrznych szablonów/stron, raczej szukaj strony w przestrzeni szablonów.",
 	"interwiki_1": "tak",
 	"interwiki_0": "nie",
