@@ -15,7 +15,7 @@
 	"interwiki": "Ver e manipular dados de interwikis",
 	"interwiki-title-norights": "Dados de interwikis",
 	"interwiki-desc": "[[Special:Interwiki|Página especial]] para ver e editar a tabela de interwikis",
-	"interwiki_intro": "Esta é uma visão geral da tabela de interwikis, que define os atalhos de prefixo usados para vincular rapidamente para diferentes wikis e outros sítios externos. Para recomendações de uso, por favor consulte [//www.mediawiki.org/wiki/Extension:Interwiki o manual em MediaWiki.org].",
+	"interwiki_intro": "Esta é uma visão geral da tabela de interwikis, que define os prefixos usados para criar rapidamente ligações para outras wikis e outros sítios externos. Para recomendações de uso, por favor consulte [//www.mediawiki.org/wiki/Extension:Interwiki o manual na MediaWiki.org].",
 	"interwiki-legend-label": "Legenda:",
 	"interwiki_prefix": "Prefixo",
 	"interwiki-prefix-label": "Prefixo:",
