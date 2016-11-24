@@ -246,7 +246,7 @@ $specialPageAliases['tt-cyrl'] = array(
 
 /** Ukrainian (українська) */
 $specialPageAliases['uk'] = array(
-	'Interwiki' => array( 'Інтервікі' ),
+	'Interwiki' => array( 'Інтервікі', 'Интервики' ),
 );
 
 /** Urdu (اردو) */
