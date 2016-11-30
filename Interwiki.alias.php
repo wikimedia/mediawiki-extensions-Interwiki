@@ -44,6 +44,11 @@ $specialPageAliases['bgn'] = array(
 	'Interwiki' => array( 'مانجین_ویکی' ),
 );
 
+/** Bengali (বাংলা) */
+$specialPageAliases['bn'] = array(
+	'Interwiki' => array( 'আন্তঃউইকি' ),
+);
+
 /** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Interwiki' => array( 'Etrewiki' ),
