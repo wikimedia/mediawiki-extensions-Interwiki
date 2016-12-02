@@ -61,7 +61,7 @@
 	"interwiki-global-description": "Deze voorvoegsels zijn overgenomen van een globale configuratie, en kunnen alleen worden bewerkt op de bron wiki.",
 	"interwiki-local-links": "Lokale interwiki voorvoegsels",
 	"interwiki-local-description": "Deze voorvoegsels ter plaatse bestaan. Eventuele duplicaten met de globale configuratie overschrijft de globale definitie.",
-	"interwiki-links": "Interwiki voorvoegsels",
-	"interwiki-language-links": "Interlanguage voorvoegsels",
+	"interwiki-links": "Interwikivoorvoegsels",
+	"interwiki-language-links": "Intertaalvoorvoegsels",
 	"interwiki-language-description": "Deze voorvoegsels komen overeen met gedefinieerde taalcode en worden gebruikt om de lijst \"{{int:otherlanguages}}\" te maken als deze aan een pagina wordt toegevoegd."
 }
