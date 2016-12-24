@@ -3,7 +3,8 @@
 		"authors": [
 			"Event",
 			"Nghtwlkr",
-			"Purodha"
+			"Purodha",
+			"Jon Harald Søby"
 		]
 	},
 	"interwiki": "Vis og manipuler interwikidata",
@@ -13,14 +14,14 @@
 	"interwiki_prefix": "Prefiks",
 	"interwiki-prefix-label": "Prefiks:",
 	"interwiki_prefix_intro": "Interwikiprefiks som skal brukes i <code>[<nowiki />[prefiks:<em>sidenavn</em>]]</code>-wikisyntaks.",
-	"interwiki_url_intro": "Mal for internettadresser. Variabelen $1 vil bli erstattet av <em>sidenavnet</em> i wikiteksten når wikisyntaksen ovenfor blir brukt.",
+	"interwiki_url_intro": "Mal for URL-er. Variabelen $1 blir erstattet av <em>sidenavn</em> i <code>[<nowiki />[prefix:<em>sidenavn</em>]]</code>.",
 	"interwiki_local": "Videresend",
 	"interwiki-local-label": "Videresend:",
-	"interwiki_local_0_intro": "ikke fulgt, vanligvis blokkert av «siden ble ikke funnet»,",
-	"interwiki_local_1_intro": "omdirigert til målnettadressen gitt i interwikilenkedefinisjonene (med andre ord behandlet som referanser på lokale sider)",
+	"interwiki_local_0_intro": "Eksterne HTTP-forespørsler til den lokale wikien som bruker dette interwiki-prefikset i URL-en vil resultere i feilsiden «{{int:badtitle}}».",
+	"interwiki_local_1_intro": "Eksterne HTTP-forespørsler til den lokale wikien med dette interwiki-prefikset vil bli omdirigert til interwikiens mål-URL (altså vil den behandles som lenker til lokale sider).",
 	"interwiki_trans": "Transkluder",
 	"interwiki-trans-label": "Transkluder:",
-	"interwiki_trans_1_intro": "tillat transklusjon fra en fremmed wiki, om interwikitranskluderinger generellt er tillatt på denne wikien,",
+	"interwiki_trans_1_intro": "Dersom wikitekstsyntaksen <code>{<nowiki />{prefix:<em>sidenavn</em>}}</code> brukes, tillat mal-/sidetransklusjon fra den eksterne wikien om interwikitransklusjon er slått på generelt ([//www.mediawiki.org/wiki/Manual:$wgEnableScaryTranscluding skummel transkludering]).",
 	"interwiki_trans_0_intro": "ikke tillat det, se heller etter en side i malnavnerommet.",
 	"interwiki_1": "ja",
 	"interwiki_0": "nei",
