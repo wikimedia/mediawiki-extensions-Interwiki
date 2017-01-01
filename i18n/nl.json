@@ -6,7 +6,8 @@
 			"Tvdm",
 			"Mar(c)",
 			"Sjoerddebruin",
-			"Esketti"
+			"Esketti",
+			"Mainframe98"
 		]
 	},
 	"interwiki": "Interwikigegevens bekijken en wijzigen",
@@ -37,7 +38,7 @@
 	"interwiki_deleted": "Voorvoegsel \"$1\" is verwijderd uit de interwikitabel.",
 	"interwiki_delfailed": "Voorvoegsel \"$1\" kon niet worden verwijderd uit de interwikitabel.",
 	"interwiki-logtext": "Logboeken bekijken",
-	"interwiki_addtext": "Voeg een interwiki of taal voorvoegsel",
+	"interwiki_addtext": "Voeg een interwiki of taal voorvoegsel toe",
 	"interwiki-addtext-local": "Voeg een lokale interwiki of taal voorvoegsel",
 	"interwiki_addintro": "U bent een nieuw interwikivoorvoegsel aan het toevoegen.\nLet op dat dit geen spaties ( ), dubbele punt (:), ampersands (&), of gelijktekens (=) mag bevatten.",
 	"interwiki_addbutton": "Toevoegen",
