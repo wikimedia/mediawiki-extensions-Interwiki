@@ -48,7 +48,7 @@
 	"log-name-interwiki": "Listaan ti tabla ti interwiki",
 	"logentry-interwiki-iw_add": "Ni $1 ket {{GENDER:$2|nagnayon}} iti pasakbay ti \"$4\" ($5) (trans: $6; lokal: $7) iti tabla ti interwiki",
 	"logentry-interwiki-iw_edit": "Ni $1 ket {{GENDER:$2|nagbaliw}} iti pasakbay ti \"$4\" ($5) (trans: $6; lokal: $7) iti tabla ti interwiki",
-	"logentry-interwiki-iw_delete": "Ni $1 ket {{GENDER:$2|nagikkat}} iti pasakbay ti \"$4\" manipud ti tabla ti interwiki",
+	"logentry-interwiki-iw_delete": "Ni $1 ket {{GENDER:$2|nagikkat}} iti pasakbay ti \"$4\" manipud iti tabla ti interwiki",
 	"log-description-interwiki": "Daytoy ket listaan dagiti binalbaliwan iti [[Special:Interwiki|tabla ti interwiki]].",
 	"right-interwiki": "Urnosen ti datos ti interwiki",
 	"action-interwiki": "baliwan daytoy naikabil nga interwiki",
