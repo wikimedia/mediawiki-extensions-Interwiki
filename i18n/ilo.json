@@ -19,7 +19,7 @@
 	"interwiki_local_1_intro": "Dagiti kiddaw ti akinruar nga HTTP iti lokal a wiki nga agus-usar iti daytoy a pasakbay ti interwiki ket maibaw-ingto iti puntaan nga URL iti interwiki (kas pagarigan matratonto a kas dagiti silpo kadagiti lokal a panid)",
 	"interwiki_trans": "Ilak-am",
 	"interwiki-trans-label": "Ilak-am:",
-	"interwiki_trans_1_intro": "No mausar ti sintaksis ti teksto ti wiki ti <code>{<nowiki />{pasakbay:<em>nagan ti panid</em>}}</code>, mangpalubos ti panangilak-am ti plantilia/panid manipud iti ganganaet a wiki no dagiti panangilak-am ti interwiki ket sapasap a napakabaelan ([//www.mediawiki.org/wiki/Manual:$wgEnableScaryTranscluding scary transclusion]).",
+	"interwiki_trans_1_intro": "No mausar ti sintaksis ti teksto ti wiki ti <code>{<nowiki />{pasakbay:<em>nagan ti panid</em>}}</code>, mangipalubos ti panangilak-am ti plantilia/panid manipud iti ganganaet a wiki no dagiti panangilak-am ti interwiki ket sapasap a napakabaelan ([//www.mediawiki.org/wiki/Manual:$wgEnableScaryTranscluding scary transclusion]).",
 	"interwiki_trans_0_intro": "Saan nga ipalubos ti <code>{<nowiki />{pasakbay:<em>nagan ti panid</em>}}</code> tapno mailak-am dagiti ganganaet a plantilia/panid, imbes ket a mangkita para iti lokal a panid iti nagan ti espasio ti plantilia.",
 	"interwiki_1": "wen",
 	"interwiki_0": "saan",
