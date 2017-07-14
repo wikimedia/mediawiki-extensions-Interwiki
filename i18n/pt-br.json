@@ -7,7 +7,8 @@
 			"Luckas",
 			"Luckas Blade",
 			"555",
-			"Dianakc"
+			"Dianakc",
+			"Felipe L. Ewald"
 		]
 	},
 	"interwiki": "Ver e editar dados de interwikis",
@@ -17,6 +18,7 @@
 	"interwiki_prefix": "Prefixo",
 	"interwiki-prefix-label": "Prefixo:",
 	"interwiki_prefix_intro": "Prefixo de interwiki a ser usado na sintaxe de wikitexto <code>[<nowiki />[prefix:<em>nome_página</em>]]</code>.",
+	"interwiki_url": "URL",
 	"interwiki_url_intro": "Modelo para URL. O marcador $1 será substituído pelo <em>nome_página</em> do wikitexto, quando a sintaxe de wikitexto acima mencionada for usada.",
 	"interwiki_local": "Encaminhar",
 	"interwiki-local-label": "Encaminhar:",
