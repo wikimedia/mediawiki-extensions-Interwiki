@@ -40,6 +40,7 @@
 	"interwiki_deleting": "Você está apagando o prefixo \"$1\".",
 	"interwiki_deleted": "O prefixo \"$1\" foi removido da tabelas de interwikis.",
 	"interwiki_delfailed": "O prefixo \"$1\" não pôde ser removido da tabela de interwikis.",
+	"interwiki-logtext": "Visualizar o registo",
 	"interwiki_addtext": "Adicione um prefixo de interwiki ou idioma",
 	"interwiki_addintro": "Você se encontra prestes a adicionar um novo prefixo de interwiki. Lembre-se de que ele não pode conter espaços ( ), dois-pontos (:), conjunções (&) ou sinais de igualdade (=).",
 	"interwiki_addbutton": "Adicionar",
