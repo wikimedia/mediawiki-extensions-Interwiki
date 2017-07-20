@@ -59,5 +59,7 @@
 	"logentry-interwiki-iw_delete": "$1 {{GENDER:$2|removeu}} o prefixo \"$4\" da tabela de interwikis",
 	"log-description-interwiki": "Este é um registro das alterações à [[Special:Interwiki|tabela de interwikis]].",
 	"right-interwiki": "Editar dados de interwiki",
-	"action-interwiki": "alterar esta entrada interwiki"
+	"action-interwiki": "alterar esta entrada interwiki",
+	"interwiki-links": "Prefixos interwiki",
+	"interwiki-language-links": "Prefixos interlínguas"
 }
