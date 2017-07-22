@@ -60,6 +60,8 @@
 	"log-description-interwiki": "Este é um registro das alterações à [[Special:Interwiki|tabela de interwikis]].",
 	"right-interwiki": "Editar dados de interwiki",
 	"action-interwiki": "alterar esta entrada interwiki",
+	"interwiki-global-links": "Prefixos interwiki globais",
+	"interwiki-local-links": "Prefixos interwiki locais",
 	"interwiki-links": "Prefixos interwiki",
 	"interwiki-language-links": "Prefixos interlínguas"
 }
