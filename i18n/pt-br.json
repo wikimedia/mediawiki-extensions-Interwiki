@@ -42,6 +42,7 @@
 	"interwiki_delfailed": "O prefixo \"$1\" não pôde ser removido da tabela de interwikis.",
 	"interwiki-logtext": "Visualizar o registo",
 	"interwiki_addtext": "Adicione um prefixo de interwiki ou idioma",
+	"interwiki-addtext-local": "Adicione um interwiki local ou prefixo de idioma",
 	"interwiki_addintro": "Você se encontra prestes a adicionar um novo prefixo de interwiki. Lembre-se de que ele não pode conter espaços ( ), dois-pontos (:), conjunções (&) ou sinais de igualdade (=).",
 	"interwiki_addbutton": "Adicionar",
 	"interwiki_added": "O prefixo \"$1\" foi adicionado à tabela de interwikis.",
@@ -61,7 +62,10 @@
 	"right-interwiki": "Editar dados de interwiki",
 	"action-interwiki": "alterar esta entrada interwiki",
 	"interwiki-global-links": "Prefixos interwiki globais",
+	"interwiki-global-description": "Esses prefixos são herdados de uma configuração global e só podem ser editados na wiki de origem.",
 	"interwiki-local-links": "Prefixos interwiki locais",
+	"interwiki-local-description": "Esses prefixos existem localmente. Qualquer duplicado com a configuração global irá substituir a definição global.",
 	"interwiki-links": "Prefixos interwiki",
-	"interwiki-language-links": "Prefixos interlínguas"
+	"interwiki-language-links": "Prefixos interlínguas",
+	"interwiki-language-description": "Esses prefixos combinam códigos de idioma definidos e serão usados ​​para criar a listagem  \"{{int:otherlanguages}}\" quando adicionada a uma página."
 }
