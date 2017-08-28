@@ -42,7 +42,7 @@ class SpecialInterwiki extends SpecialPage {
 		$out = $this->getOutput();
 		$request = $this->getRequest();
 
-		$out->addModules( 'ext.interwiki.specialpage' );
+		$out->addModuleStyles( 'ext.interwiki.specialpage' );
 
 		$action = $par ?: $request->getVal( 'action', $par );
 		$return = $this->getPageTitle();

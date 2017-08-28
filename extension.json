@@ -39,10 +39,7 @@
 	},
 	"ResourceModules": {
 		"ext.interwiki.specialpage": {
-			"styles": "Interwiki.css",
-			"dependencies": [
-				"jquery.makeCollapsible"
-			]
+			"styles": "Interwiki.css"
 		}
 	},
 	"ResourceFileModulePaths": {
