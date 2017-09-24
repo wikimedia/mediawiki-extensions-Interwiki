@@ -122,7 +122,7 @@ class SpecialInterwiki extends SpecialPage {
 			$button = 'delete';
 			$formContent = '';
 		} elseif ( $action === 'edit' ) {
-			$dbr = wfGetDB( DB_SLAVE );
+			$dbr = wfGetDB( DB_REPLICA );
 			$row = $dbr->selectRow( 'interwiki', '*', [ 'iw_prefix' => $prefix ], __METHOD__ );
 
 			if ( !$row ) {
@@ -313,7 +313,7 @@ class SpecialInterwiki extends SpecialPage {
 		$iwGlobalPrefixes = [];
 		if ( $wgInterwikiCentralDB !== null && $wgInterwikiCentralDB !== wfWikiID() ) {
 			// Fetch list from global table
-			$dbrCentralDB = wfGetDB( DB_SLAVE, [], $wgInterwikiCentralDB );
+			$dbrCentralDB = wfGetDB( DB_REPLICA, [], $wgInterwikiCentralDB );
 			$res = $dbrCentralDB->select( 'interwiki', '*', false, __METHOD__ );
 			$retval = [];
 			foreach ( $res as $row ) {
