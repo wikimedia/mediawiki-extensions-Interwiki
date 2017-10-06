@@ -33,7 +33,7 @@ class SpecialInterwiki extends SpecialPage {
 	/**
 	 * Show the special page
 	 *
-	 * @param $par Mixed: parameter passed to the page or null
+	 * @param string|null $par parameter passed to the page or null
 	 */
 	public function execute( $par ) {
 		$this->setHeaders();
@@ -77,7 +77,7 @@ class SpecialInterwiki extends SpecialPage {
 
 	/**
 	 * Returns boolean whether the user can modify the data.
-	 * @param $out OutputPage|bool If $wgOut object given, it adds the respective error message.
+	 * @param OutputPage|bool $out If $wgOut object given, it adds the respective error message.
 	 * @throws PermissionsError|ReadOnlyError
 	 * @return bool
 	 */
@@ -105,7 +105,7 @@ class SpecialInterwiki extends SpecialPage {
 	}
 
 	/**
-	 * @param $action string
+	 * @param string $action The action of the form
 	 */
 	protected function showForm( $action ) {
 		$request = $this->getRequest();
