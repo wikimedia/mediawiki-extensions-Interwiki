@@ -58,7 +58,7 @@
 	"AutoloadClasses": {
 		"InterwikiHooks": "Interwiki_hooks.php",
 		"SpecialInterwiki": "Interwiki_body.php",
-		"InterwikiLogFormatter": "Interwiki_body.php"
+		"InterwikiLogFormatter": "InterwikiLogFormatter.php"
 	},
 	"manifest_version": 1
 }
