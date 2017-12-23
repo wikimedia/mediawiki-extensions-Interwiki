@@ -19,7 +19,7 @@
 	"interwiki-legend-label": "Legenda",
 	"interwiki_prefix": "Prefixo",
 	"interwiki-prefix-label": "Prefixo:",
-	"interwiki_prefix_intro": "Prefixo do ''link'' interwikis, para ser usado na sintaxe da notação wiki <code>[<nowiki />[prefixo:<em>nome da página</em>]]</code>.",
+	"interwiki_prefix_intro": "Prefixo da hiperligação interwikis, para ser usado na sintaxe de texto wiki <code>[<nowiki />[prefixo:<em>nome da página</em>]]</code>.",
 	"interwiki_url_intro": "Valor predefinido para o URL. Nele, o espaço reservado $1 será substituído pelo <em>nome da página</em> em <code>[<nowiki />[prefixo:<em>nome da página</em>]]</code>.",
 	"interwiki_local": "Encaminhar",
 	"interwiki-local-label": "Encaminhar:",
