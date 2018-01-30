@@ -9,13 +9,14 @@
 			"Waldir",
 			"555",
 			"Vitorvicentevalente",
-			"Fúlvio"
+			"Fúlvio",
+			"Athena in Wonderland"
 		]
 	},
 	"interwiki": "Ver e manipular dados de interwikis",
 	"interwiki-title-norights": "Dados de prefixos interwikis",
 	"interwiki-desc": "[[Special:Interwiki|Página especial]] para ver e editar a tabela de interwikis",
-	"interwiki_intro": "Esta é uma visão geral da tabela de interwikis, que define os prefixos usados para criar rapidamente hiperligações para outras wikis e outros ''sites'' externos. Para recomendações de uso, por favor consulte [//www.mediawiki.org/wiki/Extension:Interwiki o manual na MediaWiki.org].",
+	"interwiki_intro": "Esta é uma visão geral da tabela de interwikis, que define os prefixos usados para criar rapidamente hiperligações para outras wikis e outros sítios externos. Para recomendações de uso, por favor consulte [//www.mediawiki.org/wiki/Extension:Interwiki o manual na MediaWiki.org].",
 	"interwiki-legend-label": "Legenda",
 	"interwiki_prefix": "Prefixo",
 	"interwiki-prefix-label": "Prefixo:",
