@@ -341,9 +341,9 @@ class SpecialInterwiki extends SpecialPage {
 
 		// Add 'view log' link when possible
 		if ( $wgInterwikiViewOnly === false ) {
-			$logLink = Linker::link(
+			$logLink = $this->getLinkRenderer()->makeLink(
 				SpecialPage::getTitleFor( 'Log', 'interwiki' ),
-				$this->msg( 'interwiki-logtext' )->escaped()
+				$this->msg( 'interwiki-logtext' )->text()
 			);
 			$this->getOutput()->addHTML( '<p class="mw-interwiki-log">' . $logLink . '</p>' );
 		}
@@ -351,12 +351,14 @@ class SpecialInterwiki extends SpecialPage {
 		// Add 'add' link
 		if ( $canModify ) {
 			if ( count( $iwGlobalPrefixes ) !== 0 ) {
-				$addtext = $this->msg( 'interwiki-addtext-local' )->escaped();
+				$addtext = $this->msg( 'interwiki-addtext-local' )->text();
 			} else {
-				$addtext = $this->msg( 'interwiki_addtext' )->escaped();
+				$addtext = $this->msg( 'interwiki_addtext' )->text();
 			}
-			$addlink = Linker::linkKnown( $this->getPageTitle( 'add' ), $addtext );
-			$this->getOutput()->addHTML( '<p class="mw-interwiki-addlink">' . $addlink . '</p>' );
+			$addlink = $this->getLinkRenderer()->makeKnownLink(
+				$this->getPageTitle( 'add' ), $addtext );
+			$this->getOutput()->addHTML(
+				'<p class="mw-interwiki-addlink">' . $addlink . '</p>' );
 		}
 
 		$this->getOutput()->addWikiMsg( 'interwiki-legend' );
@@ -473,11 +475,19 @@ class SpecialInterwiki extends SpecialPage {
 			// Additional column when the interwiki table can be modified.
 			if ( $canModify ) {
 				$out .= Html::rawElement( 'td', [ 'class' => 'mw-interwikitable-modify' ],
-					Linker::linkKnown( $selfTitle, $this->msg( 'edit' )->escaped(), [],
-						[ 'action' => 'edit', 'prefix' => $iwPrefix['iw_prefix'] ] ) .
+					$this->getLinkRenderer()->makeKnownLink(
+						$selfTitle,
+						$this->msg( 'edit' )->text(),
+						[],
+						[ 'action' => 'edit', 'prefix' => $iwPrefix['iw_prefix'] ]
+					) .
 					$this->msg( 'comma-separator' ) .
-					Linker::linkKnown( $selfTitle, $this->msg( 'delete' )->escaped(), [],
-						[ 'action' => 'delete', 'prefix' => $iwPrefix['iw_prefix'] ] )
+					$this->getLinkRenderer()->makeKnownLink(
+						$selfTitle,
+						$this->msg( 'delete' )->text(),
+						[],
+						[ 'action' => 'delete', 'prefix' => $iwPrefix['iw_prefix'] ]
+					)
 				);
 			}
 			$out .= Html::closeElement( 'tr' ) . "\n";
