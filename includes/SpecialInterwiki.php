@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * Implements Special:Interwiki
  * @ingroup SpecialPage
@@ -235,6 +238,7 @@ class SpecialInterwiki extends SpecialPage {
 		}
 		$reason = $request->getText( 'wpInterwikiReason' );
 		$selfTitle = $this->getPageTitle();
+		$lookup = MediaWikiServices::getInstance()->getInterwikiLookup();
 		$dbw = wfGetDB( DB_MASTER );
 		switch ( $do ) {
 		case 'delete':
@@ -247,7 +251,7 @@ class SpecialInterwiki extends SpecialPage {
 				$this->getOutput()->addWikiMsg( 'interwiki_deleted', $prefix );
 				$log = new LogPage( 'interwiki' );
 				$log->addEntry( 'iw_delete', $selfTitle, $reason, [ $prefix ] );
-				Interwiki::invalidateCache( $prefix );
+				$lookup->invalidateCache( $prefix );
 			}
 			break;
 		/** @noinspection PhpMissingBreakStatementInspection */
@@ -293,7 +297,7 @@ class SpecialInterwiki extends SpecialPage {
 				$this->getOutput()->addWikiMsg( "interwiki_{$do}ed", $prefix );
 				$log = new LogPage( 'interwiki' );
 				$log->addEntry( 'iw_' . $do, $selfTitle, $reason, [ $prefix, $theurl, $trans, $local ] );
-				Interwiki::invalidateCache( $prefix );
+				$lookup->invalidateCache( $prefix );
 			}
 			break;
 		}
@@ -304,12 +308,8 @@ class SpecialInterwiki extends SpecialPage {
 		$canModify = $this->canModify();
 
 		// Build lists
-		if ( !method_exists( 'Interwiki', 'getAllPrefixes' ) ) {
-			// version 2.0 is not backwards compatible (but will still display a nice error)
-			$this->error( 'interwiki_error' );
-			return;
-		}
-		$iwPrefixes = Interwiki::getAllPrefixes( null );
+		$lookup = MediaWikiServices::getInstance()->getInterwikiLookup();
+		$iwPrefixes = $lookup->getAllPrefixes( null );
 		$iwGlobalPrefixes = [];
 		if ( $wgInterwikiCentralDB !== null && $wgInterwikiCentralDB !== wfWikiID() ) {
 			// Fetch list from global table
