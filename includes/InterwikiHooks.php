@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class InterwikiHooks {
 	public static function onExtensionFunctions() {
 		global $wgInterwikiViewOnly;
@@ -28,7 +30,8 @@ class InterwikiHooks {
 		}
 		if ( !Language::fetchLanguageName( $prefix ) ) {
 			// Check if prefix exists locally and skip
-			foreach ( Interwiki::getAllPrefixes( null ) as $id => $localPrefixInfo ) {
+			$lookup = MediaWikiServices::getInstance()->getInterwikiLookup();
+			foreach ( $lookup->getAllPrefixes( null ) as $id => $localPrefixInfo ) {
 				if ( $prefix === $localPrefixInfo['iw_prefix'] ) {
 					return true;
 				}
