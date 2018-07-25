@@ -33,9 +33,8 @@
 		]
 	},
 	"Hooks": {
-		"InterwikiLoadPrefix": [
-			"InterwikiHooks::onInterwikiLoadPrefix"
-		]
+		"InterwikiLoadPrefix": "InterwikiHooks::onInterwikiLoadPrefix",
+		"UserGetAllRights": "InterwikiHooks::onUserGetAllRights"
 	},
 	"ResourceModules": {
 		"ext.interwiki.specialpage": {
@@ -56,6 +55,9 @@
 		"InterwikiHooks": "includes/InterwikiHooks.php",
 		"SpecialInterwiki": "includes/SpecialInterwiki.php",
 		"InterwikiLogFormatter": "includes/InterwikiLogFormatter.php"
+	},
+	"LogActionsHandlers": {
+		"interwiki/*": "InterwikiLogFormatter"
 	},
 	"manifest_version": 1
 }
