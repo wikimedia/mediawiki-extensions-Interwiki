@@ -23,7 +23,7 @@ class SpecialInterwiki extends SpecialPage {
 	 * whether the user can modify the data.
 	 * @return String
 	 */
-	function getDescription() {
+	public function getDescription() {
 		return $this->msg( $this->canModify() ?
 			'interwiki' : 'interwiki-title-norights' )->plain();
 	}
