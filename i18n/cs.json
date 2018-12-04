@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Danny B.",
-			"Mormegil"
+			"Mormegil",
+			"Dvorapa"
 		]
 	},
 	"interwiki": "Zobrazit a upravovat interwiki",
@@ -25,7 +26,7 @@
 	"interwiki_1": "ano",
 	"interwiki_0": "ne",
 	"interwiki_error": "CHYBA: Interwiki tabulka je prázdná anebo se pokazilo něco jiného.",
-	"interwiki-cached": "Data interwiki pocházejí z cache. Změna cache není možná.",
+	"interwiki-cached": "Data interwiki pocházejí z mezipaměti. Změna mezipaměti není možná.",
 	"interwiki_edit": "Editovat",
 	"interwiki_reasonfield": "Důvod:",
 	"interwiki_delquestion": "Mazání „$1“",
