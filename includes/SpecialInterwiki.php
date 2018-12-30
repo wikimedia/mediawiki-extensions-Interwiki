@@ -178,7 +178,7 @@ class SpecialInterwiki extends SpecialPage {
 				) .
 				Html::rawElement(
 					'td',
-					$input,  Xml::check( 'wpInterwikiTrans', $trans, [ 'id' => 'mw-interwiki-trans' ] ) )
+					$input, Xml::check( 'wpInterwikiTrans', $trans, [ 'id' => 'mw-interwiki-trans' ] ) )
 			) . Html::rawElement( 'tr', null,
 				Html::rawElement(
 					'td',
@@ -420,11 +420,12 @@ class SpecialInterwiki extends SpecialPage {
 	protected function makeTable( $canModify, $iwPrefixes ) {
 		// Output the existing Interwiki prefixes table header
 		$out = '';
-		$out .=	Html::openElement(
+		$out .= Html::openElement(
 			'table',
 			[ 'class' => 'mw-interwikitable wikitable sortable body' ]
 		) . "\n";
-		$out .= Html::openElement( 'tr', [ 'class' => 'interwikitable-header' ] ) .
+		$out .= Html::openElement( 'thead' ) .
+			Html::openElement( 'tr', [ 'class' => 'interwikitable-header' ] ) .
 			Html::element( 'th', null, $this->msg( 'interwiki_prefix' )->text() ) .
 			Html::element( 'th', null, $this->msg( 'interwiki_url' )->text() ) .
 			Html::element( 'th', null, $this->msg( 'interwiki_local' )->text() ) .
@@ -437,7 +438,9 @@ class SpecialInterwiki extends SpecialPage {
 				) :
 				''
 			);
-		$out .= Html::closeElement( 'tr' ) . "\n";
+		$out .= Html::closeElement( 'tr' ) .
+			Html::closeElement( 'thead' ) . "\n" .
+			Html::openElement( 'tbody' );
 
 		$selfTitle = $this->getPageTitle();
 
@@ -492,7 +495,8 @@ class SpecialInterwiki extends SpecialPage {
 			}
 			$out .= Html::closeElement( 'tr' ) . "\n";
 		}
-		$out .= Html::closeElement( 'table' );
+		$out .= Html::closeElement( 'tbody' ) .
+			Html::closeElement( 'table' );
 
 		$this->getOutput()->addHTML( $out );
 	}
