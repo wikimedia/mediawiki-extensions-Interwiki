@@ -4,7 +4,8 @@
 			"Event",
 			"Nghtwlkr",
 			"Purodha",
-			"Jon Harald Søby"
+			"Jon Harald Søby",
+			"AnB"
 		]
 	},
 	"interwiki": "Vis og manipuler interwikidata",
@@ -17,11 +18,11 @@
 	"interwiki_prefix_intro": "Interwikiprefiks som skal brukes i <code>[<nowiki />[prefiks:<em>sidenavn</em>]]</code>-wikisyntaks.",
 	"interwiki_url_intro": "Mal for URL-er. Variabelen $1 blir erstattet av <em>sidenavn</em> i <code>[<nowiki />[prefix:<em>sidenavn</em>]]</code>.",
 	"interwiki_local": "Videresend",
-	"interwiki-local-label": "Videresend:",
+	"interwiki-local-label": "Videresend",
 	"interwiki_local_0_intro": "Eksterne HTTP-forespørsler til den lokale wikien som bruker dette interwiki-prefikset i URL-en vil resultere i feilsiden «{{int:badtitle}}».",
 	"interwiki_local_1_intro": "Eksterne HTTP-forespørsler til den lokale wikien med dette interwiki-prefikset vil bli omdirigert til interwikiens mål-URL (altså vil den behandles som lenker til lokale sider).",
 	"interwiki_trans": "Transkluder",
-	"interwiki-trans-label": "Transkluder:",
+	"interwiki-trans-label": "Transkluder",
 	"interwiki_trans_1_intro": "Dersom wikitekstsyntaksen <code>{<nowiki />{prefix:<em>sidenavn</em>}}</code> brukes, tillat mal-/sidetransklusjon fra den eksterne wikien om interwikitransklusjon er slått på generelt ([//www.mediawiki.org/wiki/Manual:$wgEnableScaryTranscluding skummel transkludering]).",
 	"interwiki_trans_0_intro": "Ikke tillat transkludering fra andre sider med <code>{<nowiki />{prefiks:<em>sidenavn</em>}}</code>, se heller etter lokale sider i malnavnerommet.",
 	"interwiki_1": "ja",
