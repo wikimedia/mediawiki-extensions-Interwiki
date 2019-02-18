@@ -25,6 +25,8 @@
 	"interwiki_prefix": "字首",
 	"interwiki-prefix-label": "字首：",
 	"interwiki_prefix_intro": "跨 Wiki 字首，可用 WikiText 語法表示 <code>[<nowiki />[prefix:<em>pagename</em>]]</code>。",
+	"interwiki_url": "網址",
+	"interwiki-url-label": "網址：",
 	"interwiki_url_intro": "模板的 URL。當使用上述語法時，提示文字 $1 會替換為 <code>[<nowiki />[prefix:<em>pagename</em>]]</code> 中\n的 <em>pagename</em>。",
 	"interwiki_local": "存轉",
 	"interwiki-local-label": "轉發",
