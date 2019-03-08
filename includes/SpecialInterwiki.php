@@ -499,8 +499,10 @@ class SpecialInterwiki extends SpecialPage {
 		$this->getOutput()->addHTML( $out );
 	}
 
-	protected function error() {
-		$args = func_get_args();
+	/**
+	 * @param string ...$args
+	 */
+	protected function error( ...$args ) {
 		$this->getOutput()->wrapWikiMsg( "<p class='error'>$1</p>", $args );
 	}
 
