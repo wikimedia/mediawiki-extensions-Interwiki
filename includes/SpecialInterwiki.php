@@ -281,9 +281,9 @@ class SpecialInterwiki extends SpecialPage {
 			}
 
 			if ( $do === 'add' ) {
-				$dbw->insert( 'interwiki', $rows, __METHOD__, 'IGNORE' );
+				$dbw->insert( 'interwiki', $rows, __METHOD__, [ 'IGNORE' ] );
 			} else { // $do === 'edit'
-				$dbw->update( 'interwiki', $rows, [ 'iw_prefix' => $prefix ], __METHOD__, 'IGNORE' );
+				$dbw->update( 'interwiki', $rows, [ 'iw_prefix' => $prefix ], __METHOD__, [ 'IGNORE' ] );
 			}
 
 			// used here: interwiki_addfailed, interwiki_added, interwiki_edited
