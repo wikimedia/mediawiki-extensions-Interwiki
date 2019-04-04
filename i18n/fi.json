@@ -10,7 +10,8 @@
 			"VezonThunder",
 			"Pxos",
 			"01miki10",
-			"Valtlait"
+			"Valtlait",
+			"Pyscowicz"
 		]
 	},
 	"interwiki": "Wikienväliset linkit",
@@ -23,11 +24,11 @@
 	"interwiki_prefix_intro": "Etuliite, jota käytetään wikitekstissä muodossa <code>[<nowiki />[etuliite:<em>sivunnimi</em>]]</code>.",
 	"interwiki_url_intro": "URL-osoitteiden malli. Kohta $1 korvataan sivun nimellä koodissa <code>[<nowiki />[etuliite:<em>sivun nimi</em>]]</code>.",
 	"interwiki_local": "Välitä",
-	"interwiki-local-label": "Välitä:",
+	"interwiki-local-label": "Välitä",
 	"interwiki_local_0_intro": "Ulkoiset HTTP-pyynnöt paikalliseen wikiin käyttäen tätä interwiki-etuliitettä osoitteessa johtavat virhesivuun ”{{int:badtitle}}”.",
 	"interwiki_local_1_intro": "Ulkoiset HTTP-pyynnöt paikalliseen wikiin käyttäen tätä interwiki-etuliitettä ohjataan interwiki-kohteen osoitteeseen (eli kohdellaan kuin linkkejä paikallisiin sivuihin)",
 	"interwiki_trans": "Sisällytä",
-	"interwiki-trans-label": "Sisällytä:",
+	"interwiki-trans-label": "Sisällytä",
 	"interwiki_trans_1_intro": "Jos wikitekstin syntaksia <code>{<nowiki />{etuliite:<em>sivun nimi</em>}}</code> käytetään, salli mallineiden/sivujen sisällytys ulkoisesta wikistä, jos interwiki-sisällytykset on sallittu yleisesti ([//www.mediawiki.org/wiki/Manual:$wgEnableScaryTranscluding ”scary transclusion”]).",
 	"interwiki_trans_0_intro": "Älä salli mallineiden/sivujen sisällyttämistä ulkoisesta wikistä <code>{<nowiki />{etuliite:<em>sivunnimi</em>}}</code>-syntaksilla; etsi sen sijaan paikallista sivua malline-nimiavaruudesta.",
 	"interwiki_1": "kyllä",
