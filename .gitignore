@@ -2,6 +2,7 @@
 /vendor/
 .idea
 node_modules/
+.eslintcache
 
 # Editors
 *.kate-swp
