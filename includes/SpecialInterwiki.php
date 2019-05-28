@@ -482,7 +482,7 @@ class SpecialInterwiki extends SpecialPage {
 						[],
 						[ 'action' => 'edit', 'prefix' => $iwPrefix['iw_prefix'] ]
 					) .
-					$this->msg( 'comma-separator' ) .
+					$this->msg( 'comma-separator' )->escaped() .
 					$this->getLinkRenderer()->makeKnownLink(
 						$selfTitle,
 						$this->msg( 'delete' )->text(),
