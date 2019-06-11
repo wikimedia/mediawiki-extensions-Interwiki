@@ -497,6 +497,8 @@ class SpecialInterwiki extends SpecialPage {
 			Html::closeElement( 'table' );
 
 		$this->getOutput()->addHTML( $out );
+		$this->getOutput()->addModuleStyles( 'jquery.tablesorter.styles' );
+		$this->getOutput()->addModules( 'jquery.tablesorter' );
 	}
 
 	/**
