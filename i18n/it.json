@@ -42,6 +42,8 @@
 	"interwiki-logtext": "Vedi registro",
 	"interwiki_addtext": "Aggiungi un prefisso interwiki o lingua",
 	"interwiki-addtext-local": "Aggiungi un prefisso locale interwiki o lingua",
+	"interwiki-addtext-nolang": "Aggiungi un prefisso interwiki",
+	"interwiki-addtext-local-nolang": "Aggiungi un prefisso interwiki locale",
 	"interwiki_addintro": "Sta per essere aggiunto un nuovo prefisso interwiki.\nNon sono ammessi i caratteri: spazio ( ), due punti (:), e commerciale (&), simbolo di uguale (=).",
 	"interwiki_addbutton": "Aggiungi",
 	"interwiki_added": "Il prefisso \"$1\" è stato aggiunto alla tabella degli interwiki.",
