@@ -169,13 +169,7 @@ class SpecialInterwiki extends SpecialPage {
 			'default' => $prefix,
 		];
 
-		if ( $action === 'delete' ) {
-			$topmessage = $this->msg( 'interwiki_delquestion', $prefix )->text();
-			$intromessage = $this->msg( 'interwiki_deleting', $prefix )->escaped();
-			$wpPrefix = Html::hidden( 'wpInterwikiPrefix', $prefix );
-			$button = 'delete';
-			$formContent = '';
-		} elseif ( $action === 'edit' ) {
+		if ( $action === 'edit' ) {
 			$dbr = wfGetDB( DB_REPLICA );
 			$row = $dbr->selectRow( 'interwiki', '*', [ 'iw_prefix' => $prefix ], __METHOD__ );
 
