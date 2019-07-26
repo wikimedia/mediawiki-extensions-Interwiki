@@ -21,7 +21,8 @@ class SpecialInterwiki extends SpecialPage {
 	/**
 	 * Different description will be shown on Special:SpecialPage depending on
 	 * whether the user can modify the data.
-	 * @return String
+	 *
+	 * @return string
 	 */
 	public function getDescription() {
 		return $this->msg( $this->canModify() ?
@@ -49,7 +50,6 @@ class SpecialInterwiki extends SpecialPage {
 
 		$action = $par ?: $request->getVal( 'action', $par );
 
-		$action = $par ?: $request->getVal( 'action', $par );
 		if ( !in_array( $action, [ 'add', 'edit', 'delete' ] ) || !$this->canModify( $out ) ) {
 			$this->showList();
 		} else {
