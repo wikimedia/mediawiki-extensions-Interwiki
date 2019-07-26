@@ -43,7 +43,6 @@
 	"interwiki-cached": "Informational message on why interwiki data cannot be manipulated.",
 	"interwiki_edit": "For users allowed to edit the interwiki table via [[Special:Interwiki]], this text is shown as the column header above the edit buttons.\n\n{{Identical|Edit}}",
 	"interwiki_reasonfield": "{{Identical|Reason}}",
-	"interwiki_delquestion": "Used as top message.\n\nFollowed by the form.\n\nParameters:\n* $1 - the interwiki prefix you are deleting",
 	"interwiki_deleting": "Used as intro message for the table. Parameters:\n* $1 - the specified prefix",
 	"interwiki_deleted": "Used as success message. Parameters:\n* $1 - interwiki prefix",
 	"interwiki_delfailed": "Error message when removing an interwiki table entry fails. Parameters:\n* $1 is an interwiki prefix.",
