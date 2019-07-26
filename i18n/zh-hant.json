@@ -49,6 +49,8 @@
 	"interwiki-logtext": "檢視日誌",
 	"interwiki_addtext": "新增一個跨 Wiki 或語言字首",
 	"interwiki-addtext-local": "新增本地跨 Wiki 或語言字首",
+	"interwiki-addtext-nolang": "添加跨 wiki 字首",
+	"interwiki-addtext-local-nolang": "添加本地跨 wiki 字首",
 	"interwiki_addintro": "您正新增一個跨 Wiki 字首。\n字首不可包含空白 ( )、冒號 (:)、連字號 (&) 或等號 (=)。",
 	"interwiki_addbutton": "新增",
 	"interwiki_added": "已經加入字首「$1」到跨 Wiki 資料表。",
