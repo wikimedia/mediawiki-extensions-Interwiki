@@ -39,7 +39,6 @@
 	"interwiki-cached": "Дані інтервікі взято з кешу. Зміни кешу неможливі.",
 	"interwiki_edit": "Редагувати",
 	"interwiki_reasonfield": "Причина:",
-	"interwiki_delquestion": "Вилучення \"$1\"",
 	"interwiki_deleting": "Ви видаляєте префікс \"$1\".",
 	"interwiki_deleted": "Префікс «$1» було вилучено з таблиці інтервікі.",
 	"interwiki_delfailed": "Префікс \"$1\" не може бути видалений з таблиці інтервікі.",

@@ -37,7 +37,6 @@
 	"interwiki-cached": "インターウィキデータはキャッシュされています。キャッシュを変更することは不可能です。",
 	"interwiki_edit": "編集",
 	"interwiki_reasonfield": "理由:",
-	"interwiki_delquestion": "「$1」を削除中",
 	"interwiki_deleting": "接頭辞「$1」を削除しようとしています。",
 	"interwiki_deleted": "インターウィキテーブルから接頭辞「$1」を除去しました。",
 	"interwiki_delfailed": "インターウィキテーブルから接頭辞「$1」を除去しました。",

@@ -35,7 +35,6 @@
 	"interwiki-cached": "I dati degli interwiki sono memorizzati nella cache. Non è possibile modificare la cache.",
 	"interwiki_edit": "Modifica",
 	"interwiki_reasonfield": "Motivo:",
-	"interwiki_delquestion": "Cancello \"$1\"",
 	"interwiki_deleting": "Stai cancellando il prefisso \"$1\"",
 	"interwiki_deleted": "Il prefisso \"$1\" è stato rimosso dalla tabella degli interwiki.",
 	"interwiki_delfailed": "Rimozione del prefisso \"$1\" dalla tabella degli interwiki fallita.",

@@ -39,7 +39,6 @@
 	"interwiki-cached": "Сведения об интервики взяты из кэша. Измененить кэш не представляется возможным.",
 	"interwiki_edit": "Править",
 	"interwiki_reasonfield": "Причина:",
-	"interwiki_delquestion": "Удаление «$1»",
 	"interwiki_deleting": "Вы удаляете приставку «$1».",
 	"interwiki_deleted": "Префикс «$1» удалён из таблицы интервики.",
 	"interwiki_delfailed": "Префикс «$1» не может быть удалён из таблицы интервики.",

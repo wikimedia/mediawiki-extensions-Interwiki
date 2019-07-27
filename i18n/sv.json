@@ -37,7 +37,6 @@
 	"interwiki-cached": "Interwikidatat cachas. Att ändra cache-minnet är inte möjligt.",
 	"interwiki_edit": "Redigera",
 	"interwiki_reasonfield": "Anledning:",
-	"interwiki_delquestion": "Ta bort \"$1\"",
 	"interwiki_deleting": "Du håller på att ta bort prefixet \"$1\".",
 	"interwiki_deleted": "Prefixet \"$1 har raderats från interwikitabellen.",
 	"interwiki_delfailed": "Prefixet \"$1\" kunde inte raderas från interwikitabellen.",

@@ -32,7 +32,6 @@
 	"interwiki-cached": "מידע בינוויקי מוטמן. שינוי המטמון אינו אפשרי.",
 	"interwiki_edit": "עריכה",
 	"interwiki_reasonfield": "סיבה:",
-	"interwiki_delquestion": "מחיקת \"$1\"",
 	"interwiki_deleting": "{{GENDER:|אתה מוחק|את מוחקת}} את התחילית \"$1\".",
 	"interwiki_deleted": "התחילית \"$1\" הוסרה מטבלת הבינוויקי.",
 	"interwiki_delfailed": "לא היה אפשר להסיר את התחילית \"$1\" מטבלת הבינוויקי.",

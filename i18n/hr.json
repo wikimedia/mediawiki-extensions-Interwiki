@@ -26,7 +26,6 @@
 	"interwiki_error": "POGRJEŠKA: Interwiki tablica je prazna, ili je nešto drugo neispravno.",
 	"interwiki_edit": "Uredi",
 	"interwiki_reasonfield": "Razlog:",
-	"interwiki_delquestion": "Brišem \"$1\"",
 	"interwiki_deleting": "Brišete prefiks \"$1\".",
 	"interwiki_deleted": "Prefiks \"$1\" je uspješno uklonjen iz interwiki tablice.",
 	"interwiki_delfailed": "Prefiks \"$1\" nije mogao biti uklonjen iz interwiki tablice.",

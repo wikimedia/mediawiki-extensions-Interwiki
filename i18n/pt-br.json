@@ -38,7 +38,6 @@
 	"interwiki-cached": "Os dados dos interwikis são armazenados no cache. Não é possível modificar o cache.",
 	"interwiki_edit": "Editar",
 	"interwiki_reasonfield": "Motivo:",
-	"interwiki_delquestion": "Apagando \"$1\"",
 	"interwiki_deleting": "Você está apagando o prefixo \"$1\".",
 	"interwiki_deleted": "O prefixo \"$1\" foi removido da tabelas de interwikis.",
 	"interwiki_delfailed": "O prefixo \"$1\" não pôde ser removido da tabela de interwikis.",

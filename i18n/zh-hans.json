@@ -44,7 +44,6 @@
 	"interwiki-cached": "跨维基数据是缓存的。缓存不能被修改。",
 	"interwiki_edit": "编辑",
 	"interwiki_reasonfield": "原因：",
-	"interwiki_delquestion": "正在删除“$1”",
 	"interwiki_deleting": "您正在删除前缀“$1”。",
 	"interwiki_deleted": "已从跨wiki表中删除前缀“$1”。",
 	"interwiki_delfailed": "无法从跨wiki表删除前缀“$1”。",

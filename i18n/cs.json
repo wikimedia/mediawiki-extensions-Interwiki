@@ -31,7 +31,6 @@
 	"interwiki-cached": "Data interwiki pocházejí z cache. Změny v cache nejsou možné.",
 	"interwiki_edit": "Editovat",
 	"interwiki_reasonfield": "Důvod:",
-	"interwiki_delquestion": "Mazání „$1“",
 	"interwiki_deleting": "Mažete prefix „$1“.",
 	"interwiki_deleted": "Prefix „$1“ byl úspěšně odstraněn z tabulky interwiki.",
 	"interwiki_delfailed": "Prefix „$1“ nebylo možné odstranit z tabulky interwiki.",

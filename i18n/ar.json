@@ -32,7 +32,6 @@
 	"interwiki-cached": "يتم تخزين بيانات الإنترويكي مؤقتا، تعديل ذاكرة التخزين المؤقت غير ممكن.",
 	"interwiki_edit": "عدل",
 	"interwiki_reasonfield": "السبب:",
-	"interwiki_delquestion": "حذف \"$1\"",
 	"interwiki_deleting": "أنت تحذف البادئة \"$1\".",
 	"interwiki_deleted": "تمت إزالة البادئة \"$1\" من جدول الإنترويكي.",
 	"interwiki_delfailed": "البادئة \"$1\" لم يمكن إزالتها من جدول الإنترويكي.",

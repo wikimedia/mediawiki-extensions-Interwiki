@@ -41,7 +41,6 @@
 	"interwiki-cached": "Los datos de los interwikis se encuentran almacenados en la caché. No es posible modificar la caché.",
 	"interwiki_edit": "Editar",
 	"interwiki_reasonfield": "Motivo:",
-	"interwiki_delquestion": "Borrando «$1»",
 	"interwiki_deleting": "Estás borrando el prefijo «$1».",
 	"interwiki_deleted": "El prefijo «$1» se borró de la tabla de interwikis.",
 	"interwiki_delfailed": "El prefijo «$1» no se puede borrar de la tabla de interwikis.",

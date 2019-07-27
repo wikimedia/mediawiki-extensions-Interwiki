@@ -42,7 +42,6 @@
 	"interwiki-cached": "已快取跨 Wiki 資料，無法修改快取資料。",
 	"interwiki_edit": "編輯",
 	"interwiki_reasonfield": "原因：",
-	"interwiki_delquestion": "正在刪除 \"$1\"",
 	"interwiki_deleting": "您正在刪除字首 \"$1\"。",
 	"interwiki_deleted": "已刪除在跨 Wiki 資料表中的字首「$1」。",
 	"interwiki_delfailed": "無法刪除跨 Wiki 資料表中的字首 \"$1\"。",

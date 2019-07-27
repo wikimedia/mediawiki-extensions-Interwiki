@@ -35,7 +35,6 @@
 	"interwiki-cached": "Dane interwiki są buforowane. Zmiany zawartości pamięci podręcznej nie są możliwe.",
 	"interwiki_edit": "Edytuj",
 	"interwiki_reasonfield": "Powód:",
-	"interwiki_delquestion": "Czy usunąć „$1”",
 	"interwiki_deleting": "Usuwasz prefiks „$1”.",
 	"interwiki_deleted": "Prefiks „$1” został usunięty z tabeli interwiki.",
 	"interwiki_delfailed": "Prefiks „$1” nie może zostać usunięty z tabeli interwiki.",
