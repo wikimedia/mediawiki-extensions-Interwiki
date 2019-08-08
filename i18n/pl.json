@@ -41,6 +41,8 @@
 	"interwiki-logtext": "Zobacz rejestr",
 	"interwiki_addtext": "Dodaj interwiki lub przedrostek języka",
 	"interwiki-addtext-local": "Dodaj lokalny prefiks interwiki lub językowy",
+	"interwiki-addtext-nolang": "Dodaj przedrostek interwiki",
+	"interwiki-addtext-local-nolang": "Dodaj lokalny przedrostek interwiki",
 	"interwiki_addintro": "Edytujesz przedrostek interwiki.\nPamiętaj, że nie może on zawierać znaku odstępu ( ), dwukropka (:), ampersandu (&) oraz znaku równości (=).",
 	"interwiki_addbutton": "Dodaj",
 	"interwiki_added": "Prefiks „$1” został dodany do tabeli interwiki.",
@@ -50,6 +52,7 @@
 	"interwiki_edited": "Prefiks „$1” został zmieniony w tabeli interwiki.",
 	"interwiki_editerror": "Prefiks „$1” nie może zostać poprawiony w tabeli interwiki. Prawdopodobnie nie ma go w tabeli.",
 	"interwiki-badprefix": "Podany przedrostek interwiki „$1” zawiera nieprawidłowe znaki",
+	"interwiki-cannotaddlocallanguage": "Przedrostek „$1” pasuje do znanego kodu językowego. Dodawanie lokalnych przedrostków językowych jest wyłączone podczas używania globalnej bazy danych językowych interwiki.",
 	"interwiki-submit-empty": "Przedrostek i adres URL nie mogą być puste.",
 	"interwiki-submit-invalidurl": "Nieprawidłowy protokół adresu URL.",
 	"log-name-interwiki": "Rejestr tablicy interwiki",
@@ -65,5 +68,6 @@
 	"interwiki-local-description": "Te prefiksy istnieją lokalnie. Wszelkie duplikaty globalnej konfiguracji zastąpią definicję globalną.",
 	"interwiki-links": "Przedrostki interwiki",
 	"interwiki-language-links": "Przedrostki międzyjęzykowe",
-	"interwiki-language-description": "Te prefiksy pasują do zdefiniowanych kodów języków i będą wykorzystywane do tworzenia listy „{{int:otherlanguages}}”, gdy zostaną dodane na stronę."
+	"interwiki-language-description": "Te prefiksy pasują do zdefiniowanych kodów języków i będą wykorzystywane do tworzenia listy „{{int:otherlanguages}}”, gdy zostaną dodane na stronę.",
+	"interwiki-global-language-links": "Globalne przedrostki językowe"
 }
