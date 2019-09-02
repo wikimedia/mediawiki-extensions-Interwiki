@@ -214,7 +214,7 @@ class SpecialInterwiki extends SpecialPage {
 	}
 
 	public function onSubmit( array $data ) {
-		global $wgContLang, $wgInterwikiCentralInterlanguageDB;
+		global $wgInterwikiCentralInterlanguageDB;
 
 		$status = Status::newGood();
 		$request = $this->getRequest();
@@ -258,7 +258,8 @@ class SpecialInterwiki extends SpecialPage {
 			break;
 		/** @noinspection PhpMissingBreakStatementInspection */
 		case 'add':
-			$prefix = $wgContLang->lc( $prefix );
+			$contLang = MediaWikiServices::getInstance()->getContentLanguage();
+			$prefix = $contLang->lc( $prefix );
 		case 'edit':
 			$theurl = $data['url'];
 			$local = $data['local'] ? 1 : 0;
