@@ -10,7 +10,7 @@
 	"interwiki-title-norights": "Интервики турында мәгълүматларны үзгәртү",
 	"interwiki-desc": "Интервики сылтамаларны карау һәм үзгәртү өчен [[Special:Interwiki|махсус]] бит өсти",
 	"interwiki_intro": "Бу интервики җәдвалына манзара, өрле вики һәм башка тышкы сылтамаларга итүче префиксларны билгели. Куллану буенча тәкъдимнәрне [//www.mediawiki.org/wiki/Extension:Interwiki MediaWiki.org] сәхифәсендә булган әсбаптан таба аласыз.",
-	"interwiki-legend-label": "Легенда",
+	"interwiki-legend-label": "Аңлатма",
 	"interwiki_prefix": "Өстәлмә",
 	"interwiki-prefix-label": "Өстәлмә",
 	"interwiki-local-label": "Алга",
