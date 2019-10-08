@@ -60,6 +60,7 @@
 	"interwiki_edited": "已經修改在跨 Wiki 資料表中的字首「$1」。",
 	"interwiki_editerror": "無法修改跨 Wiki 資料表中的字首 \"$1\"。\n可能並不存在。",
 	"interwiki-badprefix": "指定的跨 Wiki 字首 \"$1\" 中包含了無效的字元",
+	"interwiki-cannotaddlocallanguage": "字首「$1」符合已知的語言代碼。當使用全域跨語言資料庫時，會停用添加本地跨語言字首。",
 	"interwiki-submit-empty": "字首與 URL 不可空白。",
 	"interwiki-submit-invalidurl": "URL 位址的通訊協定無效。",
 	"log-name-interwiki": "跨 Wiki 資料表日誌",
@@ -76,5 +77,6 @@
 	"interwiki-links": "跨 wiki 字首",
 	"interwiki-language-links": "跨語言字首",
 	"interwiki-language-description": "這些字首符合已定義的語言代碼，當加入至頁面時會被用來建立 \"{{int:otherlanguages}}\" 清單。",
-	"interwiki-global-language-links": "全域跨語言字首"
+	"interwiki-global-language-links": "全域跨語言字首",
+	"interwiki-global-language-description": "這些字首符合已定義語言代碼，並在當添加到語言時，會使用來創建「{{int:otherlanguages}}」清單。出於它們繼承自全域設置，僅能在來源 wiki 上編輯。全域跨語言定義不能被本地內容覆蓋。"
 }
