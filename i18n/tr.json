@@ -6,7 +6,8 @@
 			"Karduelis",
 			"Suelnur",
 			"Vito Genovese",
-			"Violetanka"
+			"Violetanka",
+			"BaRaN6161 TURK"
 		]
 	},
 	"interwiki": "Vikilerarası veriyi gör ve değiştir",
@@ -28,6 +29,7 @@
 	"interwiki-logtext": "Günlükleri görüntüleyin",
 	"interwiki_addtext": "Bir interviki ve önceden tanımlı dil ekle",
 	"interwiki_addbutton": "Ekle",
+	"interwiki_addfailed": "\"$1\" öneki ortak wiki tablosuna eklenemedi.\nMuhtemelen ortak wiki tablosunda zaten var.",
 	"right-interwiki": "İnterviki verilerini düzenler",
 	"action-interwiki": "bu interviki girdisini değiştir"
 }
