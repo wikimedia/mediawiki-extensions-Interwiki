@@ -15,7 +15,7 @@
 	},
 	"interwiki": "Podgląd i edycja danych interwiki",
 	"interwiki-title-norights": "Zobacz dane interwiki",
-	"interwiki-desc": "Dodaje [[Special:Interwiki|stronę specjalną]] służącą do przeglądania i edycji tablicy interwiki.",
+	"interwiki-desc": "Dodaje [[Special:Interwiki|stronę specjalną]] służącą do przeglądania i edycji tablicy interwiki",
 	"interwiki_intro": "Jest to przegląd tabeli interwiki, określającej skróty przedrostków stosowanych do szybkiego tworzenia linków do różnych wiki i innych stron zewnętrznych. Aby uzyskać informacje na temat korzystania, zobacz [//www.mediawiki.org/wiki/Extension:Interwiki instrukcję na MediaWiki.org].",
 	"interwiki-legend-label": "Legenda",
 	"interwiki_prefix": "Przedrostek",
