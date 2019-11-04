@@ -404,9 +404,7 @@ class SpecialInterwiki extends SpecialPage {
 
 		$this->getOutput()->addWikiMsg( 'interwiki-legend' );
 
-		if ( ( !is_array( $iwPrefixes ) || count( $iwPrefixes ) === 0 ) &&
-			( !is_array( $iwGlobalPrefixes ) || count( $iwGlobalPrefixes ) === 0 )
-		) {
+		if ( $iwPrefixes === [] && $iwGlobalPrefixes === [] ) {
 			// If the interwiki table(s) are empty, display an error message
 			$this->error( 'interwiki_error' );
 			return;
