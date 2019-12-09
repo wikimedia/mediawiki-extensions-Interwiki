@@ -9,7 +9,8 @@
 			"Metalhead64",
 			"Purodha",
 			"Raimond Spekking",
-			"Umherirrender"
+			"Umherirrender",
+			"Tobi 406"
 		]
 	},
 	"interwiki": "Interwikidaten verwalten",
@@ -41,6 +42,8 @@
 	"interwiki-logtext": "Logbuch ansehen",
 	"interwiki_addtext": "Interwiki- oder Sprachpräfix hinzufügen",
 	"interwiki-addtext-local": "Ein lokales Interwiki- oder Sprachpräfix hinzufügen",
+	"interwiki-addtext-nolang": "Interwikipräfix hinzufügen",
+	"interwiki-addtext-local-nolang": "Lokales Interwikipräfix hinzufügen",
 	"interwiki_addintro": "Du fügst ein neues Interwikipräfix hinzu. Beachte, dass es kein Leerzeichen ( ), Kaufmännisches Und (&), Gleichheitszeichen (=) und keinen Doppelpunkt (:) enthalten darf.",
 	"interwiki_addbutton": "Hinzufügen",
 	"interwiki_added": "Das Präfix „$1“ wurde der Interwikitabelle hinzugefügt.",
