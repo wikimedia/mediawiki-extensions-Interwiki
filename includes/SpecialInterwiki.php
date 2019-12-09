@@ -318,7 +318,7 @@ class SpecialInterwiki extends SpecialPage {
 		if ( $wgInterwikiCentralDB !== null && $wgInterwikiCentralDB !== wfWikiID() ) {
 			// Fetch list from global table
 			$dbrCentralDB = wfGetDB( DB_REPLICA, [], $wgInterwikiCentralDB );
-			$res = $dbrCentralDB->select( 'interwiki', '*', false, __METHOD__ );
+			$res = $dbrCentralDB->select( 'interwiki', '*', [], __METHOD__ );
 			$retval = [];
 			foreach ( $res as $row ) {
 				$row = (array)$row;
@@ -337,7 +337,7 @@ class SpecialInterwiki extends SpecialPage {
 		if ( $usingGlobalLanguages ) {
 			// Fetch list from global table
 			$dbrCentralLangDB = wfGetDB( DB_REPLICA, [], $wgInterwikiCentralInterlanguageDB );
-			$res = $dbrCentralLangDB->select( 'interwiki', '*', false, __METHOD__ );
+			$res = $dbrCentralLangDB->select( 'interwiki', '*', [], __METHOD__ );
 			$retval2 = [];
 			foreach ( $res as $row ) {
 				$row = (array)$row;
