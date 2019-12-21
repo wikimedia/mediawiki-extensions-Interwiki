@@ -297,6 +297,7 @@ class SpecialInterwiki extends SpecialPage {
 				$this->getOutput()->addWikiMsg( "interwiki_{$do}ed", $prefix );
 				$log = new LogPage( 'interwiki' );
 				$log->addEntry( 'iw_' . $do, $selfTitle, $reason, [ $prefix, $theurl, $trans, $local ] );
+				// @phan-suppress-next-line PhanTypeMismatchArgumentNullable
 				$lookup->invalidateCache( $prefix );
 			}
 			break;
@@ -476,10 +477,10 @@ class SpecialInterwiki extends SpecialPage {
 		) . "\n";
 		$out .= Html::openElement( 'thead' ) .
 			Html::openElement( 'tr', [ 'class' => 'interwikitable-header' ] ) .
-			Html::element( 'th', null, $this->msg( 'interwiki_prefix' )->text() ) .
-			Html::element( 'th', null, $this->msg( 'interwiki_url' )->text() ) .
-			Html::element( 'th', null, $this->msg( 'interwiki_local' )->text() ) .
-			Html::element( 'th', null, $this->msg( 'interwiki_trans' )->text() ) .
+			Html::element( 'th', [], $this->msg( 'interwiki_prefix' )->text() ) .
+			Html::element( 'th', [], $this->msg( 'interwiki_url' )->text() ) .
+			Html::element( 'th', [], $this->msg( 'interwiki_local' )->text() ) .
+			Html::element( 'th', [], $this->msg( 'interwiki_trans' )->text() ) .
 			( $canModify ?
 				Html::element(
 					'th',
