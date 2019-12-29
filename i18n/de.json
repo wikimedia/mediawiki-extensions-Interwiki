@@ -53,6 +53,7 @@
 	"interwiki_edited": "Das Präfix „$1“ wurde in der Interwikitabelle geändert.",
 	"interwiki_editerror": "Das Präfix „$1“ konnte nicht in der Interwikitabelle geändert werden.\nMöglicherweise ist es nicht vorhanden.",
 	"interwiki-badprefix": "Das festgelegte Interwikipräfix „$1“ beinhaltet ungültige Zeichen.",
+	"interwiki-cannotaddlocallanguage": "Das Präfix \"$1\" entspricht einem bekannten Sprachcode. Das Hinzufügen lokaler Interlanguage-Präfixe ist deaktiviert, wenn eine globale Interlanguage-Datenbank verwendet wird.",
 	"interwiki-submit-empty": "Die Felder zum Präfix und der URL dürfen nicht leer sein.",
 	"interwiki-submit-invalidurl": "Das Protokoll der URL ist ungültig.",
 	"log-name-interwiki": "Interwikitabelle-Logbuch",
@@ -68,5 +69,7 @@
 	"interwiki-local-description": "Diese Präfixe sind lokal vorhanden. Alle Duplikate mit der globalen Konfiguration überschreiben die globale Definition.",
 	"interwiki-links": "Interwiki-Präfixe",
 	"interwiki-language-links": "Interlanguage-Präfixe",
-	"interwiki-language-description": "Diese Präfixe stimmen mit definierten Sprachcodes überein und werden zur Erstellung der Liste „{{int:otherlanguages}}“ beim Hinzufügen zu einer Seite verwendet."
+	"interwiki-language-description": "Diese Präfixe stimmen mit definierten Sprachcodes überein und werden zur Erstellung der Liste „{{int:otherlanguages}}“ beim Hinzufügen zu einer Seite verwendet.",
+	"interwiki-global-language-links": "Globale Interlanguage Präfixes",
+	"interwiki-global-language-description": "Diese Präfixe stimmen mit definierten Sprachcodes überein und werden verwendet, um die Liste \"{{int: otherlanguages}}\" zu erstellen, wenn sie einer Seite hinzugefügt werden. Da sie von einer globalen Konfiguration geerbt werden, können sie nur im Quell-Wiki bearbeitet werden. Globale Sprachdefinitionen können nicht lokal überschrieben werden."
 }
