@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Vlad5250"
+			"Vlad5250",
+			"Luky001"
 		]
 	},
 	"interwiki": "Zobraziť a upravovať údaje interwiki",
 	"interwiki-title-norights": "Zobraziť údaje interwiki",
 	"interwiki-desc": "Pridáva [[Special:Interwiki|špeciálnu stránku]] na zobrazovanie a upravovanie tabuľky interwiki",
-	"interwiki_intro": "Toto je prehľad tabuľky interwiki.",
+	"interwiki_intro": "Toto je prehľad tabuľky interwiki odkazov, ktorá definuje predpony používané na jednoduché odkazovanie na ďalšie wiki a iné externé stránky. Odporúčané použitie je popísané v [//www.mediawiki.org/wiki/Extension:Interwiki príručke na MediaWiki.org].",
 	"interwiki-legend-label": "Legenda",
 	"interwiki_prefix": "Predpona",
 	"interwiki-prefix-label": "Predpona:",
@@ -16,8 +17,8 @@
 	"interwiki_url_intro": "Šablóna URL. Vyhradené miesto $1 sa nahradí <em>názvom_stránky</em> wikitextu pri použití vyššie uvedenej syntaxi wikitextu.",
 	"interwiki_local": "Presmerovať",
 	"interwiki-local-label": "Dopredu",
-	"interwiki_local_0_intro": "nezohľadňuje sa, zvyčajne sa blokuje ako „stránka nenájdená“,",
-	"interwiki_local_1_intro": "presmerovaná na cieľové URL zadané v definícii interwiki odkazu (t.j. berie sa ako odkazy v rámci lokálnej stránky)",
+	"interwiki_local_0_intro": "Externé HTTP požiadavky na lokálnu wiki, ktoré v URL používajú túto interwiki predponu, skončia chybovou stránkou „{{int:badtitle}}“.",
+	"interwiki_local_1_intro": "Externé HTTP požiadavky na lokálnu wiki, ktoré v URL používajú túto interwiki predponu, budú presmerované na cieľové URL podľa definície interwiki odkazu (tj. správajú sa ako odkazy na lokálne stránky).",
 	"interwiki_trans": "Transklúzia",
 	"interwiki-trans-label": "Transklúzia",
 	"interwiki_trans_1_intro": "povoliť transklúzie z cudzej wiki ak sú na tejto wiki všeobecne povolené transklúzie interwiki,",
@@ -28,10 +29,10 @@
 	"interwiki_edit": "Upraviť",
 	"interwiki_reasonfield": "Dôvod:",
 	"interwiki_deleting": "Mažete predponu „$1“.",
-	"interwiki_deleted": "Predpona „$1“ bola úspešne odstránená z tabuľky interwiki.",
+	"interwiki_deleted": "Predpona „$1“ bola odstránená z tabuľky interwiki.",
 	"interwiki_delfailed": "Predponu „$1“ nebola možné odstrániť z tabuľky interwiki.",
 	"interwiki-logtext": "Zobraziť záznam",
-	"interwiki_addtext": "Pridať predponu interwiki",
+	"interwiki_addtext": "Pridať predponu interwiki alebo jazyka",
 	"interwiki_addintro": "Pridávate novú predponu interwiki. Pamätajte, že nemôže obsahovať medzery „ “, dvojbodky „:“, ampersand „&“ ani znak rovnosti „=“.",
 	"interwiki_addbutton": "Pridať",
 	"interwiki_added": "Predpona „$1“ bola pridaná do tabuľky interwiki.",
