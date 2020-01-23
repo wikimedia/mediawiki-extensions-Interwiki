@@ -14,7 +14,7 @@
 	"interwiki_prefix": "Predpona",
 	"interwiki-prefix-label": "Predpona:",
 	"interwiki_prefix_intro": "Predpona interwiki, ktorá sa má použiť v syntaxi wikitextu <code>[<nowiki />[predpona:<em>názov_stránky</em>]]</code>.",
-	"interwiki_url_intro": "Šablóna URL. Vyhradené miesto $1 sa nahradí <em>názvom_stránky</em> wikitextu pri použití vyššie uvedenej syntaxi wikitextu.",
+	"interwiki_url_intro": "Šablóna URL. Vyhradené miesto $1 sa nahradí <em>názvom_stránky</em> v <code>[<nowiki />[predpona:<em>názov_stránky</em>]]</code>.",
 	"interwiki_local": "Presmerovať",
 	"interwiki-local-label": "Dopredu",
 	"interwiki_local_0_intro": "Externé HTTP požiadavky na lokálnu wiki, ktoré v URL používajú túto interwiki predponu, skončia chybovou stránkou „{{int:badtitle}}“.",
