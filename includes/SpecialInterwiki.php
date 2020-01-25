@@ -252,7 +252,13 @@ class SpecialInterwiki extends SpecialPage {
 			} else {
 				$this->getOutput()->addWikiMsg( 'interwiki_deleted', $prefix );
 				$log = new LogPage( 'interwiki' );
-				$log->addEntry( 'iw_delete', $selfTitle, $reason, [ $prefix ] );
+				$log->addEntry(
+					'iw_delete',
+					$selfTitle,
+					$reason,
+					[ $prefix ],
+					$this->getUser()
+				);
 				$lookup->invalidateCache( $prefix );
 			}
 			break;
@@ -296,7 +302,13 @@ class SpecialInterwiki extends SpecialPage {
 			} else {
 				$this->getOutput()->addWikiMsg( "interwiki_{$do}ed", $prefix );
 				$log = new LogPage( 'interwiki' );
-				$log->addEntry( 'iw_' . $do, $selfTitle, $reason, [ $prefix, $theurl, $trans, $local ] );
+				$log->addEntry(
+					'iw_' . $do,
+					$selfTitle,
+					$reason,
+					[ $prefix, $theurl, $trans, $local ],
+					$this->getUser()
+				);
 				// @phan-suppress-next-line PhanTypeMismatchArgumentNullable
 				$lookup->invalidateCache( $prefix );
 			}
