@@ -36,7 +36,7 @@
 	"interwiki_deleting": "\"$1\" önekini siliyorsunuz.",
 	"interwiki_deleted": "\"$1\" öneki wiki arası tablosundan kaldırıldı.",
 	"interwiki_delfailed": "\"$1\" öneki wiki arası tablosundan kaldırılamadı.",
-	"interwiki-logtext": "Günlükleri görüntüleyin",
+	"interwiki-logtext": "Günlüğü görüntüle",
 	"interwiki_addtext": "Bir interviki ve önceden tanımlı dil ekle",
 	"interwiki-addtext-local": "Yerel bir wiki arası veya dil öneki ekleyin",
 	"interwiki-addtext-nolang": "Wiki arası öneki ekle",
