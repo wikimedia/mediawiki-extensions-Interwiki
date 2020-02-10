@@ -3,7 +3,8 @@
 		"authors": [
 			"Helix84",
 			"Vlad5250",
-			"Luky001"
+			"Luky001",
+			"TomášPolonec"
 		]
 	},
 	"interwiki": "Zobraziť a upravovať údaje interwiki",
@@ -21,8 +22,8 @@
 	"interwiki_local_1_intro": "Externé HTTP požiadavky na lokálnu wiki, ktoré v URL používajú túto interwiki predponu, budú presmerované na cieľové URL podľa definície interwiki odkazu (tj. správajú sa ako odkazy na lokálne stránky).",
 	"interwiki_trans": "Transklúzia",
 	"interwiki-trans-label": "Transklúzia",
-	"interwiki_trans_1_intro": "povoliť transklúzie z cudzej wiki ak sú na tejto wiki všeobecne povolené transklúzie interwiki,",
-	"interwiki_trans_0_intro": "nepovoliť ju, namiesto toho hľadať stránku v mennom priestore šablón.",
+	"interwiki_trans_1_intro": "Ak je použitá wikisyntax <code>{<nowiki />{prefix:<em>pagename</em>}}</code>, povoliť transklúziu šablóny/stránky s inej wiki, ak sú transklúzie interwiki všeobecne povolené ([//www.mediawiki.org/wiki/Manual:$wgEnableScaryTranscluding príručka]).",
+	"interwiki_trans_0_intro": "Nepovoliť transklúziu cudzích šablón/stránok skrze <code>{<nowiki />{prefix:<em>pagename</em>}}</code>, radšej nájsť lokálnu stránku v mennom priestore šablón.",
 	"interwiki_1": "áno",
 	"interwiki_0": "nie",
 	"interwiki_error": "CHYBA: Tabuľka interwiki je prázdna alebo sa pokazilo niečo iné.",
