@@ -64,7 +64,7 @@
 	"logentry-interwiki-iw_edit": "$1 {{GENDER:$2|змінив|змінила}} префікс «$4» ($5) (trans: $6; local: $7) в таблиці інтервікі",
 	"logentry-interwiki-iw_delete": "$1 {{GENDER:$2|вилучив|вилучила}} префікс «$4» з таблиці інтервікі",
 	"log-description-interwiki": "Це журнал змін [[Special:Interwiki|таблиці інтервікі]].",
-	"right-interwiki": "редагування даних інтервікі",
+	"right-interwiki": "Редагування даних інтервікі",
 	"action-interwiki": "зміну цього запису інтервікі",
 	"interwiki-global-links": "Глобальні префікси інтервікі",
 	"interwiki-global-description": "Ці префікси успадковано від глобальної конфігурації, і їх можна змінити лише на основній вікі.",
