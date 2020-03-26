@@ -60,8 +60,8 @@ class SpecialInterwiki extends SpecialPage {
 	/**
 	 * Returns boolean whether the user can modify the data.
 	 * @param OutputPage|bool $out If $wgOut object given, it adds the respective error message.
-	 * @throws PermissionsError|ReadOnlyError
 	 * @return bool
+	 * @throws PermissionsError|ReadOnlyError
 	 */
 	public function canModify( $out = false ) {
 		global $wgInterwikiCache;
