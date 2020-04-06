@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Malafaya"
+			"Malafaya",
+			"Joao Xavier"
 		]
 	},
-	"interwiki_1": "yes"
+	"interwiki_1": "yes",
+	"interwiki_0": "no"
 }
