@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bugoslav",
 			"Dalibor Bosits",
 			"Ex13",
-			"Roberta F.",
-			"SpeedyGonsales",
 			"MaGa",
-			"Bugoslav"
+			"Roberta F.",
+			"SpeedyGonsales"
 		]
 	},
 	"interwiki": "Vidi i uredi međuwiki podatke",
@@ -44,5 +44,5 @@
 	"log-description-interwiki": "Ovo su evidencije promjena na [[Special:Interwiki|interwiki tablici]].",
 	"right-interwiki": "Uređivanje interwiki podataka",
 	"action-interwiki": "uredi ovaj međuwiki zapis",
-	"interwiki-links": "Međuwiki prefiksi"
+	"interwiki-links": "Prefiksi međuwikija"
 }
