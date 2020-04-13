@@ -22,7 +22,7 @@
 	"interwiki": "Voir et manipuler les données interwiki",
 	"interwiki-title-norights": "Voir les données interwiki",
 	"interwiki-desc": "Ajoute une [[Special:Interwiki|page spéciale]] pour voir et modifier la table interwiki",
-	"interwiki_intro": "Ceci est un aperçu de la table interwiki, qui définit les préfixes raccourcis utilisés pour faire des liens rapides vers différents wikis et d’autres sites externes. Pour l’utilisation recommandée, voyez [//www.mediawiki.org/wiki/Extension:Interwiki le manuel sur MediaWiki.org].",
+	"interwiki_intro": "Ceci est un aperçu de la table interwiki, qui définit les préfixes raccourcis utilisés pour faire des liens rapides vers différents wikis et d’autres sites externes. Pour l’utilisation recommandée, voyez [//www.mediawiki.org/wiki/Extension:Interwiki/fr le manuel sur MediaWiki.org].",
 	"interwiki-legend-label": "Légende",
 	"interwiki_prefix": "Préfixe",
 	"interwiki-prefix-label": "Préfixe :",
