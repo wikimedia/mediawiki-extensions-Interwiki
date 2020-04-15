@@ -79,8 +79,8 @@ class SpecialInterwiki extends SpecialPage {
 			}
 
 			return false;
-		} elseif ( wfReadOnly() ) {
-			throw new ReadOnlyError;
+		} else {
+			$this->checkReadOnly();
 		}
 
 		return true;
