@@ -28,7 +28,7 @@
 	"interwiki_local_1_intro": "Externe HTTP-Anfragen zum lokalen Wiki, die dieses Interwiki-Präfix verwenden, werden zur Ziel-URL des Interwikis weitergeleitet (z.&nbsp;B. behandelt wie Links zu lokalen Seiten).",
 	"interwiki_trans": "Einbinden zulässig",
 	"interwiki-trans-label": "Einbinden zulassen",
-	"interwiki_trans_1_intro": "Falls Wikitext-Syntax <code>{<nowiki />{Präfix:<em>Seitenname</em>}}</code> verwendet wird, Vorlagen-/Seiteneinbindungen des fremden Wikis erlauben, falls Interwiki-Einbindungen allgemein aktiviert sind ([//www.mediawiki.org/wiki/Manual:$wgEnableScaryTranscluding Scary-Einbindung]).",
+	"interwiki_trans_1_intro": "Falls Wikitext-Syntax <code>{<nowiki />{Präfix:<em>Seitenname</em>}}</code> verwendet wird, Vorlagen-/Seiteneinbindungen des fremden Wikis erlauben, falls Interwiki-Einbindungen allgemein aktiviert sind ([https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:$wgEnableScaryTranscluding Scary-Einbindung]).",
 	"interwiki_trans_0_intro": "<code>{<nowiki />{Präfix:<em>Seitenname</em>}}</code> zur Einbindung fremder Vorlagen/Seiten nicht erlauben, eher nach der lokalen Seite im Vorlagennamensraum suchen.",
 	"interwiki_1": "ja",
 	"interwiki_0": "nein",
