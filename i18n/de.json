@@ -53,7 +53,7 @@
 	"interwiki_edited": "Das Präfix „$1“ wurde in der Interwikitabelle geändert.",
 	"interwiki_editerror": "Das Präfix „$1“ konnte nicht in der Interwikitabelle geändert werden.\nMöglicherweise ist es nicht vorhanden.",
 	"interwiki-badprefix": "Das festgelegte Interwikipräfix „$1“ beinhaltet ungültige Zeichen.",
-	"interwiki-cannotaddlocallanguage": "Das Präfix \"$1\" entspricht einem bekannten Sprachcode. Das Hinzufügen lokaler Interlanguage-Präfixe ist deaktiviert, wenn eine globale Interlanguage-Datenbank verwendet wird.",
+	"interwiki-cannotaddlocallanguage": "Das Präfix „$1“ entspricht einem bekannten Sprachcode. Das Hinzufügen lokaler Interlanguage-Präfixe ist deaktiviert, wenn eine globale Interlanguage-Datenbank verwendet wird.",
 	"interwiki-submit-empty": "Die Felder zum Präfix und der URL dürfen nicht leer sein.",
 	"interwiki-submit-invalidurl": "Das Protokoll der URL ist ungültig.",
 	"log-name-interwiki": "Interwikitabelle-Logbuch",
