@@ -107,6 +107,7 @@ class SpecialInterwiki extends SpecialPage {
 						'type' => 'text',
 						'label-message' => 'interwiki-prefix-label',
 						'name' => 'prefix',
+						'autofocus' => true,
 					],
 
 					'local' => [
@@ -130,7 +131,6 @@ class SpecialInterwiki extends SpecialPage {
 						'maxlength' => 200,
 						'name' => 'wpInterwikiURL',
 						'size' => 60,
-						'tabindex' => 1,
 					],
 
 					'reason' => [
@@ -140,7 +140,6 @@ class SpecialInterwiki extends SpecialPage {
 						'maxlength' => 200,
 						'name' => 'wpInterwikiReason',
 						'size' => 60,
-						'tabindex' => 1,
 					],
 				];
 
