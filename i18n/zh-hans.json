@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"A2093064",
+			"Func",
 			"Gaoxuewei",
 			"Hzy980512",
 			"Impersonator 1",
@@ -38,7 +39,7 @@
 	"interwiki_local_1_intro": "使用此跨wiki前缀到本地wiki的外部HTTP请求将重定向到跨wiki链接的目标URL（即对待本地页面的链接）。",
 	"interwiki_trans": "嵌入",
 	"interwiki-trans-label": "嵌入",
-	"interwiki_trans_1_intro": "如果使用了wiki语法<code>{<nowiki />{prefix:<em>pagename</em>}}</code>且跨wiki转发在一般情况下（[//www.mediawiki.org/wiki/Manual:$wgEnableScaryTranscluding scary transclusion]）被启用，将会嵌入外部wiki的模板或页面。",
+	"interwiki_trans_1_intro": "如果使用了wiki语法<code>{<nowiki />{prefix:<em>pagename</em>}}</code>且跨wiki转发在一般情况下（[https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:$wgEnableScaryTranscluding scary transclusion]）被启用，将会嵌入外部wiki的模板或页面。",
 	"interwiki_trans_0_intro": "不允许<code>{<nowiki />{prefix:<em>pagename</em>}}</code>嵌入外部页面，将在本地模板名字空间查找对应页面。",
 	"interwiki_1": "是",
 	"interwiki_0": "否",
