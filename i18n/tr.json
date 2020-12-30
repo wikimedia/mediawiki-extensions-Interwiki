@@ -14,7 +14,7 @@
 	"interwiki": "Vikilerarası veriyi görüntüle ve düzenle",
 	"interwiki-title-norights": "Vikilerarası veriyi görüntüle",
 	"interwiki-desc": "Vikilerarası tabloyu görüntülemek ve düzenlemek için [[Special:Interwiki|özel bir sayfa]] ekler",
-	"interwiki_intro": "Bu vikilerarası tabloya genel bir bakıştır ve farklı vikiler ile diğer sitelere bağlantı sağlamak amacıyla önceden belirtilmiş kısayolları tanımlar. Tavsiye edilen kullanım için [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Interwiki MediaWiki.org'da kılavuzuna] bakın.",
+	"interwiki_intro": "Bu farklı vikilere ve diğer harici sitelere hızlı bir şekilde bağlanmak için kullanılan önek kısayollarını tanımlayan vikiarası tablosuna genel bir bakıştır. Tavsiye edilen kullanım için [https://www.mediawiki.org/wiki/Extension:Interwiki/tr MediaWiki.org'da kılavuzuna] bakın.",
 	"interwiki-legend-label": "Gösterge",
 	"interwiki_prefix": "Önek",
 	"interwiki-prefix-label": "Önek:",
