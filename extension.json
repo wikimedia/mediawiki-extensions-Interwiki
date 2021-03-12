@@ -45,12 +45,12 @@
 	},
 	"ResourceModules": {
 		"ext.interwiki.specialpage": {
-			"styles": "Interwiki.css"
+			"styles": "interwiki.css"
 		}
 	},
 	"ResourceFileModulePaths": {
-		"localBasePath": "",
-		"remoteExtPath": "Interwiki"
+		"localBasePath": "modules",
+		"remoteExtPath": "Interwiki/modules"
 	},
 	"SpecialPages": {
 		"Interwiki": "SpecialInterwiki"
