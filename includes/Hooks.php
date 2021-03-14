@@ -1,8 +1,12 @@
 <?php
 
+namespace MediaWiki\Extension\Interwiki;
+
+use Hooks as MWHooks;
+use Language;
 use MediaWiki\MediaWikiServices;
 
-class InterwikiHooks {
+class Hooks {
 	/** @var bool */
 	private static $shouldSkipIWCheck = false;
 	/** @var bool */
@@ -37,8 +41,8 @@ class InterwikiHooks {
 			return;
 		}
 		// This will trigger a deprecation warning in MW 1.36+
-		Hooks::register(
-			'InterwikiLoadPrefix', 'InterwikiHooks::onInterwikiLoadPrefix'
+		MWHooks::register(
+			'InterwikiLoadPrefix', [ self::class, 'onInterwikiLoadPrefix' ]
 		);
 	}
 

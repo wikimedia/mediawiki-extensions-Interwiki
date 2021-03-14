@@ -40,8 +40,8 @@
 		]
 	},
 	"Hooks": {
-		"InterwikiLoadPrefix": "InterwikiHooks::onInterwikiLoadPrefix",
-		"UserGetAllRights": "InterwikiHooks::onUserGetAllRights"
+		"InterwikiLoadPrefix": "MediaWiki\\Extension\\Interwiki\\Hooks::onInterwikiLoadPrefix",
+		"UserGetAllRights": "MediaWiki\\Extension\\Interwiki\\Hooks::onUserGetAllRights"
 	},
 	"ResourceModules": {
 		"ext.interwiki.specialpage": {
@@ -53,18 +53,16 @@
 		"remoteExtPath": "Interwiki/modules"
 	},
 	"SpecialPages": {
-		"Interwiki": "SpecialInterwiki"
+		"Interwiki": "MediaWiki\\Extension\\Interwiki\\SpecialInterwiki"
 	},
 	"ExtensionFunctions": [
-		"InterwikiHooks::onExtensionFunctions"
+		"MediaWiki\\Extension\\Interwiki\\Hooks::onExtensionFunctions"
 	],
-	"AutoloadClasses": {
-		"InterwikiHooks": "includes/InterwikiHooks.php",
-		"SpecialInterwiki": "includes/SpecialInterwiki.php",
-		"InterwikiLogFormatter": "includes/InterwikiLogFormatter.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\Interwiki\\": "includes/"
 	},
 	"LogActionsHandlers": {
-		"interwiki/*": "InterwikiLogFormatter"
+		"interwiki/*": "MediaWiki\\Extension\\Interwiki\\InterwikiLogFormatter"
 	},
 	"manifest_version": 2
 }

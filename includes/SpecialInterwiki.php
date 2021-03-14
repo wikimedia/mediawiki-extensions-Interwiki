@@ -1,6 +1,17 @@
 <?php
 
+namespace MediaWiki\Extension\Interwiki;
+
+use Html;
+use HTMLForm;
+use Language;
+use LogPage;
 use MediaWiki\MediaWikiServices;
+use OutputPage;
+use PermissionsError;
+use ReadOnlyError;
+use SpecialPage;
+use Status;
 
 /**
  * Implements Special:Interwiki
@@ -481,8 +492,7 @@ class SpecialInterwiki extends SpecialPage {
 
 	protected function makeTable( $canModify, $iwPrefixes ) {
 		// Output the existing Interwiki prefixes table header
-		$out = '';
-		$out .= Html::openElement(
+		$out = Html::openElement(
 			'table',
 			[ 'class' => 'mw-interwikitable wikitable sortable body' ]
 		) . "\n";
