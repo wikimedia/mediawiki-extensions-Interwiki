@@ -252,7 +252,7 @@ class SpecialInterwiki extends SpecialPage {
 		$reason = $data['reason'];
 		$selfTitle = $this->getPageTitle();
 		$lookup = MediaWikiServices::getInstance()->getInterwikiLookup();
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_PRIMARY );
 		switch ( $do ) {
 		case 'delete':
 			$dbw->delete( 'interwiki', [ 'iw_prefix' => $prefix ], __METHOD__ );
