@@ -22,15 +22,15 @@
 	"interwiki-trans-label": "Юкъатохар:",
 	"interwiki_trans_1_intro": "Кхечу вики чура юкъарвикеш чуяха йиш хуьлуьйту хӀокху вики чохь магийна делахь.",
 	"interwiki_trans_0_intro": "ТӀетоха магийна дац, кепийн цӀерийн меттигехь агӀо лоху.",
-	"interwiki_1": "ю",
+	"interwiki_1": "хӀаъ",
 	"interwiki_0": "хӀан-хӀа",
-	"interwiki_edit": "Нисъе",
+	"interwiki_edit": "Нисйе",
 	"interwiki_reasonfield": "Бахьана:",
 	"interwiki-logtext": "Тептаршка хьажар",
 	"interwiki_addbutton": "ТӀетоха",
 	"logentry-interwiki-iw_add": "$1 {{GENDER:$2|тӀетоьхна}} префикс «$4» ($5) (trans: $6; local: $7) юкъарвики-таблицехь",
 	"logentry-interwiki-iw_edit": "$1 {{GENDER:$2|хийцина}} префикс «$4» ($5) (trans: $6; local: $7) юкъарвики-таблицехь",
-	"logentry-interwiki-iw_delete": "$1 {{GENDER:$2|дӀаяьккхина}} префикс «$4» юкъарвики-таблицан чура",
+	"logentry-interwiki-iw_delete": "$1 {{GENDER:$2|дӀайаьккхина}} префикс «$4» йукъарвики-таблицан чуьра",
 	"log-description-interwiki": "ХӀара [[Special:Interwiki|юкъарвики таблицан]] хицаман тептар ду.",
 	"interwiki-links": "Юкъарвикийн префиксаш"
 }
