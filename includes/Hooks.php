@@ -42,7 +42,7 @@ class Hooks {
 		}
 		// This will trigger a deprecation warning in MW 1.36+
 		MWHooks::register(
-			'InterwikiLoadPrefix', [ self::class, 'onInterwikiLoadPrefix' ]
+			'InterwikiLoadPrefix', 'MediaWiki\Extension\Interwiki\Hooks::onInterwikiLoadPrefix'
 		);
 	}
 
