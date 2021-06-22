@@ -53,6 +53,8 @@
 	"interwiki-logtext": "查看日志",
 	"interwiki_addtext": "添加一个跨wiki或语言前缀",
 	"interwiki-addtext-local": "添加一个本地跨wiki或语言前缀",
+	"interwiki-addtext-nolang": "添加一个跨wiki前缀",
+	"interwiki-addtext-local-nolang": "添加一个本地跨wiki前缀",
 	"interwiki_addintro": "您现在加入一个新的跨wiki前缀。\n要记住它不可以包含空格 （ ）、冒号 （:）、连字号 （&），或等号 （=）。",
 	"interwiki_addbutton": "添加",
 	"interwiki_added": "前缀“$1”已经加入到跨wiki表。",
@@ -62,6 +64,7 @@
 	"interwiki_edited": "前缀“$1”已经在跨wiki表中修改。",
 	"interwiki_editerror": "前缀 \"$1\" 不能在跨wiki表中修改。\n可能它并不存在。",
 	"interwiki-badprefix": "所指定的跨wiki前缀 \"$1\" 含有无效的字母",
+	"interwiki-cannotaddlocallanguage": "前缀“$1”匹配已知语言代码。使用全域跨语言数据库时，禁止添加本地跨语言前缀。",
 	"interwiki-submit-empty": "前缀和URL不能为空。",
 	"interwiki-submit-invalidurl": "该URL的协议是无效的。",
 	"log-name-interwiki": "跨wiki表日志",
@@ -77,5 +80,7 @@
 	"interwiki-local-description": "这些前缀于本地存在。任何与全域配置重复的内容会覆盖全域定义。",
 	"interwiki-links": "跨wiki前缀",
 	"interwiki-language-links": "跨语言前缀",
-	"interwiki-language-description": "这些前缀匹配定义的语言代码，并在加入页面时用于创建“{{int:otherlanguages}}”列表。"
+	"interwiki-language-description": "这些前缀匹配定义的语言代码，并在加入页面时用于创建“{{int:otherlanguages}}”列表。",
+	"interwiki-global-language-links": "全域跨语言前缀",
+	"interwiki-global-language-description": "这些前缀与定义的语言代码匹配，并在添加到页面时用于创建“{{int:otherlanguages}}”列表。 由于它们是从全域配置继承的，因此只能在源wiki上进行编辑。不能在本地覆盖全域跨语言定义。"
 }
