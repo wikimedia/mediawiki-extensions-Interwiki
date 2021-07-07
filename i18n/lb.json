@@ -36,7 +36,7 @@
 	"interwiki_delfailed": "Prefix \"$1\" konnt net aus der Interwiki-Tabell erausgeholl ginn.",
 	"interwiki-logtext": "Logbuch weisen",
 	"interwiki_addtext": "En Interwiki oder e Sproochprefix derbäisetzen",
-	"interwiki_addintro": "Dir setzt en neien Interwiki-Prefix dobäi.\nDenkt drun datt keng Espacen ( ), Et-commerciale (&), Gläichzeechen (=) a keng Doppelpunkten (:) däerfen dra sinn.",
+	"interwiki_addintro": "Dir setzt en neien Interwiki-Prefix derbäi.\nDenkt drun datt keng Espacen ( ), Et-commerciale (&), Gläichzeechen (=) a keng Doppelpunkten (:) däerfen dra sinn.",
 	"interwiki_addbutton": "Derbäisetzen",
 	"interwiki_added": "De Prefix \"$1\" gouf an d'Interwiki-Tabell dobäigesat.",
 	"interwiki_addfailed": "De Prefix \"$1\" konnt net an d'Interwiki-Tabell dobäigesat ginn.\nMéiglecherweis gëtt et e schonn an der Interwiki-Tabell.",
