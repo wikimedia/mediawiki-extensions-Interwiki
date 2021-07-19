@@ -22,7 +22,7 @@
 	"interwiki_prefix_intro": "Interwikivoorvoegsel dat gebruikt moet worden in de wikitekstsyntaxis <code>[<nowiki />[voorvoegsel:<em>paginanaam</em>]]</code>.",
 	"interwiki_url_intro": "Sjabloon voor URL's. De plaatshouder $1 wordt vervangen door de <em>paginanaam</em> in <code>[<nowiki />[prefix:<em>paginanaam</em>]]</code>.",
 	"interwiki_local": "Doorverwijzen",
-	"interwiki-local-label": "Doorverwijzen:",
+	"interwiki-local-label": "Doorverwijzen",
 	"interwiki_local_0_intro": "Externe HTTP-verzoeken voor de lokale wiki met behulp van dit interwikivoorvoegsel in de URL resulteert in een \"{{int:badtitle}}\"-foutpagina.",
 	"interwiki_local_1_intro": "Externe HTTP-verzoeken op de lokale wiki die dit interwikivoorvoegsel gebruiken worden omgeleid naar de doel-URL van de interwiki, dat wil zeggen, worden behandeld als koppelingen naar lokale pagina's.",
 	"interwiki_trans": "Transcluderen",
