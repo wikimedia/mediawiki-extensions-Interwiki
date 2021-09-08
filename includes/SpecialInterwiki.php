@@ -359,6 +359,7 @@ class SpecialInterwiki extends SpecialPage {
 		$usingGlobalLanguages = $usingGlobalInterlangLinks && !$isGlobalInterlanguageDB;
 		if ( $usingGlobalLanguages ) {
 			// Fetch list from global table
+			// @phan-suppress-next-line PhanTypeMismatchArgument
 			$dbrCentralLangDB = wfGetDB( DB_REPLICA, [], $wgInterwikiCentralInterlanguageDB );
 			$res = $dbrCentralLangDB->select( 'interwiki', '*', [], __METHOD__ );
 			$retval2 = [];
