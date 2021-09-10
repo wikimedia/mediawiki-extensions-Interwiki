@@ -144,6 +144,15 @@ class SpecialInterwiki extends SpecialPage {
 						'size' => 60,
 					],
 
+					'api' => [
+						'type' => 'url',
+						'id' => 'mw-interwiki-api',
+						'label-message' => 'interwiki-api-label',
+						'maxlength' => 200,
+						'name' => 'wpInterwikiAPI',
+						'size' => 60,
+					],
+
 					'reason' => [
 						'type' => 'text',
 						'id' => "mw-interwiki-{$action}reason",
@@ -191,6 +200,7 @@ class SpecialInterwiki extends SpecialPage {
 				$status->fatal( 'interwiki_editerror', $prefix );
 			} else {
 				$formDescriptor['url']['default'] = $row->iw_url;
+				$formDescriptor['api']['default'] = $row->iw_api;
 				$formDescriptor['trans']['default'] = $row->iw_trans;
 				$formDescriptor['local']['default'] = $row->iw_local;
 			}
@@ -278,11 +288,13 @@ class SpecialInterwiki extends SpecialPage {
 			$prefix = $contLang->lc( $prefix );
 		case 'edit':
 			$theurl = $data['url'];
+			$api = $data['api'] ?? '';
 			$local = $data['local'] ? 1 : 0;
 			$trans = $data['trans'] ? 1 : 0;
 			$rows = [
 				'iw_prefix' => $prefix,
 				'iw_url' => $theurl,
+				'iw_api' => $api,
 				'iw_local' => $local,
 				'iw_trans' => $trans
 			];
