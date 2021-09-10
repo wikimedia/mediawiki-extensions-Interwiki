@@ -191,8 +191,8 @@ class SpecialInterwiki extends SpecialPage {
 				$status->fatal( 'interwiki_editerror', $prefix );
 			} else {
 				$formDescriptor['url']['default'] = $row->iw_url;
-				$formDescriptor['url']['trans'] = $row->iw_trans;
-				$formDescriptor['url']['local'] = $row->iw_local;
+				$formDescriptor['trans']['default'] = $row->iw_trans;
+				$formDescriptor['local']['default'] = $row->iw_local;
 			}
 		}
 
