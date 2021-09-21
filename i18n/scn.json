@@ -26,7 +26,7 @@
 	"interwiki_delfailed": "Rimuzzioni dû prifissi \"$1\" dâ tabedda di li interwiki non arinisciuta.",
 	"interwiki_addtext": "Agghiunci nu prifissu interwiki o di lingua",
 	"interwiki_addintro": "Ora veni iunciutu nu novu prifissu interwiki.\nNon sunnu ammittuti li caràttiri: spàzziu ( ), dui punti (:), e cummirciali (&), sìmmulu di uguali (=).",
-	"interwiki_addbutton": "Iunci",
+	"interwiki_addbutton": "Junci",
 	"interwiki_added": "Lu prifissi \"$1\" vinni iunciutu a la tabedda di li interwiki.",
 	"interwiki_addfailed": "Mpussìbbili iunciri lu prufissu \"$1\" a la tabedda di li interwiki.\nLu prifissi putissi èssiri già prisenti ntâ tabedda.",
 	"interwiki_edittext": "Mudìfica di nu prifissu interwiki",
