@@ -76,7 +76,6 @@ class SpecialInterwiki extends SpecialPage {
 	 * @throws PermissionsError|ReadOnlyError
 	 */
 	public function canModify( $out = false ) {
-		global $wgInterwikiCache;
 		if ( !$this->getUser()->isAllowed( 'interwiki' ) ) {
 			// Check permissions
 			if ( $out ) {
@@ -84,7 +83,7 @@ class SpecialInterwiki extends SpecialPage {
 			}
 
 			return false;
-		} elseif ( $wgInterwikiCache ) {
+		} elseif ( $this->getConfig()->get( 'InterwikiCache' ) ) {
 			// Editing the interwiki cache is not supported
 			if ( $out ) {
 				$out->addWikiMsg( 'interwiki-cached' );
@@ -235,10 +234,9 @@ class SpecialInterwiki extends SpecialPage {
 	}
 
 	public function onSubmit( array $data ) {
-		global $wgInterwikiCentralInterlanguageDB;
-
 		$status = Status::newGood();
 		$request = $this->getRequest();
+		$config = $this->getConfig();
 		$prefix = $this->getRequest()->getVal( 'prefix', '' );
 		$do = $request->getVal( 'action' );
 		// Show an error if the prefix is invalid (only when adding one).
@@ -251,10 +249,11 @@ class SpecialInterwiki extends SpecialPage {
 			return $status;
 		}
 		// Disallow adding local interlanguage definitions if using global
+		$interwikiCentralInterlanguageDB = $config->get( 'InterwikiCentralInterlanguageDB' );
 		if (
 			$do === 'add' && Language::fetchLanguageName( $prefix )
-			&& $wgInterwikiCentralInterlanguageDB !== wfWikiID()
-			&& $wgInterwikiCentralInterlanguageDB !== null
+			&& $interwikiCentralInterlanguageDB !== wfWikiID()
+			&& $interwikiCentralInterlanguageDB !== null
 		) {
 			$status->fatal( 'interwiki-cannotaddlocallanguage', htmlspecialchars( $prefix ) );
 			return $status;
@@ -286,6 +285,7 @@ class SpecialInterwiki extends SpecialPage {
 		case 'add':
 			$contLang = MediaWikiServices::getInstance()->getContentLanguage();
 			$prefix = $contLang->lc( $prefix );
+			// Fall through
 		case 'edit':
 			$theurl = $data['url'];
 			$api = $data['api'] ?? '';
@@ -341,8 +341,6 @@ class SpecialInterwiki extends SpecialPage {
 	}
 
 	protected function showList() {
-		global $wgInterwikiCentralDB, $wgInterwikiCentralInterlanguageDB, $wgInterwikiViewOnly;
-
 		$canModify = $this->canModify();
 
 		// Build lists
@@ -350,9 +348,11 @@ class SpecialInterwiki extends SpecialPage {
 		$iwPrefixes = $lookup->getAllPrefixes( null );
 		$iwGlobalPrefixes = [];
 		$iwGlobalLanguagePrefixes = [];
-		if ( $wgInterwikiCentralDB !== null && $wgInterwikiCentralDB !== wfWikiID() ) {
+		$config = $this->getConfig();
+		$interwikiCentralDB = $config->get( 'InterwikiCentralDB' );
+		if ( $interwikiCentralDB !== null && $interwikiCentralDB !== wfWikiID() ) {
 			// Fetch list from global table
-			$dbrCentralDB = wfGetDB( DB_REPLICA, [], $wgInterwikiCentralDB );
+			$dbrCentralDB = wfGetDB( DB_REPLICA, [], $interwikiCentralDB );
 			$res = $dbrCentralDB->select( 'interwiki', '*', [], __METHOD__ );
 			$retval = [];
 			foreach ( $res as $row ) {
@@ -366,13 +366,13 @@ class SpecialInterwiki extends SpecialPage {
 
 		// Almost the same loop as above, but for global inter*language* links, whereas the above is for
 		// global inter*wiki* links
-		$usingGlobalInterlangLinks = ( $wgInterwikiCentralInterlanguageDB !== null );
-		$isGlobalInterlanguageDB = ( $wgInterwikiCentralInterlanguageDB === wfWikiID() );
+		$interwikiCentralInterlanguageDB = $config->get( 'InterwikiCentralInterlanguageDB' );
+		$usingGlobalInterlangLinks = ( $interwikiCentralInterlanguageDB !== null );
+		$isGlobalInterlanguageDB = ( $interwikiCentralInterlanguageDB === wfWikiID() );
 		$usingGlobalLanguages = $usingGlobalInterlangLinks && !$isGlobalInterlanguageDB;
 		if ( $usingGlobalLanguages ) {
 			// Fetch list from global table
-			// @phan-suppress-next-line PhanTypeMismatchArgument
-			$dbrCentralLangDB = wfGetDB( DB_REPLICA, [], $wgInterwikiCentralInterlanguageDB );
+			$dbrCentralLangDB = wfGetDB( DB_REPLICA, [], $interwikiCentralInterlanguageDB );
 			$res = $dbrCentralLangDB->select( 'interwiki', '*', [], __METHOD__ );
 			$retval2 = [];
 			foreach ( $res as $row ) {
@@ -408,7 +408,7 @@ class SpecialInterwiki extends SpecialPage {
 		$this->getOutput()->addWikiMsg( 'interwiki_intro' );
 
 		// Add 'view log' link when possible
-		if ( $wgInterwikiViewOnly === false ) {
+		if ( !$config->get( 'InterwikiViewOnly' ) ) {
 			$logLink = $this->getLinkRenderer()->makeLink(
 				SpecialPage::getTitleFor( 'Log', 'interwiki' ),
 				$this->msg( 'interwiki-logtext' )->text()
