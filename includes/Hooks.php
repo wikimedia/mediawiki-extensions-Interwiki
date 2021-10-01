@@ -79,7 +79,7 @@ class Hooks {
 			if ( !$res ) {
 				return true;
 			}
-			// Excplicitly make this an array since it's expected to be one
+			// Explicitly make this an array since it's expected to be one
 			$iwData = (array)$res;
 			// At this point, we can safely return false because we know that we have something
 			return false;
@@ -96,7 +96,7 @@ class Hooks {
 			if ( !$res ) {
 				return false;
 			}
-			// Excplicitly make this an array since it's expected to be one
+			// Explicitly make this an array since it's expected to be one
 			$iwData = (array)$res;
 			// At this point, we can safely return false because we know that we have something
 			return false;
