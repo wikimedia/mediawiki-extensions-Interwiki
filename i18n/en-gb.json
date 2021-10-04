@@ -7,8 +7,5 @@
 			"Mdann52"
 		]
 	},
-	"interwiki-local-label": "Forward:",
-	"interwiki_local_0_intro": "Any external HTTP requests to the local wiki using this interwiki prefix in the URL will result in a \"{{int:badtitle}}\" error page.",
-	"interwiki-trans-label": "Transclude:",
 	"interwiki_editerror": "Prefix \"$1\" could not be modified in the interwiki table.\nIt may not exist."
 }
