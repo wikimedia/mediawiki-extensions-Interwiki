@@ -9,7 +9,8 @@
 			"SPQRobin",
 			"Siebrand",
 			"Sjoerddebruin",
-			"Tvdm"
+			"Tvdm",
+			"Romaine"
 		]
 	},
 	"interwiki": "Interwikigegevens bekijken en wijzigen",
@@ -41,6 +42,7 @@
 	"interwiki-logtext": "Logboeken bekijken",
 	"interwiki_addtext": "Voeg een interwiki of taal voorvoegsel toe",
 	"interwiki-addtext-local": "Voeg een lokaal interwiki- of taalvoorvoegsel toe",
+	"interwiki-addtext-nolang": "Voeg een interwikivoorvoegsel toe",
 	"interwiki_addintro": "U bent een nieuw interwikivoorvoegsel aan het toevoegen.\nLet op dat dit geen spaties ( ), dubbele punt (:), ampersands (&), of gelijktekens (=) mag bevatten.",
 	"interwiki_addbutton": "Toevoegen",
 	"interwiki_added": "Voorvoegsel \"$1\" is toegevoegd aan de interwikitabel.",
