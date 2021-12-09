@@ -12,6 +12,7 @@ use PermissionsError;
 use ReadOnlyError;
 use SpecialPage;
 use Status;
+use Title;
 
 /**
  * Implements Special:Interwiki
@@ -244,8 +245,7 @@ class SpecialInterwiki extends SpecialPage {
 		// Invalid characters for a title should also be invalid for a prefix.
 		// Whitespace, ':', '&' and '=' are invalid, too.
 		// (Bug 30599).
-		global $wgLegalTitleChars;
-		$validPrefixChars = preg_replace( '/[ :&=]/', '', $wgLegalTitleChars );
+		$validPrefixChars = preg_replace( '/[ :&=]/', '', Title::legalChars() );
 		if ( $do === 'add' && preg_match( "/\s|[^$validPrefixChars]/", $prefix ) ) {
 			$status->fatal( 'interwiki-badprefix', htmlspecialchars( $prefix ) );
 			return $status;
