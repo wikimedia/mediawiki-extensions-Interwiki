@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"McDutchie"
+			"McDutchie",
+			"Shirayuki"
 		]
 	},
 	"interwiki": "Vider e modificar datos interwiki",
 	"interwiki-title-norights": "Vider datos interwiki",
 	"interwiki-desc": "Adde un [[Special:Interwiki|pagina special]] pro vider e modificar le tabella interwiki",
-	"interwiki_intro": "Isto es un summario del tabella interwiki, le qual defini le prefixos accelerator usate pro ligar rapidemente a altere wikis e sitos externe. Pro apprender le uso recommendate, lege [https://www.mediawiki.org/Special:MyLanguage/wiki/Extension:Interwiki le manual sur MediaWiki.org].",
+	"interwiki_intro": "Isto es un summario del tabella interwiki, le qual defini le prefixos accelerator usate pro ligar rapidemente a altere wikis e sitos externe. Pro apprender le uso recommendate, lege [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Interwiki le manual sur MediaWiki.org].",
 	"interwiki_prefix": "Prefixo",
 	"interwiki-prefix-label": "Prefixo:",
 	"interwiki_prefix_intro": "Prefixo interwiki pro usar in le syntaxe de wikitexto <code>[<nowiki />[prefixo:<em>nomine de pagina</em>]]</code>.",
@@ -27,11 +28,11 @@
 	"interwiki-cached": "Le datos interwiki es in cache. Non es possibile modificar le cache.",
 	"interwiki_edit": "Modificar",
 	"interwiki_reasonfield": "Motivo:",
-	"interwiki_deleting": "Tu sta super le puncto de deler le prefixo \"$1\".",
+	"interwiki_deleting": "Tu es sur le puncto de deler le prefixo \"$1\".",
 	"interwiki_deleted": "Le prefixo \"$1\" ha essite removite del tabella interwiki.",
 	"interwiki_delfailed": "Le prefixo \"$1\" non poteva esser removite del tabella interwiki.",
 	"interwiki_addtext": "Adder un prefixo interwiki o de lingua",
-	"interwiki_addintro": "Tu sta super le puncto de adder un nove prefixo interwiki.\nMemora que illo non pote continer spatios (&nbsp;), duo punctos (:), signos et (&), o signos equal (=).",
+	"interwiki_addintro": "Tu es sur le puncto de adder un nove prefixo interwiki.\nRememora que illo non pote continer spatios (&nbsp;), duo punctos (:), signos et (&), o signos equal (=).",
 	"interwiki_addbutton": "Adder",
 	"interwiki_added": "Le prefixo \"$1\" ha essite addite al tabella interwiki.",
 	"interwiki_addfailed": "Le prefixo \"$1\" non poteva esser addite al tabella interwiki.\nEs possibile que illo ja existe in le tabella interwiki.",
