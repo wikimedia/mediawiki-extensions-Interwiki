@@ -5,6 +5,7 @@ namespace MediaWiki\Extension\Interwiki;
 use Hooks as MWHooks;
 use Language;
 use MediaWiki\MediaWikiServices;
+use WikiMap;
 
 class Hooks {
 	/** @var bool */
@@ -28,11 +29,11 @@ class Hooks {
 
 		self::$shouldSkipIWCheck = (
 			$wgInterwikiCentralDB === null ||
-			$wgInterwikiCentralDB === wfWikiID()
+			$wgInterwikiCentralDB === WikiMap::getCurrentWikiId()
 		);
 		self::$shouldSkipILCheck = (
 			$wgInterwikiCentralInterlanguageDB === null ||
-			$wgInterwikiCentralInterlanguageDB === wfWikiID()
+			$wgInterwikiCentralInterlanguageDB === WikiMap::getCurrentWikiId()
 		);
 		if ( self::$shouldSkipIWCheck && self::$shouldSkipILCheck ) {
 			// Bail out early if _neither_ $wgInterwiki*CentralDB

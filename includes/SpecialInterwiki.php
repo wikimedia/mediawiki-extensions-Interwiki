@@ -13,6 +13,7 @@ use ReadOnlyError;
 use SpecialPage;
 use Status;
 use Title;
+use WikiMap;
 
 /**
  * Implements Special:Interwiki
@@ -252,7 +253,7 @@ class SpecialInterwiki extends SpecialPage {
 		$interwikiCentralInterlanguageDB = $config->get( 'InterwikiCentralInterlanguageDB' );
 		if (
 			$do === 'add' && Language::fetchLanguageName( $prefix )
-			&& $interwikiCentralInterlanguageDB !== wfWikiID()
+			&& $interwikiCentralInterlanguageDB !== WikiMap::getCurrentWikiId()
 			&& $interwikiCentralInterlanguageDB !== null
 		) {
 			$status->fatal( 'interwiki-cannotaddlocallanguage', htmlspecialchars( $prefix ) );
@@ -350,7 +351,7 @@ class SpecialInterwiki extends SpecialPage {
 		$iwGlobalLanguagePrefixes = [];
 		$config = $this->getConfig();
 		$interwikiCentralDB = $config->get( 'InterwikiCentralDB' );
-		if ( $interwikiCentralDB !== null && $interwikiCentralDB !== wfWikiID() ) {
+		if ( $interwikiCentralDB !== null && $interwikiCentralDB !== WikiMap::getCurrentWikiId() ) {
 			// Fetch list from global table
 			$dbrCentralDB = wfGetDB( DB_REPLICA, [], $interwikiCentralDB );
 			$res = $dbrCentralDB->select( 'interwiki', '*', [], __METHOD__ );
@@ -368,7 +369,7 @@ class SpecialInterwiki extends SpecialPage {
 		// global inter*wiki* links
 		$interwikiCentralInterlanguageDB = $config->get( 'InterwikiCentralInterlanguageDB' );
 		$usingGlobalInterlangLinks = ( $interwikiCentralInterlanguageDB !== null );
-		$isGlobalInterlanguageDB = ( $interwikiCentralInterlanguageDB === wfWikiID() );
+		$isGlobalInterlanguageDB = ( $interwikiCentralInterlanguageDB === WikiMap::getCurrentWikiId() );
 		$usingGlobalLanguages = $usingGlobalInterlangLinks && !$isGlobalInterlanguageDB;
 		if ( $usingGlobalLanguages ) {
 			// Fetch list from global table
