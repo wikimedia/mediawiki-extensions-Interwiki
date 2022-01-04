@@ -32,5 +32,7 @@
 	"logentry-interwiki-iw_edit": "$1 {{GENDER:$2|хийцина}} префикс «$4» ($5) (trans: $6; local: $7) йукъарвики-таблицехь",
 	"logentry-interwiki-iw_delete": "$1 {{GENDER:$2|дӀайаьккхина}} префикс «$4» йукъарвики-таблицан чуьра",
 	"log-description-interwiki": "ХӀара [[Special:Interwiki|юкъарвики таблицан]] хицаман тептар ду.",
-	"interwiki-links": "Йукъарвикийн префиксаш"
+	"interwiki-links": "Йукъарвикийн префиксаш",
+	"interwiki-language-links": "Меттанийнйуккъара префиксаш",
+	"interwiki-global-language-links": "Глобалан меттанийнйуккъара префиксаш"
 }
