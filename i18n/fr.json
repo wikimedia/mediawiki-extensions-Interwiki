@@ -36,7 +36,7 @@
 	"interwiki_local_1_intro": "Les requêtes HTTP externes vers le  wiki local en utilisant ce préfixe interwiki seront redirigées vers l’URL cible de l’interwiki (c’est-à-dire traitées comme des liens vers des pages locales).",
 	"interwiki_trans": "Inclure",
 	"interwiki-trans-label": "Transclure",
-	"interwiki_trans_1_intro": "Si la syntaxe wikitexte <code>{<nowiki />{préfixe:<em>nom_page</em>}}</code> est utilisée, permet d’inclure un modèle/page depuis un autre wiki si les inclusions interwiki sont activées de façon générale ([https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:$wgEnableScaryTranscluding inclusion dangereuse]).",
+	"interwiki_trans_1_intro": "Si la syntaxe wikicode <code>{<nowiki />{préfixe:<em>nom_page</em>}}</code> est utilisée, permet d’inclure un modèle ou une page depuis un autre wiki lorsque les inclusions interwiki sont activées de façon générale ([https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:$wgEnableScaryTranscluding inclusion potentiellement dangereuse]).",
 	"interwiki_trans_0_intro": "Ne pas permettre à <code>{<nowiki />{préfixe:<em>nom_page</em>}}</code> d’inclure des modèles/pages externes, mais rechercher plutôt une page dans l’espace de noms des modèles.",
 	"interwiki_1": "oui",
 	"interwiki_0": "non",
