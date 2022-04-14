@@ -3,7 +3,9 @@
 	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki">
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationProtected" />
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic" />
+		<exclude name="MediaWiki.Usage.ExtendClassUsage.FunctionConfigUsage" />
 		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.NewLineComment" />
+		<exclude name="PSR2.ControlStructures.SwitchDeclaration.TerminatingComment" />
 	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php" />
