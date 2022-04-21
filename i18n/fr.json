@@ -44,7 +44,7 @@
 	"interwiki_error": "Erreur : la table des interwikis est vide ou un processus s'est mal déroulé.",
 	"interwiki-cached": "Les données interwiki sont mises en cache. Il n’est pas possible de modifier le cache.",
 	"interwiki_edit": "Modifier",
-	"interwiki_reasonfield": "Motif :",
+	"interwiki_reasonfield": "Motif :",
 	"interwiki_deleting": "Vous effacez présentement le préfixe « $1 ».",
 	"interwiki_deleted": "Le préfixe « $1 » a été enlevé de la table interwiki.",
 	"interwiki_delfailed": "« $1 » n'a pas pu être enlevé de la table interwiki.",
