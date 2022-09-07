@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Boukman",
 			"Jvm",
 			"Masterches"
@@ -9,7 +10,7 @@
 	"interwiki": "Wè epi modifye enfòmasyon entèwiki yo",
 	"interwiki-title-norights": "Wè enfòmasyon entèwiki",
 	"interwiki-desc": "Ajoute yon [[Special:Interwiki|paj espesyal]] pou wè ak modifye tablo entèwiki a",
-	"interwiki_intro": "Sa se yon kout je sou tablo entèwiki a.",
+	"interwiki_intro": "Sa a se yon apèsi sou tablo interwiki a, ki defini rakoursi prefiks yo pou relye rapidman nan diferan wiki ak lòt sit ekstèn. Pou itilizasyon rekòmande, tanpri gade [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Interwiki manyèl la sou MediaWiki.org].",
 	"interwiki_prefix": "Prefiks",
 	"interwiki-prefix-label": "Prefiks:",
 	"interwiki_error": "ERÈ:  Tablo entèwiki a vid, oubyen yon lòt bagay pa t mache.",
