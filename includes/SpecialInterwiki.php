@@ -296,6 +296,7 @@ class SpecialInterwiki extends SpecialPage {
 				'iw_prefix' => $prefix,
 				'iw_url' => $theurl,
 				'iw_api' => $api,
+				'iw_wikiid' => '',
 				'iw_local' => $local,
 				'iw_trans' => $trans
 			];
