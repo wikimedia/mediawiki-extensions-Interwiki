@@ -5,9 +5,9 @@
 			"Eleassar"
 		]
 	},
-	"interwiki": "Ogled in urejanje podatkov interwiki",
+	"interwiki": "Ogled in urejanje interviki podatkov",
 	"interwiki-title-norights": "Ogled podatkov interwiki",
-	"interwiki-desc": "Doda [[Special:Interwiki|posebno stran]] za ogled in urejanje tabele interwiki",
+	"interwiki-desc": "Doda [[Special:Interwiki|posebno stran]] za ogled in urejanje interviki tabele",
 	"interwiki_intro": "To je pregled tabele interwiki, ki določa predponske bližnjice, ki se uporabljajo za povezovanje na različne wikije in druge zunanje strani. Za priporočljivo rabo si oglejte [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Interwiki priročnik na MediaWiki.org].",
 	"interwiki-legend-label": "Legenda",
 	"interwiki_prefix": "Predpona",
@@ -43,7 +43,7 @@
 	"interwiki-submit-invalidurl": "Protokol URL-ja ni veljaven.",
 	"log-name-interwiki": "Dnevnik tabele interwiki",
 	"log-description-interwiki": "To je dnevnik sprememb [[Special:Interwiki|tabele interwiki]].",
-	"right-interwiki": "Urejanje podatkov interwiki",
+	"right-interwiki": "Urejanje interviki podatkov",
 	"action-interwiki": "spreminjanje tega vnosa interwikija",
 	"interwiki-global-links": "Globalne predpone interwiki",
 	"interwiki-local-links": "Lokalne predpone interwikijev",
