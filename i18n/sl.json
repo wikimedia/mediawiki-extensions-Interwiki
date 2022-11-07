@@ -25,7 +25,7 @@
 	"interwiki_1": "da",
 	"interwiki_0": "ne",
 	"interwiki_error": "Napaka: Tabela interwiki je prazna ali pa je kaj drugega šlo narobe.",
-	"interwiki-cached": "Podatki interwiki so predpomnjeni. Spreminjanje predpomnilnika ni mogoče.",
+	"interwiki-cached": "Interviki podatki so predpomnjeni. Spreminjanje predpomnjenja ni mogoče.",
 	"interwiki_edit": "Uredi",
 	"interwiki_reasonfield": "Razlog:",
 	"interwiki_deleting": "Brišete predpono »$1«.",
