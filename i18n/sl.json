@@ -29,7 +29,7 @@
 	"interwiki_edit": "Uredi",
 	"interwiki_reasonfield": "Razlog:",
 	"interwiki_deleting": "Brišete predpono »$1«.",
-	"interwiki_deleted": "Predpono »$1« smo odstranili iz tabele interwiki.",
+	"interwiki_deleted": "Predpona »$1« je odstranjena iz interviki tabele.",
 	"interwiki_delfailed": "Predpone »$1« ni bilo mogoče odstraniti iz tabele interwiki.",
 	"interwiki-logtext": "Ogled dnevnika",
 	"interwiki_addtext": "Dodaj interwiki- ali jezikovno predpono",
