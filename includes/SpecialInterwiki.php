@@ -222,7 +222,7 @@ class SpecialInterwiki extends SpecialPage {
 			}
 
 			$htmlForm->setSubmitTextMsg( $action !== 'add' ? $action : 'interwiki_addbutton' )
-				->setIntro( $this->msg( $action !== 'delete' ? "interwiki_{$action}intro" :
+				->setPreHtml( $this->msg( $action !== 'delete' ? "interwiki_{$action}intro" :
 					'interwiki_deleting', $prefix )->escaped() )
 				->show();
 		} else {
