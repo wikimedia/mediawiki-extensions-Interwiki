@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lloffiwr"
+			"Lloffiwr",
+			"Afalau"
 		]
 	},
 	"interwiki": "Gweld a golygu data rhyngwici",
@@ -18,7 +19,7 @@
 	"interwiki_reasonfield": "Rheswm:",
 	"interwiki_addtext": "Ychwanegu rhagddodiad rhyngwici",
 	"interwiki_addintro": "Rydych yn ychwanegu rhagddodiad rhyngwici newydd.\nCofiwch na all gynnwys bwlch ( ), gorwahannod (:), ampersand (&), na hafalnod (=).",
-	"interwiki_addbutton": "Ychwaneger",
+	"interwiki_addbutton": "Ychwanegu",
 	"interwiki_added": "Llwyddwyd i ychwanegu'r rhagddodiad \"$1\" at y tabl rhyngwici.",
 	"interwiki_addfailed": "Methwyd ychwanegu'r rhagddodiad \"$1\" at y tabl rhyngwici.\nEfallai ei fod eisoes yn y tabl rhyngwici.",
 	"log-name-interwiki": "Lòg y tabl rhyngwici",
