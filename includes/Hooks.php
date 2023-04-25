@@ -4,7 +4,7 @@ namespace MediaWiki\Extension\Interwiki;
 
 use Hooks as MWHooks;
 use MediaWiki\MediaWikiServices;
-use WikiMap;
+use MediaWiki\WikiMap\WikiMap;
 
 class Hooks {
 	/** @var bool */
