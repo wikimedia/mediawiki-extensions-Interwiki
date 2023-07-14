@@ -4,8 +4,21 @@
 			"Andibing",
 			"Bjh21",
 			"Chase me ladies, I'm the Cavalry",
-			"Mdann52"
+			"Mdann52",
+			"Piano1forte2"
 		]
 	},
-	"interwiki_editerror": "Prefix \"$1\" could not be modified in the interwiki table.\nIt may not exist."
+	"interwiki_local_0_intro": "External HTTP requests to the local wiki using this interwiki prefix in the URL will result in a '{{int:badtitle}}' error page.",
+	"interwiki_deleting": "You are deleting prefix '$1'.",
+	"interwiki_delfailed": "Prefix '$1' could not be removed from the interwiki table.",
+	"interwiki_added": "Prefix '$1' was added to the interwiki table.",
+	"interwiki_addfailed": "Prefix '$1' could not be added to the interwiki table.\nPossibly it already exists in the interwiki table.",
+	"interwiki_edited": "Prefix '$1' was modified in the interwiki table.",
+	"interwiki_editerror": "Prefix \"$1\" could not be modified in the interwiki table.\nIt may not exist.",
+	"interwiki-badprefix": "Specified interwiki prefix '$1' contains invalid characters",
+	"logentry-interwiki-iw_add": "$1 {{GENDER:$2|added}} prefix '$4' ($5) (trans: $6; local: $7) to the interwiki table",
+	"logentry-interwiki-iw_edit": "$1 {{GENDER:$2|modified}} prefix '$4' ($5) (trans: $6; local: $7) in the interwiki table",
+	"logentry-interwiki-iw_delete": "$1 {{GENDER:$2|removed}} prefix '$4' from the interwiki table",
+	"interwiki-language-description": "These prefixes match defined language codes, and will be used to create the '{{int:otherlanguages}}' listing when added to a page.",
+	"interwiki-global-language-description": "These prefixes match defined language codes, and will be used to create the '{{int:otherlanguages}}' listing when added to a page. As they are inherited from a global configuration, they can only be edited on the source wiki. Global interlanguage definitions cannot be overridden locally."
 }
