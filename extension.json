@@ -40,7 +40,6 @@
 		]
 	},
 	"Hooks": {
-		"InterwikiLoadPrefix": "MediaWiki\\Extension\\Interwiki\\Hooks::onInterwikiLoadPrefix",
 		"UserGetAllRights": "MediaWiki\\Extension\\Interwiki\\Hooks::onUserGetAllRights"
 	},
 	"ResourceModules": {
