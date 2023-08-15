@@ -40,7 +40,12 @@
 		]
 	},
 	"Hooks": {
-		"UserGetAllRights": "MediaWiki\\Extension\\Interwiki\\Hooks::onUserGetAllRights"
+		"UserGetAllRights": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\Interwiki\\Hooks"
+		}
 	},
 	"ResourceModules": {
 		"ext.interwiki.specialpage": {
