@@ -6,13 +6,13 @@ use Html;
 use HTMLForm;
 use LogPage;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use MediaWiki\WikiMap\WikiMap;
 use OutputPage;
 use PermissionsError;
 use ReadOnlyError;
 use SpecialPage;
 use Status;
-use Title;
 
 /**
  * Implements Special:Interwiki
