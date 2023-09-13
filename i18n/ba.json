@@ -19,7 +19,7 @@
 	"interwiki_local_1_intro": "URL-адреста локаль викиҙарға интервикиҙың был префиксты ҡулланып тышҡы HTTP-һоратыуҙары  интервики-һылтанманың маҡсатлы URL-адресына йүнәлтә (йәғни локаль биттәргә йүнәлтеү һымаҡ эшкәртелә)",
 	"interwiki_trans": "Ҡулланыу",
 	"interwiki-trans-label": "Ҡулланыу:",
-	"interwiki_trans_1_intro": "әгәр был вики-проектта интервики ҡушыуҙар рөхсәт ителһә, башҡа вики-проекттарҙан ҡушыу рөхсәт ителә.",
+	"interwiki_trans_1_intro": "<code>{<nowiki />{prefix:<em>pagename</em>}}</code> синтаксисы ҡулланылһа, әгәр интервики-ҡушылыуҙар  ([https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:$wgEnableScaryTranscluding хәүефле ҡушылыуҙарҙа]) рөхсәт ителһә, башҡа викиҙарҙан ҡалыптар/биттәр индереү рөхсәт ителә.",
 	"interwiki_trans_0_intro": "<code>{<nowiki />{prefix:<em>pagename</em>}}</code>-ҡа сит ҡалып/биттәрҙе индерергә рөхсәт итмәй. Шул уҡ ваҡытта ҡалыптарҙың исем арауығында локаль битте эҙләй.",
 	"interwiki_1": "эйе",
 	"interwiki_0": "юҡ",
