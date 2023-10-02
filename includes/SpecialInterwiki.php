@@ -34,11 +34,10 @@ class SpecialInterwiki extends SpecialPage {
 	 * Different description will be shown on Special:SpecialPage depending on
 	 * whether the user can modify the data.
 	 *
-	 * @return string
+	 * @return \Message
 	 */
 	public function getDescription() {
-		return $this->msg( $this->canModify() ?
-			'interwiki' : 'interwiki-title-norights' )->plain();
+		return $this->msg( $this->canModify() ? 'interwiki' : 'interwiki-title-norights' );
 	}
 
 	public function getSubpagesForPrefixSearch() {
