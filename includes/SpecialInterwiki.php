@@ -2,17 +2,17 @@
 
 namespace MediaWiki\Extension\Interwiki;
 
-use Html;
 use HTMLForm;
 use LogPage;
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Output\OutputPage;
+use MediaWiki\SpecialPage\SpecialPage;
+use MediaWiki\Status\Status;
 use MediaWiki\Title\Title;
 use MediaWiki\WikiMap\WikiMap;
-use OutputPage;
 use PermissionsError;
 use ReadOnlyError;
-use SpecialPage;
-use Status;
 
 /**
  * Implements Special:Interwiki
