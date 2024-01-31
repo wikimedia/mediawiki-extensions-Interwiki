@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"S.Örvarr.S",
-			"Sveinn í Felli"
+			"Sveinn í Felli",
+			"Stefán Örvar Sigmundsson"
 		]
 	},
 	"interwiki-legend-label": "Skýring",
@@ -12,6 +13,8 @@
 	"interwiki-url-label": "Vefslóð:",
 	"interwiki_local": "Áfram",
 	"interwiki-local-label": "Áframsenda",
+	"interwiki_trans": "Innifela",
+	"interwiki-trans-label": "Innifela",
 	"interwiki_1": "já",
 	"interwiki_0": "nei",
 	"interwiki_edit": "Breyta",
