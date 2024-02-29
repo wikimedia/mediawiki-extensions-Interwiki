@@ -59,5 +59,6 @@
 	"interwiki-local-links": "Локални међувики префикси",
 	"interwiki-links": "Међувики префикси",
 	"interwiki-language-links": "Међујезички префикси",
+	"interwiki-language-description": "Ови префиски су кодови језика и користе се за списак „{{int:otherlanguages}}” када се повеже нека страница.",
 	"interwiki-global-language-links": "Глобални међујезички префикси"
 }
