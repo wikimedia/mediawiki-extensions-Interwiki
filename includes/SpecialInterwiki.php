@@ -262,79 +262,79 @@ class SpecialInterwiki extends SpecialPage {
 		$lookup = MediaWikiServices::getInstance()->getInterwikiLookup();
 		$dbw = wfGetDB( DB_PRIMARY );
 		switch ( $do ) {
-		case 'delete':
-			$dbw->delete( 'interwiki', [ 'iw_prefix' => $prefix ], __METHOD__ );
+			case 'delete':
+				$dbw->delete( 'interwiki', [ 'iw_prefix' => $prefix ], __METHOD__ );
 
-			if ( $dbw->affectedRows() === 0 ) {
-				$status->fatal( 'interwiki_delfailed', $prefix );
-			} else {
-				$this->getOutput()->addWikiMsg( 'interwiki_deleted', $prefix );
-				$log = new LogPage( 'interwiki' );
-				$log->addEntry(
-					'iw_delete',
-					$selfTitle,
-					$reason,
-					[ $prefix ],
-					$this->getUser()
-				);
-				$lookup->invalidateCache( $prefix );
-			}
-			break;
-		/** @noinspection PhpMissingBreakStatementInspection */
-		case 'add':
-			$contLang = MediaWikiServices::getInstance()->getContentLanguage();
-			$prefix = $contLang->lc( $prefix );
-			// Fall through
-		case 'edit':
-			$theurl = $data['url'];
-			$api = $data['api'] ?? '';
-			$local = $data['local'] ? 1 : 0;
-			$trans = $data['trans'] ? 1 : 0;
-			$rows = [
-				'iw_prefix' => $prefix,
-				'iw_url' => $theurl,
-				'iw_api' => $api,
-				'iw_wikiid' => '',
-				'iw_local' => $local,
-				'iw_trans' => $trans
-			];
-
-			if ( $prefix === '' || $theurl === '' ) {
-				$status->fatal( 'interwiki-submit-empty' );
+				if ( $dbw->affectedRows() === 0 ) {
+					$status->fatal( 'interwiki_delfailed', $prefix );
+				} else {
+					$this->getOutput()->addWikiMsg( 'interwiki_deleted', $prefix );
+					$log = new LogPage( 'interwiki' );
+					$log->addEntry(
+						'iw_delete',
+						$selfTitle,
+						$reason,
+						[ $prefix ],
+						$this->getUser()
+					);
+					$lookup->invalidateCache( $prefix );
+				}
 				break;
-			}
+			/** @noinspection PhpMissingBreakStatementInspection */
+			case 'add':
+				$contLang = MediaWikiServices::getInstance()->getContentLanguage();
+				$prefix = $contLang->lc( $prefix );
+				// Fall through
+			case 'edit':
+				$theurl = $data['url'];
+				$api = $data['api'] ?? '';
+				$local = $data['local'] ? 1 : 0;
+				$trans = $data['trans'] ? 1 : 0;
+				$rows = [
+					'iw_prefix' => $prefix,
+					'iw_url' => $theurl,
+					'iw_api' => $api,
+					'iw_wikiid' => '',
+					'iw_local' => $local,
+					'iw_trans' => $trans
+				];
 
-			// Simple URL validation: check that the protocol is one of
-			// the supported protocols for this wiki.
-			// (bug 30600)
-			if ( !wfParseUrl( $theurl ) ) {
-				$status->fatal( 'interwiki-submit-invalidurl' );
+				if ( $prefix === '' || $theurl === '' ) {
+					$status->fatal( 'interwiki-submit-empty' );
+					break;
+				}
+
+				// Simple URL validation: check that the protocol is one of
+				// the supported protocols for this wiki.
+				// (bug 30600)
+				if ( !wfParseUrl( $theurl ) ) {
+					$status->fatal( 'interwiki-submit-invalidurl' );
+					break;
+				}
+
+				if ( $do === 'add' ) {
+					$dbw->insert( 'interwiki', $rows, __METHOD__, [ 'IGNORE' ] );
+				} else { // $do === 'edit'
+					$dbw->update( 'interwiki', $rows, [ 'iw_prefix' => $prefix ], __METHOD__, [ 'IGNORE' ] );
+				}
+
+				// used here: interwiki_addfailed, interwiki_added, interwiki_edited
+				if ( $dbw->affectedRows() === 0 ) {
+					$status->fatal( "interwiki_{$do}failed", $prefix );
+				} else {
+					$this->getOutput()->addWikiMsg( "interwiki_{$do}ed", $prefix );
+					$log = new LogPage( 'interwiki' );
+					$log->addEntry(
+						'iw_' . $do,
+						$selfTitle,
+						$reason,
+						[ $prefix, $theurl, $trans, $local ],
+						$this->getUser()
+					);
+					// @phan-suppress-next-line PhanTypeMismatchArgumentNullable
+					$lookup->invalidateCache( $prefix );
+				}
 				break;
-			}
-
-			if ( $do === 'add' ) {
-				$dbw->insert( 'interwiki', $rows, __METHOD__, [ 'IGNORE' ] );
-			} else { // $do === 'edit'
-				$dbw->update( 'interwiki', $rows, [ 'iw_prefix' => $prefix ], __METHOD__, [ 'IGNORE' ] );
-			}
-
-			// used here: interwiki_addfailed, interwiki_added, interwiki_edited
-			if ( $dbw->affectedRows() === 0 ) {
-				$status->fatal( "interwiki_{$do}failed", $prefix );
-			} else {
-				$this->getOutput()->addWikiMsg( "interwiki_{$do}ed", $prefix );
-				$log = new LogPage( 'interwiki' );
-				$log->addEntry(
-					'iw_' . $do,
-					$selfTitle,
-					$reason,
-					[ $prefix, $theurl, $trans, $local ],
-					$this->getUser()
-				);
-				// @phan-suppress-next-line PhanTypeMismatchArgumentNullable
-				$lookup->invalidateCache( $prefix );
-			}
-			break;
 		}
 
 		return $status;
