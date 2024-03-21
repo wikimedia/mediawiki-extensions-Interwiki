@@ -188,7 +188,7 @@ class SpecialInterwiki extends SpecialPage {
 		];
 
 		if ( $action === 'edit' ) {
-			$dbr = wfGetDB( DB_REPLICA );
+			$dbr = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
 			$row = $dbr->selectRow( 'interwiki', '*', [ 'iw_prefix' => $prefix ], __METHOD__ );
 
 			$formDescriptor['prefix']['disabled'] = true;
@@ -233,6 +233,8 @@ class SpecialInterwiki extends SpecialPage {
 	}
 
 	public function onSubmit( array $data ) {
+		$services = MediaWikiServices::getInstance();
+
 		$status = Status::newGood();
 		$request = $this->getRequest();
 		$config = $this->getConfig();
@@ -250,7 +252,7 @@ class SpecialInterwiki extends SpecialPage {
 		// Disallow adding local interlanguage definitions if using global
 		$interwikiCentralInterlanguageDB = $config->get( 'InterwikiCentralInterlanguageDB' );
 		if (
-			$do === 'add' && MediaWikiServices::getInstance()->getLanguageNameUtils()->getLanguageName( $prefix )
+			$do === 'add' && $services->getLanguageNameUtils()->getLanguageName( $prefix )
 			&& $interwikiCentralInterlanguageDB !== WikiMap::getCurrentWikiId()
 			&& $interwikiCentralInterlanguageDB !== null
 		) {
@@ -259,8 +261,8 @@ class SpecialInterwiki extends SpecialPage {
 		}
 		$reason = $data['reason'];
 		$selfTitle = $this->getPageTitle();
-		$lookup = MediaWikiServices::getInstance()->getInterwikiLookup();
-		$dbw = wfGetDB( DB_PRIMARY );
+		$lookup = $services->getInterwikiLookup();
+		$dbw = $services->getConnectionProvider()->getPrimaryDatabase();
 		switch ( $do ) {
 			case 'delete':
 				$dbw->delete( 'interwiki', [ 'iw_prefix' => $prefix ], __METHOD__ );
@@ -282,7 +284,7 @@ class SpecialInterwiki extends SpecialPage {
 				break;
 			/** @noinspection PhpMissingBreakStatementInspection */
 			case 'add':
-				$contLang = MediaWikiServices::getInstance()->getContentLanguage();
+				$contLang = $services->getContentLanguage();
 				$prefix = $contLang->lc( $prefix );
 				// Fall through
 			case 'edit':
@@ -344,16 +346,24 @@ class SpecialInterwiki extends SpecialPage {
 		$canModify = $this->canModify();
 
 		// Build lists
-		$lookup = MediaWikiServices::getInstance()->getInterwikiLookup();
+		$services = MediaWikiServices::getInstance();
+
+		$lookup = $services->getInterwikiLookup();
 		$iwPrefixes = $lookup->getAllPrefixes( null );
 		$iwGlobalPrefixes = [];
 		$iwGlobalLanguagePrefixes = [];
+
 		$config = $this->getConfig();
 		$interwikiCentralDB = $config->get( 'InterwikiCentralDB' );
-		$languageNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
+
+		$languageNameUtils = $services->getLanguageNameUtils();
+
+		$connectionProvider = $services->getConnectionProvider();
+
 		if ( $interwikiCentralDB !== null && $interwikiCentralDB !== WikiMap::getCurrentWikiId() ) {
 			// Fetch list from global table
-			$dbrCentralDB = wfGetDB( DB_REPLICA, [], $interwikiCentralDB );
+			$dbrCentralDB = $connectionProvider->getReplicaDatabase( $interwikiCentralDB );
+
 			$res = $dbrCentralDB->select( 'interwiki', '*', [], __METHOD__ );
 			$retval = [];
 			foreach ( $res as $row ) {
@@ -373,7 +383,8 @@ class SpecialInterwiki extends SpecialPage {
 		$usingGlobalLanguages = $usingGlobalInterlangLinks && !$isGlobalInterlanguageDB;
 		if ( $usingGlobalLanguages ) {
 			// Fetch list from global table
-			$dbrCentralLangDB = wfGetDB( DB_REPLICA, [], $interwikiCentralInterlanguageDB );
+			$dbrCentralLangDB = $connectionProvider->getReplicaDatabase( $interwikiCentralInterlanguageDB );
+
 			$res = $dbrCentralLangDB->select( 'interwiki', '*', [], __METHOD__ );
 			$retval2 = [];
 			foreach ( $res as $row ) {
