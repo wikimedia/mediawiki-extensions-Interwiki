@@ -265,7 +265,11 @@ class SpecialInterwiki extends SpecialPage {
 		$dbw = $services->getConnectionProvider()->getPrimaryDatabase();
 		switch ( $do ) {
 			case 'delete':
-				$dbw->delete( 'interwiki', [ 'iw_prefix' => $prefix ], __METHOD__ );
+				$dbw->newDeleteQueryBuilder()
+					->deleteFrom( 'interwiki' )
+					->where( [ 'iw_prefix' => $prefix ] )
+					->caller( __METHOD__ )
+					->execute();
 
 				if ( $dbw->affectedRows() === 0 ) {
 					$status->fatal( 'interwiki_delfailed', $prefix );
@@ -315,7 +319,12 @@ class SpecialInterwiki extends SpecialPage {
 				}
 
 				if ( $do === 'add' ) {
-					$dbw->insert( 'interwiki', $rows, __METHOD__, [ 'IGNORE' ] );
+					$dbw->newInsertQueryBuilder()
+						->insertInto( 'interwiki' )
+						->ignore()
+						->row( $rows )
+						->caller( __METHOD__ )
+						->execute();
 				} else { // $do === 'edit'
 					$dbw->update( 'interwiki', $rows, [ 'iw_prefix' => $prefix ], __METHOD__, [ 'IGNORE' ] );
 				}
