@@ -326,7 +326,13 @@ class SpecialInterwiki extends SpecialPage {
 						->caller( __METHOD__ )
 						->execute();
 				} else { // $do === 'edit'
-					$dbw->update( 'interwiki', $rows, [ 'iw_prefix' => $prefix ], __METHOD__, [ 'IGNORE' ] );
+					$dbw->newUpdateQueryBuilder()
+						->update( 'interwiki' )
+						->ignore()
+						->set( $rows )
+						->where( [ 'iw_prefix' => $prefix ] )
+						->caller( __METHOD__ )
+						->execute();
 				}
 
 				// used here: interwiki_addfailed, interwiki_added, interwiki_edited
