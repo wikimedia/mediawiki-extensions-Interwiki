@@ -189,7 +189,12 @@ class SpecialInterwiki extends SpecialPage {
 
 		if ( $action === 'edit' ) {
 			$dbr = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
-			$row = $dbr->selectRow( 'interwiki', '*', [ 'iw_prefix' => $prefix ], __METHOD__ );
+			$row = $dbr->newSelectQueryBuilder()
+				->select( '*' )
+				->from( 'interwiki' )
+				->where( [ 'iw_prefix' => $prefix ] )
+				->caller( __METHOD__ )
+				->fetchRow();
 
 			$formDescriptor['prefix']['disabled'] = true;
 			$formDescriptor['prefix']['default'] = $prefix;
@@ -379,7 +384,11 @@ class SpecialInterwiki extends SpecialPage {
 			// Fetch list from global table
 			$dbrCentralDB = $connectionProvider->getReplicaDatabase( $interwikiCentralDB );
 
-			$res = $dbrCentralDB->select( 'interwiki', '*', [], __METHOD__ );
+			$res = $dbrCentralDB->newSelectQueryBuilder()
+				->select( '*' )
+				->from( 'interwiki' )
+				->caller( __METHOD__ )
+				->fetchResultSet();
 			$retval = [];
 			foreach ( $res as $row ) {
 				$row = (array)$row;
@@ -400,7 +409,11 @@ class SpecialInterwiki extends SpecialPage {
 			// Fetch list from global table
 			$dbrCentralLangDB = $connectionProvider->getReplicaDatabase( $interwikiCentralInterlanguageDB );
 
-			$res = $dbrCentralLangDB->select( 'interwiki', '*', [], __METHOD__ );
+			$res = $dbrCentralLangDB->newSelectQueryBuilder()
+				->select( '*' )
+				->from( 'interwiki' )
+				->caller( __METHOD__ )
+				->fetchResultSet();
 			$retval2 = [];
 			foreach ( $res as $row ) {
 				$row = (array)$row;
