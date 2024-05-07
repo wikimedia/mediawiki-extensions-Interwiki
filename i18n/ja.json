@@ -20,7 +20,7 @@
 	"interwiki": "インターウィキデータの閲覧と編集",
 	"interwiki-title-norights": "インターウィキデータの閲覧",
 	"interwiki-desc": "インターウィキテーブルの表示と編集を行う[[Special:Interwiki|特別ページ]]を追加する",
-	"interwiki_intro": "以下はインターウィキの概要です。これは、すぐに別のウィキや他の外部サイトへのリンクに使用されるプレフィックスのショートカットを定義します。推奨される使用のために、次をご覧ください。[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Interwiki MediaWiki.org 上のマニュアル]",
+	"interwiki_intro": "以下はインターウィキテーブルの概要です。これは、すぐに別のウィキや他の外部サイトへのリンクに使用されるプレフィックスのショートカットを定義します。推奨される使用のために、次をご覧ください。[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Interwiki MediaWiki.org 上のマニュアル]",
 	"interwiki-legend-label": "凡例",
 	"interwiki_prefix": "接頭辞",
 	"interwiki-prefix-label": "接頭辞:",
