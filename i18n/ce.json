@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Sasan700",
-			"Умар"
+			"Умар",
+			"Исмаил Садуев"
 		]
 	},
 	"interwiki": "Йукъарвикийн нисдаран гӀирсе хьажар а, хийцар а",
@@ -24,7 +25,7 @@
 	"interwiki_trans_0_intro": "ТӀетоха магийна дац, кепийн цӀерийн меттигехь агӀо лоху.",
 	"interwiki_1": "хӀаъ",
 	"interwiki_0": "хӀан-хӀа",
-	"interwiki_edit": "Нисйе",
+	"interwiki_edit": "Нисйан",
 	"interwiki_reasonfield": "Бахьана:",
 	"interwiki-logtext": "Тептаршка хьажар",
 	"interwiki_addbutton": "ТӀетоха",
