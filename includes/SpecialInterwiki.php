@@ -2,10 +2,11 @@
 
 namespace MediaWiki\Extension\Interwiki;
 
-use HTMLForm;
 use LogPage;
 use MediaWiki\Html\Html;
+use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Message\Message;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Status\Status;
@@ -34,7 +35,7 @@ class SpecialInterwiki extends SpecialPage {
 	 * Different description will be shown on Special:SpecialPage depending on
 	 * whether the user can modify the data.
 	 *
-	 * @return \Message
+	 * @return Message
 	 */
 	public function getDescription() {
 		return $this->msg( $this->canModify() ? 'interwiki' : 'interwiki-title-norights' );
