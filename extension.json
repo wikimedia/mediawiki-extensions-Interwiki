@@ -49,7 +49,7 @@
 	},
 	"ResourceModules": {
 		"ext.interwiki.specialpage": {
-			"styles": "interwiki.css"
+			"styles": "interwiki.less"
 		}
 	},
 	"ResourceFileModulePaths": {

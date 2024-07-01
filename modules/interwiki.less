@@ -1,31 +1,30 @@
-/**
- * CSS for Special:Interwiki
- */
+// Styles for Special:Interwiki
+
 table.mw-interwikitable {
 	width: 100%;
-}
 
-table.mw-interwikitable.intro th {
-	padding-right: 1.4ex;
-	vertical-align: top;
-}
+	&.intro th {
+		padding-right: 1.4ex;
+		vertical-align: top;
+	}
 
-table.mw-interwikitable.intro th.mw-align-start {
-	text-align: left;
-}
+	&.intro th.mw-align-start {
+		text-align: left;
+	}
 
-table.mw-interwikitable.intro th.mw-align-end {
-	text-align: right;
-}
+	&.intro th.mw-align-end {
+		text-align: right;
+	}
 
-table.mw-interwikitable.body td.mw-interwikitable-local,
-table.mw-interwikitable.body td.mw-interwikitable-trans,
-table.mw-interwikitable.body td.mw-interwikitable-modify {
-	text-align: center;
-}
+	&.body td.mw-interwikitable-local,
+	&.body td.mw-interwikitable-trans,
+	&.body td.mw-interwikitable-modify {
+		text-align: center;
+	}
 
-table.mw-interwikitable.body td.mw-interwikitable-local-yes {
-	background: #d5fdf4;
+	&.body td.mw-interwikitable-local-yes {
+		background: #d5fdf4;
+	}
 }
 
 /* It's safe enough to assume that URLs are usually LTR. */
