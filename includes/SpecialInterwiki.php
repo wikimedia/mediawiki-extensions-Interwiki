@@ -319,7 +319,7 @@ class SpecialInterwiki extends SpecialPage {
 				// Simple URL validation: check that the protocol is one of
 				// the supported protocols for this wiki.
 				// (T32600)
-				if ( !wfGetUrlUtils()->parse( $theurl ) ) {
+				if ( !$services->getUrlUtils()->parse( $theurl ) ) {
 					$status->fatal( 'interwiki-submit-invalidurl' );
 					break;
 				}
