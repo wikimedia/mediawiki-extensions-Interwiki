@@ -244,7 +244,7 @@ class SpecialInterwiki extends SpecialPage {
 		$status = Status::newGood();
 		$request = $this->getRequest();
 		$config = $this->getConfig();
-		$prefix = $this->getRequest()->getVal( 'prefix', '' );
+		$prefix = $this->getRequest()->getVal( 'prefix' ) ?? '';
 		$do = $request->getVal( 'action' );
 		// Show an error if the prefix is invalid (only when adding one).
 		// Invalid characters for a title should also be invalid for a prefix.
@@ -356,7 +356,6 @@ class SpecialInterwiki extends SpecialPage {
 						[ $prefix, $theurl, $trans, $local ],
 						$this->getUser()
 					);
-					// @phan-suppress-next-line PhanTypeMismatchArgumentNullable
 					$lookup->invalidateCache( $prefix );
 				}
 				break;
